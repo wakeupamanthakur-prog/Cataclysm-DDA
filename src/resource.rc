@@ -1,0 +1,12 @@
+#ifndef RESOURCE_RC_INCLUDED
+#define RESOURCE_RC_INCLUDED
+
+#include <windows.h>
+0  ICON  "../data/cataicon.ico"
+#if defined(CMAKE) && !defined(MSYS2)
+    // Will embed it with MSVC' linker /MANIFESTINPUT:
+#else
+1  RT_MANIFEST "../data/application_manifest.xml"
+#endif
+
+#endif // RESOURCE_RC_INCLUDED
