@@ -1,0 +1,27 @@
+[
+  {
+    "type": "item_group",
+    "id": "altered_item",
+    "subtype": "distribution",
+    "items": [
+      [ "altered_comb", 10 ],
+      [ "altered_phone", 10 ],
+      [ "altered_keyring", 10 ],
+      [ "altered_rubicks_cube", 10 ],
+      [ "altered_teapot", 10 ],
+      [ "altered_shirt", 10 ],
+      [ "altered_badge", 10 ],
+      [ "altered_sunglasses", 10 ],
+      [ "altered_scissors", 10 ],
+      [ "altered_jacket", 10 ],
+      [ "altered_necklace", 10 ],
+      [ "altered_apron", 10 ]
+    ]
+  },
+  {
+    "id": "altered_item_with_detector",
+    "type": "item_group",
+    "subtype": "collection",
+    "items": [ { "group": "altered_item", "prob": 100 }, { "item": "resonance_measurement_device", "prob": 25 } ]
+  }
+]
