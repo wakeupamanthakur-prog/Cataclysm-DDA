@@ -29,15 +29,15 @@
 # Laughing Man, 2024
 # Bowwow <rabbit88823@gmail.com>, 2024
 # Maynard <kk19870706@gmail.com>, 2024
-# Yuan Yu <peterpen4370@gmail.com>, 2024
 # xap, 2024
 # Brett Dong <brett.browning.dong@gmail.com>, 2024
+# Yuan Yu <peterpen4370@gmail.com>, 2024
 # Hao JK <haojk0829@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: cataclysm-dda 0.I\n"
-"POT-Creation-Date: 2024-10-26 01:47+0000\n"
+"POT-Creation-Date: 2024-10-29 22:50+0000\n"
 "PO-Revision-Date: 2018-04-26 14:47+0000\n"
 "Last-Translator: Hao JK <haojk0829@gmail.com>, 2024\n"
 "Language-Team: Chinese (Taiwan) (https://app.transifex.com/cataclysm-dda-translators/teams/2217/zh_TW/)\n"
@@ -66757,7 +66757,7 @@ msgstr ""
 #. ~ Description of terrain "carpet"
 #: data/json/furniture_and_terrain/terrain-floors-indoor.json
 msgid "Base metal carpet!"
-msgstr ""
+msgstr "普通金屬地毯！"
 
 #. ~ Terrain name
 #: data/json/furniture_and_terrain/terrain-floors-indoor.json
@@ -66838,7 +66838,7 @@ msgstr ""
 #. ~ Description of terrain "Carpet"
 #: data/json/furniture_and_terrain/terrain-floors-indoor.json
 msgid "Base rock carpet!"
-msgstr ""
+msgstr "碎石地毯！"
 
 #. ~ Terrain name
 #. ~ Item name
@@ -66872,7 +66872,7 @@ msgstr ""
 #. ~ Description of terrain "Carpet"
 #: data/json/furniture_and_terrain/terrain-floors-indoor.json
 msgid "Base primitive floor carpet!"
-msgstr ""
+msgstr "基礎原始地板地毯！"
 
 #. ~ Description of terrain "red carpet"
 #: data/json/furniture_and_terrain/terrain-floors-indoor.json
@@ -66897,7 +66897,7 @@ msgstr ""
 #. ~ Description of terrain "Carpet"
 #: data/json/furniture_and_terrain/terrain-floors-indoor.json
 msgid "Base gray linoleum floor carpet!"
-msgstr ""
+msgstr "基礎灰色油氈地板地毯！"
 
 #. ~ Description of terrain "red carpet"
 #: data/json/furniture_and_terrain/terrain-floors-indoor.json
@@ -66922,7 +66922,7 @@ msgstr ""
 #. ~ Description of terrain "Carpet"
 #: data/json/furniture_and_terrain/terrain-floors-indoor.json
 msgid "Base white linoleum floor carpet!"
-msgstr ""
+msgstr "基礎白色油氈地板地毯！"
 
 #. ~ Description of terrain "red carpet"
 #: data/json/furniture_and_terrain/terrain-floors-indoor.json
@@ -67282,7 +67282,7 @@ msgstr ""
 msgid ""
 "A relatively flat area of rock and stone.  Looks stable enough to be mined "
 "with the proper mining gear."
-msgstr ""
+msgstr "由岩石和石頭組成的相對平坦的區域。看起來足夠穩定，可以使用適當的採礦設備進行採礦。"
 
 #. ~ Terrain name
 #: data/json/furniture_and_terrain/terrain-floors-outdoors.json
@@ -67357,7 +67357,7 @@ msgid ""
 "concrete, capable of providing protection from the elements.  As for the "
 "matching roof, it still requires supporting walls, otherwise it may very "
 "well cave in."
-msgstr ""
+msgstr "由精心架設的鋼筋和澆築的混凝土製成的極具韌性的地板，能夠提供免受惡劣環境影響的保護。至於這裡的屋頂，還是需要有支撐牆的，否則很可能會塌陷。"
 
 #. ~ Terrain name
 #: data/json/furniture_and_terrain/terrain-floors-outdoors.json
@@ -67426,12 +67426,12 @@ msgstr ""
 msgid ""
 "A section of flooring made out of a tough, rubbery material.  Colored a "
 "simple white."
-msgstr ""
+msgstr "由堅硬的橡膠材料製成的一段地板。顏色為簡單的白色。"
 
 #. ~ Description of terrain "linoleum tile"
 #: data/json/furniture_and_terrain/terrain-floors-outdoors.json
 msgid "A section of flooring made out of a tough, gray, rubbery material."
-msgstr ""
+msgstr "由堅硬的灰色橡膠材料製成的一段地板。"
 
 #. ~ Description of terrain "dirt floor"
 #: data/json/furniture_and_terrain/terrain-floors-outdoors.json
@@ -67530,7 +67530,7 @@ msgstr ""
 msgid ""
 "A walkway that can be used as a protective covering over drains, or even as "
 "a filter."
-msgstr ""
+msgstr "一條走道可以用作排水溝的保護層，甚至可以當作過濾器。"
 
 #. ~ Terrain name
 #: data/json/furniture_and_terrain/terrain-floors-outdoors.json
@@ -67540,7 +67540,7 @@ msgstr "紅色地板"
 #. ~ Description of terrain "red floor"
 #: data/json/furniture_and_terrain/terrain-floors-outdoors.json
 msgid "A red section of flooring."
-msgstr ""
+msgstr "一段紅色地面。"
 
 #. ~ Terrain name
 #: data/json/furniture_and_terrain/terrain-floors-outdoors.json
@@ -67550,7 +67550,7 @@ msgstr "綠色地板"
 #. ~ Description of terrain "green floor"
 #: data/json/furniture_and_terrain/terrain-floors-outdoors.json
 msgid "A green section of flooring."
-msgstr ""
+msgstr "一段綠色地面。"
 
 #. ~ Terrain name
 #: data/json/furniture_and_terrain/terrain-floors-outdoors.json
@@ -67560,7 +67560,7 @@ msgstr "藍色地板"
 #. ~ Description of terrain "blue floor"
 #: data/json/furniture_and_terrain/terrain-floors-outdoors.json
 msgid "A blue section of flooring."
-msgstr ""
+msgstr "一段藍色地面。"
 
 #. ~ Terrain name
 #: data/json/furniture_and_terrain/terrain-flora.json
@@ -70471,7 +70471,7 @@ msgstr "礫石"
 msgid ""
 "An area of small, uniformly-sized stones.  Often used for roads, as railroad"
 " ballast, and in many other applications."
-msgstr ""
+msgstr "由大小均勻的小石頭組成的區域。通常用於道路、鐵路道碴以及許多其他用途。"
 
 #. ~ Terrain name
 #: data/json/furniture_and_terrain/terrain-railroads.json
@@ -70484,7 +70484,7 @@ msgid ""
 "Trains used to chug along on these.  These rail tracks stand unused in the "
 "face of the Cataclysm.  You could probably reclaim lengths of the track "
 "itself with a metalcutting tool like a hacksaw."
-msgstr ""
+msgstr "火車曾經在這些東西上嘎嘎作響。這些鐵軌在大災變中閒置無用。你也許可以使用鋼鋸等金屬切割工具來回收一段軌道。"
 
 #. ~ Terrain name
 #: data/json/furniture_and_terrain/terrain-railroads.json
@@ -70494,7 +70494,7 @@ msgstr "鐵路枕木"
 #. ~ Description of terrain "railroad tie"
 #: data/json/furniture_and_terrain/terrain-railroads.json
 msgid "A crosstie, used to support train rails."
-msgstr ""
+msgstr "枕木，用於支撐火車鐵軌。"
 
 #. ~ Description of terrain "railroad track"
 #: data/json/furniture_and_terrain/terrain-railroads.json
@@ -70503,7 +70503,7 @@ msgid ""
 "face of the Cataclysm.  A crosstie sits underneath, supporting the rails.  "
 "You could probably reclaim lengths of the track itself with a metalcutting "
 "tool like a hacksaw."
-msgstr ""
+msgstr "火車曾經在這些東西上嘎嘎作響。這些鐵軌在大災變中閒置無用。下面有一根枕木，支撐著鐵軌。你也許可以使用鋼鋸等金屬切割工具來回收一段軌道。"
 
 #. ~ Terrain name
 #: data/json/furniture_and_terrain/terrain-railroads.json
@@ -70515,7 +70515,7 @@ msgstr "止衝擋"
 msgid ""
 "A tiny blockade on the train tracks, meant to signify the end of a track, or"
 " mark a 'no-go' zone for trains."
-msgstr ""
+msgstr "火車軌道上的一個小障礙物，意味著軌道的盡頭，或標記火車的「禁行區」。"
 
 #. ~ Terrain name
 #: data/json/furniture_and_terrain/terrain-railroads.json
@@ -70528,7 +70528,7 @@ msgid ""
 "Traffic lights meant to light and make noise when a train approaches, to "
 "prevent people from turning into meaty mush while they cross the tracks.  "
 "Won't stop people from turning into meaty mush by other means, though."
-msgstr ""
+msgstr "平交道號誌的目的是在火車駛近時亮起並發出噪音，以防止人們在穿過鐵軌時變成肉糊。不過，這並不能阻止人們透過其他方式變成肉醬。"
 
 #. ~ Bashing failed sound
 #: data/json/furniture_and_terrain/terrain-railroads.json
@@ -70547,7 +70547,7 @@ msgstr "平交道標誌"
 msgid ""
 "A traffic sign intended to indicate a level railway crossing.  If the trains"
 " were still running."
-msgstr ""
+msgstr "用來指示鐵路平交道的交通標誌。如果火車還在行駛的話。"
 
 #. ~ Terrain name
 #. ~ Item name
@@ -70562,7 +70562,7 @@ msgstr[0] "小型鐵道"
 msgid ""
 "Like a railroad track, only smaller.  You could probably run a small vehicle"
 " on this."
-msgstr ""
+msgstr "就像鐵軌一樣，只是更小。你也許可以在上面駕駛一輛小型載具。"
 
 #. ~ Terrain name
 #: data/json/furniture_and_terrain/terrain-recreational.json
@@ -70574,7 +70574,7 @@ msgstr "沙盒"
 msgid ""
 "Children used to play in this sandbox.  The population of lice probably "
 "diminished considerably now that they no longer do."
-msgstr ""
+msgstr "孩子們曾經在這個沙箱裡玩耍。現在蝨子的數量可能已經大大減少了，但現在孩子們已經不在這玩了。"
 
 #. ~ Terrain name
 #: data/json/furniture_and_terrain/terrain-recreational.json
@@ -70584,7 +70584,7 @@ msgstr "滑道"
 #. ~ Description of terrain "slide"
 #: data/json/furniture_and_terrain/terrain-recreational.json
 msgid "A children's slide.  It's too small for you to slide on comfortably."
-msgstr ""
+msgstr "兒童溜滑梯。它太小了，你無法舒服地滑下去。"
 
 #. ~ Terrain name
 #: data/json/furniture_and_terrain/terrain-recreational.json
@@ -70596,7 +70596,7 @@ msgstr "單槓"
 msgid ""
 "A set of monkey bars to be used by children to train their arm strength, or,"
 " in happier days, to just have fun."
-msgstr ""
+msgstr "一套供孩子們用來訓練手臂力量的單槓，或是在快樂的日子裡，只是用來嬉鬧玩耍。"
 
 #. ~ Terrain name
 #: data/json/furniture_and_terrain/terrain-recreational.json
@@ -70616,19 +70616,19 @@ msgstr "金屬籃板。"
 #. ~ Terrain name
 #: data/json/furniture_and_terrain/terrain-regional-pseudo.json
 msgid "pseudo terrain"
-msgstr ""
+msgstr "偽地形"
 
 #. ~ Description of terrain "pseudo terrain"
 #: data/json/furniture_and_terrain/terrain-regional-pseudo.json
 msgid "This should never actually show up, it's a pseudo terrain."
-msgstr ""
+msgstr "這其實不應該出現，它是一個偽地形。"
 
 #. ~ Description of terrain "pseudo terrain"
 #: data/json/furniture_and_terrain/terrain-regional-pseudo.json
 msgid ""
 "This should never actually show up, it's a pseudo terrain.  For use where "
 "people have trampled away grass, or otherwise cleared plant life."
-msgstr ""
+msgstr "這其實不應該出現，它是一個偽地形。用於人們踐踏草或以其他方式清除植物生命的地方。"
 
 #. ~ Description of terrain "pseudo terrain"
 #: data/json/furniture_and_terrain/terrain-regional-pseudo.json
@@ -70636,14 +70636,14 @@ msgid ""
 "This should never actually show up, it's a pseudo terrain.  For use where "
 "clean, curated grass is the only expected terrain - modified by whatever the"
 " biome equivalent is"
-msgstr ""
+msgstr "這其實不應該出現，它是一個偽地形。適用於清潔、精心修剪的草地是唯一預期地形的情況 - 由生物群落等效物進行修改"
 
 #. ~ Description of terrain "pseudo terrain"
 #: data/json/furniture_and_terrain/terrain-regional-pseudo.json
 msgid ""
 "This should never actually show up, it's a pseudo terrain.  For use where "
 "plants have been planted and grass/groundcover kept clear"
-msgstr ""
+msgstr "這其實不應該出現，它是一個偽地形。適用於已種植植物且草/地被植物保持乾淨的地方"
 
 #. ~ Terrain name
 #: data/json/furniture_and_terrain/terrain-roofs.json
@@ -70653,7 +70653,7 @@ msgstr "雨水槽"
 #. ~ Description of terrain "rain gutter"
 #: data/json/furniture_and_terrain/terrain-roofs.json
 msgid "Channels water from the roof towards the ground, it looks flimsy."
-msgstr ""
+msgstr "將水從屋頂引向地面的管道，看起來很脆弱。"
 
 #. ~ Terrain name
 #: data/json/furniture_and_terrain/terrain-roofs.json
@@ -70665,7 +70665,7 @@ msgstr "排水溝"
 msgid ""
 "A spot in the gutter where the water flows into a downspout.  It looks "
 "flimsy.  You may be able to climb down here."
-msgstr ""
+msgstr "排水溝中水流入落水管的地方。它看起來很脆弱。你或許可以從這裡爬下來。"
 
 #. ~ Terrain name
 #: data/json/furniture_and_terrain/terrain-roofs.json
@@ -70678,7 +70678,7 @@ msgid ""
 "A length of gutter running from the roof to the ground, you could place a "
 "container underneath it to collect rainwater.  It looks flimsy.  You may be "
 "able to climb up here."
-msgstr ""
+msgstr "一段從屋頂延伸到地面的排水溝，你可以在它下面放置一個容器來收集雨水。它看起來很脆弱。你或許可以從這裡爬下來。"
 
 #. ~ Terrain name
 #: data/json/furniture_and_terrain/terrain-roofs.json
@@ -70708,7 +70708,7 @@ msgstr "瓦片平屋頂"
 #. ~ Description of terrain "shingle flat roof"
 #: data/json/furniture_and_terrain/terrain-roofs.json
 msgid "A flat section of rooftop covered with shingles."
-msgstr ""
+msgstr "屋頂的平坦部分，覆蓋著木瓦。"
 
 #. ~ Terrain name
 #: data/json/furniture_and_terrain/terrain-roofs.json
@@ -70733,12 +70733,12 @@ msgstr "平坦的金屬板屋頂。"
 #. ~ Terrain name
 #: data/json/furniture_and_terrain/terrain-roofs.json
 msgid "tile flat roof"
-msgstr "磁磚平屋頂"
+msgstr "瓦片平屋頂"
 
 #. ~ Description of terrain "tile flat roof"
 #: data/json/furniture_and_terrain/terrain-roofs.json
 msgid "A section of flat, tiled rooftop."
-msgstr ""
+msgstr "一段平坦的瓦片屋頂。"
 
 #. ~ Terrain name
 #: data/json/furniture_and_terrain/terrain-roofs.json
@@ -149808,17 +149808,18 @@ msgstr "霰彈槍"
 
 #. ~ Valid mod location of gun
 #. ~ Location of gun mod
-#: data/json/items/classes/gun.json data/json/items/gun/223.json
-#: data/json/items/gun/270win.json data/json/items/gun/300.json
-#: data/json/items/gun/3006.json data/json/items/gun/303.json
-#: data/json/items/gun/308.json data/json/items/gun/30carbine.json
-#: data/json/items/gun/338lapua.json data/json/items/gun/40x46mm.json
-#: data/json/items/gun/45.json data/json/items/gun/762R.json
-#: data/json/items/gun/77mm_arisaka.json data/json/items/gun/9mm.json
-#: data/json/items/gun/blunderbuss.json data/json/items/gun/flintlock.json
-#: data/json/items/gun/nail.json data/json/items/gun/paintball.json
-#: data/json/items/gun/shot.json data/json/items/gunmod/mount.json
-#: data/json/items/ranged/launchers.json data/json/items/ranged/pneumatic.json
+#: data/json/items/classes/gun.json data/json/items/gun/22.json
+#: data/json/items/gun/223.json data/json/items/gun/270win.json
+#: data/json/items/gun/300.json data/json/items/gun/3006.json
+#: data/json/items/gun/303.json data/json/items/gun/308.json
+#: data/json/items/gun/30carbine.json data/json/items/gun/338lapua.json
+#: data/json/items/gun/40x46mm.json data/json/items/gun/45.json
+#: data/json/items/gun/762R.json data/json/items/gun/77mm_arisaka.json
+#: data/json/items/gun/9mm.json data/json/items/gun/blunderbuss.json
+#: data/json/items/gun/flintlock.json data/json/items/gun/nail.json
+#: data/json/items/gun/paintball.json data/json/items/gun/shot.json
+#: data/json/items/gunmod/mount.json data/json/items/ranged/launchers.json
+#: data/json/items/ranged/pneumatic.json
 #: data/json/obsoletion_and_migration_0.I/gun.json
 #: data/mods/Aftershock/items/gun/25mm.json
 #: data/mods/Aftershock/items/gun/foam.json
@@ -153412,12 +153413,14 @@ msgstr "一個從皮毛突變的人身上取下，仔細摺疊好的生毛皮。
 
 #. ~ Item name
 #: data/json/items/comestibles/carnivore.json
+#: data/mods/Aftershock/items/comestibles/flesh.json
 msgid "seeping heart"
 msgid_plural "seeping hearts"
 msgstr[0] "漏血心臟"
 
 #. ~ Description of "seeping heart"
 #: data/json/items/comestibles/carnivore.json
+#: data/mods/Aftershock/items/comestibles/flesh.json
 msgid ""
 "A thick mass of flesh superficially resembling a mammalian heart.  It's the "
 "size of your fist and covered in dimpled grooves."
@@ -162805,6 +162808,7 @@ msgstr "包裝成膠囊藥丸形式的必備膳食營養素。無法均衡飲食
 #. ~ "activation_message" action message of item "calcium tablet"
 #. ~ "activation_message" action message of item "bone meal tablet"
 #. ~ "activation_message" action message of item "flavored bone meal tablet"
+#. ~ "activation_message" action message of item "vitamin C supplement"
 #. ~ "activation_message" action message of item "wyld candy"
 #: data/json/items/comestibles/med.json
 #: data/mods/Xedra_Evolved/items/drugs.json
@@ -162850,6 +162854,19 @@ msgid ""
 "A homemade calcium supplement made out of bone meal.  Due to some sweeteners"
 " mixed in to counteract the powdery texture and the taste of ash, it's "
 "almost as palatable as the pre-Cataclysm tablets."
+msgstr ""
+
+#. ~ Item name
+#: data/json/items/comestibles/med.json
+msgid "vitamin C supplement"
+msgid_plural "vitamin C supplements"
+msgstr[0] ""
+
+#. ~ Description of "vitamin C supplement"
+#: data/json/items/comestibles/med.json
+msgid ""
+"A small white tablet promising more vitamin C than a human can conceivably "
+"absorb."
 msgstr ""
 
 #. ~ Item name
@@ -179138,14 +179155,14 @@ msgstr ""
 #: data/json/items/generic/bathroom_house.json
 msgid "professional plunger"
 msgid_plural "professional plungers"
-msgstr[0] "馬桶塞"
+msgstr[0] "專業馬桶疏通器"
 
 #. ~ Description of "professional plunger"
 #: data/json/items/generic/bathroom_house.json
 msgid ""
 "This hollow plastic toilet plunger's bell compresses like an accordion.  It "
 "is efficient at its intended purpose, and complete rubbish as a weapon."
-msgstr ""
+msgstr "這支中空塑膠馬桶疏通器的鐘形部件可以像手風琴一樣壓縮。它能有效地達到其預期目的，但作為武器完全是垃圾。"
 
 #. ~ Item name
 #: data/json/items/generic/bathroom_house.json
@@ -183900,6 +183917,62 @@ msgid ""
 msgstr ""
 
 #. ~ Name of a gun
+#: data/json/items/gun/22.json
+msgid "small game lever-action rifle"
+msgid_plural "small game lever-action rifles"
+msgstr[0] ""
+
+#. ~ Description of gun "small game lever-action rifle"
+#: data/json/items/gun/22.json
+msgid ""
+"A .22 Long Rifle lever-action rifle, which holds 15 rounds of ammo.  While "
+"quite useful against small game, its effectiveness isn't as great against "
+"the undead."
+msgstr ""
+
+#. ~ Variant name of gun "small game lever-action rifle"
+#: data/json/items/gun/22.json
+msgid "Rossi Rio Bravo"
+msgid_plural "Rossi Rio Bravos"
+msgstr[0] ""
+
+#. ~ Description of variant "small game lever-action rifle" of gun "Rossi Rio
+#. Bravo"
+#: data/json/items/gun/22.json
+msgid ""
+"A modern .22 LR lever-action rifle, the Rio Bravo features an 18\" barrel "
+"with 15 rounds of ammo in its tube magazine, which is loaded from the front "
+"of the rifle.  The mechanical origins date back decades, being based off of "
+"Rossi's R92 series of rifles which themselves were based off of the "
+"Winchester 1892."
+msgstr ""
+
+#. ~ Description of gun "small game lever-action rifle"
+#: data/json/items/gun/22.json
+msgid ""
+"A .22 Long Rifle lever-action rifle, which holds 16 rounds of ammo.  While "
+"quite useful against small game, its effectiveness isn't as great against "
+"the undead."
+msgstr ""
+
+#. ~ Variant name of gun "small game lever-action rifle"
+#: data/json/items/gun/22.json
+msgid "Henry Golden Boy"
+msgid_plural "Henry Golden Boys"
+msgstr[0] ""
+
+#. ~ Description of variant "small game lever-action rifle" of gun "Henry
+#. Golden Boy"
+#: data/json/items/gun/22.json
+msgid ""
+"A modern .22 LR lever-action rifle, the Henry Golden Boy features an 20\" "
+"octagonal barrel with 16 rounds of ammo in its tube magazine, which is "
+"loaded from the front of the rifle.  It fairly resembles the original Henry "
+"Model 1860 with its brass colored receiver, though with wooden furniture at "
+"the front, and without a doubt using modern manufacturing."
+msgstr ""
+
+#. ~ Name of a gun
 #: data/json/items/gun/223.json
 msgid "AR-15"
 msgid_plural "AR-15s"
@@ -185670,6 +185743,89 @@ msgid ""
 msgstr ""
 
 #. ~ Name of a gun
+#: data/json/items/gun/38.json
+msgid "reproduction .357 lever-action rifle"
+msgid_plural "reproduction .357 lever-action rifles"
+msgstr[0] ""
+
+#. ~ Description of gun "reproduction .357 lever-action rifle"
+#: data/json/items/gun/38.json
+msgid ""
+"This fine lever-action rifle is chambered in the powerful .357 Magnum "
+"cartridge, with an 20\" barrel with a tube-fed magazine.  Go get 'em cowboy!"
+msgstr ""
+
+#. ~ Variant name of gun "reproduction .357 lever-action rifle"
+#: data/json/items/gun/38.json
+msgid "Uberti 1873"
+msgid_plural "Uberti 1873s"
+msgstr[0] ""
+
+#. ~ Description of variant "reproduction .357 lever-action rifle" of gun
+#. "Uberti 1873"
+#: data/json/items/gun/38.json
+msgid ""
+"The 1873 is a rifle platform developed all the way in, unsurprisingly, 1873."
+"  This one is a fairly faithful Uberti reproduction, although the original "
+"1873s pre-dated .357 Magnum, and even .38 Special.  This one has a case-"
+"hardened finish, wood furniture, and octagonal barrel."
+msgstr ""
+
+#. ~ Name of a gun
+#: data/json/items/gun/38.json
+msgid ".357 lever-action rifle"
+msgid_plural ".357 lever-action rifles"
+msgstr[0] ""
+
+#. ~ Description of gun ".357 lever-action rifle"
+#: data/json/items/gun/38.json
+msgid ""
+"This lever-action rifle is chambered in the powerful .357 Magnum cartridge, "
+"with an 20\" barrel with a tube-fed magazine.  Go get 'em cowboy!"
+msgstr ""
+
+#. ~ Variant name of gun ".357 lever-action rifle"
+#. ~ Variant name of gun ".44 lever-action rifle"
+#: data/json/items/gun/38.json data/json/items/gun/44.json
+msgid "Rossi R92 20\""
+msgid_plural "Rossi R92s 20\""
+msgstr[0] ""
+
+#. ~ Description of variant ".357 lever-action rifle" of gun "Rossi R92 20""
+#: data/json/items/gun/38.json
+msgid ""
+"The R92 is a widely successful line of lever-action rifles from Rossi, "
+"featuring a wide array of different calibers and barrel lengths.  These aim "
+"to be less reproductions of old rifles, but rather modern takes on the "
+"lever-action formula.  This particular one features wooden furniture, a 20\""
+" barrel, and 10 rounds of .357 Magnum or .38 Special."
+msgstr ""
+
+#. ~ Description of gun ".357 lever-action rifle"
+#: data/json/items/gun/38.json
+msgid ""
+"This fine lever-action rifle is chambered in the powerful .357 Magnum "
+"cartridge, with an 16\" barrel with a tube-fed magazine.  Go get 'em cowboy!"
+msgstr ""
+
+#. ~ Variant name of gun ".357 lever-action rifle"
+#. ~ Variant name of gun ".44 lever-action rifle"
+#: data/json/items/gun/38.json data/json/items/gun/44.json
+msgid "Rossi R92 16\""
+msgid_plural "Rossi R92s 16\""
+msgstr[0] ""
+
+#. ~ Description of variant ".357 lever-action rifle" of gun "Rossi R92 16""
+#: data/json/items/gun/38.json
+msgid ""
+"The R92 is a widely successful line of lever-action rifles from Rossi, "
+"featuring a wide array of different calibers and barrel lengths.  These aim "
+"to be less reproductions of old rifles, but rather modern takes on the "
+"lever-action formula.  This particular one features wooden furniture, a 16\""
+" barrel, and 8 rounds of .357 Magnum or .38 Special."
+msgstr ""
+
+#. ~ Name of a gun
 #: data/json/items/gun/380.json
 msgid "MAC-11 machine pistol"
 msgid_plural "MAC-11 machine pistols"
@@ -186123,6 +186279,46 @@ msgid ""
 "large for law enforcement, it was mostly used by sport shooters and hunters,"
 " for Colt deemed it to be the most accurate .44-caliber revolver in their "
 "line.  This one has a shortened 4-inch barrel."
+msgstr ""
+
+#. ~ Name of a gun
+#: data/json/items/gun/44.json
+msgid ".44 lever-action rifle"
+msgid_plural ".44 lever-action rifles"
+msgstr[0] ""
+
+#. ~ Description of gun ".44 lever-action rifle"
+#: data/json/items/gun/44.json
+msgid ""
+"This lever-action rifle is chambered in the powerful .44 Magnum cartridge, "
+"with an 16\" barrel with a tube-fed magazine.  Go get 'em cowboy!"
+msgstr ""
+
+#. ~ Description of variant ".44 lever-action rifle" of gun "Rossi R92 16""
+#: data/json/items/gun/44.json
+msgid ""
+"The R92 is a widely successful line of lever-action rifles from Rossi, "
+"featuring a wide array of different calibers and barrel lengths.  These aim "
+"to be less reproductions of old rifles, but rather modern takes on the "
+"lever-action formula.  This particular one features all-black furniture, a "
+"16\" barrel, and 8 rounds of .44 Magnum, along with a large lever loop."
+msgstr ""
+
+#. ~ Description of gun ".44 lever-action rifle"
+#: data/json/items/gun/44.json
+msgid ""
+"This lever-action rifle is chambered in the powerful .44 Magnum cartridge, "
+"with an 20\" barrel with a tube-fed magazine.  Go get 'em cowboy!"
+msgstr ""
+
+#. ~ Description of variant ".44 lever-action rifle" of gun "Rossi R92 20""
+#: data/json/items/gun/44.json
+msgid ""
+"The R92 is a widely successful line of lever-action rifles from Rossi, "
+"featuring a wide array of different calibers and barrel lengths.  These aim "
+"to be less reproductions of old rifles, but rather modern takes on the "
+"lever-action formula.  This particular one features all-black furniture, a "
+"20\" barrel, and 10 rounds of .44 Magnum."
 msgstr ""
 
 #. ~ Name of a gun
@@ -205364,6 +205560,17 @@ msgstr[0] ""
 #. ~ Description of "beaver skull"
 #: data/json/items/resources/bone.json
 msgid "The skull of a beaver."
+msgstr ""
+
+#. ~ Item name
+#: data/json/items/resources/bone.json
+msgid "dambreaker skull"
+msgid_plural "dambreaker skulls"
+msgstr[0] ""
+
+#. ~ Description of "dambreaker skull"
+#: data/json/items/resources/bone.json
+msgid "A skull of an abnormally large mutant beaver."
 msgstr ""
 
 #. ~ Item name
@@ -226940,6 +227147,7 @@ msgstr ""
 
 #. ~ Player message in effect in EoC "EOC_STARE"
 #: data/json/monster_special_attacks/spells.json
+#: data/mods/Magiclysm/effect_on_conditions/miscellaneous.json
 #: data/mods/MindOverMatter/effectoncondition/eoc_misc.json
 msgid "You feel a strange reverberation across your body."
 msgstr "你感到一種奇怪的迴響流盪全身。"
@@ -233538,6 +233746,17 @@ msgid ""
 msgstr "北美的河狸， 陸地上最大的囓齒動物。其槳形的尾巴， 能在水中擺動前進， 突出的牙齒能夠咬斷木頭， 並且能夠用來在水流中建造類似水壩的巢。"
 
 #. ~ Monster name
+#: data/json/monsters/mammal.json
+msgid "beaver kit"
+msgid_plural "beaver kits"
+msgstr[0] ""
+
+#. ~ Description of monster "beaver kit"
+#: data/json/monsters/mammal.json
+msgid "A small baby beaver."
+msgstr ""
+
+#. ~ Monster name
 #: data/json/monsters/mammal.json data/json/monsters/rodentkin.json
 msgid "black rat"
 msgid_plural "black rats"
@@ -235605,23 +235824,23 @@ msgstr "完全由光組成的影像，與它參照的對象幾乎沒有區別。
 #. ~ Description of monster "inflatable dragon"
 #: data/json/monsters/misc.json
 msgid "A giant inflatable dragon for Halloween decorations."
-msgstr ""
+msgstr "用於萬聖節裝飾的巨型充氣龍。"
 
 #. ~ Description of monster "inflatable ghost"
 #: data/json/monsters/misc.json
 msgid "A human-sized inflatable ghost for Halloween decorations."
-msgstr ""
+msgstr "用於萬聖節裝飾的真人大小的充氣幽靈。"
 
 #. ~ Description of monster "mannequin decoy"
 #: data/json/monsters/misc.json
 msgid "A human-sized mannequin, speaking pre-recorded phrases."
-msgstr ""
+msgstr "一個真人大小的人體模型，說出預先錄製的短語。"
 
 #. ~ Death message of monster "mannequin decoy"
 #: data/json/monsters/misc.json
 #, c-format
 msgid "The %s falls over!"
-msgstr ""
+msgstr "%s摔倒了！"
 
 #. ~ Monster name
 #: data/json/monsters/misc.json
@@ -235634,13 +235853,13 @@ msgstr[0] "假人"
 msgid ""
 "This dummy serves for only one purpose - to teach players how to hit "
 "monsters."
-msgstr ""
+msgstr "這個假人只有一個目的 - 教玩家如何攻擊怪物。"
 
 #. ~ Death message of monster "dummy"
 #: data/json/monsters/misc.json
 #, c-format
 msgid "The %s is destroyed."
-msgstr ""
+msgstr "%s 被摧毀了。"
 
 #. ~ Monster name
 #: data/json/monsters/mollusk.json
@@ -235654,7 +235873,7 @@ msgid ""
 "A tiny and shelled aquatic gastropod of either native or introduced stock.  "
 "Dangerous to eat raw but properly cooked and cleaned it may serve as a fine "
 "dish."
-msgstr ""
+msgstr "一種微小的帶殼水生腹足動物，為本地或引進族群。生吃很危險，但經過適當煮熟和清洗，它也許會成為一道美味佳餚。"
 
 #. ~ Monster name
 #: data/json/monsters/mollusk.json
@@ -235667,7 +235886,7 @@ msgstr[0] "超大蝸牛"
 msgid ""
 "A shelled gastropod either of native or introduced stock.  This one looks "
 "larger than usual."
-msgstr ""
+msgstr "本地或引進族群的帶殼腹足動物。這隻看起來比平常尺寸大一些。"
 
 #. ~ Monster name
 #: data/json/monsters/mollusk.json
@@ -235678,18 +235897,18 @@ msgstr[0] "巨型蝸牛"
 #. ~ Description of monster "giant snail"
 #: data/json/monsters/mollusk.json
 msgid "A snail grown to human size.  Its mouth and underside dripping acid."
-msgstr ""
+msgstr "一隻蝸牛長到了人類的大小。它的嘴和底面滴著酸液。"
 
 #. ~ Monster name
 #: data/json/monsters/mollusk.json
 msgid "snail larva"
 msgid_plural "snail larvae"
-msgstr[0] ""
+msgstr[0] "蝸牛幼蟲"
 
 #. ~ Description of monster "snail larva"
 #: data/json/monsters/mollusk.json
 msgid "A small snail larva."
-msgstr ""
+msgstr "一隻小小的小蝸牛幼蟲。"
 
 #. ~ Monster name
 #: data/json/monsters/mollusk.json
@@ -235702,7 +235921,7 @@ msgstr[0] "超巨型蝸牛"
 msgid ""
 "An enormous gastropod with a massive shell on its back.  It slowly crawls "
 "over the ground while leaving acid in its path."
-msgstr ""
+msgstr "一種巨大的腹足動物，背上有巨大的殼。它慢慢地在地面上爬行，同時在路徑上留下酸液。"
 
 #. ~ Monster name
 #: data/json/monsters/mollusk.json
@@ -235715,7 +235934,7 @@ msgstr[0] "超大蛞蝓"
 msgid ""
 "A gastropod either of native or introduced stock.  This one looks larger "
 "than usual."
-msgstr ""
+msgstr "本地或引進族群的腹足動物。這隻看起來比平常尺寸大一些。"
 
 #. ~ Monster name
 #: data/json/monsters/mollusk.json
@@ -235728,18 +235947,18 @@ msgstr[0] "巨大蛞蝓"
 msgid ""
 "A disturbingly large mutated slug as large as a human.  Venom drips from "
 "what must be its mouth, and it is covered with sticky mucus."
-msgstr ""
+msgstr "與人類一樣大的令人不安的變異蛞蝓。毒液從它的嘴裡滴出來，它身體覆蓋著粘稠的粘液。"
 
 #. ~ Monster name
 #: data/json/monsters/mollusk.json
 msgid "slug larva"
 msgid_plural "slug larvae"
-msgstr[0] ""
+msgstr[0] "蛞蝓幼蟲"
 
 #. ~ Description of monster "slug larva"
 #: data/json/monsters/mollusk.json
 msgid "A small slug larva."
-msgstr ""
+msgstr "一隻小小的蛞蝓幼蟲。"
 
 #. ~ Monster name
 #: data/json/monsters/mollusk.json
@@ -235753,7 +235972,7 @@ msgid ""
 "A mutated leopard slug, as wide as a golf cart.  Venom dripping from its "
 "fanged maw as it slithers around slowly, leaving a trail of glistening "
 "slime."
-msgstr ""
+msgstr "變異的大蛞蝓，有高爾夫球車那麼寬。當它緩慢地滑行時，毒液從它長滿尖牙的嘴裡滴下來，留下一道閃閃發光的粘液痕跡。"
 
 #. ~ Monster name
 #: data/json/monsters/mollusk.json
@@ -235767,7 +235986,7 @@ msgid ""
 "A sluglike creature, eight feet long and the width of a refrigerator.  Its "
 "black body glistens as it oozes its way along the ground.  Eyestalks "
 "occasionally push their way out of the oily mass and look around."
-msgstr ""
+msgstr "像蛞蝓一樣的生物，八英尺長，冰箱寬。它黑色的身體閃閃發光沿著地面前進時，就像不斷往前滲出的黏液。眼柄偶爾會從油膩的團塊中伸出來環顧四周。"
 
 #. ~ Monster name
 #: data/json/monsters/mutant.json
@@ -235781,7 +236000,7 @@ msgid ""
 "A deformed mutant in a torn jumpsuit, looking at you with insane hatred.  "
 "Their skin is a chaotic mix of scales, fur and chitin, and their fingers end"
 " in long talons."
-msgstr ""
+msgstr "一個穿著破爛連身服的畸形突變體，用瘋狂的仇恨盯著你。它的皮膚是鱗片、毛皮和甲殼質的混亂混合體，它的手指末端有長長的爪子。"
 
 #. ~ Monster name
 #: data/json/monsters/mutant.json
@@ -235797,6 +236016,7 @@ msgid ""
 " but they still manage to stand upright, freeing up their clawed hands to "
 "tear you apart."
 msgstr ""
+"一個身材高大的變異測試對象，全身覆蓋著厚厚的毛皮，連身服的底部也被撕破了。它們的腿末端長著大腳墊，與狗的腳沒什麼不同，但它們仍然能夠直立站著，伸出長著爪子的手來把你撕碎。"
 
 #. ~ Monster name
 #: data/json/monsters/mutant.json
@@ -235812,6 +236032,7 @@ msgid ""
 "head is dominated by a glistening, tangled crown of antlers that scratch the"
 " ceiling."
 msgstr ""
+"一個巨大的變異測試對象，仍然穿著橙色連身服的破爛殘骸。它們用四條彎曲的腿行走，腿的末端是蹄子，它們的頭部由閃閃發光、糾纏不清的鹿角佔據，鹿角劃破了天花板。"
 
 #. ~ Monster name
 #: data/json/monsters/mutant.json
@@ -235829,6 +236050,7 @@ msgid ""
 "irregularly-sized eyes and a set of mandibles, and from their hind end a "
 "stinger not unlike a scorpion's emerges."
 msgstr ""
+"一個可怕的突變實驗對象。他們原來的身體——仍然穿著橙色的連身服——毫無生氣地翻來覆去，由十二條腿支撐著，腿上覆蓋著從背部噴出的毛茸茸的幾丁質。在最前面雙腿的基部，有一個幾乎與人類相似的頭皮，裡面有十幾個大小不一的眼睛和一組下顎骨，而從它身體後部末端伸出了一根像蝎子那樣的毒刺。"
 
 #. ~ Monster name
 #: data/json/monsters/mutant.json
@@ -235933,6 +236155,19 @@ msgstr ""
 
 #. ~ Monster name
 #: data/json/monsters/mutant_mammal.json
+msgid "dambreaker kit"
+msgid_plural "dambreaker kits"
+msgstr[0] ""
+
+#. ~ Description of monster "dambreaker kit"
+#: data/json/monsters/mutant_mammal.json
+msgid ""
+"An unnaturally large baby beaver with an array of bristles covering its "
+"back."
+msgstr ""
+
+#. ~ Monster name
+#: data/json/monsters/mutant_mammal.json
 msgid "feaver"
 msgid_plural "feavers"
 msgstr[0] "狂熱河狸"
@@ -235943,6 +236178,19 @@ msgid ""
 "This mutant beaver's body is covered with brightly-colored feathers in a "
 "particularly eyecatching pattern.  It must have been very lucky not to have "
 "been caught by a predator before now."
+msgstr ""
+
+#. ~ Monster name
+#: data/json/monsters/mutant_mammal.json
+msgid "bald beaver kit"
+msgid_plural "bald beaver kits"
+msgstr[0] ""
+
+#. ~ Description of monster "bald beaver kit"
+#: data/json/monsters/mutant_mammal.json
+msgid ""
+"This beaver kit lacks any fur covering its body, instead looking reminiscent"
+" of a plucked chicken."
 msgstr ""
 
 #. ~ Monster name
@@ -236568,6 +236816,7 @@ msgid ""
 "rows of bladed legs grasping the floor, before your eyes begin to burn and "
 "your head starts to spin."
 msgstr ""
+"剛才這裡什麼都沒有，但現在你看到一個精神體的最模糊的輪廓，緊張地跳躍著接近你。當你試著集中注意力觀察它，會發現它有一個尖尖的喙，滴著半透明的液體，一排又一排的帶刀刃的腿抓住了地板，然後你的眼睛開始灼熱，你的頭開始暈眩。"
 
 #. ~ Monster name
 #: data/json/monsters/nether.json
@@ -386863,6 +387112,20 @@ msgid ""
 "BACKGROUND:\n"
 "Recovered during immersion ███ within a manifested copy of ███ █████ office.  The object appearance and paratronic effects are believed to be an imprint of the popular perception surrounding the ██████████/██████ ███████, even although such ███████ never existed in this shape."
 msgstr ""
+"\n"
+"型號 AI-012-PA\n"
+"“膠木撥盤電話”\n"
+"\n"
+"收容措施：\n"
+"物體應保存在消音室內。應主動監控，以防發生 ████████ 排放洩漏。\n"
+"\n"
+"描述/參數電子：\n"
+"愛立信 ED 702 膠木撥盤電話，紅色版本。原來的旋轉撥號盤已被雅格 Y103d 球形門把手的電木複製品所取代。\n"
+"電話仍然完全可用，即使沒有連接到可用的固定電話線插座，███████████████████████████████████ ██████████████████ ████████████。\n"
+"有機物質會對這類排放物產生不良反應，在現場測試中觀察到以下影響：迷失方向與神遊狀態，█████████████████████ ███ ██████，解體，████████████████ 隨後死亡。\n"
+"\n"
+"背景：\n"
+"在沉浸入███期間在███ █████辦公室的一個實體副本中被發現。物件的外觀與副電子效應被認為是圍繞██████████/██████████████的大眾認知的印記，儘管這樣的████ ███從未以這種形狀存在過。"
 
 #. ~ Snippet in category "artifact_scp"
 #: data/json/snippets/dimensional_exploration.json
@@ -422324,6 +422587,16 @@ msgstr ""
 #: data/json/ui/sidebar-legacy-labels.json
 msgid "Int/Per/Safe"
 msgstr ""
+
+#. ~ Text in UI widget "ll_carry_weight_label"
+#: data/json/ui/sidebar-legacy-labels.json
+msgid "Weight :"
+msgstr ""
+
+#. ~ Label of UI widget "ll_weight_carried_value"
+#: data/json/ui/sidebar-legacy-labels.json
+msgid "Weight Carried"
+msgstr "負重"
 
 #. ~ Label of UI widget "legacy_labels_sidebar"
 #: data/json/ui/sidebar-legacy-labels.json
@@ -480025,6 +480298,12 @@ msgstr ""
 msgid "impenetrable fog"
 msgstr ""
 
+#. ~ Please leave anything in <angle brackets> unchanged.
+#. ~ Description of JSON flag "MAGICAL_MIND_PROTECTION"
+#: data/mods/Magiclysm/flags.json
+msgid "Your magic protects your mind against assault."
+msgstr ""
+
 #. ~ Furniture name
 #: data/mods/Magiclysm/furniture.json
 msgid "Translocator Gate"
@@ -491797,6 +492076,13 @@ msgid ""
 "before."
 msgstr ""
 
+#. ~ Player message in effect in EoC "EOC_STARE1"
+#: data/mods/Magiclysm/effect_on_conditions/miscellaneous.json
+#: data/mods/MindOverMatter/mod_interactions/magiclysm/eoc_misc.json
+msgid ""
+"You sense <npc_name> trying to enter your mind, but your magic protects you!"
+msgstr ""
+
 #. ~ Name of effect type id "effect_pfruit_heal"
 #. ~ Name of effect type id "effect_goblin_fruit_heal"
 #: data/mods/Magiclysm/effects/effect_potion_fruit.json
@@ -500601,6 +500887,7 @@ msgstr ""
 
 #. ~ Item name
 #: data/mods/Magiclysm/items/ethereal_items.json
+#: data/mods/MindOverMatter/mod_interactions/magiclysm/item_overrides.json
 msgid "thought shields"
 msgid_plural "thought shields"
 msgstr[0] ""
@@ -500614,6 +500901,7 @@ msgstr ""
 
 #. ~ Item name
 #: data/mods/Magiclysm/items/ethereal_items.json
+#: data/mods/MindOverMatter/mod_interactions/magiclysm/item_overrides.json
 msgid "thought suit"
 msgid_plural "thought suit"
 msgstr[0] ""
@@ -519221,8 +519509,10 @@ msgid ""
 msgstr ""
 
 #. ~ Player message in effect in EoC "EOC_STARE1"
+#. ~ Player message in effect in EoC "EOC_STARE1_5"
 #: data/mods/MindOverMatter/effectoncondition/eoc_misc.json
-msgid "You sense <npc_name> trying to enter your mind, but you repel!"
+#: data/mods/MindOverMatter/mod_interactions/magiclysm/eoc_misc.json
+msgid "You sense <npc_name> trying to enter your mind, but you repel it!"
 msgstr ""
 
 #. ~ Player message in effect in EoC "EOC_ALIEN_MEADOW_BUSH_2_BERRIES_2"
@@ -553301,6 +553591,9 @@ msgid "Stolen Blood"
 msgstr ""
 
 #. ~ Vitamin name
+#. ~ Label of UI widget "spacebar_ruach_counter_block"
+#. ~ Label of UI widget "ruach_counter_meter"
+#: data/mods/Xedra_Evolved/ui/ruach_counter.json
 #: data/mods/Xedra_Evolved/vitamin.json
 msgid "Ruach"
 msgstr ""
@@ -587454,6 +587747,36 @@ msgid ""
 "High above the earth, you close your eyes and feel the wind on your face."
 msgstr ""
 
+#. ~ Clause text "out_of_ruach" of UI widget "ruach_counter_meter"
+#: data/mods/Xedra_Evolved/ui/ruach_counter.json
+msgid "Starving"
+msgstr "瀕臨餓死"
+
+#. ~ Clause text "ruach_level_1" of UI widget "ruach_counter_meter"
+#: data/mods/Xedra_Evolved/ui/ruach_counter.json
+msgid "<color_red>Almost Spent</color>"
+msgstr ""
+
+#. ~ Clause text "ruach_level_2" of UI widget "ruach_counter_meter"
+#: data/mods/Xedra_Evolved/ui/ruach_counter.json
+msgid "<color_light_red>Drained</color>"
+msgstr ""
+
+#. ~ Clause text "ruach_level_3" of UI widget "ruach_counter_meter"
+#: data/mods/Xedra_Evolved/ui/ruach_counter.json
+msgid "<color_yellow>Refreshed</color>"
+msgstr ""
+
+#. ~ Clause text "ruach_level_4" of UI widget "ruach_counter_meter"
+#: data/mods/Xedra_Evolved/ui/ruach_counter.json
+msgid "<color_light_green>Satiated</color>"
+msgstr ""
+
+#. ~ Clause text "ruach_level_5" of UI widget "ruach_counter_meter"
+#: data/mods/Xedra_Evolved/ui/ruach_counter.json
+msgid "<color_green>Suffused</color>"
+msgstr ""
+
 #. ~ Label of UI widget "xe_current_max_mana_nums_layout"
 #. ~ Label of UI widget "xe_spacebar_current_max_mana_nums_layout"
 #: data/mods/Xedra_Evolved/ui/sidebar.json
@@ -594900,6 +595223,11 @@ msgstr "確認選擇"
 
 #. ~ Key binding name
 #: data/raw/keybindings.json
+msgid "Confirm and continue"
+msgstr ""
+
+#. ~ Key binding name
+#: data/raw/keybindings.json
 msgid "Save mods as default"
 msgstr "儲存模組讀取順序為預設值"
 
@@ -600419,7 +600747,7 @@ msgstr "地圖特殊區域"
 msgid "Symbol"
 msgstr "符號"
 
-#: src/auto_note.cpp:386 src/distraction_manager.cpp:133 src/options.cpp:1581
+#: src/auto_note.cpp:386 src/distraction_manager.cpp:135 src/options.cpp:1581
 #: src/options.cpp:2171 src/smart_controller_ui.cpp:64
 msgid "Enabled"
 msgstr "啟用"
@@ -601076,11 +601404,11 @@ msgstr "怪物擋路。自動移動取消。"
 msgid "Move into the monster to attack."
 msgstr "移動到怪物以攻擊。"
 
-#: src/avatar_action.cpp:368 src/handle_action.cpp:1728
+#: src/avatar_action.cpp:368 src/handle_action.cpp:1743
 msgid "Your willpower asserts itself, and so do you!"
 msgstr "你的意志力決定了你的力量!"
 
-#: src/avatar_action.cpp:369 src/handle_action.cpp:1729
+#: src/avatar_action.cpp:369 src/handle_action.cpp:1744
 msgid "You're too pacified to strike anything…"
 msgstr "你太平靜無法攻擊任何東西…"
 
@@ -601263,13 +601591,13 @@ msgstr "這草鋒利如刀，可能會割破你的嘴。"
 msgid "You can't effectively throw while you're in your shell."
 msgstr "你在殼中無法有效率的投擲。"
 
-#: src/avatar_action.cpp:952 src/handle_action.cpp:2228 src/iexamine.cpp:7267
+#: src/avatar_action.cpp:952 src/handle_action.cpp:2243 src/iexamine.cpp:7267
 #: src/iexamine.cpp:7277 src/iexamine.cpp:7287 src/melee.cpp:575
 msgid "You lack the substance to affect anything."
 msgstr "你缺乏實體來影響任何東西。"
 
 #: src/avatar_action.cpp:959 src/game.cpp:10519 src/game.cpp:12017
-#: src/handle_action.cpp:943
+#: src/handle_action.cpp:959
 #, c-format
 msgid "Your %s refuses to move as its batteries have been drained."
 msgstr "你的%s電量已被抽乾，拒絕進行動作。"
@@ -601479,7 +601807,7 @@ msgid ""
 "resources."
 msgstr "你搜括%s找到了%d天份的食物和其他資源。"
 
-#: src/basecamp.cpp:926 src/faction_camp.cpp:743
+#: src/basecamp.cpp:926 src/faction_camp.cpp:764
 msgid "Base Missions"
 msgstr "基本任務"
 
@@ -602224,11 +602552,11 @@ msgstr "%s／每回合"
 msgid "%s/%d turns"
 msgstr "%s／%d回合　"
 
-#: src/bionics_ui.cpp:341 src/handle_action.cpp:1966
+#: src/bionics_ui.cpp:341 src/handle_action.cpp:1981
 msgid "OFF"
 msgstr "(關閉)"
 
-#: src/bionics_ui.cpp:341 src/handle_action.cpp:1966
+#: src/bionics_ui.cpp:341 src/handle_action.cpp:1981
 msgid "ON"
 msgstr "(啟動)"
 
@@ -603155,7 +603483,7 @@ msgstr "你覺得累了。"
 msgid "You have a sudden heart attack!"
 msgstr "你突然心臟病發!"
 
-#: src/character.cpp:5325 src/player_hardcoded_effects.cpp:816
+#: src/character.cpp:5325 src/player_hardcoded_effects.cpp:817
 msgid "<npcname> has a sudden heart attack!"
 msgstr "<npcname>突然心臟病發！"
 
@@ -604189,10 +604517,6 @@ msgstr "%s 的士氣太低了!"
 msgid "%s is blind."
 msgstr "%s失明了。"
 
-#: src/character.cpp:12202
-msgid "Weight Carried"
-msgstr "負重"
-
 #: src/character.cpp:12204 src/medical_ui.cpp:533 src/newcharacter.cpp:1408
 #: src/player_display.cpp:1579
 msgid "Dexterity"
@@ -604274,7 +604598,7 @@ msgstr "你的地形聲納在 %2$s 偵測到了一個 %1$s！"
 msgid "You've spotted a %1$s to the %2$s!"
 msgstr "你發現 %1$s 在你的 %2$s!"
 
-#: src/character.cpp:12971 src/consumption.cpp:1895
+#: src/character.cpp:12971 src/consumption.cpp:1896
 msgid "You do not have that item."
 msgstr "你沒有那個物品。"
 
@@ -606412,7 +606736,7 @@ msgstr "它看起來不能食用。"
 msgid "That doesn't look edible to you."
 msgstr "你無法吃這東西。"
 
-#: src/consumption.cpp:823 src/consumption.cpp:845
+#: src/consumption.cpp:823 src/consumption.cpp:846
 msgid "That doesn't look edible in its current form."
 msgstr "它目前的狀態看起來不能食用。"
 
@@ -606420,75 +606744,75 @@ msgstr "它目前的狀態看起來不能食用。"
 msgid "This is full of dirt after being on the ground."
 msgstr "它被放到地上後沾滿了泥土。"
 
-#: src/consumption.cpp:839 src/creature.cpp:375 src/iuse_actor.cpp:1399
+#: src/consumption.cpp:840 src/creature.cpp:375 src/iuse_actor.cpp:1399
 #: src/iuse_actor.cpp:2022 src/iuse_actor.cpp:2284
 msgid "You can't do that while underwater."
 msgstr "你無法在水下那麼做。"
 
-#: src/consumption.cpp:851
+#: src/consumption.cpp:852
 msgid "We can't eat that.  It's not right for us."
 msgstr "我們不能吃那個, 它對我們來說不合適。"
 
-#: src/consumption.cpp:858
+#: src/consumption.cpp:859
 msgid "It's frozen solid.  You must defrost it before you can eat it."
 msgstr "它冰凍成固體了。你必須先解凍它才能食用它。"
 
-#: src/consumption.cpp:861
+#: src/consumption.cpp:862
 msgid "You can't drink it while it's frozen."
 msgstr "你無法在它冰凍時飲用它。"
 
-#: src/consumption.cpp:875 src/consumption.cpp:895 src/consumption.cpp:1854
+#: src/consumption.cpp:876 src/consumption.cpp:896 src/consumption.cpp:1855
 #: src/game_inventory.cpp:1113 src/game_inventory.cpp:1125
 #, c-format
 msgid "You need a %s to consume that!"
 msgstr "你需要一個 %s 才能食用它! "
 
-#: src/consumption.cpp:902
+#: src/consumption.cpp:903
 msgid "Ugh, you can't drink that!"
 msgstr "痾, 你喝不了那東西! "
 
-#: src/consumption.cpp:908
+#: src/consumption.cpp:909
 msgid "Eww.  Inedible plant stuff!"
 msgstr "噁。這堆植物玩意兒不能吃! "
 
-#: src/consumption.cpp:915
+#: src/consumption.cpp:916
 msgid "The thought of eating that makes you feel sick."
 msgstr "光是想到要吃它就讓你覺得不舒服。"
 
-#: src/consumption.cpp:925
+#: src/consumption.cpp:926
 msgid "You're still not going to eat animal products."
 msgstr "你仍然不想吃動物製品。"
 
-#: src/consumption.cpp:930
+#: src/consumption.cpp:931
 msgid "You can't eat this."
 msgstr "你不能吃這個。"
 
-#: src/consumption.cpp:938
+#: src/consumption.cpp:939
 msgid "You deserve better food than this."
 msgstr "你值得更好的食物。"
 
-#: src/consumption.cpp:944
+#: src/consumption.cpp:945
 msgid "You are not going to drink this."
 msgstr "你才不要喝這個。"
 
-#: src/consumption.cpp:976
+#: src/consumption.cpp:977
 msgid "This is rotten and smells awful!"
 msgstr "它已經腐敗了, 散發出可怕的味道!"
 
-#: src/consumption.cpp:987
+#: src/consumption.cpp:988
 msgid "The thought of eating human flesh makes you feel sick."
 msgstr "光是想到要吃人肉就讓你覺得不舒服。"
 
-#: src/consumption.cpp:993
+#: src/consumption.cpp:994
 #, c-format
 msgid "Consuming this %s probably isn't very healthy."
 msgstr "吃下這個 %s 或許不太健康。"
 
-#: src/consumption.cpp:1001
+#: src/consumption.cpp:1002
 msgid "You still feel nauseous and will probably puke it all up again."
 msgstr "你仍然感到噁心, 並且可能再次嘔吐。"
 
-#: src/consumption.cpp:1007
+#: src/consumption.cpp:1008
 msgid "Your stomach won't be happy (allergy)."
 msgstr "你的胃不太開心 (過敏)。"
 
@@ -606496,230 +606820,230 @@ msgstr "你的胃不太開心 (過敏)。"
 #. person.
 #. ~ Semantic difference, but greatly facilitates people being proud of their
 #. character.
-#: src/consumption.cpp:1015
+#: src/consumption.cpp:1016
 msgid "Your stomach won't be happy (not rotten enough)."
 msgstr "你的胃不太開心 (不夠腐敗)。"
 
-#: src/consumption.cpp:1024
+#: src/consumption.cpp:1025
 msgid "You're full already and will be forcing yourself to eat."
 msgstr "你已經吃飽了, 正要強迫自己繼續吃。"
 
-#: src/consumption.cpp:1026
+#: src/consumption.cpp:1027
 msgid "You're full already and will be forcing yourself to drink."
 msgstr "你已經喝脹了，正要強迫自己繼續吃。"
 
-#: src/consumption.cpp:1043
+#: src/consumption.cpp:1044
 #, c-format
 msgid "Eat your %s anyway?"
 msgstr "仍然要吃 %s?"
 
-#: src/consumption.cpp:1045
+#: src/consumption.cpp:1046
 #, c-format
 msgid "Drink your %s anyway?"
 msgstr "仍然要喝 %s?"
 
-#: src/consumption.cpp:1047
+#: src/consumption.cpp:1048
 #, c-format
 msgid "Consume your %s anyway?"
 msgstr "仍要食用 %s?"
 
-#: src/consumption.cpp:1105
+#: src/consumption.cpp:1106
 msgid ""
 "You've begun stockpiling calories and liquid for hibernation.  You get the "
 "feeling that you should prepare for bed, just in case, but… you're hungry "
 "again, and you could eat a whole week's worth of food RIGHT NOW."
 msgstr "你已經開始為冬眠囤積熱量和水分。保險起見，你覺得你應該準備睡了，但是…你又餓了，你能馬上吃下整個星期的食物！"
 
-#: src/consumption.cpp:1114
+#: src/consumption.cpp:1115
 #, c-format
 msgid "Ick, this %s doesn't taste so good…"
 msgstr "噁，這個 %s 嚐起來味道不是很好…"
 
-#: src/consumption.cpp:1119
+#: src/consumption.cpp:1120
 #, c-format
 msgid "Mmm, this %s tastes delicious…"
 msgstr "嗯嗯，這個 %s 真美味…"
 
-#: src/consumption.cpp:1155
+#: src/consumption.cpp:1156
 #, c-format
 msgid "<npcname> assimilates a %s."
 msgstr "<npcname> 吸收了 %s。"
 
-#: src/consumption.cpp:1155
+#: src/consumption.cpp:1156
 #, c-format
 msgid "You assimilate your %s."
 msgstr "你吸收了 %s。"
 
-#: src/consumption.cpp:1162 src/consumption.cpp:1173
+#: src/consumption.cpp:1163 src/consumption.cpp:1174
 #, c-format
 msgid "Ick, this %s (rotten) doesn't taste so good…"
 msgstr "噁，這個  %s（腐敗）嚐起來味道不是很好…"
 
-#: src/consumption.cpp:1163
+#: src/consumption.cpp:1164
 #, c-format
 msgid "You drink your %s (rotten)."
 msgstr "你喝下了 %s (腐敗)。"
 
-#: src/consumption.cpp:1165
+#: src/consumption.cpp:1166
 #, c-format
 msgid "<npcname> drinks a %s."
 msgstr "<npcname> 喝下了 %s。"
 
-#: src/consumption.cpp:1165
+#: src/consumption.cpp:1166
 #, c-format
 msgid "You drink your %s."
 msgstr "你喝下了 %s。"
 
-#: src/consumption.cpp:1174
+#: src/consumption.cpp:1175
 #, c-format
 msgid "You eat your %s (rotten)."
 msgstr "你吃下了 %s (腐敗)。"
 
-#: src/consumption.cpp:1176
+#: src/consumption.cpp:1177
 #, c-format
 msgid "<npcname> eats a %s."
 msgstr "<npcname> 吃下了 %s。"
 
-#: src/consumption.cpp:1176
+#: src/consumption.cpp:1177
 #, c-format
 msgid "You eat your %s."
 msgstr "你吃下了 %s。"
 
-#: src/consumption.cpp:1200
+#: src/consumption.cpp:1201
 msgid ""
 "You try to ignore its mushy texture, but it leaves you with an awful "
 "aftertaste."
 msgstr "你試圖忽略它糊狀的口感, 但是它殘留的餘味實在糟透了。"
 
-#: src/consumption.cpp:1204
+#: src/consumption.cpp:1205
 msgid "You can't taste much of anything with this cold."
 msgstr "感冒讓你沒辦法嚐出什麼好味道。"
 
-#: src/consumption.cpp:1207
+#: src/consumption.cpp:1208
 msgid "You can't taste much of anything with this flu."
 msgstr "流感讓你沒辦法嚐出什麼好味道。"
 
-#: src/consumption.cpp:1370
+#: src/consumption.cpp:1371
 msgid "You feast upon the human flesh, and in doing so, devour their spirit."
 msgstr "你享受了一頓人肉盛宴, 同時吞噬了他們的靈魂。"
 
-#: src/consumption.cpp:1374
+#: src/consumption.cpp:1375
 msgid "You feast upon the human flesh."
 msgstr "你享受了一頓人肉盛宴。"
 
-#: src/consumption.cpp:1377
+#: src/consumption.cpp:1378
 msgid "You consume the sacred human flesh."
 msgstr "你享受了一頓神聖的人肉盛宴。"
 
-#: src/consumption.cpp:1381
+#: src/consumption.cpp:1382
 msgid "You eat the human flesh, and in doing so, devour their spirit."
 msgstr "你吃下了人肉，同時吞噬了他們的靈魂。"
 
-#: src/consumption.cpp:1384
+#: src/consumption.cpp:1385
 msgid "You indulge your shameful hunger."
 msgstr "你放縱了你可恥的飢餓感。"
 
-#: src/consumption.cpp:1387
+#: src/consumption.cpp:1388
 msgid "You greedily devour the taboo meat."
 msgstr "你貪婪地吞噬了禁忌之肉。"
 
-#: src/consumption.cpp:1391
+#: src/consumption.cpp:1392
 msgid "The human blood tastes as good as any other."
 msgstr "人血的味道就和其他血液一樣好喝。"
 
-#: src/consumption.cpp:1393
+#: src/consumption.cpp:1394
 msgid "Meh.  You've eaten worse."
 msgstr "呣。你吃過更難吃的。"
 
-#: src/consumption.cpp:1395
+#: src/consumption.cpp:1396
 msgid "Mmh.  Tastes like venison."
 msgstr "嗯，吃起來就像鹿肉。"
 
-#: src/consumption.cpp:1398
+#: src/consumption.cpp:1399
 msgid ""
 "Despite your cravings, you still can't help feeling weird about drinking "
 "somebody's blood."
 msgstr "儘管對血很飢渴，你還是覺得喝別人的血怪怪的。"
 
-#: src/consumption.cpp:1402
+#: src/consumption.cpp:1403
 msgid ""
 "This is probably going to count against you if there's still an afterlife."
 msgstr "如果有來世, 這筆帳應該會算在你頭上。"
 
-#: src/consumption.cpp:1405
+#: src/consumption.cpp:1406
 msgid "You find this meal distasteful, but necessary."
 msgstr "你覺得這頓飯很噁心，但是必須吞下去。"
 
-#: src/consumption.cpp:1408
+#: src/consumption.cpp:1409
 msgid "You feel horrible for eating a person."
 msgstr "吃下了一個人類讓你感到恐怖。"
 
-#: src/consumption.cpp:1428
+#: src/consumption.cpp:1429
 msgid "As you tear into the raw flesh, you feel satisfied with your meal."
 msgstr "隨著你撕碎生肉，你對你的這頓飯感到滿足。"
 
-#: src/consumption.cpp:1433
+#: src/consumption.cpp:1434
 msgid "Raw flesh doesn't taste all that bad, actually."
 msgstr "生肉吃起來其實沒有那麼糟糕耶。"
 
-#: src/consumption.cpp:1438
+#: src/consumption.cpp:1439
 msgid "This doesn't taste very good, but meat is meat."
 msgstr "這東西不太好吃，但是肉就是肉。"
 
-#: src/consumption.cpp:1446 src/consumption.cpp:1465 src/consumption.cpp:1474
+#: src/consumption.cpp:1447 src/consumption.cpp:1466 src/consumption.cpp:1475
 msgid "Your stomach begins gurgling and you feel bloated and ill."
 msgstr "你的胃開始翻攪, 並且感到腹脹與想吐。"
 
-#: src/consumption.cpp:1451
+#: src/consumption.cpp:1452
 msgid "Mmm, junk food."
 msgstr "呣, 垃圾食物。"
 
-#: src/consumption.cpp:1456
+#: src/consumption.cpp:1457
 msgid "When life's got you down, there's always sugar."
 msgstr "當生活讓你感到失望時, 至少還有糖。"
 
-#: src/consumption.cpp:1458
+#: src/consumption.cpp:1459
 msgid "They may do what they must… you've already won."
 msgstr "他們或許還會做出什麼… 但你已經勝利了。"
 
-#: src/consumption.cpp:1482
+#: src/consumption.cpp:1483
 msgid "You find the sweet taste of honey surprisingly palatable."
 msgstr "你發現蜂蜜的甜味帶有驚人的美味。"
 
-#: src/consumption.cpp:1484
+#: src/consumption.cpp:1485
 msgid "You feast upon the sweet honey."
 msgstr "你享受了一頓蜂蜜盛宴。"
 
-#: src/consumption.cpp:1610
+#: src/consumption.cpp:1611
 msgid "You gorge yourself, preparing to hibernate."
 msgstr "你飽餐了一頓, 準備冬眠。"
 
-#: src/consumption.cpp:1618
+#: src/consumption.cpp:1619
 msgid ""
 "You feel stocked for a day or two.  Got your bed all ready and secured?"
 msgstr "你已經囤積了一兩天的食物。找到安全睡覺的地方了嗎？"
 
-#: src/consumption.cpp:1627
+#: src/consumption.cpp:1628
 msgid ""
 "Mmm.  You can still fit some more in… but maybe you should get comfortable "
 "and sleep."
 msgstr "嗯嗯嗯。你覺得還能再吃點什麼… 不過你更想舒舒服服地睡上一覺。"
 
-#: src/consumption.cpp:1634
+#: src/consumption.cpp:1635
 msgid "That filled a hole!  Time for bed…"
 msgstr "吃飽啦！該睡覺了…"
 
-#: src/consumption.cpp:1645
+#: src/consumption.cpp:1646
 msgid "You feel as though you're going to split open!  In a good way?"
 msgstr "你感覺自己似乎要分裂了! 似乎不壞?"
 
 #. ~ slimespawns have *small voices* which may be the Nice equivalent
 #. ~ of the Rat King's ALL CAPS invective.  Probably shared-brain telepathy.
-#: src/consumption.cpp:1657
+#: src/consumption.cpp:1658
 msgid "hey, you look like me!  let's work together!"
 msgstr "嘿，你看起來真像我！我們一起行動吧！"
 
-#: src/consumption.cpp:1904
+#: src/consumption.cpp:1905
 #, c-format
 msgid "You can't eat your %s."
 msgstr "你不能吃你的 %s。"
@@ -608975,7 +609299,7 @@ msgstr ""
 msgid "You teleport to point %s."
 msgstr ""
 
-#: src/debug_menu.cpp:1668 src/overmap_ui.cpp:2136
+#: src/debug_menu.cpp:1668 src/overmap_ui.cpp:2149
 #, c-format
 msgid "You teleport to submap %s."
 msgstr ""
@@ -610074,7 +610398,7 @@ msgid ""
 msgstr ""
 
 #: src/debug_menu.cpp:3618 src/debug_menu.cpp:3661 src/iuse.cpp:3035
-#: src/iuse_actor.cpp:4889 src/iuse_actor.cpp:4991
+#: src/iuse_actor.cpp:4894 src/iuse_actor.cpp:4996
 msgid "There's no vehicle there."
 msgstr "那裡沒有車輛"
 
@@ -610761,129 +611085,137 @@ msgstr "無疼痛"
 msgid "Pain "
 msgstr "疼痛"
 
-#: src/display.cpp:1171
+#: src/display.cpp:1200
 #, c-format
 msgid "LEVEL %i, %d'%d, %d'%d"
 msgstr "樓層 %i, %d'%d, %d'%d"
 
-#: src/display.cpp:1442
+#: src/display.cpp:1471
 msgid "Underground"
 msgstr "地下"
 
-#: src/distraction_manager.cpp:29 src/veh_interact.cpp:2851
+#: src/distraction_manager.cpp:30 src/veh_interact.cpp:2851
 msgid "Noise"
 msgstr "聲響"
 
-#: src/distraction_manager.cpp:29
+#: src/distraction_manager.cpp:30
 msgid "This distraction will interrupt your activity when you hear a noise."
 msgstr "當你聽到噪音時會中斷當前行動。"
 
-#: src/distraction_manager.cpp:30
+#: src/distraction_manager.cpp:31
 msgid "This distraction will interrupt your activity when you feel pain."
 msgstr "當你感到疼痛時會中斷當前行動。"
 
-#: src/distraction_manager.cpp:31 src/game.cpp:5733 src/martialarts.cpp:2264
+#: src/distraction_manager.cpp:32 src/game.cpp:5733 src/martialarts.cpp:2264
 #: src/monexamine.cpp:661 src/monexamine.cpp:983
 msgid "Attack"
 msgstr "攻擊"
 
-#: src/distraction_manager.cpp:31
+#: src/distraction_manager.cpp:32
 msgid "This distraction will interrupt your activity when you're attacked."
 msgstr "當你受到攻擊時會中斷當前行動。"
 
-#: src/distraction_manager.cpp:32
+#: src/distraction_manager.cpp:33
 msgid "Hostile is dangerously close"
 msgstr "敵人很靠近，很危險"
 
-#: src/distraction_manager.cpp:32
+#: src/distraction_manager.cpp:33
 msgid ""
 "This distraction will interrupt your activity when a hostile comes within 5 "
 "tiles from you."
 msgstr "當你周圍5格內有敵人時會中斷當前行動。"
 
-#: src/distraction_manager.cpp:33
+#: src/distraction_manager.cpp:34
 msgid "Hostile spotted"
 msgstr "發現敵人"
 
-#: src/distraction_manager.cpp:33
+#: src/distraction_manager.cpp:34
 msgid "This distraction will interrupt your activity when you spot a hostile."
 msgstr "當你發現敵人時會中斷當前行動。"
 
-#: src/distraction_manager.cpp:34
+#: src/distraction_manager.cpp:35
 msgid "Conversation"
 msgstr "對話"
 
-#: src/distraction_manager.cpp:34
+#: src/distraction_manager.cpp:35
 msgid ""
 "This distraction will interrupt your activity when someone starts a "
 "conversation with you."
 msgstr "當你聽到對話時會中斷當前行動。"
 
-#: src/distraction_manager.cpp:35
+#: src/distraction_manager.cpp:36
 msgid ""
 "This distraction will interrupt your activity when you suffer an asthma "
 "attack."
 msgstr "當你氣喘發作時會中斷當前行動。"
 
-#: src/distraction_manager.cpp:36
+#: src/distraction_manager.cpp:37
 msgid "Dangerous field"
 msgstr "危險地形"
 
-#: src/distraction_manager.cpp:36
+#: src/distraction_manager.cpp:37
 msgid ""
 "This distraction will interrupt your activity when you're standing in a "
 "dangerous field."
 msgstr "當你站在危險地形時會中斷當前行動。"
 
-#: src/distraction_manager.cpp:37
+#: src/distraction_manager.cpp:38
 msgid ""
 "This distraction will interrupt your activity when weather changes to "
 "dangerous."
 msgstr "當你天氣變得危險時會中斷當前行動。"
 
-#: src/distraction_manager.cpp:37
+#: src/distraction_manager.cpp:38
 msgid "Weather change"
 msgstr "天氣改變"
 
-#: src/distraction_manager.cpp:38
+#: src/distraction_manager.cpp:39
 msgid ""
 "This distraction will interrupt your activity when you're at risk of "
 "starving."
 msgstr "當你即將餓死時會中斷當前行動。"
 
-#: src/distraction_manager.cpp:39
+#: src/distraction_manager.cpp:40
 msgid ""
 "This distraction will interrupt your activity when you're dangerously "
 "dehydrated."
 msgstr "當你即將渴死時會中斷當前行動。"
 
-#: src/distraction_manager.cpp:40
+#: src/distraction_manager.cpp:41
 msgid ""
 "This distraction will interrupt your activity when your temperature is very "
 "high or very low."
 msgstr "當你的體溫到非常高或非常低時會中斷當前行動。"
 
-#: src/distraction_manager.cpp:41
+#: src/distraction_manager.cpp:42
 msgid ""
 "This distraction will interrupt your activity when you gain or lose a "
 "mutation."
 msgstr ""
 
-#: src/distraction_manager.cpp:42
+#: src/distraction_manager.cpp:43
 msgid "Asphyxiation"
 msgstr ""
 
-#: src/distraction_manager.cpp:42
+#: src/distraction_manager.cpp:43
 msgid "This distraction will interrupt your activity when you can't breathe."
 msgstr ""
 
-#: src/distraction_manager.cpp:43
+#: src/distraction_manager.cpp:44
 msgid ""
 "This distraction will interrupt your activity when you have withdrawals."
 msgstr ""
 
-#: src/distraction_manager.cpp:43
+#: src/distraction_manager.cpp:44
 msgid "Withdrawal"
+msgstr ""
+
+#: src/distraction_manager.cpp:45
+msgid "Toggle all"
+msgstr ""
+
+#: src/distraction_manager.cpp:45
+msgid "Toggle all distractions"
 msgstr ""
 
 #: src/do_turn.cpp:155
@@ -612235,40 +612567,40 @@ msgstr ""
 "\n"
 "要把同伴們帶回你的隊伍嗎？"
 
-#: src/faction_camp.cpp:681 src/faction_camp.cpp:1611
+#: src/faction_camp.cpp:702 src/faction_camp.cpp:1632
 msgid "You choose to wait…"
 msgstr "你選擇稍等..."
 
-#: src/faction_camp.cpp:702
+#: src/faction_camp.cpp:723
 msgid "You cannot build a camp here."
 msgstr "你無法在此建立營寨。"
 
-#: src/faction_camp.cpp:706
+#: src/faction_camp.cpp:727
 msgid "Select a camp type:"
 msgstr "選擇營寨類別："
 
-#: src/faction_camp.cpp:719
+#: src/faction_camp.cpp:740
 msgid "You are too close to another camp!"
 msgstr "你太靠近另一個營區！"
 
-#: src/faction_camp.cpp:728
+#: src/faction_camp.cpp:749
 #, c-format
 msgid ""
 "%1$s failed to start the %2$s basecamp, %3$s appliance/vehicle seems to be "
 "in the way."
 msgstr ""
 
-#: src/faction_camp.cpp:753
+#: src/faction_camp.cpp:774
 #, c-format
 msgid "%s isn't under your control!"
 msgstr ""
 
-#: src/faction_camp.cpp:827 src/faction_camp.cpp:831
+#: src/faction_camp.cpp:848 src/faction_camp.cpp:852
 #, c-format
 msgid "Total calorie cost: %s (have %d)"
 msgstr ""
 
-#: src/faction_camp.cpp:850
+#: src/faction_camp.cpp:871
 #, c-format
 msgid ""
 "Notes:\n"
@@ -612284,11 +612616,11 @@ msgid ""
 "Positions: %d/3\n"
 msgstr ""
 
-#: src/faction_camp.cpp:867
+#: src/faction_camp.cpp:888
 msgid " Recover Ally from Gathering"
 msgstr "召回採集中盟友"
 
-#: src/faction_camp.cpp:874
+#: src/faction_camp.cpp:895
 #, c-format
 msgid ""
 "Notes:\n"
@@ -612307,11 +612639,11 @@ msgid ""
 "Positions: %d/3\n"
 msgstr ""
 
-#: src/faction_camp.cpp:891
+#: src/faction_camp.cpp:912
 msgid " Recover Firewood Gatherers"
 msgstr "召回收集薪柴者"
 
-#: src/faction_camp.cpp:898
+#: src/faction_camp.cpp:919
 #, c-format
 msgid ""
 "Notes:\n"
@@ -612338,11 +612670,11 @@ msgstr ""
 "時間：3 小時\n"
 "職缺：%d / 1\n"
 
-#: src/faction_camp.cpp:914
+#: src/faction_camp.cpp:935
 msgid " Recover Menial Laborer"
 msgstr "召回雜務人員"
 
-#: src/faction_camp.cpp:922
+#: src/faction_camp.cpp:943
 #, c-format
 msgid ""
 "Notes:\n"
@@ -612361,11 +612693,11 @@ msgid ""
 "Positions: %d/1\n"
 msgstr ""
 
-#: src/faction_camp.cpp:941
+#: src/faction_camp.cpp:962
 msgid " Recover Log Cutter"
 msgstr "召回伐木工"
 
-#: src/faction_camp.cpp:949
+#: src/faction_camp.cpp:970
 #, c-format
 msgid ""
 "Notes:\n"
@@ -612385,11 +612717,11 @@ msgid ""
 "Positions: %d/1\n"
 msgstr ""
 
-#: src/faction_camp.cpp:968
+#: src/faction_camp.cpp:989
 msgid " Recover Clearcutter"
 msgstr "召回砍樹者"
 
-#: src/faction_camp.cpp:976
+#: src/faction_camp.cpp:997
 #, c-format
 msgid ""
 "Notes:\n"
@@ -612408,11 +612740,11 @@ msgid ""
 "Positions: %d/1\n"
 msgstr ""
 
-#: src/faction_camp.cpp:994
+#: src/faction_camp.cpp:1015
 msgid " Recover Hide Setup"
 msgstr "召回建設者"
 
-#: src/faction_camp.cpp:1002
+#: src/faction_camp.cpp:1023
 #, c-format
 msgid ""
 "Notes:\n"
@@ -612431,11 +612763,11 @@ msgid ""
 "Positions: %d/1\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1021
+#: src/faction_camp.cpp:1042
 msgid " Recover Hide Relay"
 msgstr "召回輸送者"
 
-#: src/faction_camp.cpp:1029
+#: src/faction_camp.cpp:1050
 #, c-format
 msgid ""
 "Notes:\n"
@@ -612453,11 +612785,11 @@ msgid ""
 "Positions: %d/3\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1046
+#: src/faction_camp.cpp:1067
 msgid " Recover Foragers"
 msgstr "召回採集者"
 
-#: src/faction_camp.cpp:1054
+#: src/faction_camp.cpp:1075
 #, c-format
 msgid ""
 "Notes:\n"
@@ -612474,11 +612806,11 @@ msgid ""
 "Positions: %d/2\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1070
+#: src/faction_camp.cpp:1091
 msgid " Recover Trappers"
 msgstr "召回捕捉者"
 
-#: src/faction_camp.cpp:1078
+#: src/faction_camp.cpp:1099
 #, c-format
 msgid ""
 "Notes:\n"
@@ -612495,23 +612827,23 @@ msgid ""
 "Positions: %d/1\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1094
+#: src/faction_camp.cpp:1115
 msgid " Recover Hunter"
 msgstr "召回狩獵者"
 
-#: src/faction_camp.cpp:1111 src/faction_camp.cpp:1137
+#: src/faction_camp.cpp:1132 src/faction_camp.cpp:1158
 msgid " Finish Map Fortifications"
 msgstr "完成地圖防禦工事"
 
-#: src/faction_camp.cpp:1126
+#: src/faction_camp.cpp:1147
 msgid " Finish Map Fortification Update"
 msgstr "完成地圖防禦工事升級"
 
-#: src/faction_camp.cpp:1152
+#: src/faction_camp.cpp:1173
 msgid " Recover Recruiter"
 msgstr "召回招募者"
 
-#: src/faction_camp.cpp:1160
+#: src/faction_camp.cpp:1181
 #, c-format
 msgid ""
 "Notes:\n"
@@ -612530,11 +612862,11 @@ msgid ""
 "Positions: %d/3\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1179
+#: src/faction_camp.cpp:1200
 msgid " Recover Scout"
 msgstr "召回偵查者"
 
-#: src/faction_camp.cpp:1187
+#: src/faction_camp.cpp:1208
 #, c-format
 msgid ""
 "Notes:\n"
@@ -612553,43 +612885,43 @@ msgid ""
 "Positions: %d/3\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1208
+#: src/faction_camp.cpp:1229
 msgid " Recover Combat Patrol"
 msgstr "召回巡邏者"
 
-#: src/faction_camp.cpp:1234 src/faction_camp.cpp:1240
-#: src/faction_camp.cpp:1247
+#: src/faction_camp.cpp:1255 src/faction_camp.cpp:1261
+#: src/faction_camp.cpp:1268
 msgid " (Finish) Crafting"
 msgstr " (結束) 製作"
 
-#: src/faction_camp.cpp:1237
+#: src/faction_camp.cpp:1258
 msgid " (Finish) Cooking"
 msgstr "（完成）烹飪"
 
-#: src/faction_camp.cpp:1243
+#: src/faction_camp.cpp:1264
 msgid " (Finish) Smithing"
 msgstr "（完成）鍛造工作"
 
-#: src/faction_camp.cpp:1255
+#: src/faction_camp.cpp:1276
 msgid "[DONE]\n"
 msgstr " [完成]\n"
 
-#: src/faction_camp.cpp:1259
+#: src/faction_camp.cpp:1280
 msgid " left] "
 msgstr "剩餘]"
 
-#: src/faction_camp.cpp:1273
+#: src/faction_camp.cpp:1294
 msgid "Hide one or more missions to clean up the UI."
 msgstr ""
 
-#: src/faction_camp.cpp:1284
+#: src/faction_camp.cpp:1305
 #, c-format
 msgid ""
 "Reveal one or more missions previously hidden.\n"
 "Current number of hidden missions: %d"
 msgstr ""
 
-#: src/faction_camp.cpp:1298
+#: src/faction_camp.cpp:1319
 msgid ""
 "Notes:\n"
 "Plow any spaces that have reverted to dirt or grass.\n"
@@ -612599,7 +612931,7 @@ msgstr ""
 "將已經變成土地或草地的地方再重新犁成農田。\n"
 "\n"
 
-#: src/faction_camp.cpp:1301
+#: src/faction_camp.cpp:1322
 msgid ""
 "\n"
 "\n"
@@ -612615,11 +612947,11 @@ msgid ""
 "Positions: 0/1\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1317
+#: src/faction_camp.cpp:1338
 msgid " (Finish) Plow fields"
 msgstr "（完成）犁田"
 
-#: src/faction_camp.cpp:1325
+#: src/faction_camp.cpp:1346
 msgid ""
 "Notes:\n"
 "Plant designated seeds in the spaces that have already been tilled.\n"
@@ -612629,7 +612961,7 @@ msgstr ""
 "在已經犁好的田地中播種植物種子。\n"
 "\n"
 
-#: src/faction_camp.cpp:1329
+#: src/faction_camp.cpp:1350
 msgid ""
 "\n"
 "\n"
@@ -612646,11 +612978,11 @@ msgid ""
 "Positions: 0/1\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1347
+#: src/faction_camp.cpp:1368
 msgid " (Finish) Plant Fields"
 msgstr "（完成）播種"
 
-#: src/faction_camp.cpp:1355
+#: src/faction_camp.cpp:1376
 msgid ""
 "Notes:\n"
 "Harvest any plants that are ripe and bring the produce back.\n"
@@ -612660,7 +612992,7 @@ msgstr ""
 "收割所有成熟的作物並帶回來。\n"
 "\n"
 
-#: src/faction_camp.cpp:1358
+#: src/faction_camp.cpp:1379
 msgid ""
 "\n"
 "\n"
@@ -612675,11 +613007,11 @@ msgid ""
 "Positions: 0/1\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1374
+#: src/faction_camp.cpp:1395
 msgid " (Finish) Harvest Fields"
 msgstr "（完成）收成"
 
-#: src/faction_camp.cpp:1404
+#: src/faction_camp.cpp:1425
 #, c-format
 msgid ""
 "Notes:\n"
@@ -612695,11 +613027,11 @@ msgid ""
 "Positions: %d/1\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1428
+#: src/faction_camp.cpp:1449
 msgid "Recover Field Surveyor"
 msgstr ""
 
-#: src/faction_camp.cpp:1451
+#: src/faction_camp.cpp:1472
 #, c-format
 msgid ""
 "Notes:\n"
@@ -612717,11 +613049,11 @@ msgid ""
 "Positions: %d/1\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1473
+#: src/faction_camp.cpp:1494
 msgid "Recover Surveyor"
 msgstr "召回勘查者"
 
-#: src/faction_camp.cpp:1482
+#: src/faction_camp.cpp:1503
 #, c-format
 msgid ""
 "Notes:\n"
@@ -612740,7 +613072,7 @@ msgid ""
 "where the days is measured for Extra / Moderate / No exercise levels"
 msgstr ""
 
-#: src/faction_camp.cpp:1505
+#: src/faction_camp.cpp:1526
 msgid ""
 "Notes:\n"
 "Choose a new leader for your faction.\n"
@@ -612749,7 +613081,7 @@ msgid ""
 "Risk: None\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1515
+#: src/faction_camp.cpp:1536
 msgid ""
 "Notes:\n"
 "Eat some food from the larder.\n"
@@ -612758,7 +613090,7 @@ msgid ""
 "Risk: None\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1526
+#: src/faction_camp.cpp:1547
 msgid ""
 "Notes:\n"
 "Assign repeating job duties to NPCs stationed here.\n"
@@ -612778,7 +613110,7 @@ msgstr ""
 "風險：無\n"
 "時間：持續進行"
 
-#: src/faction_camp.cpp:1536
+#: src/faction_camp.cpp:1557
 msgid ""
 "Notes:\n"
 "Assign followers to work at this camp."
@@ -612786,7 +613118,7 @@ msgstr ""
 "註記：\n"
 "指派追隨者在這個營地工作。"
 
-#: src/faction_camp.cpp:1542
+#: src/faction_camp.cpp:1563
 msgid ""
 "Notes:\n"
 "Abandon this camp"
@@ -612794,7 +613126,7 @@ msgstr ""
 "註記：\n"
 "遺棄這個營地"
 
-#: src/faction_camp.cpp:1556
+#: src/faction_camp.cpp:1577
 msgid ""
 "Notes:\n"
 "Cancel a current mission and force the immediate return of a companion.  No work will be done on the mission and all resources used on the mission will be lost.\n"
@@ -612810,267 +613142,267 @@ msgstr ""
 "\n"
 "同伴必須執行任務至少24小時，才能使用緊急召回。"
 
-#: src/faction_camp.cpp:1566
+#: src/faction_camp.cpp:1587
 msgid "Emergency Recall"
 msgstr "緊急召回"
 
-#: src/faction_camp.cpp:1598
+#: src/faction_camp.cpp:1619
 #, c-format
 msgid "It's too early for that.  A new leader can be chosen in %s."
 msgstr ""
 
-#: src/faction_camp.cpp:1604
+#: src/faction_camp.cpp:1625
 msgid "autocratic"
 msgstr ""
 
-#: src/faction_camp.cpp:1605
+#: src/faction_camp.cpp:1626
 msgid "sortition"
 msgstr ""
 
-#: src/faction_camp.cpp:1606
+#: src/faction_camp.cpp:1627
 msgid "democratic"
 msgstr ""
 
-#: src/faction_camp.cpp:1608
+#: src/faction_camp.cpp:1629
 msgid "Choose how the new leader will be determined."
 msgstr ""
 
-#: src/faction_camp.cpp:1618
+#: src/faction_camp.cpp:1639
 msgid ""
 "As an experienced leader, only you know what will be required of future leaders.  You will choose.\n"
 "\n"
 "Is this acceptable?"
 msgstr ""
 
-#: src/faction_camp.cpp:1646
+#: src/faction_camp.cpp:1667
 msgid ""
 "You will allow fate to choose the next leader.  Whether it's by dice, drawing straws, or picking names out of a hat, it will be purely random.\n"
 "\n"
 "Is this acceptable?"
 msgstr ""
 
-#: src/faction_camp.cpp:1652
+#: src/faction_camp.cpp:1673
 msgid "Fate calls for you to remain in your role as leader… for now."
 msgstr ""
 
-#: src/faction_camp.cpp:1658
+#: src/faction_camp.cpp:1679
 #, c-format
 msgid "Fate chooses %s to lead your faction."
 msgstr ""
 
-#: src/faction_camp.cpp:1666
+#: src/faction_camp.cpp:1687
 msgid ""
 "A leader can only lead those willing to follow.  Everyone must get a say in choosing the new leader.\n"
 "\n"
 "Is this acceptable?"
 msgstr ""
 
-#: src/faction_camp.cpp:1675
+#: src/faction_camp.cpp:1696
 msgid "You win the election!"
 msgstr ""
 
-#: src/faction_camp.cpp:1680
+#: src/faction_camp.cpp:1701
 #, c-format
 msgid ""
 "%1$s wins the election with a popularity of %2$s!  The runner-up had a "
 "popularity of %3$s."
 msgstr ""
 
-#: src/faction_camp.cpp:1689
+#: src/faction_camp.cpp:1710
 msgid "Have a meal?"
 msgstr ""
 
-#: src/faction_camp.cpp:1691
+#: src/faction_camp.cpp:1712
 msgid "Snack"
 msgstr ""
 
-#: src/faction_camp.cpp:1692
+#: src/faction_camp.cpp:1713
 msgid "Meal"
 msgstr ""
 
-#: src/faction_camp.cpp:1693
+#: src/faction_camp.cpp:1714
 msgid "Just stuff your face.  You're hungry!"
 msgstr ""
 
-#: src/faction_camp.cpp:1696
+#: src/faction_camp.cpp:1717
 msgid "You decide not to have anything after all."
 msgstr ""
 
-#: src/faction_camp.cpp:1703
+#: src/faction_camp.cpp:1724
 msgid ""
 "You check storage for some food, but there is nothing but dust and cobwebs…"
 msgstr ""
 
-#: src/faction_camp.cpp:1706
+#: src/faction_camp.cpp:1727
 msgid "There's only one meal left.  Guess that's dinner!"
 msgstr ""
 
-#: src/faction_camp.cpp:1774 src/faction_camp.cpp:1787
+#: src/faction_camp.cpp:1795 src/faction_camp.cpp:1808
 msgid "returns to you with something…"
 msgstr "給你帶回了些東西..."
 
-#: src/faction_camp.cpp:1777
+#: src/faction_camp.cpp:1798
 msgid "returns from your kitchen with something…"
 msgstr "從你的廚房返回並帶回了一些東西..."
 
-#: src/faction_camp.cpp:1780
+#: src/faction_camp.cpp:1801
 msgid "returns from your farm with something…"
 msgstr "從你的農場返回並帶回了一些東西..."
 
-#: src/faction_camp.cpp:1783
+#: src/faction_camp.cpp:1804
 msgid "returns from your blacksmith shop with something…"
 msgstr "從你的鐵匠鋪返回並帶回了一些東西..."
 
-#: src/faction_camp.cpp:1804
+#: src/faction_camp.cpp:1825
 msgid "departs to search for materials…"
 msgstr "出發去搜集材料..."
 
-#: src/faction_camp.cpp:1813
+#: src/faction_camp.cpp:1834
 msgid "departs to search for firewood…"
 msgstr "出發去搜集薪柴..."
 
-#: src/faction_camp.cpp:1830
+#: src/faction_camp.cpp:1851
 msgid "departs to look for suitable fields…"
 msgstr ""
 
-#: src/faction_camp.cpp:1839
+#: src/faction_camp.cpp:1860
 msgid "departs to survey land…"
 msgstr "出發去勘查土地..."
 
-#: src/faction_camp.cpp:1846 src/faction_camp.cpp:1856
+#: src/faction_camp.cpp:1867 src/faction_camp.cpp:1877
 msgid "returns from working in the woods…"
 msgstr "從樹林工作後返回..."
 
-#: src/faction_camp.cpp:1866
+#: src/faction_camp.cpp:1887
 msgid "returns from working on the hide site…"
 msgstr "從藏身處工作後返回..."
 
-#: src/faction_camp.cpp:1874
+#: src/faction_camp.cpp:1895
 msgid "returns from shuttling gear between the hide site…"
 msgstr "從藏身處之間運送裝備後返回..."
 
-#: src/faction_camp.cpp:1887
+#: src/faction_camp.cpp:1908
 msgid "departs to search for edible plants…"
 msgstr "出發去搜集可食用的蔬果..."
 
-#: src/faction_camp.cpp:1896
+#: src/faction_camp.cpp:1917
 msgid "departs to set traps for small animals…"
 msgstr "出發去設陷阱誘捕小型動物..."
 
-#: src/faction_camp.cpp:1905
+#: src/faction_camp.cpp:1926
 msgid "departs to hunt for meat…"
 msgstr "出發去獵捕大型動物..."
 
-#: src/faction_camp.cpp:1924
+#: src/faction_camp.cpp:1945
 msgid "departs to search for recruits…"
 msgstr "出發去找尋新成員..."
 
-#: src/faction_camp.cpp:1972 src/faction_camp.cpp:2465
+#: src/faction_camp.cpp:1993 src/faction_camp.cpp:2486
 msgid "You don't have enough food stored to feed your companion."
 msgstr "你沒有足夠的儲糧來餵飽你的同伴。"
 
-#: src/faction_camp.cpp:2035
+#: src/faction_camp.cpp:2056
 msgid ""
 "You don't have enough food stored to feed your companion for this task."
 msgstr "你沒有足夠的儲糧來餵飽你的同伴執行這項任務。"
 
-#: src/faction_camp.cpp:2038
+#: src/faction_camp.cpp:2059
 msgid "You don't have enough food stored to feed a larger work crew."
 msgstr "你沒有足夠的儲糧來餵飽你更大的工作團隊。"
 
-#: src/faction_camp.cpp:2104 src/faction_camp.cpp:2108
-#: src/faction_camp.cpp:2111
+#: src/faction_camp.cpp:2125 src/faction_camp.cpp:2129
+#: src/faction_camp.cpp:2132
 msgid "begins to upgrade the camp…"
 msgstr "開始升級營寨..."
 
-#: src/faction_camp.cpp:2145
+#: src/faction_camp.cpp:2166
 msgid "You don't have the materials for the upgrade."
 msgstr "你沒有升級所需的材料。"
 
-#: src/faction_camp.cpp:2157 src/faction_camp.cpp:3898
+#: src/faction_camp.cpp:2178 src/faction_camp.cpp:3919
 msgid "responds to the emergency recall…"
 msgstr "回應緊急召回中..."
 
-#: src/faction_camp.cpp:2164
+#: src/faction_camp.cpp:2185
 #, c-format
 msgid "You abandon %s."
 msgstr "你廢棄了%s。"
 
-#: src/faction_camp.cpp:2268
+#: src/faction_camp.cpp:2289
 msgid "You have no companions following you."
 msgstr "沒有追隨者跟著你。"
 
-#: src/faction_camp.cpp:2281 src/faction_camp.cpp:2391
+#: src/faction_camp.cpp:2302 src/faction_camp.cpp:2412
 #, c-format
 msgid "Press %s to inspect this follower."
 msgstr "按%s來觀察這個追隨者。"
 
-#: src/faction_camp.cpp:2283
+#: src/faction_camp.cpp:2304
 #, c-format
 msgid "Press %s to assign this follower to this camp."
 msgstr "按%s指派這個追隨者到這個營地。"
 
-#: src/faction_camp.cpp:2358
+#: src/faction_camp.cpp:2379
 msgid "Job/Priority"
 msgstr "工作／優先權"
 
-#: src/faction_camp.cpp:2360
+#: src/faction_camp.cpp:2381
 msgid "There are no NPCs stationed here"
 msgstr ""
 
-#: src/faction_camp.cpp:2376 src/faction_camp.cpp:2431
+#: src/faction_camp.cpp:2397 src/faction_camp.cpp:2452
 #, c-format
 msgid "%s : %s"
 msgstr "%s：%s"
 
-#: src/faction_camp.cpp:2381
+#: src/faction_camp.cpp:2402
 msgid "No current job."
 msgstr "沒有這個工作。"
 
-#: src/faction_camp.cpp:2393
+#: src/faction_camp.cpp:2414
 #, c-format
 msgid "Press %s to change this workers job priorities."
 msgstr "按%s來改變這個工人工作的優先權。"
 
-#: src/faction_camp.cpp:2423
+#: src/faction_camp.cpp:2444
 msgid "Assign job priority (0 to disable)"
 msgstr "設定工作優先權（0為關閉）"
 
-#: src/faction_camp.cpp:2426
+#: src/faction_camp.cpp:2447
 msgid "Clear all priorities"
 msgstr "清除所有優先權"
 
-#: src/faction_camp.cpp:2444
+#: src/faction_camp.cpp:2465
 #, c-format
 msgid "Priority for %s "
 msgstr "%s的優先權"
 
-#: src/faction_camp.cpp:2475
+#: src/faction_camp.cpp:2496
 #, c-format
 msgid "%s goes off to clean toilets and sort loot."
 msgstr "%s去清潔廁所和分類歸放物品。"
 
-#: src/faction_camp.cpp:2549
+#: src/faction_camp.cpp:2570
 #, c-format
 msgid "%s isn't a recognized terrain.  Please file a bug report."
 msgstr ""
 
-#: src/faction_camp.cpp:2552
+#: src/faction_camp.cpp:2573
 msgid ""
 "The logged tile has been cleared and cannot be logged further after this "
 "mission."
 msgstr ""
 
-#: src/faction_camp.cpp:2562 src/faction_camp.cpp:2601
+#: src/faction_camp.cpp:2583 src/faction_camp.cpp:2622
 msgid ""
 "Forests are the only valid cutting locations, with forest dirt roads, forest"
 " rural roads, and trails being valid as well.  Note that it's likely both "
 "forest and field roads look exactly the same after having been cleared."
 msgstr ""
 
-#: src/faction_camp.cpp:2577 src/faction_camp.cpp:2614
-#: src/faction_camp.cpp:2659 src/faction_camp.cpp:2722
-#: src/faction_camp.cpp:2876 src/faction_camp.cpp:3467
+#: src/faction_camp.cpp:2598 src/faction_camp.cpp:2635
+#: src/faction_camp.cpp:2680 src/faction_camp.cpp:2743
+#: src/faction_camp.cpp:2897 src/faction_camp.cpp:3488
 #, c-format
 msgid ""
 "Trip Estimate:\n"
@@ -613079,97 +613411,97 @@ msgstr ""
 "行程評估：\n"
 "%s"
 
-#: src/faction_camp.cpp:2584
+#: src/faction_camp.cpp:2605
 msgid "departs to cut logs…"
 msgstr "出發去砍伐原木..."
 
-#: src/faction_camp.cpp:2621
+#: src/faction_camp.cpp:2642
 msgid "departs to clear a forest…"
 msgstr "出發去清除樹林..."
 
-#: src/faction_camp.cpp:2636
+#: src/faction_camp.cpp:2657
 msgid "Forests, swamps, and fields are valid hide site locations."
 msgstr "森林、沼澤跟平原是能建立藏身處的地點。"
 
-#: src/faction_camp.cpp:2650 src/faction_camp.cpp:2697
+#: src/faction_camp.cpp:2671 src/faction_camp.cpp:2718
 msgid "Select items to send"
 msgstr "選擇要送出的物品"
 
-#: src/faction_camp.cpp:2650 src/faction_camp.cpp:2697
-#: src/faction_camp.cpp:2708
+#: src/faction_camp.cpp:2671 src/faction_camp.cpp:2718
+#: src/faction_camp.cpp:2729
 msgid "These are the items you've selected so far."
 msgstr "這些是你目前選擇的物品。"
 
-#: src/faction_camp.cpp:2665
+#: src/faction_camp.cpp:2686
 msgid "departs to build a hide site…"
 msgstr "出發去建立藏身處..."
 
-#: src/faction_camp.cpp:2683
+#: src/faction_camp.cpp:2704
 msgid "You must select an existing hide site."
 msgstr "你必須選擇一個已經存在的藏身處。"
 
-#: src/faction_camp.cpp:2708
+#: src/faction_camp.cpp:2729
 msgid "Select items to bring back"
 msgstr "選擇要帶回的物品"
 
-#: src/faction_camp.cpp:2729
+#: src/faction_camp.cpp:2750
 msgid "departs for the hide site…"
 msgstr "出發前往藏身處..."
 
-#: src/faction_camp.cpp:2743
+#: src/faction_camp.cpp:2764
 msgid "You need equipment to transport between the hide site…"
 msgstr "你需要裝備來輸送到藏身處..."
 
-#: src/faction_camp.cpp:2810
+#: src/faction_camp.cpp:2831
 msgid ""
 "Select a start and end point.  Line must be straight.  Fields, forests, and "
 "swamps are valid fortification locations.  In addition to existing "
 "fortification constructions."
 msgstr "選擇起點和終點。路線必須筆直。除了早已有防禦工事的地點之外，平原、森林和沼澤是能建立防禦工事的地點。"
 
-#: src/faction_camp.cpp:2814
+#: src/faction_camp.cpp:2835
 msgid "Select an end point."
 msgstr "選擇終點。"
 
-#: src/faction_camp.cpp:2823
+#: src/faction_camp.cpp:2844
 msgid "Construction line must be straight!"
 msgstr "建造路線必須是直線。"
 
-#: src/faction_camp.cpp:2836
+#: src/faction_camp.cpp:2857
 msgid "Spiked pits must be built over existing trenches!"
 msgstr "尖刺坑必須建造在壕溝之內！"
 
-#: src/faction_camp.cpp:2866
+#: src/faction_camp.cpp:2887
 msgid "Invalid terrain in construction path."
 msgstr "施工路徑中有無效的地形。"
 
-#: src/faction_camp.cpp:2881
+#: src/faction_camp.cpp:2902
 msgid "You don't have the material to build the fortification."
 msgstr "你沒有材料來建造防禦工事。"
 
-#: src/faction_camp.cpp:2894
+#: src/faction_camp.cpp:2915
 msgid "begins constructing fortifications…"
 msgstr "開始建造防禦工事..."
 
-#: src/faction_camp.cpp:3047
+#: src/faction_camp.cpp:3068
 msgid ""
 "Bug, Incorrect recipe: More than one rotation per orientation isn't valid"
 msgstr ""
 
-#: src/faction_camp.cpp:3116
+#: src/faction_camp.cpp:3137
 #, c-format
 msgid "Number of additional sessions required: %i"
 msgstr ""
 
-#: src/faction_camp.cpp:3131
+#: src/faction_camp.cpp:3152
 msgid "Start constructing salt water pipes…"
 msgstr ""
 
-#: src/faction_camp.cpp:3169
+#: src/faction_camp.cpp:3190
 msgid "Continue constructing salt water pipes…"
 msgstr ""
 
-#: src/faction_camp.cpp:3302
+#: src/faction_camp.cpp:3323
 msgid ""
 "This functionality cannot be constructed as the tile directly adjacent to "
 "this expansion is not of a type a pipe can be constructed through.  "
@@ -613177,7 +613509,7 @@ msgid ""
 "be removed from the set of available recipes and won't show up again."
 msgstr ""
 
-#: src/faction_camp.cpp:3347
+#: src/faction_camp.cpp:3368
 msgid ""
 "This functionality cannot be constructed as no valid path to a swamp has "
 "been found with a maximum length (20 tiles) at a maximum range of 10 tiles."
@@ -613185,142 +613517,142 @@ msgid ""
 "removed from the set of available recipes and won't show up again."
 msgstr ""
 
-#: src/faction_camp.cpp:3457
+#: src/faction_camp.cpp:3478
 msgid ""
 "Select checkpoints until you reach maximum range or select the last point "
 "again to end."
 msgstr "選擇一個哨點直到已達最大範圍，或是繼續選擇哨點直到終點。"
 
-#: src/faction_camp.cpp:3471
+#: src/faction_camp.cpp:3492
 msgid "departs on patrol…"
 msgstr "出發去巡邏..."
 
-#: src/faction_camp.cpp:3493
+#: src/faction_camp.cpp:3514
 msgid "You don't have the materials to craft that"
 msgstr "你沒有材料來製作那個"
 
-#: src/faction_camp.cpp:3500
+#: src/faction_camp.cpp:3521
 #, c-format
 msgid "Batch crafting %s [MAX: %d]: "
 msgstr "批量製作 %s [最多:%d]:"
 
-#: src/faction_camp.cpp:3508
+#: src/faction_camp.cpp:3529
 msgid "Your batch is too large!"
 msgstr "這批數量太大了！"
 
-#: src/faction_camp.cpp:3521
+#: src/faction_camp.cpp:3542
 msgid "begins to work…"
 msgstr "開始進行..."
 
-#: src/faction_camp.cpp:3701
+#: src/faction_camp.cpp:3722
 msgid "+ more\n"
 msgstr "+ 更多\n"
 
-#: src/faction_camp.cpp:3735
+#: src/faction_camp.cpp:3756
 msgid "begins to harvest the field…"
 msgstr "開始收成農地..."
 
-#: src/faction_camp.cpp:3742
+#: src/faction_camp.cpp:3763
 msgid "Selected seeds"
 msgstr ""
 
-#: src/faction_camp.cpp:3742 src/mission_companion.cpp:1565
+#: src/faction_camp.cpp:3763 src/mission_companion.cpp:1565
 msgid "Which seeds do you wish to have planted?"
 msgstr "你想種下那一類種子?"
 
-#: src/faction_camp.cpp:3743
+#: src/faction_camp.cpp:3764
 msgid "You have no additional seeds to give your companions…"
 msgstr "你沒有額外的種子能給你的同伴..."
 
-#: src/faction_camp.cpp:3765
+#: src/faction_camp.cpp:3786
 msgid "begins planting the field…"
 msgstr "開始播種農地..."
 
-#: src/faction_camp.cpp:3771
+#: src/faction_camp.cpp:3792
 msgid "begins plowing the field…"
 msgstr "開始耕犁農地..."
 
-#: src/faction_camp.cpp:3818
+#: src/faction_camp.cpp:3839
 msgid "Your companion seems disappointed that your pantry is empty…"
 msgstr "你的同伴似乎對於你的食品儲藏室是空的感到失望..."
 
-#: src/faction_camp.cpp:3957
+#: src/faction_camp.cpp:3978
 #, c-format
 msgid ""
 "%1$s failed to build the %2$s upgrade, %3$s vehicle/appliance seems to be in"
 " the way."
 msgstr ""
 
-#: src/faction_camp.cpp:3973
+#: src/faction_camp.cpp:3994
 msgid "returns from upgrading the camp having earned a bit of experience…"
 msgstr "完成了升級營寨的工作，返回並獲得了一點經驗值..."
 
-#: src/faction_camp.cpp:3985
+#: src/faction_camp.cpp:4006
 msgid "returns from doing the dirty work to keep the camp running…"
 msgstr "完成了骯髒的工作使營寨能繼續運作..."
 
-#: src/faction_camp.cpp:4002
+#: src/faction_camp.cpp:4023
 msgid "gathering materials"
 msgstr "收集材料中"
 
-#: src/faction_camp.cpp:4010
+#: src/faction_camp.cpp:4031
 msgid "foraging for edible plants"
 msgstr "正在採集可食用的蔬果"
 
-#: src/faction_camp.cpp:4014
+#: src/faction_camp.cpp:4035
 msgid "trapping small animals"
 msgstr "正在設陷阱捕捉小動物"
 
-#: src/faction_camp.cpp:4021
+#: src/faction_camp.cpp:4042
 msgid "hunting for meat"
 msgstr "獵捕大型動物中"
 
-#: src/faction_camp.cpp:4034
+#: src/faction_camp.cpp:4055
 #, c-format
 msgid "returns from %s carrying supplies and has a bit more experience…"
 msgstr "從 %s 返回，帶回一些補給品也獲得了一些經驗值..."
 
-#: src/faction_camp.cpp:4088
+#: src/faction_camp.cpp:4109
 msgid "returns from constructing fortifications…"
 msgstr "從建築防禦工事作業中返回..."
 
-#: src/faction_camp.cpp:4110 src/faction_camp.cpp:4202
+#: src/faction_camp.cpp:4131 src/faction_camp.cpp:4223
 msgid "Error: Failed to find the pipe task that was to be constructed"
 msgstr ""
 
-#: src/faction_camp.cpp:4178
+#: src/faction_camp.cpp:4199
 msgid "returns from construction of the salt water pipe swamp segment…"
 msgstr ""
 
-#: src/faction_camp.cpp:4296
+#: src/faction_camp.cpp:4317
 msgid "returns from construction of a salt water pipe segment…"
 msgstr ""
 
-#: src/faction_camp.cpp:4305
+#: src/faction_camp.cpp:4326
 msgid "returns from searching for recruits with a bit more experience…"
 msgstr "完成了找尋招募新成員的工作，返回並獲得了一點經驗值..."
 
-#: src/faction_camp.cpp:4319
+#: src/faction_camp.cpp:4340
 #, c-format
 msgid "%s encountered %s…"
 msgstr "%s遇到了%s..."
 
-#: src/faction_camp.cpp:4321
+#: src/faction_camp.cpp:4342
 #, c-format
 msgid "%s didn't find anyone to recruit…"
 msgstr "%s沒有找到可招募的新成員..."
 
-#: src/faction_camp.cpp:4327
+#: src/faction_camp.cpp:4348
 #, c-format
 msgid "%s convinced %s to hear a recruitment offer from you…"
 msgstr "%s說服了%s來聽你提供的招募條件..."
 
-#: src/faction_camp.cpp:4330
+#: src/faction_camp.cpp:4351
 #, c-format
 msgid "%s wasn't interested in anything %s had to offer…"
 msgstr "%s對%s提供的東西完全不感興趣..."
 
-#: src/faction_camp.cpp:4339
+#: src/faction_camp.cpp:4360
 msgid ""
 "NPC Overview:\n"
 "\n"
@@ -613328,7 +613660,7 @@ msgstr ""
 "NPC 概觀：\n"
 "\n"
 
-#: src/faction_camp.cpp:4340
+#: src/faction_camp.cpp:4361
 #, c-format
 msgid ""
 "Name:  %s\n"
@@ -613337,22 +613669,22 @@ msgstr ""
 "名稱：%s\n"
 "\n"
 
-#: src/faction_camp.cpp:4341
+#: src/faction_camp.cpp:4362
 #, c-format
 msgid "Strength:        %10d\n"
 msgstr "力量:        %10d\n"
 
-#: src/faction_camp.cpp:4342
+#: src/faction_camp.cpp:4363
 #, c-format
 msgid "Dexterity:       %10d\n"
 msgstr "敏捷:        %10d\n"
 
-#: src/faction_camp.cpp:4343
+#: src/faction_camp.cpp:4364
 #, c-format
 msgid "Intelligence:    %10d\n"
 msgstr "智力:        %10d\n"
 
-#: src/faction_camp.cpp:4344
+#: src/faction_camp.cpp:4365
 #, c-format
 msgid ""
 "Perception:      %10d\n"
@@ -613361,15 +613693,15 @@ msgstr ""
 "感知:      %10d\n"
 "\n"
 
-#: src/faction_camp.cpp:4345
+#: src/faction_camp.cpp:4366
 msgid "Top 3 Skills:\n"
 msgstr "前三高技能:\n"
 
-#: src/faction_camp.cpp:4362
+#: src/faction_camp.cpp:4383
 msgid "Asking for:\n"
 msgstr "要求:\n"
 
-#: src/faction_camp.cpp:4363
+#: src/faction_camp.cpp:4384
 #, c-format
 msgid ""
 "> Food:     %10d days\n"
@@ -613378,7 +613710,7 @@ msgstr ""
 "> 儲糧:     %10d 天\n"
 "\n"
 
-#: src/faction_camp.cpp:4364
+#: src/faction_camp.cpp:4385
 #, c-format
 msgid ""
 "Faction Food:%9d days\n"
@@ -613387,7 +613719,7 @@ msgstr ""
 "陣營儲糧:%9d 天\n"
 "\n"
 
-#: src/faction_camp.cpp:4366
+#: src/faction_camp.cpp:4387
 #, c-format
 msgid ""
 "Recruit Chance: %10d%%\n"
@@ -613396,90 +613728,90 @@ msgstr ""
 "招募機率: %10d%%\n"
 "\n"
 
-#: src/faction_camp.cpp:4368
+#: src/faction_camp.cpp:4389
 msgid "Select an option:"
 msgstr "選擇一個選項："
 
-#: src/faction_camp.cpp:4371
+#: src/faction_camp.cpp:4392
 msgid "Increase Food"
 msgstr "提高優先權"
 
-#: src/faction_camp.cpp:4372
+#: src/faction_camp.cpp:4393
 msgid "Decrease Food"
 msgstr "降低優先權"
 
-#: src/faction_camp.cpp:4373
+#: src/faction_camp.cpp:4394
 msgid "Make Offer"
 msgstr "出價"
 
-#: src/faction_camp.cpp:4374
+#: src/faction_camp.cpp:4395
 msgid "Not Interested"
 msgstr "沒興趣"
 
-#: src/faction_camp.cpp:4378
+#: src/faction_camp.cpp:4399
 msgid "You decide you aren't interested…"
 msgstr "你確定自己不感興趣..."
 
-#: src/faction_camp.cpp:4398
+#: src/faction_camp.cpp:4419
 #, c-format
 msgid "%s has been convinced to join!"
 msgstr "%s已經被說服要加入了！"
 
-#: src/faction_camp.cpp:4400
+#: src/faction_camp.cpp:4421
 #, c-format
 msgid "%s wasn't interested…"
 msgstr "%s沒有意願..."
 
-#: src/faction_camp.cpp:4433
+#: src/faction_camp.cpp:4454
 msgid "Your companion hit a river and didn't know how to swim…"
 msgstr "你的同伴遇見一條河，可是不會游泳..."
 
-#: src/faction_camp.cpp:4435
+#: src/faction_camp.cpp:4456
 msgid ""
 "Your companion hit a river and didn't know how to swim well enough to cross…"
 msgstr "你的同伴遇見一條河，但游泳技能不足無法游泳過河......"
 
-#: src/faction_camp.cpp:4446
+#: src/faction_camp.cpp:4467
 #, c-format
 msgid "%s didn't return from patrol…"
 msgstr "%s沒有從巡邏任務回來..."
 
-#: src/faction_camp.cpp:4453
+#: src/faction_camp.cpp:4474
 msgid "returns from patrol…"
 msgstr "從巡邏任務回來..."
 
-#: src/faction_camp.cpp:4460
+#: src/faction_camp.cpp:4481
 msgid "stops looking for terrain to turn into fields…"
 msgstr ""
 
-#: src/faction_camp.cpp:4466 src/faction_camp.cpp:4543
+#: src/faction_camp.cpp:4487 src/faction_camp.cpp:4564
 #, c-format
 msgid "Select a tile up to %d tiles away."
 msgstr "選擇%d格內的格子。"
 
-#: src/faction_camp.cpp:4474 src/faction_camp.cpp:4551
+#: src/faction_camp.cpp:4495 src/faction_camp.cpp:4572
 #, c-format
 msgid "You must select a tile within %d range of the camp"
 msgstr "你必須選擇距離營寨%d格內的的格子。"
 
-#: src/faction_camp.cpp:4478 src/faction_camp.cpp:4555
+#: src/faction_camp.cpp:4499 src/faction_camp.cpp:4576
 msgid "Expansions must be on the same level as the camp"
 msgstr "擴建必須跟營寨在同一層地面上"
 
-#: src/faction_camp.cpp:4484 src/faction_camp.cpp:4561
+#: src/faction_camp.cpp:4505 src/faction_camp.cpp:4582
 msgid ""
 "You already have an expansion at that location.  Do you want to finish this "
 "mission?  If not, the mission remains active and another tile can be "
 "checked."
 msgstr ""
 
-#: src/faction_camp.cpp:4494
+#: src/faction_camp.cpp:4515
 msgid ""
 "This location is already a field.  Do you want to finish this mission?  If "
 "not, the mission remains active and another tile can be checked."
 msgstr ""
 
-#: src/faction_camp.cpp:4516
+#: src/faction_camp.cpp:4537
 #, c-format
 msgid ""
 "This location has %d tiles blocking it from being converted.  Do you want to"
@@ -613487,156 +613819,156 @@ msgid ""
 "can be checked."
 msgstr ""
 
-#: src/faction_camp.cpp:4527
+#: src/faction_camp.cpp:4548
 msgid ""
 "This location has now been converted into a field!  Do you want to finish "
 "the mission?  If not, the mission remains active and another tile can be "
 "checked."
 msgstr ""
 
-#: src/faction_camp.cpp:4537
+#: src/faction_camp.cpp:4558
 msgid "gives up trying to create an expansion…"
 msgstr ""
 
-#: src/faction_camp.cpp:4574
+#: src/faction_camp.cpp:4595
 #, c-format
 msgid "You can't build any expansions in a %s."
 msgstr "你不能在%s上擴建任何營區。"
 
-#: src/faction_camp.cpp:4576
+#: src/faction_camp.cpp:4597
 #, c-format
 msgid ""
 "You can't build any expansion in a %s.  Do you want to finish this mission?"
 "  If not, the mission remains active and another tile can be checked."
 msgstr ""
 
-#: src/faction_camp.cpp:4586
+#: src/faction_camp.cpp:4607
 msgid "Select an expansion:"
 msgstr "選擇擴建營區類別："
 
-#: src/faction_camp.cpp:4600
+#: src/faction_camp.cpp:4621
 msgid ""
 "Do you want to finish this mission?  If not, the mission remains active and "
 "another tile can be checked."
 msgstr ""
 
-#: src/faction_camp.cpp:4612
+#: src/faction_camp.cpp:4633
 #, c-format
 msgid ""
 "%1$s failed to add the %2$s expansion, %3$s vehicle/appliance seems to be in"
 " the way."
 msgstr ""
 
-#: src/faction_camp.cpp:4617
+#: src/faction_camp.cpp:4638
 msgid ""
 "Do you want to finish this mission?  If not, the mission remains active and "
 "another tile can be checked (e.g. after clearing away the obstacle)."
 msgstr ""
 
-#: src/faction_camp.cpp:4626
+#: src/faction_camp.cpp:4647
 msgid "returns from surveying for the expansion."
 msgstr "從擴建的勘查任務返回。"
 
-#: src/faction_camp.cpp:4645
+#: src/faction_camp.cpp:4666
 msgid "returns from working your fields…"
 msgstr "從農地工作後返回..."
 
-#: src/faction_camp.cpp:4957
+#: src/faction_camp.cpp:4978
 #, c-format
 msgid "Select a location between  %d and  %d tiles away."
 msgstr "選擇距離%d到%d格之內的地點。"
 
-#: src/faction_camp.cpp:4978
+#: src/faction_camp.cpp:4999
 #, c-format
 msgid ""
 "You must select a target between %d and %d range from the base.  Range: %d"
 msgstr "你必須選擇距離營寨介於%d到%d格內的地點。距離：%d"
 
-#: src/faction_camp.cpp:4989
+#: src/faction_camp.cpp:5010
 msgid "You must be able to see the target that you select."
 msgstr "你必須選擇視野範圍內的目標。"
 
-#: src/faction_camp.cpp:4995
+#: src/faction_camp.cpp:5016
 msgid "Do you want to bounce off this location to extend range?"
 msgstr "你想探查這個地點來拓展距離嗎？"
 
-#: src/faction_camp.cpp:5256 src/faction_camp.cpp:5304 src/iuse.cpp:8383
+#: src/faction_camp.cpp:5277 src/faction_camp.cpp:5325 src/iuse.cpp:8383
 #: src/iuse.cpp:8604
 msgctxt "short for infinity"
 msgid "inf"
 msgstr "無限"
 
-#: src/faction_camp.cpp:5262 src/faction_camp.cpp:5310
+#: src/faction_camp.cpp:5283 src/faction_camp.cpp:5331
 msgid "Volume (L)"
 msgstr "體積（L）"
 
-#: src/faction_camp.cpp:5263 src/faction_camp.cpp:5311
+#: src/faction_camp.cpp:5284 src/faction_camp.cpp:5332
 msgid "Weight (kg)"
 msgstr "重量（kg）"
 
-#: src/faction_camp.cpp:5273 src/faction_camp.cpp:5320
+#: src/faction_camp.cpp:5294 src/faction_camp.cpp:5341
 msgid "To select items, type a number before selecting."
 msgstr "要選擇指定數量，在選擇物品前先輸入數量。"
 
-#: src/faction_camp.cpp:5276
+#: src/faction_camp.cpp:5297
 msgid "You have nothing to send."
 msgstr "你沒有可以送出的東西。"
 
-#: src/faction_camp.cpp:5323
+#: src/faction_camp.cpp:5344
 msgid "You have nothing to retrieve."
 msgstr "你沒有可以帶回的東西。"
 
-#: src/faction_camp.cpp:5337
+#: src/faction_camp.cpp:5358
 msgid "You do not have sufficient sort zones.  Do you want to add them?"
 msgstr "你沒有足夠的物品分類區域。要增加嗎？"
 
-#: src/faction_camp.cpp:5350
+#: src/faction_camp.cpp:5371
 msgid ""
 "Please create some sorting zones.  You must create a camp food zone, and a "
 "camp storage zone."
 msgstr ""
 
-#: src/faction_camp.cpp:5389
+#: src/faction_camp.cpp:5410
 #, c-format
 msgid ">Distance:%15.2f (km)\n"
 msgstr "> 距離：%15.2f（公里）\n"
 
-#: src/faction_camp.cpp:5390 src/faction_camp.cpp:5394
+#: src/faction_camp.cpp:5411 src/faction_camp.cpp:5415
 #, c-format
 msgid ">One Way: %15d (trips)\n"
 msgstr "> 單程：%15d（旅程）\n"
 
-#: src/faction_camp.cpp:5391
+#: src/faction_camp.cpp:5412
 #, c-format
 msgid ">Covered: %15.2f (km)\n"
 msgstr "> 涵蓋：%15.2f（公里）\n"
 
-#: src/faction_camp.cpp:5393
+#: src/faction_camp.cpp:5414
 #, c-format
 msgid ">Distance:%15d (m)\n"
 msgstr "> 距離：%15d（公尺）\n"
 
-#: src/faction_camp.cpp:5395
+#: src/faction_camp.cpp:5416
 #, c-format
 msgid ">Covered: %15d (m)\n"
 msgstr "> 涵蓋：%15d（公尺）\n"
 
-#: src/faction_camp.cpp:5397
+#: src/faction_camp.cpp:5418
 #, c-format
 msgid ">Travel:  %s\n"
 msgstr ">路程：%s\n"
 
-#: src/faction_camp.cpp:5398
+#: src/faction_camp.cpp:5419
 #, c-format
 msgid ">Working: %s\n"
 msgstr ">工時：%s\n"
 
-#: src/faction_camp.cpp:5400
+#: src/faction_camp.cpp:5421
 #, c-format
 msgid "Total:    %s\n"
 msgstr "合計：%s\n"
 
-#: src/faction_camp.cpp:5401
+#: src/faction_camp.cpp:5422
 #, c-format
 msgid ""
 "Food:     %15d (kcal)\n"
@@ -613645,7 +613977,7 @@ msgstr ""
 "食物:     %15d (千卡)\n"
 "\n"
 
-#: src/faction_camp.cpp:5423
+#: src/faction_camp.cpp:5444
 #, c-format
 msgid ""
 "Skill used: %s\n"
@@ -613655,7 +613987,7 @@ msgid ""
 "Calories per craft: %s\n"
 msgstr ""
 
-#: src/faction_camp.cpp:5489
+#: src/faction_camp.cpp:5510
 #, c-format
 msgid ""
 "Notes:\n"
@@ -613690,179 +614022,179 @@ msgstr ""
 "時間：4 天\n"
 "職缺：%d / 1\n"
 
-#: src/faction_camp.cpp:5541
+#: src/faction_camp.cpp:5562
 msgid "Harvestable: "
 msgstr "可收穫的："
 
-#: src/faction_camp.cpp:5544
+#: src/faction_camp.cpp:5565
 msgid "Ready for Planting: "
 msgstr "能播種的："
 
-#: src/faction_camp.cpp:5547
+#: src/faction_camp.cpp:5568
 msgid "Needs Plowing: "
 msgstr "需要犁田："
 
-#: src/faction_camp.cpp:5645
+#: src/faction_camp.cpp:5666
 msgid "You are too full to eat right now, and put the meal back into storage."
 msgstr ""
 
-#: src/faction_camp.cpp:5646
+#: src/faction_camp.cpp:5667
 msgid ""
 "<npcname> is too full to eat right now, and puts the meal back into storage."
 msgstr ""
 
-#: src/faction_camp.cpp:5656
+#: src/faction_camp.cpp:5677
 #, c-format
 msgid ""
 "%s takes one look at the food and declines, explaining they're allergic."
 msgstr ""
 
-#: src/faction_camp.cpp:5662
+#: src/faction_camp.cpp:5683
 #, c-format
 msgid ""
 "%s takes a bite but spits it out.  It seems something in the food disagrees "
 "with them."
 msgstr ""
 
-#: src/faction_camp.cpp:5668
+#: src/faction_camp.cpp:5689
 #, c-format
 msgid ""
 "%s thanks you for the meal, but when they see what's in the meal their "
 "attitude suddenly changes!"
 msgstr ""
 
-#: src/faction_camp.cpp:5728
+#: src/faction_camp.cpp:5749
 msgid "You do not have a camp food zone.  Aborting…"
 msgstr "你沒有 [營寨：儲糧] 區。中止..."
 
-#: src/faction_camp.cpp:5738
+#: src/faction_camp.cpp:5759
 msgid ""
 "Do you also wish to distribute comestibles without any calorie value (i.e. "
 "multivitamins, mutagens)?"
 msgstr ""
 
-#: src/faction_camp.cpp:5845
+#: src/faction_camp.cpp:5866
 msgid "No suitable items are located at the drop points…"
 msgstr "放置點沒有適合的物品..."
 
-#: src/faction_camp.cpp:5852
+#: src/faction_camp.cpp:5873
 #, c-format
 msgid "You distribute %d kcal worth of food to your companions."
 msgstr "你分配了%d千卡的儲糧給你的同伴們。"
 
-#: src/faction_camp.cpp:5855
+#: src/faction_camp.cpp:5876
 msgid "You distribute vitamins and medicine to your companions."
 msgstr ""
 
-#: src/faction_camp.cpp:5921
+#: src/faction_camp.cpp:5942
 msgid "<No longer valid construction>"
 msgstr "<No longer valid construction>"
 
-#: src/faction_camp.cpp:5942
+#: src/faction_camp.cpp:5963
 msgid " <Unsupported recipe>"
 msgstr "<Unsupported recipe>"
 
-#: src/faction_camp.cpp:5966
+#: src/faction_camp.cpp:5987
 msgid "Select mission(s) to reveal, escape when done"
 msgstr ""
 
-#: src/faction_camp.cpp:5969 src/faction_camp.cpp:6013
+#: src/faction_camp.cpp:5990 src/faction_camp.cpp:6034
 msgid "You're done for now…"
 msgstr ""
 
-#: src/faction_camp.cpp:6010
+#: src/faction_camp.cpp:6031
 msgid "Select mission(s) to hide, escape when done"
 msgstr ""
 
-#: src/faction_camp.cpp:6053
+#: src/faction_camp.cpp:6074
 msgid ""
 "No eligible locations found to place resulting liquids, placing them at random.\n"
 "\n"
 "Eligible locations must be a terrain OR furniture (not item) that can contain liquid, and does not already have any items on its tile."
 msgstr ""
 
-#: src/faction_camp.cpp:6078
+#: src/faction_camp.cpp:6099
 #, c-format
 msgid "While %s, a silent specter approaches %s…"
 msgstr "正當%s，一個無聲的幽靈接近%s..."
 
-#: src/faction_camp.cpp:6082
+#: src/faction_camp.cpp:6103
 #, c-format
 msgid ""
 "%s notices the antlered horror and slips away before it gets too close."
 msgstr "%s注意到了恐怖鹿角獸，並在它靠近前就悄悄溜開了。"
 
-#: src/faction_camp.cpp:6086
+#: src/faction_camp.cpp:6107
 #, c-format
 msgid "Another survivor approaches %s asking for directions."
 msgstr "另一名倖存者接近%s來問路。"
 
-#: src/faction_camp.cpp:6087
+#: src/faction_camp.cpp:6108
 #, c-format
 msgid ""
 "Fearful that he may be an agent of some hostile faction, %s doesn't mention "
 "the camp."
 msgstr "他擔心他可能是一些敵對陣營的間諜，%s沒有提到那營寨。"
 
-#: src/faction_camp.cpp:6089
+#: src/faction_camp.cpp:6110
 msgid "The two part on friendly terms and the survivor isn't seen again."
 msgstr ""
 
-#: src/faction_camp.cpp:6092
+#: src/faction_camp.cpp:6113
 #, c-format
 msgid "%s didn't detect the ambush until it was too late!"
 msgstr "%s 發現遭受伏擊已為時已晚！"
 
-#: src/faction_camp.cpp:6102
+#: src/faction_camp.cpp:6123
 #, c-format
 msgid "The bull moose charged %s from the tree line…"
 msgstr "駝鹿從樹林間衝出朝向%s進攻..."
 
-#: src/faction_camp.cpp:6103
+#: src/faction_camp.cpp:6124
 #, c-format
 msgid ""
 "Despite being caught off guard %s was able to run away until the moose gave "
 "up pursuit."
 msgstr ""
 
-#: src/faction_camp.cpp:6106
+#: src/faction_camp.cpp:6127
 #, c-format
 msgid "The jabberwock grabbed %s by the arm from behind and began to scream."
 msgstr ""
 
-#: src/faction_camp.cpp:6108
+#: src/faction_camp.cpp:6129
 #, c-format
 msgid ""
 "Terrified, %s spun around and delivered a massive kick to the creature's "
 "torso…"
 msgstr "嚇死了，%s轉過身然後大力的踢向那個生物的軀體..."
 
-#: src/faction_camp.cpp:6110
+#: src/faction_camp.cpp:6131
 #, c-format
 msgid "Collapsing into a pile of gore, %s walked away unscathed…"
 msgstr "崩成一堆血塊，%s毫髮無傷的走開了..."
 
-#: src/faction_camp.cpp:6112
+#: src/faction_camp.cpp:6133
 msgid "(Sounds like bullshit, you wonder what really happened.)"
 msgstr "（聽起來像胡說八道，你想知道到底發生了什麼。）"
 
-#: src/faction_camp.cpp:6117
+#: src/faction_camp.cpp:6138
 #, c-format
 msgid ""
 "%s turned to find the hideous black eyes of a giant wasp staring back from "
 "only a few feet away…"
 msgstr ""
 
-#: src/faction_camp.cpp:6119
+#: src/faction_camp.cpp:6140
 msgid "The screams were terrifying, there was nothing anyone could do."
 msgstr "發出了可怕的尖叫聲，所有人都無能為力。"
 
-#: src/faction_camp.cpp:6121
+#: src/faction_camp.cpp:6142
 #, c-format
 msgid "Pieces of %s were found strewn across a few bushes."
 msgstr "好幾塊 %s被發現散布在幾個灌木中。"
 
-#: src/faction_camp.cpp:6122
+#: src/faction_camp.cpp:6143
 msgid "(You wonder if your companions are fit to work on their own…)"
 msgstr "（你想知道你的同伴是否適合被指派的工作...）"
 
@@ -614289,7 +614621,7 @@ msgstr "發現敵對生存者!"
 msgid "Monsters spotted!"
 msgstr "發現怪物!"
 
-#: src/game.cpp:4638 src/handle_action.cpp:2731
+#: src/game.cpp:4638 src/handle_action.cpp:2746
 msgid "Safe mode ON!"
 msgstr "安全模式啟動!"
 
@@ -615226,17 +615558,17 @@ msgstr "你沒有心情, 而且光想像如何作業, 就讓你還沒開始就�
 msgid "%s helps with this task…"
 msgstr "%s 幫忙這項工作..."
 
-#: src/game.cpp:9868 src/handle_action.cpp:2627
+#: src/game.cpp:9868 src/handle_action.cpp:2642
 #, c-format
 msgid "Cleared ammo preferences for %s."
 msgstr "重置%s的預設彈藥。"
 
-#: src/game.cpp:9871 src/handle_action.cpp:2630
+#: src/game.cpp:9871 src/handle_action.cpp:2645
 #, c-format
 msgid "Selected %s as default ammo for %s."
 msgstr "選擇%s作為%s的預設彈藥。"
 
-#: src/game.cpp:9874 src/handle_action.cpp:2635
+#: src/game.cpp:9874 src/handle_action.cpp:2650
 msgid "You need to keep that ammo on you to select it as default ammo."
 msgstr "只能選取身上的彈藥作為預設彈藥。"
 
@@ -616260,7 +616592,7 @@ msgid "Can't consume spilt gasses."
 msgstr "無法食用洩漏的氣體。"
 
 #: src/game_inventory.cpp:798 src/game_inventory.cpp:1146
-#: src/iuse_actor.cpp:3677
+#: src/iuse_actor.cpp:3682
 msgid "Your biology is not compatible with that item."
 msgstr "你的身體與這東西不相容。"
 
@@ -616949,7 +617281,7 @@ msgstr "傷害"
 msgid "PIERCE"
 msgstr "穿刺"
 
-#: src/game_inventory.cpp:2924 src/veh_appliance.cpp:397
+#: src/game_inventory.cpp:2924 src/veh_appliance.cpp:398
 #: src/veh_interact.cpp:1335
 #, c-format
 msgid "Refill %s"
@@ -617398,655 +617730,655 @@ msgstr ""
 msgid "Select items to haul"
 msgstr ""
 
-#: src/handle_action.cpp:911
+#: src/handle_action.cpp:917
 msgid "Smash where?"
 msgstr "砸哪邊?"
 
-#: src/handle_action.cpp:925
+#: src/handle_action.cpp:941
 msgid "Keep smashing until destroyed?"
 msgstr "繼續砸到摧毀它為止嗎？"
 
-#: src/handle_action.cpp:983 src/handle_action.cpp:1111
-#: src/handle_action.cpp:1114
+#: src/handle_action.cpp:999 src/handle_action.cpp:1126
+#: src/handle_action.cpp:1129
 #, c-format
 msgid "You don't seem to be damaging the %s."
 msgstr "你看起來沒有對 %s 造成任何損傷。"
 
-#: src/handle_action.cpp:1013
+#: src/handle_action.cpp:1028
 msgid "Are you sure you want to pulp an acid filled corpse?"
 msgstr "你確定你要砸爛充滿酸液的屍體？"
 
-#: src/handle_action.cpp:1046
+#: src/handle_action.cpp:1061
 #, c-format
 msgid "You use your %s to smash the %s."
 msgstr "你用你的 %s 砸向 %s。"
 
-#: src/handle_action.cpp:1077 src/melee.cpp:2297 src/melee.cpp:2299
+#: src/handle_action.cpp:1092 src/melee.cpp:2297 src/melee.cpp:2299
 #, c-format
 msgid "Your %s shatters!"
 msgstr "你的 %s 粉碎了!"
 
-#: src/handle_action.cpp:1120
+#: src/handle_action.cpp:1135
 msgid "There's nothing there to smash!"
 msgstr "那裡沒有什麼可讓你砸爛!"
 
-#: src/handle_action.cpp:1132
+#: src/handle_action.cpp:1147
 msgid "You already have an alarm set.  What do you want to do?"
 msgstr "你有一套鬧鐘。你想做什麼？"
 
-#: src/handle_action.cpp:1133
+#: src/handle_action.cpp:1148
 msgid "You have an alarm clock.  What do you want to do?"
 msgstr "你有個鬧鐘。想做什麼？"
 
-#: src/handle_action.cpp:1136
+#: src/handle_action.cpp:1151
 msgid "Keep the alarm and wait a while"
 msgstr "保持鬧鐘並等待一段時間"
 
-#: src/handle_action.cpp:1137
+#: src/handle_action.cpp:1152
 msgid "Wait a while"
 msgstr "稍等片刻"
 
-#: src/handle_action.cpp:1139
+#: src/handle_action.cpp:1154
 msgid "Change your alarm"
 msgstr "調整鬧鐘"
 
-#: src/handle_action.cpp:1140
+#: src/handle_action.cpp:1155
 msgid "Set an alarm for later"
 msgstr "調整鈴響時間"
 
-#: src/handle_action.cpp:1166
+#: src/handle_action.cpp:1181
 msgid "You can't pass time while controlling a moving vehicle."
 msgstr "在駕駛車輛時無法進行空等讓時間流逝。"
 
-#: src/handle_action.cpp:1205
+#: src/handle_action.cpp:1220
 msgid "Wait until you catch your breath"
 msgstr "等到你呼吸順暢"
 
-#: src/handle_action.cpp:1208
+#: src/handle_action.cpp:1223
 msgid "Wait 20 heartbeats"
 msgstr ""
 
-#: src/handle_action.cpp:1209
+#: src/handle_action.cpp:1224
 msgid "Wait 60 heartbeats"
 msgstr ""
 
-#: src/handle_action.cpp:1210
+#: src/handle_action.cpp:1225
 msgid "Wait 300 heartbeats"
 msgstr "等待 300 次心跳"
 
-#: src/handle_action.cpp:1211
+#: src/handle_action.cpp:1226
 msgid "Wait 1800 heartbeats"
 msgstr "等待 1800 次心跳"
 
-#: src/handle_action.cpp:1232
+#: src/handle_action.cpp:1247
 msgid "Set alarm for dawn"
 msgstr "設定黎明時響鈴"
 
-#: src/handle_action.cpp:1232
+#: src/handle_action.cpp:1247
 msgid "Wait till daylight"
 msgstr "等到天亮"
 
-#: src/handle_action.cpp:1235
+#: src/handle_action.cpp:1250
 msgid "Set alarm for noon"
 msgstr "設定正午時響鈴"
 
-#: src/handle_action.cpp:1235
+#: src/handle_action.cpp:1250
 msgid "Wait till noon"
 msgstr "等到中午"
 
-#: src/handle_action.cpp:1238
+#: src/handle_action.cpp:1253
 msgid "Set alarm for dusk"
 msgstr "設定黃昏時響鈴"
 
-#: src/handle_action.cpp:1238
+#: src/handle_action.cpp:1253
 msgid "Wait till night"
 msgstr "等到晚上"
 
-#: src/handle_action.cpp:1241
+#: src/handle_action.cpp:1256
 msgid "Set alarm for midnight"
 msgstr "設定子夜時響鈴"
 
-#: src/handle_action.cpp:1241
+#: src/handle_action.cpp:1256
 msgid "Wait till midnight"
 msgstr "等到半夜"
 
-#: src/handle_action.cpp:1245
+#: src/handle_action.cpp:1260
 msgid "Cancel the currently set alarm."
 msgstr "取消目前鬧鐘的設定。"
 
-#: src/handle_action.cpp:1249
+#: src/handle_action.cpp:1264
 msgid "Wait till weather changes"
 msgstr "等到天氣改變"
 
-#: src/handle_action.cpp:1254
+#: src/handle_action.cpp:1269
 #, c-format
 msgid "It's %s now.  "
 msgstr "已經是%s了。"
 
-#: src/handle_action.cpp:1256
+#: src/handle_action.cpp:1271
 msgid "Set alarm for when?"
 msgstr "設定何時響鈴？"
 
-#: src/handle_action.cpp:1256
+#: src/handle_action.cpp:1271
 msgid "Wait for how long?"
 msgstr "要等待多久?"
 
-#: src/handle_action.cpp:1269
+#: src/handle_action.cpp:1284
 msgid "You cancel your alarm."
 msgstr "你取消鬧鐘的設定。"
 
-#: src/handle_action.cpp:1272
+#: src/handle_action.cpp:1287
 msgid "You set your alarm."
 msgstr "你設定了鬧鐘。"
 
-#: src/handle_action.cpp:1299
+#: src/handle_action.cpp:1314
 msgid "You can't sleep while controlling a vehicle."
 msgstr ""
 
-#: src/handle_action.cpp:1303
+#: src/handle_action.cpp:1318
 msgid "You cannot sleep while mounted."
 msgstr "騎乘時無法睡覺。"
 
-#: src/handle_action.cpp:1313
+#: src/handle_action.cpp:1328
 msgid "You cannot sleep while swimming."
 msgstr "你不能在游泳時睡覺。"
 
-#: src/handle_action.cpp:1317
+#: src/handle_action.cpp:1332
 msgid "You cannot sleep while airborne."
 msgstr ""
 
-#: src/handle_action.cpp:1323
+#: src/handle_action.cpp:1338
 msgid "Are you sure you want to sleep?"
 msgstr "你確定要睡覺嗎？"
 
-#: src/handle_action.cpp:1330
+#: src/handle_action.cpp:1345
 msgid "Yes, and save game before sleeping."
 msgstr "是, 睡覺前先存檔。"
 
-#: src/handle_action.cpp:1370
+#: src/handle_action.cpp:1385
 #, c-format
 msgid "You stop playing your %s before trying to sleep."
 msgstr "嘗試入睡前，你停止演奏 %s 。"
 
-#: src/handle_action.cpp:1381
+#: src/handle_action.cpp:1396
 msgid "You may want to extinguish or turn off:"
 msgstr "你也許會想要熄滅或關掉："
 
-#: src/handle_action.cpp:1405
+#: src/handle_action.cpp:1420
 msgid "<color_c_red> (DEAF!)</color>"
 msgstr "<color_c_red>(失聰!)</color>"
 
-#: src/handle_action.cpp:1414
+#: src/handle_action.cpp:1429
 msgid ""
 "You're engorged to hibernate.  The alarm would only attract attention.  Set "
 "an alarm anyway?"
 msgstr "你已經準備好要冬眠了。鬧鐘只會引起周邊注意而叫不醒你。仍要設定鬧鐘？"
 
-#: src/handle_action.cpp:1416
+#: src/handle_action.cpp:1431
 msgid "You have an alarm clock.  Set an alarm?"
 msgstr "你有個鬧鐘，要設定鬧鈴嗎？"
 
-#: src/handle_action.cpp:1421
+#: src/handle_action.cpp:1436
 msgid "No, don't set an alarm."
 msgstr "不, 別設定鬧鈴。"
 
-#: src/handle_action.cpp:1425
+#: src/handle_action.cpp:1440
 #, c-format
 msgid "Set alarm to wake up in %i hours."
 msgstr "設定 %i 小時的鬧鐘。"
 
-#: src/handle_action.cpp:1506
+#: src/handle_action.cpp:1521
 msgid "There is no compatible zone nearby."
 msgstr "附近沒有相容的區域。"
 
-#: src/handle_action.cpp:1507
+#: src/handle_action.cpp:1522
 #, c-format
 msgid "Compatible zones are %s and %s"
 msgstr "相容的的區域為 %s 與 %s"
 
-#: src/handle_action.cpp:1518
+#: src/handle_action.cpp:1533
 msgid "Pick action:"
 msgstr "選擇行動："
 
-#: src/handle_action.cpp:1522
+#: src/handle_action.cpp:1537
 msgid "Sort out my loot (static zones only)"
 msgstr "整理物品（固定區域）"
 
-#: src/handle_action.cpp:1523
+#: src/handle_action.cpp:1538
 msgid ""
 "Sorts out the loot from Loot: Unsorted zone to nearby appropriate Loot zones"
 " ignoring personal zones.  Uses empty space in your inventory or utilizes a "
 "cart, if you are holding one."
 msgstr "把 [物資：未整理] 區域內的物資整理到附近的合適的分類區域，除了個人區域。使用物品欄的空餘空間或拖行中的購物車來進行搬運。"
 
-#: src/handle_action.cpp:1524
+#: src/handle_action.cpp:1539
 msgid "Sort out my loot (personal zones only)"
 msgstr "整理物品（個人區域）"
 
-#: src/handle_action.cpp:1525
+#: src/handle_action.cpp:1540
 msgid ""
 "Sorts out the loot from Loot: Unsorted zone to nearby appropriate Loot zones"
 " ignoring static zones.  Uses empty space in your inventory or utilizes a "
 "cart, if you are holding one."
 msgstr "把 [物資：未整理] 區域內的物資整理到附近的合適的分類區域，除了固定區域。使用物品欄的空餘空間或拖行中的購物車來進行搬運。"
 
-#: src/handle_action.cpp:1526
+#: src/handle_action.cpp:1541
 msgid "Sort out my loot (all)"
 msgstr "整理物品（全部）"
 
-#: src/handle_action.cpp:1527
+#: src/handle_action.cpp:1542
 msgid ""
 "Sorts out the loot from Loot: Unsorted zone to nearby appropriate Loot "
 "zones.  Uses empty space in your inventory or utilizes a cart, if you are "
 "holding one."
 msgstr "把 [物資：未整理] 區域內的物資整理到附近的合適的分類區域。使用物品欄的空餘空間或拖行中的購物車來進行搬運。"
 
-#: src/handle_action.cpp:1531
+#: src/handle_action.cpp:1546
 msgid "Unload nearby containers"
 msgstr "清空附近容器"
 
-#: src/handle_action.cpp:1532
+#: src/handle_action.cpp:1547
 msgid "Unloads any corpses or containers that are in their respective zones."
 msgstr "清空對應區域內任何屍體或容器。"
 
-#: src/handle_action.cpp:1537
+#: src/handle_action.cpp:1552
 msgid "Fertilize plots"
 msgstr "施肥農地"
 
-#: src/handle_action.cpp:1537
+#: src/handle_action.cpp:1552
 msgid "Fertilize plots… you don't have any fertilizer"
 msgstr "施肥農地,,,你沒有任何肥料"
 
-#: src/handle_action.cpp:1538
+#: src/handle_action.cpp:1553
 msgid "Fertilize any nearby Farm: Plot zones."
 msgstr "施肥附近農場：田地區域。"
 
-#: src/handle_action.cpp:1542
+#: src/handle_action.cpp:1557
 msgid "Construct plots"
 msgstr "建造田地"
 
-#: src/handle_action.cpp:1543
+#: src/handle_action.cpp:1558
 msgid "Work on any nearby Blueprint: construction zones."
 msgstr "在附近的任何 [建造：藍圖] 中工作：建設區域。"
 
-#: src/handle_action.cpp:1546
+#: src/handle_action.cpp:1561
 msgid "Farm plots"
 msgstr "農場田地"
 
-#: src/handle_action.cpp:1547
+#: src/handle_action.cpp:1562
 msgid "Till and plant on any nearby farm plots - auto-fetch seeds and tools."
 msgstr "在附近的任何 [農田：田地] 上耕犁和種植 - 自動拿取種子與工具。"
 
-#: src/handle_action.cpp:1550
+#: src/handle_action.cpp:1565
 msgid "Chop trees"
 msgstr "砍伐樹木"
 
-#: src/handle_action.cpp:1551
+#: src/handle_action.cpp:1566
 msgid "Chop down any trees in the designated zone - auto-fetch tools."
 msgstr "砍倒 [砍伐樹木] 區域中的所有樹木 - 自動拿取工具。"
 
-#: src/handle_action.cpp:1554
+#: src/handle_action.cpp:1569
 msgid "Chop planks"
 msgstr "劈製角材"
 
-#: src/handle_action.cpp:1555
+#: src/handle_action.cpp:1570
 msgid "Auto-chop logs in wood loot zones into planks - auto-fetch tools."
 msgstr "自動砍伐 [物資：木頭] 區域內的所有原木 - 自動拿取工具。"
 
-#: src/handle_action.cpp:1558
+#: src/handle_action.cpp:1573
 msgid "Deconstruct vehicle"
 msgstr "拆解車輛"
 
-#: src/handle_action.cpp:1559
+#: src/handle_action.cpp:1574
 msgid "Auto-deconstruct vehicle in designated zone - auto-fetch tools."
 msgstr "自動拆解 [車輛拆解區] 區域內的所有車輛 - 自動拿取工具。"
 
-#: src/handle_action.cpp:1562
+#: src/handle_action.cpp:1577
 msgid "Repair vehicle"
 msgstr "修理車輛"
 
-#: src/handle_action.cpp:1563
+#: src/handle_action.cpp:1578
 msgid "Auto-repair vehicle in designated zone - auto-fetch tools."
 msgstr "自動修理 [車輛維修區] 區域內的所有車輛 - 自動拿取工具。"
 
-#: src/handle_action.cpp:1566
+#: src/handle_action.cpp:1581
 msgid "Butcher corpses"
 msgstr "屠宰屍體"
 
-#: src/handle_action.cpp:1567
+#: src/handle_action.cpp:1582
 msgid "Auto-butcher anything in corpse loot zones - auto-fetch tools."
 msgstr "自動屠宰 [物資：屍體] 區域內所有屍體 - 自動拿取工具。"
 
-#: src/handle_action.cpp:1570
+#: src/handle_action.cpp:1585
 msgid "Mine Area"
 msgstr "礦區"
 
-#: src/handle_action.cpp:1571
+#: src/handle_action.cpp:1586
 msgid "Auto-mine anything in mining zone - auto-fetch tools."
 msgstr "自動挖掘挖礦區中的任何東西——自動拿取工具"
 
-#: src/handle_action.cpp:1575
+#: src/handle_action.cpp:1590
 msgid "Auto-disassemble anything in disassembly zone - auto-fetch tools."
 msgstr "自動拆解物品拆解區中的物品——自動拿取工具"
 
-#: src/handle_action.cpp:1579
+#: src/handle_action.cpp:1594
 msgid "Mop area"
 msgstr "拖地"
 
-#: src/handle_action.cpp:1579
+#: src/handle_action.cpp:1594
 msgid "Mop clean the area."
 msgstr "把地拖乾淨。"
 
-#: src/handle_action.cpp:1740
+#: src/handle_action.cpp:1755
 msgid "You refuse to use ranged weapons."
 msgstr ""
 
-#: src/handle_action.cpp:1744
+#: src/handle_action.cpp:1759
 msgid "You refuse to use firearms."
 msgstr ""
 
-#: src/handle_action.cpp:1769
+#: src/handle_action.cpp:1784
 msgid "Draw what?"
 msgstr "抽出什麼?"
 
-#: src/handle_action.cpp:1784
+#: src/handle_action.cpp:1799
 msgid "Change to which movement mode?"
 msgstr "切換至哪種行動模式？"
 
-#: src/handle_action.cpp:1795
+#: src/handle_action.cpp:1810
 msgid "Cycle move mode"
 msgstr "切換行動模式"
 
-#: src/handle_action.cpp:1819
+#: src/handle_action.cpp:1834
 msgid "You don't know any spells to cast."
 msgstr "你不會任何法術。"
 
-#: src/handle_action.cpp:1835
+#: src/handle_action.cpp:1850
 msgid "You can't cast any of the spells you know!"
 msgstr "你無法施展任何你知道的法術。"
 
-#: src/handle_action.cpp:1839
+#: src/handle_action.cpp:1854
 msgid "You can't channel any of the powers you know!"
 msgstr ""
 
-#: src/handle_action.cpp:1842
+#: src/handle_action.cpp:1857
 msgid "You can't use any of your powers!"
 msgstr ""
 
-#: src/handle_action.cpp:1861
+#: src/handle_action.cpp:1876
 msgid "You need your hands free to cast this spell!"
 msgstr "你必須空出雙手才能施展法術！"
 
-#: src/handle_action.cpp:1867
+#: src/handle_action.cpp:1882
 #, c-format
 msgid "You don't have enough %s to cast the spell."
 msgstr "你沒有足夠的 %s 來施放法術。"
 
-#: src/handle_action.cpp:1875
+#: src/handle_action.cpp:1890
 msgid "You can't focus enough to cast spell."
 msgstr "你無法集中精力來施放法術。"
 
-#: src/handle_action.cpp:1881
+#: src/handle_action.cpp:1896
 msgid "You cannot cast Blood Magic without a cutting implement."
 msgstr ""
 
-#: src/handle_action.cpp:1936
+#: src/handle_action.cpp:1951
 msgid "What do you want to consume?"
 msgstr "你要使用什麼？"
 
-#: src/handle_action.cpp:1940
+#: src/handle_action.cpp:1955
 msgid "Medication"
 msgstr "藥物"
 
-#: src/handle_action.cpp:1966
+#: src/handle_action.cpp:1981
 #, c-format
 msgid "Debug Mode (%1$s)"
 msgstr "Debug 模式（%1$s）"
 
-#: src/handle_action.cpp:1999
+#: src/handle_action.cpp:2014
 msgid "Debug Mode Filters"
 msgstr "Debug 模式篩選"
 
-#: src/handle_action.cpp:2000
+#: src/handle_action.cpp:2015
 #, c-format
 msgid "Press [%1$s] to quickly toggle debug mode."
 msgstr "按［%1$s］快速切換Debug模式。"
 
-#: src/handle_action.cpp:2008
+#: src/handle_action.cpp:2023
 msgid "Toggle all filters"
 msgstr "切換所有篩選"
 
-#: src/handle_action.cpp:2043
+#: src/handle_action.cpp:2058
 msgid "Debug mode ON!"
 msgstr "除錯模式啟動!"
 
-#: src/handle_action.cpp:2045
+#: src/handle_action.cpp:2060
 msgid "Debug mode OFF!"
 msgstr "除錯模式關閉!"
 
-#: src/handle_action.cpp:2150
+#: src/handle_action.cpp:2165
 msgid "You can't open things while you're in your shell."
 msgstr "你在殼中的時候不能打開東西。"
 
-#: src/handle_action.cpp:2151
+#: src/handle_action.cpp:2166
 msgid "You can't close things while you're in your shell."
 msgstr "你在殼中的時候不能關閉東西。"
 
-#: src/handle_action.cpp:2152
+#: src/handle_action.cpp:2167
 msgid "You can't smash things while you're in your shell."
 msgstr "你在殼中的時候不能砸東西。"
 
-#: src/handle_action.cpp:2153 src/handle_action.cpp:2154
+#: src/handle_action.cpp:2168 src/handle_action.cpp:2169
 msgid "You can't examine your surroundings while you're in your shell."
 msgstr "你在殼中的時候不能環顧四周。"
 
-#: src/handle_action.cpp:2155
+#: src/handle_action.cpp:2170
 msgid "You can't move mass quantities while you're in your shell."
 msgstr "你無法在殼中時移動大量東西。"
 
-#: src/handle_action.cpp:2156 src/handle_action.cpp:2157
+#: src/handle_action.cpp:2171 src/handle_action.cpp:2172
 msgid "You can't pick anything up while you're in your shell."
 msgstr "你在殼中的時候不能撿起東西。"
 
-#: src/handle_action.cpp:2158
+#: src/handle_action.cpp:2173
 msgid "You can't grab things while you're in your shell."
 msgstr "你在殼中的時候不能抓取東西。"
 
-#: src/handle_action.cpp:2159 src/handle_action.cpp:2160
+#: src/handle_action.cpp:2174 src/handle_action.cpp:2175
 msgid "You can't haul things while you're in your shell."
 msgstr "你在殼中的時候不能搬運物品。"
 
-#: src/handle_action.cpp:2161
+#: src/handle_action.cpp:2176
 msgid "You can't butcher while you're in your shell."
 msgstr "你在殼中的時候不能進行屠宰。"
 
-#: src/handle_action.cpp:2162
+#: src/handle_action.cpp:2177
 msgid "You can't peek around corners while you're in your shell."
 msgstr "你在殼中的時候不能窺視轉角。"
 
-#: src/handle_action.cpp:2163
+#: src/handle_action.cpp:2178
 msgid "You can't drop things while you're in your shell."
 msgstr ""
 
-#: src/handle_action.cpp:2164 src/handle_action.cpp:2165
-#: src/handle_action.cpp:2166 src/iexamine.cpp:7265 src/iexamine.cpp:7275
+#: src/handle_action.cpp:2179 src/handle_action.cpp:2180
+#: src/handle_action.cpp:2181 src/iexamine.cpp:7265 src/iexamine.cpp:7275
 #: src/iexamine.cpp:7285
 msgid "You can't craft while you're in your shell."
 msgstr "你在殼中的時候不能進行製作。"
 
-#: src/handle_action.cpp:2167
+#: src/handle_action.cpp:2182
 msgid "You can't disassemble while you're in your shell."
 msgstr "你在殼中的時候不能進行拆解。"
 
-#: src/handle_action.cpp:2168
+#: src/handle_action.cpp:2183
 msgid "You can't construct while you're in your shell."
 msgstr "你在殼中的時候不能進行建造。"
 
-#: src/handle_action.cpp:2169
+#: src/handle_action.cpp:2184
 msgid "You can't operate a vehicle while you're in your shell."
 msgstr "你在殼中的時候不能控制車輛。"
 
-#: src/handle_action.cpp:2195
+#: src/handle_action.cpp:2210
 msgid "You can't disassemble items while you're riding."
 msgstr "騎乘時不能拆解物品。"
 
-#: src/handle_action.cpp:2196
+#: src/handle_action.cpp:2211
 msgid "You can't construct while you're riding."
 msgstr "騎乘時不能進行建造。"
 
-#: src/handle_action.cpp:2197
+#: src/handle_action.cpp:2212
 msgid "You can't open things while you're riding."
 msgstr "騎乘時不能打開東西。"
 
-#: src/handle_action.cpp:2198
+#: src/handle_action.cpp:2213
 msgid "You can't move mass quantities while you're riding."
 msgstr "騎乘時無法移動大量東西。"
 
-#: src/handle_action.cpp:2199 src/handle_action.cpp:2200
+#: src/handle_action.cpp:2214 src/handle_action.cpp:2215
 msgid "You can't pick anything up while you're riding."
 msgstr "騎乘時不能撿起東西。"
 
-#: src/handle_action.cpp:2201
+#: src/handle_action.cpp:2216
 msgid "You can't grab things while you're riding."
 msgstr "騎乘時不能抓取東西。"
 
-#: src/handle_action.cpp:2202 src/handle_action.cpp:2203
+#: src/handle_action.cpp:2217 src/handle_action.cpp:2218
 msgid "You can't haul things while you're riding."
 msgstr "騎乘時不能搬運物品。"
 
-#: src/handle_action.cpp:2204
+#: src/handle_action.cpp:2219
 msgid "You can't butcher while you're riding."
 msgstr "騎乘時不能進行屠宰。"
 
-#: src/handle_action.cpp:2205
+#: src/handle_action.cpp:2220
 msgid "You can't peek around corners while you're riding."
 msgstr "騎乘時不能窺視轉角。"
 
-#: src/handle_action.cpp:2206 src/handle_action.cpp:2207
-#: src/handle_action.cpp:2208
+#: src/handle_action.cpp:2221 src/handle_action.cpp:2222
+#: src/handle_action.cpp:2223
 msgid "You can't craft while you're riding."
 msgstr "騎乘時不能進行製作。"
 
-#: src/handle_action.cpp:2358
+#: src/handle_action.cpp:2373
 msgid "You can't go down stairs while you're riding."
 msgstr "騎乘時不能下樓梯。"
 
-#: src/handle_action.cpp:2407
+#: src/handle_action.cpp:2422
 msgid "You can't go up stairs while you're riding."
 msgstr "你不能在騎乘的時候上樓。"
 
-#: src/handle_action.cpp:2429
+#: src/handle_action.cpp:2444
 msgid "You can't close things while you're riding."
 msgstr "騎乘時不能關閉東西。"
 
-#: src/handle_action.cpp:2614
+#: src/handle_action.cpp:2629
 #, c-format
 msgid "Your %s has only one firing mode."
 msgstr ""
 
-#: src/handle_action.cpp:2654
+#: src/handle_action.cpp:2669
 msgid "Drop where?"
 msgstr "丟棄到哪邊?"
 
-#: src/handle_action.cpp:2656
+#: src/handle_action.cpp:2671
 msgid "You can't drop things to another tile while you're in your shell."
 msgstr "你在殼中的時候不能丟棄東西到鄰近格子。"
 
-#: src/handle_action.cpp:2691
+#: src/handle_action.cpp:2706
 msgid "You can't disassemble items while driving."
 msgstr "你無法邊駕駛邊拆解物品。"
 
-#: src/handle_action.cpp:2699
+#: src/handle_action.cpp:2714
 msgid "You can't construct while in a vehicle."
 msgstr "你不能在車輛上進行建造。"
 
-#: src/handle_action.cpp:2716
+#: src/handle_action.cpp:2731
 msgid "You refuse to take control of this vehicle."
 msgstr "你拒絕操控這輛載具。"
 
-#: src/handle_action.cpp:2724
+#: src/handle_action.cpp:2739
 msgid "Auto travel mode OFF!"
 msgstr "自動旅行模式關閉！"
 
-#: src/handle_action.cpp:2724
+#: src/handle_action.cpp:2739
 msgid "Auto travel mode ON!"
 msgstr "自動旅行模式開啟！"
 
-#: src/handle_action.cpp:2736
+#: src/handle_action.cpp:2751
 msgid "Safe mode OFF!"
 msgstr "安全模式關閉!"
 
-#: src/handle_action.cpp:2736
+#: src/handle_action.cpp:2751
 msgid "Safe mode OFF!  (Auto safe mode still enabled!)"
 msgstr "安全模式關閉！（自動安全模式仍然啟用！）"
 
-#: src/handle_action.cpp:2752
+#: src/handle_action.cpp:2767
 msgid "Ignoring enemy!"
 msgstr "忽略敵人!"
 
-#: src/handle_action.cpp:2760
+#: src/handle_action.cpp:2775
 msgid "You make the sign of the cross."
 msgstr "你在胸前畫了個十字。"
 
-#: src/handle_action.cpp:2762
+#: src/handle_action.cpp:2777
 msgid "Ignoring laser targeting!"
 msgstr "忽略正被雷射瞄準!"
 
-#: src/handle_action.cpp:2773
+#: src/handle_action.cpp:2788
 #, c-format
 msgid "Creature whitelisted: %s"
 msgstr "白名單中的生物: %s"
 
-#: src/handle_action.cpp:2786
+#: src/handle_action.cpp:2801
 msgid "Abandon this character?"
 msgstr "要放棄這個角色嗎?"
 
-#: src/handle_action.cpp:2787
+#: src/handle_action.cpp:2802
 msgid "This will kill your character.  Continue?"
 msgstr "這會殺掉你的角色，真的要繼續?"
 
-#: src/handle_action.cpp:2796
+#: src/handle_action.cpp:2811
 msgid "Save and quit?"
 msgstr "存檔並退出?"
 
-#: src/handle_action.cpp:2823
+#: src/handle_action.cpp:2838
 msgid "You have no idea where you are."
 msgstr "你不知道自己在哪裡。"
 
-#: src/handle_action.cpp:2831
+#: src/handle_action.cpp:2846
 msgid "You can't see the sky from here."
 msgstr "你在這裡無法看到天空。"
 
 #. ~ Thief mode cycled between THIEF_ASK/THIEF_HONEST/THIEF_STEAL
-#: src/handle_action.cpp:2940
+#: src/handle_action.cpp:2955
 msgid "You will not pick up other peoples belongings."
 msgstr "你不會撿取其他人的財產。"
 
 #. ~ Thief mode cycled between THIEF_ASK/THIEF_HONEST/THIEF_STEAL
-#: src/handle_action.cpp:2945
+#: src/handle_action.cpp:2960
 msgid "You will pick up also those things that belong to others!"
 msgstr "你會撿取屬於他人的物品！"
 
 #. ~ Thief mode cycled between THIEF_ASK/THIEF_HONEST/THIEF_STEAL
-#: src/handle_action.cpp:2950
+#: src/handle_action.cpp:2965
 msgid "You will be reminded not to steal."
 msgstr "你會被提醒不要偷竊。"
 
-#: src/handle_action.cpp:2953
+#: src/handle_action.cpp:2968
 #, c-format
 msgid "THIEF_MODE CONTAINED BAD VALUE [ %s ]!"
 msgstr "THIEF_MODE 包含錯誤的數值 [ %s ]！"
 
-#: src/handle_action.cpp:3068
+#: src/handle_action.cpp:3083
 msgid "Auto-move canceled"
 msgstr "自動移動取消"
 
-#: src/handle_action.cpp:3225
+#: src/handle_action.cpp:3240
 #, c-format
 msgid "Unknown command: \"%s\" (%ld)"
 msgstr "未知的指令: '%s' (%ld)"
 
-#: src/handle_action.cpp:3229
+#: src/handle_action.cpp:3244
 #, c-format
 msgid ""
 "%s at any time to see and edit keybindings relevant to the current context."
@@ -628727,7 +629059,7 @@ msgstr "%s (用 %s 修理)"
 msgid "You don't have enough clean %s to do that.  Have: %d, need: %d"
 msgstr ""
 
-#: src/iuse_actor.cpp:2959 src/iuse_actor.cpp:5351
+#: src/iuse_actor.cpp:2959 src/iuse_actor.cpp:5356
 msgid "You do not have that item!"
 msgstr "你沒有那個物品!"
 
@@ -628753,7 +629085,7 @@ msgstr "你無法再繼續用這方法增進你的 %s。"
 msgid "You damage your %s!  ( %s-> %s)"
 msgstr "你弄壞了%s！（%s -> %s）"
 
-#: src/iuse_actor.cpp:3115 src/iuse_actor.cpp:5513
+#: src/iuse_actor.cpp:3115 src/iuse_actor.cpp:5518
 msgid "You destroy it!"
 msgstr "你毀了它。"
 
@@ -628813,783 +629145,787 @@ msgstr "修理"
 msgid "Repair %s"
 msgstr "修理 %s"
 
-#: src/iuse_actor.cpp:3367
+#: src/iuse_actor.cpp:3333
+msgid "Heal actor is missing any valid healing effect"
+msgstr ""
+
+#: src/iuse_actor.cpp:3372
 msgid "You can't use filthy items for healing."
 msgstr "你不能使用骯髒的物品進行治療。"
 
-#: src/iuse_actor.cpp:3520
+#: src/iuse_actor.cpp:3525
 msgid "The bleeding is stopped."
 msgstr "傷口停止流血了。"
 
-#: src/iuse_actor.cpp:3520
+#: src/iuse_actor.cpp:3525
 msgid "You stop the bleeding."
 msgstr "你止血了。"
 
-#: src/iuse_actor.cpp:3522
+#: src/iuse_actor.cpp:3527
 msgid "You reduce the bleeding, but it's not stopped yet."
 msgstr "你減少了傷口的流血程度，但還沒完全止血。"
 
-#: src/iuse_actor.cpp:3523
+#: src/iuse_actor.cpp:3528
 msgid "The bleeding is reduced, but not stopped."
 msgstr "傷口的流血減緩了，但還沒完全止住。"
 
-#: src/iuse_actor.cpp:3527
+#: src/iuse_actor.cpp:3532
 msgid ""
 "Your dressing is too ineffective for a bleeding of this extent, and you fail"
 " to stop it."
 msgstr "你的包紮對這種程度的流血沒太多效果，你止血失敗。"
 
-#: src/iuse_actor.cpp:3528
+#: src/iuse_actor.cpp:3533
 msgid "The wound still bleeds."
 msgstr "傷口仍在流血。"
 
-#: src/iuse_actor.cpp:3535
+#: src/iuse_actor.cpp:3540
 msgid "The wound is cleaned."
 msgstr "傷口已被清理了。"
 
-#: src/iuse_actor.cpp:3535
+#: src/iuse_actor.cpp:3540
 msgid "You clean the wound."
 msgstr "你清理了傷口。"
 
-#: src/iuse_actor.cpp:3537
+#: src/iuse_actor.cpp:3542
 msgid "The wound still looks bad."
 msgstr "傷口看起來還是有點糟。"
 
-#: src/iuse_actor.cpp:3537
+#: src/iuse_actor.cpp:3542
 msgid "Your wound still aches."
 msgstr "你的傷口還是很疼。"
 
-#: src/iuse_actor.cpp:3547
+#: src/iuse_actor.cpp:3552
 msgid "The wound is disinfected."
 msgstr "傷口已被消毒了。"
 
-#: src/iuse_actor.cpp:3547
+#: src/iuse_actor.cpp:3552
 msgid "You disinfect the wound."
 msgstr "你消毒了傷口。"
 
-#: src/iuse_actor.cpp:3549
+#: src/iuse_actor.cpp:3554
 msgid "The wound still looks nasty."
 msgstr "傷口看起來還是很糟。"
 
-#: src/iuse_actor.cpp:3549
+#: src/iuse_actor.cpp:3554
 msgid "Your wound still hurts."
 msgstr "你的傷口還是很痛。"
 
-#: src/iuse_actor.cpp:3555
+#: src/iuse_actor.cpp:3560
 #, c-format
 msgid "You finish using the %s."
 msgstr "你使用 %s 完畢。"
 
 #. ~ Healing complete message. %1$s is healer name, %2$s is item name.
-#: src/iuse_actor.cpp:3559
+#: src/iuse_actor.cpp:3564
 #, c-format
 msgid "%1$s finishes using the %2$s."
 msgstr "%1$s完成了使用%2$s。"
 
-#: src/iuse_actor.cpp:3639
+#: src/iuse_actor.cpp:3644
 msgid "You can't use first aid on a bionic limb."
 msgstr ""
 
-#: src/iuse_actor.cpp:3651
+#: src/iuse_actor.cpp:3656
 msgid "That arm is broken.  It needs surgical attention or a splint."
 msgstr "那手臂已經斷了。需要做手術或是裝上夾板才能恢復。"
 
-#: src/iuse_actor.cpp:3653
+#: src/iuse_actor.cpp:3658
 msgid "That leg is broken.  It needs surgical attention or a splint."
 msgstr "那腿已經斷了。需要做手術或是裝上夾板才能恢復。"
 
-#: src/iuse_actor.cpp:3678
+#: src/iuse_actor.cpp:3683
 msgid "<npcname>'s biology is not compatible with that item."
 msgstr "<npcname> 的身體與這東西不相容。"
 
-#: src/iuse_actor.cpp:3707
+#: src/iuse_actor.cpp:3712
 msgid "Select a body part for: "
 msgstr "選擇身體部位："
 
 #. ~ %1$s: patient name, %2$s: healing item name
-#: src/iuse_actor.cpp:3725
+#: src/iuse_actor.cpp:3730
 #, c-format
 msgctxt "healing"
 msgid "Select a body part of %1$s for %2$s:"
 msgstr "選擇 %1$s 的身體部位來使用 %2$s："
 
-#: src/iuse_actor.cpp:3739
+#: src/iuse_actor.cpp:3744
 msgid "<bold>Healing effects</bold> "
 msgstr "<bold>治療效果</bold>"
 
-#: src/iuse_actor.cpp:3744
+#: src/iuse_actor.cpp:3749
 msgid "Base healing: "
 msgstr "基礎治療："
 
-#: src/iuse_actor.cpp:3745 src/iuse_actor.cpp:3750
+#: src/iuse_actor.cpp:3750 src/iuse_actor.cpp:3755
 msgid "Head: "
 msgstr "頭部: "
 
-#: src/iuse_actor.cpp:3746 src/iuse_actor.cpp:3752
+#: src/iuse_actor.cpp:3751 src/iuse_actor.cpp:3757
 msgid "  Torso: "
 msgstr "軀幹: "
 
-#: src/iuse_actor.cpp:3747 src/iuse_actor.cpp:3754
+#: src/iuse_actor.cpp:3752 src/iuse_actor.cpp:3759
 msgid "  Limbs: "
 msgstr "肢體: "
 
-#: src/iuse_actor.cpp:3749
+#: src/iuse_actor.cpp:3754
 msgid "Actual healing: "
 msgstr "實際治療："
 
-#: src/iuse_actor.cpp:3760
+#: src/iuse_actor.cpp:3765
 msgid "Base bandaging quality: "
 msgstr "基礎包紮品質: "
 
-#: src/iuse_actor.cpp:3763
+#: src/iuse_actor.cpp:3768
 msgid "Actual bandaging quality: "
 msgstr "實際包紮品質: "
 
-#: src/iuse_actor.cpp:3769
+#: src/iuse_actor.cpp:3774
 msgid "Base disinfecting quality: "
 msgstr "基礎消毒品質："
 
-#: src/iuse_actor.cpp:3772
+#: src/iuse_actor.cpp:3777
 msgid "Actual disinfecting quality: "
 msgstr "實際消毒品質："
 
-#: src/iuse_actor.cpp:3777
+#: src/iuse_actor.cpp:3782
 msgid "Effect on bleeding: "
 msgstr "止血效果: "
 
-#: src/iuse_actor.cpp:3779
+#: src/iuse_actor.cpp:3784
 msgid "Actual effect on bleeding: "
 msgstr "實際止血效果: "
 
-#: src/iuse_actor.cpp:3784
+#: src/iuse_actor.cpp:3789
 msgid "Chance to heal (percent): "
 msgstr "治療機率（％）："
 
-#: src/iuse_actor.cpp:3786
+#: src/iuse_actor.cpp:3791
 msgid "* Bite: "
 msgstr "* 咬傷:"
 
-#: src/iuse_actor.cpp:3790
+#: src/iuse_actor.cpp:3795
 msgid "* Infection: "
 msgstr "* 感染:"
 
-#: src/iuse_actor.cpp:3794
+#: src/iuse_actor.cpp:3799
 msgid "Moves to use: "
 msgstr "所需行動值: "
 
-#: src/iuse_actor.cpp:3854
+#: src/iuse_actor.cpp:3859
 #, c-format
 msgid "Yeah.  Place the %s at your feet.  Real damn smart move."
 msgstr "沒錯。把 %s 放到你的腳邊。真他媽的聰明。"
 
-#: src/iuse_actor.cpp:3860
+#: src/iuse_actor.cpp:3865
 #, c-format
 msgid "You can't place a %s there."
 msgstr "你不能把 %s 放在這裡"
 
-#: src/iuse_actor.cpp:3866
+#: src/iuse_actor.cpp:3871
 #, c-format
 msgid "You must place the %s between two solid tiles."
 msgstr "你必須把 %s 放在兩件硬物之間。"
 
-#: src/iuse_actor.cpp:3871
+#: src/iuse_actor.cpp:3876
 #, c-format
 msgid "The %s needs a %s adjacent to it."
 msgstr "%s 需要有 %s 鄰接。"
 
-#: src/iuse_actor.cpp:3880
+#: src/iuse_actor.cpp:3885
 #, c-format
 msgid "You can't place a %s there.  It contains a deployed object already."
 msgstr ""
 
-#: src/iuse_actor.cpp:3881
+#: src/iuse_actor.cpp:3886
 #, c-format
 msgid "You can't place a %s there.  It contains a trap already."
 msgstr "你不能把%s放在這裡，這裡已經有陷阱了。"
 
-#: src/iuse_actor.cpp:3884
+#: src/iuse_actor.cpp:3889
 #, c-format
 msgid "You trigger a %s!"
 msgstr "你觸動了 %s!"
 
-#: src/iuse_actor.cpp:3911
+#: src/iuse_actor.cpp:3916
 #, c-format
 msgid "Place %s where?"
 msgstr "把 %s 放在哪邊?"
 
-#: src/iuse_actor.cpp:3933
+#: src/iuse_actor.cpp:3938
 #, c-format
 msgid ""
 "That trap needs a space in %d tiles radius to be clear, centered %d tiles "
 "from you."
 msgstr "該陷阱需要 %d 格半徑內保持淨空，圓心離你 %d 格遠。"
 
-#: src/iuse_actor.cpp:4044
+#: src/iuse_actor.cpp:4049
 #, c-format
 msgid "You saw down the barrel of your %s."
 msgstr "你鋸短了 %s 的槍管。"
 
-#: src/iuse_actor.cpp:4054 src/iuse_actor.cpp:4115
+#: src/iuse_actor.cpp:4059 src/iuse_actor.cpp:4120
 msgid "It's not a gun."
 msgstr "這不是槍。"
 
-#: src/iuse_actor.cpp:4058
+#: src/iuse_actor.cpp:4063
 msgid "The barrel is too small."
 msgstr "這槍管太短了。"
 
-#: src/iuse_actor.cpp:4062
+#: src/iuse_actor.cpp:4067
 msgid "The barrel is already sawn-off."
 msgstr "這槍管已經鋸斷了。"
 
-#: src/iuse_actor.cpp:4072
+#: src/iuse_actor.cpp:4077
 msgid "Can't saw off modified barrels."
 msgstr "不能鋸開修改過的槍管。"
 
-#: src/iuse_actor.cpp:4105
+#: src/iuse_actor.cpp:4110
 #, c-format
 msgid "You saw down the stock of your %s."
 msgstr "你鋸短了 %s 的槍托。"
 
-#: src/iuse_actor.cpp:4119
+#: src/iuse_actor.cpp:4124
 msgid "The stock is already sawn-off."
 msgstr "它的槍托已經鋸短了。"
 
-#: src/iuse_actor.cpp:4123
+#: src/iuse_actor.cpp:4128
 msgid "This gun doesn't have a stock."
 msgstr "這把槍沒有槍托。"
 
-#: src/iuse_actor.cpp:4139
+#: src/iuse_actor.cpp:4144
 msgid ""
 "Can't cut off modern composite stocks (must have an empty stock mount)."
 msgstr "無法切短現代複合槍托（需要淨空槍托底座）"
 
-#: src/iuse_actor.cpp:4143
+#: src/iuse_actor.cpp:4148
 msgid "Can't cut off modified stocks."
 msgstr "不能鋸短改裝過的槍托。"
 
-#: src/iuse_actor.cpp:4147
+#: src/iuse_actor.cpp:4152
 msgid "Can't cut off accessorized stocks."
 msgstr "不能鋸短有配件的槍托。"
 
-#: src/iuse_actor.cpp:4181
+#: src/iuse_actor.cpp:4186
 #, c-format
 msgid "You attach %s to your MOLLE webbing."
 msgstr "你把%s裝到你的 MOLLE 織帶上。"
 
-#: src/iuse_actor.cpp:4202
+#: src/iuse_actor.cpp:4207
 msgid "Remove which accessory?"
 msgstr "移除哪個配件？"
 
-#: src/iuse_actor.cpp:4212
+#: src/iuse_actor.cpp:4217
 #, c-format
 msgid "You remove the item from your %s."
 msgstr "你將物品從 %s 拆下。"
 
-#: src/iuse_actor.cpp:4253
+#: src/iuse_actor.cpp:4258
 msgid "You can't install bionics while mounted."
 msgstr "騎乘時無法安裝生化插件。"
 
-#: src/iuse_actor.cpp:4257
+#: src/iuse_actor.cpp:4262
 msgid "You can't self-install this CBM."
 msgstr "你不能替自己安裝生化插件。"
 
-#: src/iuse_actor.cpp:4259
+#: src/iuse_actor.cpp:4264
 msgid "You can't install a filthy CBM!"
 msgstr "你不能安裝骯髒的生化插件。"
 
-#: src/iuse_actor.cpp:4261
+#: src/iuse_actor.cpp:4266
 msgid "This CBM is not sterile, you can't install it."
 msgstr "這個生化插件還沒滅菌，你不能安裝它。"
 
-#: src/iuse_actor.cpp:4264
+#: src/iuse_actor.cpp:4269
 msgid "This CBM is already deployed.  You need to reset it to factory state."
 msgstr "這個生化插件已安裝變動過。你需要把它重設成出廠狀態。"
 
-#: src/iuse_actor.cpp:4267
+#: src/iuse_actor.cpp:4272
 msgid "Max power capacity already reached"
 msgstr "已達能量最大容量"
 
-#: src/iuse_actor.cpp:4272
+#: src/iuse_actor.cpp:4277
 msgid "You have already installed this bionic."
 msgstr "你已經安裝過了這個生化插件。"
 
-#: src/iuse_actor.cpp:4274
+#: src/iuse_actor.cpp:4279
 msgid "There is nothing to upgrade."
 msgstr "這裡沒有可以升級的元件。"
 
-#: src/iuse_actor.cpp:4283
+#: src/iuse_actor.cpp:4288
 msgid "You have a superior version installed."
 msgstr "你已經安裝更高等級的元件了。"
 
-#: src/iuse_actor.cpp:4342
+#: src/iuse_actor.cpp:4347
 msgid ""
 "Are you sure?  You may be lacking the skills needed to reattach this "
 "modification."
 msgstr "你確定嗎？你可能缺乏重新改造所需要的技能。"
 
-#: src/iuse_actor.cpp:4344
+#: src/iuse_actor.cpp:4349
 msgid "Remove modification?"
 msgstr "移除改造模組？"
 
-#: src/iuse_actor.cpp:4361 src/iuse_actor.cpp:4436
+#: src/iuse_actor.cpp:4366 src/iuse_actor.cpp:4441
 msgid "Doesn't appear to be modded."
 msgstr "沒有被改造"
 
-#: src/iuse_actor.cpp:4371
+#: src/iuse_actor.cpp:4376
 msgid "None of the mods can be removed."
 msgstr "沒有可以移除的模組。"
 
-#: src/iuse_actor.cpp:4376 src/iuse_actor.cpp:4450
+#: src/iuse_actor.cpp:4381 src/iuse_actor.cpp:4455
 msgid "Has to be taken off first."
 msgstr "必須先取下。"
 
-#: src/iuse_actor.cpp:4406
+#: src/iuse_actor.cpp:4411
 msgid "Modify which part"
 msgstr "修改哪個部件"
 
-#: src/iuse_actor.cpp:4431
+#: src/iuse_actor.cpp:4436
 msgid "Need to be wielding."
 msgstr "需要手持"
 
-#: src/iuse_actor.cpp:4445
+#: src/iuse_actor.cpp:4450
 msgid "None of the mods can be modified."
 msgstr "沒有可以改裝的模組。"
 
-#: src/iuse_actor.cpp:4501
+#: src/iuse_actor.cpp:4506
 msgid "vehicle battery"
 msgstr "載具電池"
 
-#: src/iuse_actor.cpp:4505
+#: src/iuse_actor.cpp:4510
 msgid "appliance"
 msgstr ""
 
-#: src/iuse_actor.cpp:4514
+#: src/iuse_actor.cpp:4519
 msgid "solar pack"
 msgstr ""
 
-#: src/iuse_actor.cpp:4517
+#: src/iuse_actor.cpp:4522
 msgid "<bold>Can tow a vehicle</bold>."
 msgstr ""
 
-#: src/iuse_actor.cpp:4522
+#: src/iuse_actor.cpp:4527
 #, c-format
 msgid "<bold>Can be plugged into</bold>: %s."
 msgstr ""
 
-#: src/iuse_actor.cpp:4529
+#: src/iuse_actor.cpp:4534
 #, c-format
 msgid "<bold>Cable length</bold>: %d"
 msgstr ""
 
-#: src/iuse_actor.cpp:4531
+#: src/iuse_actor.cpp:4536
 #, c-format
 msgid " (%d without extensions)"
 msgstr ""
 
 #. ~ Power in Watts. %+4.1f is a 4 digit number with 1 decimal point (ex:
 #. 4737.3 W)
-#: src/iuse_actor.cpp:4537 src/veh_appliance.cpp:240
+#: src/iuse_actor.cpp:4542 src/veh_appliance.cpp:241
 #, c-format
 msgid "%+4.1f W"
 msgstr ""
 
 #. ~ Power in Watts. %+4.1f is a 4 digit number with 1 decimal point (ex:
 #. 4737.3 W)
-#: src/iuse_actor.cpp:4537
+#: src/iuse_actor.cpp:4542
 msgid "<bold>Wattage</bold>: "
 msgstr ""
 
-#: src/iuse_actor.cpp:4545
+#: src/iuse_actor.cpp:4550
 msgid "electrical device cables"
 msgstr ""
 
-#: src/iuse_actor.cpp:4549
+#: src/iuse_actor.cpp:4554
 #, c-format
 msgid "<bold>Can extend</bold>: %s"
 msgstr ""
 
-#: src/iuse_actor.cpp:4581 src/iuse_actor.cpp:4625
+#: src/iuse_actor.cpp:4586 src/iuse_actor.cpp:4630
 #, c-format
 msgid "What to do with the %s?%s"
 msgstr ""
 
-#: src/iuse_actor.cpp:4582 src/iuse_actor.cpp:4626
+#: src/iuse_actor.cpp:4587 src/iuse_actor.cpp:4631
 #, c-format
 msgid ""
 "\n"
 "Attached to: %s"
 msgstr ""
 
-#: src/iuse_actor.cpp:4584
+#: src/iuse_actor.cpp:4589
 msgid "Attach to vehicle controls or appliance"
 msgstr ""
 
-#: src/iuse_actor.cpp:4587
+#: src/iuse_actor.cpp:4592
 msgid "Attach to vehicle battery or appliance"
 msgstr "連接到載具電池或設備"
 
-#: src/iuse_actor.cpp:4590
+#: src/iuse_actor.cpp:4595
 msgid "Attach tow cable to towing vehicle"
 msgstr ""
 
-#: src/iuse_actor.cpp:4591
+#: src/iuse_actor.cpp:4596
 msgid "Attach tow cable to towed vehicle"
 msgstr ""
 
-#: src/iuse_actor.cpp:4595
+#: src/iuse_actor.cpp:4600
 msgid "Attach to Cable Charger System CBM"
 msgstr ""
 
-#: src/iuse_actor.cpp:4599
+#: src/iuse_actor.cpp:4604
 msgid "Attach to UPS"
 msgstr ""
 
-#: src/iuse_actor.cpp:4604
+#: src/iuse_actor.cpp:4609
 msgid "Attach to solar pack"
 msgstr ""
 
-#: src/iuse_actor.cpp:4611 src/iuse_actor.cpp:4704
+#: src/iuse_actor.cpp:4616 src/iuse_actor.cpp:4709
 msgid "Extend another cable"
 msgstr ""
 
-#: src/iuse_actor.cpp:4611
+#: src/iuse_actor.cpp:4616
 msgid "Extend with another cable"
 msgstr ""
 
-#: src/iuse_actor.cpp:4612 src/iuse_actor.cpp:4705
+#: src/iuse_actor.cpp:4617 src/iuse_actor.cpp:4710
 msgid "Remove cable extensions"
 msgstr ""
 
-#: src/iuse_actor.cpp:4616 src/iuse_actor.cpp:4634 src/iuse_actor.cpp:4709
+#: src/iuse_actor.cpp:4621 src/iuse_actor.cpp:4639 src/iuse_actor.cpp:4714
 msgid "Re-spool"
 msgstr ""
 
-#: src/iuse_actor.cpp:4619 src/iuse_actor.cpp:4637 src/iuse_actor.cpp:4712
+#: src/iuse_actor.cpp:4624 src/iuse_actor.cpp:4642 src/iuse_actor.cpp:4717
 msgid "Detach"
 msgstr ""
 
-#: src/iuse_actor.cpp:4619 src/iuse_actor.cpp:4637 src/iuse_actor.cpp:4712
+#: src/iuse_actor.cpp:4624 src/iuse_actor.cpp:4642 src/iuse_actor.cpp:4717
 msgid "Detach and re-spool"
 msgstr ""
 
-#: src/iuse_actor.cpp:4629
+#: src/iuse_actor.cpp:4634
 msgid "Attach loose end to towing vehicle"
 msgstr ""
 
-#: src/iuse_actor.cpp:4631
+#: src/iuse_actor.cpp:4636
 msgid "Attach loose end to towed vehicle"
 msgstr ""
 
-#: src/iuse_actor.cpp:4646
+#: src/iuse_actor.cpp:4651
 msgid ""
 "\n"
 "Attached to "
 msgstr ""
 
-#: src/iuse_actor.cpp:4652
+#: src/iuse_actor.cpp:4657
 msgid "Unified Power Supply"
 msgstr "統一規格供電系統"
 
-#: src/iuse_actor.cpp:4654
+#: src/iuse_actor.cpp:4659
 msgid "solar backpack"
 msgstr ""
 
-#: src/iuse_actor.cpp:4658
+#: src/iuse_actor.cpp:4663
 msgid ""
 "\n"
 "Connecting Cable Charger System to "
 msgstr ""
 
-#: src/iuse_actor.cpp:4660
+#: src/iuse_actor.cpp:4665
 msgid ""
 "\n"
 "Connecting UPS to "
 msgstr ""
 
-#: src/iuse_actor.cpp:4662
+#: src/iuse_actor.cpp:4667
 msgid ""
 "\n"
 "Connecting solar backpack to "
 msgstr ""
 
-#: src/iuse_actor.cpp:4670
+#: src/iuse_actor.cpp:4675
 #, c-format
 msgid "What to do with the %s?%s%s"
 msgstr ""
 
-#: src/iuse_actor.cpp:4678
+#: src/iuse_actor.cpp:4683
 msgid "Attach loose end to vehicle controls or appliance"
 msgstr ""
 
-#: src/iuse_actor.cpp:4683
+#: src/iuse_actor.cpp:4688
 msgid "Attach loose end to vehicle battery or appliance"
 msgstr "將未接端連接到車輛電池或設備上"
 
-#: src/iuse_actor.cpp:4687
+#: src/iuse_actor.cpp:4692
 msgid "Attach loose end to Cable Charger System CBM"
 msgstr ""
 
-#: src/iuse_actor.cpp:4691
+#: src/iuse_actor.cpp:4696
 msgid "Attach loose end to UPS"
 msgstr "將電纜的鬆脫端連接到 UPS"
 
-#: src/iuse_actor.cpp:4698
+#: src/iuse_actor.cpp:4703
 msgid "Attach loose end to solar pack"
 msgstr "將電纜的鬆脫端連接到太陽能板背包"
 
-#: src/iuse_actor.cpp:4748
+#: src/iuse_actor.cpp:4753
 #, c-format
 msgid "You detach the %s."
 msgstr ""
 
-#: src/iuse_actor.cpp:4749
+#: src/iuse_actor.cpp:4754
 #, c-format
 msgid "You gather the %s up with it."
 msgstr ""
 
-#: src/iuse_actor.cpp:4777
+#: src/iuse_actor.cpp:4782
 msgid "You attach the cable to your Cable Charger System."
 msgstr "你將電纜連接到你的電纜充電系統"
 
-#: src/iuse_actor.cpp:4780 src/iuse_actor.cpp:4816
+#: src/iuse_actor.cpp:4785 src/iuse_actor.cpp:4821
 msgid "You are now plugged into the UPS."
 msgstr ""
 
-#: src/iuse_actor.cpp:4783
+#: src/iuse_actor.cpp:4788
 msgid "You are now plugged into the solar backpack."
 msgstr ""
 
-#: src/iuse_actor.cpp:4787
+#: src/iuse_actor.cpp:4792
 msgid "You are now plugged into the vehicle."
 msgstr "你現在連接到載具。"
 
-#: src/iuse_actor.cpp:4799
+#: src/iuse_actor.cpp:4804
 msgid "Choose UPS:"
 msgstr "選擇 UPS："
 
-#: src/iuse_actor.cpp:4800
+#: src/iuse_actor.cpp:4805
 msgid "You need an active UPS."
 msgstr ""
 
-#: src/iuse_actor.cpp:4814
+#: src/iuse_actor.cpp:4819
 msgid "You attach the cable to the UPS."
 msgstr "你將電纜連接到 UPS。"
 
-#: src/iuse_actor.cpp:4818
+#: src/iuse_actor.cpp:4823
 msgid "You link up the UPS and the solar backpack."
 msgstr ""
 
-#: src/iuse_actor.cpp:4821
+#: src/iuse_actor.cpp:4826
 msgid "You link up the UPS and the vehicle."
 msgstr ""
 
-#: src/iuse_actor.cpp:4835
+#: src/iuse_actor.cpp:4840
 msgid "Choose solar pack:"
 msgstr ""
 
-#: src/iuse_actor.cpp:4836
+#: src/iuse_actor.cpp:4841
 msgid "You need an unfolded solar pack."
 msgstr ""
 
-#: src/iuse_actor.cpp:4850
+#: src/iuse_actor.cpp:4855
 msgid "You attach the cable to the solar pack."
 msgstr "你將電纜連接到太陽能板背包"
 
-#: src/iuse_actor.cpp:4852
+#: src/iuse_actor.cpp:4857
 msgid "You are now plugged into the solar pack."
 msgstr ""
 
-#: src/iuse_actor.cpp:4854
+#: src/iuse_actor.cpp:4859
 msgid "You link up the solar pack and the UPS."
 msgstr ""
 
-#: src/iuse_actor.cpp:4857
+#: src/iuse_actor.cpp:4862
 msgid "You link up the solar pack and the vehicle."
 msgstr ""
 
-#: src/iuse_actor.cpp:4880
+#: src/iuse_actor.cpp:4885
 msgid "Attach the cable where?"
 msgstr ""
 
-#: src/iuse_actor.cpp:4898
+#: src/iuse_actor.cpp:4903
 msgid "You can't attach it there - try the dashboard or electronics controls."
 msgstr ""
 
-#: src/iuse_actor.cpp:4901
+#: src/iuse_actor.cpp:4906
 msgid "You can't attach it there - try the battery."
 msgstr "你無法連接到那裡，你可以嘗試連接到電池上。"
 
-#: src/iuse_actor.cpp:4903
+#: src/iuse_actor.cpp:4908
 msgid "You can't attach it there."
 msgstr ""
 
-#: src/iuse_actor.cpp:4926
+#: src/iuse_actor.cpp:4931
 #, c-format
 msgid "You are now plugged into the %s."
 msgstr ""
 
-#: src/iuse_actor.cpp:4929 src/iuse_actor.cpp:5011
+#: src/iuse_actor.cpp:4934 src/iuse_actor.cpp:5016
 #, c-format
 msgid "You connect the %1$s to the %2$s."
 msgstr ""
 
-#: src/iuse_actor.cpp:4947
+#: src/iuse_actor.cpp:4952
 msgid "You merge the two power grids."
 msgstr ""
 
-#: src/iuse_actor.cpp:4982
+#: src/iuse_actor.cpp:4987
 msgid "Attach cable to the vehicle that will do the towing."
 msgstr "將拖車繩接在要拖車的載具上。"
 
-#: src/iuse_actor.cpp:4983
+#: src/iuse_actor.cpp:4988
 msgid "Attach cable to the vehicle that will be towed."
 msgstr ""
 
-#: src/iuse_actor.cpp:5055
+#: src/iuse_actor.cpp:5060
 msgid "Extend which cable?"
 msgstr ""
 
-#: src/iuse_actor.cpp:5056 src/iuse_actor.cpp:5068
+#: src/iuse_actor.cpp:5061 src/iuse_actor.cpp:5073
 msgid "You don't have a compatible cable."
 msgstr ""
 
-#: src/iuse_actor.cpp:5067
+#: src/iuse_actor.cpp:5072
 msgid "Extend with which cable?"
 msgstr ""
 
-#: src/iuse_actor.cpp:5121
+#: src/iuse_actor.cpp:5126
 #, c-format
 msgid "The %1$s can't contain the %2$s with the %3$s attached.  Continue?"
 msgstr ""
 
-#: src/iuse_actor.cpp:5132
+#: src/iuse_actor.cpp:5137
 #, c-format
 msgid "You extend the %1$s with the %2$s."
 msgstr ""
 
-#: src/iuse_actor.cpp:5168
+#: src/iuse_actor.cpp:5173
 #, c-format
 msgid "You disconnect the %1$s from the %2$s."
 msgstr ""
 
-#: src/iuse_actor.cpp:5211
+#: src/iuse_actor.cpp:5216
 #, c-format
 msgid "Put up the %s where (%dx%d clear area)?"
 msgstr "把 %s 設立在哪 (%dx%d 淨空區域)?"
 
-#: src/iuse_actor.cpp:5226 src/iuse_actor.cpp:5230
+#: src/iuse_actor.cpp:5231 src/iuse_actor.cpp:5235
 #, c-format
 msgid "The %s is in the way."
 msgstr "%s 擋在那!"
 
-#: src/iuse_actor.cpp:5234
+#: src/iuse_actor.cpp:5239
 #, c-format
 msgid "The %s in that direction isn't suitable for placing the %s."
 msgstr "那邊的 %s 不能放置 %s。"
 
-#: src/iuse_actor.cpp:5239
+#: src/iuse_actor.cpp:5244
 #, c-format
 msgid "There is already furniture (%s) there."
 msgstr "那裡已經有家具（%s）了。"
 
-#: src/iuse_actor.cpp:5279
+#: src/iuse_actor.cpp:5284
 msgid "Use this item to weigh yourself.  Includes everything you are wearing."
 msgstr "使用這項物品來給自己秤重。包含你穿的所有東西。"
 
-#: src/iuse_actor.cpp:5285
+#: src/iuse_actor.cpp:5290
 msgid "You cannot weigh yourself while mounted."
 msgstr "騎乘時無法秤自己體重。"
 
-#: src/iuse_actor.cpp:5291
+#: src/iuse_actor.cpp:5296
 #, c-format
 msgid "ERROR: Max weight of %.0f %s exceeded"
 msgstr "錯誤：超出最大重量 %.0f %s"
 
-#: src/iuse_actor.cpp:5339
+#: src/iuse_actor.cpp:5344
 msgid "You can't see to sew!"
 msgstr "太暗了, 你無法縫紉!"
 
-#: src/iuse_actor.cpp:5349
+#: src/iuse_actor.cpp:5354
 msgid "Enhance which clothing?"
 msgstr "修改哪件衣物?"
 
-#: src/iuse_actor.cpp:5357
+#: src/iuse_actor.cpp:5362
 msgid "This can be used to repair or modify other items, not itself."
 msgstr "這東西只能用來修理或修改其他物品, 而非本身。"
 
-#: src/iuse_actor.cpp:5402
+#: src/iuse_actor.cpp:5407
 msgid "How do you want to modify it?"
 msgstr "你要怎麼修改它?"
 
 #. ~ %1$s: modification desc, %2$s: mod name
-#: src/iuse_actor.cpp:5417
+#: src/iuse_actor.cpp:5422
 #, c-format
 msgid "Can't %1$s (incompatible with %2$s)"
 msgstr "無法%1$s（與%2$s不相容）"
 
 #. ~ %1$s: modification desc, %2$d: number of thread needed
-#: src/iuse_actor.cpp:5422
+#: src/iuse_actor.cpp:5427
 #, c-format
 msgid "Can't %1$s (need %2$d thread loaded)"
 msgstr "無法 %1$s（需要裝填 %2$d 縫線）"
 
 #. ~ %1$s: modification desc, %2$d: number of items needed, %3$s: items needed
-#: src/iuse_actor.cpp:5426
+#: src/iuse_actor.cpp:5431
 #, c-format
 msgid "Can't %1$s (need %2$d %3$s)"
 msgstr "無法 %1$s（需要 %2$d %3$s）"
 
 #. ~ %1$s: modification desc, %2$d: number of items needed, %3$s: items
 #. needed, %4$s: number of thread needed
-#: src/iuse_actor.cpp:5433
+#: src/iuse_actor.cpp:5438
 #, c-format
 msgid "%1$s (%2$d %3$s and %4$d thread)"
 msgstr "%1$s（%2$d %3$s 和 %4$d 縫線）"
 
-#: src/iuse_actor.cpp:5445
+#: src/iuse_actor.cpp:5450
 msgid "Bash"
 msgstr "鈍擊"
 
-#: src/iuse_actor.cpp:5448
+#: src/iuse_actor.cpp:5453
 msgid "Cut"
 msgstr "砍劈"
 
-#: src/iuse_actor.cpp:5451
+#: src/iuse_actor.cpp:5456
 msgid "Ballistic"
 msgstr "防彈"
 
-#: src/iuse_actor.cpp:5456
+#: src/iuse_actor.cpp:5461
 msgid "Acid"
 msgstr "防酸"
 
-#: src/iuse_actor.cpp:5459
+#: src/iuse_actor.cpp:5464
 msgid "Fire"
 msgstr "防火"
 
-#: src/iuse_actor.cpp:5483
+#: src/iuse_actor.cpp:5488
 msgid "Are you sure?  You will not gain any materials back."
 msgstr "你確定嗎? 你無法拿回任何材料。"
 
-#: src/iuse_actor.cpp:5510
+#: src/iuse_actor.cpp:5515
 #, c-format
 msgid "You damage your %s trying to modify it!  ( %s-> %s)"
 msgstr "你在修改 %s 時弄壞了它！（%s->%s）"
 
-#: src/iuse_actor.cpp:5521
+#: src/iuse_actor.cpp:5526
 msgid "You fail to modify the clothing, and you waste thread and materials."
 msgstr "你修改衣物失敗, 浪費了縫線和材料。"
 
-#: src/iuse_actor.cpp:5525
+#: src/iuse_actor.cpp:5530
 #, c-format
 msgid "You modify your %s, but waste a lot of thread."
 msgstr "你修改了 %s, 但是浪費了很多縫線。"
 
-#: src/iuse_actor.cpp:5535
+#: src/iuse_actor.cpp:5540
 #, c-format
 msgid "You modify your %s!"
 msgstr "你修改了 %s!"
 
-#: src/iuse_actor.cpp:5576
+#: src/iuse_actor.cpp:5581
 #, c-format
 msgid "You use the %s to mask your scent"
 msgstr "你使用了%s來掩蓋你的體味。"
@@ -643292,7 +643628,7 @@ msgstr "<color_cyan>拆解</color>組件"
 msgid "covers <color_cyan>body part</color>"
 msgstr "覆蓋<color_cyan>身體部位</color>"
 
-#: src/output.cpp:1041 src/player_hardcoded_effects.cpp:1664
+#: src/output.cpp:1041 src/player_hardcoded_effects.cpp:1665
 msgid "hand"
 msgstr "手掌"
 
@@ -643385,19 +643721,19 @@ msgstr ""
 msgid "Note preview"
 msgstr "預覽註記"
 
-#: src/overmap_ui.cpp:399 src/overmap_ui.cpp:1305 src/overmap_ui.cpp:2013
+#: src/overmap_ui.cpp:399 src/overmap_ui.cpp:1305 src/overmap_ui.cpp:2026
 msgid "Really delete note?"
 msgstr "確定刪除註記?"
 
-#: src/overmap_ui.cpp:414 src/overmap_ui.cpp:2019
+#: src/overmap_ui.cpp:414 src/overmap_ui.cpp:2032
 msgid "Remove dangerous mark?"
 msgstr "移除危險標示？"
 
-#: src/overmap_ui.cpp:421 src/overmap_ui.cpp:2024
+#: src/overmap_ui.cpp:421 src/overmap_ui.cpp:2037
 msgid "Create a danger note."
 msgstr ""
 
-#: src/overmap_ui.cpp:428 src/overmap_ui.cpp:2029
+#: src/overmap_ui.cpp:428 src/overmap_ui.cpp:2042
 #, c-format
 msgid "Danger radius in overmap squares? (0-%d)"
 msgstr ""
@@ -643591,113 +643927,118 @@ msgstr "象徵符號：［%s%s］，顏色：［%s%s］，名稱：［%s］，id
 msgid "Select special to place:"
 msgstr "選擇要放置的特殊地點:"
 
-#: src/overmap_ui.cpp:1538
+#: src/overmap_ui.cpp:1541
 msgid "Place overmap terrain:"
 msgstr "放置大地圖地形:"
 
-#: src/overmap_ui.cpp:1542
+#: src/overmap_ui.cpp:1545
 msgid "Place overmap special:"
 msgstr "放置大地圖特殊地點:"
 
-#: src/overmap_ui.cpp:1549
+#: src/overmap_ui.cpp:1552
 #, c-format
 msgid "Rotation: %s %s"
 msgstr "朝向: %s %s"
 
-#: src/overmap_ui.cpp:1550
+#: src/overmap_ui.cpp:1553
 msgid "(fixed)"
 msgstr "(固定)"
 
-#: src/overmap_ui.cpp:1552
+#: src/overmap_ui.cpp:1555
 msgid ""
 "Highlighted regions already have map content generated.  Their overmap id "
 "will change, but not their contents."
 msgstr ""
 
-#: src/overmap_ui.cpp:1555
+#: src/overmap_ui.cpp:1558
 #, c-format
 msgid "[%s] Rotate"
 msgstr "[%s] 旋轉"
 
-#: src/overmap_ui.cpp:1558
+#: src/overmap_ui.cpp:1561
 #, c-format
-msgid "[%s] Apply"
-msgstr "[%s] 套用"
+msgid "[%s] Place"
+msgstr ""
 
-#: src/overmap_ui.cpp:1560
+#: src/overmap_ui.cpp:1563
+#, c-format
+msgid "[%s] Place and close"
+msgstr ""
+
+#: src/overmap_ui.cpp:1565
 msgid "[ESCAPE/Q] Cancel"
 msgstr "[Esc 或 Q] 取消"
 
-#: src/overmap_ui.cpp:1607
+#: src/overmap_ui.cpp:1620
 msgid "No overmap special args at this location."
 msgstr "該位置沒有大地圖特殊地形參數。"
 
-#: src/overmap_ui.cpp:1611
+#: src/overmap_ui.cpp:1624
 msgid "Overmap special args at this location have already been set."
 msgstr ""
 
-#: src/overmap_ui.cpp:1616
+#: src/overmap_ui.cpp:1629
 msgid "No overmap special at this location from which to fetch parameters."
 msgstr ""
 
-#: src/overmap_ui.cpp:1627
+#: src/overmap_ui.cpp:1640
 #, c-format
 msgid "Select value for mapgen argument %s: "
 msgstr ""
 
-#: src/overmap_ui.cpp:1649
+#: src/overmap_ui.cpp:1662
 msgid "No hordes there.  Would you like to make a new horde?"
 msgstr ""
 
-#: src/overmap_ui.cpp:1663
+#: src/overmap_ui.cpp:1676
 #, c-format
 msgid "group(type: %s) with %d monsters"
 msgstr ""
 
-#: src/overmap_ui.cpp:1675
+#: src/overmap_ui.cpp:1688
 #, c-format
 msgid "Set horde's interest (in %%)"
 msgstr ""
 
-#: src/overmap_ui.cpp:1676
+#: src/overmap_ui.cpp:1689
 msgid "Set horde's destination"
 msgstr ""
 
-#: src/overmap_ui.cpp:1677
+#: src/overmap_ui.cpp:1690
 msgid "Modify horde's population"
 msgstr ""
 
-#: src/overmap_ui.cpp:1678
+#: src/overmap_ui.cpp:1691
 msgid "Add a new monster to the horde"
 msgstr ""
 
-#: src/overmap_ui.cpp:1679
+#: src/overmap_ui.cpp:1692
 msgid "Set horde behavior"
 msgstr ""
 
-#: src/overmap_ui.cpp:1680
+#: src/overmap_ui.cpp:1693
 msgid "Set horde's boolean values"
 msgstr ""
 
-#: src/overmap_ui.cpp:1681
+#: src/overmap_ui.cpp:1694
 msgid "Add another horde to this location"
 msgstr ""
 
-#: src/overmap_ui.cpp:1688
+#: src/overmap_ui.cpp:1701
 #, c-format
 msgid "Set interest to what value?  Currently %d"
 msgstr ""
 
-#: src/overmap_ui.cpp:1692
+#: src/overmap_ui.cpp:1705
 msgid "Select a target destination for the horde."
 msgstr ""
 
-#: src/overmap_ui.cpp:1701 src/wish.cpp:764
+#: src/overmap_ui.cpp:1714 src/wish.cpp:764
 #, c-format
 msgid "Set population to what value?  Currently %d"
 msgstr ""
 
-#: src/overmap_ui.cpp:1710
+#: src/overmap_ui.cpp:1723
 #, c-format
 msgid ""
 "Set behavior to which enum value?  Currently %d.  \n"
@@ -643708,82 +644049,82 @@ msgid ""
 "3=nemesis"
 msgstr ""
 
-#: src/overmap_ui.cpp:1718
+#: src/overmap_ui.cpp:1731
 #, c-format
 msgid ""
 "Set group's \"horde\" value to true?  (Select no to set to false)  \n"
 "Currently %s"
 msgstr ""
 
-#: src/overmap_ui.cpp:1719 src/overmap_ui.cpp:1722
+#: src/overmap_ui.cpp:1732 src/overmap_ui.cpp:1735
 msgid "false"
 msgstr ""
 
-#: src/overmap_ui.cpp:1719 src/overmap_ui.cpp:1722
+#: src/overmap_ui.cpp:1732 src/overmap_ui.cpp:1735
 msgid "true"
 msgstr "是"
 
-#: src/overmap_ui.cpp:1721
+#: src/overmap_ui.cpp:1734
 #, c-format
 msgid ""
 "Set group's \"dying\" value to true?  (Select no to set to false)  \n"
 "Currently %s"
 msgstr ""
 
-#: src/overmap_ui.cpp:1801
+#: src/overmap_ui.cpp:1814
 msgid ""
 "You are overburdened, are you sure you want to travel (it may be painful)?"
 msgstr "你已經超載了，真的要旅行嗎？（可能造成疼痛）"
 
-#: src/overmap_ui.cpp:1803
+#: src/overmap_ui.cpp:1816
 msgid "You are in a vehicle but not driving.  Are you sure you want to walk?"
 msgstr "你在一輛載具上但是並未駕駛。你確定你要走過去？"
 
-#: src/overmap_ui.cpp:1806
+#: src/overmap_ui.cpp:1819
 msgid "Drive to this point?"
 msgstr "駕駛到此點?"
 
-#: src/overmap_ui.cpp:1808
+#: src/overmap_ui.cpp:1821
 msgid "Drive to your destination?"
 msgstr ""
 
-#: src/overmap_ui.cpp:1812
+#: src/overmap_ui.cpp:1825
 msgid "Travel to this point?"
 msgstr "移動至此？"
 
-#: src/overmap_ui.cpp:1814
+#: src/overmap_ui.cpp:1827
 msgid "Travel to your destination?"
 msgstr ""
 
-#: src/overmap_ui.cpp:2516
+#: src/overmap_ui.cpp:2529
 msgid "<color_red>* Random city *</color>"
 msgstr "<color_red>*隨機城市*</color>"
 
-#: src/overmap_ui.cpp:2517
+#: src/overmap_ui.cpp:2530
 msgid "Location: <color_white>(?,?)</color>:<color_white>(?,?)</color>"
 msgstr "地點： <color_white>(?,?)</color>：<color_white>(?,?)</color>"
 
 #. ~ "pop" refers to population count
-#: src/overmap_ui.cpp:2519
+#: src/overmap_ui.cpp:2532
 msgid "(pop <color_white>?</color>)"
 msgstr "（人口<color_white>？</color>）"
 
-#: src/overmap_ui.cpp:2523
+#: src/overmap_ui.cpp:2536
 msgid "Select a starting city"
 msgstr "選擇一個開始城市"
 
-#: src/overmap_ui.cpp:2525
+#: src/overmap_ui.cpp:2538
 #, c-format
 msgid "%s (size: %d)"
 msgstr ""
 
-#: src/overmap_ui.cpp:2527
+#: src/overmap_ui.cpp:2540
 #, c-format
 msgid "Location: <color_white>%s</color>:<color_white>%s</color>"
 msgstr "位置： <color_white>%s</color>：<color_white>%s</color>"
 
 #. ~ "pop" refers to population count
-#: src/overmap_ui.cpp:2530
+#: src/overmap_ui.cpp:2543
 #, c-format
 msgid "(pop <color_white>%s</color>)"
 msgstr "（人口：<color_white>%s</color>）"
@@ -644339,634 +644680,634 @@ msgstr "向上捲動資訊欄"
 msgid "Scroll information box down"
 msgstr "向下捲動資訊欄"
 
-#: src/player_hardcoded_effects.cpp:156
+#: src/player_hardcoded_effects.cpp:157
 msgid "Something burns you from the inside."
 msgstr "有東西在你體內灼燒。"
 
-#: src/player_hardcoded_effects.cpp:157
+#: src/player_hardcoded_effects.cpp:158
 msgid "<npcname> shivers from pain."
 msgstr "<npcname>因疼痛而顫抖。"
 
-#: src/player_hardcoded_effects.cpp:209
+#: src/player_hardcoded_effects.cpp:210
 msgid "You feel nauseous."
 msgstr "你覺得反胃。"
 
-#: src/player_hardcoded_effects.cpp:212
+#: src/player_hardcoded_effects.cpp:213
 msgid "You smell and taste mushrooms."
 msgstr "你聞到了磨菇的味道，並感覺滿嘴都是磨菇味。"
 
-#: src/player_hardcoded_effects.cpp:218
+#: src/player_hardcoded_effects.cpp:219
 msgid "You spasm suddenly!"
 msgstr "你癲癇了!"
 
-#: src/player_hardcoded_effects.cpp:223
+#: src/player_hardcoded_effects.cpp:224
 msgid "You vomit a thick, gray goop."
 msgstr "你嘔吐出灰色的黏稠液體。"
 
-#: src/player_hardcoded_effects.cpp:224
+#: src/player_hardcoded_effects.cpp:225
 msgid "<npcname> vomits a thick, gray goop."
 msgstr "<npcname> 嘔吐出灰色的黏稠液體。"
 
-#: src/player_hardcoded_effects.cpp:238
+#: src/player_hardcoded_effects.cpp:239
 msgid "You vomit thousands of live spores!"
 msgstr "你嘔吐出成千上萬的活孢子!"
 
-#: src/player_hardcoded_effects.cpp:239
+#: src/player_hardcoded_effects.cpp:240
 msgid "<npcname> vomits thousands of live spores!"
 msgstr "<npcname> 嘔吐出成千上萬的活孢子!"
 
-#: src/player_hardcoded_effects.cpp:263
+#: src/player_hardcoded_effects.cpp:264
 msgid "The flesh on your broken arms bulges.  Fungus stalks burst through!"
 msgstr "你的斷臂隆起，有真菌從其中竄出！"
 
-#: src/player_hardcoded_effects.cpp:264
+#: src/player_hardcoded_effects.cpp:265
 msgid "<npcname>'s broken arms bulge.  Fungus stalks burst out of the bulges!"
 msgstr "<npcname> 的斷臂隆起，有真菌從其中竄出！"
 
-#: src/player_hardcoded_effects.cpp:267
+#: src/player_hardcoded_effects.cpp:268
 msgid ""
 "The flesh on your broken and unbroken arms bulge.  Fungus stalks burst "
 "through!"
 msgstr "不論你手臂有沒有斷，肌肉都腫起了，並有真菌從其中竄出！"
 
-#: src/player_hardcoded_effects.cpp:268
+#: src/player_hardcoded_effects.cpp:269
 msgid "<npcname>'s arms bulge.  Fungus stalks burst out of the bulges!"
 msgstr "<npcname> 的手臂隆起，有真菌從其中竄出！"
 
-#: src/player_hardcoded_effects.cpp:271
+#: src/player_hardcoded_effects.cpp:272
 msgid "Your hands bulge.  Fungus stalks burst through the bulge!"
 msgstr "你的手掌隆起，有真菌從其中竄出！"
 
-#: src/player_hardcoded_effects.cpp:272
+#: src/player_hardcoded_effects.cpp:273
 msgid "<npcname>'s hands bulge.  Fungus stalks burst through the bulge!"
 msgstr "<npcname> 的手掌隆起，有真菌從其中竄出！"
 
-#: src/player_hardcoded_effects.cpp:279
+#: src/player_hardcoded_effects.cpp:280
 msgid "Your chest bulges, and fungal stalks burst out of your skin!"
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:280
+#: src/player_hardcoded_effects.cpp:281
 msgid "<npcname>'s chest bulges.  Fungus stalks burst out of their skin!"
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:305
+#: src/player_hardcoded_effects.cpp:306
 msgid "You feel nauseous!"
 msgstr "你覺得噁心!"
 
-#: src/player_hardcoded_effects.cpp:340
+#: src/player_hardcoded_effects.cpp:341
 msgctxt "bleed_message"
 msgid "Acid"
 msgstr "防酸"
 
-#: src/player_hardcoded_effects.cpp:340
+#: src/player_hardcoded_effects.cpp:341
 msgctxt "bleed_message"
 msgid "Blood"
 msgstr "血"
 
-#: src/player_hardcoded_effects.cpp:344
+#: src/player_hardcoded_effects.cpp:345
 #, c-format
 msgid "%1s drips from your %2s."
 msgstr "%1s從你的%2s滴下。"
 
-#: src/player_hardcoded_effects.cpp:345
+#: src/player_hardcoded_effects.cpp:346
 #, c-format
 msgid "%1s leaks from your %2s."
 msgstr "%1s從你的%2s滲出。"
 
-#: src/player_hardcoded_effects.cpp:346
+#: src/player_hardcoded_effects.cpp:347
 #, c-format
 msgid "%1s flows from your %2s."
 msgstr "%1s從你的%2s流出。"
 
-#: src/player_hardcoded_effects.cpp:347
+#: src/player_hardcoded_effects.cpp:348
 #, c-format
 msgid "%1s pours from your %2s!"
 msgstr "%1s從你的%2s湧出！"
 
-#: src/player_hardcoded_effects.cpp:348
+#: src/player_hardcoded_effects.cpp:349
 #, c-format
 msgid "%1s gushes from your %2s!"
 msgstr "%1s從你的%2s噴湧而出！"
 
-#: src/player_hardcoded_effects.cpp:365
+#: src/player_hardcoded_effects.cpp:366
 msgid "You lose some blood."
 msgstr "你失血了。"
 
-#: src/player_hardcoded_effects.cpp:369
+#: src/player_hardcoded_effects.cpp:370
 msgid "<npcname> loses some blood."
 msgstr "<npcname> 失血了。"
 
-#: src/player_hardcoded_effects.cpp:375
+#: src/player_hardcoded_effects.cpp:376
 msgid ""
 "You could reduce the bleeding by emptying your hands and pausing to apply "
 "pressure."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:378
+#: src/player_hardcoded_effects.cpp:379
 msgid "You could reduce the bleeding by pausing to apply pressure."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:398
+#: src/player_hardcoded_effects.cpp:399
 msgid "You feel a little strange."
 msgstr "你感到有點詭異。"
 
-#: src/player_hardcoded_effects.cpp:402
+#: src/player_hardcoded_effects.cpp:403
 msgid "The world takes on a dreamlike quality."
 msgstr "世界變得就像在夢境中一樣虛幻。"
 
-#: src/player_hardcoded_effects.cpp:404
+#: src/player_hardcoded_effects.cpp:405
 msgid "You have a sudden nostalgic feeling."
 msgstr "一種懷舊的感覺突然湧上心頭。"
 
-#: src/player_hardcoded_effects.cpp:406
+#: src/player_hardcoded_effects.cpp:407
 msgid "Everything around you is starting to breathe."
 msgstr "圍繞你的所有東西都有了呼吸。"
 
-#: src/player_hardcoded_effects.cpp:408
+#: src/player_hardcoded_effects.cpp:409
 msgid "Something feels very, very wrong."
 msgstr "你感到非常非常的不對勁。"
 
-#: src/player_hardcoded_effects.cpp:412
+#: src/player_hardcoded_effects.cpp:413
 msgid "You feel sick to your stomach."
 msgstr "你的胃不舒服。"
 
-#: src/player_hardcoded_effects.cpp:420
+#: src/player_hardcoded_effects.cpp:421
 msgid "\"I think it's starting to kick in.\""
 msgstr "\"我想它開始起作用了。\""
 
-#: src/player_hardcoded_effects.cpp:421
+#: src/player_hardcoded_effects.cpp:422
 msgid "\"Oh God, what's happening?\""
 msgstr "\"哦, 天啊, 發生了什麼事? \""
 
-#: src/player_hardcoded_effects.cpp:422
+#: src/player_hardcoded_effects.cpp:423
 msgid "\"Of course… it's all fractals!\""
 msgstr "\"當然...全都是碎形的！\""
 
-#: src/player_hardcoded_effects.cpp:423
+#: src/player_hardcoded_effects.cpp:424
 msgid "\"Huh?  What was that?\""
 msgstr "\"咦? 那是什麼? \""
 
-#: src/player_hardcoded_effects.cpp:439
+#: src/player_hardcoded_effects.cpp:440
 msgid "Fractal patterns dance across your vision."
 msgstr "你的視野內舞入了破碎的彩圖。"
 
-#: src/player_hardcoded_effects.cpp:446
+#: src/player_hardcoded_effects.cpp:447
 msgid "Dancing fractals distract you."
 msgstr "分形使你分心。"
 
-#: src/player_hardcoded_effects.cpp:453
+#: src/player_hardcoded_effects.cpp:454
 msgid "Everything looks SO boring now."
 msgstr "所有事情都變得很無聊了。"
 
-#: src/player_hardcoded_effects.cpp:455
+#: src/player_hardcoded_effects.cpp:456
 msgid "Things are returning to normal."
 msgstr "事物恢復原狀了。"
 
-#: src/player_hardcoded_effects.cpp:499
+#: src/player_hardcoded_effects.cpp:500
 msgid "Your thoughts are unclear."
 msgstr "你的思緒不清。"
 
-#: src/player_hardcoded_effects.cpp:501
+#: src/player_hardcoded_effects.cpp:502
 msgid "Your face is stiff from the cold."
 msgstr "你的臉部凍僵了。"
 
-#: src/player_hardcoded_effects.cpp:503
+#: src/player_hardcoded_effects.cpp:504
 msgid "You quiver from the cold."
 msgstr "你冷得直打哆嗦。"
 
-#: src/player_hardcoded_effects.cpp:503
+#: src/player_hardcoded_effects.cpp:504
 msgid "Your torso is freezing cold.  You should put on a few more layers."
 msgstr "你的軀幹有如被冰凍般的寒冷。你應該再多穿幾件。"
 
-#: src/player_hardcoded_effects.cpp:504
+#: src/player_hardcoded_effects.cpp:505
 msgid "Your shivering makes you unsteady."
 msgstr "你的顫抖讓你行動不穩。"
 
-#: src/player_hardcoded_effects.cpp:505 src/player_hardcoded_effects.cpp:506
+#: src/player_hardcoded_effects.cpp:506 src/player_hardcoded_effects.cpp:507
 msgid "Your left arm is shivering."
 msgstr "你的左手臂正在顫抖。"
 
-#: src/player_hardcoded_effects.cpp:505 src/player_hardcoded_effects.cpp:506
+#: src/player_hardcoded_effects.cpp:506 src/player_hardcoded_effects.cpp:507
 msgid "Your left arm trembles from the cold."
 msgstr "你的左手臂寒冷的發抖。"
 
-#: src/player_hardcoded_effects.cpp:507 src/player_hardcoded_effects.cpp:508
+#: src/player_hardcoded_effects.cpp:508 src/player_hardcoded_effects.cpp:509
 msgid "Your right arm is shivering."
 msgstr "你的右手臂正在顫抖。"
 
-#: src/player_hardcoded_effects.cpp:507 src/player_hardcoded_effects.cpp:508
+#: src/player_hardcoded_effects.cpp:508 src/player_hardcoded_effects.cpp:509
 msgid "Your right arm trembles from the cold."
 msgstr "你的右手臂寒冷的發抖。"
 
-#: src/player_hardcoded_effects.cpp:509 src/player_hardcoded_effects.cpp:510
+#: src/player_hardcoded_effects.cpp:510 src/player_hardcoded_effects.cpp:511
 msgid "Your left hand feels like ice."
 msgstr "你覺得左手冷的像冰塊。"
 
-#: src/player_hardcoded_effects.cpp:509 src/player_hardcoded_effects.cpp:510
+#: src/player_hardcoded_effects.cpp:510 src/player_hardcoded_effects.cpp:511
 msgid "Your left hand quivers in the cold."
 msgstr "你的左手寒冷的顫抖。"
 
-#: src/player_hardcoded_effects.cpp:511 src/player_hardcoded_effects.cpp:512
+#: src/player_hardcoded_effects.cpp:512 src/player_hardcoded_effects.cpp:513
 msgid "Your right hand feels like ice."
 msgstr "你覺得右手冷的像冰塊。"
 
-#: src/player_hardcoded_effects.cpp:511 src/player_hardcoded_effects.cpp:512
+#: src/player_hardcoded_effects.cpp:512 src/player_hardcoded_effects.cpp:513
 msgid "Your right hand quivers in the cold."
 msgstr "你的右手寒冷的顫抖。"
 
-#: src/player_hardcoded_effects.cpp:513 src/player_hardcoded_effects.cpp:514
+#: src/player_hardcoded_effects.cpp:514 src/player_hardcoded_effects.cpp:515
 msgid "Your left leg trembles against the relentless cold."
 msgstr "你的左腿為抵禦酷寒而不停的發抖。"
 
-#: src/player_hardcoded_effects.cpp:513 src/player_hardcoded_effects.cpp:514
-#: src/player_hardcoded_effects.cpp:515 src/player_hardcoded_effects.cpp:516
+#: src/player_hardcoded_effects.cpp:514 src/player_hardcoded_effects.cpp:515
+#: src/player_hardcoded_effects.cpp:516 src/player_hardcoded_effects.cpp:517
 msgid "Your legs uncontrollably shake from the cold."
 msgstr "你的腿因寒冷止不住的發抖。"
 
-#: src/player_hardcoded_effects.cpp:515 src/player_hardcoded_effects.cpp:516
+#: src/player_hardcoded_effects.cpp:516 src/player_hardcoded_effects.cpp:517
 msgid "Your right leg trembles against the relentless cold."
 msgstr "你的右腿為抵禦酷寒而不停的發抖。"
 
-#: src/player_hardcoded_effects.cpp:517 src/player_hardcoded_effects.cpp:518
+#: src/player_hardcoded_effects.cpp:518 src/player_hardcoded_effects.cpp:519
 msgid "Your left foot feels frigid."
 msgstr "你的左腳感覺像要凍僵了。"
 
-#: src/player_hardcoded_effects.cpp:517
+#: src/player_hardcoded_effects.cpp:518
 msgid "Your left foot is as nimble as a block of ice."
 msgstr "你的左腳凍僵麻木了。"
 
-#: src/player_hardcoded_effects.cpp:518
+#: src/player_hardcoded_effects.cpp:519
 msgid "Your freezing left foot messes up your balance."
 msgstr "你凍僵的左腳擾亂了你的平衡。"
 
-#: src/player_hardcoded_effects.cpp:519 src/player_hardcoded_effects.cpp:520
+#: src/player_hardcoded_effects.cpp:520 src/player_hardcoded_effects.cpp:521
 msgid "Your right foot feels frigid."
 msgstr "你的右腳感覺像要凍僵了。"
 
-#: src/player_hardcoded_effects.cpp:519
+#: src/player_hardcoded_effects.cpp:520
 msgid "Your right foot is as nimble as a block of ice."
 msgstr "你的右腳凍僵麻木了。"
 
-#: src/player_hardcoded_effects.cpp:520
+#: src/player_hardcoded_effects.cpp:521
 msgid "Your freezing right foot messes up your balance."
 msgstr "你凍僵的右腳擾亂了你的平衡。"
 
-#: src/player_hardcoded_effects.cpp:533
+#: src/player_hardcoded_effects.cpp:534
 msgid "Your head is pounding from the heat."
 msgstr "你的頭部因為太熱而發疼。"
 
-#: src/player_hardcoded_effects.cpp:535
+#: src/player_hardcoded_effects.cpp:536
 msgid "You are sweating profusely."
 msgstr "你汗流浹背。"
 
-#: src/player_hardcoded_effects.cpp:537 src/player_hardcoded_effects.cpp:538
+#: src/player_hardcoded_effects.cpp:538 src/player_hardcoded_effects.cpp:539
 msgid "Your left hand's too sweaty to grip well."
 msgstr "你左手掌的出汗讓你抓不牢。"
 
-#: src/player_hardcoded_effects.cpp:539 src/player_hardcoded_effects.cpp:540
+#: src/player_hardcoded_effects.cpp:540 src/player_hardcoded_effects.cpp:541
 msgid "Your right hand's too sweaty to grip well."
 msgstr "你右手掌的出汗讓你抓不牢。"
 
-#: src/player_hardcoded_effects.cpp:541
+#: src/player_hardcoded_effects.cpp:542
 msgid "Your left leg is cramping up."
 msgstr "你的左腿抽筋了。"
 
-#: src/player_hardcoded_effects.cpp:543
+#: src/player_hardcoded_effects.cpp:544
 msgid "Your right leg is cramping up."
 msgstr "你的右腿抽筋了。"
 
-#: src/player_hardcoded_effects.cpp:545
+#: src/player_hardcoded_effects.cpp:546
 msgid "Your left foot is swelling in the heat."
 msgstr "你的左腳腫脹發燙。"
 
-#: src/player_hardcoded_effects.cpp:547
+#: src/player_hardcoded_effects.cpp:548
 msgid "Your right foot is swelling in the heat."
 msgstr "你的右腳腫脹發燙。"
 
-#: src/player_hardcoded_effects.cpp:566
+#: src/player_hardcoded_effects.cpp:567
 msgid "The heat is making you see things."
 msgstr "高溫使你出現幻覺。"
 
-#: src/player_hardcoded_effects.cpp:575 src/player_hardcoded_effects.cpp:576
+#: src/player_hardcoded_effects.cpp:576 src/player_hardcoded_effects.cpp:577
 msgid "You have trouble grasping with your numb fingers."
 msgstr "你麻木的手指使得你很難抓握。"
 
-#: src/player_hardcoded_effects.cpp:577 src/player_hardcoded_effects.cpp:578
-#: src/player_hardcoded_effects.cpp:579 src/player_hardcoded_effects.cpp:580
+#: src/player_hardcoded_effects.cpp:578 src/player_hardcoded_effects.cpp:579
+#: src/player_hardcoded_effects.cpp:580 src/player_hardcoded_effects.cpp:581
 msgid "Your foot has gone numb."
 msgstr "你的腳掌已經麻木了。"
 
-#: src/player_hardcoded_effects.cpp:581 src/player_hardcoded_effects.cpp:582
+#: src/player_hardcoded_effects.cpp:582 src/player_hardcoded_effects.cpp:583
 msgid "Your face feels numb."
 msgstr "你的臉部失去知覺。"
 
-#: src/player_hardcoded_effects.cpp:608
+#: src/player_hardcoded_effects.cpp:609
 msgid "Glowing lights surround you, and you teleport."
 msgstr "你被光束圍繞, 然後被傳送走了。"
 
-#: src/player_hardcoded_effects.cpp:628
+#: src/player_hardcoded_effects.cpp:629
 msgid "You pass out."
 msgstr "你昏倒了。"
 
-#: src/player_hardcoded_effects.cpp:662 src/player_hardcoded_effects.cpp:1316
+#: src/player_hardcoded_effects.cpp:663 src/player_hardcoded_effects.cpp:1317
 msgid "A monster appears nearby!"
 msgstr "有怪物在附近出現了!"
 
-#: src/player_hardcoded_effects.cpp:663 src/player_hardcoded_effects.cpp:1317
+#: src/player_hardcoded_effects.cpp:664 src/player_hardcoded_effects.cpp:1318
 msgid "A portal opens nearby, and a monster crawls through!"
 msgstr "一個傳送門在附近開啟了, 有怪物傳送過來了!"
 
-#: src/player_hardcoded_effects.cpp:672
+#: src/player_hardcoded_effects.cpp:673
 msgid "You shudder suddenly."
 msgstr "你突然發抖。"
 
-#: src/player_hardcoded_effects.cpp:686
+#: src/player_hardcoded_effects.cpp:687
 msgid "Your vision is filled with bright lights…"
 msgstr "你的視線被強光所掩蓋…"
 
-#: src/player_hardcoded_effects.cpp:702
+#: src/player_hardcoded_effects.cpp:703
 msgid "You're suddenly covered in ectoplasm."
 msgstr "你突然全身被覆蓋了一層外質。"
 
-#: src/player_hardcoded_effects.cpp:713
+#: src/player_hardcoded_effects.cpp:714
 msgid "We have many colonists awaiting passage."
 msgstr "我們有許多殖民者等待通過。"
 
-#: src/player_hardcoded_effects.cpp:742
+#: src/player_hardcoded_effects.cpp:743
 msgid ""
 "You're experiencing loss of basic motor skills and blurred vision.  Your "
 "mind recoils in horror, unable to communicate with your spinal column."
 msgstr "你經歷了基本運動技能與視力的衰退。你的頭腦因為驚恐而無法與你的脊柱溝通。"
 
-#: src/player_hardcoded_effects.cpp:743
+#: src/player_hardcoded_effects.cpp:744
 msgid "You stagger and fall!"
 msgstr "你重心不穩摔倒了!"
 
-#: src/player_hardcoded_effects.cpp:758
+#: src/player_hardcoded_effects.cpp:759
 msgid "There's some kind of big machine in the sky."
 msgstr "天上有某個大型機器。"
 
-#: src/player_hardcoded_effects.cpp:761
+#: src/player_hardcoded_effects.cpp:762
 msgid "It's some kind of electric snake, coming right at you!"
 msgstr "是某種電子蛇, 朝你直奔而來!"
 
-#: src/player_hardcoded_effects.cpp:768
+#: src/player_hardcoded_effects.cpp:769
 msgid ""
 "Order us some golf shoes, otherwise we'll never get out of this place alive."
 msgstr "給我們一些高爾夫球鞋, 不然我們都別想活著離開這個地方。"
 
-#: src/player_hardcoded_effects.cpp:772
+#: src/player_hardcoded_effects.cpp:773
 msgid "The possibility of physical and mental collapse is now very real."
 msgstr "身心崩潰的可能性現在是非常真實的。"
 
-#: src/player_hardcoded_effects.cpp:774
+#: src/player_hardcoded_effects.cpp:775
 msgid "No one should be asked to handle this trip."
 msgstr "任何人都不應該要求負責此行。"
 
-#: src/player_hardcoded_effects.cpp:784
+#: src/player_hardcoded_effects.cpp:785
 msgid ""
 "Your heart spasms painfully and stops, dragging you back to reality as you "
 "die."
 msgstr "你的心臟痛苦地痙攣… 之後停止了跳動。讓你不得不接受現實, 你死了。"
 
-#: src/player_hardcoded_effects.cpp:787
+#: src/player_hardcoded_effects.cpp:788
 msgid ""
 "You dissolve into beautiful paroxysms of energy.  Life fades from your "
 "nebulae and you are no more."
 msgstr "你分解成了美麗的陣陣能量。你的生命漸漸消逝。"
 
-#: src/player_hardcoded_effects.cpp:809
+#: src/player_hardcoded_effects.cpp:810
 msgid "You bleed to death!"
 msgstr "你受傷流血致死！"
 
-#: src/player_hardcoded_effects.cpp:810
+#: src/player_hardcoded_effects.cpp:811
 msgid "<npcname> bleeds to death!"
 msgstr "<npcname>受傷流血致死！"
 
-#: src/player_hardcoded_effects.cpp:815
+#: src/player_hardcoded_effects.cpp:816
 msgid "Your heart can't keep up the pace and fails!"
 msgstr "你的心臟供血不足，心臟衰竭！"
 
-#: src/player_hardcoded_effects.cpp:842
+#: src/player_hardcoded_effects.cpp:843
 msgid "Your skin looks pale and you feel anxious and thirsty.  Blood loss?"
 msgstr "你的皮膚看起來蒼白，而且你感到焦慮和口渴。失血過多？"
 
-#: src/player_hardcoded_effects.cpp:844
+#: src/player_hardcoded_effects.cpp:845
 msgid ""
 "Your pale skin is sweating, your heart is beating fast, and you feel "
 "restless.  Maybe you lost too much blood?"
 msgstr "你皮膚發白、不斷出汗、心跳加速並感到一陣陣心慌。也許你失血過多？"
 
-#: src/player_hardcoded_effects.cpp:846
+#: src/player_hardcoded_effects.cpp:847
 msgid ""
 "You're unsettlingly white, but your fingertips are bluish.  You are agitated"
 " and your heart is racing.  Your blood loss must be serious."
 msgstr "你的臉色蒼白得令人不安，但你的指尖是發紫。你很躁動，心跳加速。你的失血一定很嚴重。"
 
-#: src/player_hardcoded_effects.cpp:848
+#: src/player_hardcoded_effects.cpp:849
 msgid ""
 "You are pale as a ghost, dripping wet from the sweat, and sluggish - despite"
 " your heart racing like a train.  You are on the brink of collapse from the "
 "effects of blood loss."
 msgstr "你臉色白得跟鬼一樣，全身冒汗，盡管你的心像火車一樣在狂跳你還是覺得遲鈍。你正處於失血過多暈倒的邊緣。"
 
-#: src/player_hardcoded_effects.cpp:856
+#: src/player_hardcoded_effects.cpp:857
 msgid "You feel dizzy and lightheaded."
 msgstr "你感到頭暈目眩。"
 
-#: src/player_hardcoded_effects.cpp:860
+#: src/player_hardcoded_effects.cpp:861
 msgid "You feel tired and you breathe heavily."
 msgstr "你感到疲憊而且呼吸困難。"
 
-#: src/player_hardcoded_effects.cpp:864
+#: src/player_hardcoded_effects.cpp:865
 msgid "You are anxious and cannot collect your thoughts."
 msgstr "你很焦慮而且無法集中想法。"
 
-#: src/player_hardcoded_effects.cpp:868
+#: src/player_hardcoded_effects.cpp:869
 msgid "You are sweating profusely, but you feel cold."
 msgstr "你滿頭大汗，卻感覺渾身發冷。"
 
-#: src/player_hardcoded_effects.cpp:877
+#: src/player_hardcoded_effects.cpp:878
 msgid "You huff and puff.  Your breath is rapid and shallow."
 msgstr "你氣喘呼呼。你的呼吸又急又淺。"
 
-#: src/player_hardcoded_effects.cpp:882
+#: src/player_hardcoded_effects.cpp:883
 msgid "You drop to the ground, fighting to keep yourself conscious."
 msgstr "你摔倒在地，掙扎著保持清醒。"
 
-#: src/player_hardcoded_effects.cpp:886
+#: src/player_hardcoded_effects.cpp:887
 msgid "Your mind slips away."
 msgstr "你開始走神。"
 
-#: src/player_hardcoded_effects.cpp:917
+#: src/player_hardcoded_effects.cpp:918
 msgid "You cannot breathe and your body gives out!"
 msgstr "你無法呼吸，你的身體快不行了！"
 
-#: src/player_hardcoded_effects.cpp:918
+#: src/player_hardcoded_effects.cpp:919
 msgid "<npcname> gasps for air and dies!"
 msgstr "<npcname>劇烈的喘息然後死了！"
 
-#: src/player_hardcoded_effects.cpp:926
+#: src/player_hardcoded_effects.cpp:927
 msgid "Your hands feel unusually cold."
 msgstr "您的手感到異常冰冷。"
 
-#: src/player_hardcoded_effects.cpp:931
+#: src/player_hardcoded_effects.cpp:932
 msgid "Your feet feel unusually cold."
 msgstr "您的腳感到異常冰冷。"
 
-#: src/player_hardcoded_effects.cpp:936
+#: src/player_hardcoded_effects.cpp:937
 msgid "Your skin looks very pale."
 msgstr "你的皮膚看起來非常蒼白。"
 
-#: src/player_hardcoded_effects.cpp:939
+#: src/player_hardcoded_effects.cpp:940
 msgid "You feel weak.  Where has your strength gone?"
 msgstr "你感到虛弱。你的力量都到哪去了？"
 
-#: src/player_hardcoded_effects.cpp:942
+#: src/player_hardcoded_effects.cpp:943
 msgid "You feel feeble.  A gust of wind could make you stumble."
 msgstr "你感覺虛弱。一陣風都能吹倒你。"
 
-#: src/player_hardcoded_effects.cpp:945
+#: src/player_hardcoded_effects.cpp:946
 msgid "There is an overwhelming aura of tiredness inside of you."
 msgstr "你感到無法抗拒的疲倦席捲而來。"
 
-#: src/player_hardcoded_effects.cpp:958
+#: src/player_hardcoded_effects.cpp:959
 msgid "Rest is what you want.  Rest is what you need."
 msgstr "你需要休息。你需要的就是休息。"
 
-#: src/player_hardcoded_effects.cpp:961
+#: src/player_hardcoded_effects.cpp:962
 msgid "You feel dizzy and can't coordinate the movement of your feet."
 msgstr "你感到頭暈目眩，無法控制你的方向和腳步。"
 
-#: src/player_hardcoded_effects.cpp:965
+#: src/player_hardcoded_effects.cpp:966
 msgid "Your muscles are quivering."
 msgstr "你的肌肉在顫抖。"
 
-#: src/player_hardcoded_effects.cpp:969
+#: src/player_hardcoded_effects.cpp:970
 msgid "You crave for ice.  The dirt under your feet looks tasty too."
 msgstr "你突然想吃冰。腳下的泥土看起來也很好吃。"
 
-#: src/player_hardcoded_effects.cpp:972
+#: src/player_hardcoded_effects.cpp:973
 msgid "Your whole mouth is sore, and your tongue is swollen."
 msgstr "你整個嘴巴很痠痛，而且舌頭也很腫。"
 
-#: src/player_hardcoded_effects.cpp:975
+#: src/player_hardcoded_effects.cpp:976
 msgid "You feel lightheaded.  A migraine follows."
 msgstr "你覺得頭昏眼花。緊接而來的偏頭痛。"
 
-#: src/player_hardcoded_effects.cpp:988
+#: src/player_hardcoded_effects.cpp:989
 msgid "Your legs are restless.  The urge to move them is so strong."
 msgstr "你的腿是很不安分。 渴望移動的衝動是如此強烈。"
 
-#: src/player_hardcoded_effects.cpp:991
+#: src/player_hardcoded_effects.cpp:992
 msgid "You feel like you could sleep on a rock."
 msgstr "你覺得你能在石頭上睡覺。"
 
-#: src/player_hardcoded_effects.cpp:995
+#: src/player_hardcoded_effects.cpp:996
 msgid "You gasp for air!"
 msgstr "你開始喘息，需要空氣！"
 
-#: src/player_hardcoded_effects.cpp:1000
+#: src/player_hardcoded_effects.cpp:1001
 msgid "Can't breathe.  Must rest."
 msgstr "不能呼吸。必須休息。"
 
-#: src/player_hardcoded_effects.cpp:1005
+#: src/player_hardcoded_effects.cpp:1006
 msgid "You can't take it any more.  Rest first; everything else later."
 msgstr "不能再繼續了！先休息；其他事情之後再說。"
 
-#: src/player_hardcoded_effects.cpp:1010
+#: src/player_hardcoded_effects.cpp:1011
 msgid "You must sit down for a moment.  Just a moment."
 msgstr "你需要坐下休息一會。就一會兒。"
 
-#: src/player_hardcoded_effects.cpp:1051
+#: src/player_hardcoded_effects.cpp:1052
 msgid "You feel well rested."
 msgstr "你充分的休息了。"
 
-#: src/player_hardcoded_effects.cpp:1054
+#: src/player_hardcoded_effects.cpp:1055
 msgid ""
 "You feel physically rested, but you haven't been able to catch up on your "
 "missed sleep yet."
 msgstr "你覺得身體有休息了, 可是卻依然沒法彌補之前的睡眠不足。"
 
-#: src/player_hardcoded_effects.cpp:1151 src/player_hardcoded_effects.cpp:1160
-#: src/player_hardcoded_effects.cpp:1167
+#: src/player_hardcoded_effects.cpp:1152 src/player_hardcoded_effects.cpp:1161
+#: src/player_hardcoded_effects.cpp:1168
 msgid "It's too bright to sleep."
 msgstr "太亮了沒辦法睡。"
 
-#: src/player_hardcoded_effects.cpp:1175
+#: src/player_hardcoded_effects.cpp:1176
 #, c-format
 msgid "You see %s approaching!"
 msgstr "你看到 %s 正在接近!"
 
-#: src/player_hardcoded_effects.cpp:1193
+#: src/player_hardcoded_effects.cpp:1194
 msgid "You toss and turn trying to keep warm."
 msgstr "你翻來覆去試著保暖。"
 
-#: src/player_hardcoded_effects.cpp:1197
+#: src/player_hardcoded_effects.cpp:1198
 msgid "It's too cold to sleep."
 msgstr "太冷了沒辦法睡。"
 
-#: src/player_hardcoded_effects.cpp:1205
+#: src/player_hardcoded_effects.cpp:1206
 msgid "You toss and turn in the heat."
 msgstr "你熱到打滾。"
 
-#: src/player_hardcoded_effects.cpp:1209
+#: src/player_hardcoded_effects.cpp:1210
 msgid "It's too hot to sleep."
 msgstr "太炎熱了沒辦法睡。"
 
 #. ~ %s is bodypart in accusative.
-#: src/player_hardcoded_effects.cpp:1276
+#: src/player_hardcoded_effects.cpp:1277
 #, c-format
 msgid "You start scratching your %s!"
 msgstr "你開始搔你的 %s!"
 
 #. ~ 1$s is NPC name, 2$s is bodypart in accusative.
-#: src/player_hardcoded_effects.cpp:1280
+#: src/player_hardcoded_effects.cpp:1281
 #, c-format
 msgid "%1$s starts scratching their %2$s!"
 msgstr "%1$s 開始搔他的 %2$s!"
 
-#: src/player_hardcoded_effects.cpp:1292
+#: src/player_hardcoded_effects.cpp:1293
 msgid "Why waste your time on that insignificant speck?"
 msgstr "為什麼你要在這微不足道的小斑點上浪費時間?"
 
-#: src/player_hardcoded_effects.cpp:1324
+#: src/player_hardcoded_effects.cpp:1325
 msgid "The bees have started escaping your teeth."
 msgstr "這些蜜蜂躲過了你的牙齒。"
 
-#: src/player_hardcoded_effects.cpp:1326
+#: src/player_hardcoded_effects.cpp:1327
 msgid "You feel paranoid.  They're watching you."
 msgstr "你覺得出現妄想。他們在看你。"
 
-#: src/player_hardcoded_effects.cpp:1331
+#: src/player_hardcoded_effects.cpp:1332
 msgid ""
 "You feel like you need less teeth.  You pull one out, and it is rotten to "
 "the core."
 msgstr "你覺得你不太需要牙齒了。你拔起一顆, 發現裡面都爛了。"
 
-#: src/player_hardcoded_effects.cpp:1334
+#: src/player_hardcoded_effects.cpp:1335
 msgid "You notice a large abscess.  You pick at it."
 msgstr "你注意到了一個大膿包並把它挑起來。"
 
-#: src/player_hardcoded_effects.cpp:1340
+#: src/player_hardcoded_effects.cpp:1341
 msgid ""
 "You feel so sick, like you've been poisoned, but you need more.  So much "
 "more."
 msgstr "你覺得病厭厭, 就像是中毒了, 但是你需要更多。非常多。"
 
-#: src/player_hardcoded_effects.cpp:1346
+#: src/player_hardcoded_effects.cpp:1347
 msgid "You are beset with a vision of a prowling beast."
 msgstr "一個徘徊的野獸異像困擾著你。"
 
-#: src/player_hardcoded_effects.cpp:1350
+#: src/player_hardcoded_effects.cpp:1351
 msgid "Your surroundings are permeated with a foul scent."
 msgstr "你周圍的環境充滿了難聞的氣味。"
 
-#: src/player_hardcoded_effects.cpp:1357
+#: src/player_hardcoded_effects.cpp:1358
 msgid "Your asthma attack stops."
 msgstr "你的哮喘發作停止。"
 
-#: src/player_hardcoded_effects.cpp:1360
+#: src/player_hardcoded_effects.cpp:1361
 msgid ""
 "Your asthma overcomes you.\n"
 "You asphyxiate."
@@ -644974,114 +645315,114 @@ msgstr ""
 "你的氣喘擊垮了你。\n"
 "你窒息而死。"
 
-#: src/player_hardcoded_effects.cpp:1365
+#: src/player_hardcoded_effects.cpp:1366
 msgid "You wheeze and gasp for air."
 msgstr "你喘息並渴求著空氣。"
 
-#: src/player_hardcoded_effects.cpp:1370
+#: src/player_hardcoded_effects.cpp:1371
 msgid "Your head aches faintly."
 msgstr "你的頭隱隱作痛。"
 
-#: src/player_hardcoded_effects.cpp:1376
+#: src/player_hardcoded_effects.cpp:1377
 msgid "Your vision is getting fuzzy."
 msgstr "你的視力愈來愈模糊。"
 
-#: src/player_hardcoded_effects.cpp:1384
+#: src/player_hardcoded_effects.cpp:1385
 msgid "Your vision goes black!"
 msgstr "你的眼前一片漆黑!"
 
-#: src/player_hardcoded_effects.cpp:1390
+#: src/player_hardcoded_effects.cpp:1391
 msgid "Your bowels ache."
 msgstr "你的腸子很疼痛。"
 
-#: src/player_hardcoded_effects.cpp:1394
+#: src/player_hardcoded_effects.cpp:1395
 msgid "Your veins itch."
 msgstr "你的血管發癢。"
 
-#: src/player_hardcoded_effects.cpp:1398
+#: src/player_hardcoded_effects.cpp:1399
 msgid "Your muscles feel like they're knotted and tired."
 msgstr "你的肌肉感到又累又緊繃。"
 
-#: src/player_hardcoded_effects.cpp:1402
+#: src/player_hardcoded_effects.cpp:1403
 msgid "Your muscles are tight and sore."
 msgstr "你的肌肉痠痛。"
 
-#: src/player_hardcoded_effects.cpp:1406
+#: src/player_hardcoded_effects.cpp:1407
 msgid "Your muscles are locking up and you can't fight effectively."
 msgstr "你的肌肉卡住了, 你無法有效率地戰鬥。"
 
-#: src/player_hardcoded_effects.cpp:1408
+#: src/player_hardcoded_effects.cpp:1409
 msgid "Your muscles spasm."
 msgstr "你抽筋了。"
 
 #. ~ %s is bodypart name.
-#: src/player_hardcoded_effects.cpp:1469 src/player_hardcoded_effects.cpp:1521
+#: src/player_hardcoded_effects.cpp:1470 src/player_hardcoded_effects.cpp:1522
 #, c-format
 msgid "Your %s wound begins to feel better!"
 msgstr "你感覺 %s 的傷口好轉了!"
 
-#: src/player_hardcoded_effects.cpp:1532
+#: src/player_hardcoded_effects.cpp:1533
 msgid "You succumb to the infection."
 msgstr "你死於感染。"
 
-#: src/player_hardcoded_effects.cpp:1557
+#: src/player_hardcoded_effects.cpp:1558
 msgid "You try to sleep, but can't…"
 msgstr "你試著睡覺，但睡不著…"
 
-#: src/player_hardcoded_effects.cpp:1571
+#: src/player_hardcoded_effects.cpp:1572
 msgid "Your internal chronometer went off and you haven't slept a wink."
 msgstr "你的內部計時器響了, 你一點都沒睡著。"
 
-#: src/player_hardcoded_effects.cpp:1584
+#: src/player_hardcoded_effects.cpp:1585
 msgid "Your internal chronometer finally wakes you up."
 msgstr "你的內部計時器終於叫醒了你。"
 
-#: src/player_hardcoded_effects.cpp:1586
+#: src/player_hardcoded_effects.cpp:1587
 msgid "Your internal chronometer wakes you up."
 msgstr "你的內部計時器叫醒了你。"
 
-#: src/player_hardcoded_effects.cpp:1614
+#: src/player_hardcoded_effects.cpp:1615
 msgid "Your alarm is going off."
 msgstr "你的鬧鐘響了。"
 
-#: src/player_hardcoded_effects.cpp:1616
+#: src/player_hardcoded_effects.cpp:1617
 msgid "Your alarm went off."
 msgstr "你的鬧鐘已經響了。"
 
-#: src/player_hardcoded_effects.cpp:1646
+#: src/player_hardcoded_effects.cpp:1647
 msgid "You lose control of your body as it begins to convulse!"
 msgstr "你開始抽蓄且無法控制你的身體。"
 
-#: src/player_hardcoded_effects.cpp:1654
+#: src/player_hardcoded_effects.cpp:1655
 msgid "You lose consciousness!"
 msgstr "你失去知覺！"
 
-#: src/player_hardcoded_effects.cpp:1664
+#: src/player_hardcoded_effects.cpp:1665
 msgid "arm"
 msgstr "手臂"
 
-#: src/player_hardcoded_effects.cpp:1664
+#: src/player_hardcoded_effects.cpp:1665
 msgid "leg"
 msgstr "腿部"
 
-#: src/player_hardcoded_effects.cpp:1667
+#: src/player_hardcoded_effects.cpp:1668
 #, c-format
 msgid "Your %s suddenly jerks in an unexpected direction!"
 msgstr "你的%s突然不由自主的抽蓄！"
 
-#: src/player_hardcoded_effects.cpp:1677
+#: src/player_hardcoded_effects.cpp:1678
 msgid "However, you manage to keep hold of your weapon."
 msgstr "不過，你還是握住了你手上的武器。"
 
-#: src/player_hardcoded_effects.cpp:1684
+#: src/player_hardcoded_effects.cpp:1685
 msgid "However, you manage to keep your footing."
 msgstr "然而，你還是設法站穩了腳步。"
 
-#: src/player_hardcoded_effects.cpp:1691
+#: src/player_hardcoded_effects.cpp:1692
 msgid "You suddenly lose all muscle tone, and can't support your own weight!"
 msgstr "你忽然的失去你的肌肉張力，且無法支撐你的體重。"
 
-#: src/player_hardcoded_effects.cpp:1702
+#: src/player_hardcoded_effects.cpp:1703
 msgid "You have a splitting headache."
 msgstr "你感到頭痛欲裂。"
 
@@ -648073,85 +648414,85 @@ msgstr "英尺"
 msgid "You merge it into the adjacent power grid."
 msgstr ""
 
-#: src/veh_appliance.cpp:228
+#: src/veh_appliance.cpp:229
 msgid "Onboard battery power: "
 msgstr "已安裝電量："
 
 #. ~ Power in killoWatts. %+4.1f is a 4 digit number with 1 decimal point (ex:
 #. 2198.3 kW)
-#: src/veh_appliance.cpp:237
+#: src/veh_appliance.cpp:238
 #, c-format
 msgid "%+4.1f kW"
 msgstr "%+4.1f kW"
 
-#: src/veh_appliance.cpp:249
+#: src/veh_appliance.cpp:250
 msgid "Appliance has no connection to a battery."
 msgstr "家電沒有連接到電池。"
 
-#: src/veh_appliance.cpp:258
+#: src/veh_appliance.cpp:259
 msgid "Grid battery power flow: "
 msgstr "電網電池總功率："
 
-#: src/veh_appliance.cpp:264
+#: src/veh_appliance.cpp:265
 msgid "Reactor power output: "
 msgstr "反應爐輸出功率："
 
-#: src/veh_appliance.cpp:271
+#: src/veh_appliance.cpp:272
 msgid "Wind power output: "
 msgstr "風力輸出功率："
 
-#: src/veh_appliance.cpp:278
+#: src/veh_appliance.cpp:279
 msgid "Solar power output: "
 msgstr "太陽能輸出功率："
 
-#: src/veh_appliance.cpp:285
+#: src/veh_appliance.cpp:286
 msgid "Water power output: "
 msgstr "水力輸出功率："
 
-#: src/veh_appliance.cpp:292
+#: src/veh_appliance.cpp:293
 msgid "Alternator power output: "
 msgstr "發電機輸出功率："
 
-#: src/veh_appliance.cpp:299
+#: src/veh_appliance.cpp:300
 msgid "Appliance power consumption: "
 msgstr ""
 
 #. ~ Vehicle part name, capacity (current/max L) and name of contents
-#: src/veh_appliance.cpp:349
+#: src/veh_appliance.cpp:350
 #, c-format
 msgid "%1$s (%2$.1f/%3$.1fL %4$s)"
 msgstr "%1$s （%2$.1f/%3$.1fL %4$s）"
 
-#: src/veh_appliance.cpp:374
+#: src/veh_appliance.cpp:375
 msgid "Which part to refill?"
 msgstr "哪個部件要補充？"
 
-#: src/veh_appliance.cpp:428
+#: src/veh_appliance.cpp:429
 msgid "Which part to siphon from?"
 msgstr "從哪個部件抽取？"
 
-#: src/veh_appliance.cpp:446
+#: src/veh_appliance.cpp:447
 msgid "Enter new appliance name:"
 msgstr "輸入新的家電名稱："
 
-#: src/veh_appliance.cpp:478
+#: src/veh_appliance.cpp:479
 msgid "Insufficient components/tools!\n"
 msgstr "原料/工具不足！\n"
 
 #. ~ Prompt the player if they want to remove the appliance. %s = appliance
 #. name.
-#: src/veh_appliance.cpp:491
+#: src/veh_appliance.cpp:492
 #, c-format
 msgid "Are you sure you want to take down the %s?"
 msgstr "確定要拆下%s嗎？"
 
 #. ~ An addendum to Plug In's description, as in: Plug in appliance / merge
 #. power grid".
-#: src/veh_appliance.cpp:584
+#: src/veh_appliance.cpp:585
 msgid " / merge power grid"
 msgstr ""
 
-#: src/veh_appliance.cpp:594 src/vehicle_use.cpp:2082
+#: src/veh_appliance.cpp:595 src/vehicle_use.cpp:2082
 msgid "Remove other cables first"
 msgstr ""
 

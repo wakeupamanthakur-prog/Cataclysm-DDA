@@ -37,7 +37,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: cataclysm-dda 0.I\n"
-"POT-Creation-Date: 2024-10-26 01:47+0000\n"
+"POT-Creation-Date: 2024-10-29 22:50+0000\n"
 "PO-Revision-Date: 2018-04-26 14:47+0000\n"
 "Last-Translator: Victor_U <Victor.Utechenko@softengi.com>, 2024\n"
 "Language-Team: Ukrainian (Ukraine) (https://app.transifex.com/cataclysm-dda-translators/teams/2217/uk_UA/)\n"
@@ -167779,17 +167779,18 @@ msgstr ""
 
 #. ~ Valid mod location of gun
 #. ~ Location of gun mod
-#: data/json/items/classes/gun.json data/json/items/gun/223.json
-#: data/json/items/gun/270win.json data/json/items/gun/300.json
-#: data/json/items/gun/3006.json data/json/items/gun/303.json
-#: data/json/items/gun/308.json data/json/items/gun/30carbine.json
-#: data/json/items/gun/338lapua.json data/json/items/gun/40x46mm.json
-#: data/json/items/gun/45.json data/json/items/gun/762R.json
-#: data/json/items/gun/77mm_arisaka.json data/json/items/gun/9mm.json
-#: data/json/items/gun/blunderbuss.json data/json/items/gun/flintlock.json
-#: data/json/items/gun/nail.json data/json/items/gun/paintball.json
-#: data/json/items/gun/shot.json data/json/items/gunmod/mount.json
-#: data/json/items/ranged/launchers.json data/json/items/ranged/pneumatic.json
+#: data/json/items/classes/gun.json data/json/items/gun/22.json
+#: data/json/items/gun/223.json data/json/items/gun/270win.json
+#: data/json/items/gun/300.json data/json/items/gun/3006.json
+#: data/json/items/gun/303.json data/json/items/gun/308.json
+#: data/json/items/gun/30carbine.json data/json/items/gun/338lapua.json
+#: data/json/items/gun/40x46mm.json data/json/items/gun/45.json
+#: data/json/items/gun/762R.json data/json/items/gun/77mm_arisaka.json
+#: data/json/items/gun/9mm.json data/json/items/gun/blunderbuss.json
+#: data/json/items/gun/flintlock.json data/json/items/gun/nail.json
+#: data/json/items/gun/paintball.json data/json/items/gun/shot.json
+#: data/json/items/gunmod/mount.json data/json/items/ranged/launchers.json
+#: data/json/items/ranged/pneumatic.json
 #: data/json/obsoletion_and_migration_0.I/gun.json
 #: data/mods/Aftershock/items/gun/25mm.json
 #: data/mods/Aftershock/items/gun/foam.json
@@ -172261,6 +172262,7 @@ msgstr ""
 
 #. ~ Item name
 #: data/json/items/comestibles/carnivore.json
+#: data/mods/Aftershock/items/comestibles/flesh.json
 msgid "seeping heart"
 msgid_plural "seeping hearts"
 msgstr[0] ""
@@ -172270,6 +172272,7 @@ msgstr[3] ""
 
 #. ~ Description of "seeping heart"
 #: data/json/items/comestibles/carnivore.json
+#: data/mods/Aftershock/items/comestibles/flesh.json
 msgid ""
 "A thick mass of flesh superficially resembling a mammalian heart.  It's the "
 "size of your fist and covered in dimpled grooves."
@@ -183910,6 +183913,7 @@ msgstr ""
 #. ~ "activation_message" action message of item "calcium tablet"
 #. ~ "activation_message" action message of item "bone meal tablet"
 #. ~ "activation_message" action message of item "flavored bone meal tablet"
+#. ~ "activation_message" action message of item "vitamin C supplement"
 #. ~ "activation_message" action message of item "wyld candy"
 #: data/json/items/comestibles/med.json
 #: data/mods/Xedra_Evolved/items/drugs.json
@@ -183964,6 +183968,22 @@ msgid ""
 "A homemade calcium supplement made out of bone meal.  Due to some sweeteners"
 " mixed in to counteract the powdery texture and the taste of ash, it's "
 "almost as palatable as the pre-Cataclysm tablets."
+msgstr ""
+
+#. ~ Item name
+#: data/json/items/comestibles/med.json
+msgid "vitamin C supplement"
+msgid_plural "vitamin C supplements"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description of "vitamin C supplement"
+#: data/json/items/comestibles/med.json
+msgid ""
+"A small white tablet promising more vitamin C than a human can conceivably "
+"absorb."
 msgstr ""
 
 #. ~ Item name
@@ -209414,6 +209434,71 @@ msgid ""
 msgstr ""
 
 #. ~ Name of a gun
+#: data/json/items/gun/22.json
+msgid "small game lever-action rifle"
+msgid_plural "small game lever-action rifles"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description of gun "small game lever-action rifle"
+#: data/json/items/gun/22.json
+msgid ""
+"A .22 Long Rifle lever-action rifle, which holds 15 rounds of ammo.  While "
+"quite useful against small game, its effectiveness isn't as great against "
+"the undead."
+msgstr ""
+
+#. ~ Variant name of gun "small game lever-action rifle"
+#: data/json/items/gun/22.json
+msgid "Rossi Rio Bravo"
+msgid_plural "Rossi Rio Bravos"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description of variant "small game lever-action rifle" of gun "Rossi Rio
+#. Bravo"
+#: data/json/items/gun/22.json
+msgid ""
+"A modern .22 LR lever-action rifle, the Rio Bravo features an 18\" barrel "
+"with 15 rounds of ammo in its tube magazine, which is loaded from the front "
+"of the rifle.  The mechanical origins date back decades, being based off of "
+"Rossi's R92 series of rifles which themselves were based off of the "
+"Winchester 1892."
+msgstr ""
+
+#. ~ Description of gun "small game lever-action rifle"
+#: data/json/items/gun/22.json
+msgid ""
+"A .22 Long Rifle lever-action rifle, which holds 16 rounds of ammo.  While "
+"quite useful against small game, its effectiveness isn't as great against "
+"the undead."
+msgstr ""
+
+#. ~ Variant name of gun "small game lever-action rifle"
+#: data/json/items/gun/22.json
+msgid "Henry Golden Boy"
+msgid_plural "Henry Golden Boys"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description of variant "small game lever-action rifle" of gun "Henry
+#. Golden Boy"
+#: data/json/items/gun/22.json
+msgid ""
+"A modern .22 LR lever-action rifle, the Henry Golden Boy features an 20\" "
+"octagonal barrel with 16 rounds of ammo in its tube magazine, which is "
+"loaded from the front of the rifle.  It fairly resembles the original Henry "
+"Model 1860 with its brass colored receiver, though with wooden furniture at "
+"the front, and without a doubt using modern manufacturing."
+msgstr ""
+
+#. ~ Name of a gun
 #: data/json/items/gun/223.json
 msgid "AR-15"
 msgid_plural "AR-15s"
@@ -211507,6 +211592,104 @@ msgid ""
 msgstr ""
 
 #. ~ Name of a gun
+#: data/json/items/gun/38.json
+msgid "reproduction .357 lever-action rifle"
+msgid_plural "reproduction .357 lever-action rifles"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description of gun "reproduction .357 lever-action rifle"
+#: data/json/items/gun/38.json
+msgid ""
+"This fine lever-action rifle is chambered in the powerful .357 Magnum "
+"cartridge, with an 20\" barrel with a tube-fed magazine.  Go get 'em cowboy!"
+msgstr ""
+
+#. ~ Variant name of gun "reproduction .357 lever-action rifle"
+#: data/json/items/gun/38.json
+msgid "Uberti 1873"
+msgid_plural "Uberti 1873s"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description of variant "reproduction .357 lever-action rifle" of gun
+#. "Uberti 1873"
+#: data/json/items/gun/38.json
+msgid ""
+"The 1873 is a rifle platform developed all the way in, unsurprisingly, 1873."
+"  This one is a fairly faithful Uberti reproduction, although the original "
+"1873s pre-dated .357 Magnum, and even .38 Special.  This one has a case-"
+"hardened finish, wood furniture, and octagonal barrel."
+msgstr ""
+
+#. ~ Name of a gun
+#: data/json/items/gun/38.json
+msgid ".357 lever-action rifle"
+msgid_plural ".357 lever-action rifles"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description of gun ".357 lever-action rifle"
+#: data/json/items/gun/38.json
+msgid ""
+"This lever-action rifle is chambered in the powerful .357 Magnum cartridge, "
+"with an 20\" barrel with a tube-fed magazine.  Go get 'em cowboy!"
+msgstr ""
+
+#. ~ Variant name of gun ".357 lever-action rifle"
+#. ~ Variant name of gun ".44 lever-action rifle"
+#: data/json/items/gun/38.json data/json/items/gun/44.json
+msgid "Rossi R92 20\""
+msgid_plural "Rossi R92s 20\""
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description of variant ".357 lever-action rifle" of gun "Rossi R92 20""
+#: data/json/items/gun/38.json
+msgid ""
+"The R92 is a widely successful line of lever-action rifles from Rossi, "
+"featuring a wide array of different calibers and barrel lengths.  These aim "
+"to be less reproductions of old rifles, but rather modern takes on the "
+"lever-action formula.  This particular one features wooden furniture, a 20\""
+" barrel, and 10 rounds of .357 Magnum or .38 Special."
+msgstr ""
+
+#. ~ Description of gun ".357 lever-action rifle"
+#: data/json/items/gun/38.json
+msgid ""
+"This fine lever-action rifle is chambered in the powerful .357 Magnum "
+"cartridge, with an 16\" barrel with a tube-fed magazine.  Go get 'em cowboy!"
+msgstr ""
+
+#. ~ Variant name of gun ".357 lever-action rifle"
+#. ~ Variant name of gun ".44 lever-action rifle"
+#: data/json/items/gun/38.json data/json/items/gun/44.json
+msgid "Rossi R92 16\""
+msgid_plural "Rossi R92s 16\""
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description of variant ".357 lever-action rifle" of gun "Rossi R92 16""
+#: data/json/items/gun/38.json
+msgid ""
+"The R92 is a widely successful line of lever-action rifles from Rossi, "
+"featuring a wide array of different calibers and barrel lengths.  These aim "
+"to be less reproductions of old rifles, but rather modern takes on the "
+"lever-action formula.  This particular one features wooden furniture, a 16\""
+" barrel, and 8 rounds of .357 Magnum or .38 Special."
+msgstr ""
+
+#. ~ Name of a gun
 #: data/json/items/gun/380.json
 msgid "MAC-11 machine pistol"
 msgid_plural "MAC-11 machine pistols"
@@ -212044,6 +212227,49 @@ msgid ""
 "large for law enforcement, it was mostly used by sport shooters and hunters,"
 " for Colt deemed it to be the most accurate .44-caliber revolver in their "
 "line.  This one has a shortened 4-inch barrel."
+msgstr ""
+
+#. ~ Name of a gun
+#: data/json/items/gun/44.json
+msgid ".44 lever-action rifle"
+msgid_plural ".44 lever-action rifles"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description of gun ".44 lever-action rifle"
+#: data/json/items/gun/44.json
+msgid ""
+"This lever-action rifle is chambered in the powerful .44 Magnum cartridge, "
+"with an 16\" barrel with a tube-fed magazine.  Go get 'em cowboy!"
+msgstr ""
+
+#. ~ Description of variant ".44 lever-action rifle" of gun "Rossi R92 16""
+#: data/json/items/gun/44.json
+msgid ""
+"The R92 is a widely successful line of lever-action rifles from Rossi, "
+"featuring a wide array of different calibers and barrel lengths.  These aim "
+"to be less reproductions of old rifles, but rather modern takes on the "
+"lever-action formula.  This particular one features all-black furniture, a "
+"16\" barrel, and 8 rounds of .44 Magnum, along with a large lever loop."
+msgstr ""
+
+#. ~ Description of gun ".44 lever-action rifle"
+#: data/json/items/gun/44.json
+msgid ""
+"This lever-action rifle is chambered in the powerful .44 Magnum cartridge, "
+"with an 20\" barrel with a tube-fed magazine.  Go get 'em cowboy!"
+msgstr ""
+
+#. ~ Description of variant ".44 lever-action rifle" of gun "Rossi R92 20""
+#: data/json/items/gun/44.json
+msgid ""
+"The R92 is a widely successful line of lever-action rifles from Rossi, "
+"featuring a wide array of different calibers and barrel lengths.  These aim "
+"to be less reproductions of old rifles, but rather modern takes on the "
+"lever-action formula.  This particular one features all-black furniture, a "
+"20\" barrel, and 10 rounds of .44 Magnum."
 msgstr ""
 
 #. ~ Name of a gun
@@ -235212,6 +235438,20 @@ msgstr[3] ""
 #. ~ Description of "beaver skull"
 #: data/json/items/resources/bone.json
 msgid "The skull of a beaver."
+msgstr ""
+
+#. ~ Item name
+#: data/json/items/resources/bone.json
+msgid "dambreaker skull"
+msgid_plural "dambreaker skulls"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description of "dambreaker skull"
+#: data/json/items/resources/bone.json
+msgid "A skull of an abnormally large mutant beaver."
 msgstr ""
 
 #. ~ Item name
@@ -260330,6 +260570,7 @@ msgstr ""
 
 #. ~ Player message in effect in EoC "EOC_STARE"
 #: data/json/monster_special_attacks/spells.json
+#: data/mods/Magiclysm/effect_on_conditions/miscellaneous.json
 #: data/mods/MindOverMatter/effectoncondition/eoc_misc.json
 msgid "You feel a strange reverberation across your body."
 msgstr ""
@@ -268017,6 +268258,20 @@ msgid ""
 msgstr ""
 
 #. ~ Monster name
+#: data/json/monsters/mammal.json
+msgid "beaver kit"
+msgid_plural "beaver kits"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description of monster "beaver kit"
+#: data/json/monsters/mammal.json
+msgid "A small baby beaver."
+msgstr ""
+
+#. ~ Monster name
 #: data/json/monsters/mammal.json data/json/monsters/rodentkin.json
 msgid "black rat"
 msgid_plural "black rats"
@@ -270857,6 +271112,22 @@ msgstr ""
 
 #. ~ Monster name
 #: data/json/monsters/mutant_mammal.json
+msgid "dambreaker kit"
+msgid_plural "dambreaker kits"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description of monster "dambreaker kit"
+#: data/json/monsters/mutant_mammal.json
+msgid ""
+"An unnaturally large baby beaver with an array of bristles covering its "
+"back."
+msgstr ""
+
+#. ~ Monster name
+#: data/json/monsters/mutant_mammal.json
 msgid "feaver"
 msgid_plural "feavers"
 msgstr[0] ""
@@ -270870,6 +271141,22 @@ msgid ""
 "This mutant beaver's body is covered with brightly-colored feathers in a "
 "particularly eyecatching pattern.  It must have been very lucky not to have "
 "been caught by a predator before now."
+msgstr ""
+
+#. ~ Monster name
+#: data/json/monsters/mutant_mammal.json
+msgid "bald beaver kit"
+msgid_plural "bald beaver kits"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description of monster "bald beaver kit"
+#: data/json/monsters/mutant_mammal.json
+msgid ""
+"This beaver kit lacks any fur covering its body, instead looking reminiscent"
+" of a plucked chicken."
 msgstr ""
 
 #. ~ Monster name
@@ -458084,6 +458371,16 @@ msgstr ""
 msgid "Int/Per/Safe"
 msgstr ""
 
+#. ~ Text in UI widget "ll_carry_weight_label"
+#: data/json/ui/sidebar-legacy-labels.json
+msgid "Weight :"
+msgstr ""
+
+#. ~ Label of UI widget "ll_weight_carried_value"
+#: data/json/ui/sidebar-legacy-labels.json
+msgid "Weight Carried"
+msgstr ""
+
 #. ~ Label of UI widget "legacy_labels_sidebar"
 #: data/json/ui/sidebar-legacy-labels.json
 msgid "labels"
@@ -521311,6 +521608,12 @@ msgstr ""
 msgid "impenetrable fog"
 msgstr ""
 
+#. ~ Please leave anything in <angle brackets> unchanged.
+#. ~ Description of JSON flag "MAGICAL_MIND_PROTECTION"
+#: data/mods/Magiclysm/flags.json
+msgid "Your magic protects your mind against assault."
+msgstr ""
+
 #. ~ Furniture name
 #: data/mods/Magiclysm/furniture.json
 msgid "Translocator Gate"
@@ -533142,6 +533445,13 @@ msgid ""
 "before."
 msgstr ""
 
+#. ~ Player message in effect in EoC "EOC_STARE1"
+#: data/mods/Magiclysm/effect_on_conditions/miscellaneous.json
+#: data/mods/MindOverMatter/mod_interactions/magiclysm/eoc_misc.json
+msgid ""
+"You sense <npc_name> trying to enter your mind, but your magic protects you!"
+msgstr ""
+
 #. ~ Name of effect type id "effect_pfruit_heal"
 #. ~ Name of effect type id "effect_goblin_fruit_heal"
 #: data/mods/Magiclysm/effects/effect_potion_fruit.json
@@ -543512,6 +543822,7 @@ msgstr ""
 
 #. ~ Item name
 #: data/mods/Magiclysm/items/ethereal_items.json
+#: data/mods/MindOverMatter/mod_interactions/magiclysm/item_overrides.json
 msgid "thought shields"
 msgid_plural "thought shields"
 msgstr[0] ""
@@ -543528,6 +543839,7 @@ msgstr ""
 
 #. ~ Item name
 #: data/mods/Magiclysm/items/ethereal_items.json
+#: data/mods/MindOverMatter/mod_interactions/magiclysm/item_overrides.json
 msgid "thought suit"
 msgid_plural "thought suit"
 msgstr[0] ""
@@ -563870,8 +564182,10 @@ msgid ""
 msgstr ""
 
 #. ~ Player message in effect in EoC "EOC_STARE1"
+#. ~ Player message in effect in EoC "EOC_STARE1_5"
 #: data/mods/MindOverMatter/effectoncondition/eoc_misc.json
-msgid "You sense <npc_name> trying to enter your mind, but you repel!"
+#: data/mods/MindOverMatter/mod_interactions/magiclysm/eoc_misc.json
+msgid "You sense <npc_name> trying to enter your mind, but you repel it!"
 msgstr ""
 
 #. ~ Player message in effect in EoC "EOC_ALIEN_MEADOW_BUSH_2_BERRIES_2"
@@ -599669,6 +599983,9 @@ msgid "Stolen Blood"
 msgstr ""
 
 #. ~ Vitamin name
+#. ~ Label of UI widget "spacebar_ruach_counter_block"
+#. ~ Label of UI widget "ruach_counter_meter"
+#: data/mods/Xedra_Evolved/ui/ruach_counter.json
 #: data/mods/Xedra_Evolved/vitamin.json
 msgid "Ruach"
 msgstr ""
@@ -635722,6 +636039,36 @@ msgid ""
 "High above the earth, you close your eyes and feel the wind on your face."
 msgstr ""
 
+#. ~ Clause text "out_of_ruach" of UI widget "ruach_counter_meter"
+#: data/mods/Xedra_Evolved/ui/ruach_counter.json
+msgid "Starving"
+msgstr ""
+
+#. ~ Clause text "ruach_level_1" of UI widget "ruach_counter_meter"
+#: data/mods/Xedra_Evolved/ui/ruach_counter.json
+msgid "<color_red>Almost Spent</color>"
+msgstr ""
+
+#. ~ Clause text "ruach_level_2" of UI widget "ruach_counter_meter"
+#: data/mods/Xedra_Evolved/ui/ruach_counter.json
+msgid "<color_light_red>Drained</color>"
+msgstr ""
+
+#. ~ Clause text "ruach_level_3" of UI widget "ruach_counter_meter"
+#: data/mods/Xedra_Evolved/ui/ruach_counter.json
+msgid "<color_yellow>Refreshed</color>"
+msgstr ""
+
+#. ~ Clause text "ruach_level_4" of UI widget "ruach_counter_meter"
+#: data/mods/Xedra_Evolved/ui/ruach_counter.json
+msgid "<color_light_green>Satiated</color>"
+msgstr ""
+
+#. ~ Clause text "ruach_level_5" of UI widget "ruach_counter_meter"
+#: data/mods/Xedra_Evolved/ui/ruach_counter.json
+msgid "<color_green>Suffused</color>"
+msgstr ""
+
 #. ~ Label of UI widget "xe_current_max_mana_nums_layout"
 #. ~ Label of UI widget "xe_spacebar_current_max_mana_nums_layout"
 #: data/mods/Xedra_Evolved/ui/sidebar.json
@@ -643293,6 +643640,11 @@ msgstr ""
 
 #. ~ Key binding name
 #: data/raw/keybindings.json
+msgid "Confirm and continue"
+msgstr ""
+
+#. ~ Key binding name
+#: data/raw/keybindings.json
 msgid "Save mods as default"
 msgstr ""
 
@@ -648894,7 +649246,7 @@ msgstr ""
 msgid "Symbol"
 msgstr ""
 
-#: src/auto_note.cpp:386 src/distraction_manager.cpp:133 src/options.cpp:1581
+#: src/auto_note.cpp:386 src/distraction_manager.cpp:135 src/options.cpp:1581
 #: src/options.cpp:2171 src/smart_controller_ui.cpp:64
 msgid "Enabled"
 msgstr ""
@@ -649540,11 +649892,11 @@ msgstr ""
 msgid "Move into the monster to attack."
 msgstr ""
 
-#: src/avatar_action.cpp:368 src/handle_action.cpp:1728
+#: src/avatar_action.cpp:368 src/handle_action.cpp:1743
 msgid "Your willpower asserts itself, and so do you!"
 msgstr ""
 
-#: src/avatar_action.cpp:369 src/handle_action.cpp:1729
+#: src/avatar_action.cpp:369 src/handle_action.cpp:1744
 msgid "You're too pacified to strike anything…"
 msgstr ""
 
@@ -649727,13 +650079,13 @@ msgstr ""
 msgid "You can't effectively throw while you're in your shell."
 msgstr ""
 
-#: src/avatar_action.cpp:952 src/handle_action.cpp:2228 src/iexamine.cpp:7267
+#: src/avatar_action.cpp:952 src/handle_action.cpp:2243 src/iexamine.cpp:7267
 #: src/iexamine.cpp:7277 src/iexamine.cpp:7287 src/melee.cpp:575
 msgid "You lack the substance to affect anything."
 msgstr ""
 
 #: src/avatar_action.cpp:959 src/game.cpp:10519 src/game.cpp:12017
-#: src/handle_action.cpp:943
+#: src/handle_action.cpp:959
 #, c-format
 msgid "Your %s refuses to move as its batteries have been drained."
 msgstr ""
@@ -649936,7 +650288,7 @@ msgid ""
 "resources."
 msgstr ""
 
-#: src/basecamp.cpp:926 src/faction_camp.cpp:743
+#: src/basecamp.cpp:926 src/faction_camp.cpp:764
 msgid "Base Missions"
 msgstr ""
 
@@ -650677,11 +651029,11 @@ msgstr ""
 msgid "%s/%d turns"
 msgstr ""
 
-#: src/bionics_ui.cpp:341 src/handle_action.cpp:1966
+#: src/bionics_ui.cpp:341 src/handle_action.cpp:1981
 msgid "OFF"
 msgstr "ВИМК"
 
-#: src/bionics_ui.cpp:341 src/handle_action.cpp:1966
+#: src/bionics_ui.cpp:341 src/handle_action.cpp:1981
 msgid "ON"
 msgstr ""
 
@@ -651667,7 +652019,7 @@ msgstr "Ви втомилися."
 msgid "You have a sudden heart attack!"
 msgstr ""
 
-#: src/character.cpp:5325 src/player_hardcoded_effects.cpp:816
+#: src/character.cpp:5325 src/player_hardcoded_effects.cpp:817
 msgid "<npcname> has a sudden heart attack!"
 msgstr ""
 
@@ -652708,10 +653060,6 @@ msgstr ""
 msgid "%s is blind."
 msgstr ""
 
-#: src/character.cpp:12202
-msgid "Weight Carried"
-msgstr ""
-
 #: src/character.cpp:12204 src/medical_ui.cpp:533 src/newcharacter.cpp:1408
 #: src/player_display.cpp:1579
 msgid "Dexterity"
@@ -652793,7 +653141,7 @@ msgstr ""
 msgid "You've spotted a %1$s to the %2$s!"
 msgstr ""
 
-#: src/character.cpp:12971 src/consumption.cpp:1895
+#: src/character.cpp:12971 src/consumption.cpp:1896
 msgid "You do not have that item."
 msgstr ""
 
@@ -654876,7 +655224,7 @@ msgstr ""
 msgid "That doesn't look edible to you."
 msgstr ""
 
-#: src/consumption.cpp:823 src/consumption.cpp:845
+#: src/consumption.cpp:823 src/consumption.cpp:846
 msgid "That doesn't look edible in its current form."
 msgstr ""
 
@@ -654884,75 +655232,75 @@ msgstr ""
 msgid "This is full of dirt after being on the ground."
 msgstr ""
 
-#: src/consumption.cpp:839 src/creature.cpp:375 src/iuse_actor.cpp:1399
+#: src/consumption.cpp:840 src/creature.cpp:375 src/iuse_actor.cpp:1399
 #: src/iuse_actor.cpp:2022 src/iuse_actor.cpp:2284
 msgid "You can't do that while underwater."
 msgstr ""
 
-#: src/consumption.cpp:851
+#: src/consumption.cpp:852
 msgid "We can't eat that.  It's not right for us."
 msgstr ""
 
-#: src/consumption.cpp:858
+#: src/consumption.cpp:859
 msgid "It's frozen solid.  You must defrost it before you can eat it."
 msgstr ""
 
-#: src/consumption.cpp:861
+#: src/consumption.cpp:862
 msgid "You can't drink it while it's frozen."
 msgstr "Ви не можете пити це доки воно заморожене."
 
-#: src/consumption.cpp:875 src/consumption.cpp:895 src/consumption.cpp:1854
+#: src/consumption.cpp:876 src/consumption.cpp:896 src/consumption.cpp:1855
 #: src/game_inventory.cpp:1113 src/game_inventory.cpp:1125
 #, c-format
 msgid "You need a %s to consume that!"
 msgstr ""
 
-#: src/consumption.cpp:902
+#: src/consumption.cpp:903
 msgid "Ugh, you can't drink that!"
 msgstr "Фуу, ви не можете це пити!"
 
-#: src/consumption.cpp:908
+#: src/consumption.cpp:909
 msgid "Eww.  Inedible plant stuff!"
 msgstr ""
 
-#: src/consumption.cpp:915
+#: src/consumption.cpp:916
 msgid "The thought of eating that makes you feel sick."
 msgstr ""
 
-#: src/consumption.cpp:925
+#: src/consumption.cpp:926
 msgid "You're still not going to eat animal products."
 msgstr ""
 
-#: src/consumption.cpp:930
+#: src/consumption.cpp:931
 msgid "You can't eat this."
 msgstr ""
 
-#: src/consumption.cpp:938
+#: src/consumption.cpp:939
 msgid "You deserve better food than this."
 msgstr ""
 
-#: src/consumption.cpp:944
+#: src/consumption.cpp:945
 msgid "You are not going to drink this."
 msgstr ""
 
-#: src/consumption.cpp:976
+#: src/consumption.cpp:977
 msgid "This is rotten and smells awful!"
 msgstr ""
 
-#: src/consumption.cpp:987
+#: src/consumption.cpp:988
 msgid "The thought of eating human flesh makes you feel sick."
 msgstr ""
 
-#: src/consumption.cpp:993
+#: src/consumption.cpp:994
 #, c-format
 msgid "Consuming this %s probably isn't very healthy."
 msgstr ""
 
-#: src/consumption.cpp:1001
+#: src/consumption.cpp:1002
 msgid "You still feel nauseous and will probably puke it all up again."
 msgstr ""
 
-#: src/consumption.cpp:1007
+#: src/consumption.cpp:1008
 msgid "Your stomach won't be happy (allergy)."
 msgstr ""
 
@@ -654960,230 +655308,230 @@ msgstr ""
 #. person.
 #. ~ Semantic difference, but greatly facilitates people being proud of their
 #. character.
-#: src/consumption.cpp:1015
+#: src/consumption.cpp:1016
 msgid "Your stomach won't be happy (not rotten enough)."
 msgstr ""
 
-#: src/consumption.cpp:1024
+#: src/consumption.cpp:1025
 msgid "You're full already and will be forcing yourself to eat."
 msgstr ""
 
-#: src/consumption.cpp:1026
+#: src/consumption.cpp:1027
 msgid "You're full already and will be forcing yourself to drink."
 msgstr "Ви вже напилися і будете пити через силу."
 
-#: src/consumption.cpp:1043
+#: src/consumption.cpp:1044
 #, c-format
 msgid "Eat your %s anyway?"
 msgstr ""
 
-#: src/consumption.cpp:1045
+#: src/consumption.cpp:1046
 #, c-format
 msgid "Drink your %s anyway?"
 msgstr "Все одно випити %s?"
 
-#: src/consumption.cpp:1047
+#: src/consumption.cpp:1048
 #, c-format
 msgid "Consume your %s anyway?"
 msgstr ""
 
-#: src/consumption.cpp:1105
+#: src/consumption.cpp:1106
 msgid ""
 "You've begun stockpiling calories and liquid for hibernation.  You get the "
 "feeling that you should prepare for bed, just in case, but… you're hungry "
 "again, and you could eat a whole week's worth of food RIGHT NOW."
 msgstr ""
 
-#: src/consumption.cpp:1114
+#: src/consumption.cpp:1115
 #, c-format
 msgid "Ick, this %s doesn't taste so good…"
 msgstr ""
 
-#: src/consumption.cpp:1119
+#: src/consumption.cpp:1120
 #, c-format
 msgid "Mmm, this %s tastes delicious…"
 msgstr ""
 
-#: src/consumption.cpp:1155
+#: src/consumption.cpp:1156
 #, c-format
 msgid "<npcname> assimilates a %s."
 msgstr ""
 
-#: src/consumption.cpp:1155
+#: src/consumption.cpp:1156
 #, c-format
 msgid "You assimilate your %s."
 msgstr ""
 
-#: src/consumption.cpp:1162 src/consumption.cpp:1173
+#: src/consumption.cpp:1163 src/consumption.cpp:1174
 #, c-format
 msgid "Ick, this %s (rotten) doesn't taste so good…"
 msgstr ""
 
-#: src/consumption.cpp:1163
+#: src/consumption.cpp:1164
 #, c-format
 msgid "You drink your %s (rotten)."
 msgstr "Ви випили %s (тухле)."
 
-#: src/consumption.cpp:1165
+#: src/consumption.cpp:1166
 #, c-format
 msgid "<npcname> drinks a %s."
 msgstr ""
 
-#: src/consumption.cpp:1165
+#: src/consumption.cpp:1166
 #, c-format
 msgid "You drink your %s."
 msgstr ""
 
-#: src/consumption.cpp:1174
+#: src/consumption.cpp:1175
 #, c-format
 msgid "You eat your %s (rotten)."
 msgstr "Ви з'їли %s (тухле)."
 
-#: src/consumption.cpp:1176
+#: src/consumption.cpp:1177
 #, c-format
 msgid "<npcname> eats a %s."
 msgstr ""
 
-#: src/consumption.cpp:1176
+#: src/consumption.cpp:1177
 #, c-format
 msgid "You eat your %s."
 msgstr "Ви з'їли %s."
 
-#: src/consumption.cpp:1200
+#: src/consumption.cpp:1201
 msgid ""
 "You try to ignore its mushy texture, but it leaves you with an awful "
 "aftertaste."
 msgstr ""
 
-#: src/consumption.cpp:1204
+#: src/consumption.cpp:1205
 msgid "You can't taste much of anything with this cold."
 msgstr ""
 
-#: src/consumption.cpp:1207
+#: src/consumption.cpp:1208
 msgid "You can't taste much of anything with this flu."
 msgstr "Цей грип заважає вам насолоджуватися смаком."
 
-#: src/consumption.cpp:1370
+#: src/consumption.cpp:1371
 msgid "You feast upon the human flesh, and in doing so, devour their spirit."
 msgstr ""
 
-#: src/consumption.cpp:1374
+#: src/consumption.cpp:1375
 msgid "You feast upon the human flesh."
 msgstr ""
 
-#: src/consumption.cpp:1377
+#: src/consumption.cpp:1378
 msgid "You consume the sacred human flesh."
 msgstr ""
 
-#: src/consumption.cpp:1381
+#: src/consumption.cpp:1382
 msgid "You eat the human flesh, and in doing so, devour their spirit."
 msgstr ""
 
-#: src/consumption.cpp:1384
+#: src/consumption.cpp:1385
 msgid "You indulge your shameful hunger."
 msgstr ""
 
-#: src/consumption.cpp:1387
+#: src/consumption.cpp:1388
 msgid "You greedily devour the taboo meat."
 msgstr ""
 
-#: src/consumption.cpp:1391
+#: src/consumption.cpp:1392
 msgid "The human blood tastes as good as any other."
 msgstr ""
 
-#: src/consumption.cpp:1393
+#: src/consumption.cpp:1394
 msgid "Meh.  You've eaten worse."
 msgstr ""
 
-#: src/consumption.cpp:1395
+#: src/consumption.cpp:1396
 msgid "Mmh.  Tastes like venison."
 msgstr ""
 
-#: src/consumption.cpp:1398
+#: src/consumption.cpp:1399
 msgid ""
 "Despite your cravings, you still can't help feeling weird about drinking "
 "somebody's blood."
 msgstr ""
 
-#: src/consumption.cpp:1402
+#: src/consumption.cpp:1403
 msgid ""
 "This is probably going to count against you if there's still an afterlife."
 msgstr ""
 
-#: src/consumption.cpp:1405
+#: src/consumption.cpp:1406
 msgid "You find this meal distasteful, but necessary."
 msgstr ""
 
-#: src/consumption.cpp:1408
+#: src/consumption.cpp:1409
 msgid "You feel horrible for eating a person."
 msgstr ""
 
-#: src/consumption.cpp:1428
+#: src/consumption.cpp:1429
 msgid "As you tear into the raw flesh, you feel satisfied with your meal."
 msgstr ""
 
-#: src/consumption.cpp:1433
+#: src/consumption.cpp:1434
 msgid "Raw flesh doesn't taste all that bad, actually."
 msgstr ""
 
-#: src/consumption.cpp:1438
+#: src/consumption.cpp:1439
 msgid "This doesn't taste very good, but meat is meat."
 msgstr ""
 
-#: src/consumption.cpp:1446 src/consumption.cpp:1465 src/consumption.cpp:1474
+#: src/consumption.cpp:1447 src/consumption.cpp:1466 src/consumption.cpp:1475
 msgid "Your stomach begins gurgling and you feel bloated and ill."
 msgstr ""
 
-#: src/consumption.cpp:1451
+#: src/consumption.cpp:1452
 msgid "Mmm, junk food."
 msgstr ""
 
-#: src/consumption.cpp:1456
+#: src/consumption.cpp:1457
 msgid "When life's got you down, there's always sugar."
 msgstr ""
 
-#: src/consumption.cpp:1458
+#: src/consumption.cpp:1459
 msgid "They may do what they must… you've already won."
 msgstr ""
 
-#: src/consumption.cpp:1482
+#: src/consumption.cpp:1483
 msgid "You find the sweet taste of honey surprisingly palatable."
 msgstr ""
 
-#: src/consumption.cpp:1484
+#: src/consumption.cpp:1485
 msgid "You feast upon the sweet honey."
 msgstr ""
 
-#: src/consumption.cpp:1610
+#: src/consumption.cpp:1611
 msgid "You gorge yourself, preparing to hibernate."
 msgstr ""
 
-#: src/consumption.cpp:1618
+#: src/consumption.cpp:1619
 msgid ""
 "You feel stocked for a day or two.  Got your bed all ready and secured?"
 msgstr ""
 
-#: src/consumption.cpp:1627
+#: src/consumption.cpp:1628
 msgid ""
 "Mmm.  You can still fit some more in… but maybe you should get comfortable "
 "and sleep."
 msgstr ""
 
-#: src/consumption.cpp:1634
+#: src/consumption.cpp:1635
 msgid "That filled a hole!  Time for bed…"
 msgstr ""
 
-#: src/consumption.cpp:1645
+#: src/consumption.cpp:1646
 msgid "You feel as though you're going to split open!  In a good way?"
 msgstr ""
 
 #. ~ slimespawns have *small voices* which may be the Nice equivalent
 #. ~ of the Rat King's ALL CAPS invective.  Probably shared-brain telepathy.
-#: src/consumption.cpp:1657
+#: src/consumption.cpp:1658
 msgid "hey, you look like me!  let's work together!"
 msgstr ""
 
-#: src/consumption.cpp:1904
+#: src/consumption.cpp:1905
 #, c-format
 msgid "You can't eat your %s."
 msgstr ""
@@ -657418,7 +657766,7 @@ msgstr ""
 msgid "You teleport to point %s."
 msgstr ""
 
-#: src/debug_menu.cpp:1668 src/overmap_ui.cpp:2136
+#: src/debug_menu.cpp:1668 src/overmap_ui.cpp:2149
 #, c-format
 msgid "You teleport to submap %s."
 msgstr ""
@@ -658516,7 +658864,7 @@ msgid ""
 msgstr ""
 
 #: src/debug_menu.cpp:3618 src/debug_menu.cpp:3661 src/iuse.cpp:3035
-#: src/iuse_actor.cpp:4889 src/iuse_actor.cpp:4991
+#: src/iuse_actor.cpp:4894 src/iuse_actor.cpp:4996
 msgid "There's no vehicle there."
 msgstr ""
 
@@ -659201,129 +659549,137 @@ msgstr "Вам не боляче"
 msgid "Pain "
 msgstr "Біль"
 
-#: src/display.cpp:1171
+#: src/display.cpp:1200
 #, c-format
 msgid "LEVEL %i, %d'%d, %d'%d"
 msgstr "РІВЕНЬ %i, %d'%d, %d'%d"
 
-#: src/display.cpp:1442
+#: src/display.cpp:1471
 msgid "Underground"
 msgstr ""
 
-#: src/distraction_manager.cpp:29 src/veh_interact.cpp:2851
+#: src/distraction_manager.cpp:30 src/veh_interact.cpp:2851
 msgid "Noise"
 msgstr "Шум"
 
-#: src/distraction_manager.cpp:29
+#: src/distraction_manager.cpp:30
 msgid "This distraction will interrupt your activity when you hear a noise."
 msgstr ""
 
-#: src/distraction_manager.cpp:30
+#: src/distraction_manager.cpp:31
 msgid "This distraction will interrupt your activity when you feel pain."
 msgstr ""
 
-#: src/distraction_manager.cpp:31 src/game.cpp:5733 src/martialarts.cpp:2264
+#: src/distraction_manager.cpp:32 src/game.cpp:5733 src/martialarts.cpp:2264
 #: src/monexamine.cpp:661 src/monexamine.cpp:983
 msgid "Attack"
 msgstr "Атакувати"
 
-#: src/distraction_manager.cpp:31
+#: src/distraction_manager.cpp:32
 msgid "This distraction will interrupt your activity when you're attacked."
 msgstr ""
 
-#: src/distraction_manager.cpp:32
+#: src/distraction_manager.cpp:33
 msgid "Hostile is dangerously close"
 msgstr ""
 
-#: src/distraction_manager.cpp:32
+#: src/distraction_manager.cpp:33
 msgid ""
 "This distraction will interrupt your activity when a hostile comes within 5 "
 "tiles from you."
 msgstr ""
 
-#: src/distraction_manager.cpp:33
+#: src/distraction_manager.cpp:34
 msgid "Hostile spotted"
 msgstr ""
 
-#: src/distraction_manager.cpp:33
+#: src/distraction_manager.cpp:34
 msgid "This distraction will interrupt your activity when you spot a hostile."
 msgstr ""
 
-#: src/distraction_manager.cpp:34
+#: src/distraction_manager.cpp:35
 msgid "Conversation"
 msgstr ""
 
-#: src/distraction_manager.cpp:34
+#: src/distraction_manager.cpp:35
 msgid ""
 "This distraction will interrupt your activity when someone starts a "
 "conversation with you."
 msgstr ""
 
-#: src/distraction_manager.cpp:35
+#: src/distraction_manager.cpp:36
 msgid ""
 "This distraction will interrupt your activity when you suffer an asthma "
 "attack."
 msgstr ""
 
-#: src/distraction_manager.cpp:36
+#: src/distraction_manager.cpp:37
 msgid "Dangerous field"
 msgstr ""
 
-#: src/distraction_manager.cpp:36
+#: src/distraction_manager.cpp:37
 msgid ""
 "This distraction will interrupt your activity when you're standing in a "
 "dangerous field."
 msgstr ""
 
-#: src/distraction_manager.cpp:37
+#: src/distraction_manager.cpp:38
 msgid ""
 "This distraction will interrupt your activity when weather changes to "
 "dangerous."
 msgstr ""
 
-#: src/distraction_manager.cpp:37
+#: src/distraction_manager.cpp:38
 msgid "Weather change"
 msgstr "Зміна погоди"
 
-#: src/distraction_manager.cpp:38
+#: src/distraction_manager.cpp:39
 msgid ""
 "This distraction will interrupt your activity when you're at risk of "
 "starving."
 msgstr ""
 
-#: src/distraction_manager.cpp:39
+#: src/distraction_manager.cpp:40
 msgid ""
 "This distraction will interrupt your activity when you're dangerously "
 "dehydrated."
 msgstr ""
 
-#: src/distraction_manager.cpp:40
+#: src/distraction_manager.cpp:41
 msgid ""
 "This distraction will interrupt your activity when your temperature is very "
 "high or very low."
 msgstr ""
 
-#: src/distraction_manager.cpp:41
+#: src/distraction_manager.cpp:42
 msgid ""
 "This distraction will interrupt your activity when you gain or lose a "
 "mutation."
 msgstr ""
 
-#: src/distraction_manager.cpp:42
+#: src/distraction_manager.cpp:43
 msgid "Asphyxiation"
 msgstr ""
 
-#: src/distraction_manager.cpp:42
+#: src/distraction_manager.cpp:43
 msgid "This distraction will interrupt your activity when you can't breathe."
 msgstr ""
 
-#: src/distraction_manager.cpp:43
+#: src/distraction_manager.cpp:44
 msgid ""
 "This distraction will interrupt your activity when you have withdrawals."
 msgstr ""
 
-#: src/distraction_manager.cpp:43
+#: src/distraction_manager.cpp:44
 msgid "Withdrawal"
+msgstr ""
+
+#: src/distraction_manager.cpp:45
+msgid "Toggle all"
+msgstr ""
+
+#: src/distraction_manager.cpp:45
+msgid "Toggle all distractions"
 msgstr ""
 
 #: src/do_turn.cpp:155
@@ -660668,40 +661024,40 @@ msgid ""
 "Do you wish to bring your allies back into your party?"
 msgstr ""
 
-#: src/faction_camp.cpp:681 src/faction_camp.cpp:1611
+#: src/faction_camp.cpp:702 src/faction_camp.cpp:1632
 msgid "You choose to wait…"
 msgstr ""
 
-#: src/faction_camp.cpp:702
+#: src/faction_camp.cpp:723
 msgid "You cannot build a camp here."
 msgstr ""
 
-#: src/faction_camp.cpp:706
+#: src/faction_camp.cpp:727
 msgid "Select a camp type:"
 msgstr ""
 
-#: src/faction_camp.cpp:719
+#: src/faction_camp.cpp:740
 msgid "You are too close to another camp!"
 msgstr ""
 
-#: src/faction_camp.cpp:728
+#: src/faction_camp.cpp:749
 #, c-format
 msgid ""
 "%1$s failed to start the %2$s basecamp, %3$s appliance/vehicle seems to be "
 "in the way."
 msgstr ""
 
-#: src/faction_camp.cpp:753
+#: src/faction_camp.cpp:774
 #, c-format
 msgid "%s isn't under your control!"
 msgstr ""
 
-#: src/faction_camp.cpp:827 src/faction_camp.cpp:831
+#: src/faction_camp.cpp:848 src/faction_camp.cpp:852
 #, c-format
 msgid "Total calorie cost: %s (have %d)"
 msgstr ""
 
-#: src/faction_camp.cpp:850
+#: src/faction_camp.cpp:871
 #, c-format
 msgid ""
 "Notes:\n"
@@ -660717,11 +661073,11 @@ msgid ""
 "Positions: %d/3\n"
 msgstr ""
 
-#: src/faction_camp.cpp:867
+#: src/faction_camp.cpp:888
 msgid " Recover Ally from Gathering"
 msgstr ""
 
-#: src/faction_camp.cpp:874
+#: src/faction_camp.cpp:895
 #, c-format
 msgid ""
 "Notes:\n"
@@ -660740,11 +661096,11 @@ msgid ""
 "Positions: %d/3\n"
 msgstr ""
 
-#: src/faction_camp.cpp:891
+#: src/faction_camp.cpp:912
 msgid " Recover Firewood Gatherers"
 msgstr ""
 
-#: src/faction_camp.cpp:898
+#: src/faction_camp.cpp:919
 #, c-format
 msgid ""
 "Notes:\n"
@@ -660760,11 +661116,11 @@ msgid ""
 "Positions: %d/1\n"
 msgstr ""
 
-#: src/faction_camp.cpp:914
+#: src/faction_camp.cpp:935
 msgid " Recover Menial Laborer"
 msgstr ""
 
-#: src/faction_camp.cpp:922
+#: src/faction_camp.cpp:943
 #, c-format
 msgid ""
 "Notes:\n"
@@ -660783,11 +661139,11 @@ msgid ""
 "Positions: %d/1\n"
 msgstr ""
 
-#: src/faction_camp.cpp:941
+#: src/faction_camp.cpp:962
 msgid " Recover Log Cutter"
 msgstr ""
 
-#: src/faction_camp.cpp:949
+#: src/faction_camp.cpp:970
 #, c-format
 msgid ""
 "Notes:\n"
@@ -660807,11 +661163,11 @@ msgid ""
 "Positions: %d/1\n"
 msgstr ""
 
-#: src/faction_camp.cpp:968
+#: src/faction_camp.cpp:989
 msgid " Recover Clearcutter"
 msgstr ""
 
-#: src/faction_camp.cpp:976
+#: src/faction_camp.cpp:997
 #, c-format
 msgid ""
 "Notes:\n"
@@ -660830,11 +661186,11 @@ msgid ""
 "Positions: %d/1\n"
 msgstr ""
 
-#: src/faction_camp.cpp:994
+#: src/faction_camp.cpp:1015
 msgid " Recover Hide Setup"
 msgstr ""
 
-#: src/faction_camp.cpp:1002
+#: src/faction_camp.cpp:1023
 #, c-format
 msgid ""
 "Notes:\n"
@@ -660853,11 +661209,11 @@ msgid ""
 "Positions: %d/1\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1021
+#: src/faction_camp.cpp:1042
 msgid " Recover Hide Relay"
 msgstr ""
 
-#: src/faction_camp.cpp:1029
+#: src/faction_camp.cpp:1050
 #, c-format
 msgid ""
 "Notes:\n"
@@ -660875,11 +661231,11 @@ msgid ""
 "Positions: %d/3\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1046
+#: src/faction_camp.cpp:1067
 msgid " Recover Foragers"
 msgstr ""
 
-#: src/faction_camp.cpp:1054
+#: src/faction_camp.cpp:1075
 #, c-format
 msgid ""
 "Notes:\n"
@@ -660896,11 +661252,11 @@ msgid ""
 "Positions: %d/2\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1070
+#: src/faction_camp.cpp:1091
 msgid " Recover Trappers"
 msgstr ""
 
-#: src/faction_camp.cpp:1078
+#: src/faction_camp.cpp:1099
 #, c-format
 msgid ""
 "Notes:\n"
@@ -660917,23 +661273,23 @@ msgid ""
 "Positions: %d/1\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1094
+#: src/faction_camp.cpp:1115
 msgid " Recover Hunter"
 msgstr ""
 
-#: src/faction_camp.cpp:1111 src/faction_camp.cpp:1137
+#: src/faction_camp.cpp:1132 src/faction_camp.cpp:1158
 msgid " Finish Map Fortifications"
 msgstr ""
 
-#: src/faction_camp.cpp:1126
+#: src/faction_camp.cpp:1147
 msgid " Finish Map Fortification Update"
 msgstr ""
 
-#: src/faction_camp.cpp:1152
+#: src/faction_camp.cpp:1173
 msgid " Recover Recruiter"
 msgstr ""
 
-#: src/faction_camp.cpp:1160
+#: src/faction_camp.cpp:1181
 #, c-format
 msgid ""
 "Notes:\n"
@@ -660952,11 +661308,11 @@ msgid ""
 "Positions: %d/3\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1179
+#: src/faction_camp.cpp:1200
 msgid " Recover Scout"
 msgstr ""
 
-#: src/faction_camp.cpp:1187
+#: src/faction_camp.cpp:1208
 #, c-format
 msgid ""
 "Notes:\n"
@@ -660975,50 +661331,50 @@ msgid ""
 "Positions: %d/3\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1208
+#: src/faction_camp.cpp:1229
 msgid " Recover Combat Patrol"
 msgstr ""
 
-#: src/faction_camp.cpp:1234 src/faction_camp.cpp:1240
-#: src/faction_camp.cpp:1247
+#: src/faction_camp.cpp:1255 src/faction_camp.cpp:1261
+#: src/faction_camp.cpp:1268
 msgid " (Finish) Crafting"
 msgstr " (Завершене) Виробництво"
 
-#: src/faction_camp.cpp:1237
+#: src/faction_camp.cpp:1258
 msgid " (Finish) Cooking"
 msgstr ""
 
-#: src/faction_camp.cpp:1243
+#: src/faction_camp.cpp:1264
 msgid " (Finish) Smithing"
 msgstr ""
 
-#: src/faction_camp.cpp:1255
+#: src/faction_camp.cpp:1276
 msgid "[DONE]\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1259
+#: src/faction_camp.cpp:1280
 msgid " left] "
 msgstr ""
 
-#: src/faction_camp.cpp:1273
+#: src/faction_camp.cpp:1294
 msgid "Hide one or more missions to clean up the UI."
 msgstr ""
 
-#: src/faction_camp.cpp:1284
+#: src/faction_camp.cpp:1305
 #, c-format
 msgid ""
 "Reveal one or more missions previously hidden.\n"
 "Current number of hidden missions: %d"
 msgstr ""
 
-#: src/faction_camp.cpp:1298
+#: src/faction_camp.cpp:1319
 msgid ""
 "Notes:\n"
 "Plow any spaces that have reverted to dirt or grass.\n"
 "\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1301
+#: src/faction_camp.cpp:1322
 msgid ""
 "\n"
 "\n"
@@ -661034,18 +661390,18 @@ msgid ""
 "Positions: 0/1\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1317
+#: src/faction_camp.cpp:1338
 msgid " (Finish) Plow fields"
 msgstr ""
 
-#: src/faction_camp.cpp:1325
+#: src/faction_camp.cpp:1346
 msgid ""
 "Notes:\n"
 "Plant designated seeds in the spaces that have already been tilled.\n"
 "\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1329
+#: src/faction_camp.cpp:1350
 msgid ""
 "\n"
 "\n"
@@ -661062,18 +661418,18 @@ msgid ""
 "Positions: 0/1\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1347
+#: src/faction_camp.cpp:1368
 msgid " (Finish) Plant Fields"
 msgstr ""
 
-#: src/faction_camp.cpp:1355
+#: src/faction_camp.cpp:1376
 msgid ""
 "Notes:\n"
 "Harvest any plants that are ripe and bring the produce back.\n"
 "\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1358
+#: src/faction_camp.cpp:1379
 msgid ""
 "\n"
 "\n"
@@ -661088,11 +661444,11 @@ msgid ""
 "Positions: 0/1\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1374
+#: src/faction_camp.cpp:1395
 msgid " (Finish) Harvest Fields"
 msgstr ""
 
-#: src/faction_camp.cpp:1404
+#: src/faction_camp.cpp:1425
 #, c-format
 msgid ""
 "Notes:\n"
@@ -661108,11 +661464,11 @@ msgid ""
 "Positions: %d/1\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1428
+#: src/faction_camp.cpp:1449
 msgid "Recover Field Surveyor"
 msgstr ""
 
-#: src/faction_camp.cpp:1451
+#: src/faction_camp.cpp:1472
 #, c-format
 msgid ""
 "Notes:\n"
@@ -661130,11 +661486,11 @@ msgid ""
 "Positions: %d/1\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1473
+#: src/faction_camp.cpp:1494
 msgid "Recover Surveyor"
 msgstr ""
 
-#: src/faction_camp.cpp:1482
+#: src/faction_camp.cpp:1503
 #, c-format
 msgid ""
 "Notes:\n"
@@ -661153,7 +661509,7 @@ msgid ""
 "where the days is measured for Extra / Moderate / No exercise levels"
 msgstr ""
 
-#: src/faction_camp.cpp:1505
+#: src/faction_camp.cpp:1526
 msgid ""
 "Notes:\n"
 "Choose a new leader for your faction.\n"
@@ -661162,7 +661518,7 @@ msgid ""
 "Risk: None\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1515
+#: src/faction_camp.cpp:1536
 msgid ""
 "Notes:\n"
 "Eat some food from the larder.\n"
@@ -661171,7 +661527,7 @@ msgid ""
 "Risk: None\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1526
+#: src/faction_camp.cpp:1547
 msgid ""
 "Notes:\n"
 "Assign repeating job duties to NPCs stationed here.\n"
@@ -661183,19 +661539,19 @@ msgid ""
 "Time: Ongoing"
 msgstr ""
 
-#: src/faction_camp.cpp:1536
+#: src/faction_camp.cpp:1557
 msgid ""
 "Notes:\n"
 "Assign followers to work at this camp."
 msgstr ""
 
-#: src/faction_camp.cpp:1542
+#: src/faction_camp.cpp:1563
 msgid ""
 "Notes:\n"
 "Abandon this camp"
 msgstr ""
 
-#: src/faction_camp.cpp:1556
+#: src/faction_camp.cpp:1577
 msgid ""
 "Notes:\n"
 "Cancel a current mission and force the immediate return of a companion.  No work will be done on the mission and all resources used on the mission will be lost.\n"
@@ -661205,364 +661561,364 @@ msgid ""
 "Companions must be on missions for at least 24 hours before emergency recall becomes available."
 msgstr ""
 
-#: src/faction_camp.cpp:1566
+#: src/faction_camp.cpp:1587
 msgid "Emergency Recall"
 msgstr ""
 
-#: src/faction_camp.cpp:1598
+#: src/faction_camp.cpp:1619
 #, c-format
 msgid "It's too early for that.  A new leader can be chosen in %s."
 msgstr ""
 
-#: src/faction_camp.cpp:1604
+#: src/faction_camp.cpp:1625
 msgid "autocratic"
 msgstr ""
 
-#: src/faction_camp.cpp:1605
+#: src/faction_camp.cpp:1626
 msgid "sortition"
 msgstr ""
 
-#: src/faction_camp.cpp:1606
+#: src/faction_camp.cpp:1627
 msgid "democratic"
 msgstr ""
 
-#: src/faction_camp.cpp:1608
+#: src/faction_camp.cpp:1629
 msgid "Choose how the new leader will be determined."
 msgstr ""
 
-#: src/faction_camp.cpp:1618
+#: src/faction_camp.cpp:1639
 msgid ""
 "As an experienced leader, only you know what will be required of future leaders.  You will choose.\n"
 "\n"
 "Is this acceptable?"
 msgstr ""
 
-#: src/faction_camp.cpp:1646
+#: src/faction_camp.cpp:1667
 msgid ""
 "You will allow fate to choose the next leader.  Whether it's by dice, drawing straws, or picking names out of a hat, it will be purely random.\n"
 "\n"
 "Is this acceptable?"
 msgstr ""
 
-#: src/faction_camp.cpp:1652
+#: src/faction_camp.cpp:1673
 msgid "Fate calls for you to remain in your role as leader… for now."
 msgstr ""
 
-#: src/faction_camp.cpp:1658
+#: src/faction_camp.cpp:1679
 #, c-format
 msgid "Fate chooses %s to lead your faction."
 msgstr ""
 
-#: src/faction_camp.cpp:1666
+#: src/faction_camp.cpp:1687
 msgid ""
 "A leader can only lead those willing to follow.  Everyone must get a say in choosing the new leader.\n"
 "\n"
 "Is this acceptable?"
 msgstr ""
 
-#: src/faction_camp.cpp:1675
+#: src/faction_camp.cpp:1696
 msgid "You win the election!"
 msgstr ""
 
-#: src/faction_camp.cpp:1680
+#: src/faction_camp.cpp:1701
 #, c-format
 msgid ""
 "%1$s wins the election with a popularity of %2$s!  The runner-up had a "
 "popularity of %3$s."
 msgstr ""
 
-#: src/faction_camp.cpp:1689
+#: src/faction_camp.cpp:1710
 msgid "Have a meal?"
 msgstr ""
 
-#: src/faction_camp.cpp:1691
+#: src/faction_camp.cpp:1712
 msgid "Snack"
 msgstr ""
 
-#: src/faction_camp.cpp:1692
+#: src/faction_camp.cpp:1713
 msgid "Meal"
 msgstr ""
 
-#: src/faction_camp.cpp:1693
+#: src/faction_camp.cpp:1714
 msgid "Just stuff your face.  You're hungry!"
 msgstr ""
 
-#: src/faction_camp.cpp:1696
+#: src/faction_camp.cpp:1717
 msgid "You decide not to have anything after all."
 msgstr ""
 
-#: src/faction_camp.cpp:1703
+#: src/faction_camp.cpp:1724
 msgid ""
 "You check storage for some food, but there is nothing but dust and cobwebs…"
 msgstr ""
 
-#: src/faction_camp.cpp:1706
+#: src/faction_camp.cpp:1727
 msgid "There's only one meal left.  Guess that's dinner!"
 msgstr ""
 
-#: src/faction_camp.cpp:1774 src/faction_camp.cpp:1787
+#: src/faction_camp.cpp:1795 src/faction_camp.cpp:1808
 msgid "returns to you with something…"
 msgstr ""
 
-#: src/faction_camp.cpp:1777
+#: src/faction_camp.cpp:1798
 msgid "returns from your kitchen with something…"
 msgstr ""
 
-#: src/faction_camp.cpp:1780
+#: src/faction_camp.cpp:1801
 msgid "returns from your farm with something…"
 msgstr ""
 
-#: src/faction_camp.cpp:1783
+#: src/faction_camp.cpp:1804
 msgid "returns from your blacksmith shop with something…"
 msgstr ""
 
-#: src/faction_camp.cpp:1804
+#: src/faction_camp.cpp:1825
 msgid "departs to search for materials…"
 msgstr ""
 
-#: src/faction_camp.cpp:1813
+#: src/faction_camp.cpp:1834
 msgid "departs to search for firewood…"
 msgstr ""
 
-#: src/faction_camp.cpp:1830
+#: src/faction_camp.cpp:1851
 msgid "departs to look for suitable fields…"
 msgstr ""
 
-#: src/faction_camp.cpp:1839
+#: src/faction_camp.cpp:1860
 msgid "departs to survey land…"
 msgstr ""
 
-#: src/faction_camp.cpp:1846 src/faction_camp.cpp:1856
+#: src/faction_camp.cpp:1867 src/faction_camp.cpp:1877
 msgid "returns from working in the woods…"
 msgstr ""
 
-#: src/faction_camp.cpp:1866
+#: src/faction_camp.cpp:1887
 msgid "returns from working on the hide site…"
 msgstr ""
 
-#: src/faction_camp.cpp:1874
+#: src/faction_camp.cpp:1895
 msgid "returns from shuttling gear between the hide site…"
 msgstr ""
 
-#: src/faction_camp.cpp:1887
+#: src/faction_camp.cpp:1908
 msgid "departs to search for edible plants…"
 msgstr ""
 
-#: src/faction_camp.cpp:1896
+#: src/faction_camp.cpp:1917
 msgid "departs to set traps for small animals…"
 msgstr ""
 
-#: src/faction_camp.cpp:1905
+#: src/faction_camp.cpp:1926
 msgid "departs to hunt for meat…"
 msgstr ""
 
-#: src/faction_camp.cpp:1924
+#: src/faction_camp.cpp:1945
 msgid "departs to search for recruits…"
 msgstr ""
 
-#: src/faction_camp.cpp:1972 src/faction_camp.cpp:2465
+#: src/faction_camp.cpp:1993 src/faction_camp.cpp:2486
 msgid "You don't have enough food stored to feed your companion."
 msgstr ""
 
-#: src/faction_camp.cpp:2035
+#: src/faction_camp.cpp:2056
 msgid ""
 "You don't have enough food stored to feed your companion for this task."
 msgstr ""
 
-#: src/faction_camp.cpp:2038
+#: src/faction_camp.cpp:2059
 msgid "You don't have enough food stored to feed a larger work crew."
 msgstr ""
 
-#: src/faction_camp.cpp:2104 src/faction_camp.cpp:2108
-#: src/faction_camp.cpp:2111
+#: src/faction_camp.cpp:2125 src/faction_camp.cpp:2129
+#: src/faction_camp.cpp:2132
 msgid "begins to upgrade the camp…"
 msgstr ""
 
-#: src/faction_camp.cpp:2145
+#: src/faction_camp.cpp:2166
 msgid "You don't have the materials for the upgrade."
 msgstr ""
 
-#: src/faction_camp.cpp:2157 src/faction_camp.cpp:3898
+#: src/faction_camp.cpp:2178 src/faction_camp.cpp:3919
 msgid "responds to the emergency recall…"
 msgstr ""
 
-#: src/faction_camp.cpp:2164
+#: src/faction_camp.cpp:2185
 #, c-format
 msgid "You abandon %s."
 msgstr ""
 
-#: src/faction_camp.cpp:2268
+#: src/faction_camp.cpp:2289
 msgid "You have no companions following you."
 msgstr ""
 
-#: src/faction_camp.cpp:2281 src/faction_camp.cpp:2391
+#: src/faction_camp.cpp:2302 src/faction_camp.cpp:2412
 #, c-format
 msgid "Press %s to inspect this follower."
 msgstr ""
 
-#: src/faction_camp.cpp:2283
+#: src/faction_camp.cpp:2304
 #, c-format
 msgid "Press %s to assign this follower to this camp."
 msgstr ""
 
-#: src/faction_camp.cpp:2358
+#: src/faction_camp.cpp:2379
 msgid "Job/Priority"
 msgstr ""
 
-#: src/faction_camp.cpp:2360
+#: src/faction_camp.cpp:2381
 msgid "There are no NPCs stationed here"
 msgstr ""
 
-#: src/faction_camp.cpp:2376 src/faction_camp.cpp:2431
+#: src/faction_camp.cpp:2397 src/faction_camp.cpp:2452
 #, c-format
 msgid "%s : %s"
 msgstr "%s : %s"
 
-#: src/faction_camp.cpp:2381
+#: src/faction_camp.cpp:2402
 msgid "No current job."
 msgstr ""
 
-#: src/faction_camp.cpp:2393
+#: src/faction_camp.cpp:2414
 #, c-format
 msgid "Press %s to change this workers job priorities."
 msgstr ""
 
-#: src/faction_camp.cpp:2423
+#: src/faction_camp.cpp:2444
 msgid "Assign job priority (0 to disable)"
 msgstr ""
 
-#: src/faction_camp.cpp:2426
+#: src/faction_camp.cpp:2447
 msgid "Clear all priorities"
 msgstr ""
 
-#: src/faction_camp.cpp:2444
+#: src/faction_camp.cpp:2465
 #, c-format
 msgid "Priority for %s "
 msgstr ""
 
-#: src/faction_camp.cpp:2475
+#: src/faction_camp.cpp:2496
 #, c-format
 msgid "%s goes off to clean toilets and sort loot."
 msgstr ""
 
-#: src/faction_camp.cpp:2549
+#: src/faction_camp.cpp:2570
 #, c-format
 msgid "%s isn't a recognized terrain.  Please file a bug report."
 msgstr ""
 
-#: src/faction_camp.cpp:2552
+#: src/faction_camp.cpp:2573
 msgid ""
 "The logged tile has been cleared and cannot be logged further after this "
 "mission."
 msgstr ""
 
-#: src/faction_camp.cpp:2562 src/faction_camp.cpp:2601
+#: src/faction_camp.cpp:2583 src/faction_camp.cpp:2622
 msgid ""
 "Forests are the only valid cutting locations, with forest dirt roads, forest"
 " rural roads, and trails being valid as well.  Note that it's likely both "
 "forest and field roads look exactly the same after having been cleared."
 msgstr ""
 
-#: src/faction_camp.cpp:2577 src/faction_camp.cpp:2614
-#: src/faction_camp.cpp:2659 src/faction_camp.cpp:2722
-#: src/faction_camp.cpp:2876 src/faction_camp.cpp:3467
+#: src/faction_camp.cpp:2598 src/faction_camp.cpp:2635
+#: src/faction_camp.cpp:2680 src/faction_camp.cpp:2743
+#: src/faction_camp.cpp:2897 src/faction_camp.cpp:3488
 #, c-format
 msgid ""
 "Trip Estimate:\n"
 "%s"
 msgstr ""
 
-#: src/faction_camp.cpp:2584
+#: src/faction_camp.cpp:2605
 msgid "departs to cut logs…"
 msgstr ""
 
-#: src/faction_camp.cpp:2621
+#: src/faction_camp.cpp:2642
 msgid "departs to clear a forest…"
 msgstr ""
 
-#: src/faction_camp.cpp:2636
+#: src/faction_camp.cpp:2657
 msgid "Forests, swamps, and fields are valid hide site locations."
 msgstr ""
 
-#: src/faction_camp.cpp:2650 src/faction_camp.cpp:2697
+#: src/faction_camp.cpp:2671 src/faction_camp.cpp:2718
 msgid "Select items to send"
 msgstr ""
 
-#: src/faction_camp.cpp:2650 src/faction_camp.cpp:2697
-#: src/faction_camp.cpp:2708
+#: src/faction_camp.cpp:2671 src/faction_camp.cpp:2718
+#: src/faction_camp.cpp:2729
 msgid "These are the items you've selected so far."
 msgstr ""
 
-#: src/faction_camp.cpp:2665
+#: src/faction_camp.cpp:2686
 msgid "departs to build a hide site…"
 msgstr ""
 
-#: src/faction_camp.cpp:2683
+#: src/faction_camp.cpp:2704
 msgid "You must select an existing hide site."
 msgstr ""
 
-#: src/faction_camp.cpp:2708
+#: src/faction_camp.cpp:2729
 msgid "Select items to bring back"
 msgstr ""
 
-#: src/faction_camp.cpp:2729
+#: src/faction_camp.cpp:2750
 msgid "departs for the hide site…"
 msgstr ""
 
-#: src/faction_camp.cpp:2743
+#: src/faction_camp.cpp:2764
 msgid "You need equipment to transport between the hide site…"
 msgstr ""
 
-#: src/faction_camp.cpp:2810
+#: src/faction_camp.cpp:2831
 msgid ""
 "Select a start and end point.  Line must be straight.  Fields, forests, and "
 "swamps are valid fortification locations.  In addition to existing "
 "fortification constructions."
 msgstr ""
 
-#: src/faction_camp.cpp:2814
+#: src/faction_camp.cpp:2835
 msgid "Select an end point."
 msgstr ""
 
-#: src/faction_camp.cpp:2823
+#: src/faction_camp.cpp:2844
 msgid "Construction line must be straight!"
 msgstr ""
 
-#: src/faction_camp.cpp:2836
+#: src/faction_camp.cpp:2857
 msgid "Spiked pits must be built over existing trenches!"
 msgstr ""
 
-#: src/faction_camp.cpp:2866
+#: src/faction_camp.cpp:2887
 msgid "Invalid terrain in construction path."
 msgstr ""
 
-#: src/faction_camp.cpp:2881
+#: src/faction_camp.cpp:2902
 msgid "You don't have the material to build the fortification."
 msgstr ""
 
-#: src/faction_camp.cpp:2894
+#: src/faction_camp.cpp:2915
 msgid "begins constructing fortifications…"
 msgstr ""
 
-#: src/faction_camp.cpp:3047
+#: src/faction_camp.cpp:3068
 msgid ""
 "Bug, Incorrect recipe: More than one rotation per orientation isn't valid"
 msgstr ""
 
-#: src/faction_camp.cpp:3116
+#: src/faction_camp.cpp:3137
 #, c-format
 msgid "Number of additional sessions required: %i"
 msgstr ""
 
-#: src/faction_camp.cpp:3131
+#: src/faction_camp.cpp:3152
 msgid "Start constructing salt water pipes…"
 msgstr ""
 
-#: src/faction_camp.cpp:3169
+#: src/faction_camp.cpp:3190
 msgid "Continue constructing salt water pipes…"
 msgstr ""
 
-#: src/faction_camp.cpp:3302
+#: src/faction_camp.cpp:3323
 msgid ""
 "This functionality cannot be constructed as the tile directly adjacent to "
 "this expansion is not of a type a pipe can be constructed through.  "
@@ -661570,7 +661926,7 @@ msgid ""
 "be removed from the set of available recipes and won't show up again."
 msgstr ""
 
-#: src/faction_camp.cpp:3347
+#: src/faction_camp.cpp:3368
 msgid ""
 "This functionality cannot be constructed as no valid path to a swamp has "
 "been found with a maximum length (20 tiles) at a maximum range of 10 tiles."
@@ -661578,289 +661934,289 @@ msgid ""
 "removed from the set of available recipes and won't show up again."
 msgstr ""
 
-#: src/faction_camp.cpp:3457
+#: src/faction_camp.cpp:3478
 msgid ""
 "Select checkpoints until you reach maximum range or select the last point "
 "again to end."
 msgstr ""
 
-#: src/faction_camp.cpp:3471
+#: src/faction_camp.cpp:3492
 msgid "departs on patrol…"
 msgstr ""
 
-#: src/faction_camp.cpp:3493
+#: src/faction_camp.cpp:3514
 msgid "You don't have the materials to craft that"
 msgstr ""
 
-#: src/faction_camp.cpp:3500
+#: src/faction_camp.cpp:3521
 #, c-format
 msgid "Batch crafting %s [MAX: %d]: "
 msgstr ""
 
-#: src/faction_camp.cpp:3508
+#: src/faction_camp.cpp:3529
 msgid "Your batch is too large!"
 msgstr ""
 
-#: src/faction_camp.cpp:3521
+#: src/faction_camp.cpp:3542
 msgid "begins to work…"
 msgstr ""
 
-#: src/faction_camp.cpp:3701
+#: src/faction_camp.cpp:3722
 msgid "+ more\n"
 msgstr ""
 
-#: src/faction_camp.cpp:3735
+#: src/faction_camp.cpp:3756
 msgid "begins to harvest the field…"
 msgstr ""
 
-#: src/faction_camp.cpp:3742
+#: src/faction_camp.cpp:3763
 msgid "Selected seeds"
 msgstr ""
 
-#: src/faction_camp.cpp:3742 src/mission_companion.cpp:1565
+#: src/faction_camp.cpp:3763 src/mission_companion.cpp:1565
 msgid "Which seeds do you wish to have planted?"
 msgstr ""
 
-#: src/faction_camp.cpp:3743
+#: src/faction_camp.cpp:3764
 msgid "You have no additional seeds to give your companions…"
 msgstr ""
 
-#: src/faction_camp.cpp:3765
+#: src/faction_camp.cpp:3786
 msgid "begins planting the field…"
 msgstr ""
 
-#: src/faction_camp.cpp:3771
+#: src/faction_camp.cpp:3792
 msgid "begins plowing the field…"
 msgstr ""
 
-#: src/faction_camp.cpp:3818
+#: src/faction_camp.cpp:3839
 msgid "Your companion seems disappointed that your pantry is empty…"
 msgstr ""
 
-#: src/faction_camp.cpp:3957
+#: src/faction_camp.cpp:3978
 #, c-format
 msgid ""
 "%1$s failed to build the %2$s upgrade, %3$s vehicle/appliance seems to be in"
 " the way."
 msgstr ""
 
-#: src/faction_camp.cpp:3973
+#: src/faction_camp.cpp:3994
 msgid "returns from upgrading the camp having earned a bit of experience…"
 msgstr ""
 
-#: src/faction_camp.cpp:3985
+#: src/faction_camp.cpp:4006
 msgid "returns from doing the dirty work to keep the camp running…"
 msgstr ""
 
-#: src/faction_camp.cpp:4002
+#: src/faction_camp.cpp:4023
 msgid "gathering materials"
 msgstr ""
 
-#: src/faction_camp.cpp:4010
+#: src/faction_camp.cpp:4031
 msgid "foraging for edible plants"
 msgstr ""
 
-#: src/faction_camp.cpp:4014
+#: src/faction_camp.cpp:4035
 msgid "trapping small animals"
 msgstr ""
 
-#: src/faction_camp.cpp:4021
+#: src/faction_camp.cpp:4042
 msgid "hunting for meat"
 msgstr ""
 
-#: src/faction_camp.cpp:4034
+#: src/faction_camp.cpp:4055
 #, c-format
 msgid "returns from %s carrying supplies and has a bit more experience…"
 msgstr ""
 
-#: src/faction_camp.cpp:4088
+#: src/faction_camp.cpp:4109
 msgid "returns from constructing fortifications…"
 msgstr ""
 
-#: src/faction_camp.cpp:4110 src/faction_camp.cpp:4202
+#: src/faction_camp.cpp:4131 src/faction_camp.cpp:4223
 msgid "Error: Failed to find the pipe task that was to be constructed"
 msgstr ""
 
-#: src/faction_camp.cpp:4178
+#: src/faction_camp.cpp:4199
 msgid "returns from construction of the salt water pipe swamp segment…"
 msgstr ""
 
-#: src/faction_camp.cpp:4296
+#: src/faction_camp.cpp:4317
 msgid "returns from construction of a salt water pipe segment…"
 msgstr ""
 
-#: src/faction_camp.cpp:4305
+#: src/faction_camp.cpp:4326
 msgid "returns from searching for recruits with a bit more experience…"
 msgstr ""
 
-#: src/faction_camp.cpp:4319
+#: src/faction_camp.cpp:4340
 #, c-format
 msgid "%s encountered %s…"
 msgstr ""
 
-#: src/faction_camp.cpp:4321
+#: src/faction_camp.cpp:4342
 #, c-format
 msgid "%s didn't find anyone to recruit…"
 msgstr ""
 
-#: src/faction_camp.cpp:4327
+#: src/faction_camp.cpp:4348
 #, c-format
 msgid "%s convinced %s to hear a recruitment offer from you…"
 msgstr ""
 
-#: src/faction_camp.cpp:4330
+#: src/faction_camp.cpp:4351
 #, c-format
 msgid "%s wasn't interested in anything %s had to offer…"
 msgstr ""
 
-#: src/faction_camp.cpp:4339
+#: src/faction_camp.cpp:4360
 msgid ""
 "NPC Overview:\n"
 "\n"
 msgstr ""
 
-#: src/faction_camp.cpp:4340
+#: src/faction_camp.cpp:4361
 #, c-format
 msgid ""
 "Name:  %s\n"
 "\n"
 msgstr ""
 
-#: src/faction_camp.cpp:4341
+#: src/faction_camp.cpp:4362
 #, c-format
 msgid "Strength:        %10d\n"
 msgstr ""
 
-#: src/faction_camp.cpp:4342
+#: src/faction_camp.cpp:4363
 #, c-format
 msgid "Dexterity:       %10d\n"
 msgstr ""
 
-#: src/faction_camp.cpp:4343
+#: src/faction_camp.cpp:4364
 #, c-format
 msgid "Intelligence:    %10d\n"
 msgstr ""
 
-#: src/faction_camp.cpp:4344
+#: src/faction_camp.cpp:4365
 #, c-format
 msgid ""
 "Perception:      %10d\n"
 "\n"
 msgstr ""
 
-#: src/faction_camp.cpp:4345
+#: src/faction_camp.cpp:4366
 msgid "Top 3 Skills:\n"
 msgstr ""
 
-#: src/faction_camp.cpp:4362
+#: src/faction_camp.cpp:4383
 msgid "Asking for:\n"
 msgstr ""
 
-#: src/faction_camp.cpp:4363
+#: src/faction_camp.cpp:4384
 #, c-format
 msgid ""
 "> Food:     %10d days\n"
 "\n"
 msgstr ""
 
-#: src/faction_camp.cpp:4364
+#: src/faction_camp.cpp:4385
 #, c-format
 msgid ""
 "Faction Food:%9d days\n"
 "\n"
 msgstr ""
 
-#: src/faction_camp.cpp:4366
+#: src/faction_camp.cpp:4387
 #, c-format
 msgid ""
 "Recruit Chance: %10d%%\n"
 "\n"
 msgstr ""
 
-#: src/faction_camp.cpp:4368
+#: src/faction_camp.cpp:4389
 msgid "Select an option:"
 msgstr ""
 
-#: src/faction_camp.cpp:4371
+#: src/faction_camp.cpp:4392
 msgid "Increase Food"
 msgstr ""
 
-#: src/faction_camp.cpp:4372
+#: src/faction_camp.cpp:4393
 msgid "Decrease Food"
 msgstr ""
 
-#: src/faction_camp.cpp:4373
+#: src/faction_camp.cpp:4394
 msgid "Make Offer"
 msgstr ""
 
-#: src/faction_camp.cpp:4374
+#: src/faction_camp.cpp:4395
 msgid "Not Interested"
 msgstr ""
 
-#: src/faction_camp.cpp:4378
+#: src/faction_camp.cpp:4399
 msgid "You decide you aren't interested…"
 msgstr ""
 
-#: src/faction_camp.cpp:4398
+#: src/faction_camp.cpp:4419
 #, c-format
 msgid "%s has been convinced to join!"
 msgstr ""
 
-#: src/faction_camp.cpp:4400
+#: src/faction_camp.cpp:4421
 #, c-format
 msgid "%s wasn't interested…"
 msgstr ""
 
-#: src/faction_camp.cpp:4433
+#: src/faction_camp.cpp:4454
 msgid "Your companion hit a river and didn't know how to swim…"
 msgstr ""
 
-#: src/faction_camp.cpp:4435
+#: src/faction_camp.cpp:4456
 msgid ""
 "Your companion hit a river and didn't know how to swim well enough to cross…"
 msgstr ""
 
-#: src/faction_camp.cpp:4446
+#: src/faction_camp.cpp:4467
 #, c-format
 msgid "%s didn't return from patrol…"
 msgstr ""
 
-#: src/faction_camp.cpp:4453
+#: src/faction_camp.cpp:4474
 msgid "returns from patrol…"
 msgstr ""
 
-#: src/faction_camp.cpp:4460
+#: src/faction_camp.cpp:4481
 msgid "stops looking for terrain to turn into fields…"
 msgstr ""
 
-#: src/faction_camp.cpp:4466 src/faction_camp.cpp:4543
+#: src/faction_camp.cpp:4487 src/faction_camp.cpp:4564
 #, c-format
 msgid "Select a tile up to %d tiles away."
 msgstr ""
 
-#: src/faction_camp.cpp:4474 src/faction_camp.cpp:4551
+#: src/faction_camp.cpp:4495 src/faction_camp.cpp:4572
 #, c-format
 msgid "You must select a tile within %d range of the camp"
 msgstr ""
 
-#: src/faction_camp.cpp:4478 src/faction_camp.cpp:4555
+#: src/faction_camp.cpp:4499 src/faction_camp.cpp:4576
 msgid "Expansions must be on the same level as the camp"
 msgstr ""
 
-#: src/faction_camp.cpp:4484 src/faction_camp.cpp:4561
+#: src/faction_camp.cpp:4505 src/faction_camp.cpp:4582
 msgid ""
 "You already have an expansion at that location.  Do you want to finish this "
 "mission?  If not, the mission remains active and another tile can be "
 "checked."
 msgstr ""
 
-#: src/faction_camp.cpp:4494
+#: src/faction_camp.cpp:4515
 msgid ""
 "This location is already a field.  Do you want to finish this mission?  If "
 "not, the mission remains active and another tile can be checked."
 msgstr ""
 
-#: src/faction_camp.cpp:4516
+#: src/faction_camp.cpp:4537
 #, c-format
 msgid ""
 "This location has %d tiles blocking it from being converted.  Do you want to"
@@ -661868,163 +662224,163 @@ msgid ""
 "can be checked."
 msgstr ""
 
-#: src/faction_camp.cpp:4527
+#: src/faction_camp.cpp:4548
 msgid ""
 "This location has now been converted into a field!  Do you want to finish "
 "the mission?  If not, the mission remains active and another tile can be "
 "checked."
 msgstr ""
 
-#: src/faction_camp.cpp:4537
+#: src/faction_camp.cpp:4558
 msgid "gives up trying to create an expansion…"
 msgstr ""
 
-#: src/faction_camp.cpp:4574
+#: src/faction_camp.cpp:4595
 #, c-format
 msgid "You can't build any expansions in a %s."
 msgstr ""
 
-#: src/faction_camp.cpp:4576
+#: src/faction_camp.cpp:4597
 #, c-format
 msgid ""
 "You can't build any expansion in a %s.  Do you want to finish this mission?"
 "  If not, the mission remains active and another tile can be checked."
 msgstr ""
 
-#: src/faction_camp.cpp:4586
+#: src/faction_camp.cpp:4607
 msgid "Select an expansion:"
 msgstr ""
 
-#: src/faction_camp.cpp:4600
+#: src/faction_camp.cpp:4621
 msgid ""
 "Do you want to finish this mission?  If not, the mission remains active and "
 "another tile can be checked."
 msgstr ""
 
-#: src/faction_camp.cpp:4612
+#: src/faction_camp.cpp:4633
 #, c-format
 msgid ""
 "%1$s failed to add the %2$s expansion, %3$s vehicle/appliance seems to be in"
 " the way."
 msgstr ""
 
-#: src/faction_camp.cpp:4617
+#: src/faction_camp.cpp:4638
 msgid ""
 "Do you want to finish this mission?  If not, the mission remains active and "
 "another tile can be checked (e.g. after clearing away the obstacle)."
 msgstr ""
 
-#: src/faction_camp.cpp:4626
+#: src/faction_camp.cpp:4647
 msgid "returns from surveying for the expansion."
 msgstr ""
 
-#: src/faction_camp.cpp:4645
+#: src/faction_camp.cpp:4666
 msgid "returns from working your fields…"
 msgstr ""
 
-#: src/faction_camp.cpp:4957
+#: src/faction_camp.cpp:4978
 #, c-format
 msgid "Select a location between  %d and  %d tiles away."
 msgstr ""
 
-#: src/faction_camp.cpp:4978
+#: src/faction_camp.cpp:4999
 #, c-format
 msgid ""
 "You must select a target between %d and %d range from the base.  Range: %d"
 msgstr ""
 
-#: src/faction_camp.cpp:4989
+#: src/faction_camp.cpp:5010
 msgid "You must be able to see the target that you select."
 msgstr ""
 
-#: src/faction_camp.cpp:4995
+#: src/faction_camp.cpp:5016
 msgid "Do you want to bounce off this location to extend range?"
 msgstr ""
 
-#: src/faction_camp.cpp:5256 src/faction_camp.cpp:5304 src/iuse.cpp:8383
+#: src/faction_camp.cpp:5277 src/faction_camp.cpp:5325 src/iuse.cpp:8383
 #: src/iuse.cpp:8604
 msgctxt "short for infinity"
 msgid "inf"
 msgstr ""
 
-#: src/faction_camp.cpp:5262 src/faction_camp.cpp:5310
+#: src/faction_camp.cpp:5283 src/faction_camp.cpp:5331
 msgid "Volume (L)"
 msgstr ""
 
-#: src/faction_camp.cpp:5263 src/faction_camp.cpp:5311
+#: src/faction_camp.cpp:5284 src/faction_camp.cpp:5332
 msgid "Weight (kg)"
 msgstr ""
 
-#: src/faction_camp.cpp:5273 src/faction_camp.cpp:5320
+#: src/faction_camp.cpp:5294 src/faction_camp.cpp:5341
 msgid "To select items, type a number before selecting."
 msgstr ""
 
-#: src/faction_camp.cpp:5276
+#: src/faction_camp.cpp:5297
 msgid "You have nothing to send."
 msgstr ""
 
-#: src/faction_camp.cpp:5323
+#: src/faction_camp.cpp:5344
 msgid "You have nothing to retrieve."
 msgstr ""
 
-#: src/faction_camp.cpp:5337
+#: src/faction_camp.cpp:5358
 msgid "You do not have sufficient sort zones.  Do you want to add them?"
 msgstr ""
 
-#: src/faction_camp.cpp:5350
+#: src/faction_camp.cpp:5371
 msgid ""
 "Please create some sorting zones.  You must create a camp food zone, and a "
 "camp storage zone."
 msgstr ""
 
-#: src/faction_camp.cpp:5389
+#: src/faction_camp.cpp:5410
 #, c-format
 msgid ">Distance:%15.2f (km)\n"
 msgstr ">Дистанція:%15.2f (км)\n"
 
-#: src/faction_camp.cpp:5390 src/faction_camp.cpp:5394
+#: src/faction_camp.cpp:5411 src/faction_camp.cpp:5415
 #, c-format
 msgid ">One Way: %15d (trips)\n"
 msgstr ""
 
-#: src/faction_camp.cpp:5391
+#: src/faction_camp.cpp:5412
 #, c-format
 msgid ">Covered: %15.2f (km)\n"
 msgstr ""
 
-#: src/faction_camp.cpp:5393
+#: src/faction_camp.cpp:5414
 #, c-format
 msgid ">Distance:%15d (m)\n"
 msgstr ""
 
-#: src/faction_camp.cpp:5395
+#: src/faction_camp.cpp:5416
 #, c-format
 msgid ">Covered: %15d (m)\n"
 msgstr ""
 
-#: src/faction_camp.cpp:5397
+#: src/faction_camp.cpp:5418
 #, c-format
 msgid ">Travel:  %s\n"
 msgstr ""
 
-#: src/faction_camp.cpp:5398
+#: src/faction_camp.cpp:5419
 #, c-format
 msgid ">Working: %s\n"
 msgstr ""
 
-#: src/faction_camp.cpp:5400
+#: src/faction_camp.cpp:5421
 #, c-format
 msgid "Total:    %s\n"
 msgstr ""
 
-#: src/faction_camp.cpp:5401
+#: src/faction_camp.cpp:5422
 #, c-format
 msgid ""
 "Food:     %15d (kcal)\n"
 "\n"
 msgstr ""
 
-#: src/faction_camp.cpp:5423
+#: src/faction_camp.cpp:5444
 #, c-format
 msgid ""
 "Skill used: %s\n"
@@ -662034,7 +662390,7 @@ msgid ""
 "Calories per craft: %s\n"
 msgstr ""
 
-#: src/faction_camp.cpp:5489
+#: src/faction_camp.cpp:5510
 #, c-format
 msgid ""
 "Notes:\n"
@@ -662054,179 +662410,179 @@ msgid ""
 "Positions: %d/1\n"
 msgstr ""
 
-#: src/faction_camp.cpp:5541
+#: src/faction_camp.cpp:5562
 msgid "Harvestable: "
 msgstr "Готово для збору:"
 
-#: src/faction_camp.cpp:5544
+#: src/faction_camp.cpp:5565
 msgid "Ready for Planting: "
 msgstr "Готово для посадки:"
 
-#: src/faction_camp.cpp:5547
+#: src/faction_camp.cpp:5568
 msgid "Needs Plowing: "
 msgstr ""
 
-#: src/faction_camp.cpp:5645
+#: src/faction_camp.cpp:5666
 msgid "You are too full to eat right now, and put the meal back into storage."
 msgstr ""
 
-#: src/faction_camp.cpp:5646
+#: src/faction_camp.cpp:5667
 msgid ""
 "<npcname> is too full to eat right now, and puts the meal back into storage."
 msgstr ""
 
-#: src/faction_camp.cpp:5656
+#: src/faction_camp.cpp:5677
 #, c-format
 msgid ""
 "%s takes one look at the food and declines, explaining they're allergic."
 msgstr ""
 
-#: src/faction_camp.cpp:5662
+#: src/faction_camp.cpp:5683
 #, c-format
 msgid ""
 "%s takes a bite but spits it out.  It seems something in the food disagrees "
 "with them."
 msgstr ""
 
-#: src/faction_camp.cpp:5668
+#: src/faction_camp.cpp:5689
 #, c-format
 msgid ""
 "%s thanks you for the meal, but when they see what's in the meal their "
 "attitude suddenly changes!"
 msgstr ""
 
-#: src/faction_camp.cpp:5728
+#: src/faction_camp.cpp:5749
 msgid "You do not have a camp food zone.  Aborting…"
 msgstr ""
 
-#: src/faction_camp.cpp:5738
+#: src/faction_camp.cpp:5759
 msgid ""
 "Do you also wish to distribute comestibles without any calorie value (i.e. "
 "multivitamins, mutagens)?"
 msgstr ""
 
-#: src/faction_camp.cpp:5845
+#: src/faction_camp.cpp:5866
 msgid "No suitable items are located at the drop points…"
 msgstr ""
 
-#: src/faction_camp.cpp:5852
+#: src/faction_camp.cpp:5873
 #, c-format
 msgid "You distribute %d kcal worth of food to your companions."
 msgstr ""
 
-#: src/faction_camp.cpp:5855
+#: src/faction_camp.cpp:5876
 msgid "You distribute vitamins and medicine to your companions."
 msgstr ""
 
-#: src/faction_camp.cpp:5921
+#: src/faction_camp.cpp:5942
 msgid "<No longer valid construction>"
 msgstr "<No longer valid construction>"
 
-#: src/faction_camp.cpp:5942
+#: src/faction_camp.cpp:5963
 msgid " <Unsupported recipe>"
 msgstr " <Unsupported recipe>"
 
-#: src/faction_camp.cpp:5966
+#: src/faction_camp.cpp:5987
 msgid "Select mission(s) to reveal, escape when done"
 msgstr ""
 
-#: src/faction_camp.cpp:5969 src/faction_camp.cpp:6013
+#: src/faction_camp.cpp:5990 src/faction_camp.cpp:6034
 msgid "You're done for now…"
 msgstr ""
 
-#: src/faction_camp.cpp:6010
+#: src/faction_camp.cpp:6031
 msgid "Select mission(s) to hide, escape when done"
 msgstr ""
 
-#: src/faction_camp.cpp:6053
+#: src/faction_camp.cpp:6074
 msgid ""
 "No eligible locations found to place resulting liquids, placing them at random.\n"
 "\n"
 "Eligible locations must be a terrain OR furniture (not item) that can contain liquid, and does not already have any items on its tile."
 msgstr ""
 
-#: src/faction_camp.cpp:6078
+#: src/faction_camp.cpp:6099
 #, c-format
 msgid "While %s, a silent specter approaches %s…"
 msgstr ""
 
-#: src/faction_camp.cpp:6082
+#: src/faction_camp.cpp:6103
 #, c-format
 msgid ""
 "%s notices the antlered horror and slips away before it gets too close."
 msgstr ""
 
-#: src/faction_camp.cpp:6086
+#: src/faction_camp.cpp:6107
 #, c-format
 msgid "Another survivor approaches %s asking for directions."
 msgstr ""
 
-#: src/faction_camp.cpp:6087
+#: src/faction_camp.cpp:6108
 #, c-format
 msgid ""
 "Fearful that he may be an agent of some hostile faction, %s doesn't mention "
 "the camp."
 msgstr ""
 
-#: src/faction_camp.cpp:6089
+#: src/faction_camp.cpp:6110
 msgid "The two part on friendly terms and the survivor isn't seen again."
 msgstr ""
 
-#: src/faction_camp.cpp:6092
+#: src/faction_camp.cpp:6113
 #, c-format
 msgid "%s didn't detect the ambush until it was too late!"
 msgstr ""
 
-#: src/faction_camp.cpp:6102
+#: src/faction_camp.cpp:6123
 #, c-format
 msgid "The bull moose charged %s from the tree line…"
 msgstr ""
 
-#: src/faction_camp.cpp:6103
+#: src/faction_camp.cpp:6124
 #, c-format
 msgid ""
 "Despite being caught off guard %s was able to run away until the moose gave "
 "up pursuit."
 msgstr ""
 
-#: src/faction_camp.cpp:6106
+#: src/faction_camp.cpp:6127
 #, c-format
 msgid "The jabberwock grabbed %s by the arm from behind and began to scream."
 msgstr ""
 
-#: src/faction_camp.cpp:6108
+#: src/faction_camp.cpp:6129
 #, c-format
 msgid ""
 "Terrified, %s spun around and delivered a massive kick to the creature's "
 "torso…"
 msgstr ""
 
-#: src/faction_camp.cpp:6110
+#: src/faction_camp.cpp:6131
 #, c-format
 msgid "Collapsing into a pile of gore, %s walked away unscathed…"
 msgstr ""
 
-#: src/faction_camp.cpp:6112
+#: src/faction_camp.cpp:6133
 msgid "(Sounds like bullshit, you wonder what really happened.)"
 msgstr ""
 
-#: src/faction_camp.cpp:6117
+#: src/faction_camp.cpp:6138
 #, c-format
 msgid ""
 "%s turned to find the hideous black eyes of a giant wasp staring back from "
 "only a few feet away…"
 msgstr ""
 
-#: src/faction_camp.cpp:6119
+#: src/faction_camp.cpp:6140
 msgid "The screams were terrifying, there was nothing anyone could do."
 msgstr ""
 
-#: src/faction_camp.cpp:6121
+#: src/faction_camp.cpp:6142
 #, c-format
 msgid "Pieces of %s were found strewn across a few bushes."
 msgstr ""
 
-#: src/faction_camp.cpp:6122
+#: src/faction_camp.cpp:6143
 msgid "(You wonder if your companions are fit to work on their own…)"
 msgstr ""
 
@@ -662646,7 +663002,7 @@ msgstr ""
 msgid "Monsters spotted!"
 msgstr "Виявлено чудовиськ!"
 
-#: src/game.cpp:4638 src/handle_action.cpp:2731
+#: src/game.cpp:4638 src/handle_action.cpp:2746
 msgid "Safe mode ON!"
 msgstr "Безпечний режим ВКЛ!"
 
@@ -663584,17 +663940,17 @@ msgstr ""
 msgid "%s helps with this task…"
 msgstr ""
 
-#: src/game.cpp:9868 src/handle_action.cpp:2627
+#: src/game.cpp:9868 src/handle_action.cpp:2642
 #, c-format
 msgid "Cleared ammo preferences for %s."
 msgstr ""
 
-#: src/game.cpp:9871 src/handle_action.cpp:2630
+#: src/game.cpp:9871 src/handle_action.cpp:2645
 #, c-format
 msgid "Selected %s as default ammo for %s."
 msgstr ""
 
-#: src/game.cpp:9874 src/handle_action.cpp:2635
+#: src/game.cpp:9874 src/handle_action.cpp:2650
 msgid "You need to keep that ammo on you to select it as default ammo."
 msgstr ""
 
@@ -664626,7 +664982,7 @@ msgid "Can't consume spilt gasses."
 msgstr ""
 
 #: src/game_inventory.cpp:798 src/game_inventory.cpp:1146
-#: src/iuse_actor.cpp:3677
+#: src/iuse_actor.cpp:3682
 msgid "Your biology is not compatible with that item."
 msgstr ""
 
@@ -665316,7 +665672,7 @@ msgstr ""
 msgid "PIERCE"
 msgstr ""
 
-#: src/game_inventory.cpp:2924 src/veh_appliance.cpp:397
+#: src/game_inventory.cpp:2924 src/veh_appliance.cpp:398
 #: src/veh_interact.cpp:1335
 #, c-format
 msgid "Refill %s"
@@ -665765,655 +666121,655 @@ msgstr ""
 msgid "Select items to haul"
 msgstr ""
 
-#: src/handle_action.cpp:911
+#: src/handle_action.cpp:917
 msgid "Smash where?"
 msgstr ""
 
-#: src/handle_action.cpp:925
+#: src/handle_action.cpp:941
 msgid "Keep smashing until destroyed?"
 msgstr ""
 
-#: src/handle_action.cpp:983 src/handle_action.cpp:1111
-#: src/handle_action.cpp:1114
+#: src/handle_action.cpp:999 src/handle_action.cpp:1126
+#: src/handle_action.cpp:1129
 #, c-format
 msgid "You don't seem to be damaging the %s."
 msgstr ""
 
-#: src/handle_action.cpp:1013
+#: src/handle_action.cpp:1028
 msgid "Are you sure you want to pulp an acid filled corpse?"
 msgstr ""
 
-#: src/handle_action.cpp:1046
+#: src/handle_action.cpp:1061
 #, c-format
 msgid "You use your %s to smash the %s."
 msgstr ""
 
-#: src/handle_action.cpp:1077 src/melee.cpp:2297 src/melee.cpp:2299
+#: src/handle_action.cpp:1092 src/melee.cpp:2297 src/melee.cpp:2299
 #, c-format
 msgid "Your %s shatters!"
 msgstr ""
 
-#: src/handle_action.cpp:1120
+#: src/handle_action.cpp:1135
 msgid "There's nothing there to smash!"
 msgstr ""
 
-#: src/handle_action.cpp:1132
+#: src/handle_action.cpp:1147
 msgid "You already have an alarm set.  What do you want to do?"
 msgstr ""
 
-#: src/handle_action.cpp:1133
+#: src/handle_action.cpp:1148
 msgid "You have an alarm clock.  What do you want to do?"
 msgstr ""
 
-#: src/handle_action.cpp:1136
+#: src/handle_action.cpp:1151
 msgid "Keep the alarm and wait a while"
 msgstr ""
 
-#: src/handle_action.cpp:1137
+#: src/handle_action.cpp:1152
 msgid "Wait a while"
 msgstr ""
 
-#: src/handle_action.cpp:1139
+#: src/handle_action.cpp:1154
 msgid "Change your alarm"
 msgstr ""
 
-#: src/handle_action.cpp:1140
+#: src/handle_action.cpp:1155
 msgid "Set an alarm for later"
 msgstr ""
 
-#: src/handle_action.cpp:1166
+#: src/handle_action.cpp:1181
 msgid "You can't pass time while controlling a moving vehicle."
 msgstr ""
 
-#: src/handle_action.cpp:1205
+#: src/handle_action.cpp:1220
 msgid "Wait until you catch your breath"
 msgstr ""
 
-#: src/handle_action.cpp:1208
+#: src/handle_action.cpp:1223
 msgid "Wait 20 heartbeats"
 msgstr ""
 
-#: src/handle_action.cpp:1209
+#: src/handle_action.cpp:1224
 msgid "Wait 60 heartbeats"
 msgstr ""
 
-#: src/handle_action.cpp:1210
+#: src/handle_action.cpp:1225
 msgid "Wait 300 heartbeats"
 msgstr "Чекати 300 ударів серця"
 
-#: src/handle_action.cpp:1211
+#: src/handle_action.cpp:1226
 msgid "Wait 1800 heartbeats"
 msgstr ""
 
-#: src/handle_action.cpp:1232
+#: src/handle_action.cpp:1247
 msgid "Set alarm for dawn"
 msgstr ""
 
-#: src/handle_action.cpp:1232
+#: src/handle_action.cpp:1247
 msgid "Wait till daylight"
 msgstr ""
 
-#: src/handle_action.cpp:1235
+#: src/handle_action.cpp:1250
 msgid "Set alarm for noon"
 msgstr ""
 
-#: src/handle_action.cpp:1235
+#: src/handle_action.cpp:1250
 msgid "Wait till noon"
 msgstr ""
 
-#: src/handle_action.cpp:1238
+#: src/handle_action.cpp:1253
 msgid "Set alarm for dusk"
 msgstr ""
 
-#: src/handle_action.cpp:1238
+#: src/handle_action.cpp:1253
 msgid "Wait till night"
 msgstr ""
 
-#: src/handle_action.cpp:1241
+#: src/handle_action.cpp:1256
 msgid "Set alarm for midnight"
 msgstr ""
 
-#: src/handle_action.cpp:1241
+#: src/handle_action.cpp:1256
 msgid "Wait till midnight"
 msgstr ""
 
-#: src/handle_action.cpp:1245
+#: src/handle_action.cpp:1260
 msgid "Cancel the currently set alarm."
 msgstr ""
 
-#: src/handle_action.cpp:1249
+#: src/handle_action.cpp:1264
 msgid "Wait till weather changes"
 msgstr ""
 
-#: src/handle_action.cpp:1254
+#: src/handle_action.cpp:1269
 #, c-format
 msgid "It's %s now.  "
 msgstr ""
 
-#: src/handle_action.cpp:1256
+#: src/handle_action.cpp:1271
 msgid "Set alarm for when?"
 msgstr ""
 
-#: src/handle_action.cpp:1256
+#: src/handle_action.cpp:1271
 msgid "Wait for how long?"
 msgstr ""
 
-#: src/handle_action.cpp:1269
+#: src/handle_action.cpp:1284
 msgid "You cancel your alarm."
 msgstr ""
 
-#: src/handle_action.cpp:1272
+#: src/handle_action.cpp:1287
 msgid "You set your alarm."
 msgstr ""
 
-#: src/handle_action.cpp:1299
+#: src/handle_action.cpp:1314
 msgid "You can't sleep while controlling a vehicle."
 msgstr ""
 
-#: src/handle_action.cpp:1303
+#: src/handle_action.cpp:1318
 msgid "You cannot sleep while mounted."
 msgstr ""
 
-#: src/handle_action.cpp:1313
+#: src/handle_action.cpp:1328
 msgid "You cannot sleep while swimming."
 msgstr ""
 
-#: src/handle_action.cpp:1317
+#: src/handle_action.cpp:1332
 msgid "You cannot sleep while airborne."
 msgstr ""
 
-#: src/handle_action.cpp:1323
+#: src/handle_action.cpp:1338
 msgid "Are you sure you want to sleep?"
 msgstr ""
 
-#: src/handle_action.cpp:1330
+#: src/handle_action.cpp:1345
 msgid "Yes, and save game before sleeping."
 msgstr ""
 
-#: src/handle_action.cpp:1370
+#: src/handle_action.cpp:1385
 #, c-format
 msgid "You stop playing your %s before trying to sleep."
 msgstr ""
 
-#: src/handle_action.cpp:1381
+#: src/handle_action.cpp:1396
 msgid "You may want to extinguish or turn off:"
 msgstr ""
 
-#: src/handle_action.cpp:1405
+#: src/handle_action.cpp:1420
 msgid "<color_c_red> (DEAF!)</color>"
 msgstr ""
 
-#: src/handle_action.cpp:1414
+#: src/handle_action.cpp:1429
 msgid ""
 "You're engorged to hibernate.  The alarm would only attract attention.  Set "
 "an alarm anyway?"
 msgstr ""
 
-#: src/handle_action.cpp:1416
+#: src/handle_action.cpp:1431
 msgid "You have an alarm clock.  Set an alarm?"
 msgstr "У вас є годинник з будильником. Виставити його?"
 
-#: src/handle_action.cpp:1421
+#: src/handle_action.cpp:1436
 msgid "No, don't set an alarm."
 msgstr "Ні, не ставити будильник."
 
-#: src/handle_action.cpp:1425
+#: src/handle_action.cpp:1440
 #, c-format
 msgid "Set alarm to wake up in %i hours."
 msgstr "Встановити будильник щоб прокинутись за %i годин."
 
-#: src/handle_action.cpp:1506
+#: src/handle_action.cpp:1521
 msgid "There is no compatible zone nearby."
 msgstr ""
 
-#: src/handle_action.cpp:1507
+#: src/handle_action.cpp:1522
 #, c-format
 msgid "Compatible zones are %s and %s"
 msgstr ""
 
-#: src/handle_action.cpp:1518
+#: src/handle_action.cpp:1533
 msgid "Pick action:"
 msgstr ""
 
-#: src/handle_action.cpp:1522
+#: src/handle_action.cpp:1537
 msgid "Sort out my loot (static zones only)"
 msgstr ""
 
-#: src/handle_action.cpp:1523
+#: src/handle_action.cpp:1538
 msgid ""
 "Sorts out the loot from Loot: Unsorted zone to nearby appropriate Loot zones"
 " ignoring personal zones.  Uses empty space in your inventory or utilizes a "
 "cart, if you are holding one."
 msgstr ""
 
-#: src/handle_action.cpp:1524
+#: src/handle_action.cpp:1539
 msgid "Sort out my loot (personal zones only)"
 msgstr ""
 
-#: src/handle_action.cpp:1525
+#: src/handle_action.cpp:1540
 msgid ""
 "Sorts out the loot from Loot: Unsorted zone to nearby appropriate Loot zones"
 " ignoring static zones.  Uses empty space in your inventory or utilizes a "
 "cart, if you are holding one."
 msgstr ""
 
-#: src/handle_action.cpp:1526
+#: src/handle_action.cpp:1541
 msgid "Sort out my loot (all)"
 msgstr ""
 
-#: src/handle_action.cpp:1527
+#: src/handle_action.cpp:1542
 msgid ""
 "Sorts out the loot from Loot: Unsorted zone to nearby appropriate Loot "
 "zones.  Uses empty space in your inventory or utilizes a cart, if you are "
 "holding one."
 msgstr ""
 
-#: src/handle_action.cpp:1531
+#: src/handle_action.cpp:1546
 msgid "Unload nearby containers"
 msgstr ""
 
-#: src/handle_action.cpp:1532
+#: src/handle_action.cpp:1547
 msgid "Unloads any corpses or containers that are in their respective zones."
 msgstr ""
 
-#: src/handle_action.cpp:1537
+#: src/handle_action.cpp:1552
 msgid "Fertilize plots"
 msgstr ""
 
-#: src/handle_action.cpp:1537
+#: src/handle_action.cpp:1552
 msgid "Fertilize plots… you don't have any fertilizer"
 msgstr ""
 
-#: src/handle_action.cpp:1538
+#: src/handle_action.cpp:1553
 msgid "Fertilize any nearby Farm: Plot zones."
 msgstr ""
 
-#: src/handle_action.cpp:1542
+#: src/handle_action.cpp:1557
 msgid "Construct plots"
 msgstr ""
 
-#: src/handle_action.cpp:1543
+#: src/handle_action.cpp:1558
 msgid "Work on any nearby Blueprint: construction zones."
 msgstr ""
 
-#: src/handle_action.cpp:1546
+#: src/handle_action.cpp:1561
 msgid "Farm plots"
 msgstr ""
 
-#: src/handle_action.cpp:1547
+#: src/handle_action.cpp:1562
 msgid "Till and plant on any nearby farm plots - auto-fetch seeds and tools."
 msgstr ""
 
-#: src/handle_action.cpp:1550
+#: src/handle_action.cpp:1565
 msgid "Chop trees"
 msgstr ""
 
-#: src/handle_action.cpp:1551
+#: src/handle_action.cpp:1566
 msgid "Chop down any trees in the designated zone - auto-fetch tools."
 msgstr ""
 
-#: src/handle_action.cpp:1554
+#: src/handle_action.cpp:1569
 msgid "Chop planks"
 msgstr ""
 
-#: src/handle_action.cpp:1555
+#: src/handle_action.cpp:1570
 msgid "Auto-chop logs in wood loot zones into planks - auto-fetch tools."
 msgstr ""
 
-#: src/handle_action.cpp:1558
+#: src/handle_action.cpp:1573
 msgid "Deconstruct vehicle"
 msgstr ""
 
-#: src/handle_action.cpp:1559
+#: src/handle_action.cpp:1574
 msgid "Auto-deconstruct vehicle in designated zone - auto-fetch tools."
 msgstr ""
 
-#: src/handle_action.cpp:1562
+#: src/handle_action.cpp:1577
 msgid "Repair vehicle"
 msgstr ""
 
-#: src/handle_action.cpp:1563
+#: src/handle_action.cpp:1578
 msgid "Auto-repair vehicle in designated zone - auto-fetch tools."
 msgstr ""
 
-#: src/handle_action.cpp:1566
+#: src/handle_action.cpp:1581
 msgid "Butcher corpses"
 msgstr ""
 
-#: src/handle_action.cpp:1567
+#: src/handle_action.cpp:1582
 msgid "Auto-butcher anything in corpse loot zones - auto-fetch tools."
 msgstr ""
 
-#: src/handle_action.cpp:1570
+#: src/handle_action.cpp:1585
 msgid "Mine Area"
 msgstr ""
 
-#: src/handle_action.cpp:1571
+#: src/handle_action.cpp:1586
 msgid "Auto-mine anything in mining zone - auto-fetch tools."
 msgstr ""
 
-#: src/handle_action.cpp:1575
+#: src/handle_action.cpp:1590
 msgid "Auto-disassemble anything in disassembly zone - auto-fetch tools."
 msgstr ""
 
-#: src/handle_action.cpp:1579
+#: src/handle_action.cpp:1594
 msgid "Mop area"
 msgstr ""
 
-#: src/handle_action.cpp:1579
+#: src/handle_action.cpp:1594
 msgid "Mop clean the area."
 msgstr ""
 
-#: src/handle_action.cpp:1740
+#: src/handle_action.cpp:1755
 msgid "You refuse to use ranged weapons."
 msgstr ""
 
-#: src/handle_action.cpp:1744
+#: src/handle_action.cpp:1759
 msgid "You refuse to use firearms."
 msgstr ""
 
-#: src/handle_action.cpp:1769
+#: src/handle_action.cpp:1784
 msgid "Draw what?"
 msgstr "Витягнути що?"
 
-#: src/handle_action.cpp:1784
+#: src/handle_action.cpp:1799
 msgid "Change to which movement mode?"
 msgstr ""
 
-#: src/handle_action.cpp:1795
+#: src/handle_action.cpp:1810
 msgid "Cycle move mode"
 msgstr ""
 
-#: src/handle_action.cpp:1819
+#: src/handle_action.cpp:1834
 msgid "You don't know any spells to cast."
 msgstr ""
 
-#: src/handle_action.cpp:1835
+#: src/handle_action.cpp:1850
 msgid "You can't cast any of the spells you know!"
 msgstr ""
 
-#: src/handle_action.cpp:1839
+#: src/handle_action.cpp:1854
 msgid "You can't channel any of the powers you know!"
 msgstr ""
 
-#: src/handle_action.cpp:1842
+#: src/handle_action.cpp:1857
 msgid "You can't use any of your powers!"
 msgstr ""
 
-#: src/handle_action.cpp:1861
+#: src/handle_action.cpp:1876
 msgid "You need your hands free to cast this spell!"
 msgstr ""
 
-#: src/handle_action.cpp:1867
+#: src/handle_action.cpp:1882
 #, c-format
 msgid "You don't have enough %s to cast the spell."
 msgstr ""
 
-#: src/handle_action.cpp:1875
+#: src/handle_action.cpp:1890
 msgid "You can't focus enough to cast spell."
 msgstr ""
 
-#: src/handle_action.cpp:1881
+#: src/handle_action.cpp:1896
 msgid "You cannot cast Blood Magic without a cutting implement."
 msgstr ""
 
-#: src/handle_action.cpp:1936
+#: src/handle_action.cpp:1951
 msgid "What do you want to consume?"
 msgstr ""
 
-#: src/handle_action.cpp:1940
+#: src/handle_action.cpp:1955
 msgid "Medication"
 msgstr ""
 
-#: src/handle_action.cpp:1966
+#: src/handle_action.cpp:1981
 #, c-format
 msgid "Debug Mode (%1$s)"
 msgstr ""
 
-#: src/handle_action.cpp:1999
+#: src/handle_action.cpp:2014
 msgid "Debug Mode Filters"
 msgstr ""
 
-#: src/handle_action.cpp:2000
+#: src/handle_action.cpp:2015
 #, c-format
 msgid "Press [%1$s] to quickly toggle debug mode."
 msgstr ""
 
-#: src/handle_action.cpp:2008
+#: src/handle_action.cpp:2023
 msgid "Toggle all filters"
 msgstr ""
 
-#: src/handle_action.cpp:2043
+#: src/handle_action.cpp:2058
 msgid "Debug mode ON!"
 msgstr ""
 
-#: src/handle_action.cpp:2045
+#: src/handle_action.cpp:2060
 msgid "Debug mode OFF!"
 msgstr ""
 
-#: src/handle_action.cpp:2150
+#: src/handle_action.cpp:2165
 msgid "You can't open things while you're in your shell."
 msgstr ""
 
-#: src/handle_action.cpp:2151
+#: src/handle_action.cpp:2166
 msgid "You can't close things while you're in your shell."
 msgstr ""
 
-#: src/handle_action.cpp:2152
+#: src/handle_action.cpp:2167
 msgid "You can't smash things while you're in your shell."
 msgstr ""
 
-#: src/handle_action.cpp:2153 src/handle_action.cpp:2154
+#: src/handle_action.cpp:2168 src/handle_action.cpp:2169
 msgid "You can't examine your surroundings while you're in your shell."
 msgstr ""
 
-#: src/handle_action.cpp:2155
+#: src/handle_action.cpp:2170
 msgid "You can't move mass quantities while you're in your shell."
 msgstr ""
 
-#: src/handle_action.cpp:2156 src/handle_action.cpp:2157
+#: src/handle_action.cpp:2171 src/handle_action.cpp:2172
 msgid "You can't pick anything up while you're in your shell."
 msgstr ""
 
-#: src/handle_action.cpp:2158
+#: src/handle_action.cpp:2173
 msgid "You can't grab things while you're in your shell."
 msgstr ""
 
-#: src/handle_action.cpp:2159 src/handle_action.cpp:2160
+#: src/handle_action.cpp:2174 src/handle_action.cpp:2175
 msgid "You can't haul things while you're in your shell."
 msgstr ""
 
-#: src/handle_action.cpp:2161
+#: src/handle_action.cpp:2176
 msgid "You can't butcher while you're in your shell."
 msgstr ""
 
-#: src/handle_action.cpp:2162
+#: src/handle_action.cpp:2177
 msgid "You can't peek around corners while you're in your shell."
 msgstr ""
 
-#: src/handle_action.cpp:2163
+#: src/handle_action.cpp:2178
 msgid "You can't drop things while you're in your shell."
 msgstr ""
 
-#: src/handle_action.cpp:2164 src/handle_action.cpp:2165
-#: src/handle_action.cpp:2166 src/iexamine.cpp:7265 src/iexamine.cpp:7275
+#: src/handle_action.cpp:2179 src/handle_action.cpp:2180
+#: src/handle_action.cpp:2181 src/iexamine.cpp:7265 src/iexamine.cpp:7275
 #: src/iexamine.cpp:7285
 msgid "You can't craft while you're in your shell."
 msgstr ""
 
-#: src/handle_action.cpp:2167
+#: src/handle_action.cpp:2182
 msgid "You can't disassemble while you're in your shell."
 msgstr ""
 
-#: src/handle_action.cpp:2168
+#: src/handle_action.cpp:2183
 msgid "You can't construct while you're in your shell."
 msgstr ""
 
-#: src/handle_action.cpp:2169
+#: src/handle_action.cpp:2184
 msgid "You can't operate a vehicle while you're in your shell."
 msgstr ""
 
-#: src/handle_action.cpp:2195
+#: src/handle_action.cpp:2210
 msgid "You can't disassemble items while you're riding."
 msgstr "Ви не можете розбирати речі коли скачете верхи."
 
-#: src/handle_action.cpp:2196
+#: src/handle_action.cpp:2211
 msgid "You can't construct while you're riding."
 msgstr ""
 
-#: src/handle_action.cpp:2197
+#: src/handle_action.cpp:2212
 msgid "You can't open things while you're riding."
 msgstr ""
 
-#: src/handle_action.cpp:2198
+#: src/handle_action.cpp:2213
 msgid "You can't move mass quantities while you're riding."
 msgstr ""
 
-#: src/handle_action.cpp:2199 src/handle_action.cpp:2200
+#: src/handle_action.cpp:2214 src/handle_action.cpp:2215
 msgid "You can't pick anything up while you're riding."
 msgstr ""
 
-#: src/handle_action.cpp:2201
+#: src/handle_action.cpp:2216
 msgid "You can't grab things while you're riding."
 msgstr ""
 
-#: src/handle_action.cpp:2202 src/handle_action.cpp:2203
+#: src/handle_action.cpp:2217 src/handle_action.cpp:2218
 msgid "You can't haul things while you're riding."
 msgstr ""
 
-#: src/handle_action.cpp:2204
+#: src/handle_action.cpp:2219
 msgid "You can't butcher while you're riding."
 msgstr ""
 
-#: src/handle_action.cpp:2205
+#: src/handle_action.cpp:2220
 msgid "You can't peek around corners while you're riding."
 msgstr ""
 
-#: src/handle_action.cpp:2206 src/handle_action.cpp:2207
-#: src/handle_action.cpp:2208
+#: src/handle_action.cpp:2221 src/handle_action.cpp:2222
+#: src/handle_action.cpp:2223
 msgid "You can't craft while you're riding."
 msgstr "Ви не можете щось виробляти доки ви скачете верхи."
 
-#: src/handle_action.cpp:2358
+#: src/handle_action.cpp:2373
 msgid "You can't go down stairs while you're riding."
 msgstr ""
 
-#: src/handle_action.cpp:2407
+#: src/handle_action.cpp:2422
 msgid "You can't go up stairs while you're riding."
 msgstr ""
 
-#: src/handle_action.cpp:2429
+#: src/handle_action.cpp:2444
 msgid "You can't close things while you're riding."
 msgstr ""
 
-#: src/handle_action.cpp:2614
+#: src/handle_action.cpp:2629
 #, c-format
 msgid "Your %s has only one firing mode."
 msgstr ""
 
-#: src/handle_action.cpp:2654
+#: src/handle_action.cpp:2669
 msgid "Drop where?"
 msgstr "Покласти куди?"
 
-#: src/handle_action.cpp:2656
+#: src/handle_action.cpp:2671
 msgid "You can't drop things to another tile while you're in your shell."
 msgstr ""
 
-#: src/handle_action.cpp:2691
+#: src/handle_action.cpp:2706
 msgid "You can't disassemble items while driving."
 msgstr "Ви не можете щось виробляти під час кермування."
 
-#: src/handle_action.cpp:2699
+#: src/handle_action.cpp:2714
 msgid "You can't construct while in a vehicle."
 msgstr ""
 
-#: src/handle_action.cpp:2716
+#: src/handle_action.cpp:2731
 msgid "You refuse to take control of this vehicle."
 msgstr ""
 
-#: src/handle_action.cpp:2724
+#: src/handle_action.cpp:2739
 msgid "Auto travel mode OFF!"
 msgstr ""
 
-#: src/handle_action.cpp:2724
+#: src/handle_action.cpp:2739
 msgid "Auto travel mode ON!"
 msgstr ""
 
-#: src/handle_action.cpp:2736
+#: src/handle_action.cpp:2751
 msgid "Safe mode OFF!"
 msgstr ""
 
-#: src/handle_action.cpp:2736
+#: src/handle_action.cpp:2751
 msgid "Safe mode OFF!  (Auto safe mode still enabled!)"
 msgstr ""
 
-#: src/handle_action.cpp:2752
+#: src/handle_action.cpp:2767
 msgid "Ignoring enemy!"
 msgstr ""
 
-#: src/handle_action.cpp:2760
+#: src/handle_action.cpp:2775
 msgid "You make the sign of the cross."
 msgstr ""
 
-#: src/handle_action.cpp:2762
+#: src/handle_action.cpp:2777
 msgid "Ignoring laser targeting!"
 msgstr ""
 
-#: src/handle_action.cpp:2773
+#: src/handle_action.cpp:2788
 #, c-format
 msgid "Creature whitelisted: %s"
 msgstr ""
 
-#: src/handle_action.cpp:2786
+#: src/handle_action.cpp:2801
 msgid "Abandon this character?"
 msgstr ""
 
-#: src/handle_action.cpp:2787
+#: src/handle_action.cpp:2802
 msgid "This will kill your character.  Continue?"
 msgstr ""
 
-#: src/handle_action.cpp:2796
+#: src/handle_action.cpp:2811
 msgid "Save and quit?"
 msgstr "Зберегти та Вийти?"
 
-#: src/handle_action.cpp:2823
+#: src/handle_action.cpp:2838
 msgid "You have no idea where you are."
 msgstr ""
 
-#: src/handle_action.cpp:2831
+#: src/handle_action.cpp:2846
 msgid "You can't see the sky from here."
 msgstr ""
 
 #. ~ Thief mode cycled between THIEF_ASK/THIEF_HONEST/THIEF_STEAL
-#: src/handle_action.cpp:2940
+#: src/handle_action.cpp:2955
 msgid "You will not pick up other peoples belongings."
 msgstr ""
 
 #. ~ Thief mode cycled between THIEF_ASK/THIEF_HONEST/THIEF_STEAL
-#: src/handle_action.cpp:2945
+#: src/handle_action.cpp:2960
 msgid "You will pick up also those things that belong to others!"
 msgstr ""
 
 #. ~ Thief mode cycled between THIEF_ASK/THIEF_HONEST/THIEF_STEAL
-#: src/handle_action.cpp:2950
+#: src/handle_action.cpp:2965
 msgid "You will be reminded not to steal."
 msgstr ""
 
-#: src/handle_action.cpp:2953
+#: src/handle_action.cpp:2968
 #, c-format
 msgid "THIEF_MODE CONTAINED BAD VALUE [ %s ]!"
 msgstr ""
 
-#: src/handle_action.cpp:3068
+#: src/handle_action.cpp:3083
 msgid "Auto-move canceled"
 msgstr ""
 
-#: src/handle_action.cpp:3225
+#: src/handle_action.cpp:3240
 #, c-format
 msgid "Unknown command: \"%s\" (%ld)"
 msgstr "Невідома команда: \"%s\" (%ld)"
 
-#: src/handle_action.cpp:3229
+#: src/handle_action.cpp:3244
 #, c-format
 msgid ""
 "%s at any time to see and edit keybindings relevant to the current context."
@@ -677216,7 +677572,7 @@ msgstr ""
 msgid "You don't have enough clean %s to do that.  Have: %d, need: %d"
 msgstr ""
 
-#: src/iuse_actor.cpp:2959 src/iuse_actor.cpp:5351
+#: src/iuse_actor.cpp:2959 src/iuse_actor.cpp:5356
 msgid "You do not have that item!"
 msgstr ""
 
@@ -677242,7 +677598,7 @@ msgstr ""
 msgid "You damage your %s!  ( %s-> %s)"
 msgstr ""
 
-#: src/iuse_actor.cpp:3115 src/iuse_actor.cpp:5513
+#: src/iuse_actor.cpp:3115 src/iuse_actor.cpp:5518
 msgid "You destroy it!"
 msgstr ""
 
@@ -677302,783 +677658,787 @@ msgstr ""
 msgid "Repair %s"
 msgstr ""
 
-#: src/iuse_actor.cpp:3367
+#: src/iuse_actor.cpp:3333
+msgid "Heal actor is missing any valid healing effect"
+msgstr ""
+
+#: src/iuse_actor.cpp:3372
 msgid "You can't use filthy items for healing."
 msgstr ""
 
-#: src/iuse_actor.cpp:3520
+#: src/iuse_actor.cpp:3525
 msgid "The bleeding is stopped."
 msgstr ""
 
-#: src/iuse_actor.cpp:3520
+#: src/iuse_actor.cpp:3525
 msgid "You stop the bleeding."
 msgstr ""
 
-#: src/iuse_actor.cpp:3522
+#: src/iuse_actor.cpp:3527
 msgid "You reduce the bleeding, but it's not stopped yet."
 msgstr ""
 
-#: src/iuse_actor.cpp:3523
+#: src/iuse_actor.cpp:3528
 msgid "The bleeding is reduced, but not stopped."
 msgstr ""
 
-#: src/iuse_actor.cpp:3527
+#: src/iuse_actor.cpp:3532
 msgid ""
 "Your dressing is too ineffective for a bleeding of this extent, and you fail"
 " to stop it."
 msgstr ""
 
-#: src/iuse_actor.cpp:3528
+#: src/iuse_actor.cpp:3533
 msgid "The wound still bleeds."
 msgstr ""
 
-#: src/iuse_actor.cpp:3535
+#: src/iuse_actor.cpp:3540
 msgid "The wound is cleaned."
 msgstr ""
 
-#: src/iuse_actor.cpp:3535
+#: src/iuse_actor.cpp:3540
 msgid "You clean the wound."
 msgstr ""
 
-#: src/iuse_actor.cpp:3537
+#: src/iuse_actor.cpp:3542
 msgid "The wound still looks bad."
 msgstr ""
 
-#: src/iuse_actor.cpp:3537
+#: src/iuse_actor.cpp:3542
 msgid "Your wound still aches."
 msgstr "Ваша рана все ще болить."
 
-#: src/iuse_actor.cpp:3547
+#: src/iuse_actor.cpp:3552
 msgid "The wound is disinfected."
 msgstr ""
 
-#: src/iuse_actor.cpp:3547
+#: src/iuse_actor.cpp:3552
 msgid "You disinfect the wound."
 msgstr ""
 
-#: src/iuse_actor.cpp:3549
+#: src/iuse_actor.cpp:3554
 msgid "The wound still looks nasty."
 msgstr ""
 
-#: src/iuse_actor.cpp:3549
+#: src/iuse_actor.cpp:3554
 msgid "Your wound still hurts."
 msgstr ""
 
-#: src/iuse_actor.cpp:3555
+#: src/iuse_actor.cpp:3560
 #, c-format
 msgid "You finish using the %s."
 msgstr ""
 
 #. ~ Healing complete message. %1$s is healer name, %2$s is item name.
-#: src/iuse_actor.cpp:3559
+#: src/iuse_actor.cpp:3564
 #, c-format
 msgid "%1$s finishes using the %2$s."
 msgstr ""
 
-#: src/iuse_actor.cpp:3639
+#: src/iuse_actor.cpp:3644
 msgid "You can't use first aid on a bionic limb."
 msgstr ""
 
-#: src/iuse_actor.cpp:3651
+#: src/iuse_actor.cpp:3656
 msgid "That arm is broken.  It needs surgical attention or a splint."
 msgstr ""
 
-#: src/iuse_actor.cpp:3653
+#: src/iuse_actor.cpp:3658
 msgid "That leg is broken.  It needs surgical attention or a splint."
 msgstr ""
 
-#: src/iuse_actor.cpp:3678
+#: src/iuse_actor.cpp:3683
 msgid "<npcname>'s biology is not compatible with that item."
 msgstr ""
 
-#: src/iuse_actor.cpp:3707
+#: src/iuse_actor.cpp:3712
 msgid "Select a body part for: "
 msgstr ""
 
 #. ~ %1$s: patient name, %2$s: healing item name
-#: src/iuse_actor.cpp:3725
+#: src/iuse_actor.cpp:3730
 #, c-format
 msgctxt "healing"
 msgid "Select a body part of %1$s for %2$s:"
 msgstr ""
 
-#: src/iuse_actor.cpp:3739
+#: src/iuse_actor.cpp:3744
 msgid "<bold>Healing effects</bold> "
 msgstr ""
 
-#: src/iuse_actor.cpp:3744
+#: src/iuse_actor.cpp:3749
 msgid "Base healing: "
 msgstr ""
 
-#: src/iuse_actor.cpp:3745 src/iuse_actor.cpp:3750
+#: src/iuse_actor.cpp:3750 src/iuse_actor.cpp:3755
 msgid "Head: "
 msgstr " Голова:"
 
-#: src/iuse_actor.cpp:3746 src/iuse_actor.cpp:3752
+#: src/iuse_actor.cpp:3751 src/iuse_actor.cpp:3757
 msgid "  Torso: "
 msgstr "  Торс:"
 
-#: src/iuse_actor.cpp:3747 src/iuse_actor.cpp:3754
+#: src/iuse_actor.cpp:3752 src/iuse_actor.cpp:3759
 msgid "  Limbs: "
 msgstr ""
 
-#: src/iuse_actor.cpp:3749
+#: src/iuse_actor.cpp:3754
 msgid "Actual healing: "
 msgstr ""
 
-#: src/iuse_actor.cpp:3760
+#: src/iuse_actor.cpp:3765
 msgid "Base bandaging quality: "
 msgstr ""
 
-#: src/iuse_actor.cpp:3763
+#: src/iuse_actor.cpp:3768
 msgid "Actual bandaging quality: "
 msgstr ""
 
-#: src/iuse_actor.cpp:3769
+#: src/iuse_actor.cpp:3774
 msgid "Base disinfecting quality: "
 msgstr ""
 
-#: src/iuse_actor.cpp:3772
+#: src/iuse_actor.cpp:3777
 msgid "Actual disinfecting quality: "
 msgstr ""
 
-#: src/iuse_actor.cpp:3777
+#: src/iuse_actor.cpp:3782
 msgid "Effect on bleeding: "
 msgstr ""
 
-#: src/iuse_actor.cpp:3779
+#: src/iuse_actor.cpp:3784
 msgid "Actual effect on bleeding: "
 msgstr ""
 
-#: src/iuse_actor.cpp:3784
+#: src/iuse_actor.cpp:3789
 msgid "Chance to heal (percent): "
 msgstr ""
 
-#: src/iuse_actor.cpp:3786
+#: src/iuse_actor.cpp:3791
 msgid "* Bite: "
 msgstr ""
 
-#: src/iuse_actor.cpp:3790
+#: src/iuse_actor.cpp:3795
 msgid "* Infection: "
 msgstr ""
 
-#: src/iuse_actor.cpp:3794
+#: src/iuse_actor.cpp:3799
 msgid "Moves to use: "
 msgstr ""
 
-#: src/iuse_actor.cpp:3854
+#: src/iuse_actor.cpp:3859
 #, c-format
 msgid "Yeah.  Place the %s at your feet.  Real damn smart move."
 msgstr ""
 
-#: src/iuse_actor.cpp:3860
+#: src/iuse_actor.cpp:3865
 #, c-format
 msgid "You can't place a %s there."
 msgstr ""
 
-#: src/iuse_actor.cpp:3866
+#: src/iuse_actor.cpp:3871
 #, c-format
 msgid "You must place the %s between two solid tiles."
 msgstr ""
 
-#: src/iuse_actor.cpp:3871
+#: src/iuse_actor.cpp:3876
 #, c-format
 msgid "The %s needs a %s adjacent to it."
 msgstr ""
 
-#: src/iuse_actor.cpp:3880
+#: src/iuse_actor.cpp:3885
 #, c-format
 msgid "You can't place a %s there.  It contains a deployed object already."
 msgstr ""
 
-#: src/iuse_actor.cpp:3881
+#: src/iuse_actor.cpp:3886
 #, c-format
 msgid "You can't place a %s there.  It contains a trap already."
 msgstr ""
 
-#: src/iuse_actor.cpp:3884
+#: src/iuse_actor.cpp:3889
 #, c-format
 msgid "You trigger a %s!"
 msgstr ""
 
-#: src/iuse_actor.cpp:3911
+#: src/iuse_actor.cpp:3916
 #, c-format
 msgid "Place %s where?"
 msgstr ""
 
-#: src/iuse_actor.cpp:3933
+#: src/iuse_actor.cpp:3938
 #, c-format
 msgid ""
 "That trap needs a space in %d tiles radius to be clear, centered %d tiles "
 "from you."
 msgstr ""
 
-#: src/iuse_actor.cpp:4044
+#: src/iuse_actor.cpp:4049
 #, c-format
 msgid "You saw down the barrel of your %s."
 msgstr ""
 
-#: src/iuse_actor.cpp:4054 src/iuse_actor.cpp:4115
+#: src/iuse_actor.cpp:4059 src/iuse_actor.cpp:4120
 msgid "It's not a gun."
 msgstr ""
 
-#: src/iuse_actor.cpp:4058
+#: src/iuse_actor.cpp:4063
 msgid "The barrel is too small."
 msgstr ""
 
-#: src/iuse_actor.cpp:4062
+#: src/iuse_actor.cpp:4067
 msgid "The barrel is already sawn-off."
 msgstr ""
 
-#: src/iuse_actor.cpp:4072
+#: src/iuse_actor.cpp:4077
 msgid "Can't saw off modified barrels."
 msgstr ""
 
-#: src/iuse_actor.cpp:4105
+#: src/iuse_actor.cpp:4110
 #, c-format
 msgid "You saw down the stock of your %s."
 msgstr ""
 
-#: src/iuse_actor.cpp:4119
+#: src/iuse_actor.cpp:4124
 msgid "The stock is already sawn-off."
 msgstr ""
 
-#: src/iuse_actor.cpp:4123
+#: src/iuse_actor.cpp:4128
 msgid "This gun doesn't have a stock."
 msgstr ""
 
-#: src/iuse_actor.cpp:4139
+#: src/iuse_actor.cpp:4144
 msgid ""
 "Can't cut off modern composite stocks (must have an empty stock mount)."
 msgstr ""
 
-#: src/iuse_actor.cpp:4143
+#: src/iuse_actor.cpp:4148
 msgid "Can't cut off modified stocks."
 msgstr ""
 
-#: src/iuse_actor.cpp:4147
+#: src/iuse_actor.cpp:4152
 msgid "Can't cut off accessorized stocks."
 msgstr ""
 
-#: src/iuse_actor.cpp:4181
+#: src/iuse_actor.cpp:4186
 #, c-format
 msgid "You attach %s to your MOLLE webbing."
 msgstr "Ви приєднали предмет (%s) до ваших MOLLE кріплень."
 
-#: src/iuse_actor.cpp:4202
+#: src/iuse_actor.cpp:4207
 msgid "Remove which accessory?"
 msgstr ""
 
-#: src/iuse_actor.cpp:4212
+#: src/iuse_actor.cpp:4217
 #, c-format
 msgid "You remove the item from your %s."
 msgstr ""
 
-#: src/iuse_actor.cpp:4253
+#: src/iuse_actor.cpp:4258
 msgid "You can't install bionics while mounted."
 msgstr ""
 
-#: src/iuse_actor.cpp:4257
+#: src/iuse_actor.cpp:4262
 msgid "You can't self-install this CBM."
 msgstr ""
 
-#: src/iuse_actor.cpp:4259
+#: src/iuse_actor.cpp:4264
 msgid "You can't install a filthy CBM!"
 msgstr ""
 
-#: src/iuse_actor.cpp:4261
+#: src/iuse_actor.cpp:4266
 msgid "This CBM is not sterile, you can't install it."
 msgstr ""
 
-#: src/iuse_actor.cpp:4264
+#: src/iuse_actor.cpp:4269
 msgid "This CBM is already deployed.  You need to reset it to factory state."
 msgstr ""
 
-#: src/iuse_actor.cpp:4267
+#: src/iuse_actor.cpp:4272
 msgid "Max power capacity already reached"
 msgstr ""
 
-#: src/iuse_actor.cpp:4272
+#: src/iuse_actor.cpp:4277
 msgid "You have already installed this bionic."
 msgstr ""
 
-#: src/iuse_actor.cpp:4274
+#: src/iuse_actor.cpp:4279
 msgid "There is nothing to upgrade."
 msgstr ""
 
-#: src/iuse_actor.cpp:4283
+#: src/iuse_actor.cpp:4288
 msgid "You have a superior version installed."
 msgstr ""
 
-#: src/iuse_actor.cpp:4342
+#: src/iuse_actor.cpp:4347
 msgid ""
 "Are you sure?  You may be lacking the skills needed to reattach this "
 "modification."
 msgstr ""
 
-#: src/iuse_actor.cpp:4344
+#: src/iuse_actor.cpp:4349
 msgid "Remove modification?"
 msgstr ""
 
-#: src/iuse_actor.cpp:4361 src/iuse_actor.cpp:4436
+#: src/iuse_actor.cpp:4366 src/iuse_actor.cpp:4441
 msgid "Doesn't appear to be modded."
 msgstr ""
 
-#: src/iuse_actor.cpp:4371
+#: src/iuse_actor.cpp:4376
 msgid "None of the mods can be removed."
 msgstr ""
 
-#: src/iuse_actor.cpp:4376 src/iuse_actor.cpp:4450
+#: src/iuse_actor.cpp:4381 src/iuse_actor.cpp:4455
 msgid "Has to be taken off first."
 msgstr ""
 
-#: src/iuse_actor.cpp:4406
+#: src/iuse_actor.cpp:4411
 msgid "Modify which part"
 msgstr ""
 
-#: src/iuse_actor.cpp:4431
+#: src/iuse_actor.cpp:4436
 msgid "Need to be wielding."
 msgstr ""
 
-#: src/iuse_actor.cpp:4445
+#: src/iuse_actor.cpp:4450
 msgid "None of the mods can be modified."
 msgstr ""
 
-#: src/iuse_actor.cpp:4501
+#: src/iuse_actor.cpp:4506
 msgid "vehicle battery"
 msgstr ""
 
-#: src/iuse_actor.cpp:4505
+#: src/iuse_actor.cpp:4510
 msgid "appliance"
 msgstr ""
 
-#: src/iuse_actor.cpp:4514
+#: src/iuse_actor.cpp:4519
 msgid "solar pack"
 msgstr ""
 
-#: src/iuse_actor.cpp:4517
+#: src/iuse_actor.cpp:4522
 msgid "<bold>Can tow a vehicle</bold>."
 msgstr ""
 
-#: src/iuse_actor.cpp:4522
+#: src/iuse_actor.cpp:4527
 #, c-format
 msgid "<bold>Can be plugged into</bold>: %s."
 msgstr ""
 
-#: src/iuse_actor.cpp:4529
+#: src/iuse_actor.cpp:4534
 #, c-format
 msgid "<bold>Cable length</bold>: %d"
 msgstr ""
 
-#: src/iuse_actor.cpp:4531
+#: src/iuse_actor.cpp:4536
 #, c-format
 msgid " (%d without extensions)"
 msgstr ""
 
 #. ~ Power in Watts. %+4.1f is a 4 digit number with 1 decimal point (ex:
 #. 4737.3 W)
-#: src/iuse_actor.cpp:4537 src/veh_appliance.cpp:240
+#: src/iuse_actor.cpp:4542 src/veh_appliance.cpp:241
 #, c-format
 msgid "%+4.1f W"
 msgstr ""
 
 #. ~ Power in Watts. %+4.1f is a 4 digit number with 1 decimal point (ex:
 #. 4737.3 W)
-#: src/iuse_actor.cpp:4537
+#: src/iuse_actor.cpp:4542
 msgid "<bold>Wattage</bold>: "
 msgstr ""
 
-#: src/iuse_actor.cpp:4545
+#: src/iuse_actor.cpp:4550
 msgid "electrical device cables"
 msgstr ""
 
-#: src/iuse_actor.cpp:4549
+#: src/iuse_actor.cpp:4554
 #, c-format
 msgid "<bold>Can extend</bold>: %s"
 msgstr ""
 
-#: src/iuse_actor.cpp:4581 src/iuse_actor.cpp:4625
+#: src/iuse_actor.cpp:4586 src/iuse_actor.cpp:4630
 #, c-format
 msgid "What to do with the %s?%s"
 msgstr ""
 
-#: src/iuse_actor.cpp:4582 src/iuse_actor.cpp:4626
+#: src/iuse_actor.cpp:4587 src/iuse_actor.cpp:4631
 #, c-format
 msgid ""
 "\n"
 "Attached to: %s"
 msgstr ""
 
-#: src/iuse_actor.cpp:4584
+#: src/iuse_actor.cpp:4589
 msgid "Attach to vehicle controls or appliance"
 msgstr ""
 
-#: src/iuse_actor.cpp:4587
+#: src/iuse_actor.cpp:4592
 msgid "Attach to vehicle battery or appliance"
 msgstr ""
 
-#: src/iuse_actor.cpp:4590
+#: src/iuse_actor.cpp:4595
 msgid "Attach tow cable to towing vehicle"
 msgstr ""
 
-#: src/iuse_actor.cpp:4591
+#: src/iuse_actor.cpp:4596
 msgid "Attach tow cable to towed vehicle"
 msgstr ""
 
-#: src/iuse_actor.cpp:4595
+#: src/iuse_actor.cpp:4600
 msgid "Attach to Cable Charger System CBM"
 msgstr ""
 
-#: src/iuse_actor.cpp:4599
+#: src/iuse_actor.cpp:4604
 msgid "Attach to UPS"
 msgstr ""
 
-#: src/iuse_actor.cpp:4604
+#: src/iuse_actor.cpp:4609
 msgid "Attach to solar pack"
 msgstr ""
 
-#: src/iuse_actor.cpp:4611 src/iuse_actor.cpp:4704
+#: src/iuse_actor.cpp:4616 src/iuse_actor.cpp:4709
 msgid "Extend another cable"
 msgstr ""
 
-#: src/iuse_actor.cpp:4611
+#: src/iuse_actor.cpp:4616
 msgid "Extend with another cable"
 msgstr ""
 
-#: src/iuse_actor.cpp:4612 src/iuse_actor.cpp:4705
+#: src/iuse_actor.cpp:4617 src/iuse_actor.cpp:4710
 msgid "Remove cable extensions"
 msgstr ""
 
-#: src/iuse_actor.cpp:4616 src/iuse_actor.cpp:4634 src/iuse_actor.cpp:4709
+#: src/iuse_actor.cpp:4621 src/iuse_actor.cpp:4639 src/iuse_actor.cpp:4714
 msgid "Re-spool"
 msgstr ""
 
-#: src/iuse_actor.cpp:4619 src/iuse_actor.cpp:4637 src/iuse_actor.cpp:4712
+#: src/iuse_actor.cpp:4624 src/iuse_actor.cpp:4642 src/iuse_actor.cpp:4717
 msgid "Detach"
 msgstr ""
 
-#: src/iuse_actor.cpp:4619 src/iuse_actor.cpp:4637 src/iuse_actor.cpp:4712
+#: src/iuse_actor.cpp:4624 src/iuse_actor.cpp:4642 src/iuse_actor.cpp:4717
 msgid "Detach and re-spool"
 msgstr ""
 
-#: src/iuse_actor.cpp:4629
+#: src/iuse_actor.cpp:4634
 msgid "Attach loose end to towing vehicle"
 msgstr ""
 
-#: src/iuse_actor.cpp:4631
+#: src/iuse_actor.cpp:4636
 msgid "Attach loose end to towed vehicle"
 msgstr ""
 
-#: src/iuse_actor.cpp:4646
+#: src/iuse_actor.cpp:4651
 msgid ""
 "\n"
 "Attached to "
 msgstr ""
 
-#: src/iuse_actor.cpp:4652
+#: src/iuse_actor.cpp:4657
 msgid "Unified Power Supply"
 msgstr ""
 
-#: src/iuse_actor.cpp:4654
+#: src/iuse_actor.cpp:4659
 msgid "solar backpack"
 msgstr ""
 
-#: src/iuse_actor.cpp:4658
+#: src/iuse_actor.cpp:4663
 msgid ""
 "\n"
 "Connecting Cable Charger System to "
 msgstr ""
 
-#: src/iuse_actor.cpp:4660
+#: src/iuse_actor.cpp:4665
 msgid ""
 "\n"
 "Connecting UPS to "
 msgstr ""
 
-#: src/iuse_actor.cpp:4662
+#: src/iuse_actor.cpp:4667
 msgid ""
 "\n"
 "Connecting solar backpack to "
 msgstr ""
 
-#: src/iuse_actor.cpp:4670
+#: src/iuse_actor.cpp:4675
 #, c-format
 msgid "What to do with the %s?%s%s"
 msgstr ""
 
-#: src/iuse_actor.cpp:4678
+#: src/iuse_actor.cpp:4683
 msgid "Attach loose end to vehicle controls or appliance"
 msgstr ""
 
-#: src/iuse_actor.cpp:4683
+#: src/iuse_actor.cpp:4688
 msgid "Attach loose end to vehicle battery or appliance"
 msgstr ""
 
-#: src/iuse_actor.cpp:4687
+#: src/iuse_actor.cpp:4692
 msgid "Attach loose end to Cable Charger System CBM"
 msgstr ""
 
-#: src/iuse_actor.cpp:4691
+#: src/iuse_actor.cpp:4696
 msgid "Attach loose end to UPS"
 msgstr ""
 
-#: src/iuse_actor.cpp:4698
+#: src/iuse_actor.cpp:4703
 msgid "Attach loose end to solar pack"
 msgstr ""
 
-#: src/iuse_actor.cpp:4748
+#: src/iuse_actor.cpp:4753
 #, c-format
 msgid "You detach the %s."
 msgstr ""
 
-#: src/iuse_actor.cpp:4749
+#: src/iuse_actor.cpp:4754
 #, c-format
 msgid "You gather the %s up with it."
 msgstr ""
 
-#: src/iuse_actor.cpp:4777
+#: src/iuse_actor.cpp:4782
 msgid "You attach the cable to your Cable Charger System."
 msgstr ""
 
-#: src/iuse_actor.cpp:4780 src/iuse_actor.cpp:4816
+#: src/iuse_actor.cpp:4785 src/iuse_actor.cpp:4821
 msgid "You are now plugged into the UPS."
 msgstr ""
 
-#: src/iuse_actor.cpp:4783
+#: src/iuse_actor.cpp:4788
 msgid "You are now plugged into the solar backpack."
 msgstr ""
 
-#: src/iuse_actor.cpp:4787
+#: src/iuse_actor.cpp:4792
 msgid "You are now plugged into the vehicle."
 msgstr ""
 
-#: src/iuse_actor.cpp:4799
+#: src/iuse_actor.cpp:4804
 msgid "Choose UPS:"
 msgstr "Оберіть УДЖ:"
 
-#: src/iuse_actor.cpp:4800
+#: src/iuse_actor.cpp:4805
 msgid "You need an active UPS."
 msgstr ""
 
-#: src/iuse_actor.cpp:4814
+#: src/iuse_actor.cpp:4819
 msgid "You attach the cable to the UPS."
 msgstr ""
 
-#: src/iuse_actor.cpp:4818
+#: src/iuse_actor.cpp:4823
 msgid "You link up the UPS and the solar backpack."
 msgstr ""
 
-#: src/iuse_actor.cpp:4821
+#: src/iuse_actor.cpp:4826
 msgid "You link up the UPS and the vehicle."
 msgstr ""
 
-#: src/iuse_actor.cpp:4835
+#: src/iuse_actor.cpp:4840
 msgid "Choose solar pack:"
 msgstr ""
 
-#: src/iuse_actor.cpp:4836
+#: src/iuse_actor.cpp:4841
 msgid "You need an unfolded solar pack."
 msgstr ""
 
-#: src/iuse_actor.cpp:4850
+#: src/iuse_actor.cpp:4855
 msgid "You attach the cable to the solar pack."
 msgstr ""
 
-#: src/iuse_actor.cpp:4852
+#: src/iuse_actor.cpp:4857
 msgid "You are now plugged into the solar pack."
 msgstr ""
 
-#: src/iuse_actor.cpp:4854
+#: src/iuse_actor.cpp:4859
 msgid "You link up the solar pack and the UPS."
 msgstr ""
 
-#: src/iuse_actor.cpp:4857
+#: src/iuse_actor.cpp:4862
 msgid "You link up the solar pack and the vehicle."
 msgstr ""
 
-#: src/iuse_actor.cpp:4880
+#: src/iuse_actor.cpp:4885
 msgid "Attach the cable where?"
 msgstr ""
 
-#: src/iuse_actor.cpp:4898
+#: src/iuse_actor.cpp:4903
 msgid "You can't attach it there - try the dashboard or electronics controls."
 msgstr ""
 
-#: src/iuse_actor.cpp:4901
+#: src/iuse_actor.cpp:4906
 msgid "You can't attach it there - try the battery."
 msgstr ""
 
-#: src/iuse_actor.cpp:4903
+#: src/iuse_actor.cpp:4908
 msgid "You can't attach it there."
 msgstr ""
 
-#: src/iuse_actor.cpp:4926
+#: src/iuse_actor.cpp:4931
 #, c-format
 msgid "You are now plugged into the %s."
 msgstr ""
 
-#: src/iuse_actor.cpp:4929 src/iuse_actor.cpp:5011
+#: src/iuse_actor.cpp:4934 src/iuse_actor.cpp:5016
 #, c-format
 msgid "You connect the %1$s to the %2$s."
 msgstr ""
 
-#: src/iuse_actor.cpp:4947
+#: src/iuse_actor.cpp:4952
 msgid "You merge the two power grids."
 msgstr ""
 
-#: src/iuse_actor.cpp:4982
+#: src/iuse_actor.cpp:4987
 msgid "Attach cable to the vehicle that will do the towing."
 msgstr ""
 
-#: src/iuse_actor.cpp:4983
+#: src/iuse_actor.cpp:4988
 msgid "Attach cable to the vehicle that will be towed."
 msgstr ""
 
-#: src/iuse_actor.cpp:5055
+#: src/iuse_actor.cpp:5060
 msgid "Extend which cable?"
 msgstr ""
 
-#: src/iuse_actor.cpp:5056 src/iuse_actor.cpp:5068
+#: src/iuse_actor.cpp:5061 src/iuse_actor.cpp:5073
 msgid "You don't have a compatible cable."
 msgstr ""
 
-#: src/iuse_actor.cpp:5067
+#: src/iuse_actor.cpp:5072
 msgid "Extend with which cable?"
 msgstr ""
 
-#: src/iuse_actor.cpp:5121
+#: src/iuse_actor.cpp:5126
 #, c-format
 msgid "The %1$s can't contain the %2$s with the %3$s attached.  Continue?"
 msgstr ""
 
-#: src/iuse_actor.cpp:5132
+#: src/iuse_actor.cpp:5137
 #, c-format
 msgid "You extend the %1$s with the %2$s."
 msgstr ""
 
-#: src/iuse_actor.cpp:5168
+#: src/iuse_actor.cpp:5173
 #, c-format
 msgid "You disconnect the %1$s from the %2$s."
 msgstr ""
 
-#: src/iuse_actor.cpp:5211
+#: src/iuse_actor.cpp:5216
 #, c-format
 msgid "Put up the %s where (%dx%d clear area)?"
 msgstr ""
 
-#: src/iuse_actor.cpp:5226 src/iuse_actor.cpp:5230
+#: src/iuse_actor.cpp:5231 src/iuse_actor.cpp:5235
 #, c-format
 msgid "The %s is in the way."
 msgstr ""
 
-#: src/iuse_actor.cpp:5234
+#: src/iuse_actor.cpp:5239
 #, c-format
 msgid "The %s in that direction isn't suitable for placing the %s."
 msgstr ""
 
-#: src/iuse_actor.cpp:5239
+#: src/iuse_actor.cpp:5244
 #, c-format
 msgid "There is already furniture (%s) there."
 msgstr ""
 
-#: src/iuse_actor.cpp:5279
+#: src/iuse_actor.cpp:5284
 msgid "Use this item to weigh yourself.  Includes everything you are wearing."
 msgstr ""
 
-#: src/iuse_actor.cpp:5285
+#: src/iuse_actor.cpp:5290
 msgid "You cannot weigh yourself while mounted."
 msgstr ""
 
-#: src/iuse_actor.cpp:5291
+#: src/iuse_actor.cpp:5296
 #, c-format
 msgid "ERROR: Max weight of %.0f %s exceeded"
 msgstr ""
 
-#: src/iuse_actor.cpp:5339
+#: src/iuse_actor.cpp:5344
 msgid "You can't see to sew!"
 msgstr ""
 
-#: src/iuse_actor.cpp:5349
+#: src/iuse_actor.cpp:5354
 msgid "Enhance which clothing?"
 msgstr ""
 
-#: src/iuse_actor.cpp:5357
+#: src/iuse_actor.cpp:5362
 msgid "This can be used to repair or modify other items, not itself."
 msgstr ""
 
-#: src/iuse_actor.cpp:5402
+#: src/iuse_actor.cpp:5407
 msgid "How do you want to modify it?"
 msgstr ""
 
 #. ~ %1$s: modification desc, %2$s: mod name
-#: src/iuse_actor.cpp:5417
+#: src/iuse_actor.cpp:5422
 #, c-format
 msgid "Can't %1$s (incompatible with %2$s)"
 msgstr ""
 
 #. ~ %1$s: modification desc, %2$d: number of thread needed
-#: src/iuse_actor.cpp:5422
+#: src/iuse_actor.cpp:5427
 #, c-format
 msgid "Can't %1$s (need %2$d thread loaded)"
 msgstr ""
 
 #. ~ %1$s: modification desc, %2$d: number of items needed, %3$s: items needed
-#: src/iuse_actor.cpp:5426
+#: src/iuse_actor.cpp:5431
 #, c-format
 msgid "Can't %1$s (need %2$d %3$s)"
 msgstr ""
 
 #. ~ %1$s: modification desc, %2$d: number of items needed, %3$s: items
 #. needed, %4$s: number of thread needed
-#: src/iuse_actor.cpp:5433
+#: src/iuse_actor.cpp:5438
 #, c-format
 msgid "%1$s (%2$d %3$s and %4$d thread)"
 msgstr ""
 
-#: src/iuse_actor.cpp:5445
+#: src/iuse_actor.cpp:5450
 msgid "Bash"
 msgstr ""
 
-#: src/iuse_actor.cpp:5448
+#: src/iuse_actor.cpp:5453
 msgid "Cut"
 msgstr ""
 
-#: src/iuse_actor.cpp:5451
+#: src/iuse_actor.cpp:5456
 msgid "Ballistic"
 msgstr ""
 
-#: src/iuse_actor.cpp:5456
+#: src/iuse_actor.cpp:5461
 msgid "Acid"
 msgstr ""
 
-#: src/iuse_actor.cpp:5459
+#: src/iuse_actor.cpp:5464
 msgid "Fire"
 msgstr "Вогонь"
 
-#: src/iuse_actor.cpp:5483
+#: src/iuse_actor.cpp:5488
 msgid "Are you sure?  You will not gain any materials back."
 msgstr ""
 
-#: src/iuse_actor.cpp:5510
+#: src/iuse_actor.cpp:5515
 #, c-format
 msgid "You damage your %s trying to modify it!  ( %s-> %s)"
 msgstr ""
 
-#: src/iuse_actor.cpp:5521
+#: src/iuse_actor.cpp:5526
 msgid "You fail to modify the clothing, and you waste thread and materials."
 msgstr ""
 
-#: src/iuse_actor.cpp:5525
+#: src/iuse_actor.cpp:5530
 #, c-format
 msgid "You modify your %s, but waste a lot of thread."
 msgstr ""
 
-#: src/iuse_actor.cpp:5535
+#: src/iuse_actor.cpp:5540
 #, c-format
 msgid "You modify your %s!"
 msgstr ""
 
-#: src/iuse_actor.cpp:5576
+#: src/iuse_actor.cpp:5581
 #, c-format
 msgid "You use the %s to mask your scent"
 msgstr ""
@@ -691715,7 +692075,7 @@ msgstr ""
 msgid "covers <color_cyan>body part</color>"
 msgstr ""
 
-#: src/output.cpp:1041 src/player_hardcoded_effects.cpp:1664
+#: src/output.cpp:1041 src/player_hardcoded_effects.cpp:1665
 msgid "hand"
 msgstr "долоня"
 
@@ -691801,19 +692161,19 @@ msgstr ""
 msgid "Note preview"
 msgstr ""
 
-#: src/overmap_ui.cpp:399 src/overmap_ui.cpp:1305 src/overmap_ui.cpp:2013
+#: src/overmap_ui.cpp:399 src/overmap_ui.cpp:1305 src/overmap_ui.cpp:2026
 msgid "Really delete note?"
 msgstr ""
 
-#: src/overmap_ui.cpp:414 src/overmap_ui.cpp:2019
+#: src/overmap_ui.cpp:414 src/overmap_ui.cpp:2032
 msgid "Remove dangerous mark?"
 msgstr ""
 
-#: src/overmap_ui.cpp:421 src/overmap_ui.cpp:2024
+#: src/overmap_ui.cpp:421 src/overmap_ui.cpp:2037
 msgid "Create a danger note."
 msgstr ""
 
-#: src/overmap_ui.cpp:428 src/overmap_ui.cpp:2029
+#: src/overmap_ui.cpp:428 src/overmap_ui.cpp:2042
 #, c-format
 msgid "Danger radius in overmap squares? (0-%d)"
 msgstr ""
@@ -692003,113 +692363,118 @@ msgstr ""
 msgid "Select special to place:"
 msgstr ""
 
-#: src/overmap_ui.cpp:1538
+#: src/overmap_ui.cpp:1541
 msgid "Place overmap terrain:"
 msgstr ""
 
-#: src/overmap_ui.cpp:1542
+#: src/overmap_ui.cpp:1545
 msgid "Place overmap special:"
 msgstr ""
 
-#: src/overmap_ui.cpp:1549
+#: src/overmap_ui.cpp:1552
 #, c-format
 msgid "Rotation: %s %s"
 msgstr ""
 
-#: src/overmap_ui.cpp:1550
+#: src/overmap_ui.cpp:1553
 msgid "(fixed)"
 msgstr ""
 
-#: src/overmap_ui.cpp:1552
+#: src/overmap_ui.cpp:1555
 msgid ""
 "Highlighted regions already have map content generated.  Their overmap id "
 "will change, but not their contents."
 msgstr ""
 
-#: src/overmap_ui.cpp:1555
+#: src/overmap_ui.cpp:1558
 #, c-format
 msgid "[%s] Rotate"
 msgstr ""
 
-#: src/overmap_ui.cpp:1558
+#: src/overmap_ui.cpp:1561
 #, c-format
-msgid "[%s] Apply"
+msgid "[%s] Place"
 msgstr ""
 
-#: src/overmap_ui.cpp:1560
+#: src/overmap_ui.cpp:1563
+#, c-format
+msgid "[%s] Place and close"
+msgstr ""
+
+#: src/overmap_ui.cpp:1565
 msgid "[ESCAPE/Q] Cancel"
 msgstr ""
 
-#: src/overmap_ui.cpp:1607
+#: src/overmap_ui.cpp:1620
 msgid "No overmap special args at this location."
 msgstr ""
 
-#: src/overmap_ui.cpp:1611
+#: src/overmap_ui.cpp:1624
 msgid "Overmap special args at this location have already been set."
 msgstr ""
 
-#: src/overmap_ui.cpp:1616
+#: src/overmap_ui.cpp:1629
 msgid "No overmap special at this location from which to fetch parameters."
 msgstr ""
 
-#: src/overmap_ui.cpp:1627
+#: src/overmap_ui.cpp:1640
 #, c-format
 msgid "Select value for mapgen argument %s: "
 msgstr ""
 
-#: src/overmap_ui.cpp:1649
+#: src/overmap_ui.cpp:1662
 msgid "No hordes there.  Would you like to make a new horde?"
 msgstr ""
 
-#: src/overmap_ui.cpp:1663
+#: src/overmap_ui.cpp:1676
 #, c-format
 msgid "group(type: %s) with %d monsters"
 msgstr ""
 
-#: src/overmap_ui.cpp:1675
+#: src/overmap_ui.cpp:1688
 #, c-format
 msgid "Set horde's interest (in %%)"
 msgstr ""
 
-#: src/overmap_ui.cpp:1676
+#: src/overmap_ui.cpp:1689
 msgid "Set horde's destination"
 msgstr ""
 
-#: src/overmap_ui.cpp:1677
+#: src/overmap_ui.cpp:1690
 msgid "Modify horde's population"
 msgstr ""
 
-#: src/overmap_ui.cpp:1678
+#: src/overmap_ui.cpp:1691
 msgid "Add a new monster to the horde"
 msgstr ""
 
-#: src/overmap_ui.cpp:1679
+#: src/overmap_ui.cpp:1692
 msgid "Set horde behavior"
 msgstr "Встановити поведінку орди"
 
-#: src/overmap_ui.cpp:1680
+#: src/overmap_ui.cpp:1693
 msgid "Set horde's boolean values"
 msgstr ""
 
-#: src/overmap_ui.cpp:1681
+#: src/overmap_ui.cpp:1694
 msgid "Add another horde to this location"
 msgstr "Додати ще одну орду в цю локацію"
 
-#: src/overmap_ui.cpp:1688
+#: src/overmap_ui.cpp:1701
 #, c-format
 msgid "Set interest to what value?  Currently %d"
 msgstr ""
 
-#: src/overmap_ui.cpp:1692
+#: src/overmap_ui.cpp:1705
 msgid "Select a target destination for the horde."
 msgstr ""
 
-#: src/overmap_ui.cpp:1701 src/wish.cpp:764
+#: src/overmap_ui.cpp:1714 src/wish.cpp:764
 #, c-format
 msgid "Set population to what value?  Currently %d"
 msgstr ""
 
-#: src/overmap_ui.cpp:1710
+#: src/overmap_ui.cpp:1723
 #, c-format
 msgid ""
 "Set behavior to which enum value?  Currently %d.  \n"
@@ -692120,82 +692485,82 @@ msgid ""
 "3=nemesis"
 msgstr ""
 
-#: src/overmap_ui.cpp:1718
+#: src/overmap_ui.cpp:1731
 #, c-format
 msgid ""
 "Set group's \"horde\" value to true?  (Select no to set to false)  \n"
 "Currently %s"
 msgstr ""
 
-#: src/overmap_ui.cpp:1719 src/overmap_ui.cpp:1722
+#: src/overmap_ui.cpp:1732 src/overmap_ui.cpp:1735
 msgid "false"
 msgstr ""
 
-#: src/overmap_ui.cpp:1719 src/overmap_ui.cpp:1722
+#: src/overmap_ui.cpp:1732 src/overmap_ui.cpp:1735
 msgid "true"
 msgstr ""
 
-#: src/overmap_ui.cpp:1721
+#: src/overmap_ui.cpp:1734
 #, c-format
 msgid ""
 "Set group's \"dying\" value to true?  (Select no to set to false)  \n"
 "Currently %s"
 msgstr ""
 
-#: src/overmap_ui.cpp:1801
+#: src/overmap_ui.cpp:1814
 msgid ""
 "You are overburdened, are you sure you want to travel (it may be painful)?"
 msgstr ""
 
-#: src/overmap_ui.cpp:1803
+#: src/overmap_ui.cpp:1816
 msgid "You are in a vehicle but not driving.  Are you sure you want to walk?"
 msgstr ""
 
-#: src/overmap_ui.cpp:1806
+#: src/overmap_ui.cpp:1819
 msgid "Drive to this point?"
 msgstr ""
 
-#: src/overmap_ui.cpp:1808
+#: src/overmap_ui.cpp:1821
 msgid "Drive to your destination?"
 msgstr ""
 
-#: src/overmap_ui.cpp:1812
+#: src/overmap_ui.cpp:1825
 msgid "Travel to this point?"
 msgstr ""
 
-#: src/overmap_ui.cpp:1814
+#: src/overmap_ui.cpp:1827
 msgid "Travel to your destination?"
 msgstr ""
 
-#: src/overmap_ui.cpp:2516
+#: src/overmap_ui.cpp:2529
 msgid "<color_red>* Random city *</color>"
 msgstr ""
 
-#: src/overmap_ui.cpp:2517
+#: src/overmap_ui.cpp:2530
 msgid "Location: <color_white>(?,?)</color>:<color_white>(?,?)</color>"
 msgstr ""
 
 #. ~ "pop" refers to population count
-#: src/overmap_ui.cpp:2519
+#: src/overmap_ui.cpp:2532
 msgid "(pop <color_white>?</color>)"
 msgstr ""
 
-#: src/overmap_ui.cpp:2523
+#: src/overmap_ui.cpp:2536
 msgid "Select a starting city"
 msgstr ""
 
-#: src/overmap_ui.cpp:2525
+#: src/overmap_ui.cpp:2538
 #, c-format
 msgid "%s (size: %d)"
 msgstr ""
 
-#: src/overmap_ui.cpp:2527
+#: src/overmap_ui.cpp:2540
 #, c-format
 msgid "Location: <color_white>%s</color>:<color_white>%s</color>"
 msgstr ""
 
 #. ~ "pop" refers to population count
-#: src/overmap_ui.cpp:2530
+#: src/overmap_ui.cpp:2543
 #, c-format
 msgid "(pop <color_white>%s</color>)"
 msgstr ""
@@ -692739,747 +693104,747 @@ msgstr ""
 msgid "Scroll information box down"
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:156
+#: src/player_hardcoded_effects.cpp:157
 msgid "Something burns you from the inside."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:157
+#: src/player_hardcoded_effects.cpp:158
 msgid "<npcname> shivers from pain."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:209
+#: src/player_hardcoded_effects.cpp:210
 msgid "You feel nauseous."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:212
+#: src/player_hardcoded_effects.cpp:213
 msgid "You smell and taste mushrooms."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:218
+#: src/player_hardcoded_effects.cpp:219
 msgid "You spasm suddenly!"
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:223
+#: src/player_hardcoded_effects.cpp:224
 msgid "You vomit a thick, gray goop."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:224
+#: src/player_hardcoded_effects.cpp:225
 msgid "<npcname> vomits a thick, gray goop."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:238
+#: src/player_hardcoded_effects.cpp:239
 msgid "You vomit thousands of live spores!"
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:239
+#: src/player_hardcoded_effects.cpp:240
 msgid "<npcname> vomits thousands of live spores!"
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:263
+#: src/player_hardcoded_effects.cpp:264
 msgid "The flesh on your broken arms bulges.  Fungus stalks burst through!"
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:264
+#: src/player_hardcoded_effects.cpp:265
 msgid "<npcname>'s broken arms bulge.  Fungus stalks burst out of the bulges!"
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:267
+#: src/player_hardcoded_effects.cpp:268
 msgid ""
 "The flesh on your broken and unbroken arms bulge.  Fungus stalks burst "
 "through!"
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:268
+#: src/player_hardcoded_effects.cpp:269
 msgid "<npcname>'s arms bulge.  Fungus stalks burst out of the bulges!"
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:271
+#: src/player_hardcoded_effects.cpp:272
 msgid "Your hands bulge.  Fungus stalks burst through the bulge!"
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:272
+#: src/player_hardcoded_effects.cpp:273
 msgid "<npcname>'s hands bulge.  Fungus stalks burst through the bulge!"
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:279
+#: src/player_hardcoded_effects.cpp:280
 msgid "Your chest bulges, and fungal stalks burst out of your skin!"
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:280
+#: src/player_hardcoded_effects.cpp:281
 msgid "<npcname>'s chest bulges.  Fungus stalks burst out of their skin!"
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:305
+#: src/player_hardcoded_effects.cpp:306
 msgid "You feel nauseous!"
 msgstr "У вас нудота!"
 
-#: src/player_hardcoded_effects.cpp:340
+#: src/player_hardcoded_effects.cpp:341
 msgctxt "bleed_message"
 msgid "Acid"
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:340
+#: src/player_hardcoded_effects.cpp:341
 msgctxt "bleed_message"
 msgid "Blood"
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:344
+#: src/player_hardcoded_effects.cpp:345
 #, c-format
 msgid "%1s drips from your %2s."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:345
+#: src/player_hardcoded_effects.cpp:346
 #, c-format
 msgid "%1s leaks from your %2s."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:346
+#: src/player_hardcoded_effects.cpp:347
 #, c-format
 msgid "%1s flows from your %2s."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:347
+#: src/player_hardcoded_effects.cpp:348
 #, c-format
 msgid "%1s pours from your %2s!"
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:348
+#: src/player_hardcoded_effects.cpp:349
 #, c-format
 msgid "%1s gushes from your %2s!"
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:365
+#: src/player_hardcoded_effects.cpp:366
 msgid "You lose some blood."
 msgstr "Ви втрачаєте трохи крові."
 
-#: src/player_hardcoded_effects.cpp:369
+#: src/player_hardcoded_effects.cpp:370
 msgid "<npcname> loses some blood."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:375
+#: src/player_hardcoded_effects.cpp:376
 msgid ""
 "You could reduce the bleeding by emptying your hands and pausing to apply "
 "pressure."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:378
+#: src/player_hardcoded_effects.cpp:379
 msgid "You could reduce the bleeding by pausing to apply pressure."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:398
+#: src/player_hardcoded_effects.cpp:399
 msgid "You feel a little strange."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:402
+#: src/player_hardcoded_effects.cpp:403
 msgid "The world takes on a dreamlike quality."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:404
+#: src/player_hardcoded_effects.cpp:405
 msgid "You have a sudden nostalgic feeling."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:406
+#: src/player_hardcoded_effects.cpp:407
 msgid "Everything around you is starting to breathe."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:408
+#: src/player_hardcoded_effects.cpp:409
 msgid "Something feels very, very wrong."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:412
+#: src/player_hardcoded_effects.cpp:413
 msgid "You feel sick to your stomach."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:420
+#: src/player_hardcoded_effects.cpp:421
 msgid "\"I think it's starting to kick in.\""
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:421
+#: src/player_hardcoded_effects.cpp:422
 msgid "\"Oh God, what's happening?\""
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:422
+#: src/player_hardcoded_effects.cpp:423
 msgid "\"Of course… it's all fractals!\""
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:423
+#: src/player_hardcoded_effects.cpp:424
 msgid "\"Huh?  What was that?\""
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:439
+#: src/player_hardcoded_effects.cpp:440
 msgid "Fractal patterns dance across your vision."
 msgstr "Фрактальні візерунки танцюють у вас перед очима."
 
-#: src/player_hardcoded_effects.cpp:446
+#: src/player_hardcoded_effects.cpp:447
 msgid "Dancing fractals distract you."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:453
+#: src/player_hardcoded_effects.cpp:454
 msgid "Everything looks SO boring now."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:455
+#: src/player_hardcoded_effects.cpp:456
 msgid "Things are returning to normal."
 msgstr "Речі повертаються до нормального стану."
 
-#: src/player_hardcoded_effects.cpp:499
+#: src/player_hardcoded_effects.cpp:500
 msgid "Your thoughts are unclear."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:501
+#: src/player_hardcoded_effects.cpp:502
 msgid "Your face is stiff from the cold."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:503
+#: src/player_hardcoded_effects.cpp:504
 msgid "You quiver from the cold."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:503
+#: src/player_hardcoded_effects.cpp:504
 msgid "Your torso is freezing cold.  You should put on a few more layers."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:504
+#: src/player_hardcoded_effects.cpp:505
 msgid "Your shivering makes you unsteady."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:505 src/player_hardcoded_effects.cpp:506
+#: src/player_hardcoded_effects.cpp:506 src/player_hardcoded_effects.cpp:507
 msgid "Your left arm is shivering."
 msgstr "Ваша ліва рука тремтить."
 
-#: src/player_hardcoded_effects.cpp:505 src/player_hardcoded_effects.cpp:506
+#: src/player_hardcoded_effects.cpp:506 src/player_hardcoded_effects.cpp:507
 msgid "Your left arm trembles from the cold."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:507 src/player_hardcoded_effects.cpp:508
+#: src/player_hardcoded_effects.cpp:508 src/player_hardcoded_effects.cpp:509
 msgid "Your right arm is shivering."
 msgstr "Ваша права рука тремтить."
 
-#: src/player_hardcoded_effects.cpp:507 src/player_hardcoded_effects.cpp:508
+#: src/player_hardcoded_effects.cpp:508 src/player_hardcoded_effects.cpp:509
 msgid "Your right arm trembles from the cold."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:509 src/player_hardcoded_effects.cpp:510
+#: src/player_hardcoded_effects.cpp:510 src/player_hardcoded_effects.cpp:511
 msgid "Your left hand feels like ice."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:509 src/player_hardcoded_effects.cpp:510
+#: src/player_hardcoded_effects.cpp:510 src/player_hardcoded_effects.cpp:511
 msgid "Your left hand quivers in the cold."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:511 src/player_hardcoded_effects.cpp:512
+#: src/player_hardcoded_effects.cpp:512 src/player_hardcoded_effects.cpp:513
 msgid "Your right hand feels like ice."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:511 src/player_hardcoded_effects.cpp:512
+#: src/player_hardcoded_effects.cpp:512 src/player_hardcoded_effects.cpp:513
 msgid "Your right hand quivers in the cold."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:513 src/player_hardcoded_effects.cpp:514
+#: src/player_hardcoded_effects.cpp:514 src/player_hardcoded_effects.cpp:515
 msgid "Your left leg trembles against the relentless cold."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:513 src/player_hardcoded_effects.cpp:514
-#: src/player_hardcoded_effects.cpp:515 src/player_hardcoded_effects.cpp:516
+#: src/player_hardcoded_effects.cpp:514 src/player_hardcoded_effects.cpp:515
+#: src/player_hardcoded_effects.cpp:516 src/player_hardcoded_effects.cpp:517
 msgid "Your legs uncontrollably shake from the cold."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:515 src/player_hardcoded_effects.cpp:516
+#: src/player_hardcoded_effects.cpp:516 src/player_hardcoded_effects.cpp:517
 msgid "Your right leg trembles against the relentless cold."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:517 src/player_hardcoded_effects.cpp:518
+#: src/player_hardcoded_effects.cpp:518 src/player_hardcoded_effects.cpp:519
 msgid "Your left foot feels frigid."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:517
+#: src/player_hardcoded_effects.cpp:518
 msgid "Your left foot is as nimble as a block of ice."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:518
+#: src/player_hardcoded_effects.cpp:519
 msgid "Your freezing left foot messes up your balance."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:519 src/player_hardcoded_effects.cpp:520
+#: src/player_hardcoded_effects.cpp:520 src/player_hardcoded_effects.cpp:521
 msgid "Your right foot feels frigid."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:519
+#: src/player_hardcoded_effects.cpp:520
 msgid "Your right foot is as nimble as a block of ice."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:520
+#: src/player_hardcoded_effects.cpp:521
 msgid "Your freezing right foot messes up your balance."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:533
+#: src/player_hardcoded_effects.cpp:534
 msgid "Your head is pounding from the heat."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:535
+#: src/player_hardcoded_effects.cpp:536
 msgid "You are sweating profusely."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:537 src/player_hardcoded_effects.cpp:538
+#: src/player_hardcoded_effects.cpp:538 src/player_hardcoded_effects.cpp:539
 msgid "Your left hand's too sweaty to grip well."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:539 src/player_hardcoded_effects.cpp:540
+#: src/player_hardcoded_effects.cpp:540 src/player_hardcoded_effects.cpp:541
 msgid "Your right hand's too sweaty to grip well."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:541
+#: src/player_hardcoded_effects.cpp:542
 msgid "Your left leg is cramping up."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:543
+#: src/player_hardcoded_effects.cpp:544
 msgid "Your right leg is cramping up."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:545
+#: src/player_hardcoded_effects.cpp:546
 msgid "Your left foot is swelling in the heat."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:547
+#: src/player_hardcoded_effects.cpp:548
 msgid "Your right foot is swelling in the heat."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:566
+#: src/player_hardcoded_effects.cpp:567
 msgid "The heat is making you see things."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:575 src/player_hardcoded_effects.cpp:576
+#: src/player_hardcoded_effects.cpp:576 src/player_hardcoded_effects.cpp:577
 msgid "You have trouble grasping with your numb fingers."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:577 src/player_hardcoded_effects.cpp:578
-#: src/player_hardcoded_effects.cpp:579 src/player_hardcoded_effects.cpp:580
+#: src/player_hardcoded_effects.cpp:578 src/player_hardcoded_effects.cpp:579
+#: src/player_hardcoded_effects.cpp:580 src/player_hardcoded_effects.cpp:581
 msgid "Your foot has gone numb."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:581 src/player_hardcoded_effects.cpp:582
+#: src/player_hardcoded_effects.cpp:582 src/player_hardcoded_effects.cpp:583
 msgid "Your face feels numb."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:608
+#: src/player_hardcoded_effects.cpp:609
 msgid "Glowing lights surround you, and you teleport."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:628
+#: src/player_hardcoded_effects.cpp:629
 msgid "You pass out."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:662 src/player_hardcoded_effects.cpp:1316
+#: src/player_hardcoded_effects.cpp:663 src/player_hardcoded_effects.cpp:1317
 msgid "A monster appears nearby!"
 msgstr "Поруч з'явилося чудовисько!"
 
-#: src/player_hardcoded_effects.cpp:663 src/player_hardcoded_effects.cpp:1317
+#: src/player_hardcoded_effects.cpp:664 src/player_hardcoded_effects.cpp:1318
 msgid "A portal opens nearby, and a monster crawls through!"
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:672
+#: src/player_hardcoded_effects.cpp:673
 msgid "You shudder suddenly."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:686
+#: src/player_hardcoded_effects.cpp:687
 msgid "Your vision is filled with bright lights…"
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:702
+#: src/player_hardcoded_effects.cpp:703
 msgid "You're suddenly covered in ectoplasm."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:713
+#: src/player_hardcoded_effects.cpp:714
 msgid "We have many colonists awaiting passage."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:742
+#: src/player_hardcoded_effects.cpp:743
 msgid ""
 "You're experiencing loss of basic motor skills and blurred vision.  Your "
 "mind recoils in horror, unable to communicate with your spinal column."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:743
+#: src/player_hardcoded_effects.cpp:744
 msgid "You stagger and fall!"
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:758
+#: src/player_hardcoded_effects.cpp:759
 msgid "There's some kind of big machine in the sky."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:761
+#: src/player_hardcoded_effects.cpp:762
 msgid "It's some kind of electric snake, coming right at you!"
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:768
+#: src/player_hardcoded_effects.cpp:769
 msgid ""
 "Order us some golf shoes, otherwise we'll never get out of this place alive."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:772
+#: src/player_hardcoded_effects.cpp:773
 msgid "The possibility of physical and mental collapse is now very real."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:774
+#: src/player_hardcoded_effects.cpp:775
 msgid "No one should be asked to handle this trip."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:784
+#: src/player_hardcoded_effects.cpp:785
 msgid ""
 "Your heart spasms painfully and stops, dragging you back to reality as you "
 "die."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:787
+#: src/player_hardcoded_effects.cpp:788
 msgid ""
 "You dissolve into beautiful paroxysms of energy.  Life fades from your "
 "nebulae and you are no more."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:809
+#: src/player_hardcoded_effects.cpp:810
 msgid "You bleed to death!"
 msgstr "Ви стікли кров'ю та померли!"
 
-#: src/player_hardcoded_effects.cpp:810
+#: src/player_hardcoded_effects.cpp:811
 msgid "<npcname> bleeds to death!"
 msgstr "<npcname> стік кров'ю і помер!"
 
-#: src/player_hardcoded_effects.cpp:815
+#: src/player_hardcoded_effects.cpp:816
 msgid "Your heart can't keep up the pace and fails!"
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:842
+#: src/player_hardcoded_effects.cpp:843
 msgid "Your skin looks pale and you feel anxious and thirsty.  Blood loss?"
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:844
+#: src/player_hardcoded_effects.cpp:845
 msgid ""
 "Your pale skin is sweating, your heart is beating fast, and you feel "
 "restless.  Maybe you lost too much blood?"
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:846
+#: src/player_hardcoded_effects.cpp:847
 msgid ""
 "You're unsettlingly white, but your fingertips are bluish.  You are agitated"
 " and your heart is racing.  Your blood loss must be serious."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:848
+#: src/player_hardcoded_effects.cpp:849
 msgid ""
 "You are pale as a ghost, dripping wet from the sweat, and sluggish - despite"
 " your heart racing like a train.  You are on the brink of collapse from the "
 "effects of blood loss."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:856
+#: src/player_hardcoded_effects.cpp:857
 msgid "You feel dizzy and lightheaded."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:860
+#: src/player_hardcoded_effects.cpp:861
 msgid "You feel tired and you breathe heavily."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:864
+#: src/player_hardcoded_effects.cpp:865
 msgid "You are anxious and cannot collect your thoughts."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:868
+#: src/player_hardcoded_effects.cpp:869
 msgid "You are sweating profusely, but you feel cold."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:877
+#: src/player_hardcoded_effects.cpp:878
 msgid "You huff and puff.  Your breath is rapid and shallow."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:882
+#: src/player_hardcoded_effects.cpp:883
 msgid "You drop to the ground, fighting to keep yourself conscious."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:886
+#: src/player_hardcoded_effects.cpp:887
 msgid "Your mind slips away."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:917
+#: src/player_hardcoded_effects.cpp:918
 msgid "You cannot breathe and your body gives out!"
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:918
+#: src/player_hardcoded_effects.cpp:919
 msgid "<npcname> gasps for air and dies!"
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:926
+#: src/player_hardcoded_effects.cpp:927
 msgid "Your hands feel unusually cold."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:931
+#: src/player_hardcoded_effects.cpp:932
 msgid "Your feet feel unusually cold."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:936
+#: src/player_hardcoded_effects.cpp:937
 msgid "Your skin looks very pale."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:939
+#: src/player_hardcoded_effects.cpp:940
 msgid "You feel weak.  Where has your strength gone?"
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:942
+#: src/player_hardcoded_effects.cpp:943
 msgid "You feel feeble.  A gust of wind could make you stumble."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:945
+#: src/player_hardcoded_effects.cpp:946
 msgid "There is an overwhelming aura of tiredness inside of you."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:958
+#: src/player_hardcoded_effects.cpp:959
 msgid "Rest is what you want.  Rest is what you need."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:961
+#: src/player_hardcoded_effects.cpp:962
 msgid "You feel dizzy and can't coordinate the movement of your feet."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:965
+#: src/player_hardcoded_effects.cpp:966
 msgid "Your muscles are quivering."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:969
+#: src/player_hardcoded_effects.cpp:970
 msgid "You crave for ice.  The dirt under your feet looks tasty too."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:972
+#: src/player_hardcoded_effects.cpp:973
 msgid "Your whole mouth is sore, and your tongue is swollen."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:975
+#: src/player_hardcoded_effects.cpp:976
 msgid "You feel lightheaded.  A migraine follows."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:988
+#: src/player_hardcoded_effects.cpp:989
 msgid "Your legs are restless.  The urge to move them is so strong."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:991
+#: src/player_hardcoded_effects.cpp:992
 msgid "You feel like you could sleep on a rock."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:995
+#: src/player_hardcoded_effects.cpp:996
 msgid "You gasp for air!"
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:1000
+#: src/player_hardcoded_effects.cpp:1001
 msgid "Can't breathe.  Must rest."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:1005
+#: src/player_hardcoded_effects.cpp:1006
 msgid "You can't take it any more.  Rest first; everything else later."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:1010
+#: src/player_hardcoded_effects.cpp:1011
 msgid "You must sit down for a moment.  Just a moment."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:1051
+#: src/player_hardcoded_effects.cpp:1052
 msgid "You feel well rested."
 msgstr "Ви відчуваєте себе гарно відпочившим."
 
-#: src/player_hardcoded_effects.cpp:1054
+#: src/player_hardcoded_effects.cpp:1055
 msgid ""
 "You feel physically rested, but you haven't been able to catch up on your "
 "missed sleep yet."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:1151 src/player_hardcoded_effects.cpp:1160
-#: src/player_hardcoded_effects.cpp:1167
+#: src/player_hardcoded_effects.cpp:1152 src/player_hardcoded_effects.cpp:1161
+#: src/player_hardcoded_effects.cpp:1168
 msgid "It's too bright to sleep."
 msgstr "Освітлення надто яскраве щоб спати."
 
-#: src/player_hardcoded_effects.cpp:1175
+#: src/player_hardcoded_effects.cpp:1176
 #, c-format
 msgid "You see %s approaching!"
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:1193
+#: src/player_hardcoded_effects.cpp:1194
 msgid "You toss and turn trying to keep warm."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:1197
+#: src/player_hardcoded_effects.cpp:1198
 msgid "It's too cold to sleep."
 msgstr "Занадто холодно щоб спати."
 
-#: src/player_hardcoded_effects.cpp:1205
+#: src/player_hardcoded_effects.cpp:1206
 msgid "You toss and turn in the heat."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:1209
+#: src/player_hardcoded_effects.cpp:1210
 msgid "It's too hot to sleep."
 msgstr ""
 
 #. ~ %s is bodypart in accusative.
-#: src/player_hardcoded_effects.cpp:1276
+#: src/player_hardcoded_effects.cpp:1277
 #, c-format
 msgid "You start scratching your %s!"
 msgstr ""
 
 #. ~ 1$s is NPC name, 2$s is bodypart in accusative.
-#: src/player_hardcoded_effects.cpp:1280
+#: src/player_hardcoded_effects.cpp:1281
 #, c-format
 msgid "%1$s starts scratching their %2$s!"
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:1292
+#: src/player_hardcoded_effects.cpp:1293
 msgid "Why waste your time on that insignificant speck?"
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:1324
+#: src/player_hardcoded_effects.cpp:1325
 msgid "The bees have started escaping your teeth."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:1326
+#: src/player_hardcoded_effects.cpp:1327
 msgid "You feel paranoid.  They're watching you."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:1331
+#: src/player_hardcoded_effects.cpp:1332
 msgid ""
 "You feel like you need less teeth.  You pull one out, and it is rotten to "
 "the core."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:1334
+#: src/player_hardcoded_effects.cpp:1335
 msgid "You notice a large abscess.  You pick at it."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:1340
+#: src/player_hardcoded_effects.cpp:1341
 msgid ""
 "You feel so sick, like you've been poisoned, but you need more.  So much "
 "more."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:1346
+#: src/player_hardcoded_effects.cpp:1347
 msgid "You are beset with a vision of a prowling beast."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:1350
+#: src/player_hardcoded_effects.cpp:1351
 msgid "Your surroundings are permeated with a foul scent."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:1357
+#: src/player_hardcoded_effects.cpp:1358
 msgid "Your asthma attack stops."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:1360
+#: src/player_hardcoded_effects.cpp:1361
 msgid ""
 "Your asthma overcomes you.\n"
 "You asphyxiate."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:1365
+#: src/player_hardcoded_effects.cpp:1366
 msgid "You wheeze and gasp for air."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:1370
+#: src/player_hardcoded_effects.cpp:1371
 msgid "Your head aches faintly."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:1376
+#: src/player_hardcoded_effects.cpp:1377
 msgid "Your vision is getting fuzzy."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:1384
+#: src/player_hardcoded_effects.cpp:1385
 msgid "Your vision goes black!"
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:1390
+#: src/player_hardcoded_effects.cpp:1391
 msgid "Your bowels ache."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:1394
+#: src/player_hardcoded_effects.cpp:1395
 msgid "Your veins itch."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:1398
+#: src/player_hardcoded_effects.cpp:1399
 msgid "Your muscles feel like they're knotted and tired."
 msgstr "Вам здається, що ваші м'язи якби скуті та втомлені."
 
-#: src/player_hardcoded_effects.cpp:1402
+#: src/player_hardcoded_effects.cpp:1403
 msgid "Your muscles are tight and sore."
 msgstr "Ваші м'язи напружені, та болять."
 
-#: src/player_hardcoded_effects.cpp:1406
+#: src/player_hardcoded_effects.cpp:1407
 msgid "Your muscles are locking up and you can't fight effectively."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:1408
+#: src/player_hardcoded_effects.cpp:1409
 msgid "Your muscles spasm."
 msgstr ""
 
 #. ~ %s is bodypart name.
-#: src/player_hardcoded_effects.cpp:1469 src/player_hardcoded_effects.cpp:1521
+#: src/player_hardcoded_effects.cpp:1470 src/player_hardcoded_effects.cpp:1522
 #, c-format
 msgid "Your %s wound begins to feel better!"
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:1532
+#: src/player_hardcoded_effects.cpp:1533
 msgid "You succumb to the infection."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:1557
+#: src/player_hardcoded_effects.cpp:1558
 msgid "You try to sleep, but can't…"
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:1571
+#: src/player_hardcoded_effects.cpp:1572
 msgid "Your internal chronometer went off and you haven't slept a wink."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:1584
+#: src/player_hardcoded_effects.cpp:1585
 msgid "Your internal chronometer finally wakes you up."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:1586
+#: src/player_hardcoded_effects.cpp:1587
 msgid "Your internal chronometer wakes you up."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:1614
+#: src/player_hardcoded_effects.cpp:1615
 msgid "Your alarm is going off."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:1616
+#: src/player_hardcoded_effects.cpp:1617
 msgid "Your alarm went off."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:1646
+#: src/player_hardcoded_effects.cpp:1647
 msgid "You lose control of your body as it begins to convulse!"
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:1654
+#: src/player_hardcoded_effects.cpp:1655
 msgid "You lose consciousness!"
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:1664
+#: src/player_hardcoded_effects.cpp:1665
 msgid "arm"
 msgstr "рука"
 
-#: src/player_hardcoded_effects.cpp:1664
+#: src/player_hardcoded_effects.cpp:1665
 msgid "leg"
 msgstr "нога"
 
-#: src/player_hardcoded_effects.cpp:1667
+#: src/player_hardcoded_effects.cpp:1668
 #, c-format
 msgid "Your %s suddenly jerks in an unexpected direction!"
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:1677
+#: src/player_hardcoded_effects.cpp:1678
 msgid "However, you manage to keep hold of your weapon."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:1684
+#: src/player_hardcoded_effects.cpp:1685
 msgid "However, you manage to keep your footing."
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:1691
+#: src/player_hardcoded_effects.cpp:1692
 msgid "You suddenly lose all muscle tone, and can't support your own weight!"
 msgstr ""
 
-#: src/player_hardcoded_effects.cpp:1702
+#: src/player_hardcoded_effects.cpp:1703
 msgid "You have a splitting headache."
 msgstr ""
 
@@ -696488,85 +696853,85 @@ msgstr "фут"
 msgid "You merge it into the adjacent power grid."
 msgstr ""
 
-#: src/veh_appliance.cpp:228
+#: src/veh_appliance.cpp:229
 msgid "Onboard battery power: "
 msgstr ""
 
 #. ~ Power in killoWatts. %+4.1f is a 4 digit number with 1 decimal point (ex:
 #. 2198.3 kW)
-#: src/veh_appliance.cpp:237
+#: src/veh_appliance.cpp:238
 #, c-format
 msgid "%+4.1f kW"
 msgstr "%+4.1f кВт"
 
-#: src/veh_appliance.cpp:249
+#: src/veh_appliance.cpp:250
 msgid "Appliance has no connection to a battery."
 msgstr ""
 
-#: src/veh_appliance.cpp:258
+#: src/veh_appliance.cpp:259
 msgid "Grid battery power flow: "
 msgstr ""
 
-#: src/veh_appliance.cpp:264
+#: src/veh_appliance.cpp:265
 msgid "Reactor power output: "
 msgstr ""
 
-#: src/veh_appliance.cpp:271
+#: src/veh_appliance.cpp:272
 msgid "Wind power output: "
 msgstr ""
 
-#: src/veh_appliance.cpp:278
+#: src/veh_appliance.cpp:279
 msgid "Solar power output: "
 msgstr ""
 
-#: src/veh_appliance.cpp:285
+#: src/veh_appliance.cpp:286
 msgid "Water power output: "
 msgstr ""
 
-#: src/veh_appliance.cpp:292
+#: src/veh_appliance.cpp:293
 msgid "Alternator power output: "
 msgstr "Генератор видає потужності: "
 
-#: src/veh_appliance.cpp:299
+#: src/veh_appliance.cpp:300
 msgid "Appliance power consumption: "
 msgstr ""
 
 #. ~ Vehicle part name, capacity (current/max L) and name of contents
-#: src/veh_appliance.cpp:349
+#: src/veh_appliance.cpp:350
 #, c-format
 msgid "%1$s (%2$.1f/%3$.1fL %4$s)"
 msgstr ""
 
-#: src/veh_appliance.cpp:374
+#: src/veh_appliance.cpp:375
 msgid "Which part to refill?"
 msgstr ""
 
-#: src/veh_appliance.cpp:428
+#: src/veh_appliance.cpp:429
 msgid "Which part to siphon from?"
 msgstr ""
 
-#: src/veh_appliance.cpp:446
+#: src/veh_appliance.cpp:447
 msgid "Enter new appliance name:"
 msgstr ""
 
-#: src/veh_appliance.cpp:478
+#: src/veh_appliance.cpp:479
 msgid "Insufficient components/tools!\n"
 msgstr ""
 
 #. ~ Prompt the player if they want to remove the appliance. %s = appliance
 #. name.
-#: src/veh_appliance.cpp:491
+#: src/veh_appliance.cpp:492
 #, c-format
 msgid "Are you sure you want to take down the %s?"
 msgstr ""
 
 #. ~ An addendum to Plug In's description, as in: Plug in appliance / merge
 #. power grid".
-#: src/veh_appliance.cpp:584
+#: src/veh_appliance.cpp:585
 msgid " / merge power grid"
 msgstr ""
 
-#: src/veh_appliance.cpp:594 src/vehicle_use.cpp:2082
+#: src/veh_appliance.cpp:595 src/vehicle_use.cpp:2082
 msgid "Remove other cables first"
 msgstr ""
 
