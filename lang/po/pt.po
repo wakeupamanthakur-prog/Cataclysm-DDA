@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: cataclysm-dda 0.I\n"
-"POT-Creation-Date: 2024-11-07 11:10+0000\n"
+"POT-Creation-Date: 2024-11-09 01:59+0000\n"
 "PO-Revision-Date: 2018-04-26 14:47+0000\n"
 "Last-Translator: Yblis Sparda, 2024\n"
 "Language-Team: Portuguese (https://app.transifex.com/cataclysm-dda-translators/teams/2217/pt/)\n"
@@ -548878,13 +548878,18 @@ msgid ""
 "some side effects."
 msgstr ""
 
-#. ~ Description of effect type "effect_vita_super_heal"
+#. ~ Name of effect type id "effect_vita_super_heal"
+#: data/mods/MindOverMatter/effects/effects_psionic.json
+msgid "Anabolic Rejuvenation"
+msgstr ""
+
+#. ~ Description of effect type "Anabolic Rejuvenation"
 #. ~ Description of effect type "effect_vita_super_heal_return_from_death"
 #: data/mods/MindOverMatter/effects/effects_psionic.json
 msgid "You are healing extraordinarily quickly."
 msgstr ""
 
-#. ~ Remove message of effect type "effect_vita_super_heal"
+#. ~ Remove message of effect type "Anabolic Rejuvenation"
 #. ~ Remove message of effect type "effect_vita_super_heal_return_from_death"
 #: data/mods/MindOverMatter/effects/effects_psionic.json
 msgid "Your body aches as your preternatural healing slows to a stop."
@@ -556647,6 +556652,26 @@ msgid ""
 " feel well."
 msgstr ""
 
+#. ~ Spell name
+#: data/mods/MindOverMatter/obsolete/powers.json
+msgid "Anabolic Rejuvenation Heal"
+msgstr ""
+
+#. ~ Description of spell "Anabolic Rejuvenation Heal"
+#: data/mods/MindOverMatter/obsolete/powers.json
+msgid "The healing part of Anabolic Rejuvenation."
+msgstr ""
+
+#. ~ Spell name
+#: data/mods/MindOverMatter/obsolete/powers.json
+msgid "Anabolic Rejuvenation draining"
+msgstr ""
+
+#. ~ Description of spell "Anabolic Rejuvenation draining"
+#: data/mods/MindOverMatter/obsolete/powers.json
+msgid "The draining part of Anabolic Rejuvenation."
+msgstr ""
+
 #. ~ Description of recipe crafting "EOC_NULL"
 #: data/mods/MindOverMatter/obsolete/recipes.json
 msgid "This recipe is Obsolete and does nothing."
@@ -560426,26 +560451,6 @@ msgid ""
 "You draw on your body's reserves to speed your healing a hundredfold.\n"
 "\n"
 "This power <color_yellow>is maintained by concentration</color> and <color_red>may fail</color> if <color_yellow>concentration is interrupted</color>.  It requires <color_yellow>even more concentration</color> than usual."
-msgstr ""
-
-#. ~ Spell name
-#: data/mods/MindOverMatter/powers/vitakinesis.json
-msgid "Anabolic Rejuvenation Heal"
-msgstr ""
-
-#. ~ Description of spell "Anabolic Rejuvenation Heal"
-#: data/mods/MindOverMatter/powers/vitakinesis.json
-msgid "The healing part of Anabolic Rejuvenation."
-msgstr ""
-
-#. ~ Spell name
-#: data/mods/MindOverMatter/powers/vitakinesis.json
-msgid "Anabolic Rejuvenation draining"
-msgstr ""
-
-#. ~ Description of spell "Anabolic Rejuvenation draining"
-#: data/mods/MindOverMatter/powers/vitakinesis.json
-msgid "The draining part of Anabolic Rejuvenation."
 msgstr ""
 
 #. ~ Spell name
@@ -581766,8 +581771,9 @@ msgid "Stolen Blood"
 msgstr ""
 
 #. ~ Vitamin name
-#. ~ Label of UI widget "spacebar_ruach_counter_block"
 #. ~ Label of UI widget "ruach_counter_meter"
+#. ~ Label of UI widget "ruach_counter_numbers"
+#. ~ Label of UI widget "ruach_counter_spacebar_numbers"
 #: data/mods/Xedra_Evolved/ui/ruach_counter.json
 #: data/mods/Xedra_Evolved/vitamin.json
 msgid "Ruach"
@@ -617733,13 +617739,14 @@ msgstr ""
 msgid "You don't have enough ruach to let out the night-cry!"
 msgstr ""
 
-#. ~ NPC message in effect in EoC "EOC_LILIN_AOE_LINE_DISEASE"
+#. ~ NPC message in nested effect in then statement in effect in EoC
+#. "EOC_LILIN_AOE_LINE_DISEASE"
 #: data/mods/Xedra_Evolved/spells/lilin_spell_eocs.json
 msgid "You summon a wind filled with pestilence."
 msgstr ""
 
-#. ~ NPC message in false effect in EoC "EOC_LILIN_AOE_LINE_DISEASE"
-#. ~ NPC message in false effect in EoC "EOC_LILIN_DISEASE_ENHANCEMENT_DAMAGE"
+#. ~ NPC message in nested effect in else statement in effect in EoC
+#. "EOC_LILIN_AOE_LINE_DISEASE"
 #: data/mods/Xedra_Evolved/spells/lilin_spell_eocs.json
 msgid "You don't have enough ruach to summon the miasma!"
 msgstr ""
@@ -617747,6 +617754,11 @@ msgstr ""
 #. ~ NPC message in effect in EoC "EOC_LILIN_DISEASE_ENHANCEMENT_DAMAGE"
 #: data/mods/Xedra_Evolved/spells/lilin_spell_eocs.json
 msgid "You infuse your ruach into the plague-infected <u_name>."
+msgstr ""
+
+#. ~ NPC message in false effect in EoC "EOC_LILIN_DISEASE_ENHANCEMENT_DAMAGE"
+#: data/mods/Xedra_Evolved/spells/lilin_spell_eocs.json
+msgid "You don't have enough ruach to enhance the miasma around <u_name>!"
 msgstr ""
 
 #. ~ Player message in effect in EoC "EOC_LILIN_AVOID_SLEEP"
@@ -618391,6 +618403,16 @@ msgid ""
 "High above the earth, you close your eyes and feel the wind on your face."
 msgstr ""
 
+#. ~ Label of UI widget "spacebar_ruach_counter_block"
+#: data/mods/Xedra_Evolved/ui/ruach_counter.json
+msgid "Ruach Descriptor"
+msgstr ""
+
+#. ~ Label of UI widget "spacebar_ruach_numbers_block"
+#: data/mods/Xedra_Evolved/ui/ruach_counter.json
+msgid "Ruach Numbers"
+msgstr ""
+
 #. ~ Clause text "out_of_ruach" of UI widget "ruach_counter_meter"
 #: data/mods/Xedra_Evolved/ui/ruach_counter.json
 msgid "Starving"
@@ -618419,6 +618441,22 @@ msgstr ""
 #. ~ Clause text "ruach_level_5" of UI widget "ruach_counter_meter"
 #: data/mods/Xedra_Evolved/ui/ruach_counter.json
 msgid "<color_green>Suffused</color>"
+msgstr ""
+
+#. ~ Clause text "ruach_numbers" of UI widget "ruach_counter_numbers"
+#: data/mods/Xedra_Evolved/ui/ruach_counter.json
+msgid ""
+"<color_green><u_val:ruach_amount_for_graph></color>     Max: "
+"<color_green><u_val:ruach_max_amount_for_graph></color>     Days: "
+"<color_green><u_val:ruach_days_left></color>"
+msgstr ""
+
+#. ~ Clause text "ruach_numbers" of UI widget "ruach_counter_spacebar_numbers"
+#: data/mods/Xedra_Evolved/ui/ruach_counter.json
+msgid ""
+"<color_green><u_val:ruach_amount_for_graph></color>          Max: "
+"<color_green><u_val:ruach_max_amount_for_graph></color>          Days: "
+"<color_green><u_val:ruach_days_left></color>"
 msgstr ""
 
 #. ~ Label of UI widget "xe_current_max_mana_nums_layout"
@@ -630390,12 +630428,12 @@ msgstr ""
 msgid "With a clang and a shudder, the %s pump goes silent."
 msgstr ""
 
-#: src/activity_handlers.cpp:1728 src/iexamine.cpp:3778
+#: src/activity_handlers.cpp:1728 src/iexamine.cpp:3779
 #, c-format
 msgid "You squeeze the last drops of %s from the vat."
 msgstr ""
 
-#: src/activity_handlers.cpp:1739 src/iexamine.cpp:4061
+#: src/activity_handlers.cpp:1739 src/iexamine.cpp:4062
 #, c-format
 msgid "You squeeze the last drops of %s from the tank."
 msgstr ""
@@ -631324,7 +631362,7 @@ msgstr ""
 msgid "CN"
 msgstr ""
 
-#: src/advanced_inv.cpp:161 src/crafting_gui.cpp:823 src/iuse.cpp:8395
+#: src/advanced_inv.cpp:161 src/crafting_gui.cpp:824 src/iuse.cpp:8395
 msgid "Container"
 msgstr ""
 
@@ -632098,12 +632136,12 @@ msgstr ""
 msgid "Discover more special encounters to populate this list"
 msgstr ""
 
-#: src/auto_note.cpp:447 src/crafting_gui.cpp:2114 src/editmap.cpp:756
+#: src/auto_note.cpp:447 src/crafting_gui.cpp:2115 src/editmap.cpp:756
 msgid "no"
 msgstr ""
 
-#: src/auto_note.cpp:447 src/crafting_gui.cpp:1066 src/crafting_gui.cpp:2113
-#: src/crafting_gui.cpp:2282 src/editmap.cpp:756
+#: src/auto_note.cpp:447 src/crafting_gui.cpp:1067 src/crafting_gui.cpp:2114
+#: src/crafting_gui.cpp:2283 src/editmap.cpp:756
 msgid "yes"
 msgstr ""
 
@@ -632489,8 +632527,8 @@ msgstr ""
 msgid "You (%s)"
 msgstr ""
 
-#: src/avatar.cpp:926 src/crafting_gui.cpp:568 src/debug_menu.cpp:2293
-#: src/game.cpp:13067 src/iuse.cpp:6591 src/npctalk.cpp:2942
+#: src/avatar.cpp:926 src/crafting_gui.cpp:569 src/debug_menu.cpp:2293
+#: src/game.cpp:13067 src/iuse.cpp:6591 src/npctalk.cpp:2952
 #: src/trade_ui.cpp:310
 msgid "You"
 msgstr ""
@@ -632707,11 +632745,11 @@ msgstr ""
 msgid "Move into the monster to attack."
 msgstr ""
 
-#: src/avatar_action.cpp:368 src/handle_action.cpp:1745
+#: src/avatar_action.cpp:368 src/handle_action.cpp:1746
 msgid "Your willpower asserts itself, and so do you!"
 msgstr ""
 
-#: src/avatar_action.cpp:369 src/handle_action.cpp:1746
+#: src/avatar_action.cpp:369 src/handle_action.cpp:1747
 msgid "You're too pacified to strike anything…"
 msgstr ""
 
@@ -632722,7 +632760,7 @@ msgstr ""
 
 #: src/avatar_action.cpp:386 src/game.cpp:5842 src/game.cpp:5847
 #: src/game.cpp:5850 src/monexamine.cpp:871 src/monexamine.cpp:1001
-#: src/npctalk.cpp:2935
+#: src/npctalk.cpp:2945
 msgid "You may be attacked!  Proceed?"
 msgstr ""
 
@@ -632894,8 +632932,8 @@ msgstr ""
 msgid "You can't effectively throw while you're in your shell."
 msgstr ""
 
-#: src/avatar_action.cpp:952 src/handle_action.cpp:2245 src/iexamine.cpp:7278
-#: src/iexamine.cpp:7288 src/iexamine.cpp:7298 src/melee.cpp:575
+#: src/avatar_action.cpp:952 src/handle_action.cpp:2246 src/iexamine.cpp:7279
+#: src/iexamine.cpp:7289 src/iexamine.cpp:7299 src/melee.cpp:575
 msgid "You lack the substance to affect anything."
 msgstr ""
 
@@ -633844,11 +633882,11 @@ msgstr ""
 msgid "%s/%d turns"
 msgstr ""
 
-#: src/bionics_ui.cpp:341 src/handle_action.cpp:1983
+#: src/bionics_ui.cpp:341 src/handle_action.cpp:1984
 msgid "OFF"
 msgstr ""
 
-#: src/bionics_ui.cpp:341 src/handle_action.cpp:1983
+#: src/bionics_ui.cpp:341 src/handle_action.cpp:1984
 msgid "ON"
 msgstr ""
 
@@ -634941,7 +634979,7 @@ msgstr ""
 msgid "%1$s can't to expand to add any more %2$s."
 msgstr ""
 
-#: src/character.cpp:6070 src/iexamine.cpp:4296
+#: src/character.cpp:6070 src/iexamine.cpp:4297
 #, c-format
 msgid "You pour %1$s into the %2$s."
 msgstr ""
@@ -635271,7 +635309,7 @@ msgstr ""
 msgid "You can't wield your %s while driving."
 msgstr ""
 
-#: src/character.cpp:7931 src/npctalk.cpp:2297
+#: src/character.cpp:7931 src/npctalk.cpp:2307
 msgid "fists"
 msgstr ""
 
@@ -635477,7 +635515,7 @@ msgstr ""
 #. left to consume.
 #. ~ Select components from the map to consume. %d = number of components left
 #. to consume.
-#: src/character.cpp:9535 src/map.cpp:6240
+#: src/character.cpp:9535 src/map.cpp:6242
 #, c-format
 msgid "Select which component to use (%d left)"
 msgstr ""
@@ -637736,7 +637774,7 @@ msgctxt "query_ynq"
 msgid "%s %s, %s, %s"
 msgstr ""
 
-#: src/condition.cpp:1691
+#: src/condition.cpp:1695
 msgid "Choose direction"
 msgstr ""
 
@@ -637813,7 +637851,7 @@ msgstr ""
 msgid "Press [<color_yellow>%s</color>] to view and edit keybindings."
 msgstr ""
 
-#: src/construction.cpp:1059 src/iexamine.cpp:4698
+#: src/construction.cpp:1059 src/iexamine.cpp:4699
 msgid "It is too dark to construct right now."
 msgstr ""
 
@@ -637955,7 +637993,7 @@ msgstr ""
 msgid "You gather some materials."
 msgstr ""
 
-#: src/construction.cpp:2103 src/construction.cpp:2115
+#: src/construction.cpp:2103
 #, c-format
 msgid ""
 "Deconstructing the %s will yield:\n"
@@ -637964,7 +638002,7 @@ msgid ""
 "Really deconstruct?"
 msgstr ""
 
-#: src/construction.cpp:2107 src/construction.cpp:2119
+#: src/construction.cpp:2107
 #, c-format
 msgid ""
 "Deconstructing the %s will yield:\n"
@@ -637973,39 +638011,39 @@ msgid ""
 msgstr ""
 
 #. ~ Sound of a shovel digging a pit at work!
-#: src/construction.cpp:2137
+#: src/construction.cpp:2142
 msgid "hsh!"
 msgstr ""
 
-#: src/construction.cpp:2151
+#: src/construction.cpp:2156
 msgid "Would you really touch the sacred resting place of the dead?"
 msgstr ""
 
-#: src/construction.cpp:2152
+#: src/construction.cpp:2157
 msgid "Exhuming a grave is really against your beliefs."
 msgstr ""
 
-#: src/construction.cpp:2162
+#: src/construction.cpp:2167
 msgid "Exhuming a grave is fun now, when there is no one to object."
 msgstr ""
 
-#: src/construction.cpp:2165
+#: src/construction.cpp:2170
 msgid "You wonder if you dig up anything useful."
 msgstr ""
 
-#: src/construction.cpp:2168
+#: src/construction.cpp:2173
 msgid "Exhuming this grave is utterly disgusting!"
 msgstr ""
 
-#: src/construction.cpp:2179
+#: src/construction.cpp:2184
 msgid "You cannot build there!"
 msgstr ""
 
-#: src/construction.cpp:2184
+#: src/construction.cpp:2189
 msgid "You cannot deconstruct this!"
 msgstr ""
 
-#: src/construction.cpp:2498
+#: src/construction.cpp:2503
 msgid "Time to complete: "
 msgstr ""
 
@@ -638542,13 +638580,13 @@ msgstr ""
 msgid "Wield and activate the %s to start working."
 msgstr ""
 
-#: src/crafting.cpp:983 src/iexamine.cpp:7338 src/iuse.cpp:8774
+#: src/crafting.cpp:983 src/iexamine.cpp:7339 src/iuse.cpp:8774
 #, c-format
 msgctxt "in progress craft"
 msgid "You start working on the %s."
 msgstr ""
 
-#: src/crafting.cpp:984 src/iexamine.cpp:7339 src/iuse.cpp:8775
+#: src/crafting.cpp:984 src/iexamine.cpp:7340 src/iuse.cpp:8775
 #, c-format
 msgctxt "in progress craft"
 msgid "<npcname> starts working on the %s."
@@ -638896,143 +638934,143 @@ msgstr ""
 msgid "Craft new item"
 msgstr ""
 
-#: src/crafting_gui.cpp:88
+#: src/crafting_gui.cpp:89
 msgid "too dark to craft"
 msgstr ""
 
-#: src/crafting_gui.cpp:89
-msgid "unable to craft"
-msgstr ""
-
 #: src/crafting_gui.cpp:90
-#, c-format
-msgid "crafting is slowed to %d%%: %s"
+msgid "unable to craft"
 msgstr ""
 
 #: src/crafting_gui.cpp:91
 #, c-format
-msgid "crafting is accelerated to %d%% due to amount of manipulators"
+msgid "crafting is slowed to %d%%: %s"
 msgstr ""
 
 #: src/crafting_gui.cpp:92
+#, c-format
+msgid "crafting is accelerated to %d%%: %s"
+msgstr ""
+
+#: src/crafting_gui.cpp:93
 msgid "craftable"
 msgstr ""
 
-#: src/crafting_gui.cpp:191
+#: src/crafting_gui.cpp:192
 msgid "NONCRAFT"
 msgstr ""
 
-#: src/crafting_gui.cpp:368
+#: src/crafting_gui.cpp:369
 #, c-format
 msgid "Minor Failure Chance: <color_%s>%2.2f%%</color>"
 msgstr ""
 
-#: src/crafting_gui.cpp:385
+#: src/crafting_gui.cpp:386
 #, c-format
 msgid "Catastrophic Failure Chance: <color_%s>%2.2f%%</color>"
 msgstr ""
 
-#: src/crafting_gui.cpp:400
+#: src/crafting_gui.cpp:401
 #, c-format
 msgid "Crafter: %s\n"
 msgstr ""
 
-#: src/crafting_gui.cpp:402
+#: src/crafting_gui.cpp:403
 #, c-format
 msgid "Primary skill: %s\n"
 msgstr ""
 
-#: src/crafting_gui.cpp:405
+#: src/crafting_gui.cpp:406
 msgid ""
 "<color_red>Crafter cannot practice this because they lack the theoretical "
 "knowledge for it.</color>\n"
 msgstr ""
 
-#: src/crafting_gui.cpp:408
+#: src/crafting_gui.cpp:409
 msgid ""
 "<color_red>Crafter cannot craft this because they lack the theoretical "
 "knowledge to understand the recipe.</color>\n"
 msgstr ""
 
-#: src/crafting_gui.cpp:414
+#: src/crafting_gui.cpp:415
 #, c-format
 msgid "Other skills: %s\n"
 msgstr ""
 
-#: src/crafting_gui.cpp:419
+#: src/crafting_gui.cpp:420
 #, c-format
 msgid "Proficiencies Required: %s\n"
 msgstr ""
 
-#: src/crafting_gui.cpp:423
+#: src/crafting_gui.cpp:424
 #, c-format
 msgid "Proficiencies Used: %s\n"
 msgstr ""
 
-#: src/crafting_gui.cpp:427
+#: src/crafting_gui.cpp:428
 #, c-format
 msgid "Proficiencies Missing: %s\n"
 msgstr ""
 
-#: src/crafting_gui.cpp:436
+#: src/crafting_gui.cpp:437
 #, c-format
 msgid "Time to complete: <color_cyan>%s</color>\n"
 msgstr ""
 
-#: src/crafting_gui.cpp:443
+#: src/crafting_gui.cpp:444
 #, c-format
 msgid "Batch time savings: <color_cyan>%s</color>\n"
 msgstr ""
 
-#: src/crafting_gui.cpp:446
+#: src/crafting_gui.cpp:447
 #, c-format
 msgid "Activity level: <color_cyan>%s</color>\n"
 msgstr ""
 
-#: src/crafting_gui.cpp:451
+#: src/crafting_gui.cpp:452
 #, c-format
 msgid "Recipe makes: <color_cyan>%d</color>\n"
 msgstr ""
 
-#: src/crafting_gui.cpp:454
+#: src/crafting_gui.cpp:455
 #, c-format
 msgid "Craftable in the dark?  <color_cyan>%s</color>\n"
 msgstr ""
 
-#: src/crafting_gui.cpp:455
+#: src/crafting_gui.cpp:456
 msgid "Easy"
 msgstr ""
 
-#: src/crafting_gui.cpp:467
+#: src/crafting_gui.cpp:468
 msgid "<color_red>It's Over 9000!!!</color>"
 msgstr ""
 
-#: src/crafting_gui.cpp:471
+#: src/crafting_gui.cpp:472
 #, c-format
 msgid "Nearby: %s\n"
 msgstr ""
 
-#: src/crafting_gui.cpp:476
+#: src/crafting_gui.cpp:477
 msgid "<color_red>Will use rotten ingredients</color>\n"
 msgstr ""
 
-#: src/crafting_gui.cpp:479
+#: src/crafting_gui.cpp:480
 msgid "<color_red>Will use favorited ingredients</color>\n"
 msgstr ""
 
-#: src/crafting_gui.cpp:483
+#: src/crafting_gui.cpp:484
 msgid ""
 "Due to the complex overlapping requirements, this recipe <color_yellow>may "
 "appear to be craftable when it is not</color>.\n"
 msgstr ""
 
-#: src/crafting_gui.cpp:490
+#: src/crafting_gui.cpp:491
 msgid ""
 "<color_red>Cannot be crafted because the same item is needed for multiple "
 "components.</color>\n"
 msgstr ""
 
-#: src/crafting_gui.cpp:504
+#: src/crafting_gui.cpp:505
 #, c-format
 msgid ""
 "<color_green>This recipe will be %.2fx faster than normal, and your "
@@ -639040,168 +639078,168 @@ msgid ""
 "proficiencies the crafter has.</color>\n"
 msgstr ""
 
-#: src/crafting_gui.cpp:509
+#: src/crafting_gui.cpp:510
 #, c-format
 msgid ""
 "<color_green>This recipe will be %.2fx faster than normal, because of the "
 "proficiencies the crafter has.</color>\n"
 msgstr ""
 
-#: src/crafting_gui.cpp:513
+#: src/crafting_gui.cpp:514
 #, c-format
 msgid ""
 "<color_green>Your effective skill will be %.2f levels higher than normal, "
 "because of the proficiencies the crafter has.</color>\n"
 msgstr ""
 
-#: src/crafting_gui.cpp:517
+#: src/crafting_gui.cpp:518
 msgid ""
 "<color_red>Cannot be crafted because the crafter lacks the required "
 "proficiencies.</color>\n"
 msgstr ""
 
-#: src/crafting_gui.cpp:522
+#: src/crafting_gui.cpp:523
 msgid "Byproducts:\n"
 msgstr ""
 
-#: src/crafting_gui.cpp:549
+#: src/crafting_gui.cpp:550
 msgid "Recipe not memorized yet\n"
 msgstr ""
 
-#: src/crafting_gui.cpp:556
+#: src/crafting_gui.cpp:557
 #, c-format
 msgid "Written in: %s\n"
 msgstr ""
 
-#: src/crafting_gui.cpp:570
+#: src/crafting_gui.cpp:571
 #, c-format
 msgid "Known by: %s\n"
 msgstr ""
 
-#: src/crafting_gui.cpp:585
+#: src/crafting_gui.cpp:586
 #, c-format
 msgid "Difficulty range: %d to %d"
 msgstr ""
 
-#: src/crafting_gui.cpp:593
+#: src/crafting_gui.cpp:594
 #, c-format
 msgid ""
 "The crafter does not possess the minimum <color_cyan>%s</color> skill level "
 "required to practice this."
 msgstr ""
 
-#: src/crafting_gui.cpp:600
+#: src/crafting_gui.cpp:601
 #, c-format
 msgid ""
 "This practice action will not increase your <color_cyan>%s</color> skill "
 "above %d."
 msgstr ""
 
-#: src/crafting_gui.cpp:619 src/game.cpp:8378 src/input_context.cpp:530
+#: src/crafting_gui.cpp:620 src/game.cpp:8378 src/input_context.cpp:530
 #: src/mission_companion.cpp:925 src/newcharacter.cpp:3164
 #: src/options.cpp:3450 src/ui.cpp:508 src/ui.cpp:555
 msgid "Fast scroll up"
 msgstr ""
 
-#: src/crafting_gui.cpp:620 src/game.cpp:8379 src/input_context.cpp:531
+#: src/crafting_gui.cpp:621 src/game.cpp:8379 src/input_context.cpp:531
 #: src/mission_companion.cpp:926 src/newcharacter.cpp:3165
 #: src/options.cpp:3451 src/ui.cpp:509 src/ui.cpp:556
 msgid "Fast scroll down"
 msgstr ""
 
-#: src/crafting_gui.cpp:677
+#: src/crafting_gui.cpp:678
 msgid "Byproduct"
 msgstr ""
 
-#: src/crafting_gui.cpp:683
+#: src/crafting_gui.cpp:684
 msgid "With byproduct"
 msgstr ""
 
-#: src/crafting_gui.cpp:748
+#: src/crafting_gui.cpp:749
 msgid ""
 "<bold>Note:</bold> If crafted from poorly-fitting components, the resulting "
 "item may also be poorly-fitted."
 msgstr ""
 
-#: src/crafting_gui.cpp:820
+#: src/crafting_gui.cpp:821
 msgid "Result"
 msgstr ""
 
-#: src/crafting_gui.cpp:821
+#: src/crafting_gui.cpp:822
 msgid "Recipe Outputs"
 msgstr ""
 
-#: src/crafting_gui.cpp:822
+#: src/crafting_gui.cpp:823
 msgid "Recipe Result"
 msgstr ""
 
-#: src/crafting_gui.cpp:825
+#: src/crafting_gui.cpp:826
 msgid "In sealed container"
 msgstr ""
 
-#: src/crafting_gui.cpp:826
+#: src/crafting_gui.cpp:827
 msgid "Container Information"
 msgstr ""
 
-#: src/crafting_gui.cpp:1059
+#: src/crafting_gui.cpp:1060
 msgid "<color_cyan>quality</color> of resulting item"
 msgstr ""
 
-#: src/crafting_gui.cpp:1060
+#: src/crafting_gui.cpp:1061
 msgid "<color_cyan>full description</color> of resulting item (slow)"
 msgstr ""
 
-#: src/crafting_gui.cpp:1060
+#: src/crafting_gui.cpp:1061
 msgid "reach attack"
 msgstr ""
 
-#: src/crafting_gui.cpp:1061
+#: src/crafting_gui.cpp:1062
 msgid "<color_cyan>component</color> required to craft"
 msgstr ""
 
-#: src/crafting_gui.cpp:1062
+#: src/crafting_gui.cpp:1063
 msgid "<color_cyan>primary skill</color> used to craft"
 msgstr ""
 
-#: src/crafting_gui.cpp:1063
+#: src/crafting_gui.cpp:1064
 msgid "<color_cyan>any skill</color> used to craft"
 msgstr ""
 
-#: src/crafting_gui.cpp:1064
+#: src/crafting_gui.cpp:1065
 msgid "<color_cyan>quality</color> required to craft"
 msgstr ""
 
-#: src/crafting_gui.cpp:1065
+#: src/crafting_gui.cpp:1066
 msgid "<color_cyan>tool</color> required to craft"
 msgstr ""
 
-#: src/crafting_gui.cpp:1066
+#: src/crafting_gui.cpp:1067
 msgid "recipes which are <color_cyan>memorized</color> or not (hides nested)"
 msgstr ""
 
-#: src/crafting_gui.cpp:1067
+#: src/crafting_gui.cpp:1068
 msgid "<color_cyan>proficiency</color> used to craft"
 msgstr ""
 
-#: src/crafting_gui.cpp:1068
+#: src/crafting_gui.cpp:1069
 msgid "<color_cyan>difficulty</color> of the recipe as a number or range"
 msgstr ""
 
-#: src/crafting_gui.cpp:1069
+#: src/crafting_gui.cpp:1070
 msgid ""
 "recipe's (<color_cyan>by</color>)<color_cyan>products</color>; use * as "
 "wildcard"
 msgstr ""
 
-#: src/crafting_gui.cpp:1070
+#: src/crafting_gui.cpp:1071
 msgid "brisk"
 msgstr ""
 
-#: src/crafting_gui.cpp:1070
+#: src/crafting_gui.cpp:1071
 msgid "recipe's <color_cyan>activity level</color>"
 msgstr ""
 
-#: src/crafting_gui.cpp:1074
+#: src/crafting_gui.cpp:1075
 msgid ""
 "The default is to search result names.  Some single-character prefixes can be used with a colon <color_red>:</color> to search in other ways.  Additional filters are separated by commas <color_red>,</color>.\n"
 "Filtering by difficulty can accept range; <color_yellow>l</color><color_white>:5~10</color> for all recipes from difficulty 5 to 10.\n"
@@ -639210,271 +639248,279 @@ msgid ""
 "<color_white>Examples:</color>\n"
 msgstr ""
 
-#: src/crafting_gui.cpp:1199 src/crafting_gui.cpp:1844
+#: src/crafting_gui.cpp:1200 src/crafting_gui.cpp:1845
 msgid "Nothing selected!"
 msgstr ""
 
-#: src/crafting_gui.cpp:1201
+#: src/crafting_gui.cpp:1202
 msgid "Select a recipe within this group"
-msgstr ""
-
-#: src/crafting_gui.cpp:1256
-msgctxt "crafting gui"
-msgid "Craft"
 msgstr ""
 
 #: src/crafting_gui.cpp:1257
 msgctxt "crafting gui"
-msgid "Describe"
+msgid "Craft"
 msgstr ""
 
 #: src/crafting_gui.cpp:1258
 msgctxt "crafting gui"
-msgid "Filter"
+msgid "Describe"
 msgstr ""
 
 #: src/crafting_gui.cpp:1259
 msgctxt "crafting gui"
-msgid "Reset filter"
+msgid "Filter"
 msgstr ""
 
-#: src/crafting_gui.cpp:1261
+#: src/crafting_gui.cpp:1260
 msgctxt "crafting gui"
-msgid "Read/unread"
+msgid "Reset filter"
 msgstr ""
 
 #: src/crafting_gui.cpp:1262
 msgctxt "crafting gui"
+msgid "Read/unread"
+msgstr ""
+
+#: src/crafting_gui.cpp:1263
+msgctxt "crafting gui"
 msgid "Mark all as read"
 msgstr ""
 
-#: src/crafting_gui.cpp:1264
+#: src/crafting_gui.cpp:1265
 msgctxt "crafting gui"
 msgid "Show unread recipes first"
 msgstr ""
 
-#: src/crafting_gui.cpp:1266
+#: src/crafting_gui.cpp:1267
 msgctxt "crafting gui"
 msgid "Show/hide"
 msgstr ""
 
-#: src/crafting_gui.cpp:1267
+#: src/crafting_gui.cpp:1268
 msgctxt "crafting gui"
 msgid "Related"
 msgstr ""
 
-#: src/crafting_gui.cpp:1268
+#: src/crafting_gui.cpp:1269
 msgctxt "crafting gui"
 msgid "Favorite"
 msgstr ""
 
-#: src/crafting_gui.cpp:1269
+#: src/crafting_gui.cpp:1270
 msgctxt "crafting gui"
 msgid "Batch"
 msgstr ""
 
-#: src/crafting_gui.cpp:1270
+#: src/crafting_gui.cpp:1271
 msgctxt "crafting gui"
 msgid "Choose crafter"
 msgstr ""
 
-#: src/crafting_gui.cpp:1271
+#: src/crafting_gui.cpp:1272
 msgctxt "crafting gui"
 msgid "Keybindings"
 msgstr ""
 
-#: src/crafting_gui.cpp:1352 src/game.cpp:8283
+#: src/crafting_gui.cpp:1353 src/game.cpp:8283
 msgctxt "crafting gui"
 msgid "NEW!"
 msgstr ""
 
-#: src/crafting_gui.cpp:1460
+#: src/crafting_gui.cpp:1461
 #, c-format
 msgid "Indent for line %i not set correctly.  Indents reset to 0."
 msgstr ""
 
-#: src/crafting_gui.cpp:1465
+#: src/crafting_gui.cpp:1466
 #, c-format
 msgid "%2dx %s"
 msgstr ""
 
-#: src/crafting_gui.cpp:1600
+#: src/crafting_gui.cpp:1601
 #, c-format
 msgid "Searching… %3.0f%%\n"
 msgstr ""
 
-#: src/crafting_gui.cpp:1849
+#: src/crafting_gui.cpp:1850
 msgid "Crafter can't craft that!"
 msgstr ""
 
-#: src/crafting_gui.cpp:1854
+#: src/crafting_gui.cpp:1855
 msgid "Crafter can't see!"
 msgstr ""
 
-#: src/crafting_gui.cpp:1885 src/output.cpp:1081
+#: src/crafting_gui.cpp:1886 src/output.cpp:1081
 msgid "shirt"
 msgstr ""
 
-#: src/crafting_gui.cpp:1888 src/output.cpp:1084
+#: src/crafting_gui.cpp:1889 src/output.cpp:1084
 #, c-format
 msgid "  <color_white>%s</color>%.*s    %s\n"
 msgstr ""
 
-#: src/crafting_gui.cpp:1890
+#: src/crafting_gui.cpp:1891
 msgid "<color_cyan>name</color> of resulting item"
 msgstr ""
 
-#: src/crafting_gui.cpp:1892
+#: src/crafting_gui.cpp:1893
 msgid "clean"
 msgstr ""
 
-#: src/crafting_gui.cpp:1895 src/output.cpp:1091
+#: src/crafting_gui.cpp:1896 src/output.cpp:1091
 #, c-format
 msgid "  <color_yellow>-</color><color_white>%s</color>%.*s   %s\n"
 msgstr ""
 
-#: src/crafting_gui.cpp:1897 src/output.cpp:1093
+#: src/crafting_gui.cpp:1898 src/output.cpp:1093
 msgid "<color_cyan>names</color> to exclude"
 msgstr ""
 
-#: src/crafting_gui.cpp:1903 src/output.cpp:1099
+#: src/crafting_gui.cpp:1904 src/output.cpp:1099
 #, c-format
 msgid "  <color_yellow>%c</color><color_white>:%s</color>%.*s  %s\n"
 msgstr ""
 
-#: src/crafting_gui.cpp:1908
+#: src/crafting_gui.cpp:1909
 msgid ""
 "\n"
 "Use <color_red>up/down arrow</color> to go through your search history."
 msgstr ""
 
-#: src/crafting_gui.cpp:1912 src/newcharacter.cpp:2156
+#: src/crafting_gui.cpp:1913 src/newcharacter.cpp:2156
 #: src/newcharacter.cpp:2669 src/newcharacter.cpp:3042
 #: src/newcharacter.cpp:3723 src/overmap_ui.cpp:1399 src/overmap_ui.cpp:1412
 #: src/proficiency_ui.cpp:371
 msgid "Search:"
 msgstr ""
 
-#: src/crafting_gui.cpp:2012
+#: src/crafting_gui.cpp:2013
 msgid ""
 "<color_yellow>/!\\</color> Mark all recipes as read?  This cannot be undone."
 " <color_yellow>/!\\</color>"
 msgstr ""
 
-#: src/crafting_gui.cpp:2016
+#: src/crafting_gui.cpp:2017
 #, c-format
 msgid ""
 "Mark recipes in this tab as read?  This cannot be undone.  You can mark all "
 "recipes by choosing yes and pressing %s again."
 msgstr ""
 
-#: src/crafting_gui.cpp:2020
+#: src/crafting_gui.cpp:2021
 #, c-format
 msgid ""
 "Mark filtered recipes as read?  This cannot be undone.  You can mark all "
 "recipes by choosing yes and pressing %s again."
 msgstr ""
 
-#: src/crafting_gui.cpp:2071
+#: src/crafting_gui.cpp:2072
 msgid "Crafter"
 msgstr ""
 
-#: src/crafting_gui.cpp:2073
+#: src/crafting_gui.cpp:2074
 msgid "Can craft"
 msgstr ""
 
-#: src/crafting_gui.cpp:2073
+#: src/crafting_gui.cpp:2074
 msgid "Can practice"
 msgstr ""
 
-#: src/crafting_gui.cpp:2074
+#: src/crafting_gui.cpp:2075
 msgid "Missing"
 msgstr ""
 
-#: src/crafting_gui.cpp:2076
+#: src/crafting_gui.cpp:2077
 msgid "Status"
 msgstr ""
 
-#: src/crafting_gui.cpp:2078
+#: src/crafting_gui.cpp:2079
 msgid "Choose the crafter"
 msgstr ""
 
-#: src/crafting_gui.cpp:2092 src/gates.cpp:341
+#: src/crafting_gui.cpp:2093 src/gates.cpp:341
 msgid "stuff"
 msgstr ""
 
-#: src/crafting_gui.cpp:2095
+#: src/crafting_gui.cpp:2096
 msgid "skill"
 msgstr ""
 
-#: src/crafting_gui.cpp:2098
+#: src/crafting_gui.cpp:2099
 msgid "proficiency"
 msgstr ""
 
-#: src/crafting_gui.cpp:2105
+#: src/crafting_gui.cpp:2106
 msgid "is NPC"
 msgstr ""
 
-#: src/crafting_gui.cpp:2119
+#: src/crafting_gui.cpp:2120
 msgid "asleep"
 msgstr ""
 
-#: src/crafting_gui.cpp:2120
+#: src/crafting_gui.cpp:2121
 msgid "awake"
 msgstr ""
 
-#: src/crafting_gui.cpp:2172
+#: src/crafting_gui.cpp:2173
 msgid "RESULTS"
 msgstr ""
 
-#: src/crafting_gui.cpp:2177
+#: src/crafting_gui.cpp:2178
 msgid "Related recipes:"
 msgstr ""
 
-#: src/crafting_gui.cpp:2260
+#: src/crafting_gui.cpp:2261
 msgid "Select item to compare with."
 msgstr ""
 
-#: src/crafting_gui.cpp:2263 src/game_inventory.cpp:2416
+#: src/crafting_gui.cpp:2264 src/game_inventory.cpp:2416
 msgid "There are no items to compare."
 msgstr ""
 
-#: src/crafting_gui.cpp:2288
+#: src/crafting_gui.cpp:2289
 #, c-format
 msgid "* %s hidden recipe - %s in category *"
 msgstr ""
 
-#: src/crafting_gui.cpp:2291
+#: src/crafting_gui.cpp:2292
 #, c-format
 msgid "* %s hidden recipes - %s in category *"
 msgstr ""
 
-#: src/crafting_gui.cpp:2294
+#: src/crafting_gui.cpp:2295
 #, c-format
 msgid "* No hidden recipe - %s in category *"
 msgstr ""
 
-#: src/crafting_gui.cpp:2321
-msgid "morale"
-msgstr ""
-
-#: src/crafting_gui.cpp:2327
-msgid "lighting"
-msgstr ""
-
-#: src/crafting_gui.cpp:2333
+#: src/crafting_gui.cpp:2317
 msgid "hands encumbrance/wounds"
 msgstr ""
 
-#: src/crafting_gui.cpp:2339 src/effect.cpp:898 src/effect.cpp:899
+#: src/crafting_gui.cpp:2319
+msgid "extra manipulators"
+msgstr ""
+
+#: src/crafting_gui.cpp:2326
+msgid "traits"
+msgstr ""
+
+#: src/crafting_gui.cpp:2343
+msgid "morale"
+msgstr ""
+
+#: src/crafting_gui.cpp:2349
+msgid "lighting"
+msgstr ""
+
+#: src/crafting_gui.cpp:2355 src/effect.cpp:898 src/effect.cpp:899
 msgid "pain"
 msgstr ""
 
-#: src/crafting_gui.cpp:2387
+#: src/crafting_gui.cpp:2404
 msgid "Searched"
 msgstr ""
 
-#: src/crafting_gui.cpp:2400
+#: src/crafting_gui.cpp:2417
 msgid "Batch"
 msgstr ""
 
@@ -642924,7 +642970,7 @@ msgstr ""
 msgid "just now"
 msgstr ""
 
-#: src/effect.cpp:828 src/mission_ui.cpp:315
+#: src/effect.cpp:828 src/mission_ui.cpp:320
 #, c-format
 msgid "%s ago"
 msgstr ""
@@ -645118,109 +645164,109 @@ msgstr ""
 msgid "returns from working your fields…"
 msgstr ""
 
-#: src/faction_camp.cpp:5004
+#: src/faction_camp.cpp:5007
 #, c-format
 msgid "Select a location from %d to %d tiles away."
 msgstr ""
 
-#: src/faction_camp.cpp:5018
+#: src/faction_camp.cpp:5021
 #, c-format
 msgid ""
 "You must select a target from %d to %d range.  Your selection was range %d."
 msgstr ""
 
-#: src/faction_camp.cpp:5029
+#: src/faction_camp.cpp:5032
 msgid "You must be able to see the target that you select."
 msgstr ""
 
-#: src/faction_camp.cpp:5035
+#: src/faction_camp.cpp:5038
 msgid "Do you want to bounce off this location to extend range?"
 msgstr ""
 
-#: src/faction_camp.cpp:5297 src/faction_camp.cpp:5345 src/iuse.cpp:8383
+#: src/faction_camp.cpp:5300 src/faction_camp.cpp:5348 src/iuse.cpp:8383
 #: src/iuse.cpp:8604
 msgctxt "short for infinity"
 msgid "inf"
 msgstr ""
 
-#: src/faction_camp.cpp:5303 src/faction_camp.cpp:5351
+#: src/faction_camp.cpp:5306 src/faction_camp.cpp:5354
 msgid "Volume (L)"
 msgstr ""
 
-#: src/faction_camp.cpp:5304 src/faction_camp.cpp:5352
+#: src/faction_camp.cpp:5307 src/faction_camp.cpp:5355
 msgid "Weight (kg)"
 msgstr ""
 
-#: src/faction_camp.cpp:5314 src/faction_camp.cpp:5361
+#: src/faction_camp.cpp:5317 src/faction_camp.cpp:5364
 msgid "To select items, type a number before selecting."
 msgstr ""
 
-#: src/faction_camp.cpp:5317
+#: src/faction_camp.cpp:5320
 msgid "You have nothing to send."
 msgstr ""
 
-#: src/faction_camp.cpp:5364
+#: src/faction_camp.cpp:5367
 msgid "You have nothing to retrieve."
 msgstr ""
 
-#: src/faction_camp.cpp:5378
+#: src/faction_camp.cpp:5381
 msgid "You do not have sufficient sort zones.  Do you want to add them?"
 msgstr ""
 
-#: src/faction_camp.cpp:5391
+#: src/faction_camp.cpp:5394
 msgid ""
 "Please create some sorting zones.  You must create a camp food zone, and a "
 "camp storage zone."
 msgstr ""
 
-#: src/faction_camp.cpp:5430
+#: src/faction_camp.cpp:5433
 #, c-format
 msgid ">Distance:%15.2f (km)\n"
 msgstr ""
 
-#: src/faction_camp.cpp:5431 src/faction_camp.cpp:5435
+#: src/faction_camp.cpp:5434 src/faction_camp.cpp:5438
 #, c-format
 msgid ">One Way: %15d (trips)\n"
 msgstr ""
 
-#: src/faction_camp.cpp:5432
+#: src/faction_camp.cpp:5435
 #, c-format
 msgid ">Covered: %15.2f (km)\n"
 msgstr ""
 
-#: src/faction_camp.cpp:5434
+#: src/faction_camp.cpp:5437
 #, c-format
 msgid ">Distance:%15d (m)\n"
 msgstr ""
 
-#: src/faction_camp.cpp:5436
+#: src/faction_camp.cpp:5439
 #, c-format
 msgid ">Covered: %15d (m)\n"
 msgstr ""
 
-#: src/faction_camp.cpp:5438
+#: src/faction_camp.cpp:5441
 #, c-format
 msgid ">Travel:  %s\n"
 msgstr ""
 
-#: src/faction_camp.cpp:5439
+#: src/faction_camp.cpp:5442
 #, c-format
 msgid ">Working: %s\n"
 msgstr ""
 
-#: src/faction_camp.cpp:5441
+#: src/faction_camp.cpp:5444
 #, c-format
 msgid "Total:    %s\n"
 msgstr ""
 
-#: src/faction_camp.cpp:5442
+#: src/faction_camp.cpp:5445
 #, c-format
 msgid ""
 "Food:     %15d (kcal)\n"
 "\n"
 msgstr ""
 
-#: src/faction_camp.cpp:5464
+#: src/faction_camp.cpp:5467
 #, c-format
 msgid ""
 "Skill used: %s\n"
@@ -645230,7 +645276,7 @@ msgid ""
 "Calories per craft: %s\n"
 msgstr ""
 
-#: src/faction_camp.cpp:5530
+#: src/faction_camp.cpp:5533
 #, c-format
 msgid ""
 "Notes:\n"
@@ -645250,179 +645296,179 @@ msgid ""
 "Positions: %d/1\n"
 msgstr ""
 
-#: src/faction_camp.cpp:5582
+#: src/faction_camp.cpp:5585
 msgid "Harvestable: "
 msgstr ""
 
-#: src/faction_camp.cpp:5585
+#: src/faction_camp.cpp:5588
 msgid "Ready for Planting: "
 msgstr ""
 
-#: src/faction_camp.cpp:5588
+#: src/faction_camp.cpp:5591
 msgid "Needs Plowing: "
 msgstr ""
 
-#: src/faction_camp.cpp:5686
+#: src/faction_camp.cpp:5689
 msgid "You are too full to eat right now, and put the meal back into storage."
 msgstr ""
 
-#: src/faction_camp.cpp:5687
+#: src/faction_camp.cpp:5690
 msgid ""
 "<npcname> is too full to eat right now, and puts the meal back into storage."
 msgstr ""
 
-#: src/faction_camp.cpp:5697
+#: src/faction_camp.cpp:5700
 #, c-format
 msgid ""
 "%s takes one look at the food and declines, explaining they're allergic."
 msgstr ""
 
-#: src/faction_camp.cpp:5703
+#: src/faction_camp.cpp:5706
 #, c-format
 msgid ""
 "%s takes a bite but spits it out.  It seems something in the food disagrees "
 "with them."
 msgstr ""
 
-#: src/faction_camp.cpp:5709
+#: src/faction_camp.cpp:5712
 #, c-format
 msgid ""
 "%s thanks you for the meal, but when they see what's in the meal their "
 "attitude suddenly changes!"
 msgstr ""
 
-#: src/faction_camp.cpp:5769
+#: src/faction_camp.cpp:5772
 msgid "You do not have a camp food zone.  Aborting…"
 msgstr ""
 
-#: src/faction_camp.cpp:5779
+#: src/faction_camp.cpp:5782
 msgid ""
 "Do you also wish to distribute comestibles without any calorie value (i.e. "
 "multivitamins, mutagens)?"
 msgstr ""
 
-#: src/faction_camp.cpp:5898
+#: src/faction_camp.cpp:5901
 msgid "No suitable items are located at the drop points…"
 msgstr ""
 
-#: src/faction_camp.cpp:5905
+#: src/faction_camp.cpp:5908
 #, c-format
 msgid "You distribute %d kcal worth of food to your companions."
 msgstr ""
 
-#: src/faction_camp.cpp:5908
+#: src/faction_camp.cpp:5911
 msgid "You distribute vitamins and medicine to your companions."
 msgstr ""
 
-#: src/faction_camp.cpp:5974
+#: src/faction_camp.cpp:5977
 msgid "<No longer valid construction>"
 msgstr ""
 
-#: src/faction_camp.cpp:5995
+#: src/faction_camp.cpp:5998
 msgid " <Unsupported recipe>"
 msgstr ""
 
-#: src/faction_camp.cpp:6019
+#: src/faction_camp.cpp:6022
 msgid "Select mission(s) to reveal, escape when done"
 msgstr ""
 
-#: src/faction_camp.cpp:6022 src/faction_camp.cpp:6066
+#: src/faction_camp.cpp:6025 src/faction_camp.cpp:6069
 msgid "You're done for now…"
 msgstr ""
 
-#: src/faction_camp.cpp:6063
+#: src/faction_camp.cpp:6066
 msgid "Select mission(s) to hide, escape when done"
 msgstr ""
 
-#: src/faction_camp.cpp:6106
+#: src/faction_camp.cpp:6109
 msgid ""
 "No eligible locations found to place resulting liquids, placing them at random.\n"
 "\n"
 "Eligible locations must be a terrain OR furniture (not item) that can contain liquid, and does not already have any items on its tile."
 msgstr ""
 
-#: src/faction_camp.cpp:6131
+#: src/faction_camp.cpp:6134
 #, c-format
 msgid "While %s, a silent specter approaches %s…"
 msgstr ""
 
-#: src/faction_camp.cpp:6135
+#: src/faction_camp.cpp:6138
 #, c-format
 msgid ""
 "%s notices the antlered horror and slips away before it gets too close."
 msgstr ""
 
-#: src/faction_camp.cpp:6139
+#: src/faction_camp.cpp:6142
 #, c-format
 msgid "Another survivor approaches %s asking for directions."
 msgstr ""
 
-#: src/faction_camp.cpp:6140
+#: src/faction_camp.cpp:6143
 #, c-format
 msgid ""
 "Fearful that he may be an agent of some hostile faction, %s doesn't mention "
 "the camp."
 msgstr ""
 
-#: src/faction_camp.cpp:6142
+#: src/faction_camp.cpp:6145
 msgid "The two part on friendly terms and the survivor isn't seen again."
 msgstr ""
 
-#: src/faction_camp.cpp:6145
+#: src/faction_camp.cpp:6148
 #, c-format
 msgid "%s didn't detect the ambush until it was too late!"
 msgstr ""
 
-#: src/faction_camp.cpp:6155
+#: src/faction_camp.cpp:6158
 #, c-format
 msgid "The bull moose charged %s from the tree line…"
 msgstr ""
 
-#: src/faction_camp.cpp:6156
+#: src/faction_camp.cpp:6159
 #, c-format
 msgid ""
 "Despite being caught off guard %s was able to run away until the moose gave "
 "up pursuit."
 msgstr ""
 
-#: src/faction_camp.cpp:6159
+#: src/faction_camp.cpp:6162
 #, c-format
 msgid "The jabberwock grabbed %s by the arm from behind and began to scream."
 msgstr ""
 
-#: src/faction_camp.cpp:6161
+#: src/faction_camp.cpp:6164
 #, c-format
 msgid ""
 "Terrified, %s spun around and delivered a massive kick to the creature's "
 "torso…"
 msgstr ""
 
-#: src/faction_camp.cpp:6163
+#: src/faction_camp.cpp:6166
 #, c-format
 msgid "Collapsing into a pile of gore, %s walked away unscathed…"
 msgstr ""
 
-#: src/faction_camp.cpp:6165
+#: src/faction_camp.cpp:6168
 msgid "(Sounds like bullshit, you wonder what really happened.)"
 msgstr ""
 
-#: src/faction_camp.cpp:6170
+#: src/faction_camp.cpp:6173
 #, c-format
 msgid ""
 "%s turned to find the hideous black eyes of a giant wasp staring back from "
 "only a few feet away…"
 msgstr ""
 
-#: src/faction_camp.cpp:6172
+#: src/faction_camp.cpp:6175
 msgid "The screams were terrifying, there was nothing anyone could do."
 msgstr ""
 
-#: src/faction_camp.cpp:6174
+#: src/faction_camp.cpp:6177
 #, c-format
 msgid "Pieces of %s were found strewn across a few bushes."
 msgstr ""
 
-#: src/faction_camp.cpp:6175
+#: src/faction_camp.cpp:6178
 msgid "(You wonder if your companions are fit to work on their own…)"
 msgstr ""
 
@@ -645842,7 +645888,7 @@ msgstr ""
 msgid "Monsters spotted!"
 msgstr ""
 
-#: src/game.cpp:4638 src/handle_action.cpp:2746
+#: src/game.cpp:4638 src/handle_action.cpp:2747
 msgid "Safe mode ON!"
 msgstr ""
 
@@ -646192,7 +646238,7 @@ msgstr ""
 msgid "The %s is firmly sealed."
 msgstr ""
 
-#: src/game.cpp:6087 src/iexamine.cpp:4122
+#: src/game.cpp:6087 src/iexamine.cpp:4123
 msgid "It is empty."
 msgstr ""
 
@@ -646254,12 +646300,12 @@ msgstr ""
 msgid "Unseen."
 msgstr ""
 
-#: src/game.cpp:6431 src/mapdata.cpp:756
+#: src/game.cpp:6431 src/mapdata.cpp:725
 #, c-format
 msgid "Concealment: %d%%"
 msgstr ""
 
-#: src/game.cpp:6436 src/mapdata.cpp:758
+#: src/game.cpp:6436 src/mapdata.cpp:727
 msgid "Can be <color_green>cut down</color> with the right tools."
 msgstr ""
 
@@ -646770,17 +646816,17 @@ msgstr ""
 msgid "%s helps with this task…"
 msgstr ""
 
-#: src/game.cpp:9873 src/handle_action.cpp:2642
+#: src/game.cpp:9873 src/handle_action.cpp:2643
 #, c-format
 msgid "Cleared ammo preferences for %s."
 msgstr ""
 
-#: src/game.cpp:9876 src/handle_action.cpp:2645
+#: src/game.cpp:9876 src/handle_action.cpp:2646
 #, c-format
 msgid "Selected %s as default ammo for %s."
 msgstr ""
 
-#: src/game.cpp:9879 src/handle_action.cpp:2650
+#: src/game.cpp:9879 src/handle_action.cpp:2651
 msgid "You need to keep that ammo on you to select it as default ammo."
 msgstr ""
 
@@ -647637,8 +647683,8 @@ msgstr ""
 msgid "You climb down and dive underwater."
 msgstr ""
 
-#: src/game_inventory.cpp:185 src/game_inventory.cpp:238 src/npctalk.cpp:6098
-#: src/npctalk.cpp:6116
+#: src/game_inventory.cpp:185 src/game_inventory.cpp:238 src/npctalk.cpp:6108
+#: src/npctalk.cpp:6126
 msgid "You don't have the necessary item at hand."
 msgstr ""
 
@@ -648947,647 +648993,647 @@ msgstr ""
 msgid "Keep smashing until destroyed?"
 msgstr ""
 
-#: src/handle_action.cpp:1001 src/handle_action.cpp:1128
-#: src/handle_action.cpp:1131
+#: src/handle_action.cpp:1001 src/handle_action.cpp:1129
+#: src/handle_action.cpp:1132
 #, c-format
 msgid "You don't seem to be damaging the %s."
 msgstr ""
 
-#: src/handle_action.cpp:1030
+#: src/handle_action.cpp:1031
 msgid "Are you sure you want to pulp an acid filled corpse?"
 msgstr ""
 
-#: src/handle_action.cpp:1063
+#: src/handle_action.cpp:1064
 #, c-format
 msgid "You use your %s to smash the %s."
 msgstr ""
 
-#: src/handle_action.cpp:1094 src/melee.cpp:2297 src/melee.cpp:2299
+#: src/handle_action.cpp:1095 src/melee.cpp:2297 src/melee.cpp:2299
 #, c-format
 msgid "Your %s shatters!"
 msgstr ""
 
-#: src/handle_action.cpp:1137
+#: src/handle_action.cpp:1138
 msgid "There's nothing there to smash!"
 msgstr ""
 
-#: src/handle_action.cpp:1149
+#: src/handle_action.cpp:1150
 msgid "You already have an alarm set.  What do you want to do?"
 msgstr ""
 
-#: src/handle_action.cpp:1150
+#: src/handle_action.cpp:1151
 msgid "You have an alarm clock.  What do you want to do?"
 msgstr ""
 
-#: src/handle_action.cpp:1153
+#: src/handle_action.cpp:1154
 msgid "Keep the alarm and wait a while"
 msgstr ""
 
-#: src/handle_action.cpp:1154
+#: src/handle_action.cpp:1155
 msgid "Wait a while"
 msgstr ""
 
-#: src/handle_action.cpp:1156
+#: src/handle_action.cpp:1157
 msgid "Change your alarm"
 msgstr ""
 
-#: src/handle_action.cpp:1157
+#: src/handle_action.cpp:1158
 msgid "Set an alarm for later"
 msgstr ""
 
-#: src/handle_action.cpp:1183
+#: src/handle_action.cpp:1184
 msgid "You can't pass time while controlling a moving vehicle."
 msgstr ""
 
-#: src/handle_action.cpp:1222
+#: src/handle_action.cpp:1223
 msgid "Wait until you catch your breath"
 msgstr ""
 
-#: src/handle_action.cpp:1225
+#: src/handle_action.cpp:1226
 msgid "Wait 20 heartbeats"
 msgstr ""
 
-#: src/handle_action.cpp:1226
+#: src/handle_action.cpp:1227
 msgid "Wait 60 heartbeats"
 msgstr ""
 
-#: src/handle_action.cpp:1227
+#: src/handle_action.cpp:1228
 msgid "Wait 300 heartbeats"
 msgstr ""
 
-#: src/handle_action.cpp:1228
+#: src/handle_action.cpp:1229
 msgid "Wait 1800 heartbeats"
 msgstr ""
 
-#: src/handle_action.cpp:1249
+#: src/handle_action.cpp:1250
 msgid "Set alarm for dawn"
 msgstr ""
 
-#: src/handle_action.cpp:1249
+#: src/handle_action.cpp:1250
 msgid "Wait till daylight"
 msgstr ""
 
-#: src/handle_action.cpp:1252
+#: src/handle_action.cpp:1253
 msgid "Set alarm for noon"
 msgstr ""
 
-#: src/handle_action.cpp:1252
+#: src/handle_action.cpp:1253
 msgid "Wait till noon"
 msgstr ""
 
-#: src/handle_action.cpp:1255
+#: src/handle_action.cpp:1256
 msgid "Set alarm for dusk"
 msgstr ""
 
-#: src/handle_action.cpp:1255
+#: src/handle_action.cpp:1256
 msgid "Wait till night"
 msgstr ""
 
-#: src/handle_action.cpp:1258
+#: src/handle_action.cpp:1259
 msgid "Set alarm for midnight"
 msgstr ""
 
-#: src/handle_action.cpp:1258
+#: src/handle_action.cpp:1259
 msgid "Wait till midnight"
 msgstr ""
 
-#: src/handle_action.cpp:1262
+#: src/handle_action.cpp:1263
 msgid "Cancel the currently set alarm."
 msgstr ""
 
-#: src/handle_action.cpp:1266
+#: src/handle_action.cpp:1267
 msgid "Wait till weather changes"
 msgstr ""
 
-#: src/handle_action.cpp:1271
+#: src/handle_action.cpp:1272
 #, c-format
 msgid "It's %s now.  "
 msgstr ""
 
-#: src/handle_action.cpp:1273
+#: src/handle_action.cpp:1274
 msgid "Set alarm for when?"
 msgstr ""
 
-#: src/handle_action.cpp:1273
+#: src/handle_action.cpp:1274
 msgid "Wait for how long?"
 msgstr ""
 
-#: src/handle_action.cpp:1286
+#: src/handle_action.cpp:1287
 msgid "You cancel your alarm."
 msgstr ""
 
-#: src/handle_action.cpp:1289
+#: src/handle_action.cpp:1290
 msgid "You set your alarm."
 msgstr ""
 
-#: src/handle_action.cpp:1316
+#: src/handle_action.cpp:1317
 msgid "You can't sleep while controlling a vehicle."
 msgstr ""
 
-#: src/handle_action.cpp:1320
+#: src/handle_action.cpp:1321
 msgid "You cannot sleep while mounted."
 msgstr ""
 
-#: src/handle_action.cpp:1330
+#: src/handle_action.cpp:1331
 msgid "You cannot sleep while swimming."
 msgstr ""
 
-#: src/handle_action.cpp:1334
+#: src/handle_action.cpp:1335
 msgid "You cannot sleep while airborne."
 msgstr ""
 
-#: src/handle_action.cpp:1340
+#: src/handle_action.cpp:1341
 msgid "Are you sure you want to sleep?"
 msgstr ""
 
-#: src/handle_action.cpp:1347
+#: src/handle_action.cpp:1348
 msgid "Yes, and save game before sleeping."
 msgstr ""
 
-#: src/handle_action.cpp:1387
+#: src/handle_action.cpp:1388
 #, c-format
 msgid "You stop playing your %s before trying to sleep."
 msgstr ""
 
-#: src/handle_action.cpp:1398
+#: src/handle_action.cpp:1399
 msgid "You may want to extinguish or turn off:"
 msgstr ""
 
-#: src/handle_action.cpp:1422
+#: src/handle_action.cpp:1423
 msgid "<color_c_red> (DEAF!)</color>"
 msgstr ""
 
-#: src/handle_action.cpp:1431
+#: src/handle_action.cpp:1432
 msgid ""
 "You're engorged to hibernate.  The alarm would only attract attention.  Set "
 "an alarm anyway?"
 msgstr ""
 
-#: src/handle_action.cpp:1433
+#: src/handle_action.cpp:1434
 msgid "You have an alarm clock.  Set an alarm?"
 msgstr ""
 
-#: src/handle_action.cpp:1438
+#: src/handle_action.cpp:1439
 msgid "No, don't set an alarm."
 msgstr ""
 
-#: src/handle_action.cpp:1442
+#: src/handle_action.cpp:1443
 #, c-format
 msgid "Set alarm to wake up in %i hours."
 msgstr ""
 
-#: src/handle_action.cpp:1523
+#: src/handle_action.cpp:1524
 msgid "There is no compatible zone nearby."
 msgstr ""
 
-#: src/handle_action.cpp:1524
+#: src/handle_action.cpp:1525
 #, c-format
 msgid "Compatible zones are %s and %s"
 msgstr ""
 
-#: src/handle_action.cpp:1535
+#: src/handle_action.cpp:1536
 msgid "Pick action:"
 msgstr ""
 
-#: src/handle_action.cpp:1539
+#: src/handle_action.cpp:1540
 msgid "Sort out my loot (static zones only)"
 msgstr ""
 
-#: src/handle_action.cpp:1540
+#: src/handle_action.cpp:1541
 msgid ""
 "Sorts out the loot from Loot: Unsorted zone to nearby appropriate Loot zones"
 " ignoring personal zones.  Uses empty space in your inventory or utilizes a "
 "cart, if you are holding one."
 msgstr ""
 
-#: src/handle_action.cpp:1541
+#: src/handle_action.cpp:1542
 msgid "Sort out my loot (personal zones only)"
 msgstr ""
 
-#: src/handle_action.cpp:1542
+#: src/handle_action.cpp:1543
 msgid ""
 "Sorts out the loot from Loot: Unsorted zone to nearby appropriate Loot zones"
 " ignoring static zones.  Uses empty space in your inventory or utilizes a "
 "cart, if you are holding one."
 msgstr ""
 
-#: src/handle_action.cpp:1543
+#: src/handle_action.cpp:1544
 msgid "Sort out my loot (all)"
 msgstr ""
 
-#: src/handle_action.cpp:1544
+#: src/handle_action.cpp:1545
 msgid ""
 "Sorts out the loot from Loot: Unsorted zone to nearby appropriate Loot "
 "zones.  Uses empty space in your inventory or utilizes a cart, if you are "
 "holding one."
 msgstr ""
 
-#: src/handle_action.cpp:1548
+#: src/handle_action.cpp:1549
 msgid "Unload nearby containers"
 msgstr ""
 
-#: src/handle_action.cpp:1549
+#: src/handle_action.cpp:1550
 msgid "Unloads any corpses or containers that are in their respective zones."
 msgstr ""
 
-#: src/handle_action.cpp:1554
+#: src/handle_action.cpp:1555
 msgid "Fertilize plots"
 msgstr ""
 
-#: src/handle_action.cpp:1554
+#: src/handle_action.cpp:1555
 msgid "Fertilize plots… you don't have any fertilizer"
 msgstr ""
 
-#: src/handle_action.cpp:1555
+#: src/handle_action.cpp:1556
 msgid "Fertilize any nearby Farm: Plot zones."
 msgstr ""
 
-#: src/handle_action.cpp:1559
+#: src/handle_action.cpp:1560
 msgid "Construct plots"
 msgstr ""
 
-#: src/handle_action.cpp:1560
+#: src/handle_action.cpp:1561
 msgid "Work on any nearby Blueprint: construction zones."
 msgstr ""
 
-#: src/handle_action.cpp:1563
+#: src/handle_action.cpp:1564
 msgid "Farm plots"
 msgstr ""
 
-#: src/handle_action.cpp:1564
+#: src/handle_action.cpp:1565
 msgid "Till and plant on any nearby farm plots - auto-fetch seeds and tools."
 msgstr ""
 
-#: src/handle_action.cpp:1567
+#: src/handle_action.cpp:1568
 msgid "Chop trees"
 msgstr ""
 
-#: src/handle_action.cpp:1568
+#: src/handle_action.cpp:1569
 msgid "Chop down any trees in the designated zone - auto-fetch tools."
 msgstr ""
 
-#: src/handle_action.cpp:1571
+#: src/handle_action.cpp:1572
 msgid "Chop planks"
 msgstr ""
 
-#: src/handle_action.cpp:1572
+#: src/handle_action.cpp:1573
 msgid "Auto-chop logs in wood loot zones into planks - auto-fetch tools."
 msgstr ""
 
-#: src/handle_action.cpp:1575
+#: src/handle_action.cpp:1576
 msgid "Deconstruct vehicle"
 msgstr ""
 
-#: src/handle_action.cpp:1576
+#: src/handle_action.cpp:1577
 msgid "Auto-deconstruct vehicle in designated zone - auto-fetch tools."
 msgstr ""
 
-#: src/handle_action.cpp:1579
+#: src/handle_action.cpp:1580
 msgid "Repair vehicle"
 msgstr ""
 
-#: src/handle_action.cpp:1580
+#: src/handle_action.cpp:1581
 msgid "Auto-repair vehicle in designated zone - auto-fetch tools."
 msgstr ""
 
-#: src/handle_action.cpp:1583
+#: src/handle_action.cpp:1584
 msgid "Butcher corpses"
 msgstr ""
 
-#: src/handle_action.cpp:1584
+#: src/handle_action.cpp:1585
 msgid "Auto-butcher anything in corpse loot zones - auto-fetch tools."
 msgstr ""
 
-#: src/handle_action.cpp:1587
+#: src/handle_action.cpp:1588
 msgid "Mine Area"
 msgstr ""
 
-#: src/handle_action.cpp:1588
+#: src/handle_action.cpp:1589
 msgid "Auto-mine anything in mining zone - auto-fetch tools."
 msgstr ""
 
-#: src/handle_action.cpp:1592
+#: src/handle_action.cpp:1593
 msgid "Auto-disassemble anything in disassembly zone - auto-fetch tools."
 msgstr ""
 
-#: src/handle_action.cpp:1596
+#: src/handle_action.cpp:1597
 msgid "Mop area"
 msgstr ""
 
-#: src/handle_action.cpp:1596
+#: src/handle_action.cpp:1597
 msgid "Mop clean the area."
 msgstr ""
 
-#: src/handle_action.cpp:1757
+#: src/handle_action.cpp:1758
 msgid "You refuse to use ranged weapons."
 msgstr ""
 
-#: src/handle_action.cpp:1761
+#: src/handle_action.cpp:1762
 msgid "You refuse to use firearms."
 msgstr ""
 
-#: src/handle_action.cpp:1786
+#: src/handle_action.cpp:1787
 msgid "Draw what?"
 msgstr ""
 
-#: src/handle_action.cpp:1801
+#: src/handle_action.cpp:1802
 msgid "Change to which movement mode?"
 msgstr ""
 
-#: src/handle_action.cpp:1812
+#: src/handle_action.cpp:1813
 msgid "Cycle move mode"
 msgstr ""
 
-#: src/handle_action.cpp:1836
+#: src/handle_action.cpp:1837
 msgid "You don't know any spells to cast."
 msgstr ""
 
-#: src/handle_action.cpp:1852
+#: src/handle_action.cpp:1853
 msgid "You can't cast any of the spells you know!"
 msgstr ""
 
-#: src/handle_action.cpp:1856
+#: src/handle_action.cpp:1857
 msgid "You can't channel any of the powers you know!"
 msgstr ""
 
-#: src/handle_action.cpp:1859
+#: src/handle_action.cpp:1860
 msgid "You can't use any of your powers!"
 msgstr ""
 
-#: src/handle_action.cpp:1878
+#: src/handle_action.cpp:1879
 msgid "You need your hands free to cast this spell!"
 msgstr ""
 
-#: src/handle_action.cpp:1884
+#: src/handle_action.cpp:1885
 #, c-format
 msgid "You don't have enough %s to cast the spell."
 msgstr ""
 
-#: src/handle_action.cpp:1892
+#: src/handle_action.cpp:1893
 msgid "You can't focus enough to cast spell."
 msgstr ""
 
-#: src/handle_action.cpp:1898
+#: src/handle_action.cpp:1899
 msgid "You cannot cast Blood Magic without a cutting implement."
 msgstr ""
 
-#: src/handle_action.cpp:1953
+#: src/handle_action.cpp:1954
 msgid "What do you want to consume?"
 msgstr ""
 
-#: src/handle_action.cpp:1957
+#: src/handle_action.cpp:1958
 msgid "Medication"
 msgstr ""
 
-#: src/handle_action.cpp:1983
+#: src/handle_action.cpp:1984
 #, c-format
 msgid "Debug Mode (%1$s)"
 msgstr ""
 
-#: src/handle_action.cpp:2016
+#: src/handle_action.cpp:2017
 msgid "Debug Mode Filters"
 msgstr ""
 
-#: src/handle_action.cpp:2017
+#: src/handle_action.cpp:2018
 #, c-format
 msgid "Press [%1$s] to quickly toggle debug mode."
 msgstr ""
 
-#: src/handle_action.cpp:2025
+#: src/handle_action.cpp:2026
 msgid "Toggle all filters"
 msgstr ""
 
-#: src/handle_action.cpp:2060
+#: src/handle_action.cpp:2061
 msgid "Debug mode ON!"
 msgstr ""
 
-#: src/handle_action.cpp:2062
+#: src/handle_action.cpp:2063
 msgid "Debug mode OFF!"
 msgstr ""
 
-#: src/handle_action.cpp:2167
+#: src/handle_action.cpp:2168
 msgid "You can't open things while you're in your shell."
 msgstr ""
 
-#: src/handle_action.cpp:2168
+#: src/handle_action.cpp:2169
 msgid "You can't close things while you're in your shell."
 msgstr ""
 
-#: src/handle_action.cpp:2169
+#: src/handle_action.cpp:2170
 msgid "You can't smash things while you're in your shell."
 msgstr ""
 
-#: src/handle_action.cpp:2170 src/handle_action.cpp:2171
+#: src/handle_action.cpp:2171 src/handle_action.cpp:2172
 msgid "You can't examine your surroundings while you're in your shell."
 msgstr ""
 
-#: src/handle_action.cpp:2172
+#: src/handle_action.cpp:2173
 msgid "You can't move mass quantities while you're in your shell."
 msgstr ""
 
-#: src/handle_action.cpp:2173 src/handle_action.cpp:2174
+#: src/handle_action.cpp:2174 src/handle_action.cpp:2175
 msgid "You can't pick anything up while you're in your shell."
 msgstr ""
 
-#: src/handle_action.cpp:2175
+#: src/handle_action.cpp:2176
 msgid "You can't grab things while you're in your shell."
 msgstr ""
 
-#: src/handle_action.cpp:2176 src/handle_action.cpp:2177
+#: src/handle_action.cpp:2177 src/handle_action.cpp:2178
 msgid "You can't haul things while you're in your shell."
 msgstr ""
 
-#: src/handle_action.cpp:2178
+#: src/handle_action.cpp:2179
 msgid "You can't butcher while you're in your shell."
 msgstr ""
 
-#: src/handle_action.cpp:2179
+#: src/handle_action.cpp:2180
 msgid "You can't peek around corners while you're in your shell."
 msgstr ""
 
-#: src/handle_action.cpp:2180
+#: src/handle_action.cpp:2181
 msgid "You can't drop things while you're in your shell."
 msgstr ""
 
-#: src/handle_action.cpp:2181 src/handle_action.cpp:2182
-#: src/handle_action.cpp:2183 src/iexamine.cpp:7276 src/iexamine.cpp:7286
-#: src/iexamine.cpp:7296
+#: src/handle_action.cpp:2182 src/handle_action.cpp:2183
+#: src/handle_action.cpp:2184 src/iexamine.cpp:7277 src/iexamine.cpp:7287
+#: src/iexamine.cpp:7297
 msgid "You can't craft while you're in your shell."
 msgstr ""
 
-#: src/handle_action.cpp:2184
+#: src/handle_action.cpp:2185
 msgid "You can't disassemble while you're in your shell."
 msgstr ""
 
-#: src/handle_action.cpp:2185
+#: src/handle_action.cpp:2186
 msgid "You can't construct while you're in your shell."
 msgstr ""
 
-#: src/handle_action.cpp:2186
+#: src/handle_action.cpp:2187
 msgid "You can't operate a vehicle while you're in your shell."
 msgstr ""
 
-#: src/handle_action.cpp:2212
+#: src/handle_action.cpp:2213
 msgid "You can't disassemble items while you're riding."
 msgstr ""
 
-#: src/handle_action.cpp:2213
+#: src/handle_action.cpp:2214
 msgid "You can't construct while you're riding."
 msgstr ""
 
-#: src/handle_action.cpp:2214
+#: src/handle_action.cpp:2215
 msgid "You can't open things while you're riding."
 msgstr ""
 
-#: src/handle_action.cpp:2215
+#: src/handle_action.cpp:2216
 msgid "You can't move mass quantities while you're riding."
 msgstr ""
 
-#: src/handle_action.cpp:2216 src/handle_action.cpp:2217
+#: src/handle_action.cpp:2217 src/handle_action.cpp:2218
 msgid "You can't pick anything up while you're riding."
 msgstr ""
 
-#: src/handle_action.cpp:2218
+#: src/handle_action.cpp:2219
 msgid "You can't grab things while you're riding."
 msgstr ""
 
-#: src/handle_action.cpp:2219 src/handle_action.cpp:2220
+#: src/handle_action.cpp:2220 src/handle_action.cpp:2221
 msgid "You can't haul things while you're riding."
 msgstr ""
 
-#: src/handle_action.cpp:2221
+#: src/handle_action.cpp:2222
 msgid "You can't butcher while you're riding."
 msgstr ""
 
-#: src/handle_action.cpp:2222
+#: src/handle_action.cpp:2223
 msgid "You can't peek around corners while you're riding."
 msgstr ""
 
-#: src/handle_action.cpp:2223 src/handle_action.cpp:2224
-#: src/handle_action.cpp:2225
+#: src/handle_action.cpp:2224 src/handle_action.cpp:2225
+#: src/handle_action.cpp:2226
 msgid "You can't craft while you're riding."
 msgstr ""
 
-#: src/handle_action.cpp:2375
+#: src/handle_action.cpp:2376
 msgid "You can't go down stairs while you're riding."
 msgstr ""
 
-#: src/handle_action.cpp:2424
+#: src/handle_action.cpp:2425
 msgid "You can't go up stairs while you're riding."
 msgstr ""
 
-#: src/handle_action.cpp:2446
+#: src/handle_action.cpp:2447
 msgid "You can't close things while you're riding."
 msgstr ""
 
-#: src/handle_action.cpp:2629
+#: src/handle_action.cpp:2630
 #, c-format
 msgid "Your %s has only one firing mode."
 msgstr ""
 
-#: src/handle_action.cpp:2669
+#: src/handle_action.cpp:2670
 msgid "Drop where?"
 msgstr ""
 
-#: src/handle_action.cpp:2671
+#: src/handle_action.cpp:2672
 msgid "You can't drop things to another tile while you're in your shell."
 msgstr ""
 
-#: src/handle_action.cpp:2706
+#: src/handle_action.cpp:2707
 msgid "You can't disassemble items while driving."
 msgstr ""
 
-#: src/handle_action.cpp:2714
+#: src/handle_action.cpp:2715
 msgid "You can't construct while in a vehicle."
 msgstr ""
 
-#: src/handle_action.cpp:2731
+#: src/handle_action.cpp:2732
 msgid "You refuse to take control of this vehicle."
 msgstr ""
 
-#: src/handle_action.cpp:2739
+#: src/handle_action.cpp:2740
 msgid "Auto travel mode OFF!"
 msgstr ""
 
-#: src/handle_action.cpp:2739
+#: src/handle_action.cpp:2740
 msgid "Auto travel mode ON!"
 msgstr ""
 
-#: src/handle_action.cpp:2751
+#: src/handle_action.cpp:2752
 msgid "Safe mode OFF!"
 msgstr ""
 
-#: src/handle_action.cpp:2751
+#: src/handle_action.cpp:2752
 msgid "Safe mode OFF!  (Auto safe mode still enabled!)"
 msgstr ""
 
-#: src/handle_action.cpp:2767
+#: src/handle_action.cpp:2768
 msgid "Ignoring enemy!"
 msgstr ""
 
-#: src/handle_action.cpp:2775
+#: src/handle_action.cpp:2776
 msgid "You make the sign of the cross."
 msgstr ""
 
-#: src/handle_action.cpp:2777
+#: src/handle_action.cpp:2778
 msgid "Ignoring laser targeting!"
 msgstr ""
 
-#: src/handle_action.cpp:2788
+#: src/handle_action.cpp:2789
 #, c-format
 msgid "Creature whitelisted: %s"
 msgstr ""
 
-#: src/handle_action.cpp:2801
+#: src/handle_action.cpp:2802
 msgid "Abandon this character?"
 msgstr ""
 
-#: src/handle_action.cpp:2802
+#: src/handle_action.cpp:2803
 msgid "This will kill your character.  Continue?"
 msgstr ""
 
-#: src/handle_action.cpp:2811
+#: src/handle_action.cpp:2812
 msgid "Save and quit?"
 msgstr ""
 
-#: src/handle_action.cpp:2838
+#: src/handle_action.cpp:2839
 msgid "You have no idea where you are."
 msgstr ""
 
-#: src/handle_action.cpp:2846
+#: src/handle_action.cpp:2847
 msgid "You can't see the sky from here."
 msgstr ""
 
 #. ~ Thief mode cycled between THIEF_ASK/THIEF_HONEST/THIEF_STEAL
-#: src/handle_action.cpp:2955
+#: src/handle_action.cpp:2956
 msgid "You will not pick up other peoples belongings."
 msgstr ""
 
 #. ~ Thief mode cycled between THIEF_ASK/THIEF_HONEST/THIEF_STEAL
-#: src/handle_action.cpp:2960
+#: src/handle_action.cpp:2961
 msgid "You will pick up also those things that belong to others!"
 msgstr ""
 
 #. ~ Thief mode cycled between THIEF_ASK/THIEF_HONEST/THIEF_STEAL
-#: src/handle_action.cpp:2965
+#: src/handle_action.cpp:2966
 msgid "You will be reminded not to steal."
 msgstr ""
 
-#: src/handle_action.cpp:2968
+#: src/handle_action.cpp:2969
 #, c-format
 msgid "THIEF_MODE CONTAINED BAD VALUE [ %s ]!"
 msgstr ""
 
-#: src/handle_action.cpp:3083
+#: src/handle_action.cpp:3084
 msgid "Auto-move canceled"
 msgstr ""
 
-#: src/handle_action.cpp:3240
+#: src/handle_action.cpp:3241
 #, c-format
 msgid "Unknown command: \"%s\" (%ld)"
 msgstr ""
 
-#: src/handle_action.cpp:3244
+#: src/handle_action.cpp:3245
 #, c-format
 msgid ""
 "%s at any time to see and edit keybindings relevant to the current context."
@@ -649902,7 +649948,7 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: src/iexamine.cpp:904 src/iexamine.cpp:5433
+#: src/iexamine.cpp:904 src/iexamine.cpp:5434
 msgid "All cash cards at maximum capacity."
 msgstr ""
 
@@ -650077,12 +650123,12 @@ msgstr ""
 msgid "You pull up the %s."
 msgstr ""
 
-#: src/iexamine.cpp:1654 src/iexamine.cpp:1719
+#: src/iexamine.cpp:1654 src/iexamine.cpp:1720
 #, c-format
 msgid "Take down the %s?"
 msgstr ""
 
-#: src/iexamine.cpp:1657 src/iexamine.cpp:3530
+#: src/iexamine.cpp:1657 src/iexamine.cpp:3531
 #, c-format
 msgid "You take down the %s."
 msgstr ""
@@ -650097,407 +650143,407 @@ msgstr ""
 msgid "damaged %s"
 msgstr ""
 
-#: src/iexamine.cpp:1742
+#: src/iexamine.cpp:1743
 msgid "Place a plank over the pit?"
 msgstr ""
 
-#: src/iexamine.cpp:1752
+#: src/iexamine.cpp:1753
 msgid "You place a plank of wood over the pit."
 msgstr ""
 
-#: src/iexamine.cpp:1762
+#: src/iexamine.cpp:1763
 msgid "Remove cover?"
 msgstr ""
 
-#: src/iexamine.cpp:1769
+#: src/iexamine.cpp:1770
 msgid "You remove the plank."
 msgstr ""
 
-#: src/iexamine.cpp:1808
+#: src/iexamine.cpp:1809
 msgid "You mess with the dial for a little bit… and it opens!"
 msgstr ""
 
-#: src/iexamine.cpp:1812
+#: src/iexamine.cpp:1813
 msgid "You mess with the dial for a little bit."
 msgstr ""
 
-#: src/iexamine.cpp:1818
+#: src/iexamine.cpp:1819
 msgid "You can't crack a safe while deaf!"
 msgstr ""
 
-#: src/iexamine.cpp:1821
+#: src/iexamine.cpp:1822
 msgid "You can't crack a safe while listening to music!"
 msgstr ""
 
-#: src/iexamine.cpp:1823
+#: src/iexamine.cpp:1824
 msgid "Attempt to crack the safe?"
 msgstr ""
 
-#: src/iexamine.cpp:1833
+#: src/iexamine.cpp:1834
 msgid "Attempt to hack this safe?"
 msgstr ""
 
-#: src/iexamine.cpp:1882
+#: src/iexamine.cpp:1883
 #, c-format
 msgid "What to do with the %s?"
 msgstr ""
 
-#: src/iexamine.cpp:1884
+#: src/iexamine.cpp:1885
 msgid "Pick the lock"
 msgstr ""
 
-#: src/iexamine.cpp:1885
+#: src/iexamine.cpp:1886
 msgid "Pry open"
 msgstr ""
 
-#: src/iexamine.cpp:1897
+#: src/iexamine.cpp:1898
 #, c-format
 msgid "The %s is locked.  You could pry it open with the right tool…"
 msgstr ""
 
 #. ~ %1$s: terrain/furniture name, %2$s: prying tool name
-#: src/iexamine.cpp:1902
+#: src/iexamine.cpp:1903
 #, c-format
 msgid "You attempt to pry open the %1$s using your %2$s…"
 msgstr ""
 
-#: src/iexamine.cpp:1938
+#: src/iexamine.cpp:1939
 #, c-format
 msgid "You don't have enough power to activate your %s."
 msgstr ""
 
-#: src/iexamine.cpp:1952
+#: src/iexamine.cpp:1953
 #, c-format
 msgid "The %s is locked.  If only you had something to pick its lock with…"
 msgstr ""
 
-#: src/iexamine.cpp:1969
+#: src/iexamine.cpp:1970
 #, c-format
 msgid "Pick the lock of %1$s using your %2$s?"
 msgstr ""
 
-#: src/iexamine.cpp:1974
+#: src/iexamine.cpp:1975
 #, c-format
 msgid "You attempt to pick the lock of %1$s using your %2$s…"
 msgstr ""
 
-#: src/iexamine.cpp:2010
+#: src/iexamine.cpp:2011
 #, c-format
 msgid "There's nobody here to protect %s.  Do you want to claim ownership?"
 msgstr ""
 
-#: src/iexamine.cpp:2013
+#: src/iexamine.cpp:2014
 #, c-format
 msgid ""
 "Take whatever you can find from the stores?  This may anger %s and their "
 "allies."
 msgstr ""
 
-#: src/iexamine.cpp:2018
+#: src/iexamine.cpp:2019
 msgid "You don't run this camp, the board is useless to you."
 msgstr ""
 
-#: src/iexamine.cpp:2036
+#: src/iexamine.cpp:2037
 msgid "This bulletin board is not inside a camp."
 msgstr ""
 
-#: src/iexamine.cpp:2049
+#: src/iexamine.cpp:2050
 msgid "Remove the petrified eye from the pedestal?"
 msgstr ""
 
-#: src/iexamine.cpp:2063
+#: src/iexamine.cpp:2064
 msgid "an ominous grinding noise…"
 msgstr ""
 
-#: src/iexamine.cpp:2065 src/iexamine.cpp:2085 src/iexamine.cpp:2092
+#: src/iexamine.cpp:2066 src/iexamine.cpp:2086 src/iexamine.cpp:2093
 msgid "The pedestal sinks into the ground…"
 msgstr ""
 
-#: src/iexamine.cpp:2071
+#: src/iexamine.cpp:2072
 msgid "You decided to leave the petrified eye on the pedestal…"
 msgstr ""
 
-#: src/iexamine.cpp:2090
+#: src/iexamine.cpp:2091
 msgid "Place your petrified eye on the pedestal?"
 msgstr ""
 
-#: src/iexamine.cpp:2096
+#: src/iexamine.cpp:2097
 msgid ""
 "This pedestal is engraved in eye-shaped diagrams, and has a large semi-"
 "spherical indentation at the top."
 msgstr ""
 
-#: src/iexamine.cpp:2112
+#: src/iexamine.cpp:2113
 msgid "You cannot look through the peephole from the outside."
 msgstr ""
 
-#: src/iexamine.cpp:2119
+#: src/iexamine.cpp:2120
 msgid "Do what with the door?"
 msgstr ""
 
-#: src/iexamine.cpp:2120
+#: src/iexamine.cpp:2121
 msgid "Peek through peephole."
 msgstr ""
 
-#: src/iexamine.cpp:2121
+#: src/iexamine.cpp:2122
 msgid "Open door."
 msgstr ""
 
-#: src/iexamine.cpp:2126
+#: src/iexamine.cpp:2127
 msgid "You peek through the peephole."
 msgstr ""
 
-#: src/iexamine.cpp:2129
+#: src/iexamine.cpp:2130
 msgid "You open the door."
 msgstr ""
 
-#: src/iexamine.cpp:2138
+#: src/iexamine.cpp:2139
 #, c-format
 msgid "Flip the %s?"
 msgstr ""
 
-#: src/iexamine.cpp:2198
+#: src/iexamine.cpp:2199
 msgid "You hear the rumble of rock shifting."
 msgstr ""
 
-#: src/iexamine.cpp:2209
+#: src/iexamine.cpp:2210
 msgid "This flower is dead.  You can't get it."
 msgstr ""
 
-#: src/iexamine.cpp:2211
+#: src/iexamine.cpp:2212
 msgid "This plant is dead.  You can't get it."
 msgstr ""
 
-#: src/iexamine.cpp:2237
+#: src/iexamine.cpp:2238
 msgid "You drink some nectar."
 msgstr ""
 
-#: src/iexamine.cpp:2259
+#: src/iexamine.cpp:2260
 #, c-format
 msgid "You harvest: %s."
 msgstr ""
 
-#: src/iexamine.cpp:2262
+#: src/iexamine.cpp:2263
 #, c-format
 msgid "You harvest and drop: %s."
 msgstr ""
 
-#: src/iexamine.cpp:2281
+#: src/iexamine.cpp:2282
 #, c-format
 msgid "You feel woozy as you explore the %s. Drink?"
 msgstr ""
 
-#: src/iexamine.cpp:2285
+#: src/iexamine.cpp:2286
 msgid "You slowly suck up the nectar."
 msgstr ""
 
-#: src/iexamine.cpp:2295 src/iexamine.cpp:2338 src/iexamine.cpp:2372
-#: src/iexamine.cpp:2494
+#: src/iexamine.cpp:2296 src/iexamine.cpp:2339 src/iexamine.cpp:2373
+#: src/iexamine.cpp:2495
 #, c-format
 msgid "Pick %s?"
 msgstr ""
 
-#: src/iexamine.cpp:2304
+#: src/iexamine.cpp:2305
 msgid "This flower has a heady aroma."
 msgstr ""
 
-#: src/iexamine.cpp:2314
+#: src/iexamine.cpp:2315
 msgid "The flower's fragrance makes you extremely drowsy…"
 msgstr ""
 
-#: src/iexamine.cpp:2316
+#: src/iexamine.cpp:2317
 msgid "Your legs are covered in the poppy's roots!"
 msgstr ""
 
-#: src/iexamine.cpp:2344
+#: src/iexamine.cpp:2345
 msgid "The cactus' nettles sting you!"
 msgstr ""
 
-#: src/iexamine.cpp:2377
+#: src/iexamine.cpp:2378
 #, c-format
 msgid "You don't have a digging tool to dig up roots.  Pick %s anyway?"
 msgstr ""
 
-#: src/iexamine.cpp:2405
+#: src/iexamine.cpp:2406
 msgid "Nothing can be harvested from this plant in current season."
 msgstr ""
 
-#: src/iexamine.cpp:2412 src/iexamine.cpp:2414
+#: src/iexamine.cpp:2413 src/iexamine.cpp:2415
 #, c-format
 msgid "Pick %1$s?"
 msgstr ""
 
-#: src/iexamine.cpp:2473
+#: src/iexamine.cpp:2474
 msgid "Nothing can be harvested from this plant in current season"
 msgstr ""
 
-#: src/iexamine.cpp:2480
+#: src/iexamine.cpp:2481
 msgid "This flower is still alive, despite the harsh conditions…"
 msgstr ""
 
-#: src/iexamine.cpp:2484
+#: src/iexamine.cpp:2485
 #, c-format
 msgid "You feel out of place as you explore the %s. Drink?"
 msgstr ""
 
-#: src/iexamine.cpp:2490
+#: src/iexamine.cpp:2491
 msgid "This flower tastes very wrong…"
 msgstr ""
 
-#: src/iexamine.cpp:2509
+#: src/iexamine.cpp:2510
 #, c-format
 msgid "The %s crumbles into spores!"
 msgstr ""
 
-#: src/iexamine.cpp:2548
+#: src/iexamine.cpp:2549
 msgid "Use which seed?"
 msgstr ""
 
-#: src/iexamine.cpp:2587 src/mission_companion.cpp:1541
+#: src/iexamine.cpp:2588 src/mission_companion.cpp:1541
 #: src/vehicle_part.cpp:677
 msgid "It is too cold to plant anything now."
 msgstr ""
 
-#: src/iexamine.cpp:2598
+#: src/iexamine.cpp:2599
 msgid "You have no seeds to plant."
 msgstr ""
 
-#: src/iexamine.cpp:2602
+#: src/iexamine.cpp:2603
 msgid "Something's lying there…"
 msgstr ""
 
-#: src/iexamine.cpp:2612 src/mission_companion.cpp:1568
+#: src/iexamine.cpp:2613 src/mission_companion.cpp:1568
 msgid "You saved your seeds for later."
 msgstr ""
 
-#: src/iexamine.cpp:2618
+#: src/iexamine.cpp:2619
 msgid "This type of seed can not be planted in this location."
 msgstr ""
 
-#: src/iexamine.cpp:2690
+#: src/iexamine.cpp:2691
 msgid "You pull up what's left of the planted crop and trample the rest."
 msgstr ""
 
-#: src/iexamine.cpp:2745
+#: src/iexamine.cpp:2746
 msgid ""
 "We have altered this unit's configuration to extract and provide local "
 "nutriment.  The Mycus provides."
 msgstr ""
 
-#: src/iexamine.cpp:2750
+#: src/iexamine.cpp:2751
 msgid "The seed blooms forth!  We have brought true beauty to this world."
 msgstr ""
 
-#: src/iexamine.cpp:2753
+#: src/iexamine.cpp:2754
 msgid "The seed blossoms rather rapidly…"
 msgstr ""
 
-#: src/iexamine.cpp:2756
+#: src/iexamine.cpp:2757
 msgid "The seed blossoms into a flower-looking fungus."
 msgstr ""
 
-#: src/iexamine.cpp:2761
+#: src/iexamine.cpp:2762
 msgid "You will need a grass-cutting tool to harvest this plant."
 msgstr ""
 
-#: src/iexamine.cpp:2783
+#: src/iexamine.cpp:2784
 msgid "You harvest the plant."
 msgstr ""
 
-#: src/iexamine.cpp:2793
+#: src/iexamine.cpp:2794
 msgid "Tile isn't a plant"
 msgstr ""
 
-#: src/iexamine.cpp:2796
+#: src/iexamine.cpp:2797
 msgid "Tile is already fertilized"
 msgstr ""
 
-#: src/iexamine.cpp:2801
+#: src/iexamine.cpp:2802
 #, c-format
 msgid "Tried to fertilize with %s, but player doesn't have any."
 msgstr ""
 
 #. ~ %1$s: plant name, %2$s: fertilizer name
-#: src/iexamine.cpp:2853
+#: src/iexamine.cpp:2854
 #, c-format
 msgid "You fertilize the %1$s with the %2$s."
 msgstr ""
 
-#: src/iexamine.cpp:2862
+#: src/iexamine.cpp:2863
 #, c-format
 msgid "You have no fertilizer for the %s."
 msgstr ""
 
-#: src/iexamine.cpp:2875
+#: src/iexamine.cpp:2876
 #, c-format
 msgid "Fertilize the %s"
 msgstr ""
 
-#: src/iexamine.cpp:2882
+#: src/iexamine.cpp:2883
 msgid "Use which fertilizer?"
 msgstr ""
 
-#: src/iexamine.cpp:2910 src/iexamine.cpp:4311
+#: src/iexamine.cpp:2911 src/iexamine.cpp:4312
 #, c-format
 msgid "Harvest the %s?"
 msgstr ""
 
-#: src/iexamine.cpp:2914
+#: src/iexamine.cpp:2915
 #, c-format
 msgid "This %s has already been fertilized."
 msgstr ""
 
-#: src/iexamine.cpp:2946
+#: src/iexamine.cpp:2947
 msgid "This kiln already contains charcoal."
 msgstr ""
 
-#: src/iexamine.cpp:2947
+#: src/iexamine.cpp:2948
 msgid "Remove it before firing the kiln again."
 msgstr ""
 
-#: src/iexamine.cpp:2952
+#: src/iexamine.cpp:2953
 #, c-format
 msgid "This kiln contains %s, which can't be made into charcoal!"
 msgstr ""
 
-#: src/iexamine.cpp:2959
+#: src/iexamine.cpp:2960
 msgid "This kiln is empty.  Fill it with wood or bone and try again."
 msgstr ""
 
-#: src/iexamine.cpp:2988
+#: src/iexamine.cpp:2989
 msgid "The batch in this kiln is too small to yield any charcoal."
 msgstr ""
 
-#: src/iexamine.cpp:2993
+#: src/iexamine.cpp:2994
 msgid "This kiln is ready to be fired, but you have no fire source."
 msgstr ""
 
-#: src/iexamine.cpp:2996
+#: src/iexamine.cpp:2997
 #, c-format
 msgid "This kiln contains %s %s of material, and is ready to be fired."
 msgstr ""
 
-#: src/iexamine.cpp:2998
+#: src/iexamine.cpp:2999
 msgid "Fire the kiln?"
 msgstr ""
 
-#: src/iexamine.cpp:3013
+#: src/iexamine.cpp:3014
 msgid "You happily light a fire in the charcoal kiln."
 msgstr ""
 
-#: src/iexamine.cpp:3015
+#: src/iexamine.cpp:3016
 msgid "You fire the charcoal kiln."
 msgstr ""
 
-#: src/iexamine.cpp:3035
+#: src/iexamine.cpp:3036
 msgid "This kiln is empty…"
 msgstr ""
 
-#: src/iexamine.cpp:3040
+#: src/iexamine.cpp:3041
 msgid "There's a charcoal kiln there."
 msgstr ""
 
-#: src/iexamine.cpp:3048 src/iexamine.cpp:3179
+#: src/iexamine.cpp:3049 src/iexamine.cpp:3180
 #, c-format
 msgid "It will finish burning in about %d hour."
 msgid_plural "It will finish burning in about %d hours."
@@ -650505,11 +650551,11 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: src/iexamine.cpp:3052 src/iexamine.cpp:3183
+#: src/iexamine.cpp:3053 src/iexamine.cpp:3184
 msgid "It will finish burning in less than an hour."
 msgstr ""
 
-#: src/iexamine.cpp:3054 src/iexamine.cpp:3185
+#: src/iexamine.cpp:3055 src/iexamine.cpp:3186
 #, c-format
 msgid "It should take about %d minute to finish burning."
 msgid_plural "It should take about %d minutes to finish burning."
@@ -650517,282 +650563,282 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: src/iexamine.cpp:3076
+#: src/iexamine.cpp:3077
 #, c-format
 msgid "It has finished burning, yielding %d charcoal."
 msgstr ""
 
-#: src/iexamine.cpp:3097
+#: src/iexamine.cpp:3098
 msgid "This furnace already contains calcium carbide."
 msgstr ""
 
-#: src/iexamine.cpp:3098
+#: src/iexamine.cpp:3099
 msgid "Remove it before activating the arc furnace again."
 msgstr ""
 
-#: src/iexamine.cpp:3103
+#: src/iexamine.cpp:3104
 #, c-format
 msgid "This furnace contains %s, which can't be made into calcium carbide!"
 msgstr ""
 
-#: src/iexamine.cpp:3110
+#: src/iexamine.cpp:3111
 msgid ""
 "This furnace is empty.  Fill it with powdered coke and lime mix, and try "
 "again."
 msgstr ""
 
-#: src/iexamine.cpp:3128
+#: src/iexamine.cpp:3129
 msgid ""
 "The batch in this furnace is too small to yield usable calcium carbide."
 msgstr ""
 
-#: src/iexamine.cpp:3133
+#: src/iexamine.cpp:3134
 msgid ""
 "This furnace is ready to be turned on, but you lack a UPS with sufficient "
 "power."
 msgstr ""
 
-#: src/iexamine.cpp:3136
+#: src/iexamine.cpp:3137
 #, c-format
 msgid "This furnace contains %s %s of material, and is ready to be turned on."
 msgstr ""
 
-#: src/iexamine.cpp:3138
+#: src/iexamine.cpp:3139
 msgid "Turn on the furnace?"
 msgstr ""
 
-#: src/iexamine.cpp:3149
+#: src/iexamine.cpp:3150
 msgid "You turn on the furnace."
 msgstr ""
 
-#: src/iexamine.cpp:3167
+#: src/iexamine.cpp:3168
 msgid "This furnace is empty…"
 msgstr ""
 
-#: src/iexamine.cpp:3172
+#: src/iexamine.cpp:3173
 msgid "There's an arc furnace there."
 msgstr ""
 
-#: src/iexamine.cpp:3207
+#: src/iexamine.cpp:3208
 #, c-format
 msgid "It has finished burning, yielding %d calcium carbide."
 msgstr ""
 
-#: src/iexamine.cpp:3230
+#: src/iexamine.cpp:3231
 #, c-format
 msgid "This pile contains %s, which can't be dried here!"
 msgstr ""
 
-#: src/iexamine.cpp:3237
+#: src/iexamine.cpp:3238
 msgid "Place some fresh grain here and try again."
 msgstr ""
 
-#: src/iexamine.cpp:3240
+#: src/iexamine.cpp:3241
 msgid "The stook will need to be set up outside to dry."
 msgstr ""
 
-#: src/iexamine.cpp:3243
+#: src/iexamine.cpp:3244
 msgid "This pile contains grain that is ready to be left out for drying."
 msgstr ""
 
-#: src/iexamine.cpp:3244
+#: src/iexamine.cpp:3245
 msgid "Stand the grain up to dry?"
 msgstr ""
 
-#: src/iexamine.cpp:3250
+#: src/iexamine.cpp:3251
 msgid "You set up the stook and leave it to dry."
 msgstr ""
 
-#: src/iexamine.cpp:3267
+#: src/iexamine.cpp:3268
 msgid "Examined furniture is stook_full but doesn't contain any grain."
 msgstr ""
 
-#: src/iexamine.cpp:3271
+#: src/iexamine.cpp:3272
 msgid "There's a grain stook there."
 msgstr ""
 
-#: src/iexamine.cpp:3277
+#: src/iexamine.cpp:3278
 #, c-format
 msgid "The stook will finish drying in %s."
 msgstr ""
 
-#: src/iexamine.cpp:3293
+#: src/iexamine.cpp:3294
 msgid "You take down the stook as the drying process is now finished."
 msgstr ""
 
-#: src/iexamine.cpp:3323 src/iexamine.cpp:3383
+#: src/iexamine.cpp:3324 src/iexamine.cpp:3384
 msgid "This autoclave is empty…"
 msgstr ""
 
-#: src/iexamine.cpp:3328
+#: src/iexamine.cpp:3329
 msgid ""
 "You need to remove all non-CBM items from the autoclave to start the "
 "program."
 msgstr ""
 
-#: src/iexamine.cpp:3333
+#: src/iexamine.cpp:3334
 msgid ""
 "Some of those CBMs are filthy, you should wash them first for the "
 "sterilization process to work properly."
 msgstr ""
 
-#: src/iexamine.cpp:3343
+#: src/iexamine.cpp:3344
 msgid "Start the autoclave?"
 msgstr ""
 
-#: src/iexamine.cpp:3356
+#: src/iexamine.cpp:3357
 msgid "You start the autoclave."
 msgstr ""
 
-#: src/iexamine.cpp:3389
+#: src/iexamine.cpp:3390
 msgid "ERROR Autoclave can't process non CBM items."
 msgstr ""
 
-#: src/iexamine.cpp:3392
+#: src/iexamine.cpp:3393
 msgid "The autoclave is running."
 msgstr ""
 
-#: src/iexamine.cpp:3399
+#: src/iexamine.cpp:3400
 #, c-format
 msgid "The cycle will be complete in %s."
 msgstr ""
 
-#: src/iexamine.cpp:3409
+#: src/iexamine.cpp:3410
 msgid "The cycle is complete, the CBMs are now sterile."
 msgstr ""
 
-#: src/iexamine.cpp:3413
+#: src/iexamine.cpp:3414
 msgid ""
 "CBMs in direct contact with the environment will almost immediately become "
 "contaminated."
 msgstr ""
 
-#: src/iexamine.cpp:3471 src/iexamine.cpp:3638 src/iexamine.cpp:3867
-#: src/iexamine.cpp:4470 src/vehicle_use.cpp:2449
+#: src/iexamine.cpp:3472 src/iexamine.cpp:3639 src/iexamine.cpp:3868
+#: src/iexamine.cpp:4471 src/vehicle_use.cpp:2449
 msgid "Select an action"
 msgstr ""
 
-#: src/iexamine.cpp:3478
+#: src/iexamine.cpp:3479
 msgid "Start a fire"
 msgstr ""
 
-#: src/iexamine.cpp:3478
+#: src/iexamine.cpp:3479
 msgid "Start a fire… you'll need a fire source."
 msgstr ""
 
-#: src/iexamine.cpp:3480
+#: src/iexamine.cpp:3481
 msgid "Use a CBM to start a fire"
 msgstr ""
 
-#: src/iexamine.cpp:3483
+#: src/iexamine.cpp:3484
 msgid "Extinguish fire"
 msgstr ""
 
-#: src/iexamine.cpp:3485
+#: src/iexamine.cpp:3486
 msgid "Extinguish fire (bashing item required)"
 msgstr ""
 
-#: src/iexamine.cpp:3488 src/iexamine.cpp:7265
+#: src/iexamine.cpp:3489 src/iexamine.cpp:7266
 #, c-format
 msgid "Take down the %s"
 msgstr ""
 
-#: src/iexamine.cpp:3502
+#: src/iexamine.cpp:3503
 #, c-format
 msgid "You attempt to start a fire with your %s…"
 msgstr ""
 
-#: src/iexamine.cpp:3512
+#: src/iexamine.cpp:3513
 msgid "You weren't able to start a fire."
 msgstr ""
 
-#: src/iexamine.cpp:3520
+#: src/iexamine.cpp:3521
 msgid "You can't light a fire there."
 msgstr ""
 
-#: src/iexamine.cpp:3526
+#: src/iexamine.cpp:3527
 #, c-format
 msgid "Really take down the %s while it's on fire?"
 msgstr ""
 
-#: src/iexamine.cpp:3540
+#: src/iexamine.cpp:3541
 #, c-format
 msgid "With a few determined moves you put out the fire in the %s."
 msgstr ""
 
-#: src/iexamine.cpp:3597
+#: src/iexamine.cpp:3598
 msgid "This keg is empty."
 msgstr ""
 
-#: src/iexamine.cpp:3601
+#: src/iexamine.cpp:3602
 msgid "You have no brew to ferment."
 msgstr ""
 
-#: src/iexamine.cpp:3617
+#: src/iexamine.cpp:3618
 msgid "Use which brew?"
 msgstr ""
 
-#: src/iexamine.cpp:3619
+#: src/iexamine.cpp:3620
 #, c-format
 msgid "Set %s in the vat?"
 msgstr ""
 
-#: src/iexamine.cpp:3634
+#: src/iexamine.cpp:3635
 #, c-format
 msgid "This keg contains %s (%d), %0.f%% full."
 msgstr ""
 
-#: src/iexamine.cpp:3640
+#: src/iexamine.cpp:3641
 #, c-format
 msgid "Add more %s to the vat"
 msgstr ""
 
-#: src/iexamine.cpp:3642
+#: src/iexamine.cpp:3643
 #, c-format
 msgid "Remove %s from the vat"
 msgstr ""
 
-#: src/iexamine.cpp:3643
+#: src/iexamine.cpp:3644
 msgid "Start fermenting cycle"
-msgstr ""
-
-#: src/iexamine.cpp:3675
-#, c-format
-msgid "Set %s in the vat."
 msgstr ""
 
 #: src/iexamine.cpp:3676
 #, c-format
+msgid "Set %s in the vat."
+msgstr ""
+
+#: src/iexamine.cpp:3677
+#, c-format
 msgid "The keg now contains %s (%d), %0.f%% full."
 msgstr ""
 
-#: src/iexamine.cpp:3683
+#: src/iexamine.cpp:3684
 msgid "Start fermenting cycle?"
 msgstr ""
 
-#: src/iexamine.cpp:3690
+#: src/iexamine.cpp:3691
 msgid "The vat is full, so you close the lid and start the fermenting cycle."
 msgstr ""
 
-#: src/iexamine.cpp:3692
+#: src/iexamine.cpp:3693
 msgid "You close the lid and start the fermenting cycle."
 msgstr ""
 
-#: src/iexamine.cpp:3709
+#: src/iexamine.cpp:3710
 #, c-format
 msgid "You remove %s from the vat."
 msgstr ""
 
-#: src/iexamine.cpp:3724
+#: src/iexamine.cpp:3725
 #, c-format
 msgid "There's a vat of %s set to ferment there."
 msgstr ""
 
-#: src/iexamine.cpp:3732
+#: src/iexamine.cpp:3733
 msgid "It will finish brewing in less than an hour."
 msgstr ""
 
-#: src/iexamine.cpp:3734
+#: src/iexamine.cpp:3735
 #, c-format
 msgid "It will finish brewing in about %d hour."
 msgid_plural "It will finish brewing in about %d hours."
@@ -650800,98 +650846,98 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: src/iexamine.cpp:3741
+#: src/iexamine.cpp:3742
 msgid "Finish brewing?"
 msgstr ""
 
-#: src/iexamine.cpp:3754
+#: src/iexamine.cpp:3755
 #, c-format
 msgid "The %s is now ready for bottling."
 msgstr ""
 
-#: src/iexamine.cpp:3757
+#: src/iexamine.cpp:3758
 #, c-format
 msgid "You remove the %s from the vat."
 msgstr ""
 
-#: src/iexamine.cpp:3771
+#: src/iexamine.cpp:3772
 #, c-format
 msgid "There's a vat of fermented %s there."
 msgstr ""
 
-#: src/iexamine.cpp:3826
+#: src/iexamine.cpp:3827
 msgid "This tank is empty."
 msgstr ""
 
-#: src/iexamine.cpp:3830
+#: src/iexamine.cpp:3831
 msgid "You have nothing that could be used as biomass to ferment."
 msgstr ""
 
-#: src/iexamine.cpp:3846
+#: src/iexamine.cpp:3847
 msgid "What do you want to use as biomass?"
 msgstr ""
 
-#: src/iexamine.cpp:3848
+#: src/iexamine.cpp:3849
 #, c-format
 msgid "Set %s in the tank?"
 msgstr ""
 
-#: src/iexamine.cpp:3863
+#: src/iexamine.cpp:3864
 #, c-format
 msgid "This tank contains %s (%d), %0.f%% full."
 msgstr ""
 
-#: src/iexamine.cpp:3869
+#: src/iexamine.cpp:3870
 #, c-format
 msgid "Add more %s to the tank"
 msgstr ""
 
-#: src/iexamine.cpp:3871
+#: src/iexamine.cpp:3872
 #, c-format
 msgid "Remove %s from the tank"
 msgstr ""
 
-#: src/iexamine.cpp:3872
+#: src/iexamine.cpp:3873
 msgid "Start anaerobic digestion"
-msgstr ""
-
-#: src/iexamine.cpp:3904
-#, c-format
-msgid "Set %s in the tank."
 msgstr ""
 
 #: src/iexamine.cpp:3905
 #, c-format
+msgid "Set %s in the tank."
+msgstr ""
+
+#: src/iexamine.cpp:3906
+#, c-format
 msgid "The tank now contains %s (%d), %0.f%% full."
 msgstr ""
 
-#: src/iexamine.cpp:3912
+#: src/iexamine.cpp:3913
 msgid "Start anaerobic digestion?"
 msgstr ""
 
-#: src/iexamine.cpp:3919
+#: src/iexamine.cpp:3920
 msgid "The tank is full, so you close the lid and start anaerobic digestion."
 msgstr ""
 
-#: src/iexamine.cpp:3921
+#: src/iexamine.cpp:3922
 msgid "You close the lid and start anaerobic digestion."
 msgstr ""
 
-#: src/iexamine.cpp:3943
+#: src/iexamine.cpp:3944
 #, c-format
 msgid "You remove %s from the tank."
 msgstr ""
 
-#: src/iexamine.cpp:3963
+#: src/iexamine.cpp:3964
 #, c-format
 msgid "There's a tank of %s set to ferment there."
 msgstr ""
 
-#: src/iexamine.cpp:3972
+#: src/iexamine.cpp:3973
 msgid "It will finish fermenting in less than an hour."
 msgstr ""
 
-#: src/iexamine.cpp:3974
+#: src/iexamine.cpp:3975
 #, c-format
 msgid "It will finish fermenting in about %d hour."
 msgid_plural "It will finish fermenting in about %d hours."
@@ -650899,7 +650945,7 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: src/iexamine.cpp:3978
+#: src/iexamine.cpp:3979
 #, c-format
 msgid "It will finish fermenting in about %d day."
 msgid_plural "It will finish fermenting in about %d days."
@@ -650907,24 +650953,24 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: src/iexamine.cpp:3983
+#: src/iexamine.cpp:3984
 msgid "Gather biogas?  Can't stop once releasing started."
 msgstr ""
 
-#: src/iexamine.cpp:3988
+#: src/iexamine.cpp:3989
 msgid "No biogas gathered."
 msgstr ""
 
-#: src/iexamine.cpp:3997 src/iexamine.cpp:4032
+#: src/iexamine.cpp:3998 src/iexamine.cpp:4033
 msgid "You released some biogas from the tank."
 msgstr ""
 
-#: src/iexamine.cpp:4001 src/iexamine.cpp:4036
+#: src/iexamine.cpp:4002 src/iexamine.cpp:4037
 #, c-format
 msgid "Gathered %s units of biogas."
 msgstr ""
 
-#: src/iexamine.cpp:4006
+#: src/iexamine.cpp:4007
 #, c-format
 msgid "Biogas generating process started for about %d day."
 msgid_plural "Biogas generating process started for about %d days."
@@ -650932,536 +650978,536 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: src/iexamine.cpp:4015
+#: src/iexamine.cpp:4016
 msgid "Finish fermenting?"
 msgstr ""
 
-#: src/iexamine.cpp:4028
+#: src/iexamine.cpp:4029
 #, c-format
 msgid "The %s is now ready for use."
 msgstr ""
 
-#: src/iexamine.cpp:4040
+#: src/iexamine.cpp:4041
 #, c-format
 msgid "You removed the %s from the tank."
 msgstr ""
 
-#: src/iexamine.cpp:4054
+#: src/iexamine.cpp:4055
 #, c-format
 msgid "There's a tank of %s there."
 msgstr ""
 
-#: src/iexamine.cpp:4129
+#: src/iexamine.cpp:4130
 #, c-format
 msgid "You don't have any drinks to fill the %s with."
 msgstr ""
 
-#: src/iexamine.cpp:4153
+#: src/iexamine.cpp:4154
 msgid "Store which drink?"
 msgstr ""
 
-#: src/iexamine.cpp:4158
+#: src/iexamine.cpp:4159
 #, c-format
 msgid "Fill the %1$s with %2$s?"
 msgstr ""
 
-#: src/iexamine.cpp:4184
+#: src/iexamine.cpp:4185
 #, c-format
 msgid "You completely fill the %1$s with %2$s."
 msgstr ""
 
-#: src/iexamine.cpp:4187 src/iexamine.cpp:4255
+#: src/iexamine.cpp:4188 src/iexamine.cpp:4256
 #, c-format
 msgid "You fill the %1$s with %2$s."
 msgstr ""
 
 #. ~ $1 - furniture name, $2 - liquid name, $3 - liquid charges, $4 - liquid
 #. volume, $5 - liquid capacity
-#: src/iexamine.cpp:4209
+#: src/iexamine.cpp:4210
 #, c-format
 msgid "%1$s with %2$s (%3$d)    %4$s / %5$s"
 msgstr ""
 
-#: src/iexamine.cpp:4213
+#: src/iexamine.cpp:4214
 #, c-format
 msgid "Dispense or dump %s"
 msgstr ""
 
-#: src/iexamine.cpp:4215 src/vehicle_use.cpp:2245
+#: src/iexamine.cpp:4216 src/vehicle_use.cpp:2245
 msgid "Have a drink"
 msgstr ""
 
-#: src/iexamine.cpp:4216
+#: src/iexamine.cpp:4217
 msgid "Refill"
 msgstr ""
 
-#: src/iexamine.cpp:4223 src/iexamine.cpp:4235
+#: src/iexamine.cpp:4224 src/iexamine.cpp:4236
 #, c-format
 msgid "You squeeze the last drops of %1$s from the %2$s."
 msgstr ""
 
-#: src/iexamine.cpp:4243
+#: src/iexamine.cpp:4244
 #, c-format
 msgid "The %s is completely full."
 msgstr ""
 
-#: src/iexamine.cpp:4248
+#: src/iexamine.cpp:4249
 #, c-format
 msgid "You don't have any %1$s to fill the %2$s with."
 msgstr ""
 
-#: src/iexamine.cpp:4285
+#: src/iexamine.cpp:4286
 #, c-format
 msgid ""
 "The %s already contains some %s, you can't add a different liquid to it."
 msgstr ""
 
-#: src/iexamine.cpp:4292
+#: src/iexamine.cpp:4293
 #, c-format
 msgid "The %s is full."
 msgstr ""
 
-#: src/iexamine.cpp:4345
+#: src/iexamine.cpp:4346
 #, c-format
 msgid "Dig up %s?  This kills the tree!"
 msgstr ""
 
-#: src/iexamine.cpp:4358
+#: src/iexamine.cpp:4359
 msgid "You could dig this tree up for roots…"
 msgstr ""
 
-#: src/iexamine.cpp:4373
+#: src/iexamine.cpp:4374
 msgid "Use which container to collect sap?"
 msgstr ""
 
-#: src/iexamine.cpp:4374
+#: src/iexamine.cpp:4375
 msgid "You don't have a container at hand."
 msgstr ""
 
-#: src/iexamine.cpp:4381
+#: src/iexamine.cpp:4382
 msgid "You need a tool to drill the crust to tap this maple tree."
 msgstr ""
 
-#: src/iexamine.cpp:4387
+#: src/iexamine.cpp:4388
 msgid ""
 "You need a tool to hammer the spile into the crust to tap this maple tree."
 msgstr ""
 
-#: src/iexamine.cpp:4395
+#: src/iexamine.cpp:4396
 msgid "Use which tapping tool?"
 msgstr ""
 
-#: src/iexamine.cpp:4395
+#: src/iexamine.cpp:4396
 msgid "You don't have a tapping tool at hand."
 msgstr ""
 
-#: src/iexamine.cpp:4407
+#: src/iexamine.cpp:4408
 #, c-format
 msgid "You drill the maple tree crust and tap a %s into the prepared hole."
 msgstr ""
 
-#: src/iexamine.cpp:4415
+#: src/iexamine.cpp:4416
 #, c-format
 msgid "You hang the %s under the %s to collect sap."
 msgstr ""
 
-#: src/iexamine.cpp:4419 src/iexamine.cpp:4505
+#: src/iexamine.cpp:4420 src/iexamine.cpp:4506
 msgid "No container added.  The sap will just spill on the ground."
 msgstr ""
 
-#: src/iexamine.cpp:4463
+#: src/iexamine.cpp:4464
 msgid "Remove tap"
-msgstr ""
-
-#: src/iexamine.cpp:4465
-#, c-format
-msgid "Add a container to receive the %s"
 msgstr ""
 
 #: src/iexamine.cpp:4466
 #, c-format
+msgid "Add a container to receive the %s"
+msgstr ""
+
+#: src/iexamine.cpp:4467
+#, c-format
 msgid "Harvest current %s (%d)"
 msgstr ""
 
-#: src/iexamine.cpp:4468
+#: src/iexamine.cpp:4469
 msgid "Remove container"
 msgstr ""
 
-#: src/iexamine.cpp:4476
+#: src/iexamine.cpp:4477
 #, c-format
 msgid "You need a hammering tool to remove the %s from the crust."
 msgstr ""
 
-#: src/iexamine.cpp:4481
+#: src/iexamine.cpp:4482
 #, c-format
 msgid "You remove the %s."
 msgstr ""
 
-#: src/iexamine.cpp:4502
+#: src/iexamine.cpp:4503
 #, c-format
 msgid "You hang the %s under the spile to collect sap."
 msgstr ""
 
-#: src/iexamine.cpp:4537
+#: src/iexamine.cpp:4538
 msgid "The shrub offers up a fruit, then crumbles into a fungal bed."
 msgstr ""
 
-#: src/iexamine.cpp:4551
+#: src/iexamine.cpp:4552
 msgid ""
 "We have located a particularly vital nutrient deposit underneath this "
 "location."
 msgstr ""
 
-#: src/iexamine.cpp:4552
+#: src/iexamine.cpp:4553
 msgid "Additional nourishment is available."
 msgstr ""
 
-#: src/iexamine.cpp:4558
+#: src/iexamine.cpp:4559
 msgid "The tree offers up a fruit, then shrivels into a fungal tree."
 msgstr ""
 
-#: src/iexamine.cpp:4572
+#: src/iexamine.cpp:4573
 #, c-format
 msgid "Forage through %s?"
 msgstr ""
 
-#: src/iexamine.cpp:4577
+#: src/iexamine.cpp:4578
 #, c-format
 msgid "You forage through the %s."
 msgstr ""
 
-#: src/iexamine.cpp:4603
+#: src/iexamine.cpp:4604
 #, c-format
 msgid "That %s looks too dangerous to mess with.  Best leave it alone."
 msgstr ""
 
-#: src/iexamine.cpp:4613
+#: src/iexamine.cpp:4614
 #, c-format
 msgid "There is a %s there.  Take down?"
 msgstr ""
 
-#: src/iexamine.cpp:4616
+#: src/iexamine.cpp:4617
 #, c-format
 msgid "The %s is taken down."
 msgstr ""
 
-#: src/iexamine.cpp:4621
+#: src/iexamine.cpp:4622
 #, c-format
 msgid "There is a %s there.  Disarm?"
 msgstr ""
 
-#: src/iexamine.cpp:4651
+#: src/iexamine.cpp:4652
 msgid "You disarm the trap!"
 msgstr ""
 
-#: src/iexamine.cpp:4657
+#: src/iexamine.cpp:4658
 msgid "You fail to disarm the trap."
 msgstr ""
 
-#: src/iexamine.cpp:4662
+#: src/iexamine.cpp:4663
 msgid "You fail to disarm the trap, and you set it off!"
 msgstr ""
 
-#: src/iexamine.cpp:4702
+#: src/iexamine.cpp:4703
 #, c-format
 msgid "Unfinished task: %s, %d%% complete here, continue construction?"
 msgstr ""
 
-#: src/iexamine.cpp:4704
+#: src/iexamine.cpp:4705
 msgid "Cancel construction?"
 msgstr ""
 
-#: src/iexamine.cpp:4815
+#: src/iexamine.cpp:4816
 #, c-format
 msgid "This %s can not be reloaded!"
 msgstr ""
 
-#: src/iexamine.cpp:4830
+#: src/iexamine.cpp:4831
 #, c-format
 msgid "The %1$s contains %2$d %3$s.  Unload?"
 msgstr ""
 
-#: src/iexamine.cpp:4843
+#: src/iexamine.cpp:4844
 #, c-format
 msgid "You remove %1$s from the %2$s."
 msgstr ""
 
-#: src/iexamine.cpp:4859
+#: src/iexamine.cpp:4860
 #, c-format
 msgid "The %s is full, cannot reload."
 msgstr ""
 
-#: src/iexamine.cpp:4877
+#: src/iexamine.cpp:4878
 #, c-format
 msgid "This %s is already loaded with %s!"
 msgstr ""
 
-#: src/iexamine.cpp:4884
+#: src/iexamine.cpp:4885
 #, c-format
 msgid "Put how many of the %1$s into the %2$s?"
 msgstr ""
 
 #. ~ %1$s - furniture, %2$d - number, %3$s items.
-#: src/iexamine.cpp:4918
+#: src/iexamine.cpp:4919
 #, c-format
 msgid "The %1$s contains %2$d %3$s."
 msgstr ""
 
-#: src/iexamine.cpp:4921
+#: src/iexamine.cpp:4922
 #, c-format
 msgid "You reload the %s."
 msgstr ""
 
-#: src/iexamine.cpp:4947
+#: src/iexamine.cpp:4948
 msgid "Do what with the curtains?"
 msgstr ""
 
-#: src/iexamine.cpp:4949
+#: src/iexamine.cpp:4950
 msgid "Peek through the closed curtains."
 msgstr ""
 
-#: src/iexamine.cpp:4950
+#: src/iexamine.cpp:4951
 msgid "Tear down the curtains."
 msgstr ""
 
-#: src/iexamine.cpp:4957 src/vehicle_use.cpp:2217
+#: src/iexamine.cpp:4958 src/vehicle_use.cpp:2217
 msgid "You carefully peek through the curtains."
 msgstr ""
 
-#: src/iexamine.cpp:4970
+#: src/iexamine.cpp:4971
 msgid "You tear the curtains and curtain rod off the windowframe."
 msgstr ""
 
-#: src/iexamine.cpp:4985
+#: src/iexamine.cpp:4986
 msgid "You're illiterate, and can't read the message on the sign."
 msgstr ""
 
-#: src/iexamine.cpp:4989
+#: src/iexamine.cpp:4990
 msgid "Nothing legible on the sign."
 msgstr ""
 
-#: src/iexamine.cpp:5004
+#: src/iexamine.cpp:5005
 msgid "Overwrite the existing message on the sign?"
 msgstr ""
 
-#: src/iexamine.cpp:5005
+#: src/iexamine.cpp:5006
 msgid "Add a message to the sign?"
 msgstr ""
 
-#: src/iexamine.cpp:5006
+#: src/iexamine.cpp:5007
 msgid "You leave the sign alone."
 msgstr ""
 
-#: src/iexamine.cpp:5009
+#: src/iexamine.cpp:5010
 msgid "Write what?"
 msgstr ""
 
-#: src/iexamine.cpp:5016
+#: src/iexamine.cpp:5017
 msgid "You overwrite the previous message on the sign with your graffiti."
 msgstr ""
 
-#: src/iexamine.cpp:5017
+#: src/iexamine.cpp:5018
 msgid "You graffiti a message onto the sign."
 msgstr ""
 
-#: src/iexamine.cpp:5135
+#: src/iexamine.cpp:5136
 msgid "Platinum member"
 msgstr ""
 
-#: src/iexamine.cpp:5137
+#: src/iexamine.cpp:5138
 msgid "Gold member"
 msgstr ""
 
-#: src/iexamine.cpp:5139
+#: src/iexamine.cpp:5140
 msgid "Silver member"
 msgstr ""
 
-#: src/iexamine.cpp:5141
+#: src/iexamine.cpp:5142
 msgid "Beloved customer"
 msgstr ""
 
-#: src/iexamine.cpp:5261
+#: src/iexamine.cpp:5262
 msgid "You're illiterate, and can't read the screen."
 msgstr ""
 
-#: src/iexamine.cpp:5270
+#: src/iexamine.cpp:5271
 #, c-format
 msgid "Failure!  No %s pumps found!"
 msgstr ""
 
-#: src/iexamine.cpp:5277
+#: src/iexamine.cpp:5278
 #, c-format
 msgid "Failure!  No %s tank found!"
 msgstr ""
 
-#: src/iexamine.cpp:5284
+#: src/iexamine.cpp:5285
 #, c-format
 msgid "This station is out of %s.  We apologize for the inconvenience."
 msgstr ""
 
-#: src/iexamine.cpp:5300
+#: src/iexamine.cpp:5301
 msgid "Welcome to AutoGas!"
 msgstr ""
 
-#: src/iexamine.cpp:5301
+#: src/iexamine.cpp:5302
 msgid "What would you like to do?"
 msgstr ""
 
-#: src/iexamine.cpp:5303
+#: src/iexamine.cpp:5304
 #, c-format
 msgid "Buy %s."
 msgstr ""
 
-#: src/iexamine.cpp:5305
+#: src/iexamine.cpp:5306
 msgid "Refund cash."
 msgstr ""
 
-#: src/iexamine.cpp:5307
+#: src/iexamine.cpp:5308
 #, c-format
 msgid "Current %s pump: "
 msgstr ""
 
-#: src/iexamine.cpp:5311
+#: src/iexamine.cpp:5312
 #, c-format
 msgid "Choose a %s pump."
 msgstr ""
 
-#: src/iexamine.cpp:5313
+#: src/iexamine.cpp:5314
 msgid "Your discount: "
 msgstr ""
 
-#: src/iexamine.cpp:5315
+#: src/iexamine.cpp:5316
 #, c-format
 msgid "Your price per %s unit: "
 msgstr ""
 
-#: src/iexamine.cpp:5320
+#: src/iexamine.cpp:5321
 msgid "Hack console."
 msgstr ""
 
-#: src/iexamine.cpp:5329
+#: src/iexamine.cpp:5330
 #, c-format
 msgid "Please choose %s pump:"
 msgstr ""
 
-#: src/iexamine.cpp:5334
+#: src/iexamine.cpp:5335
 msgid "Pump "
 msgstr ""
 
-#: src/iexamine.cpp:5359
+#: src/iexamine.cpp:5360
 msgid "Not enough money, please refill your cash card."
 msgstr ""
 
-#: src/iexamine.cpp:5366
+#: src/iexamine.cpp:5367
 #, c-format
 msgid "How many liters of %s to buy?  Max: %d L.  (0 to cancel)"
 msgstr ""
 
-#: src/iexamine.cpp:5386 src/iexamine.cpp:5416
+#: src/iexamine.cpp:5387 src/iexamine.cpp:5417
 msgid "Glug Glug Glug"
 msgstr ""
 
-#: src/iexamine.cpp:5393 src/iexamine.cpp:5436
+#: src/iexamine.cpp:5394 src/iexamine.cpp:5437
 #, c-format
 msgid "Your cash cards now hold %s."
 msgstr ""
 
-#: src/iexamine.cpp:5405
+#: src/iexamine.cpp:5406
 msgid "You do not have a cash card to refund money!"
 msgstr ""
 
-#: src/iexamine.cpp:5413
+#: src/iexamine.cpp:5414
 msgid "Unable to refund, no fuel in pump."
 msgstr ""
 
-#: src/iexamine.cpp:5482
+#: src/iexamine.cpp:5483
 msgid "There is a ledge here.  What do you want to do?"
 msgstr ""
 
-#: src/iexamine.cpp:5485
+#: src/iexamine.cpp:5486
 msgid "Peek down."
 msgstr ""
 
-#: src/iexamine.cpp:5489
+#: src/iexamine.cpp:5490
 #, c-format
 msgid "Reach for the %s below."
 msgstr ""
 
-#: src/iexamine.cpp:5492
+#: src/iexamine.cpp:5493
 msgid "Can't jump across (need a small gap)."
 msgstr ""
 
-#: src/iexamine.cpp:5492
+#: src/iexamine.cpp:5493
 msgid "Jump across."
 msgstr ""
 
-#: src/iexamine.cpp:5493
+#: src/iexamine.cpp:5494
 msgid "Fall down."
 msgstr ""
 
-#: src/iexamine.cpp:5497
+#: src/iexamine.cpp:5498
 msgid "Glide away."
 msgstr ""
 
-#: src/iexamine.cpp:5497
+#: src/iexamine.cpp:5498
 msgid "You can't glide in your current state"
 msgstr ""
 
-#: src/iexamine.cpp:5516
+#: src/iexamine.cpp:5517
 msgid "You are too weak to jump over an obstacle."
 msgstr ""
 
-#: src/iexamine.cpp:5518
+#: src/iexamine.cpp:5519
 msgid "You are too burdened to jump over an obstacle."
 msgstr ""
 
-#: src/iexamine.cpp:5520
+#: src/iexamine.cpp:5521
 msgid "You cannot jump over an obstacle - something is blocking the way."
 msgstr ""
 
-#: src/iexamine.cpp:5522
+#: src/iexamine.cpp:5523
 #, c-format
 msgid "You cannot jump over an obstacle - there is %s blocking the way."
 msgstr ""
 
-#: src/iexamine.cpp:5525
+#: src/iexamine.cpp:5526
 msgid "You are not going to jump over an obstacle only to fall down."
 msgstr ""
 
-#: src/iexamine.cpp:5527
+#: src/iexamine.cpp:5528
 msgid "You jump over an obstacle."
 msgstr ""
 
-#: src/iexamine.cpp:5545
+#: src/iexamine.cpp:5546
 msgid "You can't peek down there."
 msgstr ""
 
-#: src/iexamine.cpp:5550
+#: src/iexamine.cpp:5551
 msgid "You peek over the ledge."
 msgstr ""
 
-#: src/iexamine.cpp:5561
+#: src/iexamine.cpp:5562
 msgid "You soar away from the ledge."
 msgstr ""
 
-#: src/iexamine.cpp:5566
+#: src/iexamine.cpp:5567
 msgid "Your glide is aided by a tailwind."
 msgstr ""
 
-#: src/iexamine.cpp:5571
+#: src/iexamine.cpp:5572
 msgid "Your glide is hindered by a headwind."
 msgstr ""
 
-#: src/iexamine.cpp:5586
+#: src/iexamine.cpp:5587
 msgid "Climbing might be safer.  Really fall from the ledge?"
 msgstr ""
 
-#: src/iexamine.cpp:5600 src/iexamine.cpp:5605
+#: src/iexamine.cpp:5601 src/iexamine.cpp:5606
 msgid "You decided to step back from the ledge."
 msgstr ""
 
 #. ~ %1$s is the name of the ally
-#: src/iexamine.cpp:5691
+#: src/iexamine.cpp:5692
 #, c-format
 msgid ""
 "<color_white>%1$s is asleep, but has a <color_green>%2$d<color_white> chance"
@@ -651470,91 +651516,91 @@ msgid ""
 msgstr ""
 
 #. ~ %1$s is the name of the ally
-#: src/iexamine.cpp:5699
+#: src/iexamine.cpp:5700
 #, c-format
 msgid "%1$s will perform the operation with a %2$d chance of success."
 msgstr ""
 
-#: src/iexamine.cpp:5742
+#: src/iexamine.cpp:5743
 msgid "No connected couches found.  Operation impossible.  Exiting."
 msgstr ""
 
-#: src/iexamine.cpp:5748
+#: src/iexamine.cpp:5749
 msgid "Patient is dead.  Please remove corpse to proceed.  Exiting."
 msgstr ""
 
-#: src/iexamine.cpp:5752
+#: src/iexamine.cpp:5753
 msgid ""
 "ERROR Bionic Level Assessment: FULL CYBORG.  Autodoc Mk. XI can't operate.  "
 "Please move patient to appropriate facility.  Exiting."
 msgstr ""
 
-#: src/iexamine.cpp:5757
+#: src/iexamine.cpp:5758
 msgid "Autodoc Mk. XI.  Status: Online.  Please choose operation."
 msgstr ""
 
-#: src/iexamine.cpp:5758
+#: src/iexamine.cpp:5759
 msgid "Choose Compact Bionic Module to install."
 msgstr ""
 
-#: src/iexamine.cpp:5759
+#: src/iexamine.cpp:5760
 msgid "Choose installed bionic to uninstall."
 msgstr ""
 
-#: src/iexamine.cpp:5764
+#: src/iexamine.cpp:5765
 msgid "ERROR NO SPACE AVAILABLE.  Operation impossible.  Exiting."
 msgstr ""
 
-#: src/iexamine.cpp:5769
+#: src/iexamine.cpp:5770
 msgid "Personality_Override"
 msgstr ""
 
-#: src/iexamine.cpp:5771
+#: src/iexamine.cpp:5772
 msgid "C0RR#PTED?D#TA"
 msgstr ""
 
-#: src/iexamine.cpp:5773 src/iexamine.cpp:5928 src/wish.cpp:399
+#: src/iexamine.cpp:5774 src/iexamine.cpp:5929 src/wish.cpp:399
 msgid "Choose bionic to uninstall"
 msgstr ""
 
-#: src/iexamine.cpp:5777
+#: src/iexamine.cpp:5778
 msgid "UNKNOWN COMMAND.  Autodoc Mk. XI. Crashed."
 msgstr ""
 
-#: src/iexamine.cpp:5787
+#: src/iexamine.cpp:5788
 msgid ""
 "No patient found located on the connected couches.  Operation impossible.  "
 "Exiting."
 msgstr ""
 
-#: src/iexamine.cpp:5791
+#: src/iexamine.cpp:5792
 #, c-format
 msgid ""
 "Operation underway.  Please wait until the end of the current procedure.  "
 "Estimated time remaining: %s."
 msgstr ""
 
-#: src/iexamine.cpp:5793
+#: src/iexamine.cpp:5794
 #, c-format
 msgid "The Autodoc is working on %s."
 msgstr ""
 
-#: src/iexamine.cpp:5798
+#: src/iexamine.cpp:5799
 msgid "Autodoc Mk. XI.  Status: Online.  Please choose operation"
 msgstr ""
 
-#: src/iexamine.cpp:5802
+#: src/iexamine.cpp:5803
 msgid " WARNING: Operator missing"
 msgstr ""
 
-#: src/iexamine.cpp:5805
+#: src/iexamine.cpp:5806
 msgid ""
 "\n"
 " Using the Autodoc without an operator can lead to <color_light_cyan>serious injuries</color> or <color_light_cyan>death</color>.\n"
 " By continuing with the operation you accept the risks and acknowledge that you will not take any legal actions against this facility in case of an accident. "
 msgstr ""
 
-#: src/iexamine.cpp:5822
+#: src/iexamine.cpp:5823
 #, c-format
 msgid ""
 "\n"
@@ -651564,581 +651610,581 @@ msgid ""
 " Leg splints: %d"
 msgstr ""
 
-#: src/iexamine.cpp:5827
+#: src/iexamine.cpp:5828
 msgid "Choose Compact Bionic Module to install"
 msgstr ""
 
-#: src/iexamine.cpp:5828
+#: src/iexamine.cpp:5829
 msgid "Choose installed bionic to uninstall"
 msgstr ""
 
-#: src/iexamine.cpp:5829
+#: src/iexamine.cpp:5830
 msgid "Splint broken limbs"
 msgstr ""
 
-#: src/iexamine.cpp:5830
+#: src/iexamine.cpp:5831
 msgid "Treat wounds"
 msgstr ""
 
-#: src/iexamine.cpp:5831
+#: src/iexamine.cpp:5832
 msgid "Check radiation level"
 msgstr ""
 
-#: src/iexamine.cpp:5832
+#: src/iexamine.cpp:5833
 msgid "Conduct blood analysis"
 msgstr ""
 
-#: src/iexamine.cpp:5913
+#: src/iexamine.cpp:5914
 msgid "You don't have any bionics installed."
 msgstr ""
 
-#: src/iexamine.cpp:5914
+#: src/iexamine.cpp:5915
 msgid "<npcname> doesn't have any bionics installed."
 msgstr ""
 
-#: src/iexamine.cpp:5956
+#: src/iexamine.cpp:5957
 msgid "Internal supply of splints exhausted.  Operation impossible.  Exiting."
 msgstr ""
 
-#: src/iexamine.cpp:5981
+#: src/iexamine.cpp:5982
 msgid ""
 "Internal supply of arm splints exhausted.  Splinting broken arms impossible."
 "  Exiting."
 msgstr ""
 
-#: src/iexamine.cpp:5990
+#: src/iexamine.cpp:5991
 msgid ""
 "Internal supply of leg splints exhausted.  Splinting broken legs impossible."
 "  Exiting."
 msgstr ""
 
-#: src/iexamine.cpp:5996
+#: src/iexamine.cpp:5997
 #, c-format
 msgid "The machine rapidly sets and splints your broken %s."
 msgstr ""
 
-#: src/iexamine.cpp:5997
+#: src/iexamine.cpp:5998
 #, c-format
 msgid "The machine rapidly sets and splints <npcname>'s broken %s."
 msgstr ""
 
-#: src/iexamine.cpp:6005
+#: src/iexamine.cpp:6006
 msgid "You have no limbs that require splinting."
 msgstr ""
 
-#: src/iexamine.cpp:6006
+#: src/iexamine.cpp:6007
 msgid "<npcname> doesn't have limbs that require splinting."
 msgstr ""
 
-#: src/iexamine.cpp:6014
+#: src/iexamine.cpp:6015
 msgid "You don't have any wounds that need treatment."
 msgstr ""
 
-#: src/iexamine.cpp:6015
+#: src/iexamine.cpp:6016
 msgid "<npcname> doesn't have any wounds that need treatment."
 msgstr ""
 
-#: src/iexamine.cpp:6024
+#: src/iexamine.cpp:6025
 msgid ""
 "The Autodoc detected a bacterial infection in your body, but as it also "
 "detected you've already taken antibiotics, it decided not to apply another "
 "dose right now."
 msgstr ""
 
-#: src/iexamine.cpp:6025
+#: src/iexamine.cpp:6026
 msgid ""
 "The Autodoc detected a bacterial infection in <npcname>'s body, but as it "
 "also detected they've already taken antibiotics, it decided not to apply "
 "another dose right now."
 msgstr ""
 
-#: src/iexamine.cpp:6031
+#: src/iexamine.cpp:6032
 msgid ""
 "The Autodoc detected a bacterial infection in your body and injected "
 "antibiotics to treat it."
 msgstr ""
 
-#: src/iexamine.cpp:6032
+#: src/iexamine.cpp:6033
 msgid ""
 "The Autodoc detected a bacterial infection in <npcname>'s body and injected "
 "antibiotics to treat it."
 msgstr ""
 
-#: src/iexamine.cpp:6037 src/iuse.cpp:651
+#: src/iexamine.cpp:6038 src/iuse.cpp:651
 msgid "The muscle spasms start to go away."
 msgstr ""
 
-#: src/iexamine.cpp:6039 src/iuse.cpp:653
+#: src/iexamine.cpp:6040 src/iuse.cpp:653
 msgid "The medication does nothing to help the spasms."
 msgstr ""
 
-#: src/iexamine.cpp:6050
+#: src/iexamine.cpp:6051
 #, c-format
 msgid ""
 "The Autodoc detected ongoing blood loss from your %s and administered you "
 "hemostatic drugs to stop it."
 msgstr ""
 
-#: src/iexamine.cpp:6051
+#: src/iexamine.cpp:6052
 #, c-format
 msgid ""
 "The Autodoc detected ongoing blood loss from <npcname>'s %s and administered"
 " them hemostatic drugs to stop it."
 msgstr ""
 
-#: src/iexamine.cpp:6058
+#: src/iexamine.cpp:6059
 #, c-format
 msgid ""
 "The Autodoc detected an open wound on your %s and applied disinfectant to "
 "sterilize it."
 msgstr ""
 
-#: src/iexamine.cpp:6059
+#: src/iexamine.cpp:6060
 #, c-format
 msgid ""
 "The Autodoc detected an open wound on <npcname>'s %s and applied "
 "disinfectant to sterilize it."
 msgstr ""
 
-#: src/iexamine.cpp:6078
+#: src/iexamine.cpp:6079
 #, c-format
 msgid "The Autodoc scanned you and detected a radiation level of %d mSv."
 msgstr ""
 
-#: src/iexamine.cpp:6079
+#: src/iexamine.cpp:6080
 #, c-format
 msgid ""
 "The Autodoc scanned <npcname> and detected a radiation level of %d mSv."
 msgstr ""
 
-#: src/iexamine.cpp:6084
+#: src/iexamine.cpp:6085
 msgid ""
 "The Autodoc detected an anti-radiation drug in your bloodstream, so it "
 "decided not to administer you another dose right now."
 msgstr ""
 
-#: src/iexamine.cpp:6085
+#: src/iexamine.cpp:6086
 msgid ""
 "The Autodoc detected an anti-radiation drug in <npcname>'s bloodstream, so "
 "it decided not to administer them another dose right now."
 msgstr ""
 
-#: src/iexamine.cpp:6088
+#: src/iexamine.cpp:6089
 msgid ""
 "The Autodoc administered an anti-radiation drug to treat radiation "
 "poisoning."
 msgstr ""
 
-#: src/iexamine.cpp:6094
+#: src/iexamine.cpp:6095
 #, c-format
 msgid ""
 "Warning!  Autodoc detected a radiation leak of %d mSv from items in "
 "patient's possession.  Urgent decontamination procedures highly recommended."
 msgstr ""
 
-#: src/iexamine.cpp:6104
+#: src/iexamine.cpp:6105
 msgid "The Autodoc analyzed your blood."
 msgstr ""
 
-#: src/iexamine.cpp:6105
+#: src/iexamine.cpp:6106
 msgid "The Autodoc analyzed <npcname>'s blood."
 msgstr ""
 
-#: src/iexamine.cpp:6171 src/item.cpp:5838
+#: src/iexamine.cpp:6172 src/item.cpp:5838
 #, c-format
 msgid "Failed to find milling recipe for %s."
 msgstr ""
 
-#: src/iexamine.cpp:6173 src/iexamine.cpp:6210 src/iexamine.cpp:6267
+#: src/iexamine.cpp:6174 src/iexamine.cpp:6211 src/iexamine.cpp:6268
 #, c-format
 msgid "This mill contains %s, which can't be milled!"
 msgstr ""
 
-#: src/iexamine.cpp:6174 src/iexamine.cpp:6211 src/iexamine.cpp:6230
-#: src/iexamine.cpp:6268
+#: src/iexamine.cpp:6175 src/iexamine.cpp:6212 src/iexamine.cpp:6231
+#: src/iexamine.cpp:6269
 #, c-format
 msgid "You remove the %s from the mill."
 msgstr ""
 
-#: src/iexamine.cpp:6208 src/item.cpp:5862
+#: src/iexamine.cpp:6209 src/item.cpp:5862
 #, c-format
 msgid "Failed to find milling recipe for %s. It can't be milled."
 msgstr ""
 
-#: src/iexamine.cpp:6228
+#: src/iexamine.cpp:6229
 #, c-format
 msgid ""
 "This mill contains too little of %s, which requires a batch size of %d."
 msgstr ""
 
-#: src/iexamine.cpp:6243
+#: src/iexamine.cpp:6244
 #, c-format
 msgid ""
 "This mill doesn't contain a full last batch of %s, which requires a batch "
 "size of %d."
 msgstr ""
 
-#: src/iexamine.cpp:6245
+#: src/iexamine.cpp:6246
 #, c-format
 msgid "You remove the excess %s from the mill."
 msgstr ""
 
-#: src/iexamine.cpp:6276
+#: src/iexamine.cpp:6277
 msgid ""
 "This mill is empty.  Fill it with starchy products such as wheat, barley or "
 "oats and try again."
 msgstr ""
 
-#: src/iexamine.cpp:6281
+#: src/iexamine.cpp:6282
 msgid ""
 "This mill is overloaded with products, and the millstone can't turn.  Remove"
 " some and try again."
 msgstr ""
 
-#: src/iexamine.cpp:6282
+#: src/iexamine.cpp:6283
 #, c-format
 msgctxt "volume units"
 msgid "You think that you can load about %s %s in it."
 msgstr ""
 
-#: src/iexamine.cpp:6299
+#: src/iexamine.cpp:6300
 msgid "You remove the brake on the millstone and it slowly starts to turn."
 msgstr ""
 
-#: src/iexamine.cpp:6326
+#: src/iexamine.cpp:6327
 msgid "This rack already contains smoked food."
 msgstr ""
 
-#: src/iexamine.cpp:6327
+#: src/iexamine.cpp:6328
 msgid "Remove it before firing the smoking rack again."
 msgstr ""
 
-#: src/iexamine.cpp:6340
+#: src/iexamine.cpp:6341
 #, c-format
 msgid "This rack contains %s, which can't be smoked!"
 msgstr ""
 
-#: src/iexamine.cpp:6342 src/iexamine.cpp:7156
+#: src/iexamine.cpp:6343 src/iexamine.cpp:7157
 #, c-format
 msgid "You remove %s from the rack."
 msgstr ""
 
-#: src/iexamine.cpp:6349
+#: src/iexamine.cpp:6350
 msgid ""
 "This rack has some smoked food that might be dehydrated by smoking it again."
 msgstr ""
 
-#: src/iexamine.cpp:6353
+#: src/iexamine.cpp:6354
 msgid ""
 "This rack is empty.  Fill it with raw meat, fish or sausages and try again."
 msgstr ""
 
-#: src/iexamine.cpp:6357
+#: src/iexamine.cpp:6358
 msgid "There is no charcoal in the rack."
 msgstr ""
 
-#: src/iexamine.cpp:6361 src/iexamine.cpp:6366
+#: src/iexamine.cpp:6362 src/iexamine.cpp:6367
 msgid ""
 "This rack is overloaded with food, and it blocks the flow of smoke.  Remove "
 "some and try again."
 msgstr ""
 
-#: src/iexamine.cpp:6362 src/iexamine.cpp:6367
+#: src/iexamine.cpp:6363 src/iexamine.cpp:6368
 #, c-format
 msgid "You think that you can load about %s %s in it."
 msgstr ""
 
-#: src/iexamine.cpp:6375
+#: src/iexamine.cpp:6376
 msgid "There is not enough charcoal in the rack to smoke this much food."
 msgstr ""
 
-#: src/iexamine.cpp:6376
+#: src/iexamine.cpp:6377
 #, c-format
 msgid ""
 "You need at least %1$s pieces of charcoal, and the smoking rack has %2$s "
 "inside."
 msgstr ""
 
-#: src/iexamine.cpp:6382
+#: src/iexamine.cpp:6383
 msgid "This smoking rack is ready to be fired, but you have no fire source."
 msgstr ""
 
-#: src/iexamine.cpp:6384
+#: src/iexamine.cpp:6385
 msgid "Fire the smoking rack?"
 msgstr ""
 
-#: src/iexamine.cpp:6410
+#: src/iexamine.cpp:6411
 msgid "You happily light a small fire under the rack and it starts to smoke."
 msgstr ""
 
-#: src/iexamine.cpp:6412
+#: src/iexamine.cpp:6413
 msgid "You light a small fire under the rack and it starts to smoke."
 msgstr ""
 
-#: src/iexamine.cpp:6455
+#: src/iexamine.cpp:6456
 #, c-format
 msgid "Failed to find milling recipe for %s. It wasn't milled."
 msgstr ""
 
-#: src/iexamine.cpp:6479
+#: src/iexamine.cpp:6480
 #, c-format
 msgid "Failed to find milling recipe for %s. Milling of it failed."
 msgstr ""
 
-#: src/iexamine.cpp:6487
+#: src/iexamine.cpp:6488
 #, c-format
 msgid "%s is milled in batches of %d, so none was processed."
 msgstr ""
 
-#: src/iexamine.cpp:6490
+#: src/iexamine.cpp:6491
 #, c-format
 msgid "%s is milled in batches of %d, so %d remained unprocessed."
 msgstr ""
 
-#: src/iexamine.cpp:6598
+#: src/iexamine.cpp:6599
 msgid "You can't place more food while it's smoking."
 msgstr ""
 
-#: src/iexamine.cpp:6619
+#: src/iexamine.cpp:6620
 #, c-format
 msgid "The %s doesn't fit in the rack."
 msgstr ""
 
-#: src/iexamine.cpp:6625
+#: src/iexamine.cpp:6626
 #, c-format
 msgid "You carefully place %1$d %2$s in the rack."
 msgstr ""
 
-#: src/iexamine.cpp:6645
+#: src/iexamine.cpp:6646
 msgid "You can't place more food while it's milling."
 msgstr ""
 
-#: src/iexamine.cpp:6662
+#: src/iexamine.cpp:6663
 #, c-format
 msgid ""
 "Failed to find milling recipe for %s. It can't be inserted into the mill."
 msgstr ""
 
-#: src/iexamine.cpp:6680
+#: src/iexamine.cpp:6681
 #, c-format
 msgid "Failed to find milling recipe for %s. Cannot be placed into the mill."
 msgstr ""
 
-#: src/iexamine.cpp:6687
+#: src/iexamine.cpp:6688
 msgid "Load mill with what kind of product?"
 msgstr ""
 
-#: src/iexamine.cpp:6710
+#: src/iexamine.cpp:6711
 msgid "You don't have any products that can be milled."
 msgstr ""
 
-#: src/iexamine.cpp:6732
+#: src/iexamine.cpp:6733
 #, c-format
 msgid "Insert how many %s into the mill?"
 msgstr ""
 
-#: src/iexamine.cpp:6745
+#: src/iexamine.cpp:6746
 msgid "You don't have that many."
 msgstr ""
 
-#: src/iexamine.cpp:6748
+#: src/iexamine.cpp:6749
 msgid "You can't place that many."
 msgstr ""
 
-#: src/iexamine.cpp:6769
+#: src/iexamine.cpp:6770
 #, c-format
 msgid "You carefully place %1$d %2$s in the mill."
 msgstr ""
 
-#: src/iexamine.cpp:6790
+#: src/iexamine.cpp:6791
 msgid "The water mill needs to be over shallow flowing water to work."
 msgstr ""
 
-#: src/iexamine.cpp:6796
+#: src/iexamine.cpp:6797
 msgid "The wind mill needs to be outside in the wind to work."
 msgstr ""
 
-#: src/iexamine.cpp:6845
+#: src/iexamine.cpp:6846
 msgid "What to do with the mill?"
 msgstr ""
 
-#: src/iexamine.cpp:6848
+#: src/iexamine.cpp:6849
 msgid "Inspect mill"
 msgstr ""
 
-#: src/iexamine.cpp:6852
+#: src/iexamine.cpp:6853
 msgid "Remove brake and start milling… insert some products for milling first"
 msgstr ""
 
-#: src/iexamine.cpp:6853
+#: src/iexamine.cpp:6854
 msgid "Remove brake and start milling"
 msgstr ""
 
-#: src/iexamine.cpp:6854
+#: src/iexamine.cpp:6855
 #, c-format
 msgid "Remove brake and start milling, milling will take about %s."
 msgstr ""
 
-#: src/iexamine.cpp:6858
+#: src/iexamine.cpp:6859
 msgid "Insert products for milling… mill is full"
 msgstr ""
 
-#: src/iexamine.cpp:6859
+#: src/iexamine.cpp:6860
 #, c-format
 msgid "Insert products for milling… remaining capacity is %s %s"
 msgstr ""
 
-#: src/iexamine.cpp:6861
+#: src/iexamine.cpp:6862
 msgid "Fill the mill with starchy products such as wheat, barley or oats."
 msgstr ""
 
-#: src/iexamine.cpp:6864
+#: src/iexamine.cpp:6865
 msgid "Remove products from mill"
 msgstr ""
 
-#: src/iexamine.cpp:6869
+#: src/iexamine.cpp:6870
 msgid "Apply brake to mill"
 msgstr ""
 
-#: src/iexamine.cpp:6870
+#: src/iexamine.cpp:6871
 msgid "Applying the brake will stop milling process."
 msgstr ""
 
-#: src/iexamine.cpp:6879
+#: src/iexamine.cpp:6880
 msgid "There's a mill here.  It is turning and milling."
 msgstr ""
 
-#: src/iexamine.cpp:6881
+#: src/iexamine.cpp:6882
 #, c-format
 msgid "It should take about %s to finish milling."
 msgstr ""
 
-#: src/iexamine.cpp:6885
+#: src/iexamine.cpp:6886
 msgid "There's a mill here."
 msgstr ""
 
-#: src/iexamine.cpp:6887 src/iexamine.cpp:7110
+#: src/iexamine.cpp:6888 src/iexamine.cpp:7111
 msgid "You inspect its contents and find: "
 msgstr ""
 
-#: src/iexamine.cpp:6889 src/iexamine.cpp:7112
+#: src/iexamine.cpp:6890 src/iexamine.cpp:7113
 msgid "…that it is empty."
 msgstr ""
 
-#: src/iexamine.cpp:6893
+#: src/iexamine.cpp:6894
 msgid "You see some grains that are not yet milled to fine flour."
 msgstr ""
 
-#: src/iexamine.cpp:6906
+#: src/iexamine.cpp:6907
 msgid "It is already milling."
 msgstr ""
 
-#: src/iexamine.cpp:6922
+#: src/iexamine.cpp:6923
 #, c-format
 msgid "You remove %s from the mill."
 msgstr ""
 
-#: src/iexamine.cpp:6937 src/iexamine.cpp:6957
+#: src/iexamine.cpp:6938 src/iexamine.cpp:6958
 msgid "You stop the milling process."
 msgstr ""
 
-#: src/iexamine.cpp:7029
+#: src/iexamine.cpp:7030
 msgid "What to do with the smoking rack:"
 msgstr ""
 
-#: src/iexamine.cpp:7032
+#: src/iexamine.cpp:7033
 msgid "Inspect smoking rack"
 msgstr ""
 
-#: src/iexamine.cpp:7036
+#: src/iexamine.cpp:7037
 msgid "Light up and smoke food… insert some food for smoking first"
 msgstr ""
 
-#: src/iexamine.cpp:7038
+#: src/iexamine.cpp:7039
 #, c-format
 msgid "Light up and smoke food… need extra %d charges of charcoal"
 msgstr ""
 
-#: src/iexamine.cpp:7040
+#: src/iexamine.cpp:7041
 msgid "Light up and smoke food"
 msgstr ""
 
-#: src/iexamine.cpp:7041
+#: src/iexamine.cpp:7042
 msgid ""
 "Light up the smoking rack and start smoking.  Smoking will take about 6 "
 "hours."
 msgstr ""
 
-#: src/iexamine.cpp:7044 src/iexamine.cpp:7055
+#: src/iexamine.cpp:7045 src/iexamine.cpp:7056
 msgid "Insert food for smoking… smoking rack is full"
 msgstr ""
 
-#: src/iexamine.cpp:7045 src/iexamine.cpp:7056
+#: src/iexamine.cpp:7046 src/iexamine.cpp:7057
 #, c-format
 msgid "Insert food for smoking… remaining capacity is %s %s"
 msgstr ""
 
-#: src/iexamine.cpp:7047 src/iexamine.cpp:7058
+#: src/iexamine.cpp:7048 src/iexamine.cpp:7059
 msgid ""
 "Fill the smoking rack with raw meat, fish or sausages for smoking or fruit "
 "or vegetable or smoked meat for drying."
 msgstr ""
 
-#: src/iexamine.cpp:7050
+#: src/iexamine.cpp:7051
 msgid "You cannot disassemble this smoking rack while it is active!"
 msgstr ""
 
-#: src/iexamine.cpp:7051
+#: src/iexamine.cpp:7052
 msgid "Disassemble the smoking rack"
 msgstr ""
 
-#: src/iexamine.cpp:7062
+#: src/iexamine.cpp:7063
 msgid "Remove food from smoking rack"
 msgstr ""
 
-#: src/iexamine.cpp:7066
+#: src/iexamine.cpp:7067
 msgid "Reload with charcoal… you don't have any"
 msgstr ""
 
-#: src/iexamine.cpp:7067
+#: src/iexamine.cpp:7068
 msgid "Reload with charcoal… at maximum capacity"
 msgstr ""
 
-#: src/iexamine.cpp:7068
+#: src/iexamine.cpp:7069
 msgid "Reload with charcoal"
 msgstr ""
 
-#: src/iexamine.cpp:7070
+#: src/iexamine.cpp:7071
 #, c-format
 msgid ""
 "You need %d charges of charcoal for %s %s of food.  Minimal amount of "
 "charcoal is %d charges."
 msgstr ""
 
-#: src/iexamine.cpp:7076
+#: src/iexamine.cpp:7077
 msgid "Quench burning charcoal"
 msgstr ""
 
-#: src/iexamine.cpp:7077
+#: src/iexamine.cpp:7078
 msgid ""
 "Quenching will stop smoking process, but also destroy all used charcoal."
 msgstr ""
 
-#: src/iexamine.cpp:7082
+#: src/iexamine.cpp:7083
 #, c-format
 msgid "Rake out %d excess charges of charcoal from smoking rack"
 msgstr ""
 
-#: src/iexamine.cpp:7084
+#: src/iexamine.cpp:7085
 #, c-format
 msgid "Remove %d charges of charcoal from smoking rack"
 msgstr ""
 
-#: src/iexamine.cpp:7093
+#: src/iexamine.cpp:7094
 msgid "There's a smoking rack here.  It is lit and smoking."
 msgstr ""
 
-#: src/iexamine.cpp:7096
+#: src/iexamine.cpp:7097
 #, c-format
 msgid "It will finish smoking in about %d hour."
 msgid_plural "It will finish smoking in about %d hours."
@@ -652146,11 +652192,11 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: src/iexamine.cpp:7100
+#: src/iexamine.cpp:7101
 msgid "It will finish smoking in less than an hour."
 msgstr ""
 
-#: src/iexamine.cpp:7102
+#: src/iexamine.cpp:7103
 #, c-format
 msgid "It should take about %d minute to finish smoking."
 msgid_plural "It should take about %d minutes to finish smoking."
@@ -652158,53 +652204,53 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: src/iexamine.cpp:7108
+#: src/iexamine.cpp:7109
 msgid "There's a smoking rack here."
 msgstr ""
 
-#: src/iexamine.cpp:7116
+#: src/iexamine.cpp:7117
 msgid "You see some smoldering embers there."
 msgstr ""
 
-#: src/iexamine.cpp:7128
+#: src/iexamine.cpp:7129
 msgid "It is already lit and smoking."
 msgstr ""
 
-#: src/iexamine.cpp:7166 src/iexamine.cpp:7169 src/iexamine.cpp:7179
-#: src/iexamine.cpp:7182
+#: src/iexamine.cpp:7167 src/iexamine.cpp:7170 src/iexamine.cpp:7180
+#: src/iexamine.cpp:7183
 msgid "You stop the smoking process."
 msgstr ""
 
-#: src/iexamine.cpp:7194
+#: src/iexamine.cpp:7195
 msgid "You open the unlocked safe."
 msgstr ""
 
-#: src/iexamine.cpp:7256
+#: src/iexamine.cpp:7257
 #, c-format
 msgctxt "furniture"
 msgid "What to do at the %s?"
 msgstr ""
 
-#: src/iexamine.cpp:7260
+#: src/iexamine.cpp:7261
 msgid "Work on craft or disassembly"
 msgstr ""
 
-#: src/iexamine.cpp:7311
+#: src/iexamine.cpp:7312
 msgid "Which craft or disassembly to work on?"
 msgstr ""
 
-#: src/iexamine.cpp:7332 src/iuse.cpp:8768
+#: src/iexamine.cpp:7333 src/iuse.cpp:8768
 #, c-format
 msgid "You don't know the recipe for the %s and can't continue crafting."
 msgstr ""
 
-#: src/iexamine.cpp:7333 src/iuse.cpp:8769
+#: src/iexamine.cpp:7334 src/iuse.cpp:8769
 #, c-format
 msgid ""
 "<npcname> doesn't know the recipe for the %s and can't continue crafting."
 msgstr ""
 
-#: src/iexamine.cpp:7358
+#: src/iexamine.cpp:7359
 #, c-format
 msgid "Use the %s to exercise?"
 msgstr ""
@@ -652362,7 +652408,7 @@ msgstr ""
 msgid "NPC classes"
 msgstr ""
 
-#: src/init.cpp:843 src/mission_ui.cpp:212
+#: src/init.cpp:843 src/mission_ui.cpp:217
 msgid "Missions"
 msgstr ""
 
@@ -662434,43 +662480,43 @@ msgstr ""
 msgid "The %s you were grabbing is destroyed!"
 msgstr ""
 
-#: src/map.cpp:2434 src/mapdata.cpp:774
+#: src/map.cpp:2434 src/mapdata.cpp:743
 msgid "Smashable."
 msgstr ""
 
-#: src/map.cpp:2435 src/mapdata.cpp:775
+#: src/map.cpp:2435 src/mapdata.cpp:744
 msgid "Diggable."
 msgstr ""
 
-#: src/map.cpp:2436 src/mapdata.cpp:776
+#: src/map.cpp:2436 src/mapdata.cpp:745
 msgid "Plowable."
 msgstr ""
 
-#: src/map.cpp:2437 src/mapdata.cpp:777
+#: src/map.cpp:2437 src/mapdata.cpp:746
 msgid "Rough."
 msgstr ""
 
-#: src/map.cpp:2438 src/mapdata.cpp:778
+#: src/map.cpp:2438 src/mapdata.cpp:747
 msgid "Unstable."
 msgstr ""
 
-#: src/map.cpp:2439 src/mapdata.cpp:779
+#: src/map.cpp:2439 src/mapdata.cpp:748
 msgid "Sharp."
 msgstr ""
 
-#: src/map.cpp:2440 src/mapdata.cpp:780
+#: src/map.cpp:2440 src/mapdata.cpp:749
 msgid "Flat."
 msgstr ""
 
-#: src/map.cpp:2441 src/mapdata.cpp:781
+#: src/map.cpp:2441 src/mapdata.cpp:750
 msgid "Simple."
 msgstr ""
 
-#: src/map.cpp:2442 src/mapdata.cpp:782
+#: src/map.cpp:2442 src/mapdata.cpp:751
 msgid "Mountable."
 msgstr ""
 
-#: src/map.cpp:2445 src/mapdata.cpp:785
+#: src/map.cpp:2445 src/mapdata.cpp:752
 msgid "Flammable."
 msgstr ""
 
@@ -662501,92 +662547,92 @@ msgstr ""
 msgid "Falling %1$s hits %2$s for %3$i damage!"
 msgstr ""
 
-#: src/map.cpp:4137
+#: src/map.cpp:4130
 #, c-format
 msgid "The %s destroys several items!"
 msgstr ""
 
 #. ~ %1$s: the cause of destruction, %2$s: destroyed item name
-#: src/map.cpp:4140
+#: src/map.cpp:4133
 #, c-format
 msgid "The %1$s destroys the %2$s!"
 msgstr ""
 
-#: src/map.cpp:4143
+#: src/map.cpp:4136
 #, c-format
 msgid "The %s damages several items."
 msgstr ""
 
 #. ~ %1$s: the cause of damage, %2$s: damaged item name
-#: src/map.cpp:4146
+#: src/map.cpp:4139
 #, c-format
 msgid "The %1$s damages the %2$s."
 msgstr ""
 
-#: src/map.cpp:4261 src/map.cpp:4764
+#: src/map.cpp:4258 src/map.cpp:4765
 msgid "an alarm go off!"
 msgstr ""
 
-#: src/map.cpp:4565
+#: src/map.cpp:4566
 msgid "glass shattering."
 msgstr ""
 
-#: src/map.cpp:4649
+#: src/map.cpp:4650
 msgid "You are crushed by the falling debris!"
 msgstr ""
 
-#: src/map.cpp:4650
+#: src/map.cpp:4651
 msgid "<npcname> is crushed by the falling debris!"
 msgstr ""
 
-#: src/map.cpp:4750
+#: src/map.cpp:4751
 #, c-format
 msgid "The shot is stopped by the %s!"
 msgstr ""
 
-#: src/map.cpp:4830
+#: src/map.cpp:4832
 msgid "laser beam"
 msgstr ""
 
-#: src/map.cpp:4832
+#: src/map.cpp:4834
 msgid "bolt of electricity"
 msgstr ""
 
-#: src/map.cpp:4834
+#: src/map.cpp:4836
 msgid "bolt of plasma"
 msgstr ""
 
-#: src/map.cpp:4836
+#: src/map.cpp:4838
 msgid "flying projectile"
 msgstr ""
 
-#: src/map.cpp:4862
+#: src/map.cpp:4864
 msgid "The metal bars melt!"
 msgstr ""
 
-#: src/map.cpp:4916 src/map.cpp:4934 src/map.cpp:5042 src/map.cpp:5049
+#: src/map.cpp:4918 src/map.cpp:4936 src/map.cpp:5044 src/map.cpp:5051
 msgid "swish"
 msgstr ""
 
 #. ~ %1$d: Number of minutes remaining, %2$s: Name of the vehicle
-#: src/map.cpp:5754
+#: src/map.cpp:5756
 #, c-format
 msgid "It should take %1$d minutes to finish washing items in the %2$s."
 msgstr ""
 
 #. ~ %1$s: Cleaner, %2$s: Name of the vehicle
-#: src/map.cpp:5761
+#: src/map.cpp:5763
 #, c-format
 msgid "The %1$s in the %2$s has finished washing."
 msgstr ""
 
-#: src/map.cpp:5763
+#: src/map.cpp:5765
 #, c-format
 msgid "The %1$s has finished washing."
 msgstr ""
 
 #. ~ %1$d: Number of minutes remaining, %2$s: Name of the vehicle
-#: src/map.cpp:5782
+#: src/map.cpp:5784
 #, c-format
 msgid "It should take %1$d minute to finish sterilizing items in the %2$s."
 msgid_plural ""
@@ -662595,31 +662641,31 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
-#: src/map.cpp:5789
+#: src/map.cpp:5791
 #, c-format
 msgid "The autoclave in the %s has finished its cycle."
 msgstr ""
 
-#: src/map.cpp:5791
+#: src/map.cpp:5793
 msgid "The autoclave has finished its cycle."
 msgstr ""
 
-#: src/map.cpp:8690
+#: src/map.cpp:8692
 #, c-format
 msgid "You notice a %1$s has rotted away, leaving a %2$s."
 msgstr ""
 
-#: src/map.cpp:8722
+#: src/map.cpp:8724
 #, c-format
 msgid "Something has crawled out of the %s plants!"
 msgstr ""
 
-#: src/map.cpp:8724
+#: src/map.cpp:8726
 #, c-format
 msgid "Something has crawled out of the %s!"
 msgstr ""
 
-#: src/map.cpp:10361 src/map.cpp:10395
+#: src/map.cpp:10363 src/map.cpp:10397
 #, c-format
 msgid "You've spotted a %1$s!"
 msgstr ""
@@ -662793,46 +662839,46 @@ msgstr ""
 msgid "Please wait as the map saves [%d/%d]"
 msgstr ""
 
-#: src/mapdata.cpp:705
+#: src/mapdata.cpp:674
 #, c-format
 msgid "<header>That is a %s.</header>"
 msgstr ""
 
-#: src/mapdata.cpp:715
+#: src/mapdata.cpp:684
 msgid "You could harvest the following things from it:"
 msgstr ""
 
-#: src/mapgen.cpp:6418
+#: src/mapgen.cpp:6421
 msgid "Sub-prime contact console"
 msgstr ""
 
-#: src/mapgen.cpp:6420
+#: src/mapgen.cpp:6423
 msgid "Terminate Specimens"
 msgstr ""
 
-#: src/mapgen.cpp:6421
+#: src/mapgen.cpp:6424
 msgid "Release Specimens"
 msgstr ""
 
-#: src/mapgen.cpp:6423
+#: src/mapgen.cpp:6426
 msgid "Toggle Portal"
 msgstr ""
 
-#: src/mapgen.cpp:6424
+#: src/mapgen.cpp:6427
 msgid "Activate Resonance Cascade"
 msgstr ""
 
-#: src/mapgen.cpp:6473 src/mapgen.cpp:7581 src/mapgen.cpp:7600
-#: src/mapgen.cpp:7620 src/mapgen.cpp:7639
+#: src/mapgen.cpp:6476 src/mapgen.cpp:7584 src/mapgen.cpp:7603
+#: src/mapgen.cpp:7623 src/mapgen.cpp:7642
 msgid "Bionic access"
 msgstr ""
 
-#: src/mapgen.cpp:6475 src/mapgen.cpp:7583 src/mapgen.cpp:7602
-#: src/mapgen.cpp:7622 src/mapgen.cpp:7641
+#: src/mapgen.cpp:6478 src/mapgen.cpp:7586 src/mapgen.cpp:7605
+#: src/mapgen.cpp:7625 src/mapgen.cpp:7644
 msgid "Open Chambers"
 msgstr ""
 
-#: src/mapgen.cpp:7997
+#: src/mapgen.cpp:8000
 msgid "invalid position (not vehicle/appliance)"
 msgstr ""
 
@@ -666182,59 +666228,59 @@ msgstr ""
 msgid "Your missions"
 msgstr ""
 
-#: src/mission_ui.cpp:94
+#: src/mission_ui.cpp:93
 msgid "Set selected mission as current objective"
 msgstr ""
 
-#: src/mission_ui.cpp:152
+#: src/mission_ui.cpp:157
 msgid "ACTIVE"
 msgstr ""
 
-#: src/mission_ui.cpp:162
+#: src/mission_ui.cpp:167
 msgid "COMPLETED"
 msgstr ""
 
-#: src/mission_ui.cpp:172
+#: src/mission_ui.cpp:177
 msgid "FAILED"
 msgstr ""
 
-#: src/mission_ui.cpp:196
+#: src/mission_ui.cpp:201
 msgid "You have no active missions!"
 msgstr ""
 
-#: src/mission_ui.cpp:197
+#: src/mission_ui.cpp:202
 msgid "You haven't completed any missions!"
 msgstr ""
 
-#: src/mission_ui.cpp:198
+#: src/mission_ui.cpp:203
 msgid "You haven't failed any missions!"
 msgstr ""
 
-#: src/mission_ui.cpp:205
+#: src/mission_ui.cpp:210
 #, c-format
 msgid "Current objective: %s"
 msgstr ""
 
-#: src/mission_ui.cpp:214 src/proficiency_ui.cpp:202
+#: src/mission_ui.cpp:219 src/proficiency_ui.cpp:202
 msgid "Description"
 msgstr ""
 
-#: src/mission_ui.cpp:259
+#: src/mission_ui.cpp:264
 #, c-format
 msgid "Mission: %s"
 msgstr ""
 
-#: src/mission_ui.cpp:263
+#: src/mission_ui.cpp:268
 #, c-format
 msgid "Given by: %s"
 msgstr ""
 
-#: src/mission_ui.cpp:288
+#: src/mission_ui.cpp:293
 #, c-format
 msgid "Deadline: %s"
 msgstr ""
 
-#: src/mission_ui.cpp:292 src/newcharacter.cpp:4170 src/newcharacter.cpp:4244
+#: src/mission_ui.cpp:297 src/newcharacter.cpp:4170 src/newcharacter.cpp:4244
 #: src/newcharacter.cpp:4258 src/newcharacter.cpp:4295
 #: src/newcharacter.cpp:4331 src/newcharacter.cpp:4342
 #: src/newcharacter.cpp:4359 src/newcharacter.cpp:4370
@@ -666242,36 +666288,36 @@ msgstr ""
 msgid "None!"
 msgstr ""
 
-#: src/mission_ui.cpp:298
+#: src/mission_ui.cpp:303
 #, c-format
 msgid "Time remaining: %s"
 msgstr ""
 
-#: src/mission_ui.cpp:309
+#: src/mission_ui.cpp:314
 #, c-format
 msgid "Completed: %s"
 msgstr ""
 
-#: src/mission_ui.cpp:312
+#: src/mission_ui.cpp:317
 #, c-format
 msgid "Failed at: %s"
 msgstr ""
 
-#: src/mission_ui.cpp:322
+#: src/mission_ui.cpp:327
 #, c-format
 msgid "Target: %s"
 msgstr ""
 
 #. ~Extra padding spaces in the English text are so that the replaced string
 #. vertically aligns with the one above
-#: src/mission_ui.cpp:326
+#: src/mission_ui.cpp:331
 #, c-format
 msgid "You:    %s"
 msgstr ""
 
 #. ~Parenthesis is a real-world value for distance. Example string: "Distance:
 #. 223 tiles (5352 m)"
-#: src/mission_ui.cpp:332
+#: src/mission_ui.cpp:337
 #, c-format
 msgid "Distance: %1$s tiles (%2$s)"
 msgstr ""
@@ -667899,7 +667945,7 @@ msgstr ""
 msgid "Manage your friendship with %s"
 msgstr ""
 
-#: src/monexamine.cpp:738 src/monexamine.cpp:985 src/npctalk.cpp:1038
+#: src/monexamine.cpp:738 src/monexamine.cpp:985 src/npctalk.cpp:1039
 #, c-format
 msgid "Talk to %s"
 msgstr ""
@@ -670865,575 +670911,575 @@ msgstr ""
 msgid "%1$s reloads their %2$s."
 msgstr ""
 
-#: src/npctalk.cpp:412
+#: src/npctalk.cpp:413
 msgid "INTIMIDATE"
 msgstr ""
 
-#: src/npctalk.cpp:412
+#: src/npctalk.cpp:413
 msgid "LIE"
 msgstr ""
 
-#: src/npctalk.cpp:412
+#: src/npctalk.cpp:413
 msgid "PERSUADE"
 msgstr ""
 
-#: src/npctalk.cpp:651 src/npctalk.cpp:685 src/npctalk.cpp:717
+#: src/npctalk.cpp:652 src/npctalk.cpp:686 src/npctalk.cpp:718
 msgid "Everyone"
 msgstr ""
 
-#: src/npctalk.cpp:718
+#: src/npctalk.cpp:719
 msgid "Finish selection"
 msgstr ""
 
-#: src/npctalk.cpp:750 src/npctalk.cpp:1921 src/npctalk.cpp:1949
-#: src/npctalk.cpp:2025
+#: src/npctalk.cpp:751 src/npctalk.cpp:1931 src/npctalk.cpp:1959
+#: src/npctalk.cpp:2035
 msgid "Skill"
 msgstr ""
 
-#: src/npctalk.cpp:756 src/npctalk.cpp:1928 src/npctalk.cpp:1954
-#: src/npctalk.cpp:2033
+#: src/npctalk.cpp:757 src/npctalk.cpp:1938 src/npctalk.cpp:1964
+#: src/npctalk.cpp:2043
 msgid "Proficiency"
 msgstr ""
 
-#: src/npctalk.cpp:768 src/npctalk.cpp:1907 src/npctalk.cpp:1964
-#: src/npctalk.cpp:2010
+#: src/npctalk.cpp:769 src/npctalk.cpp:1917 src/npctalk.cpp:1974
+#: src/npctalk.cpp:2020
 msgid "Spell"
 msgstr ""
 
-#: src/npctalk.cpp:800
+#: src/npctalk.cpp:801
 #, c-format
 msgid "%s currently has these temporary orders:"
 msgstr ""
 
-#: src/npctalk.cpp:811
+#: src/npctalk.cpp:812
 msgid "None."
 msgstr ""
 
-#: src/npctalk.cpp:815
+#: src/npctalk.cpp:816
 msgid "Other followers might have different temporary orders."
 msgstr ""
 
-#: src/npctalk.cpp:818
+#: src/npctalk.cpp:819
 msgid "Issue what temporary order?"
 msgstr ""
 
-#: src/npctalk.cpp:822
+#: src/npctalk.cpp:823
 msgid "Done issuing orders"
 msgstr ""
 
-#: src/npctalk.cpp:825
+#: src/npctalk.cpp:826
 msgid "Don't engage hostiles for the time being"
 msgstr ""
 
-#: src/npctalk.cpp:825
+#: src/npctalk.cpp:826
 msgid "Go back to your usual engagement habits"
 msgstr ""
 
-#: src/npctalk.cpp:827
+#: src/npctalk.cpp:828
 msgid "Don't use ranged weapons for a while"
 msgstr ""
 
-#: src/npctalk.cpp:827
+#: src/npctalk.cpp:828
 msgid "Use whatever weapon you normally would"
 msgstr ""
 
-#: src/npctalk.cpp:829
+#: src/npctalk.cpp:830
 msgid "Hold off on pulping zombies for a while"
 msgstr ""
 
-#: src/npctalk.cpp:829
+#: src/npctalk.cpp:830
 msgid "Pulp zombies if you like"
 msgstr ""
 
-#: src/npctalk.cpp:833 src/npctalk.cpp:837
+#: src/npctalk.cpp:834 src/npctalk.cpp:838
 msgid "Go back to keeping your usual distance"
 msgstr ""
 
-#: src/npctalk.cpp:833
+#: src/npctalk.cpp:834
 msgid "Stick close to me for now"
 msgstr ""
 
-#: src/npctalk.cpp:837
+#: src/npctalk.cpp:838
 msgid "Move farther from me if you need to"
 msgstr ""
 
-#: src/npctalk.cpp:840
+#: src/npctalk.cpp:841
 msgid "Go back to your usual sleeping habits"
 msgstr ""
 
-#: src/npctalk.cpp:840
+#: src/npctalk.cpp:841
 msgid "Take a nap if you need it"
 msgstr ""
 
-#: src/npctalk.cpp:841
+#: src/npctalk.cpp:842
 msgid "Let's go back to your usual behaviors"
 msgstr ""
 
-#: src/npctalk.cpp:879
+#: src/npctalk.cpp:880
 msgid "What should be worked on?"
 msgstr ""
 
-#: src/npctalk.cpp:881
+#: src/npctalk.cpp:882
 msgid "Organizing loot into zones"
 msgstr ""
 
-#: src/npctalk.cpp:882
+#: src/npctalk.cpp:883
 msgid "Butchering corpses"
 msgstr ""
 
-#: src/npctalk.cpp:883
+#: src/npctalk.cpp:884
 msgid "Chopping down trees"
 msgstr ""
 
-#: src/npctalk.cpp:884
+#: src/npctalk.cpp:885
 msgid "Chopping logs into planks"
 msgstr ""
 
-#: src/npctalk.cpp:885
+#: src/npctalk.cpp:886
 msgid "Constructing blueprints"
 msgstr ""
 
-#: src/npctalk.cpp:886
+#: src/npctalk.cpp:887
 msgid "Crafting item"
 msgstr ""
 
-#: src/npctalk.cpp:887
+#: src/npctalk.cpp:888
 msgid "Disassembly of items"
 msgstr ""
 
-#: src/npctalk.cpp:888
+#: src/npctalk.cpp:889
 msgid "Farming plots"
 msgstr ""
 
-#: src/npctalk.cpp:889
+#: src/npctalk.cpp:890
 msgid "Fishing in a zone"
 msgstr ""
 
-#: src/npctalk.cpp:890
+#: src/npctalk.cpp:891
 msgid "Mining out tiles"
 msgstr ""
 
-#: src/npctalk.cpp:891
+#: src/npctalk.cpp:892
 msgid "Mopping up stains"
 msgstr ""
 
-#: src/npctalk.cpp:893
+#: src/npctalk.cpp:894
 msgid "Study from books you have in order"
 msgstr ""
 
-#: src/npctalk.cpp:895
+#: src/npctalk.cpp:896
 msgid "Deconstructing vehicles"
 msgstr ""
 
-#: src/npctalk.cpp:896
+#: src/npctalk.cpp:897
 msgid "Repairing vehicles"
 msgstr ""
 
-#: src/npctalk.cpp:898
+#: src/npctalk.cpp:899
 msgid "Taking it easy (Stop what they are working on)"
 msgstr ""
 
-#: src/npctalk.cpp:996
+#: src/npctalk.cpp:997
 msgid "You can't speak without your face!"
 msgstr ""
 
-#: src/npctalk.cpp:1027
+#: src/npctalk.cpp:1028
 msgid "What do you want to do?"
 msgstr ""
 
-#: src/npctalk.cpp:1039
+#: src/npctalk.cpp:1040
 msgid "Talk to…"
 msgstr ""
 
-#: src/npctalk.cpp:1051
+#: src/npctalk.cpp:1052
 #, c-format
 msgid "Tell %s to work on…"
 msgstr ""
 
-#: src/npctalk.cpp:1052
+#: src/npctalk.cpp:1053
 msgid "Tell someone to work on…"
 msgstr ""
 
-#: src/npctalk.cpp:1057 src/npctalk.cpp:1128
+#: src/npctalk.cpp:1058 src/npctalk.cpp:1129
 msgid "Yell a sentence"
 msgstr ""
 
-#: src/npctalk.cpp:1058 src/npctalk.cpp:1142
+#: src/npctalk.cpp:1059 src/npctalk.cpp:1143
 msgid "Emote"
 msgstr ""
 
-#: src/npctalk.cpp:1061
+#: src/npctalk.cpp:1062
 msgid "Whistle at your animals pulling vehicles to follow you."
 msgstr ""
 
-#: src/npctalk.cpp:1065
+#: src/npctalk.cpp:1066
 msgid ""
 "Utter a magical command that will order your magical vehicles to follow you."
 msgstr ""
 
-#: src/npctalk.cpp:1069
+#: src/npctalk.cpp:1070
 msgid ""
 "Utter a magical command that will order your magical vehicles to stop "
 "following you."
 msgstr ""
 
-#: src/npctalk.cpp:1073
+#: src/npctalk.cpp:1074
 msgid "Whistle at your animals pulling vehicles to stop following you."
 msgstr ""
 
-#: src/npctalk.cpp:1077
+#: src/npctalk.cpp:1078
 #, c-format
 msgid "Tell %s to follow"
 msgstr ""
 
-#: src/npctalk.cpp:1078
+#: src/npctalk.cpp:1079
 msgid "Tell someone to follow…"
 msgstr ""
 
-#: src/npctalk.cpp:1084
+#: src/npctalk.cpp:1085
 msgid "Start a training seminar"
 msgstr ""
 
-#: src/npctalk.cpp:1085
+#: src/npctalk.cpp:1086
 msgid "Start a training seminar (You've already taught enough for now)"
 msgstr ""
 
-#: src/npctalk.cpp:1087
+#: src/npctalk.cpp:1088
 #, c-format
 msgid "Tell %s to guard"
 msgstr ""
 
-#: src/npctalk.cpp:1088
+#: src/npctalk.cpp:1089
 msgid "Tell someone to guard…"
 msgstr ""
 
-#: src/npctalk.cpp:1091
+#: src/npctalk.cpp:1092
 #, c-format
 msgid "Tell %s to move to location"
 msgstr ""
 
-#: src/npctalk.cpp:1092
+#: src/npctalk.cpp:1093
 msgid "Tell someone to move to location…"
 msgstr ""
 
-#: src/npctalk.cpp:1093
+#: src/npctalk.cpp:1094
 msgid "Tell everyone on your team to wake up"
 msgstr ""
 
-#: src/npctalk.cpp:1094
+#: src/npctalk.cpp:1095
 msgid "Tell everyone on your team to mount up"
 msgstr ""
 
-#: src/npctalk.cpp:1095
+#: src/npctalk.cpp:1096
 msgid "Tell everyone on your team to dismount"
 msgstr ""
 
-#: src/npctalk.cpp:1097
+#: src/npctalk.cpp:1098
 msgid "Tell everyone on your team to prepare for danger"
 msgstr ""
 
-#: src/npctalk.cpp:1099
+#: src/npctalk.cpp:1100
 msgid "Tell everyone on your team to relax (Clear Overrides)"
 msgstr ""
 
-#: src/npctalk.cpp:1100
+#: src/npctalk.cpp:1101
 msgid "Tell everyone on your team to temporarily…"
 msgstr ""
 
-#: src/npctalk.cpp:1114
+#: src/npctalk.cpp:1115
 msgid "Talk to whom?"
 msgstr ""
 
-#: src/npctalk.cpp:1123
+#: src/npctalk.cpp:1124
 msgid "loudly."
 msgstr ""
 
-#: src/npctalk.cpp:1126
+#: src/npctalk.cpp:1127
 msgid "Enter a sentence to yell"
 msgstr ""
 
-#: src/npctalk.cpp:1140
+#: src/npctalk.cpp:1141
 msgid "What do you want to emote?  (This will have no in-game effect!)"
 msgstr ""
 
-#: src/npctalk.cpp:1154
+#: src/npctalk.cpp:1155
 msgid "What would you like to teach?"
 msgstr ""
 
-#: src/npctalk.cpp:1160
+#: src/npctalk.cpp:1161
 msgid "Who should participate in the training seminar?"
 msgstr ""
 
-#: src/npctalk.cpp:1210
+#: src/npctalk.cpp:1211
 msgid "Who should guard here?"
 msgstr ""
 
-#: src/npctalk.cpp:1218
+#: src/npctalk.cpp:1219
 msgid "Everyone guard here!"
 msgstr ""
 
-#: src/npctalk.cpp:1221
+#: src/npctalk.cpp:1222
 #, c-format
 msgid "Guard here, %s!"
 msgstr ""
 
-#: src/npctalk.cpp:1226
+#: src/npctalk.cpp:1227
 msgid "Who should move?"
 msgstr ""
 
-#: src/npctalk.cpp:1239
+#: src/npctalk.cpp:1240
 msgid "This destination can't be reached."
 msgstr ""
 
-#: src/npctalk.cpp:1247
+#: src/npctalk.cpp:1248
 msgid "Everyone move there!"
 msgstr ""
 
-#: src/npctalk.cpp:1250
+#: src/npctalk.cpp:1251
 #, c-format
 msgid "Move there, %s!"
 msgstr ""
 
-#: src/npctalk.cpp:1255
+#: src/npctalk.cpp:1256
 msgid "Who should follow you?"
 msgstr ""
 
-#: src/npctalk.cpp:1263
+#: src/npctalk.cpp:1264
 msgid "Everyone follow me!"
 msgstr ""
 
-#: src/npctalk.cpp:1266
+#: src/npctalk.cpp:1267
 #, c-format
 msgid "Follow me, %s!"
 msgstr ""
 
-#: src/npctalk.cpp:1274
+#: src/npctalk.cpp:1275
 msgid "Stay awake!"
 msgstr ""
 
-#: src/npctalk.cpp:1283
+#: src/npctalk.cpp:1284
 msgid "Mount up!"
 msgstr ""
 
-#: src/npctalk.cpp:1291
+#: src/npctalk.cpp:1292
 msgid "Dismount!"
 msgstr ""
 
-#: src/npctalk.cpp:1297
+#: src/npctalk.cpp:1298
 msgid ""
 "We're in danger.  Stay awake, stay close, don't go wandering off, and don't "
 "open any doors."
 msgstr ""
 
-#: src/npctalk.cpp:1304
+#: src/npctalk.cpp:1305
 msgid "As you were."
 msgstr ""
 
-#: src/npctalk.cpp:1333
+#: src/npctalk.cpp:1334
 msgid "Who should we assign?"
 msgstr ""
 
-#: src/npctalk.cpp:1412 src/npctalk.cpp:2796
+#: src/npctalk.cpp:1413 src/npctalk.cpp:2806
 #, c-format
 msgid "\"%s\""
 msgstr ""
 
-#: src/npctalk.cpp:1415
+#: src/npctalk.cpp:1416
 #, c-format
 msgid "You yell %s"
 msgstr ""
 
-#: src/npctalk.cpp:1416
+#: src/npctalk.cpp:1417
 #, c-format
 msgid "%s yelling %s"
 msgstr ""
 
-#: src/npctalk.cpp:1589
+#: src/npctalk.cpp:1594
 #, c-format
 msgid "%s talked to you."
 msgstr ""
 
-#: src/npctalk.cpp:1611
+#: src/npctalk.cpp:1616
 #, c-format
 msgid "&%s stays silent."
 msgstr ""
 
-#: src/npctalk.cpp:1615
+#: src/npctalk.cpp:1620
 msgid "&You can't talk without your face."
 msgstr ""
 
-#: src/npctalk.cpp:1617
+#: src/npctalk.cpp:1622
 msgid "&You are deaf and can't talk."
 msgstr ""
 
-#: src/npctalk.cpp:1621
+#: src/npctalk.cpp:1626
 #, c-format
 msgid ""
 "&You are deaf and can't talk.  When you don't respond, %s becomes angry!"
 msgstr ""
 
-#: src/npctalk.cpp:1624
+#: src/npctalk.cpp:1629
 msgid "&You are mute and can't talk."
 msgstr ""
 
-#: src/npctalk.cpp:1628
+#: src/npctalk.cpp:1633
 #, c-format
 msgid ""
 "&You are mute and can't talk.  When you don't respond, %s becomes angry!"
 msgstr ""
 
-#: src/npctalk.cpp:1632
+#: src/npctalk.cpp:1637
 #, c-format
 msgid ""
 "&Thou art but a lowley churl and ye know not this newe tongue.  %s seems "
 "unable to understand what you're saying."
 msgstr ""
 
-#: src/npctalk.cpp:1637
+#: src/npctalk.cpp:1642
 #, c-format
 msgid ""
 "&Thou art but a lowley churl and ye know not this newe tongue.  Unable to "
 "understand your dialect, %s becomes angry!"
 msgstr ""
 
-#: src/npctalk.cpp:1641
+#: src/npctalk.cpp:1646
 #, c-format
 msgid ""
 "&Thou art but a lowley churl wyth litel understonding of this newe langage, "
 "yet %s can understand you and seems willing to trade!"
 msgstr ""
 
-#: src/npctalk.cpp:1646
+#: src/npctalk.cpp:1651
 #, c-format
 msgid ""
 "%1$s is sedated and can't be moved or woken up until the medication or sedation wears off.\n"
 "You estimate it will wear off in %2$s."
 msgstr ""
 
-#: src/npctalk.cpp:1680
+#: src/npctalk.cpp:1685
 msgid "  And I have more I'd like you to do."
 msgstr ""
 
-#: src/npctalk.cpp:1682
+#: src/npctalk.cpp:1687
 msgid "  I could use a hand with something else if you are interested."
 msgstr ""
 
-#: src/npctalk.cpp:1684
+#: src/npctalk.cpp:1689
 msgid "  If you are interested, I have another job for you."
 msgstr ""
 
-#: src/npctalk.cpp:1695
+#: src/npctalk.cpp:1705
 msgid "Shall we resume?"
 msgstr ""
 
-#: src/npctalk.cpp:1700
+#: src/npctalk.cpp:1710
 msgid "Sorry, but it doesn't seem I have anything to teach you."
 msgstr ""
 
-#: src/npctalk.cpp:1702
+#: src/npctalk.cpp:1712
 msgid "Here's what I can teach you…"
 msgstr ""
 
-#: src/npctalk.cpp:1709
+#: src/npctalk.cpp:1719
 msgid "Sorry, there's nothing I can learn from you."
 msgstr ""
 
-#: src/npctalk.cpp:1711
+#: src/npctalk.cpp:1721
 msgid "Sure, I'm all ears."
 msgstr ""
 
-#: src/npctalk.cpp:1714
+#: src/npctalk.cpp:1724
 msgid "What do you want me to teach?"
 msgstr ""
 
-#: src/npctalk.cpp:1722
+#: src/npctalk.cpp:1732
 msgid "&You yell, but can't hear yourself."
 msgstr ""
 
-#: src/npctalk.cpp:1725
+#: src/npctalk.cpp:1735
 msgid "&You yell, but can't form words."
 msgstr ""
 
-#: src/npctalk.cpp:1727
+#: src/npctalk.cpp:1737
 msgid "&You yell."
 msgstr ""
 
-#: src/npctalk.cpp:1738
+#: src/npctalk.cpp:1748
 #, c-format
 msgid "&You're blind and can't look at %s."
 msgstr ""
 
-#: src/npctalk.cpp:1744
+#: src/npctalk.cpp:1754
 msgid "YES, MASTER!"
 msgstr ""
 
-#: src/npctalk.cpp:1880
+#: src/npctalk.cpp:1890
 msgid "Tell me about it."
 msgstr ""
 
-#: src/npctalk.cpp:1889
+#: src/npctalk.cpp:1899
 msgid "I have news."
 msgstr ""
 
-#: src/npctalk.cpp:1982 src/npctalk.cpp:1986 src/npctalk.cpp:1991
-#: src/npctalk.cpp:1995
+#: src/npctalk.cpp:1992 src/npctalk.cpp:1996 src/npctalk.cpp:2001
+#: src/npctalk.cpp:2005
 #, c-format
 msgid "Yes, let's resume training %s"
 msgstr ""
 
-#: src/npctalk.cpp:2041
+#: src/npctalk.cpp:2051
 msgid "Okay, thanks."
 msgstr ""
 
-#: src/npctalk.cpp:2042
+#: src/npctalk.cpp:2052
 msgid "Let's keep moving."
 msgstr ""
 
-#: src/npctalk.cpp:2046
+#: src/npctalk.cpp:2056
 msgid "OBEY ME!"
 msgstr ""
 
-#: src/npctalk.cpp:2053
+#: src/npctalk.cpp:2063
 msgid "Ho there, otherwyrldly devyl!  Have yow ware for to chaffare?"
 msgstr ""
 
-#: src/npctalk.cpp:2055
+#: src/npctalk.cpp:2065
 msgid "Farewell!"
 msgstr ""
 
-#: src/npctalk.cpp:2307
+#: src/npctalk.cpp:2317
 msgid "BADAMMO"
 msgstr ""
 
-#: src/npctalk.cpp:2317
+#: src/npctalk.cpp:2327
 msgid "doing this and that"
 msgstr ""
 
-#: src/npctalk.cpp:2333
+#: src/npctalk.cpp:2343
 msgctxt "npc"
 msgid "He"
 msgstr ""
 
-#: src/npctalk.cpp:2333
+#: src/npctalk.cpp:2343
 msgctxt "npc"
 msgid "She"
 msgstr ""
 
-#: src/npctalk.cpp:2336
+#: src/npctalk.cpp:2346
 msgctxt "npc"
 msgid "her"
 msgstr ""
 
-#: src/npctalk.cpp:2336
+#: src/npctalk.cpp:2346
 msgctxt "npc"
 msgid "his"
 msgstr ""
 
-#: src/npctalk.cpp:2351
+#: src/npctalk.cpp:2361
 msgid "a few days"
 msgstr ""
 
-#: src/npctalk.cpp:2680
+#: src/npctalk.cpp:2690
 #, c-format
 msgctxt "talk option"
 msgid "[%1$s %2$d/%3$d] %4$s"
@@ -671441,84 +671487,84 @@ msgstr ""
 
 #. ~ %1$s is translated trial type, %2$d is a number, and %3$s is the
 #. translated response text
-#: src/npctalk.cpp:2689
+#: src/npctalk.cpp:2699
 #, c-format
 msgctxt "talk option"
 msgid "[%1$s %2$d%%] %3$s"
 msgstr ""
 
-#: src/npctalk.cpp:2816
+#: src/npctalk.cpp:2826
 #, c-format
 msgctxt "npc does something"
 msgid "%s %s"
 msgstr ""
 
-#: src/npctalk.cpp:2937
+#: src/npctalk.cpp:2947
 msgid "You'll be helpless!  Proceed?"
 msgstr ""
 
 #. ~ %1%s is the NPC name, %2$s is an item
-#: src/npctalk.cpp:3564 src/npctalk.cpp:3604 src/npctalk.cpp:3623
-#: src/npctalk.cpp:4604
+#: src/npctalk.cpp:3574 src/npctalk.cpp:3614 src/npctalk.cpp:3633
+#: src/npctalk.cpp:4614
 #, c-format
 msgid "%1$s gives you a %2$s."
 msgstr ""
 
 #. ~ %1%s is the NPC name, %2$d is a number of items, %3$s are items
-#: src/npctalk.cpp:3568 src/npctalk.cpp:3607 src/npctalk.cpp:4608
+#: src/npctalk.cpp:3578 src/npctalk.cpp:3617 src/npctalk.cpp:4618
 #: src/talker_avatar.cpp:107
 #, c-format
 msgid "%1$s gives you %2$d %3$s."
 msgstr ""
 
-#: src/npctalk.cpp:3708 src/talker_avatar.cpp:81
+#: src/npctalk.cpp:3718 src/talker_avatar.cpp:81
 msgid "You can't afford it!"
 msgstr ""
 
 #. ~ %1$s is a translated item name
-#: src/npctalk.cpp:3753
+#: src/npctalk.cpp:3763
 #, c-format
 msgid "You don't have a %1$s!"
 msgstr ""
 
 #. ~ %1%s is the NPC name, %2$s is an item
-#: src/npctalk.cpp:3759 src/npctalk.cpp:3814
+#: src/npctalk.cpp:3769 src/npctalk.cpp:3824
 #, c-format
 msgid "You give %1$s a %2$s."
 msgstr ""
 
 #. ~ %1%s is the NPC name, %2$d is a number of items, %3$s are items
-#: src/npctalk.cpp:3763 src/npctalk.cpp:3817
+#: src/npctalk.cpp:3773 src/npctalk.cpp:3827
 #, c-format
 msgid "You give %1$s %2$d %3$s."
 msgstr ""
 
 #. ~ %1%s is the "You" or the NPC name, %2$s are a translated item name
-#: src/npctalk.cpp:3806
+#: src/npctalk.cpp:3816
 #, c-format
 msgid "%1$s doesn't have a %2$s!"
 msgstr ""
 
-#: src/npctalk.cpp:4560
+#: src/npctalk.cpp:4570
 msgid "Really continue?  You will hand over the following items:"
 msgstr ""
 
-#: src/npctalk.cpp:5814
+#: src/npctalk.cpp:5824
 msgid "Select an option."
 msgstr ""
 
-#: src/npctalk.cpp:7029
+#: src/npctalk.cpp:7039
 #, c-format
 msgid "%s wants to talk to you."
 msgstr ""
 
-#: src/npctalk.cpp:7646
+#: src/npctalk.cpp:7656
 #, c-format
 msgctxt "failure_explanation: actual_response"
 msgid "*%s: %s"
 msgstr ""
 
-#: src/npctalk.cpp:7770
+#: src/npctalk.cpp:7780
 msgid "I can't think of a single place I can build a camp."
 msgstr ""
 
@@ -678523,50 +678569,50 @@ msgstr ""
 msgid "You feel a strange, inwards force."
 msgstr ""
 
-#: src/teleport.cpp:107 src/teleport.cpp:152
+#: src/teleport.cpp:112 src/teleport.cpp:157
 msgid "You cannot teleport safely."
 msgstr ""
 
-#: src/teleport.cpp:116
+#: src/teleport.cpp:121
 msgid "You die after teleporting into a solid."
 msgstr ""
 
-#: src/teleport.cpp:133
+#: src/teleport.cpp:138
 msgid "<npcname> flickers."
 msgstr ""
 
-#: src/teleport.cpp:133
+#: src/teleport.cpp:138
 msgid "You flicker."
 msgstr ""
 
-#: src/teleport.cpp:135
+#: src/teleport.cpp:140
 #, c-format
 msgid "%1$s flickers."
 msgstr ""
 
-#: src/teleport.cpp:143
+#: src/teleport.cpp:148
 msgid "You feel disjointed."
 msgstr ""
 
-#: src/teleport.cpp:159
+#: src/teleport.cpp:164
 msgid "You're blasted with strange energy!"
 msgstr ""
 
-#: src/teleport.cpp:164
+#: src/teleport.cpp:169
 #, c-format
 msgid ""
 "You collide with %s mid teleport, and you are both knocked away by a violent"
 " explosion of energy."
 msgstr ""
 
-#: src/teleport.cpp:165
+#: src/teleport.cpp:170
 #, c-format
 msgid ""
 "<npcname> collides with %s mid teleport, and they are both knocked away by a"
 " violent explosion of energy."
 msgstr ""
 
-#: src/teleport.cpp:172
+#: src/teleport.cpp:177
 #, c-format
 msgid ""
 "%1$s collides with %2$s mid teleport, and they are both knocked away by a "
