@@ -103,7 +103,6 @@
 # Krylex Vesper, 2025
 # Тимур Кашафутдинов <leemuar@gmail.com>, 2025
 # CountAlex, 2025
-# TechCat <alone.inbox@gmail.com>, 2025
 # грыжа болотная, 2025
 # 000000 0000000 <felargyle@gmail.com>, 2025
 # Midas <dd_nk@mail.ru>, 2025
@@ -114,15 +113,16 @@
 # Nnet 33, 2025
 # Brett Dong <brett.browning.dong@gmail.com>, 2025
 # Vlasov Vitaly <vnigtha@gmail.com>, 2025
-# Nana M, 2025
 # Антон Бурмистров <22.valiant@gmail.com>, 2025
+# TechCat <alone.inbox@gmail.com>, 2025
+# Nana M, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: cataclysm-dda 0.I\n"
-"POT-Creation-Date: 2025-05-15 11:11+0000\n"
+"POT-Creation-Date: 2025-05-21 17:47+0000\n"
 "PO-Revision-Date: 2018-04-26 14:47+0000\n"
-"Last-Translator: Антон Бурмистров <22.valiant@gmail.com>, 2025\n"
+"Last-Translator: Nana M, 2025\n"
 "Language-Team: Russian (https://app.transifex.com/cataclysm-dda-translators/teams/2217/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -312,7 +312,7 @@ msgstr "%s (укажите направление)"
 #: src/iuse_actor.cpp:5328 src/iuse_actor.cpp:5367 src/iuse_actor.cpp:5470
 #: src/iuse_actor.cpp:5525 src/iuse_actor.cpp:5556 src/monexamine.cpp:93
 #: src/monexamine.cpp:215 src/monexamine.cpp:311 src/monexamine.cpp:347
-#: src/npc.cpp:1389 src/npc.cpp:1396 src/veh_interact.cpp:3014
+#: src/npc.cpp:1389 src/npc.cpp:1396 src/veh_interact.cpp:3015
 #: src/vehicle_use.cpp:1623 src/vehicle_use.cpp:2384
 #: data/json/npcs/snippets/talk_tags_avatar.json
 #: data/mods/Aftershock/npcs/Augustmoon_Salvors/augustmoon_doctor.json
@@ -500,7 +500,7 @@ msgstr "У вас больше нет книги!"
 msgid "<npcname> no longer has the book!"
 msgstr "<npcname> больше не имеет книги!"
 
-#: src/activity_actor.cpp:1705 src/character.cpp:12343 src/npc.cpp:1347
+#: src/activity_actor.cpp:1705 src/character.cpp:12344 src/npc.cpp:1347
 msgid "It's too dark to read!"
 msgstr "Слишком темно, чтобы читать!"
 
@@ -843,7 +843,7 @@ msgstr "С приятным щелчком сейфовый замок откр�
 msgid "You disassemble your %s."
 msgstr "Вы разобрали %s."
 
-#: src/activity_actor.cpp:4066 src/character.cpp:11905
+#: src/activity_actor.cpp:4066 src/character.cpp:11906
 #, c-format
 msgid "You unload your %s."
 msgstr "Вы разрядили %s."
@@ -4381,7 +4381,7 @@ msgstr "Эти предметы не находятся внутри водон�
 #: src/avatar_action.cpp:145 src/debug_menu.cpp:3143 src/editmap.cpp:973
 #: src/editmap.cpp:974 src/editmap.cpp:981 src/editmap.cpp:982
 #: src/options.cpp:1702 src/options.cpp:2642 src/trap.cpp:475
-#: src/veh_interact.cpp:1429
+#: src/veh_interact.cpp:1430
 #: data/mods/BombasticPerks/corefiles/config_menu.json
 #: data/mods/Xedra_Evolved/eocs/eoc_riddles.json data/raw/keybindings.json
 msgid "No"
@@ -4393,7 +4393,7 @@ msgstr "Нет"
 #. ~ EOC option name in effect in EoC "EOC_XE_RIDDLE_20"
 #: src/avatar_action.cpp:146 src/debug_menu.cpp:3143 src/editmap.cpp:973
 #: src/editmap.cpp:974 src/editmap.cpp:981 src/editmap.cpp:982
-#: src/trap.cpp:475 src/veh_interact.cpp:1429
+#: src/trap.cpp:475 src/veh_interact.cpp:1430
 #: data/mods/BombasticPerks/corefiles/config_menu.json
 #: data/mods/Xedra_Evolved/eocs/eoc_riddles.json data/raw/keybindings.json
 msgid "Yes"
@@ -4687,7 +4687,7 @@ msgstr "У вас не хватает сил бросить что-либо…"
 msgid "You aren't holding something you can throw."
 msgstr "Вы не держите ничего, что можно метнуть."
 
-#: src/avatar_action.cpp:1143 src/character.cpp:3431 src/character.cpp:13363
+#: src/avatar_action.cpp:1143 src/character.cpp:3431 src/character.cpp:13364
 msgid "You can't use anything while incorporeal."
 msgstr "Вы не можете ничего использовать, пока вы бестелесны."
 
@@ -6686,23 +6686,23 @@ msgstr "Отмена"
 msgid "OK"
 msgstr "ОК"
 
-#: src/cata_tiles.cpp:5598
+#: src/cata_tiles.cpp:5600
 msgid "direct3d"
 msgstr "Direct3D"
 
-#: src/cata_tiles.cpp:5600 src/options.cpp:2656
+#: src/cata_tiles.cpp:5602 src/options.cpp:2656
 msgid "software"
 msgstr "ПО"
 
-#: src/cata_tiles.cpp:5601
+#: src/cata_tiles.cpp:5603
 msgid "opengl"
 msgstr "OpenGL"
 
-#: src/cata_tiles.cpp:5602
+#: src/cata_tiles.cpp:5604
 msgid "opengles2"
 msgstr "OpenGLes2"
 
-#: src/cata_tiles.cpp:5628
+#: src/cata_tiles.cpp:5630
 msgid "Display 0"
 msgstr "Дисплей 0"
 
@@ -7110,7 +7110,7 @@ msgstr "%1$s не может расшириться ещё больше, что�
 msgid "You pour %1$s into the %2$s."
 msgstr "Вы налили %1$s в %2$s."
 
-#: src/character.cpp:6087 src/character.cpp:6106 src/veh_interact.cpp:3192
+#: src/character.cpp:6087 src/character.cpp:6106 src/veh_interact.cpp:3193
 msgid "There's some left over!"
 msgstr "Там ещё осталось!"
 
@@ -7302,7 +7302,7 @@ msgstr[3] "Ваш %s имеет %d заряд, а нужно как миниму
 msgid "You cough heavily."
 msgstr "Вы тяжело кашляете."
 
-#: src/character.cpp:7368 src/monster.cpp:3453 src/monster.cpp:3464
+#: src/character.cpp:7368 src/monster.cpp:3483 src/monster.cpp:3494
 msgid "a hacking cough."
 msgstr "покашливание."
 
@@ -7966,130 +7966,130 @@ msgstr "В стимуляторе сна закончилась энергия!"
 msgid "Your soporific inducer starts back up."
 msgstr "Стимулятор сна начал работать."
 
-#: src/character.cpp:11722
+#: src/character.cpp:11723
 #, c-format
 msgid "You put the %s in your inventory."
 msgstr "Вы убрали %s в свой инвентарь."
 
-#: src/character.cpp:11737
+#: src/character.cpp:11738
 #, c-format
 msgid "The %s is already empty!"
 msgstr "%s уже пуст!"
 
-#: src/character.cpp:11741
+#: src/character.cpp:11742
 msgid "The item can't be unloaded in its current state!"
 msgstr "Предмет не может быть разряжен в его текущем состоянии!"
 
-#: src/character.cpp:11795
+#: src/character.cpp:11796
 msgid "Unload what?"
 msgstr "Разрядить что?"
 
-#: src/character.cpp:11812 src/character.cpp:11820
+#: src/character.cpp:11813 src/character.cpp:11821
 #, c-format
 msgid "You can't unload a %s!"
 msgstr "Вы не можете разрядить %s!"
 
-#: src/character.cpp:11818
+#: src/character.cpp:11819
 #, c-format
 msgid "You can't unload a rechargeable %s!"
 msgstr "Вы не можете разрядить перезаряжаемый %s!"
 
-#: src/character.cpp:11828
+#: src/character.cpp:11829
 #, c-format
 msgid "Your %s isn't charged."
 msgstr "%s не заряжен."
 
-#: src/character.cpp:11830
+#: src/character.cpp:11831
 #, c-format
 msgid "Your %s isn't loaded."
 msgstr "%s не заряжен."
 
-#: src/character.cpp:12301
+#: src/character.cpp:12302
 #, c-format
 msgid "Your %s is not good reading material."
 msgstr "%s — плохой материал для чтения."
 
-#: src/character.cpp:12303
+#: src/character.cpp:12304
 #, c-format
 msgid "The %s is not good reading material."
 msgstr "%s — плохой материал для чтения."
 
-#: src/character.cpp:12315
+#: src/character.cpp:12316
 msgid "It's a bad idea to read while driving!"
 msgstr "Читать за рулём — плохая идея!"
 
-#: src/character.cpp:12321 src/iuse_actor.cpp:2695
+#: src/character.cpp:12322 src/iuse_actor.cpp:2695
 msgid "What's the point of studying?  (Your morale is too low!)"
 msgstr "Какой смысл учиться чему-то? (Ваше настроение слишком плохое!)"
 
-#: src/character.cpp:12322
+#: src/character.cpp:12323
 #, c-format
 msgid "What's the point of studying?  (%s)'s morale is too low!)"
 msgstr "Какой смысл учиться чему-то? (%s - настроение слишком плохое!)"
 
-#: src/character.cpp:12326
+#: src/character.cpp:12327
 #, c-format
 msgid "%s %d needed to understand.  You have %d"
 msgstr "Нужен навык %s уровня %d, чтобы понять.  Ваш уровень навыка %d"
 
-#: src/character.cpp:12328 src/character.cpp:12371
+#: src/character.cpp:12329 src/character.cpp:12372
 #, c-format
 msgid "%s %d needed to understand.  %s has %d"
 msgstr "Нужен навык %s уровня %d, чтобы понять. %s имеет уровень навыка %d"
 
-#: src/character.cpp:12335 src/iuse.cpp:4189
+#: src/character.cpp:12336 src/iuse.cpp:4189
 msgid "You're illiterate!"
 msgstr "Вы безграмотны!"
 
-#: src/character.cpp:12336 src/character.cpp:12368
+#: src/character.cpp:12337 src/character.cpp:12369
 #, c-format
 msgid "%s is illiterate!"
 msgstr "%s не умеет читать!"
 
-#: src/character.cpp:12338
+#: src/character.cpp:12339
 msgid "Your eyes won't focus without reading glasses."
 msgstr "У вас в глазах всё расплывается без очков для чтения."
 
-#: src/character.cpp:12339
+#: src/character.cpp:12340
 #, c-format
 msgid "%s's eyes won't focus without reading glasses."
 msgstr "%s не может сфокусировать взгляд без очков для чтения."
 
-#: src/character.cpp:12357
+#: src/character.cpp:12358
 msgid "Maybe someone could read that to you, but you're deaf!"
 msgstr "Возможно, кто-нибудь и смог бы прочитать это для вас, но вы глухи!"
 
-#: src/character.cpp:12375
+#: src/character.cpp:12376
 #, c-format
 msgid "%s needs reading glasses!"
 msgstr "%s не может читать без очков для чтения!"
 
-#: src/character.cpp:12379
+#: src/character.cpp:12380
 #, c-format
 msgid "It's too dark for %s to read!"
 msgstr "Слишком темно, %s не может читать!"
 
-#: src/character.cpp:12382
+#: src/character.cpp:12383
 #, c-format
 msgid "%s could read that to you, but they can't see you."
 msgstr "%s прочтёт это для вас, но вас не видно."
 
-#: src/character.cpp:12386
+#: src/character.cpp:12387
 #, c-format
 msgid "%s morale is too low!"
 msgstr "%s в слишком низком настроении!"
 
-#: src/character.cpp:12388
+#: src/character.cpp:12389
 #, c-format
 msgid "%s is blind."
 msgstr "%s не видит из-за слепоты."
 
 #. ~ Label of UI widget "ll_weight_carried_value"
-#: src/character.cpp:12469 data/json/ui/sidebar-legacy-labels.json
+#: src/character.cpp:12470 data/json/ui/sidebar-legacy-labels.json
 msgid "Weight Carried"
 msgstr "Переносимый вес"
 
-#: src/character.cpp:12471 src/medical_ui.cpp:552 src/newcharacter.cpp:1464
+#: src/character.cpp:12472 src/medical_ui.cpp:552 src/newcharacter.cpp:1464
 #: src/player_display.cpp:1596
 msgid "Dexterity"
 msgstr "Ловкость"
@@ -8097,153 +8097,153 @@ msgstr "Ловкость"
 #. ~ Label of UI widget "pain_num_label"
 #. ~ Label of UI widget "pain_num_no_label"
 #. ~ Label of UI widget "pain_desc_label"
-#: src/character.cpp:12473 src/distraction_manager.cpp:30
+#: src/character.cpp:12474 src/distraction_manager.cpp:30
 #: src/memorial_logger.cpp:352 src/player_display.cpp:1571
 #: data/json/ui/pain.json
 msgid "Pain"
 msgstr "Боль"
 
 #. ~ Label of UI widget "thirst_desc_label"
-#: src/character.cpp:12476 src/debug_menu.cpp:1959
+#: src/character.cpp:12477 src/debug_menu.cpp:1959
 #: src/distraction_manager.cpp:39 data/json/ui/thirst.json
 msgid "Thirst"
 msgstr "Жажда"
 
 #. ~ Clause text "underweight" of UI widget "weight_desc_label"
-#: src/character.cpp:12479 src/display.cpp:672 data/json/ui/weight.json
+#: src/character.cpp:12480 src/display.cpp:672 data/json/ui/weight.json
 msgid "Underweight"
 msgstr "Недостаточный вес"
 
-#: src/character.cpp:12490
+#: src/character.cpp:12491
 msgid "Martial Art"
 msgstr "Боевое искусство"
 
 #. ~ Mutation name
-#: src/character.cpp:12498 data/json/mutations/mutations.json
+#: src/character.cpp:12499 data/json/mutations/mutations.json
 msgid "Sunlight Dependent"
 msgstr "Солнечная зависимость"
 
-#: src/character.cpp:12506
+#: src/character.cpp:12507
 msgid "Bio/Mut/Etc Effects"
 msgstr "Био/Мут/Эффекты"
 
-#: src/character.cpp:12510
+#: src/character.cpp:12511
 msgid "Penalty Cap"
 msgstr "Лимит штрафа"
 
-#: src/character.cpp:12846 src/character.cpp:12892
+#: src/character.cpp:12847 src/character.cpp:12893
 #, c-format
 msgid "You land on %s."
 msgstr "Вы приземлились на %s."
 
-#: src/character.cpp:12876
+#: src/character.cpp:12877
 #, c-format
 msgid "You are slammed against %1$s for %2$d damage."
 msgstr "Вы врезались в %1$s, получив %2$d урона."
 
-#: src/character.cpp:12879
+#: src/character.cpp:12880
 #, c-format
 msgid "You are slammed against %s!"
 msgstr "Вы врезались в %s!"
 
-#: src/character.cpp:12881
+#: src/character.cpp:12882
 msgid "…but your shock absorbers negate the damage!"
 msgstr "… но ваши кинетические амортизаторы поглотили весь урон!"
 
-#: src/character.cpp:12887
+#: src/character.cpp:12888
 #, c-format
 msgid "You are slammed against %s."
 msgstr "Вы врезались в %s."
 
-#: src/character.cpp:12888
+#: src/character.cpp:12889
 #, c-format
 msgid "<npcname> is slammed against %s."
 msgstr "<npcname> врезается в %s!"
 
-#: src/character.cpp:12948 src/character.cpp:12977
+#: src/character.cpp:12949 src/character.cpp:12978
 #, c-format
 msgid "<npcname> bounces off a %s!"
 msgstr "<npcname> отскакивает от %s!"
 
-#: src/character.cpp:12948 src/character.cpp:12977
+#: src/character.cpp:12949 src/character.cpp:12978
 #, c-format
 msgid "You bounce off a %s!"
 msgstr "Вы отскочили от %s!"
 
-#: src/character.cpp:12958
+#: src/character.cpp:12959
 #, c-format
 msgid "<npcname> bounces off %s!"
 msgstr "<npcname> отскакивает от %s!"
 
-#: src/character.cpp:12958
+#: src/character.cpp:12959
 #, c-format
 msgid "You bounce off %s!"
 msgstr "Вы отскакивает от %s!"
 
-#: src/character.cpp:13020
+#: src/character.cpp:13021
 #, c-format
 msgid "%s spilled from your hand."
 msgstr "%s утекает сквозь пальцы."
 
-#: src/character.cpp:13114
+#: src/character.cpp:13115
 #, c-format
 msgid "Your ground sonar detected a %1$s to the %2$s!"
 msgstr "Ваш сонар заметил: %1$s, к %2$sу от вас!"
 
-#: src/character.cpp:13135 src/vehicle_move.cpp:1302
+#: src/character.cpp:13136 src/vehicle_move.cpp:1302
 #, c-format
 msgid "You've spotted a %1$s to the %2$s!"
 msgstr "Вы заметили: %1$s к %2$sу от вас!"
 
-#: src/character.cpp:13161
+#: src/character.cpp:13162
 msgid "You need to put the bag away before trying to wield something from it."
 msgstr "Вам нужно снять сумку перед тем, как взять что-либо из неё в руки."
 
-#: src/character.cpp:13238
+#: src/character.cpp:13239
 msgid "No item."
 msgstr "Нет предмета."
 
-#: src/character.cpp:13372 src/consumption.cpp:1907
+#: src/character.cpp:13373 src/consumption.cpp:1907
 msgid "You do not have that item."
 msgstr "У вас нет этого предмета."
 
-#: src/character.cpp:13382 src/character.cpp:13437 src/iuse.cpp:9225
+#: src/character.cpp:13383 src/character.cpp:13438 src/iuse.cpp:9225
 #, c-format
 msgid "You can't do anything interesting with your %s."
 msgstr "Вы не можете сделать ничего интересного с %s."
 
-#: src/character.cpp:13395
+#: src/character.cpp:13396
 msgid "Your biology is not compatible with that healing item."
 msgstr "Ваша биология несовместима с этим лечебным предметом."
 
-#: src/character.cpp:13435
+#: src/character.cpp:13436
 msgid "You are not wielding anything you could use."
 msgstr "Вам нечего использовать."
 
-#: src/character.cpp:13581
+#: src/character.cpp:13582
 msgid "You roll on the ground, trying to smother the fire!"
 msgstr "Вы катаетесь по земле, пытаясь потушить огонь!"
 
-#: src/character.cpp:13582
+#: src/character.cpp:13583
 msgid "<npcname> rolls on the ground!"
 msgstr "<npcname> катается по земле, пытаясь потушить огонь!"
 
-#: src/character.cpp:13585
+#: src/character.cpp:13586
 msgid "You attempt to put out the fire on you!"
 msgstr "Вы пытаетесь потушить огонь!"
 
-#: src/character.cpp:13586
+#: src/character.cpp:13587
 msgid "<npcname> attempts to put out the fire on them!"
 msgstr "<npcname> пытается потушить огонь!"
 
-#: src/character.cpp:13599
+#: src/character.cpp:13600
 msgid ""
 "Your broken limb significantly hampers your efforts to put pressure on a "
 "bleeding wound!"
 msgstr ""
 "Ваша сломанная конечность сильно мешает попыткам зажать кровоточащую рану!"
 
-#: src/character.cpp:13600
+#: src/character.cpp:13601
 msgid ""
 "<npcname>'s broken limb significantly hampers their effort to put pressure "
 "on a bleeding wound!"
@@ -8251,14 +8251,14 @@ msgstr ""
 "<npcname> пытается зажать кровоточащую рану, но сломанная конечность сильно "
 "мешает!"
 
-#: src/character.cpp:13603
+#: src/character.cpp:13604
 msgid ""
 "Your hands are too encumbered to effectively put pressure on a bleeding "
 "wound!"
 msgstr ""
 "Ваши руки слишком скованны, чтобы эффективно зажать на кровоточащую рану!"
 
-#: src/character.cpp:13604
+#: src/character.cpp:13605
 msgid ""
 "<npcname>'s hands are too encumbered to effectively put pressure on a "
 "bleeding wound!"
@@ -8266,31 +8266,31 @@ msgstr ""
 "<npcname> пытается зажать кровоточащую рану, но скованность рук сильно "
 "мешает."
 
-#: src/character.cpp:13610
+#: src/character.cpp:13611
 msgid ""
 "Your bleeding is beyond staunching barehanded!  A tourniquet might help."
 msgstr ""
 "Ваше кровотечение невозможно остановить голыми руками!  Жгут может помочь."
 
-#: src/character.cpp:13611
+#: src/character.cpp:13612
 msgid "<npcname>'s bleeding is beyond staunching barehanded!"
 msgstr ""
 "<npcname> пытается зажать рану, но такое кровотечение невозможно остановить "
 "руками!"
 
-#: src/character.cpp:13618
+#: src/character.cpp:13619
 msgid "You put pressure on the bleeding wound…"
 msgstr "Вы давите на кровоточащую рану…"
 
-#: src/character.cpp:13619
+#: src/character.cpp:13620
 msgid "<npcname> puts pressure on the bleeding wound…"
 msgstr "<npcname> давит на кровоточащую рану…"
 
-#: src/character.cpp:13713 src/newcharacter.cpp:406
+#: src/character.cpp:13714 src/newcharacter.cpp:406
 msgid "Select a style.\n"
 msgstr "Выберите стиль.\n"
 
-#: src/character.cpp:13714 src/newcharacter.cpp:407
+#: src/character.cpp:13715 src/newcharacter.cpp:407
 #, c-format
 msgid ""
 "STR: <color_white>%d</color>, DEX: <color_white>%d</color>, PER: <color_white>%d</color>, INT: <color_white>%d</color>\n"
@@ -8299,15 +8299,15 @@ msgstr ""
 "СИЛ: <color_white>%d</color>, ЛОВ: <color_white>%d</color>, ВОС: <color_white>%d</color>, ИНТ: <color_white>%d</color>\n"
 "Нажмите [<color_yellow>%s</color>], чтобы посмотреть детали техники и совместимое оружие.\n"
 
-#: src/character.cpp:13725
+#: src/character.cpp:13726
 msgid "Keep hands free (off)"
 msgstr "Держать руки свободными (выкл)"
 
-#: src/character.cpp:13725
+#: src/character.cpp:13726
 msgid "Keep hands free (on)"
 msgstr "Держать руки свободными (вкл)"
 
-#: src/character.cpp:13726
+#: src/character.cpp:13727
 msgid ""
 "When this is enabled, player won't wield things unless explicitly told to."
 msgstr ""
@@ -8360,7 +8360,7 @@ msgstr "Ваше снаряжение (%1$s) %2$s!"
 
 #. ~ Damage adjective of material
 #: src/character_armor.cpp:363 src/character_attire.cpp:1947
-#: src/veh_interact.cpp:2948 data/json/materials.json
+#: src/veh_interact.cpp:2949 data/json/materials.json
 #: data/mods/MindOverMatter/materials.json
 msgid "destroyed"
 msgstr "уничтожено"
@@ -8884,7 +8884,7 @@ msgstr "<npcname> ловко перекатывается на ноги."
 msgid "<npcname> stands up."
 msgstr "<npcname> поднимается."
 
-#: src/character_escape.cpp:111 src/monster.cpp:2571
+#: src/character_escape.cpp:111 src/monster.cpp:2601
 #, c-format
 msgid "The %s escapes the bear trap!"
 msgstr "%s вырывается из медвежьего капкана!"
@@ -8907,7 +8907,7 @@ msgid "You try to free yourself from the bear trap, but can't get loose!"
 msgstr ""
 "Вы пытаетесь освободиться от медвежьего капкана, но у вас не получается!"
 
-#: src/character_escape.cpp:137 src/monster.cpp:2547
+#: src/character_escape.cpp:137 src/monster.cpp:2577
 #, c-format
 msgid "The %s escapes the light snare!"
 msgstr "%s вырывается из лёгкого силка!"
@@ -8924,7 +8924,7 @@ msgstr "<npcname> освобождается из лёгкого силка!"
 msgid "You try to free yourself from the light snare, but can't get loose!"
 msgstr "Вы пытаетесь вырваться из лёгкого силка, но у вас не получается!"
 
-#: src/character_escape.cpp:162 src/monster.cpp:2559
+#: src/character_escape.cpp:162 src/monster.cpp:2589
 #, c-format
 msgid "The %s escapes the heavy snare!"
 msgstr "%s вырывается из тяжёлого силка!"
@@ -9002,7 +9002,7 @@ msgstr "Вы пытаетесь разорвать захват %s с %s, но �
 msgid "<npcname> tries to break out of the grab, but fails!"
 msgstr "<npcname> пытается разорвать захват, но терпит неудачу!"
 
-#: src/character_escape.cpp:348 src/monster.cpp:2537
+#: src/character_escape.cpp:348 src/monster.cpp:2567
 #, c-format
 msgid "The %s breaks free of the webs!"
 msgstr "%s высвобождается из паутины!"
@@ -10274,7 +10274,7 @@ msgstr "Поиск"
 
 #. ~ Key binding name
 #. ~ Construction category name
-#: src/construction.cpp:1019 src/veh_interact.cpp:1031
+#: src/construction.cpp:1019 src/veh_interact.cpp:1032
 #: data/json/construction_category.json data/raw/keybindings.json
 msgid "Filter"
 msgstr "Фильтр"
@@ -10353,7 +10353,7 @@ msgid ""
 "grave."
 msgstr "К сожалению, у вас нет ничего острого, чтобы написать на могиле."
 
-#: src/construction.cpp:1698 src/veh_interact.cpp:2041
+#: src/construction.cpp:1698 src/veh_interact.cpp:2042
 msgid "Enter new vehicle name:"
 msgstr "Введите новое название транспорта:"
 
@@ -11365,7 +11365,7 @@ msgid "%1s disassembles the %2s into its components."
 msgstr "%1s разбирает %2s на компоненты."
 
 #. ~ %1$d: quantity destroyed, %2$s: pluralized name of destroyed item
-#: src/crafting.cpp:2987 src/veh_interact.cpp:3293
+#: src/crafting.cpp:2987 src/veh_interact.cpp:3294
 #, c-format
 msgid "You fail to recover %1$d %2$s."
 msgstr "Вам не удалось получить %1$d %2$s."
@@ -12357,9 +12357,9 @@ msgid "%s stumbles into you!"
 msgstr "%s спотыкается на вас!"
 
 #: src/creature.cpp:1598 src/mattack_actors.cpp:488 src/mattack_actors.cpp:722
-#: src/mattack_actors.cpp:978 src/monster.cpp:2204 src/monster.cpp:2211
-#: src/monster.cpp:2231 src/monster.cpp:2241 src/monster.cpp:2274
-#: src/monster.cpp:2281 src/monster.cpp:2290
+#: src/mattack_actors.cpp:978 src/monster.cpp:2234 src/monster.cpp:2241
+#: src/monster.cpp:2261 src/monster.cpp:2271 src/monster.cpp:2304
+#: src/monster.cpp:2311 src/monster.cpp:2320
 msgid "Something"
 msgstr "Нечто"
 
@@ -15592,7 +15592,7 @@ msgstr "УРОВЕНЬ %i, %d'%d, %d'%d"
 msgid "Underground"
 msgstr "Под землёй"
 
-#: src/distraction_manager.cpp:29 src/veh_interact.cpp:2832
+#: src/distraction_manager.cpp:29 src/veh_interact.cpp:2833
 msgid "Noise"
 msgstr "Шум"
 
@@ -16879,7 +16879,7 @@ msgstr "В пределах радиуса взаимодействия"
 msgid "Press enter to recall from their mission."
 msgstr "Нажмите Enter, чтобы переименовать их задание."
 
-#: src/faction.cpp:815 src/veh_interact.cpp:2529 src/veh_interact.cpp:2530
+#: src/faction.cpp:815 src/veh_interact.cpp:2530 src/veh_interact.cpp:2531
 msgid "Status: "
 msgstr "Состояние: "
 
@@ -19593,7 +19593,7 @@ msgstr "%s сталккивается с вами, отправив вас в п
 msgid "The %s drowns!"
 msgstr "%s тонет!"
 
-#: src/game.cpp:5014 src/monmove.cpp:2385
+#: src/game.cpp:5014 src/monmove.cpp:2386
 #, c-format
 msgid "The %s flops around and dies!"
 msgstr "%s дрыгается и умирает!"
@@ -20644,8 +20644,8 @@ msgstr ""
 "не радует."
 
 #: src/game.cpp:10315 src/iuse.cpp:3143 src/iuse.cpp:4742 src/iuse.cpp:4787
-#: src/iuse.cpp:8457 src/iuse.cpp:8682 src/veh_interact.cpp:1248
-#: src/veh_interact.cpp:1886
+#: src/iuse.cpp:8457 src/iuse.cpp:8682 src/veh_interact.cpp:1249
+#: src/veh_interact.cpp:1887
 #, c-format
 msgid "%s helps with this task…"
 msgstr "%s помогает в этом…"
@@ -22617,7 +22617,7 @@ msgid "PRICE"
 msgstr "ЦЕНА"
 
 #: src/game_inventory.cpp:2954 src/mod_manager.cpp:95
-#: src/npctalk_rules.cpp:310 src/veh_interact.cpp:1975
+#: src/npctalk_rules.cpp:310 src/veh_interact.cpp:1976
 msgid "Default"
 msgstr "По умолчанию"
 
@@ -22665,7 +22665,7 @@ msgid "PIERCE"
 msgstr "ПРОБИТИЕ"
 
 #: src/game_inventory.cpp:3136 src/veh_appliance.cpp:425
-#: src/veh_interact.cpp:1337
+#: src/veh_interact.cpp:1338
 #, c-format
 msgid "Refill %s"
 msgstr "Заправить: %s"
@@ -31326,7 +31326,7 @@ msgstr " (%s ходов)"
 msgid " (dirty)"
 msgstr " (грязное)"
 
-#: src/item_tname.cpp:361 src/veh_interact.cpp:1462
+#: src/item_tname.cpp:361 src/veh_interact.cpp:1463
 msgid " (rotten)"
 msgstr " (тухлое)"
 
@@ -31354,7 +31354,7 @@ msgstr " (горячее)"
 msgid " (cold)"
 msgstr " (охлаждено)"
 
-#: src/item_tname.cpp:396 src/veh_interact.cpp:1460
+#: src/item_tname.cpp:396 src/veh_interact.cpp:1461
 msgid " (frozen)"
 msgstr " (заморожено)"
 
@@ -35139,7 +35139,7 @@ msgstr "<bold>Превращается в</bold>: "
 msgid "%s (%d %s)"
 msgstr "%s (%d %s)"
 
-#: src/iuse_actor.cpp:517 src/medical_ui.cpp:232 src/veh_interact.cpp:2637
+#: src/iuse_actor.cpp:517 src/medical_ui.cpp:232 src/veh_interact.cpp:2638
 #: src/vehicle.cpp:2861
 #, c-format
 msgid "%s (%s)"
@@ -37546,7 +37546,7 @@ msgstr "Достижимые цели"
 msgid "Only affects the monsters: %s"
 msgstr "Повлияет только на этих монстров: %s"
 
-#: src/magic.cpp:3004 src/magic.cpp:3439 src/veh_interact.cpp:2836
+#: src/magic.cpp:3004 src/magic.cpp:3439 src/veh_interact.cpp:2837
 msgid "Range"
 msgstr "Дальность"
 
@@ -37566,7 +37566,7 @@ msgid ", %d/sec"
 msgstr ", %d/сек"
 
 #: src/magic.cpp:3044 src/magic.cpp:3099 src/magic.cpp:3386
-#: src/veh_interact.cpp:2802
+#: src/veh_interact.cpp:2803
 msgid "Damage"
 msgstr "Урон"
 
@@ -38687,27 +38687,27 @@ msgstr "<header>Это %s.</header>"
 msgid "You could harvest the following things from it:"
 msgstr "Вы бы могли собрать следующее:"
 
-#: src/mapgen.cpp:4779
+#: src/mapgen.cpp:4739
 msgid "Viewing all palettes"
 msgstr "Просмотреть все палитры"
 
-#: src/mapgen.cpp:7013
+#: src/mapgen.cpp:6970
 msgid "Sub-prime contact console"
 msgstr "Консоль подпространственных контактов"
 
-#: src/mapgen.cpp:7015
+#: src/mapgen.cpp:6972
 msgid "Terminate Specimens"
 msgstr "Уничтожить образцы"
 
-#: src/mapgen.cpp:7016
+#: src/mapgen.cpp:6973
 msgid "Release Specimens"
 msgstr "Выпустить образцы"
 
-#: src/mapgen.cpp:7018
+#: src/mapgen.cpp:6975
 msgid "Toggle Portal"
 msgstr "Переключить портал"
 
-#: src/mapgen.cpp:7019
+#: src/mapgen.cpp:6976
 msgid "Activate Resonance Cascade"
 msgstr "Активировать каскадный резонанс"
 
@@ -38730,8 +38730,8 @@ msgstr "Активировать каскадный резонанс"
 #. on map microlab_DinoLab
 #. ~ Access denied message on computer "Missile Controls" placed on map
 #. silo_finale
-#: src/mapgen.cpp:7023 src/mapgen.cpp:7074 src/mapgen.cpp:8142
-#: src/mapgen.cpp:8161 src/mapgen.cpp:8181 src/mapgen.cpp:8200
+#: src/mapgen.cpp:6980 src/mapgen.cpp:7031 src/mapgen.cpp:8099
+#: src/mapgen.cpp:8118 src/mapgen.cpp:8138 src/mapgen.cpp:8157
 #: data/json/mapgen/lab/lab_floorplans_finale1level.json
 #: data/json/mapgen/microlab/microlab_special_tiles.json
 #: data/mods/DinoMod/mapgen/microlab_DinoLab.json
@@ -38743,46 +38743,46 @@ msgstr ""
 "ОШИБКА!  Доступ запрещён!  Попытки несанкционированного доступа будут "
 "пресекаться силой!"
 
-#: src/mapgen.cpp:7068 src/mapgen.cpp:8136 src/mapgen.cpp:8155
-#: src/mapgen.cpp:8175 src/mapgen.cpp:8194
+#: src/mapgen.cpp:7025 src/mapgen.cpp:8093 src/mapgen.cpp:8112
+#: src/mapgen.cpp:8132 src/mapgen.cpp:8151
 msgid "Bionic access"
 msgstr "Доступ к бионике"
 
 #. ~ Interactive menu name in computer "Surgery room computer" placed on map
 #. ~ Interactive menu name in computer "Dinosaur surgery room computer" placed
 #. on map microlab_DinoLab
-#: src/mapgen.cpp:7069 src/mapgen.cpp:8137 src/mapgen.cpp:8156
-#: src/mapgen.cpp:8176 src/mapgen.cpp:8195
+#: src/mapgen.cpp:7026 src/mapgen.cpp:8094 src/mapgen.cpp:8113
+#: src/mapgen.cpp:8133 src/mapgen.cpp:8152
 #: data/json/mapgen/microlab/microlab_special_tiles.json
 #: data/mods/DinoMod/mapgen/microlab_DinoLab.json
 #: data/mods/No_Hope/Mapgen/nested/microlab_special_tiles.json
 msgid "Manifest"
 msgstr "Манифест"
 
-#: src/mapgen.cpp:7070 src/mapgen.cpp:8138 src/mapgen.cpp:8157
-#: src/mapgen.cpp:8177 src/mapgen.cpp:8196
+#: src/mapgen.cpp:7027 src/mapgen.cpp:8095 src/mapgen.cpp:8114
+#: src/mapgen.cpp:8134 src/mapgen.cpp:8153
 msgid "Open Chambers"
 msgstr "Открыть камеры"
 
 #. ~ Computer name placed on map
-#: src/mapgen.cpp:7960 src/mapgen.cpp:7977
+#: src/mapgen.cpp:7917 src/mapgen.cpp:7934
 #: data/json/mapgen/lab/lab_modular/lab_nests_modular/lab_nested_security.json
 msgid "Log Console"
 msgstr "Терминал с логами"
 
 #. ~ Interactive menu name in computer "Log Console" placed on map
-#: src/mapgen.cpp:7961 src/mapgen.cpp:7978
+#: src/mapgen.cpp:7918 src/mapgen.cpp:7935
 #: data/json/mapgen/lab/lab_modular/lab_nests_modular/lab_nested_security.json
 msgid "View Research Logs"
 msgstr "Журнал исследований"
 
 #. ~ Interactive menu name in computer "Log Console" placed on map
-#: src/mapgen.cpp:7962 src/mapgen.cpp:7979
+#: src/mapgen.cpp:7919 src/mapgen.cpp:7936
 #: data/json/mapgen/lab/lab_modular/lab_nests_modular/lab_nested_security.json
 msgid "Download Map Data"
 msgstr "Скачать карту поверхности"
 
-#: src/mapgen.cpp:8535
+#: src/mapgen.cpp:8492
 msgid "invalid position (not vehicle/appliance)"
 msgstr "некорректная позиция (не транспорт/техника)"
 
@@ -39580,7 +39580,7 @@ msgstr ""
 " \n"
 
 #: src/medical_ui.cpp:550 src/newcharacter.cpp:1464
-#: src/player_display.cpp:1594 src/veh_interact.cpp:2830
+#: src/player_display.cpp:1594 src/veh_interact.cpp:2831
 msgid "Strength"
 msgstr "Сила"
 
@@ -43934,7 +43934,7 @@ msgstr "Жуткий скелет поднимается из земли!"
 msgid "DOOT."
 msgstr "ДУУДЬ."
 
-#: src/mondeath.cpp:54 src/monstergenerator.cpp:1835
+#: src/mondeath.cpp:54 src/monstergenerator.cpp:1875
 #, c-format
 msgid "The %s dies!"
 msgstr "%s умирает!"
@@ -44446,65 +44446,65 @@ msgstr ""
 "мягкий электронный голос «Пожалуйста, отойдите от автодока, этому пациенту "
 "нужна немедленная помощь»."
 
-#: src/monmove.cpp:1985
+#: src/monmove.cpp:1986
 #, c-format
 msgid "A %1$s flies over the %2$s!"
 msgstr "%1$s перелетает через %2$s!"
 
 #. ~ Message when a monster emerges from water
 #. ~ %1$s: monster name, %2$s: leaps/emerges, %3$s: terrain name
-#: src/monmove.cpp:1993
+#: src/monmove.cpp:1994
 #, c-format
 msgctxt "monster movement"
 msgid "A %1$s %2$s from the %3$s!"
 msgstr "%1$s %2$s из %3$s!"
 
-#: src/monmove.cpp:1995
+#: src/monmove.cpp:1996
 msgid "emerges"
 msgstr "появляется"
 
-#: src/monmove.cpp:1995
+#: src/monmove.cpp:1996
 msgid "leaps"
 msgstr "выскакивает"
 
 #. ~ Message when a monster enters water
 #. ~ %1$s: monster name, %2$s: dives/sinks, %3$s: terrain name
-#: src/monmove.cpp:2000
+#: src/monmove.cpp:2001
 #, c-format
 msgctxt "monster movement"
 msgid "A %1$s %2$s into the %3$s!"
 msgstr "%1$s %2$s в %3$s!"
 
-#: src/monmove.cpp:2002
+#: src/monmove.cpp:2003
 msgid "dives"
 msgstr "ныряет"
 
-#: src/monmove.cpp:2002
+#: src/monmove.cpp:2003
 msgid "sinks"
 msgstr "погружается"
 
-#: src/monmove.cpp:2265
+#: src/monmove.cpp:2266
 #, c-format
 msgid "The %1$s tramples %2$s."
 msgstr "%1$s топчет %2$s."
 
-#: src/monmove.cpp:2360
+#: src/monmove.cpp:2361
 #, c-format
 msgid "The %1$s bounces off a %2$s!"
 msgstr "%1$s отскакивает от %2$s!"
 
-#: src/monmove.cpp:2372
+#: src/monmove.cpp:2373
 #, c-format
 msgid "The %1$s bounces off %2$s!"
 msgstr "%1$s отскакивает от %2$s!"
 
-#: src/monmove.cpp:2395
+#: src/monmove.cpp:2396
 #, c-format
 msgid "The %1$s bounces off a %2$s and takes %3$d damage."
 msgstr "%1$s отскакивает от %2$s и получает %3$d урона."
 
 #. ~ %1$s - monster name, %2$s - vehicle name
-#: src/monmove.cpp:2530
+#: src/monmove.cpp:2531
 #, c-format
 msgid "%1$s shoves %2$s out of their way!"
 msgstr "%1$s отталкивает %2$s с дороги!"
@@ -44868,84 +44868,84 @@ msgstr "<color_red>(нет биосигнатуры)</color>"
 msgid "Lifespan end time: %1$d (turns left %2$d)"
 msgstr "Время окончания жизни: %1$d (ходов осталось %2$d)"
 
-#: src/monster.cpp:1653
+#: src/monster.cpp:1663
 #, c-format
 msgid "%1$s saw the %2$s being stolen!"
 msgstr "%1$s видит кражу %2$s!"
 
-#: src/monster.cpp:2204
+#: src/monster.cpp:2234
 #, c-format
 msgid "%s misses you."
 msgstr "%s промахивается по вам."
 
-#: src/monster.cpp:2206
+#: src/monster.cpp:2236
 #, c-format
 msgid "You dodge %s."
 msgstr "Вы увернулись от %s."
 
-#: src/monster.cpp:2206 src/monster.cpp:2214
+#: src/monster.cpp:2236 src/monster.cpp:2244
 msgid "something"
 msgstr "нечто"
 
-#: src/monster.cpp:2210
+#: src/monster.cpp:2240
 #, c-format
 msgid "%1$s misses %2$s!"
 msgstr "%1$s промахивается по %2$s!"
 
-#: src/monster.cpp:2213
+#: src/monster.cpp:2243
 #, c-format
 msgid "%1$s dodges %2$s attack."
 msgstr "%1$s уворачивается от атаки %2$s."
 
-#: src/monster.cpp:2218
+#: src/monster.cpp:2248
 msgid "You dodge an attack from an unseen source."
 msgstr "Вы уклонились от атаки, пришедшей неизвестно откуда."
 
 #. ~ 1$s is attacker name, 2$s is bodypart name in accusative.
-#: src/monster.cpp:2231
+#: src/monster.cpp:2261
 #, c-format
 msgid "%1$s hits your %2$s."
 msgstr "%1$s попадает вам в %2$s."
 
 #. ~ %1$s: name of your mount, %2$s: target NPC name, %3$d: damage value
 #. ~ %1$s: name of your mount, %2$s: target creature name, %3$d: damage value
-#: src/monster.cpp:2237 src/monster.cpp:2249
+#: src/monster.cpp:2267 src/monster.cpp:2279
 #, c-format
 msgid "Your %1$s hits %2$s for %3$d damage!"
 msgstr "%1$s бьёт %2$s и наносит %3$d урона!"
 
 #. ~ %1$s: attacker name, %2$s: target NPC name, %3$s: bodypart name in
 #. accusative
-#: src/monster.cpp:2241
+#: src/monster.cpp:2271
 #, c-format
 msgid "%1$s hits %2$s %3$s."
 msgstr "%1$s атакует %2$s в %3$s."
 
-#: src/monster.cpp:2254
+#: src/monster.cpp:2284
 #, c-format
 msgid "Something hits the %1$s!"
 msgstr "Что-то ударило в %1$s!"
 
-#: src/monster.cpp:2256
+#: src/monster.cpp:2286
 #, c-format
 msgid "The %1$s hits something!"
 msgstr "%1$s бьёт по чему-то!"
 
 #. ~ %1$s: attacker name, %2$s: target creature name
-#: src/monster.cpp:2259
+#: src/monster.cpp:2289
 #, c-format
 msgid "The %1$s hits %2$s!"
 msgstr "%1$s атакует %2$s!"
 
 #. ~ %s is bodypart name in accusative.
-#: src/monster.cpp:2265
+#: src/monster.cpp:2295
 #, c-format
 msgid "Something hits your %s."
 msgstr "Что-то ударило вас в %s."
 
 #. ~ 1$s is attacker name, 2$s is bodypart name in accusative, 3$s is armor
 #. name
-#: src/monster.cpp:2273
+#: src/monster.cpp:2303
 #, c-format
 msgid "%1$s hits your %2$s, but your %3$s protects you."
 msgstr "%1$s попадает вам в %2$s, но ваша %3$s защищает вас."
@@ -44954,174 +44954,174 @@ msgstr "%1$s попадает вам в %2$s, но ваша %3$s защищае�
 #. ~ $3s is target bodypart name in accusative, $4s is the monster target
 #. name,
 #. ~ 5$s is target armor name.
-#: src/monster.cpp:2280
+#: src/monster.cpp:2310
 #, c-format
 msgid "%1$s hits %2$s %3$s but is stopped by %4$s %5$s."
 msgstr "%1$s бьёт %2$s в %3$s, но %5$s (%4$s) остановливает атаку."
 
 #. ~ $1s is monster name, %2$s is that monster target name,
 #. ~ $3s is target armor name.
-#: src/monster.cpp:2289
+#: src/monster.cpp:2319
 #, c-format
 msgid "%1$s hits %2$s but is stopped by its %3$s."
 msgstr "%1$s бьёт %2$s, но %3$s блокирует удар."
 
 #. ~ 1$s is bodypart name in accusative, 2$s is armor name.
-#: src/monster.cpp:2296
+#: src/monster.cpp:2326
 #, c-format
 msgid "Something hits your %1$s, but your %2$s protects you."
 msgstr "Что-то бьёт вам в %1$s, но ваша %2$s защищает вас."
 
-#: src/monster.cpp:2332
+#: src/monster.cpp:2362
 msgid "You're envenomed!"
 msgstr "Вы отравлены!"
 
-#: src/monster.cpp:2338
+#: src/monster.cpp:2368
 msgid "You feel venom flood your body, wracking you with pain…"
 msgstr "Вы чувствуете, как яд течёт по вашему телу, наполняя вас болью…"
 
-#: src/monster.cpp:2343
+#: src/monster.cpp:2373
 msgid "You feel venom enter your body!"
 msgstr "Вы чувствуете как яд входит в ваше тело!"
 
-#: src/monster.cpp:2490
+#: src/monster.cpp:2520
 #, c-format
 msgid "The %s struggles to break free of its bonds."
 msgstr "%s пытается высвободиться из пут."
 
-#: src/monster.cpp:2496
+#: src/monster.cpp:2526
 #, c-format
 msgid "The %s easily slips out of its bonds."
 msgstr "%s легко выскальзывает из пут."
 
-#: src/monster.cpp:2511
+#: src/monster.cpp:2541
 #, c-format
 msgid "The %s snaps the bindings holding it down."
 msgstr "%s разрывает удерживающие путы."
 
-#: src/monster.cpp:2513
+#: src/monster.cpp:2543
 #, c-format
 msgid "The %s breaks free of the bindings holding it down."
 msgstr "%s высвобождается из удерживающих пут."
 
-#: src/monster.cpp:2524
+#: src/monster.cpp:2554
 #, c-format
 msgid "The %s struggles to stand."
 msgstr "%s пытается подняться."
 
-#: src/monster.cpp:2528
+#: src/monster.cpp:2558
 #, c-format
 msgid "The %s climbs to its feet!"
 msgstr "%s поднимается на ноги!"
 
-#: src/monster.cpp:2581
+#: src/monster.cpp:2611
 #, c-format
 msgid "The %s frees itself from the rubble!"
 msgstr "%s освобождается из завала!"
 
-#: src/monster.cpp:2597
+#: src/monster.cpp:2627
 #, c-format
 msgid "The %s escapes the pit!"
 msgstr "%s освобождается из ямы!"
 
-#: src/monster.cpp:2628
+#: src/monster.cpp:2658
 #, c-format
 msgid "The %s is no longer grabbed!"
 msgstr "%s больше не в захвате!"
 
-#: src/monster.cpp:2640
+#: src/monster.cpp:2670
 #, c-format
 msgid "The %s breaks free from the %s's grab!"
 msgstr "%s вырывается из захвата %s!"
 
-#: src/monster.cpp:2961
+#: src/monster.cpp:2991
 msgid "hummmmm."
 msgstr "уммммммм."
 
-#: src/monster.cpp:2971
+#: src/monster.cpp:3001
 msgid "fwoosh!"
 msgstr "ффффшш!"
 
-#: src/monster.cpp:2982
+#: src/monster.cpp:3012
 #, c-format
 msgid "The %s explodes in a fiery inferno!"
 msgstr "%s взрывается, словно огненный шар!"
 
-#: src/monster.cpp:2985
+#: src/monster.cpp:3015
 #, c-format
 msgid "Lightning from %1$s engulfs the %2$s!"
 msgstr "Электрическое поле от %1$s накрывает %2$s!"
 
-#: src/monster.cpp:2994
+#: src/monster.cpp:3024
 msgid "BOOOOOOOM!!!"
 msgstr "БУУУУУМ!!!"
 
-#: src/monster.cpp:2996
+#: src/monster.cpp:3026
 msgid "vrrrRRRUUMMMMMMMM!"
 msgstr "вррррРРРРУУМММММММ!"
 
-#: src/monster.cpp:3001
+#: src/monster.cpp:3031
 #, c-format
 msgid "Lightning strikes the %s!"
 msgstr "Молния попадает в %s!"
 
-#: src/monster.cpp:3002
+#: src/monster.cpp:3032
 msgid "Your vision goes white!"
 msgstr "Вы ослеплены вспышкой!"
 
-#: src/monster.cpp:3007
+#: src/monster.cpp:3037
 msgid "VMMMMMMMMM!"
 msgstr "ВМММММММММ!"
 
-#: src/monster.cpp:3069
+#: src/monster.cpp:3099
 msgid "The last enemy holding you collapses!"
 msgstr "Последний схвативший вас противник падает наземь!"
 
-#: src/monster.cpp:3070
+#: src/monster.cpp:3100
 msgid "The last enemy holding <npcname> collapses!"
 msgstr ""
 "<npcname> освобождается, когда последний схвативший противник падает наземь!"
 
-#: src/monster.cpp:3266
+#: src/monster.cpp:3296
 #, c-format
 msgid "Your %s emits a beeping noise as its batteries start to get low."
 msgstr "Ваш %s издаёт писк, потому что его батареи начинают садиться."
 
-#: src/monster.cpp:3527
+#: src/monster.cpp:3557
 #, c-format
 msgid "The %s is visibly regenerating!"
 msgstr "%s заметно регенерирует!"
 
-#: src/monster.cpp:3529
+#: src/monster.cpp:3559
 #, c-format
 msgid "The %s seems a little healthier."
 msgstr "%s выглядит чуть-чуть более здоровым."
 
-#: src/monster.cpp:3531
+#: src/monster.cpp:3561
 #, c-format
 msgid "The %s is healing slowly."
 msgstr "%s медленно излечивается."
 
-#: src/monster.cpp:3541
+#: src/monster.cpp:3571
 #, c-format
 msgid "The %s uses the darkness to regenerate."
 msgstr "%s регенерирует в темноте."
 
-#: src/monster.cpp:3608
+#: src/monster.cpp:3638
 msgid "The shadow withers in the light!"
 msgstr "Тень тает на свету!"
 
-#: src/monster.cpp:3614
+#: src/monster.cpp:3644
 #, c-format
 msgid "The %s burns horribly in the sunlight!"
 msgstr "%s ужасающее сгорает под солнечным светом!"
 
-#: src/monster.cpp:3652
+#: src/monster.cpp:3682
 #, c-format
 msgid "The spores transform %1$s into a %2$s!"
 msgstr "Споры превращают %1$s в %2$s!"
 
-#: src/monstergenerator.cpp:1298 src/mtype.cpp:529
+#: src/monstergenerator.cpp:1338 src/mtype.cpp:529
 msgid "footsteps."
 msgstr "шаги."
 
@@ -54778,7 +54778,7 @@ msgstr "Необходимые инструменты:"
 
 #. ~ %1$s represents the internal color name which shouldn't be translated,
 #. %2$s is the word "NONE"
-#: src/requirements.cpp:850 src/veh_interact.cpp:380
+#: src/requirements.cpp:850 src/veh_interact.cpp:381
 msgid "NONE"
 msgstr "НЕТ"
 
@@ -57060,7 +57060,7 @@ msgstr " / объединить электросеть"
 msgid "Remove other cables first"
 msgstr "Сначала отсоедините другие кабели"
 
-#: src/veh_interact.cpp:213
+#: src/veh_interact.cpp:214
 #, c-format
 msgid ""
 "Press space, choose a facing direction for the new %s and confirm with "
@@ -57069,82 +57069,82 @@ msgstr ""
 "Нажмите пробел, выберите направление для новой части (%s) и нажмите enter "
 "для подтверждения."
 
-#: src/veh_interact.cpp:260
+#: src/veh_interact.cpp:261
 msgid "Select part"
 msgstr "Выбрать деталь"
 
-#: src/veh_interact.cpp:365
+#: src/veh_interact.cpp:366
 msgid "<color_white>Time required:</color>\n"
 msgstr "<color_white>Требуется времени:</color>\n"
 
-#: src/veh_interact.cpp:368
+#: src/veh_interact.cpp:369
 msgid "<color_white>Skills required:</color>\n"
 msgstr "<color_white>Требуемые навыки:</color>\n"
 
 #. ~ %1$s represents the internal color name which shouldn't be translated,
 #. %2$s is skill name, and %3$i is skill level
-#: src/veh_interact.cpp:375
+#: src/veh_interact.cpp:376
 #, c-format
 msgid "> %1$s%2$s %3$i</color>\n"
 msgstr "> %1$s%2$s %3$i</color>\n"
 
-#: src/veh_interact.cpp:544
+#: src/veh_interact.cpp:545
 #, c-format
 msgid "You cannot rename this vehicle as it is owned by: %s."
 msgstr ""
 "Вы не можете переименовать эту машину, потому что у неё есть владельцы: %s."
 
-#: src/veh_interact.cpp:569
+#: src/veh_interact.cpp:570
 #, c-format
 msgid "You cannot assign crew on this vehicle as it is owned by: %s."
 msgstr ""
 "Вы не можете назначить экипаж этой машине, потому что у неё есть владельцы: "
 "%s."
 
-#: src/veh_interact.cpp:578
+#: src/veh_interact.cpp:579
 #, c-format
 msgid "You cannot relabel this vehicle as it is owned by: %s."
 msgstr "Нельзя пометить эту машину, потому что у неё есть владельцы: %s."
 
-#: src/veh_interact.cpp:800
+#: src/veh_interact.cpp:801
 msgid "Unracking is required before installing any parts here."
 msgstr "Необходимо снять со стойки перед установкой каких-либо деталей."
 
 #. ~ %1$s is fuel_type
-#: src/veh_interact.cpp:806
+#: src/veh_interact.cpp:807
 #, c-format
 msgid "Only one %1$s powered engine can be installed."
 msgstr "Можно установить только один двигатель для топлива: %1$s."
 
-#: src/veh_interact.cpp:810 src/veh_interact.cpp:1755
+#: src/veh_interact.cpp:811 src/veh_interact.cpp:1756
 msgid "This vehicle cannot be modified in this way.\n"
 msgstr "Этот транспорт нельзя изменить подобным образом.\n"
 
-#: src/veh_interact.cpp:813
+#: src/veh_interact.cpp:814
 msgid "This part cannot be installed.\n"
 msgstr "Эта часть не может быть установлена.\n"
 
-#: src/veh_interact.cpp:821
+#: src/veh_interact.cpp:822
 msgid "Funnels need to be installed over a tank."
 msgstr "Воронку нужно устанавливать поверх бака."
 
-#: src/veh_interact.cpp:830
+#: src/veh_interact.cpp:831
 msgid "Can't install turret on another turret."
 msgstr "Нельзя установить турель поверх другой турели."
 
-#: src/veh_interact.cpp:873 src/veh_interact.cpp:1181
-#: src/veh_interact.cpp:1787
+#: src/veh_interact.cpp:874 src/veh_interact.cpp:1182
+#: src/veh_interact.cpp:1788
 msgid "<color_white>Additional requirements:</color>\n"
 msgstr "<color_white>Дополнительные условия:</color>\n"
 
 #. ~ %1$s represents the internal color name which shouldn't be translated,
 #. %2$s is skill name, and %3$i is skill level
-#: src/veh_interact.cpp:883
+#: src/veh_interact.cpp:884
 #, c-format
 msgid "> %1$s%2$s %3$i</color> for extra engines."
 msgstr "> %1$s%2$s %3$i</color> для дополнительных двигателей."
 
-#: src/veh_interact.cpp:887
+#: src/veh_interact.cpp:888
 msgid ""
 "> <color_red>You cannot install any more engines on this vehicle.</color>"
 msgstr ""
@@ -57153,12 +57153,12 @@ msgstr ""
 
 #. ~ %1$s represents the internal color name which shouldn't be translated,
 #. %2$s is skill name, and %3$i is skill level
-#: src/veh_interact.cpp:897
+#: src/veh_interact.cpp:898
 #, c-format
 msgid "> %1$s%2$s %3$i</color> for extra steering axles."
 msgstr "> %1$s%2$s %3$i</color> для дополнительных управляемых осей."
 
-#: src/veh_interact.cpp:911
+#: src/veh_interact.cpp:912
 msgid ""
 "<color_white>Cannot install due to:</color>\n"
 "> "
@@ -57166,59 +57166,59 @@ msgstr ""
 "<color_white>Нельзя установить из-за:</color>\n"
 "> "
 
-#: src/veh_interact.cpp:973
+#: src/veh_interact.cpp:974
 msgid "Cannot install any part here."
 msgstr "Сюда невозможно установить какие-либо части."
 
-#: src/veh_interact.cpp:978
+#: src/veh_interact.cpp:979
 msgid "Choose new part to install here:"
 msgstr "Выберите новую часть для установки:"
 
-#: src/veh_interact.cpp:1029
+#: src/veh_interact.cpp:1030
 msgid "Search for part"
 msgstr "Искать часть"
 
-#: src/veh_interact.cpp:1046 src/veh_interact.cpp:1860
+#: src/veh_interact.cpp:1047 src/veh_interact.cpp:1861
 msgid "Your morale is too low to construct…"
 msgstr "Ваше моральное состояние не позволяет что-либо мастерить…"
 
-#: src/veh_interact.cpp:1049 src/veh_interact.cpp:1139
-#: src/veh_interact.cpp:1268 src/veh_interact.cpp:1863
+#: src/veh_interact.cpp:1050 src/veh_interact.cpp:1140
+#: src/veh_interact.cpp:1269 src/veh_interact.cpp:1864
 msgid "It's too dark to see what you are doing…"
 msgstr "Слишком темно для того, чтобы видеть, что вы делаете…"
 
-#: src/veh_interact.cpp:1052
+#: src/veh_interact.cpp:1053
 msgid "You can't install parts while driving."
 msgstr "Вы не можете устанавливать детали, пока водите."
 
-#: src/veh_interact.cpp:1062
+#: src/veh_interact.cpp:1063
 msgid ""
 "Installing this part will mean that this vehicle is no longer flightworthy."
 "  Continue?"
 msgstr ""
 "Установка этой детали сделает транспорт неспособным к полёту.  Продолжить?"
 
-#: src/veh_interact.cpp:1070
+#: src/veh_interact.cpp:1071
 msgid "Installing this part will make the vehicle unfoldable.  Continue?"
 msgstr "Установка этой детали сделает транспорт не складным.  Продолжить?"
 
-#: src/veh_interact.cpp:1136
+#: src/veh_interact.cpp:1137
 msgid "Your morale is too low to repair…"
 msgstr "У вас слишком низкая мораль для ремонта…"
 
-#: src/veh_interact.cpp:1142
+#: src/veh_interact.cpp:1143
 msgid "You can't repair stuff while driving."
 msgstr "Вы не можете чинить вещи, пока водите."
 
-#: src/veh_interact.cpp:1145
+#: src/veh_interact.cpp:1146
 msgid "There are no damaged parts on this vehicle."
 msgstr "Здесь нет повреждённых деталей."
 
-#: src/veh_interact.cpp:1158
+#: src/veh_interact.cpp:1159
 msgid "Choose a part here to repair:"
 msgstr "Выберите деталь для починки:"
 
-#: src/veh_interact.cpp:1189
+#: src/veh_interact.cpp:1190
 msgid ""
 "\n"
 "Unracking is required before replacing this part.\n"
@@ -57226,15 +57226,15 @@ msgstr ""
 "\n"
 "Нужно распаковать перед тем, как заменить эту часть.\n"
 
-#: src/veh_interact.cpp:1196
+#: src/veh_interact.cpp:1197
 msgid "This part cannot be repaired.\n"
 msgstr "Эта часть не может быть отремонтирована.\n"
 
-#: src/veh_interact.cpp:1199
+#: src/veh_interact.cpp:1200
 msgid "This vehicle cannot be repaired.\n"
 msgstr "Этот транспорт не может быть отремонтирован.\n"
 
-#: src/veh_interact.cpp:1212
+#: src/veh_interact.cpp:1213
 #, c-format
 msgid ""
 "\n"
@@ -57245,121 +57245,121 @@ msgstr ""
 "<color_yellow>Вам требуется умение «%s» для безопасного ремонта этой части транспорта!</color>\n"
 "\n"
 
-#: src/veh_interact.cpp:1232
+#: src/veh_interact.cpp:1233
 msgid ""
 "Repairing this part will mean that this vehicle is no longer flightworthy.  "
 "Continue?"
 msgstr ""
 "Ремонт этой детали сделает транспорт неспособным к полёту.  Продолжить?"
 
-#: src/veh_interact.cpp:1235
+#: src/veh_interact.cpp:1236
 msgid "You chose not to install this part to keep the vehicle flyable.\n"
 msgstr ""
 "Вы решили не устанавливать эту деталь, чтобы не лишать транспорт способности"
 " летать.\n"
 
-#: src/veh_interact.cpp:1265
+#: src/veh_interact.cpp:1266
 msgid "Your morale is too low to mend…"
 msgstr "У вас слишком низкая мораль для исправления дефектов…"
 
-#: src/veh_interact.cpp:1271
+#: src/veh_interact.cpp:1272
 msgid "No faulty parts require mending."
 msgstr "Отсутствуют дефектные детали."
 
-#: src/veh_interact.cpp:1274
+#: src/veh_interact.cpp:1275
 msgid "You can't mend stuff while driving."
 msgstr "Вы не можете исправлять дефекты, пока водите."
 
-#: src/veh_interact.cpp:1281
+#: src/veh_interact.cpp:1282
 msgid "Choose a part here to mend:"
 msgstr "Какую деталь нужно исправить:"
 
-#: src/veh_interact.cpp:1305
+#: src/veh_interact.cpp:1306
 msgid "You can't refill a moving vehicle."
 msgstr "Нельзя заправить движущуюся машину."
 
-#: src/veh_interact.cpp:1309
+#: src/veh_interact.cpp:1310
 msgid "No parts can currently be refilled."
 msgstr "Нет частей, которые можно заправить."
 
-#: src/veh_interact.cpp:1317
+#: src/veh_interact.cpp:1318
 msgid "Select part to refill:"
 msgstr "Выберите часть для заправки:"
 
-#: src/veh_interact.cpp:1367
+#: src/veh_interact.cpp:1368
 #, c-format
 msgid "Engines: %sSafe %4d kW</color> %sMax %4d kW</color>"
 msgstr "Двигатели:%s %4d кВт</color> %sМакс. %4d кВт</color>"
 
-#: src/veh_interact.cpp:1370
+#: src/veh_interact.cpp:1371
 msgid "Fuel     Use"
 msgstr "Топл.   Вкл?"
 
-#: src/veh_interact.cpp:1373
+#: src/veh_interact.cpp:1374
 msgid "Tanks"
 msgstr "Баки"
 
-#: src/veh_interact.cpp:1374 src/veh_interact.cpp:1401
+#: src/veh_interact.cpp:1375 src/veh_interact.cpp:1402
 msgid "Contents     Qty"
 msgstr "Содержит  Кол-во"
 
-#: src/veh_interact.cpp:1379
+#: src/veh_interact.cpp:1380
 #, c-format
 msgid "Batteries: %s%+4d W</color>"
 msgstr "Батареи: %s%+4d Вт</color>"
 
-#: src/veh_interact.cpp:1382
+#: src/veh_interact.cpp:1383
 #, c-format
 msgid "Batteries: %s%+4.1f kW</color>"
 msgstr "Батареи: %s%+4.1f кВт</color>"
 
-#: src/veh_interact.cpp:1386
+#: src/veh_interact.cpp:1387
 msgid "Capacity  Status"
 msgstr "Ёмкость   Статус"
 
-#: src/veh_interact.cpp:1392
+#: src/veh_interact.cpp:1393
 msgid "Reactors"
 msgstr "Реакторы"
 
-#: src/veh_interact.cpp:1394
+#: src/veh_interact.cpp:1395
 #, c-format
 msgid "Reactors: Up to %s%+4d W</color>"
 msgstr "Реакторы: макс. %s%+4d Вт</color>"
 
-#: src/veh_interact.cpp:1397
+#: src/veh_interact.cpp:1398
 #, c-format
 msgid "Reactors: Up to %s%+4.1f kW</color>"
 msgstr "Реакторы: макс. %s%+4.1f кВт</color>"
 
-#: src/veh_interact.cpp:1404
+#: src/veh_interact.cpp:1405
 msgid "Turrets"
 msgstr "Турель"
 
-#: src/veh_interact.cpp:1405
+#: src/veh_interact.cpp:1406
 msgid "Ammo     Qty"
 msgstr "Боеприпасы  Кол-во"
 
-#: src/veh_interact.cpp:1408
+#: src/veh_interact.cpp:1409
 msgid "Seats"
 msgstr "Сиденья"
 
-#: src/veh_interact.cpp:1409
+#: src/veh_interact.cpp:1410
 msgid "Who"
 msgstr "Кто"
 
-#: src/veh_interact.cpp:1585
+#: src/veh_interact.cpp:1586
 msgid "'{' to scroll up"
 msgstr "«{» для прокрутки вверх"
 
-#: src/veh_interact.cpp:1622
+#: src/veh_interact.cpp:1623
 msgid "'}' to scroll down"
 msgstr "«}» для прокрутки вниз"
 
-#: src/veh_interact.cpp:1758
+#: src/veh_interact.cpp:1759
 msgid "This part cannot be uninstalled.\n"
 msgstr "Эта часть не может быть удалена.\n"
 
-#: src/veh_interact.cpp:1764
+#: src/veh_interact.cpp:1765
 #, c-format
 msgid ""
 "<color_white>Removing the broken %1$s may yield some fragments.</color>\n"
@@ -57367,7 +57367,7 @@ msgstr ""
 "<color_white>Удаление сломанной части (%1$s) может дать несколько "
 "обломков.</color>\n"
 
-#: src/veh_interact.cpp:1771
+#: src/veh_interact.cpp:1772
 #, c-format
 msgid ""
 "<color_white>Removing the %1$s may yield:</color>\n"
@@ -57376,7 +57376,7 @@ msgstr ""
 "<color_white>Удаление части (%1$s) может дать следующие предметы:</color>\n"
 "> %2$s\n"
 
-#: src/veh_interact.cpp:1776
+#: src/veh_interact.cpp:1777
 #, c-format
 msgid ""
 "<color_white>Removing the %1$s will yield:</color>\n"
@@ -57387,89 +57387,89 @@ msgstr ""
 
 #. ~ %1$s represents the internal color name which shouldn't be translated,
 #. %2$s is pre-translated reason
-#: src/veh_interact.cpp:1798
+#: src/veh_interact.cpp:1799
 #, c-format
 msgid "> %1$s%2$s</color>"
 msgstr "> %1$s%2$s</color>"
 
-#: src/veh_interact.cpp:1813
+#: src/veh_interact.cpp:1814
 msgid "No parts here."
 msgstr "Здесь нет запчастей."
 
-#: src/veh_interact.cpp:1818
+#: src/veh_interact.cpp:1819
 msgid "Choose a part here to remove:"
 msgstr "Какую деталь нужно снять:"
 
-#: src/veh_interact.cpp:1866
+#: src/veh_interact.cpp:1867
 msgid "You cannot remove that part while something is attached to it."
 msgstr "Вы не можете убрать эту деталь, пока к ней что-то присоединено."
 
-#: src/veh_interact.cpp:1869
+#: src/veh_interact.cpp:1870
 msgid "Better not remove something while driving."
 msgstr "Лучше не удалять детали, пока вы за рулём."
 
-#: src/veh_interact.cpp:1879
+#: src/veh_interact.cpp:1880
 msgid ""
 "Removing this part will mean that this vehicle is no longer flightworthy.  "
 "Continue?"
 msgstr ""
 "Удаление этой детали сделает транспорт неспособным к полёту.  Продолжить?"
 
-#: src/veh_interact.cpp:1902 src/veh_interact.cpp:2965
+#: src/veh_interact.cpp:1903 src/veh_interact.cpp:2966
 msgid "The vehicle has no liquid fuel left to siphon."
 msgstr "В транспорте больше не осталось жидкого топлива для слива."
 
-#: src/veh_interact.cpp:1906
+#: src/veh_interact.cpp:1907
 msgid "You need a <color_red>hose</color> to siphon liquid fuel."
 msgstr "Вам нужен <color_red>шланг</color>, чтобы сливать жидкости."
 
-#: src/veh_interact.cpp:1910
+#: src/veh_interact.cpp:1911
 msgid "You can't siphon from a moving vehicle."
 msgstr "Вы не можете слить содержимое баков движущейся машины."
 
-#: src/veh_interact.cpp:1918
+#: src/veh_interact.cpp:1919
 msgid "Select part to siphon:"
 msgstr "Выберите, откуда сливать жидкость:"
 
-#: src/veh_interact.cpp:1947 src/veh_interact.cpp:2999
+#: src/veh_interact.cpp:1948 src/veh_interact.cpp:3000
 msgid "The vehicle has no solid fuel left to remove."
 msgstr "В этом транспорте нет твёрдого топлива для выгрузки."
 
-#: src/veh_interact.cpp:1951
+#: src/veh_interact.cpp:1952
 msgid "You can't unload from a moving vehicle."
 msgstr "Нельзя выгружать во время движения транспорта."
 
-#: src/veh_interact.cpp:1966 src/veh_shape.cpp:151
+#: src/veh_interact.cpp:1967 src/veh_shape.cpp:151
 msgid "Choose cosmetic variant:"
 msgstr "Выберите косметический вариант:"
 
-#: src/veh_interact.cpp:2003
+#: src/veh_interact.cpp:2004
 msgid "Need at least one seat and an ally to assign crew members."
 msgstr ""
 "Требуется как минимум одно сиденье, а также спутник, чтобы назначать членов "
 "экипажа."
 
-#: src/veh_interact.cpp:2008
+#: src/veh_interact.cpp:2009
 msgid "Assign crew positions:"
 msgstr "Назначить места для экипажа:"
 
-#: src/veh_interact.cpp:2016
+#: src/veh_interact.cpp:2017
 msgid "Select crew member"
 msgstr "Выбрать члена команды"
 
-#: src/veh_interact.cpp:2019
+#: src/veh_interact.cpp:2020
 msgid "Clear assignment"
 msgstr "Отменить назначение"
 
-#: src/veh_interact.cpp:2057
+#: src/veh_interact.cpp:2058
 msgid "There are no parts here to label."
 msgstr "Здесь нет деталей для пометок."
 
-#: src/veh_interact.cpp:2064
+#: src/veh_interact.cpp:2065
 msgid "New label:"
 msgstr "Новая метка:"
 
-#: src/veh_interact.cpp:2088
+#: src/veh_interact.cpp:2089
 msgid ""
 "<color_red>Unsuitable terrain</color> for working on part that requires "
 "jacking."
@@ -57477,94 +57477,94 @@ msgstr ""
 "<color_red>Неподходящая местность</color> для работы над деталью, требующей "
 "домкрата."
 
-#: src/veh_interact.cpp:2122
+#: src/veh_interact.cpp:2123
 #, c-format
 msgid "(Strong Back helped, giving +%d strength)"
 msgstr "(Помогает крепкая спина, + %d к силе)"
 
-#: src/veh_interact.cpp:2126
+#: src/veh_interact.cpp:2127
 #, c-format
 msgid "(Bad Back reduced usable strength by %d)"
 msgstr "(Мешает больная спина, сила уменьшена на %d)"
 
-#: src/veh_interact.cpp:2131
+#: src/veh_interact.cpp:2132
 #, c-format
 msgid "(Effective lifting strength is %d)"
 msgstr "(Эффективная подъёмная сила равна %d)"
 
 #. ~ %1$s is quality name, %2$d is quality level
-#: src/veh_interact.cpp:2138
+#: src/veh_interact.cpp:2139
 #, c-format
 msgid "1 tool with %1$s %2$d"
 msgstr "1 инструмент с качеством %1$s %2$d"
 
-#: src/veh_interact.cpp:2143
+#: src/veh_interact.cpp:2144
 #, c-format
 msgid "strength ( assisted ) %d %s"
 msgstr "сила (с помощью) %d %s"
 
-#: src/veh_interact.cpp:2145
+#: src/veh_interact.cpp:2146
 #, c-format
 msgid "strength %d %s"
 msgstr "сила %d %s"
 
-#: src/veh_interact.cpp:2148
+#: src/veh_interact.cpp:2149
 #, c-format
 msgid "> %1$s <color_white>OR</color> %2$s"
 msgstr "> %1$s <color_white>ИЛИ</color> %2$s"
 
-#: src/veh_interact.cpp:2384
+#: src/veh_interact.cpp:2385
 msgid "<color_light_red>disabled</color>"
 msgstr "<color_light_red>выведено из строя</color>"
 
-#: src/veh_interact.cpp:2386
+#: src/veh_interact.cpp:2387
 msgid "<color_light_red>lack</color>"
 msgstr "<color_light_red>не хватает</color>"
 
-#: src/veh_interact.cpp:2388
+#: src/veh_interact.cpp:2389
 msgid "<color_light_red>unbalanced</color>"
 msgstr "<color_light_red>неустойчиво</color>"
 
-#: src/veh_interact.cpp:2390
+#: src/veh_interact.cpp:2391
 msgid "<color_light_red>no steering</color>"
 msgstr "<color_light_red>нет управления</color>"
 
-#: src/veh_interact.cpp:2392
+#: src/veh_interact.cpp:2393
 msgid "<color_light_red>broken steering</color>"
 msgstr "<color_light_red>управление сломано</color>"
 
-#: src/veh_interact.cpp:2394
+#: src/veh_interact.cpp:2395
 msgid "<color_light_red>poor steering</color>"
 msgstr "<color_light_red>плохое управление</color>"
 
-#: src/veh_interact.cpp:2396
+#: src/veh_interact.cpp:2397
 msgid "<color_light_green>enough</color>"
 msgstr "<color_light_green>достаточно</color>"
 
-#: src/veh_interact.cpp:2401
+#: src/veh_interact.cpp:2402
 msgid "<color_light_red>sinks</color>"
 msgstr "<color_light_red>утонет</color>"
 
-#: src/veh_interact.cpp:2403
+#: src/veh_interact.cpp:2404
 msgid "<color_light_blue>floats</color>"
 msgstr "<color_light_blue>держится на плаву</color>"
 
-#: src/veh_interact.cpp:2407
+#: src/veh_interact.cpp:2408
 #, c-format
 msgid "Wheels/boat: %s/%s"
 msgstr "Ходовая/корпус: %s/%s"
 
-#: src/veh_interact.cpp:2411
+#: src/veh_interact.cpp:2412
 #, c-format
 msgid "Boat: %s"
 msgstr "Корпус лодки: %s"
 
-#: src/veh_interact.cpp:2414
+#: src/veh_interact.cpp:2415
 #, c-format
 msgid "Wheels: %s"
 msgstr "Колёса: %s"
 
-#: src/veh_interact.cpp:2472
+#: src/veh_interact.cpp:2473
 #, c-format
 msgid ""
 "Air Safe/Top speed: "
@@ -57573,12 +57573,12 @@ msgstr ""
 "Безоп/Макс скорость в воздухе: "
 "<color_light_green>%3d</color>/<color_light_red>%3d</color> %s"
 
-#: src/veh_interact.cpp:2478
+#: src/veh_interact.cpp:2479
 #, c-format
 msgid "Air acceleration: <color_light_blue>%3d</color> %s/s"
 msgstr "Ускорение в воздухе: <color_light_blue>%3d</color> %s/сек"
 
-#: src/veh_interact.cpp:2485
+#: src/veh_interact.cpp:2486
 #, c-format
 msgid ""
 "Safe/Top speed: <color_light_green>%3d</color>/<color_light_red>%3d</color> "
@@ -57588,12 +57588,12 @@ msgstr ""
 "<color_light_green>%3d</color>/<color_light_red>%3d</color> %s"
 
 #. ~ /t means per turn
-#: src/veh_interact.cpp:2493
+#: src/veh_interact.cpp:2494
 #, c-format
 msgid "Acceleration: <color_light_blue>%3d</color> %s/s"
 msgstr "Ускорение:    <color_light_blue>%3d</color> %s/сек"
 
-#: src/veh_interact.cpp:2502
+#: src/veh_interact.cpp:2503
 #, c-format
 msgid ""
 "Water Safe/Top speed: "
@@ -57603,17 +57603,17 @@ msgstr ""
 "<color_light_green>%3d</color>/<color_light_red>%3d</color> %s"
 
 #. ~ /t means per turn
-#: src/veh_interact.cpp:2510
+#: src/veh_interact.cpp:2511
 #, c-format
 msgid "Water acceleration: <color_light_blue>%3d</color> %s/s"
 msgstr "Ускорение на воде: <color_light_blue>%3d</color> %s/сек"
 
-#: src/veh_interact.cpp:2519
+#: src/veh_interact.cpp:2520
 #, c-format
 msgid "Mass: <color_light_blue>%5.0f</color> %s"
 msgstr "Масса: <color_light_blue>%5.0f</color> %s"
 
-#: src/veh_interact.cpp:2523
+#: src/veh_interact.cpp:2524
 #, c-format
 msgid ""
 "Cargo volume: <color_light_blue>%s</color> / <color_light_blue>%s</color> %s"
@@ -57621,50 +57621,50 @@ msgstr ""
 "Грузоподъёмность: <color_light_blue>%s</color> / "
 "<color_light_blue>%s</color> %s"
 
-#: src/veh_interact.cpp:2524
+#: src/veh_interact.cpp:2525
 #, c-format
 msgid "Cargo: <color_light_blue>%s</color> / <color_light_blue>%s</color> %s"
 msgstr ""
 "Груз-ть: <color_light_blue>%s</color> / <color_light_blue>%s</color> %s"
 
-#: src/veh_interact.cpp:2561
+#: src/veh_interact.cpp:2562
 msgid "Most damaged:"
 msgstr "Самое повреждённое:"
 
-#: src/veh_interact.cpp:2562
+#: src/veh_interact.cpp:2563
 msgid "Most damaged (can't repair):"
 msgstr "Самое повреждённое (невозможно починить):"
 
-#: src/veh_interact.cpp:2570
+#: src/veh_interact.cpp:2571
 msgid "Needs repair:"
 msgstr "Необходим ремонт:"
 
-#: src/veh_interact.cpp:2577
+#: src/veh_interact.cpp:2578
 #, c-format
 msgid "Air drag:       <color_light_blue>%5.2f</color>"
 msgstr "Сопротив. воздуха: <color_light_blue>%5.2f</color>"
 
-#: src/veh_interact.cpp:2583
+#: src/veh_interact.cpp:2584
 #, c-format
 msgid "Water drag:     <color_light_blue>%5.2f</color>"
 msgstr "Сопротивление воды: <color_light_blue>%5.2f</color>"
 
-#: src/veh_interact.cpp:2590
+#: src/veh_interact.cpp:2591
 #, c-format
 msgid "Rolling drag:   <color_light_blue>%5.2f</color>"
 msgstr "Трение качения:    <color_light_blue>%5.2f</color>"
 
-#: src/veh_interact.cpp:2596
+#: src/veh_interact.cpp:2597
 #, c-format
 msgid "Static drag:    <color_light_blue>%5d</color>"
 msgstr "Трение покоя:      <color_light_blue>%5d</color>"
 
-#: src/veh_interact.cpp:2601
+#: src/veh_interact.cpp:2602
 #, c-format
 msgid "Offroad:        <color_light_blue>%4d</color>%%"
 msgstr "По бездорожью:     <color_light_blue>%4d</color>%%"
 
-#: src/veh_interact.cpp:2610
+#: src/veh_interact.cpp:2611
 #, c-format
 msgid ""
 "Draft/Clearance:<color_light_blue>%4.2f</color>m/<color_light_blue>%4.2f</color>m"
@@ -57672,7 +57672,7 @@ msgstr ""
 "Осадка/Клиренс: <color_light_blue>%4.2f</color> "
 "м/<color_light_blue>%4.2f</color> м"
 
-#: src/veh_interact.cpp:2611
+#: src/veh_interact.cpp:2612
 #, c-format
 msgid ""
 "Draft/Clearance:<color_light_blue>%4.2f</color>m/<color_light_red>%4.2f</color>m"
@@ -57680,145 +57680,145 @@ msgstr ""
 "Осадка/Клиренс: <color_light_blue>%4.2f</color> "
 "м/<color_light_red>%4.2f</color> м"
 
-#: src/veh_interact.cpp:2633 src/veh_interact.cpp:2635
+#: src/veh_interact.cpp:2634 src/veh_interact.cpp:2636
 msgid "Name: "
 msgstr "Название: "
 
-#: src/veh_interact.cpp:2645
+#: src/veh_interact.cpp:2646
 #, c-format
 msgctxt "keybinding"
 msgid "<color_light_gray>%1$s<color_light_green>%2$s</color>%3$s</color>"
 msgstr "<color_light_gray>%1$s<color_light_green>%2$s</color>%3$s</color>"
 
-#: src/veh_interact.cpp:2647
+#: src/veh_interact.cpp:2648
 #, c-format
 msgctxt "keybinding"
 msgid "<color_dark_gray>%1$s<color_green>%2$s</color>%3$s</color>"
 msgstr "<color_dark_gray>%1$s<color_green>%2$s</color>%3$s</color>"
 
-#: src/veh_interact.cpp:2649
+#: src/veh_interact.cpp:2650
 #, c-format
 msgctxt "keybinding"
 msgid "<color_light_gray><color_light_green>%1$s</color>-%2$s</color>"
 msgstr "<color_light_gray><color_light_green>%1$s</color>-%2$s</color>"
 
-#: src/veh_interact.cpp:2651
+#: src/veh_interact.cpp:2652
 #, c-format
 msgctxt "keybinding"
 msgid "<color_dark_gray><color_green>%1$s</color>-%2$s</color>"
 msgstr "<color_dark_gray><color_green>%1$s</color>-%2$s</color>"
 
-#: src/veh_interact.cpp:2676
+#: src/veh_interact.cpp:2677
 msgctxt "veh_interact"
 msgid "install"
 msgstr "установить"
 
-#: src/veh_interact.cpp:2679
+#: src/veh_interact.cpp:2680
 msgctxt "veh_interact"
 msgid "repair"
 msgstr "починить"
 
-#: src/veh_interact.cpp:2682
+#: src/veh_interact.cpp:2683
 msgctxt "veh_interact"
 msgid "mend"
 msgstr "исправить"
 
-#: src/veh_interact.cpp:2685
+#: src/veh_interact.cpp:2686
 msgctxt "veh_interact"
 msgid "refill"
 msgstr "заправить"
 
-#: src/veh_interact.cpp:2688
+#: src/veh_interact.cpp:2689
 msgctxt "veh_interact"
 msgid "remove"
 msgstr "удалить"
 
-#: src/veh_interact.cpp:2691
+#: src/veh_interact.cpp:2692
 msgctxt "veh_interact"
 msgid "siphon"
 msgstr "слить"
 
-#: src/veh_interact.cpp:2694
+#: src/veh_interact.cpp:2695
 msgctxt "veh_interact"
 msgid "unload"
 msgstr "разрядить"
 
-#: src/veh_interact.cpp:2697
+#: src/veh_interact.cpp:2698
 msgctxt "veh_interact"
 msgid "crew"
 msgstr "экипаж"
 
-#: src/veh_interact.cpp:2700
+#: src/veh_interact.cpp:2701
 msgctxt "veh_interact"
 msgid "shape"
 msgstr "форма"
 
-#: src/veh_interact.cpp:2703
+#: src/veh_interact.cpp:2704
 msgctxt "veh_interact"
 msgid "rename"
 msgstr "переименовать"
 
-#: src/veh_interact.cpp:2706
+#: src/veh_interact.cpp:2707
 msgctxt "veh_interact"
 msgid "label"
 msgstr "пометить"
 
-#: src/veh_interact.cpp:2709
+#: src/veh_interact.cpp:2710
 msgctxt "veh_interact"
 msgid "back"
 msgstr "назад"
 
-#: src/veh_interact.cpp:2798
+#: src/veh_interact.cpp:2799
 msgid "Dur"
 msgstr "Прчн"
 
-#: src/veh_interact.cpp:2798
+#: src/veh_interact.cpp:2799
 msgid "Durability"
 msgstr "Прочность"
 
-#: src/veh_interact.cpp:2802
+#: src/veh_interact.cpp:2803
 msgid "Dmg"
 msgstr "Урон"
 
 #. ~ Label of UI widget "weight_desc_label"
 #. ~ Label of UI widget "zenfs_weight_health_clause"
-#: src/veh_interact.cpp:2808 data/json/ui/weight.json
+#: src/veh_interact.cpp:2809 data/json/ui/weight.json
 #: data/json/ui/zenfs/diet.json data/mods/CrazyCataclysm/crazy_widgets.json
 msgid "Weight"
 msgstr "Вес"
 
-#: src/veh_interact.cpp:2808
+#: src/veh_interact.cpp:2809
 msgid "Wgt"
 msgstr "Вес"
 
-#: src/veh_interact.cpp:2814
+#: src/veh_interact.cpp:2815
 msgid "FoldVol"
 msgstr "СложОб"
 
-#: src/veh_interact.cpp:2814
+#: src/veh_interact.cpp:2815
 msgid "Folded Volume"
 msgstr "Объём в сложенном состоянии"
 
-#: src/veh_interact.cpp:2823
+#: src/veh_interact.cpp:2824
 msgid "Cap"
 msgstr "Ёмк"
 
-#: src/veh_interact.cpp:2823
+#: src/veh_interact.cpp:2824
 msgid "Capacity"
 msgstr "Ёмкость"
 
 #. ~ Label of UI widget "str_num"
 #. ~ Label of UI widget "zenfs_str"
-#: src/veh_interact.cpp:2830 data/json/ui/stats.json
+#: src/veh_interact.cpp:2831 data/json/ui/stats.json
 #: data/json/ui/zenfs/stats.json
 msgid "Str"
 msgstr "Сил"
 
-#: src/veh_interact.cpp:2834
+#: src/veh_interact.cpp:2835
 msgid "NoisRed"
 msgstr "СнижШум"
 
-#: src/veh_interact.cpp:2834
+#: src/veh_interact.cpp:2835
 msgid "Noise Reduction"
 msgstr "Снижение шума"
 
@@ -57830,7 +57830,7 @@ msgstr "Снижение шума"
 #. ~ "menu_text" action message of item "kelvinist's candle (off)"
 #. ~ Name of material
 #. ~ Spell name
-#: src/veh_interact.cpp:2842 data/json/items/items_holiday.json
+#: src/veh_interact.cpp:2843 data/json/items/items_holiday.json
 #: data/json/items/tool/lighting.json
 #: data/mods/CrazyCataclysm/crazy_items.json
 #: data/mods/Magiclysm/items/caster_level_boosters.json
@@ -57839,184 +57839,184 @@ msgstr "Снижение шума"
 msgid "Light"
 msgstr "Зажечь"
 
-#: src/veh_interact.cpp:2857
+#: src/veh_interact.cpp:2858
 msgid "Dia"
 msgstr "Диа"
 
-#: src/veh_interact.cpp:2857
+#: src/veh_interact.cpp:2858
 msgid "Wheel Diameter"
 msgstr "Диаметр колеса"
 
-#: src/veh_interact.cpp:2861
+#: src/veh_interact.cpp:2862
 msgid "Wdt"
 msgstr "Шир"
 
-#: src/veh_interact.cpp:2861
+#: src/veh_interact.cpp:2862
 msgid "Wheel Width"
 msgstr "Ширина колеса"
 
-#: src/veh_interact.cpp:2868
+#: src/veh_interact.cpp:2869
 msgid "Electric Power"
 msgstr "Электрическая энергия"
 
-#: src/veh_interact.cpp:2868
+#: src/veh_interact.cpp:2869
 msgid "Epwr"
 msgstr "Эл. энергия"
 
-#: src/veh_interact.cpp:2877
+#: src/veh_interact.cpp:2878
 #, c-format
 msgid "Charge: <color_light_gray>%s</color>"
 msgstr "Топливо: <color_light_gray>%s</color>"
 
-#: src/veh_interact.cpp:2883
+#: src/veh_interact.cpp:2884
 #, c-format
 msgid "Drain: <color_light_gray>%+8d</color>"
 msgstr "Расход: <color_light_gray>%+8d</color>"
 
-#: src/veh_interact.cpp:2888
+#: src/veh_interact.cpp:2889
 msgid "boardable"
 msgstr "подходит для пассажира"
 
-#: src/veh_interact.cpp:2888
+#: src/veh_interact.cpp:2889
 msgid "opaque"
 msgstr "непрозрачное"
 
-#: src/veh_interact.cpp:2888
+#: src/veh_interact.cpp:2889
 msgid "openable"
 msgstr "открывающееся"
 
-#: src/veh_interact.cpp:2903
+#: src/veh_interact.cpp:2904
 msgid "BatCap"
 msgstr "ЁмкБат"
 
-#: src/veh_interact.cpp:2903
+#: src/veh_interact.cpp:2904
 msgid "Battery Capacity"
 msgstr "Ёмкость батарей"
 
-#: src/veh_interact.cpp:2909
+#: src/veh_interact.cpp:2910
 #, c-format
 msgid "Power: <color_light_gray>%+8d</color>"
 msgstr "Зарядка: <color_light_gray>%+8d</color>"
 
-#: src/veh_interact.cpp:2932
+#: src/veh_interact.cpp:2933
 msgid "like new"
 msgstr "как новое"
 
 #. ~ Bash damage verb of material
 #. ~ Damage adjective of material
-#: src/veh_interact.cpp:2936 data/json/materials.json
+#: src/veh_interact.cpp:2937 data/json/materials.json
 #: data/mods/Aftershock/items/materials.json
 #: data/mods/Magiclysm/materials.json data/mods/Xedra_Evolved/material.json
 #: data/mods/aftershock_exoplanet/items/materials.json
 msgid "dented"
 msgstr "помято"
 
-#: src/veh_interact.cpp:2940
+#: src/veh_interact.cpp:2941
 msgid "battered"
 msgstr "побито"
 
-#: src/veh_interact.cpp:2944
+#: src/veh_interact.cpp:2945
 msgid "wrecked"
 msgstr "разрушено"
 
-#: src/veh_interact.cpp:2969
+#: src/veh_interact.cpp:2970
 msgid "Select tank to siphon:"
 msgstr "Выберите бак для сливания жидкости:"
 
-#: src/veh_interact.cpp:3005
+#: src/veh_interact.cpp:3006
 msgid "Remove what?"
 msgstr "Что убрать?"
 
-#: src/veh_interact.cpp:3026
+#: src/veh_interact.cpp:3027
 msgid "The vehicle has no charged plutonium cells."
 msgstr "В этом транспорте нет заряженных плутониевых батареек."
 
-#: src/veh_interact.cpp:3085
+#: src/veh_interact.cpp:3086
 #, c-format
 msgid "You don't meet the requirements to install the %s."
 msgstr "Не выполнены условия для установки %s."
 
-#: src/veh_interact.cpp:3086
+#: src/veh_interact.cpp:3087
 #, c-format
 msgid "<npcname> doesn't meet the requirements to install the %s."
 msgstr "<npcname> не имеет нужных требований для установки %s."
 
-#: src/veh_interact.cpp:3107
+#: src/veh_interact.cpp:3108
 #, c-format
 msgid "Could not find base part in requirements for %s."
 msgstr "Невозможно найти основную часть в условиях для %s."
 
-#: src/veh_interact.cpp:3147
+#: src/veh_interact.cpp:3148
 #, c-format
 msgid "You install a %1$s into the %2$s."
 msgstr "Вы смонтировали %1$s в %2$s."
 
 #. ~ 1$s vehicle name, 2$s tank name
-#: src/veh_interact.cpp:3183
+#: src/veh_interact.cpp:3184
 #, c-format
 msgid "You refill the %1$s's %2$s."
 msgstr "Вы наполнили %2$s (%1$s)."
 
 #. ~ 1$s vehicle name, 2$s tank name
-#: src/veh_interact.cpp:3186
+#: src/veh_interact.cpp:3187
 #, c-format
 msgid "You completely refill the %1$s's %2$s."
 msgstr "Вы полностью наполнили %2$s (%1$s)."
 
 #. ~ 1$s vehicle name, 2$s reactor name
-#: src/veh_interact.cpp:3204
+#: src/veh_interact.cpp:3205
 #, c-format
 msgid "You refuel the %1$s's %2$s."
 msgstr "Вы заправили %2$s (%1$s)"
 
 #. ~ 1$s is the vehicle part name
-#: src/veh_interact.cpp:3224
+#: src/veh_interact.cpp:3225
 #, c-format
 msgid "The %1$s has already been removed by someone else."
 msgstr "%1$s уже кем-то удалён."
 
 #. ~  1$s is the vehicle part name
-#: src/veh_interact.cpp:3239
+#: src/veh_interact.cpp:3240
 #, c-format
 msgid "You don't meet the requirements to remove the %1$s."
 msgstr "Не выполнены условия для снятия %1$s."
 
-#: src/veh_interact.cpp:3260
+#: src/veh_interact.cpp:3261
 #, c-format
 msgid "You remove the broken %1$s from the %2$s."
 msgstr "Вы сняли сломанный %1$s из %2$s."
 
-#: src/veh_interact.cpp:3262
+#: src/veh_interact.cpp:3263
 #, c-format
 msgid "You smash the %1$s to bits, removing it from the %2$s."
 msgstr "Вы разбили %1$s вдребезги, удаляя эту деталь из %2$s."
 
-#: src/veh_interact.cpp:3265
+#: src/veh_interact.cpp:3266
 #, c-format
 msgid "You remove the %1$s from the %2$s."
 msgstr "Вы сняли %1$s из %2$s."
 
-#: src/veh_interact.cpp:3294
+#: src/veh_interact.cpp:3295
 #, c-format
 msgid "<npcname> fails to recover %1$d %2$s."
 msgstr "<npcname> не удалось получить %1$d %2$s."
 
-#: src/veh_interact.cpp:3305
+#: src/veh_interact.cpp:3306
 #, c-format
 msgid "You fail to recover %1$s."
 msgstr "Вы не смогли восстановить %1$s."
 
-#: src/veh_interact.cpp:3306
+#: src/veh_interact.cpp:3307
 #, c-format
 msgid "<npcname> fails to recover %1$s."
 msgstr "<npcname> не удалось получить %1$s."
 
-#: src/veh_interact.cpp:3351
+#: src/veh_interact.cpp:3352
 #, c-format
 msgid "You completely dismantle the %s."
 msgstr "Вы полностью разобрали транспорт %s."
 
-#: src/veh_interact.cpp:3387
+#: src/veh_interact.cpp:3388
 #, c-format
 msgid "You disconnect the %s's power connection."
 msgstr "Вы отключили %s от сети."
@@ -91945,7 +91945,7 @@ msgstr[3] "артефакты"
 #. ~ Item category name used for headers
 #: data/json/item_category.json
 msgid "Keys"
-msgstr "Кейс"
+msgstr "Ключи"
 
 #. ~ Item category name used for descriptive text
 #: data/json/item_category.json
@@ -97201,6 +97201,11 @@ msgstr "цементированная сталь"
 #: data/mods/aftershock_exoplanet/items/materials.json
 msgid "Tempered Carbon Steel"
 msgstr "закалённая сталь"
+
+#. ~ Name of material
+#: data/json/materials.json
+msgid "Exodii Ceramic"
+msgstr "керамика Экзоди"
 
 #. ~ Name of material
 #: data/json/materials.json
@@ -114985,6 +114990,8 @@ msgid ""
 "You need to always dress in style and fashion.  Find a dress or tuxedo for "
 "your personal use."
 msgstr ""
+"Вам нужно всегда одеваться стильно и модно.  Найдите платье или смокинг для "
+"себя."
 
 #. ~ Mission name
 #: data/json/starting_missions.json
@@ -133686,6 +133693,25 @@ msgid ""
 msgstr ""
 "Деревянный паллет с грузом и разорванной плёнкой.  Вы можете достать "
 "содержимое, но ремни всё ещё мешаются."
+
+#. ~ Furniture name
+#. ~ Item name
+#: data/json/furniture_and_terrain/furniture-storage.json
+#: data/json/items/tool/workshop.json
+msgid "Exodii kiln"
+msgid_plural "Exodii kilns"
+msgstr[0] "печь для обжига Экзоди"
+msgstr[1] "печи для обжига Экзоди"
+msgstr[2] "печей для обжига Экзоди"
+msgstr[3] "печи для обжига Экзоди"
+
+#. ~ Description of furniture "Exodii kiln"
+#: data/json/furniture_and_terrain/furniture-storage.json
+msgid ""
+"An imposing kiln produced by the Exodii, used to produce their ceramic armor"
+msgstr ""
+"Внушительная печь, изготовленная Экзоди, используется для производства их "
+"керамических доспехов."
 
 #. ~ Furniture name
 #: data/json/furniture_and_terrain/furniture-surfaces.json
@@ -157208,6 +157234,24 @@ msgid ""
 msgstr ""
 "Кровь, смешанная с кислыми соединениями, дурно пахнущая и чрезвычайно едкая,"
 " её очистка может привести к получению полезных химикатов."
+
+#. ~ Item name
+#: data/json/items/chemicals_and_resources.json
+msgid "exodii ceramic patch"
+msgid_plural "exodii ceramic patch"
+msgstr[0] "керамическая пластинка Экзоди"
+msgstr[1] "керамические пластинки Экзоди"
+msgstr[2] "керамических пластинок Экзоди"
+msgstr[3] "керамические пластинки Экзоди"
+
+#. ~ Description of "exodii ceramic patch"
+#: data/json/items/chemicals_and_resources.json
+msgid ""
+"A patch kit produced by the Exodii for repairing their nanotube-infused "
+"ceramics.  Requires a kiln."
+msgstr ""
+"Набор заплат, произведенный Экзоди для ремонта их керамики, наполненной "
+"нанотрубками.  Требуется печь для обжига."
 
 #. ~ Item name
 #: data/json/items/electronics.json
@@ -184783,10 +184827,10 @@ msgstr[3] "длинные бригандины с наплечниками из 
 #: data/json/items/armor/brigandine.json
 msgid "pair of mild steel splint arm guards"
 msgid_plural "pairs of mild steel splint arm guards"
-msgstr[0] "шинные нарукавники из низкоуглеродистой стали"
-msgstr[1] "пары шинных нарукавников из низкоуглеродистой стали"
-msgstr[2] "пар шинных нарукавников из низкоуглеродистой стали"
-msgstr[3] "пары шинных нарукавников из низкоуглеродистой стали"
+msgstr[0] "разделённые нарукавники из низкоуглеродистой стали"
+msgstr[1] "пары разделённых нарукавников из низкоуглеродистой стали"
+msgstr[2] "пар разделённых нарукавников из низкоуглеродистой стали"
+msgstr[3] "пары разделённых нарукавников из низкоуглеродистой стали"
 
 #. ~ Description of "pair of mild steel splint arm guards"
 #: data/json/items/armor/brigandine.json
@@ -184802,46 +184846,46 @@ msgstr ""
 #: data/json/items/armor/brigandine.json
 msgid "pair of medium steel splint arm guards"
 msgid_plural "pairs of medium steel splint arm guards"
-msgstr[0] "шинные нарукавники из среднеуглеродистой стали"
-msgstr[1] "пары шинных нарукавников из среднеуглеродистой стали"
-msgstr[2] "пар шинных нарукавников из среднеуглеродистой стали"
-msgstr[3] "пары шинных нарукавников из среднеуглеродистой стали"
+msgstr[0] "разделённые нарукавники из среднеуглеродистой стали"
+msgstr[1] "пары разделённых нарукавников из среднеуглеродистой стали"
+msgstr[2] "пар разделённых нарукавников из среднеуглеродистой стали"
+msgstr[3] "пары разделённых нарукавников из среднеуглеродистой стали"
 
 #. ~ Item name
 #: data/json/items/armor/brigandine.json
 msgid "pair of high steel splint arm guards"
 msgid_plural "pairs of high steel splint arm guards"
-msgstr[0] "шинные нарукавники из высокоуглеродистой стали"
-msgstr[1] "пары шинных нарукавников из высокоуглеродистой стали"
-msgstr[2] "пар шинных нарукавников из высокоуглеродистой стали"
-msgstr[3] "пары шинных нарукавников из высокоуглеродистой стали"
+msgstr[0] "разделённые нарукавники из высокоуглеродистой стали"
+msgstr[1] "пары разделённых нарукавников из высокоуглеродистой стали"
+msgstr[2] "пар разделённых нарукавников из высокоуглеродистой стали"
+msgstr[3] "пары разделённых нарукавников из высокоуглеродистой стали"
 
 #. ~ Item name
 #: data/json/items/armor/brigandine.json
 msgid "pair of hardened splint arm guards"
 msgid_plural "pairs of hardened splint arm guards"
-msgstr[0] "шинные нарукавники из цементированной стали"
-msgstr[1] "пары шинных нарукавников из цементированной стали"
-msgstr[2] "пар шинных нарукавников из цементированной стали"
-msgstr[3] "пары шинных нарукавников из цементированной стали"
+msgstr[0] "разделённые нарукавники из цементированной стали"
+msgstr[1] "пары разделённых нарукавников из цементированной стали"
+msgstr[2] "пар разделённых нарукавников из цементированной стали"
+msgstr[3] "пары разделённых нарукавников из цементированной стали"
 
 #. ~ Item name
 #: data/json/items/armor/brigandine.json
 msgid "pair of tempered splint arm guards"
 msgid_plural "pairs of tempered splint arm guards"
-msgstr[0] "шинные нарукавники из закалённой стали"
-msgstr[1] "пары шинных нарукавников из закалённой стали"
-msgstr[2] "пар шинных нарукавников из закалённой стали"
-msgstr[3] "пары шинных нарукавников из закалённой стали"
+msgstr[0] "разделённые нарукавники из закалённой стали"
+msgstr[1] "пары разделённых нарукавников из закалённой стали"
+msgstr[2] "пар разделённых нарукавников из закалённой стали"
+msgstr[3] "пары разделённых нарукавников из закалённой стали"
 
 #. ~ Item name
 #: data/json/items/armor/brigandine.json
 msgid "pair of mild steel splint leg guards"
 msgid_plural "pairs of mild steel splint leg guards"
-msgstr[0] "шинные поножи из низкоуглеродистой стали"
-msgstr[1] "пары шинных поножей из низкоуглеродистой стали"
-msgstr[2] "пар шинных поножей из низкоуглеродистой стали"
-msgstr[3] "пары шинных поножей из низкоуглеродистой стали"
+msgstr[0] "разделённые поножи из низкоуглеродистой стали"
+msgstr[1] "пары разделённых поножей из низкоуглеродистой стали"
+msgstr[2] "пар разделённых поножей из низкоуглеродистой стали"
+msgstr[3] "пары разделённых поножей из низкоуглеродистой стали"
 
 #. ~ Description of "pair of mild steel splint leg guards"
 #: data/json/items/armor/brigandine.json
@@ -184857,46 +184901,46 @@ msgstr ""
 #: data/json/items/armor/brigandine.json
 msgid "pair of medium steel splint leg guards"
 msgid_plural "pairs of medium steel splint leg guards"
-msgstr[0] "шинные поножи из среднеуглеродистой стали"
-msgstr[1] "пары шинных поножей из среднеуглеродистой стали"
-msgstr[2] "пар шинных поножей из среднеуглеродистой стали"
-msgstr[3] "пары шинных поножей из среднеуглеродистой стали"
+msgstr[0] "разделённые поножи из среднеуглеродистой стали"
+msgstr[1] "пары разделённых поножей из среднеуглеродистой стали"
+msgstr[2] "пар разделённых поножей из среднеуглеродистой стали"
+msgstr[3] "пары разделённых поножей из среднеуглеродистой стали"
 
 #. ~ Item name
 #: data/json/items/armor/brigandine.json
 msgid "pair of high steel splint leg guards"
 msgid_plural "pairs of high steel splint leg guards"
-msgstr[0] "шинные поножи из высокоуглеродистой стали"
-msgstr[1] "пары шинных поножей из высокоуглеродистой стали"
-msgstr[2] "пар шинных поножей из высокоуглеродистой стали"
-msgstr[3] "пары шинных поножей из высокоуглеродистой стали"
+msgstr[0] "разделённые поножи из высокоуглеродистой стали"
+msgstr[1] "пары разделённых поножей из высокоуглеродистой стали"
+msgstr[2] "пар разделённых поножей из высокоуглеродистой стали"
+msgstr[3] "пары разделённых поножей из высокоуглеродистой стали"
 
 #. ~ Item name
 #: data/json/items/armor/brigandine.json
 msgid "pair of hardened splint leg guards"
 msgid_plural "pairs of hardened splint leg guards"
-msgstr[0] "шинные поножи из цементированной стали"
-msgstr[1] "пары шинных поножей из цементированной стали"
-msgstr[2] "пар шинных поножей из цементированной стали"
-msgstr[3] "пары шинных поножей из цементированной стали"
+msgstr[0] "разделённые поножи из цементированной стали"
+msgstr[1] "пары разделённых поножей из цементированной стали"
+msgstr[2] "пар разделённых поножей из цементированной стали"
+msgstr[3] "пары разделённых поножей из цементированной стали"
 
 #. ~ Item name
 #: data/json/items/armor/brigandine.json
 msgid "pair of tempered splint leg guards"
 msgid_plural "pairs of tempered splint leg guards"
-msgstr[0] "шинные поножи из закалённой стали"
-msgstr[1] "пары шинных поножей из закалённой стали"
-msgstr[2] "пар шинных поножей из закалённой стали"
-msgstr[3] "пары шинных поножей из закалённой стали"
+msgstr[0] "разделённые поножи из закалённой стали"
+msgstr[1] "пары разделённых поножей из закалённой стали"
+msgstr[2] "пар разделённых поножей из закалённой стали"
+msgstr[3] "пары разделённых поножей из закалённой стали"
 
 #. ~ Item name
 #: data/json/items/armor/brigandine.json
 msgid "pair of mild steel splint vambraces"
 msgid_plural "pairs of mild steel splint vambraces"
-msgstr[0] "шинные наручи из низкоуглеродистой стали"
-msgstr[1] "пары шинных наручей из низкоуглеродистой стали"
-msgstr[2] "пар шинных наручей из низкоуглеродистой стали"
-msgstr[3] "пары шинных наручей из низкоуглеродистой стали"
+msgstr[0] "разделённые наручи из низкоуглеродистой стали"
+msgstr[1] "пары разделённых наручей из низкоуглеродистой стали"
+msgstr[2] "пар разделённых наручей из низкоуглеродистой стали"
+msgstr[3] "пары разделённых наручей из низкоуглеродистой стали"
 
 #. ~ Description of "pair of mild steel splint vambraces"
 #: data/json/items/armor/brigandine.json
@@ -184912,46 +184956,46 @@ msgstr ""
 #: data/json/items/armor/brigandine.json
 msgid "pair of medium steel splint vambraces"
 msgid_plural "pairs of medium steel splint vambraces"
-msgstr[0] "шинные наручи из среднеуглеродистой стали"
-msgstr[1] "пары шинных наручей из среднеуглеродистой стали"
-msgstr[2] "пар шинных наручей из среднеуглеродистой стали"
-msgstr[3] "пары шинных наручей из среднеуглеродистой стали"
+msgstr[0] "разделённые наручи из среднеуглеродистой стали"
+msgstr[1] "пары разделённых наручей из среднеуглеродистой стали"
+msgstr[2] "пар разделённых наручей из среднеуглеродистой стали"
+msgstr[3] "пары разделённых наручей из среднеуглеродистой стали"
 
 #. ~ Item name
 #: data/json/items/armor/brigandine.json
 msgid "pair of high steel splint vambraces"
 msgid_plural "pairs of high steel splint vambraces"
-msgstr[0] "шинные наручи из высокоуглеродистой стали"
-msgstr[1] "пары шинных наручей из высокоуглеродистой стали"
-msgstr[2] "пар шинных наручей из высокоуглеродистой стали"
-msgstr[3] "пары шинных наручей из высокоуглеродистой стали"
+msgstr[0] "разделённые наручи из высокоуглеродистой стали"
+msgstr[1] "пары разделённых наручей из высокоуглеродистой стали"
+msgstr[2] "пар разделённых наручей из высокоуглеродистой стали"
+msgstr[3] "пары разделённых наручей из высокоуглеродистой стали"
 
 #. ~ Item name
 #: data/json/items/armor/brigandine.json
 msgid "pair of hardened splint vambraces"
 msgid_plural "pairs of hardened splint vambraces"
-msgstr[0] "шинные наручи из цементированной стали"
-msgstr[1] "пары шинных наручей из цементированной стали"
-msgstr[2] "пар шинных наручей из цементированной стали"
-msgstr[3] "пары шинных наручей из цементированной стали"
+msgstr[0] "разделённые наручи из цементированной стали"
+msgstr[1] "пары разделённых наручей из цементированной стали"
+msgstr[2] "пар разделённых наручей из цементированной стали"
+msgstr[3] "пары разделённых наручей из цементированной стали"
 
 #. ~ Item name
 #: data/json/items/armor/brigandine.json
 msgid "pair of tempered splint vambraces"
 msgid_plural "pairs of tempered splint vambraces"
-msgstr[0] "шинные наручи из закалённой стали"
-msgstr[1] "пары шинных наручей из закалённой стали"
-msgstr[2] "пар шинных наручей из закалённой стали"
-msgstr[3] "пары шинных наручей из закалённой стали"
+msgstr[0] "разделённые наручи из закалённой стали"
+msgstr[1] "пары разделённых наручей из закалённой стали"
+msgstr[2] "пар разделённых наручей из закалённой стали"
+msgstr[3] "пары разделённых наручей из закалённой стали"
 
 #. ~ Item name
 #: data/json/items/armor/brigandine.json
 msgid "pair of mild steel splint greaves"
 msgid_plural "pairs of mild steel splint greaves"
-msgstr[0] "шинные наголенники из низкоуглеродистой стали"
-msgstr[1] "пары шинных наголенников из низкоуглеродистой стали"
-msgstr[2] "пар шинных наголенников из низкоуглеродистой стали"
-msgstr[3] "пары шинных наголенников из низкоуглеродистой стали"
+msgstr[0] "разделённые наголенники из низкоуглеродистой стали"
+msgstr[1] "пары разделённых наголенников из низкоуглеродистой стали"
+msgstr[2] "пар разделённых наголенников из низкоуглеродистой стали"
+msgstr[3] "пары разделённых наголенников из низкоуглеродистой стали"
 
 #. ~ Description of "pair of mild steel splint greaves"
 #: data/json/items/armor/brigandine.json
@@ -184966,37 +185010,37 @@ msgstr ""
 #: data/json/items/armor/brigandine.json
 msgid "pair of medium steel splint greaves"
 msgid_plural "pairs of medium steel splint greaves"
-msgstr[0] "шинные наголенники из среднеуглеродистой стали"
-msgstr[1] "пары шинных наголенников из среднеуглеродистой стали"
-msgstr[2] "пар шинных наголенников из среднеуглеродистой стали"
-msgstr[3] "пары шинных наголенников из среднеуглеродистой стали"
+msgstr[0] "разделённые наголенники из среднеуглеродистой стали"
+msgstr[1] "пары разделённых наголенников из среднеуглеродистой стали"
+msgstr[2] "пар разделённых наголенников из среднеуглеродистой стали"
+msgstr[3] "пары разделённых наголенников из среднеуглеродистой стали"
 
 #. ~ Item name
 #: data/json/items/armor/brigandine.json
 msgid "pair of high steel splint greaves"
 msgid_plural "pairs of high steel splint greaves"
-msgstr[0] "шинные наголенники из высокоуглеродистой стали"
-msgstr[1] "пары шинных наголенников из высокоуглеродистой стали"
-msgstr[2] "пар шинных наголенников из высокоуглеродистой стали"
-msgstr[3] "пары шинных наголенников из высокоуглеродистой стали"
+msgstr[0] "разделённые наголенники из высокоуглеродистой стали"
+msgstr[1] "пары разделённых наголенников из высокоуглеродистой стали"
+msgstr[2] "пар разделённых наголенников из высокоуглеродистой стали"
+msgstr[3] "пары разделённых наголенников из высокоуглеродистой стали"
 
 #. ~ Item name
 #: data/json/items/armor/brigandine.json
 msgid "pair of hardened splint greaves"
 msgid_plural "pairs of hardened splint greaves"
-msgstr[0] "шинные наголенники из цементированной стали"
-msgstr[1] "пары шинных наголенников из цементированной стали"
-msgstr[2] "пар шинных наголенников из цементированной стали"
-msgstr[3] "пары шинных наголенников из цементированной стали"
+msgstr[0] "разделённые наголенники из цементированной стали"
+msgstr[1] "пары разделённых наголенников из цементированной стали"
+msgstr[2] "пар разделённых наголенников из цементированной стали"
+msgstr[3] "пары разделённых наголенников из цементированной стали"
 
 #. ~ Item name
 #: data/json/items/armor/brigandine.json
 msgid "pair of tempered splint greaves"
 msgid_plural "pairs of tempered splint greaves"
-msgstr[0] "шинные наголенники из закалённой стали"
-msgstr[1] "пары шинных наголенников из закалённой стали"
-msgstr[2] "пар шинных наголенников из закалённой стали"
-msgstr[3] "пары шинных наголенников из закалённой стали"
+msgstr[0] "разделённые наголенники из закалённой стали"
+msgstr[1] "пары разделённых наголенников из закалённой стали"
+msgstr[2] "пар разделённых наголенников из закалённой стали"
+msgstr[3] "пары разделённых наголенников из закалённой стали"
 
 #. ~ Item name
 #: data/json/items/armor/brigandine.json
@@ -211301,16 +211345,33 @@ msgstr[3] "балаклавы"
 msgid "A warm covering that protects the head and face from the cold."
 msgstr "Тёплое покрытие, которое защищает голову и лицо от холода."
 
-#. ~ Item name
+#. ~ Variant name of item "balaclava"
 #: data/json/items/armor/masks.json
-msgid "skull balaclava"
-msgid_plural "skull balaclavas"
+msgid "black balaclava"
+msgid_plural "black balaclavas"
+msgstr[0] "чёрная балаклава"
+msgstr[1] "чёрные балаклавы"
+msgstr[2] "чёрных балаклав"
+msgstr[3] "чёрные балаклавы"
+
+#. ~ Description of variant "black balaclava" of item "balaclava"
+#. ~ Description of variant "long black dress" of item "long dress"
+#. ~ Description of variant "black binder" of item "binder"
+#: data/json/items/armor/masks.json data/json/items/armor/torso_clothes.json
+#: data/json/items/armor/undergarment.json
+msgid "This one is black."
+msgstr "Этот черный."
+
+#. ~ Variant name of item "balaclava"
+#: data/json/items/armor/masks.json
+msgid "skull print balaclava"
+msgid_plural "skull print balaclavas"
 msgstr[0] "балаклава с черепом"
 msgstr[1] "балаклавы с черепом"
 msgstr[2] "балаклав с черепом"
 msgstr[3] "балаклавы с черепом"
 
-#. ~ Description of "skull balaclava"
+#. ~ Description of variant "skull print balaclava" of item "balaclava"
 #: data/json/items/armor/masks.json
 msgid ""
 "A skull-print balaclava covering the head and face, commonly used by "
@@ -214687,6 +214748,88 @@ msgstr ""
 "молитвы и в некоторых других случаях."
 
 #. ~ Item name
+#: data/json/items/armor/scarfs.json
+msgid "nylon throat guard"
+msgid_plural "nylon throat guards"
+msgstr[0] "нейлоновый протектор горла"
+msgstr[1] "нейлоновых протектора горла"
+msgstr[2] "нейлоновых протекторов горла"
+msgstr[3] "нейлоновые протекторы горла"
+
+#. ~ Description of "nylon throat guard"
+#: data/json/items/armor/scarfs.json
+msgid ""
+"A common nylon throat guard commonly used for neck protection when playing "
+"sports."
+msgstr ""
+
+#. ~ Item name
+#: data/json/items/armor/scarfs.json
+msgid "canvas throat guard"
+msgid_plural "canvas throat guards"
+msgstr[0] "холщовый протектор горла"
+msgstr[1] "холщовых протектора горла"
+msgstr[2] "холщовых протекторов горла"
+msgstr[3] "холщовые протекторы горла"
+
+#. ~ Description of "canvas throat guard"
+#: data/json/items/armor/scarfs.json
+msgid ""
+"A common canvas throat guard commonly used for neck protection when playing "
+"sports like hockey."
+msgstr ""
+
+#. ~ Item name
+#: data/json/items/armor/scarfs.json
+msgid "plastic throat guard"
+msgid_plural "plastic throat guards"
+msgstr[0] "пластиковый протектор горла"
+msgstr[1] "пластиковых протектора горла"
+msgstr[2] "пластиковых протекторов горла"
+msgstr[3] "пластиковые протекторы горла"
+
+#. ~ Description of "plastic throat guard"
+#: data/json/items/armor/scarfs.json
+msgid ""
+"A rare variety of throat guard originally known as a gorget and used for "
+"neck protection in HEMA.  It's made from thick rubber covered by nylon.  It "
+"offers good protection for the throat, but it only covers a small portion of"
+" the nape."
+msgstr ""
+
+#. ~ Item name
+#: data/json/items/armor/scarfs.json
+msgid "cut-resistant throat guard"
+msgid_plural "cut-resistant throat guards"
+msgstr[0] "порезостойкий протекторов горла"
+msgstr[1] "порезостойких протектора горла"
+msgstr[2] "порезостойких протекторов горла"
+msgstr[3] "порезостойкие протекторы горла"
+
+#. ~ Description of "cut-resistant throat guard"
+#: data/json/items/armor/scarfs.json
+msgid ""
+"A cut-resistant Kevlar throat guard, commonly used by welders, security "
+"forces and in some sports."
+msgstr ""
+
+#. ~ Item name
+#: data/json/items/armor/scarfs.json
+msgid "mercenary throat guard"
+msgid_plural "mercenary throat guards"
+msgstr[0] "баллистический протектор горла"
+msgstr[1] "баллистических протектора горла"
+msgstr[2] "баллистических протекторов горла"
+msgstr[3] "баллистические протекторы горла"
+
+#. ~ Description of "mercenary throat guard"
+#: data/json/items/armor/scarfs.json
+msgid ""
+"A ballistic collar modified to wear it as a standalone armor, carefully "
+"combined with a regular nylon throat guard for extra protection."
+msgstr ""
+
+#. ~ Item name
 #: data/json/items/armor/sheath.json
 msgid "axe ring holster"
 msgid_plural "axe ring holsters"
@@ -216735,83 +216878,6 @@ msgstr ""
 
 #. ~ Item name
 #: data/json/items/armor/suits_clothes.json
-msgid "dinosaur suit"
-msgid_plural "dinosaur suits"
-msgstr[0] "костюм динозавра"
-msgstr[1] "костюма динозавра"
-msgstr[2] "костюмов динозавра"
-msgstr[3] "костюмы динозавра"
-
-#. ~ Description of "dinosaur suit"
-#. ~ Description of variant "dinosaur fursuit" of item "fursuit"
-#: data/json/items/armor/suits_clothes.json
-msgid ""
-"A full-body costume in the form of an anthropomorphic dinosaur.  It is quite"
-" encumbering and has little storage but is very warm."
-msgstr ""
-"Костюм, покрывающий всё тело.  Выполнен в форме человекоподобного динозавра."
-"  Громоздкий и почти без карманов, но в нём очень тепло."
-
-#. ~ Item name
-#: data/json/items/armor/suits_clothes.json
-msgid "shark suit"
-msgid_plural "shark suits"
-msgstr[0] "костюм акулки"
-msgstr[1] "костюма акулки"
-msgstr[2] "костюмов акулки"
-msgstr[3] "костюмы акулки"
-
-#. ~ Description of "shark suit"
-#: data/json/items/armor/suits_clothes.json
-msgid ""
-"A full-body costume in the form of an anthropomorphic bull shark.  It is "
-"quite encumbering and has little storage but is very warm."
-msgstr ""
-"Костюм, покрывающий всё тело.  Выполнен в форме человекоподобной акулы.  "
-"Неудобный и почти без карманов, но в нём очень тепло."
-
-#. ~ Item name
-#: data/json/items/armor/suits_clothes.json
-msgid "dragon suit"
-msgid_plural "dragon suits"
-msgstr[0] "костюм дракона"
-msgstr[1] "костюма дракона"
-msgstr[2] "костюмов дракона"
-msgstr[3] "костюмы дракона"
-
-#. ~ Description of "dragon suit"
-#: data/json/items/armor/suits_clothes.json
-msgid ""
-"A cartoonish recreation of a western dragon remade into a suit.  Effectively"
-" useless nowadays, unless you think the mutants will treat you as one of "
-"their own if you wear this.  The wings really get in the way."
-msgstr ""
-"Мультяшное воссоздание образа западного дракона, в виде костюма.  В тёмные "
-"дни Катаклизма практически бесполезен, если только вы не думаете, что "
-"мутанты примут вас за себя, если вы наденете это.  Крылья могут запутаться "
-"под ногами."
-
-#. ~ Item name
-#: data/json/items/armor/suits_clothes.json
-msgid "feline suit"
-msgid_plural "feline suits"
-msgstr[0] "кошачий костюм"
-msgstr[1] "кошачьих костюма"
-msgstr[2] "кошачьих костюмов"
-msgstr[3] "кошачьи костюмы"
-
-#. ~ Description of "feline suit"
-#: data/json/items/armor/suits_clothes.json
-msgid ""
-"A fursuit made to resemble an anthropomorphic feline of indistinguishable "
-"breed.  It's a decent source of faux fur if you need it."
-msgstr ""
-"Меховой костюм, напоминающий человекоподобное животное из семейства кошачьих"
-" неопределённой породы.  В любом случае, это приличный источник "
-"искусственного меха, если он вам нужен."
-
-#. ~ Item name
-#: data/json/items/armor/suits_clothes.json
 msgid "flag jumpsuit"
 msgid_plural "flag jumpsuits"
 msgstr[0] "комбинезон с флагом"
@@ -216918,6 +216984,20 @@ msgstr[3] "зелёные комбинезоны"
 msgid "This one is green."
 msgstr "Этот зеленый."
 
+#. ~ Variant name of item "jumpsuit"
+#: data/json/items/armor/suits_clothes.json
+msgid "Hub 01 jumpsuit"
+msgid_plural "Hub 01 jumpsuits"
+msgstr[0] "комбинезон Центра 01"
+msgstr[1] "комбинезона Центра 01"
+msgstr[2] "комбинезонов Центра 01"
+msgstr[3] "комбинезоны Центра 01"
+
+#. ~ Description of variant "Hub 01 jumpsuit" of item "jumpsuit"
+#: data/json/items/armor/suits_clothes.json
+msgid "A brown jumpsuit worn by the staff of Hub 01."
+msgstr "Коричневый комбинезон, который носит персонал Центра 01."
+
 #. ~ Description of "jumpsuit"
 #: data/json/items/armor/suits_clothes.json
 msgid ""
@@ -216998,20 +217078,6 @@ msgstr "Расстегнуть верхнюю часть"
 #: data/json/items/armor/suits_clothes.json
 msgid "You facial skin is now visible."
 msgstr "Ваше лицо теперь видно."
-
-#. ~ Item name
-#: data/json/items/armor/suits_clothes.json
-msgid "Hub 01 jumpsuit"
-msgid_plural "Hub 01 jumpsuits"
-msgstr[0] "комбинезон Центра 01"
-msgstr[1] "комбинезона Центра 01"
-msgstr[2] "комбинезонов Центра 01"
-msgstr[3] "комбинезоны Центра 01"
-
-#. ~ Description of "Hub 01 jumpsuit"
-#: data/json/items/armor/suits_clothes.json
-msgid "A brown jumpsuit worn by the staff of Hub 01."
-msgstr "Коричневый комбинезон, который носит персонал Центра 01."
 
 #. ~ Item name
 #: data/json/items/armor/suits_clothes.json
@@ -217319,6 +217385,15 @@ msgstr[0] "костюм динозавра"
 msgstr[1] "костюма динозавра"
 msgstr[2] "костюмов динозавра"
 msgstr[3] "костюмы динозавра"
+
+#. ~ Description of variant "dinosaur fursuit" of item "fursuit"
+#: data/json/items/armor/suits_clothes.json
+msgid ""
+"A full-body costume in the form of an anthropomorphic dinosaur.  It is quite"
+" encumbering and has little storage but is very warm."
+msgstr ""
+"Костюм, покрывающий всё тело.  Выполнен в форме человекоподобного динозавра."
+"  Громоздкий и почти без карманов, но в нём очень тепло."
 
 #. ~ Item name
 #: data/json/items/armor/suits_clothes.json
@@ -221912,10 +221987,10 @@ msgstr ""
 #: data/json/items/armor/torso_clothes.json
 msgid "long dress"
 msgid_plural "long dresses"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "длинное платье"
+msgstr[1] "длинных платья"
+msgstr[2] "длинных платьев"
+msgstr[3] "длинные платья"
 
 #. ~ Description of "long dress"
 #: data/json/items/armor/torso_clothes.json
@@ -221926,26 +222001,19 @@ msgstr "Длинное хлопковое платье."
 #: data/json/items/armor/torso_clothes.json
 msgid "long white dress"
 msgid_plural "long white dresses"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "длинное белое платье"
+msgstr[1] "длинных белых платья"
+msgstr[2] "длинных белых платьев"
+msgstr[3] "длинные белые платья"
 
 #. ~ Variant name of item "long dress"
 #: data/json/items/armor/torso_clothes.json
 msgid "long black dress"
 msgid_plural "long black dresses"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-
-#. ~ Description of variant "long black dress" of item "long dress"
-#. ~ Description of variant "black binder" of item "binder"
-#: data/json/items/armor/torso_clothes.json
-#: data/json/items/armor/undergarment.json
-msgid "This one is black."
-msgstr "Этот черный."
+msgstr[0] "длинное чёрнон платье"
+msgstr[1] "длинных чёрных платья"
+msgstr[2] "длинных чёрных платьев"
+msgstr[3] "длинные чёрные платья"
 
 #. ~ Variant name of item "long dress"
 #: data/json/items/armor/torso_clothes.json
@@ -222215,16 +222283,16 @@ msgstr[3] "коричневые толстовки"
 #: data/json/items/armor/torso_clothes.json
 msgid "animal hoodie"
 msgid_plural "animal hoodies"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "толстовка-кигуруми"
+msgstr[1] "толстовки-кигуруми"
+msgstr[2] "толстовок-кигуруми"
+msgstr[3] "толстовки-кигуруми"
 
 #. ~ Description of variant "animal hoodie" of item "hoodie"
 #. ~ Description of variant "animal hoodie" of item "cropped hoodie"
 #: data/json/items/armor/torso_clothes.json
 msgid "This one looks like a cute <hoodie_animal>."
-msgstr ""
+msgstr "Эта выглядит как <hoodie_animal>."
 
 #. ~ Item name
 #: data/json/items/armor/torso_clothes.json
@@ -319119,21 +319187,6 @@ msgstr ""
 
 #. ~ Item name
 #: data/json/items/melee/bludgeons.json
-msgid "glass shiv"
-msgid_plural "glass shivs"
-msgstr[0] "стеклянная заточка"
-msgstr[1] "стеклянные заточки"
-msgstr[2] "стеклянных заточек"
-msgstr[3] "стеклянные заточки"
-
-#. ~ Description of "glass shiv"
-#: data/json/items/melee/bludgeons.json
-msgid "A glass shard with wrapping at one end so it can be safely wielded."
-msgstr ""
-"Осколок стекла с обмоткой на конце, чтобы им можно было безопасно орудовать."
-
-#. ~ Item name
-#: data/json/items/melee/bludgeons.json
 #: data/mods/Aftershock/items/weapons.json
 #: data/mods/aftershock_exoplanet/items/weapons.json
 msgid "golf club"
@@ -320376,6 +320429,46 @@ msgstr ""
 "Средневековый молот с шипом на конце, участник давних сражений.  Его "
 "необычная форма и сбалансированность делают из него отличное оружие и "
 "никудышный инструмент."
+
+#. ~ Item name
+#: data/json/items/melee/bludgeons.json
+msgid "breacher"
+msgid_plural "breachers"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description of "breacher"
+#: data/json/items/melee/bludgeons.json
+msgid ""
+"Some sort of large prybar of a make and manufacturer you've never seen "
+"before.  On the heavier end is a set of thick, crabclaw like shears "
+"connected to a hydraulic piston, capable of cutting or prying through metal "
+"with great force.  The Exodii use these for general purpose breaching and "
+"scrapping heavy machines, and it's been retrofitted to run on their bionic "
+"power."
+msgstr ""
+
+#. ~ Item name
+#: data/json/items/melee/bludgeons.json
+msgid "sapper"
+msgid_plural "sappers"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description of "sapper"
+#: data/json/items/melee/bludgeons.json
+msgid ""
+"A metal pole saw covered in faded orange paint and warning labels written in"
+" an unknown language.  The circular blade at the end is over an inch thick, "
+"its deeply dished grooves suggesting its purpose as a digging implement "
+"rather than a cutter.  The Exodii use these to chew through reinforced walls"
+" like concrete or solid steel, and it's been retrofitted to run on their "
+"bionic power."
+msgstr ""
 
 #. ~ Item name
 #: data/json/items/melee/fake.json
@@ -321823,6 +321916,27 @@ msgstr ""
 "лезвия и может также работать как кусачки.  Хотя он довольно прочный, он не "
 "может хорошо держать заточку."
 
+#. ~ Variant name of gun mod "Bayonet"
+#. ~ Variant name of item "Bayonet"
+#: data/json/items/melee/swords_and_blades.json
+msgid "L-backswerda"
+msgid_plural "L-backswerdas"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description of variant "L-backswerda"of gun mod "Bayonet"
+#. ~ Description of variant "L-backswerda" of item "Bayonet"
+#: data/json/items/melee/swords_and_blades.json
+msgid ""
+"A bayonet, although not of any model you're familiar with.  Despite "
+"differences in appearance it seems analogous to any other bayonet - The "
+"chrome shaded blade is worn but well-maintained, with a grooved edge on its "
+"back to act as a sawing implement.  The handle and guard have some "
+"additional mechanisms installed to help affix it to a variety of firearms."
+msgstr ""
+
 #. ~ Item name
 #. ~ Gun mod name
 #: data/json/items/melee/swords_and_blades.json
@@ -322207,6 +322321,21 @@ msgstr ""
 "Нож, состоящий из длинного, кое-как заостренного, острия туго обмотанного "
 "тряпкой вместо рукояти.  Не так хорош, как настоящий нож, но за неимением "
 "лучшего сойдет."
+
+#. ~ Item name
+#: data/json/items/melee/swords_and_blades.json
+msgid "glass shiv"
+msgid_plural "glass shivs"
+msgstr[0] "стеклянная заточка"
+msgstr[1] "стеклянные заточки"
+msgstr[2] "стеклянных заточек"
+msgstr[3] "стеклянные заточки"
+
+#. ~ Description of "glass shiv"
+#: data/json/items/melee/swords_and_blades.json
+msgid "A glass shard with wrapping at one end so it can be safely wielded."
+msgstr ""
+"Осколок стекла с обмоткой на конце, чтобы им можно было безопасно орудовать."
 
 #. ~ Item name
 #: data/json/items/melee/swords_and_blades.json
@@ -327990,8 +328119,8 @@ msgstr[3] "огромные стальные слитки"
 
 #. ~ Description of "enormous steel ingot"
 #: data/json/items/resources/alien.json
-msgid "A monolithic block of high quality steel."
-msgstr "Монолитный блок из высококачественной стали."
+msgid "A monolithic block of low carbon steel."
+msgstr "Монолитный блок из низкоуглеродистой стали."
 
 #. ~ Item name
 #: data/json/items/resources/alien.json
@@ -348485,6 +348614,22 @@ msgstr ""
 "сделать с помощью надёжного захвата.  Также имеет небольшую плоскую "
 "металлическую поверхность, при необходимости пригодную для лёгкой обработки "
 "металла."
+
+#. ~ Description of "Exodii kiln"
+#: data/json/items/tool/workshop.json
+msgid ""
+"An electric kiln, powered by your electric grid.  A bit larger than a "
+"refridgerator, this Exodii-manufactured kiln is large enough to repair the "
+"sheets of ceramic they use for armor.  It is designed for firing sheets of "
+"the Exodii's ceramic, but you could use it to fire anything made of clay.  A"
+" large and power-hungry appliance."
+msgstr ""
+"Электрическая печь для обжига, питающаяся от электросети.  Эта печь, "
+"изготовленная Экзоди, размером чуть больше холодильника, достаточно велика "
+"для ремонта керамических листов, которые они используют для изготовления "
+"брони.  Она предназначена для обжига листов керамики Экзоди, но вы можете "
+"использовать её для обжига всего, что сделано из глины.  Большой и энерго-"
+"прожорливый прибор."
 
 #. ~ Item name
 #. ~ Vehicle part name
@@ -386034,11 +386179,13 @@ msgstr ""
 
 #. ~ Mutation name
 #: data/json/mutations/mutations.json
+#: data/mods/Xedra_Evolved/mutations/paraclesians/arvore_mutations.json
 msgid "Jaundice"
 msgstr "Желтуха"
 
 #. ~ Description of mutation "Jaundice"
 #: data/json/mutations/mutations.json
+#: data/mods/Xedra_Evolved/mutations/paraclesians/arvore_mutations.json
 msgid ""
 "It's subtle, but your skin has definitely taken on a sickly yellow-green "
 "hue."
@@ -513657,7 +513804,7 @@ msgid "Spider nest is here."
 msgstr "Тут паучье гнездо."
 
 #. ~ Name of map extra
-#: data/json/overmap/map_extras.json
+#: data/json/overmap/map_extras.json data/mods/Backrooms/map_extras.json
 msgid "Wasp Nest"
 msgstr "Осиное гнездо"
 
@@ -513909,18 +514056,18 @@ msgid "Some unfortunates from the billions lost in the Cataclysm."
 msgstr "Несчастные из числа миллиардов жертв Катаклизма."
 
 #. ~ Description of map extra "Wasp Nest"
-#: data/json/overmap/map_extras.json
+#: data/json/overmap/map_extras.json data/mods/Backrooms/map_extras.json
 msgid "A wasp nest."
 msgstr "Осиное гнездо."
 
 #. ~ Name of map extra
-#: data/json/overmap/map_extras.json
+#: data/json/overmap/map_extras.json data/mods/Backrooms/map_extras.json
 msgid "Dermatik Nest"
 msgstr "Гнездо дерматиков"
 
 #. ~ Description of map extra "Dermatik Nest"
 #. ~ Response to NPC dialogue
-#: data/json/overmap/map_extras.json
+#: data/json/overmap/map_extras.json data/mods/Backrooms/map_extras.json
 #: data/mods/Magiclysm/npc/TALK_FORGE_DIVINER.json
 msgid "A dermatik nest."
 msgstr "Гнездо дерматиков."
@@ -525979,7 +526126,7 @@ msgstr "Рецепты, связанные с изготовлением все�
 #. ~ name of the nested group
 #: data/json/recipes/nested.json
 msgid "mild steel splint arm guards"
-msgstr "шинные нарукавники из низкоуглеродистой стали"
+msgstr "разделённые нарукавники из низкоуглеродистой стали"
 
 #. ~ Description of the category "mild steel splint arm guards"
 #. ~ Description of the category "medium steel splint arm guards"
@@ -525994,27 +526141,27 @@ msgstr "Рецепты изготовления нарукавников раз�
 #. ~ name of the nested group
 #: data/json/recipes/nested.json
 msgid "medium steel splint arm guards"
-msgstr "шинные нарукавники из среднеуглеродистой стали"
+msgstr "разделённые нарукавники из среднеуглеродистой стали"
 
 #. ~ name of the nested group
 #: data/json/recipes/nested.json
 msgid "high steel splint arm guards"
-msgstr "шинные нарукавники из высокоуглеродистой стали"
+msgstr "разделённые нарукавники из высокоуглеродистой стали"
 
 #. ~ name of the nested group
 #: data/json/recipes/nested.json
 msgid "hardened steel splint arm guards"
-msgstr "шинные нарукавники из цементированной стали"
+msgstr "разделённые нарукавники из цементированной стали"
 
 #. ~ name of the nested group
 #: data/json/recipes/nested.json
 msgid "tempered steel splint arm guards"
-msgstr "шинные нарукавники из закалённой стали"
+msgstr "разделённые нарукавники из закалённой стали"
 
 #. ~ name of the nested group
 #: data/json/recipes/nested.json
 msgid "steel splint arm guards"
-msgstr "стальные шинные нарукавники"
+msgstr "стальные разделённые нарукавники"
 
 #. ~ name of the nested group
 #: data/json/recipes/nested.json
@@ -526059,7 +526206,7 @@ msgstr "стальные налокотники"
 #. ~ name of the nested group
 #: data/json/recipes/nested.json
 msgid "mild steel splint vambraces"
-msgstr "шинные наручи из низкоуглеродистой стали"
+msgstr "разделённые наручи из низкоуглеродистой стали"
 
 #. ~ Description of the category "mild steel splint vambraces"
 #. ~ Description of the category "medium steel splint mail vambraces"
@@ -526074,32 +526221,32 @@ msgstr "Рецепты изготовления шинных кольчужны�
 #. ~ name of the nested group
 #: data/json/recipes/nested.json
 msgid "medium steel splint mail vambraces"
-msgstr "шинные наручи из среднеуглеродистой стали"
+msgstr "разделённые наручи из среднеуглеродистой стали"
 
 #. ~ name of the nested group
 #: data/json/recipes/nested.json
 msgid "high steel splint mail vambraces"
-msgstr "шинные наручи из высокоуглеродистой стали"
+msgstr "разделённые наручи из высокоуглеродистой стали"
 
 #. ~ name of the nested group
 #: data/json/recipes/nested.json
 msgid "hardened steel splint mail vambraces"
-msgstr "шинные наручи из цементированной стали"
+msgstr "разделённые наручи из цементированной стали"
 
 #. ~ name of the nested group
 #: data/json/recipes/nested.json
 msgid "tempered steel splint mail vambraces"
-msgstr "шинные наручи из закалённой стали"
+msgstr "разделённые наручи из закалённой стали"
 
 #. ~ name of the nested group
 #: data/json/recipes/nested.json
 msgid "splint mail vambraces"
-msgstr "стальные шинные наручи"
+msgstr "стальные разделённые наручи"
 
 #. ~ name of the nested group
 #: data/json/recipes/nested.json
 msgid "mild steel splint greaves"
-msgstr "шинные наголенники из низкоуглеродистой стали"
+msgstr "разделённые наголенники из низкоуглеродистой стали"
 
 #. ~ Description of the category "mild steel splint greaves"
 #. ~ Description of the category "medium steel splint greaves"
@@ -526113,27 +526260,27 @@ msgstr "Рецепты изготовления шин различного ра
 #. ~ name of the nested group
 #: data/json/recipes/nested.json
 msgid "medium steel splint greaves"
-msgstr "шинные наголенники из среднеуглеродистой стали"
+msgstr "разделённые наголенники из среднеуглеродистой стали"
 
 #. ~ name of the nested group
 #: data/json/recipes/nested.json
 msgid "high steel splint greaves"
-msgstr "шинные наголенники из высокоуглеродистой стали"
+msgstr "разделённые наголенники из высокоуглеродистой стали"
 
 #. ~ name of the nested group
 #: data/json/recipes/nested.json
 msgid "hardened steel splint greaves"
-msgstr "шинные наголенники из цементированной стали"
+msgstr "разделённые наголенники из цементированной стали"
 
 #. ~ name of the nested group
 #: data/json/recipes/nested.json
 msgid "tempered steel splint greaves"
-msgstr "шинные наголенники из закалённой стали"
+msgstr "разделённые наголенники из закалённой стали"
 
 #. ~ name of the nested group
 #: data/json/recipes/nested.json
 msgid "splint mail greaves"
-msgstr "стальные шинные наголенники"
+msgstr "стальные разделённые наголенники"
 
 #. ~ Description of the category "splint mail greaves"
 #: data/json/recipes/nested.json
@@ -526143,7 +526290,7 @@ msgstr "Рецепты изготовления кольчужных понож�
 #. ~ name of the nested group
 #: data/json/recipes/nested.json
 msgid "mild steel splint leg guards"
-msgstr "шинные поножи из низкоуглеродистой стали"
+msgstr "разделённые поножи из низкоуглеродистой стали"
 
 #. ~ Description of the category "mild steel splint leg guards"
 #. ~ Description of the category "medium steel splint leg guards"
@@ -526158,27 +526305,27 @@ msgstr "Рецепты изготовления шинных щитков для
 #. ~ name of the nested group
 #: data/json/recipes/nested.json
 msgid "medium steel splint leg guards"
-msgstr "шинные поножи из среднеуглеродистой стали"
+msgstr "разделённые поножи из среднеуглеродистой стали"
 
 #. ~ name of the nested group
 #: data/json/recipes/nested.json
 msgid "high steel splint leg guards"
-msgstr "шинные поножи из высокоуглеродистой стали"
+msgstr "разделённые поножи из высокоуглеродистой стали"
 
 #. ~ name of the nested group
 #: data/json/recipes/nested.json
 msgid "hardened steel splint leg guards"
-msgstr "шинные поножи из цементированной стали"
+msgstr "разделённые поножи из цементированной стали"
 
 #. ~ name of the nested group
 #: data/json/recipes/nested.json
 msgid "tempered steel splint leg guards"
-msgstr "шинные поножи из закалённой стали"
+msgstr "разделённые поножи из закалённой стали"
 
 #. ~ name of the nested group
 #: data/json/recipes/nested.json
 msgid "steel splint leg guards"
-msgstr "стальные шинные поножи"
+msgstr "стальные разделённые поножи"
 
 #. ~ name of the nested group
 #: data/json/recipes/nested.json
@@ -526955,6 +527102,16 @@ msgstr "набедренная повязка"
 #: data/json/recipes/nested.json
 msgid "Recipes related to making loincloths out of varied materials."
 msgstr "Рецепты изготовления набедренных повязок из различных материалов."
+
+#. ~ name of the nested group
+#: data/json/recipes/nested.json
+msgid "throat guards"
+msgstr "протекторы горла"
+
+#. ~ Description of the category "throat guards"
+#: data/json/recipes/nested.json
+msgid "Recipes related to making throat guards out of varied materials."
+msgstr "Рецепты изготовления протекторов горла из различных материалов."
 
 #. ~ name of the nested group
 #: data/json/recipes/nested.json
@@ -540447,17 +540604,17 @@ msgstr "кошка"
 #. ~ Snippet in category "<hoodie_animal>"
 #: data/json/snippets/clothing.json
 msgid "bunny"
-msgstr ""
+msgstr "милый кролик"
 
 #. ~ Snippet in category "<hoodie_animal>"
 #: data/json/snippets/clothing.json
 msgid "lizard"
-msgstr ""
+msgstr "милая ящерица"
 
 #. ~ Snippet in category "<hoodie_animal>"
 #: data/json/snippets/clothing.json
 msgid "panda"
-msgstr ""
+msgstr "милая панда"
 
 #. ~ Snippet in category "<hoodie_animal>"
 #. ~ Monster name
@@ -624675,6 +624832,34 @@ msgstr ""
 "воды в кулер или аналогичный диспенсер.  Вмещает много жидкости, но, к "
 "сожалению, у неё нет крышки, поэтому её трудно носить с собой, когда она "
 "полная."
+
+#. ~ Item name
+#: data/mods/Backrooms/items.json
+msgid "almond water"
+msgid_plural "almond waters"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description of "almond water"
+#: data/mods/Backrooms/items.json
+msgid "A bottle of what looks like slightly-cloudy water."
+msgstr ""
+
+#. ~ Item name
+#: data/mods/Backrooms/items.json
+msgid "almond water bottle"
+msgid_plural "almond water bottles"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. ~ Description of "almond water bottle"
+#: data/mods/Backrooms/items.json
+msgid "A sealed glass bottle, holding a slightly-cloudy liquid."
+msgstr ""
 
 #. ~ Description of "newspaper page"
 #: data/mods/Backrooms/items.json
@@ -750826,6 +751011,11 @@ msgstr "Мутаген Авроре"
 
 #. ~ Vitamin name
 #: data/mods/Xedra_Evolved/vitamin.json
+msgid "Arvore Alchemical Mutagen"
+msgstr ""
+
+#. ~ Vitamin name
+#: data/mods/Xedra_Evolved/vitamin.json
 msgid "Undine Mutagen"
 msgstr "Мутаген ундины"
 
@@ -753538,8 +753728,40 @@ msgstr "Вы употребили изменяющее вашу жизнь ко�
 
 #. ~ Blood analysis description of effect type "Arvore Mutation, Arvore
 #. Transformation, Arvore Metamorphosis"
+#. ~ Blood analysis description of effect type "Arvore Stolen Power Mutation,
+#. Arvore Stolen Power Transformation, Arvore Stolen Power Metamorphosis"
 #: data/mods/Xedra_Evolved/effects/effects.json
 msgid "Anomalous chlorophyll content in blood sample"
+msgstr ""
+
+#. ~ Name of effect type id "mutagen_alchemical_plantkin"
+#: data/mods/Xedra_Evolved/effects/effects.json
+msgid "Arvore Stolen Power Mutation"
+msgstr ""
+
+#. ~ Name of effect type id "mutagen_alchemical_plantkin"
+#: data/mods/Xedra_Evolved/effects/effects.json
+msgid "Arvore Stolen Power Transformation"
+msgstr ""
+
+#. ~ Name of effect type id "mutagen_alchemical_plantkin"
+#: data/mods/Xedra_Evolved/effects/effects.json
+msgid "Arvore Stolen Power Metamorphosis"
+msgstr ""
+
+#. ~ Description of effect type "Arvore Stolen Power Mutation"
+#: data/mods/Xedra_Evolved/effects/effects.json
+msgid "You consumed Arvore alchemical draught."
+msgstr ""
+
+#. ~ Description of effect type "Arvore Stolen Power Transformation"
+#: data/mods/Xedra_Evolved/effects/effects.json
+msgid "You consumed a large amount of Arvore alchemical draught."
+msgstr ""
+
+#. ~ Description of effect type "Arvore Stolen Power Metamorphosis"
+#: data/mods/Xedra_Evolved/effects/effects.json
+msgid "You consumed a life-changing amount of Arvore alchemical draught."
 msgstr ""
 
 #. ~ Name of effect type id "mutagen_waterkin"
@@ -773303,6 +773525,28 @@ msgstr ""
 #: data/mods/Xedra_Evolved/mutations/mutation_category.json
 msgctxt "memorial_female"
 msgid "Fell with a great sound."
+msgstr ""
+
+#. ~ Mutation class name
+#: data/mods/Xedra_Evolved/mutations/mutation_category.json
+msgid "Arvorian Canker"
+msgstr ""
+
+#. ~ "mutagen_message" of mutation class "Arvorian Canker"
+#: data/mods/Xedra_Evolved/mutations/mutation_category.json
+msgid "Gorged with verdant power."
+msgstr ""
+
+#. ~ Memorial message of mutation class "Arvorian Canker" for male
+#: data/mods/Xedra_Evolved/mutations/mutation_category.json
+msgctxt "memorial_male"
+msgid "Withered and rotted away."
+msgstr ""
+
+#. ~ Memorial message of mutation class "Arvorian Canker" for female
+#: data/mods/Xedra_Evolved/mutations/mutation_category.json
+msgctxt "memorial_female"
+msgid "Withered and rotted away."
 msgstr ""
 
 #. ~ "mutagen_message" of mutation class "Salamander"

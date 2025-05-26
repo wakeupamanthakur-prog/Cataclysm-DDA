@@ -10,16 +10,16 @@
 # Richard Sproch, 2023
 # Brett Dong <brett.browning.dong@gmail.com>, 2023
 # Sokor The Translator, 2025
-# Krisztián Szabó <kszabo83@gmail.com>, 2025
 # Mathias <matesgaudi1@gmail.com>, 2025
 # Daniel Szollosi-Nagy <dsn-transifex@kdconsulting.net>, 2025
+# Krisztián Szabó <kszabo83@gmail.com>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: cataclysm-dda 0.I\n"
-"POT-Creation-Date: 2025-05-15 11:11+0000\n"
+"POT-Creation-Date: 2025-05-21 17:47+0000\n"
 "PO-Revision-Date: 2018-04-26 14:47+0000\n"
-"Last-Translator: Daniel Szollosi-Nagy <dsn-transifex@kdconsulting.net>, 2025\n"
+"Last-Translator: Krisztián Szabó <kszabo83@gmail.com>, 2025\n"
 "Language-Team: Hungarian (https://app.transifex.com/cataclysm-dda-translators/teams/2217/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -68,7 +68,7 @@ msgstr ""
 #: src/achievement.cpp:500
 #, c-format
 msgid "%s/%s %s"
-msgstr ""
+msgstr "%s/%s %s"
 
 #: src/achievement.cpp:524
 msgid "  (further requirements hidden)"
@@ -205,7 +205,7 @@ msgstr "%s (Irány gombok)"
 #: src/iuse_actor.cpp:5328 src/iuse_actor.cpp:5367 src/iuse_actor.cpp:5470
 #: src/iuse_actor.cpp:5525 src/iuse_actor.cpp:5556 src/monexamine.cpp:93
 #: src/monexamine.cpp:215 src/monexamine.cpp:311 src/monexamine.cpp:347
-#: src/npc.cpp:1389 src/npc.cpp:1396 src/veh_interact.cpp:3014
+#: src/npc.cpp:1389 src/npc.cpp:1396 src/veh_interact.cpp:3015
 #: src/vehicle_use.cpp:1623 src/vehicle_use.cpp:2384
 #: data/json/npcs/snippets/talk_tags_avatar.json
 #: data/mods/Aftershock/npcs/Augustmoon_Salvors/augustmoon_doctor.json
@@ -364,22 +364,24 @@ msgstr "<npcname> finoman földet ér."
 #: src/activity_actor.cpp:1466 src/activity_actor.cpp:1487
 #, c-format
 msgid "You collide with %s, bringing an abrupt halt to your glide."
-msgstr ""
+msgstr "Összeütközöl ezzel: %s, ami hirtelen megállítja a siklásodat."
 
 #: src/activity_actor.cpp:1467 src/activity_actor.cpp:1488
 #, c-format
 msgid "<npcname> collides with %s, bringing an abrupt halt to their glide."
 msgstr ""
+"<npcname> összeütközik a következővel: %s címmel, ami hirtelen megállítja a "
+"siklását."
 
 #: src/activity_actor.cpp:1499
 #, c-format
 msgid "You deftly maneuver around %s."
-msgstr ""
+msgstr "Ügyesen manőverezel a %s körül."
 
 #: src/activity_actor.cpp:1500
 #, c-format
 msgid "<npcname> deftly maneuvers around %s."
-msgstr ""
+msgstr "<npcname> ügyesen manőverezik a %s körül."
 
 #: src/activity_actor.cpp:1656
 msgid "You no longer have the book!"
@@ -389,7 +391,7 @@ msgstr "Már nincs meg a könyv!"
 msgid "<npcname> no longer has the book!"
 msgstr "<npcname> már nem rendelkezik a könyvvel!"
 
-#: src/activity_actor.cpp:1705 src/character.cpp:12343 src/npc.cpp:1347
+#: src/activity_actor.cpp:1705 src/character.cpp:12344 src/npc.cpp:1347
 msgid "It's too dark to read!"
 msgstr "Túl sötét van az olvasáshoz!"
 
@@ -726,7 +728,7 @@ msgstr "A széf zára egy kielégítő kattanással kinyílik!"
 msgid "You disassemble your %s."
 msgstr "Szétszereled a(z) %s-t."
 
-#: src/activity_actor.cpp:4066 src/character.cpp:11905
+#: src/activity_actor.cpp:4066 src/character.cpp:11906
 #, c-format
 msgid "You unload your %s."
 msgstr "Kiüríted a(z) %s-t."
@@ -1972,7 +1974,7 @@ msgstr "Jelenleg nem tudod megszerelni a(z) %st."
 
 #: src/activity_handlers.cpp:2925
 msgid "You cannot reach that destination."
-msgstr ""
+msgstr "A célállomást nem tudod elérni."
 
 #: src/activity_handlers.cpp:2956 src/game.cpp:1589
 #, c-format
@@ -2003,7 +2005,7 @@ msgstr "%s befejezi veled a beszélgetést."
 
 #: src/activity_handlers.cpp:3166
 msgid "The Autodoc suffers a catastrophic failure."
-msgstr ""
+msgstr "Az autodoki katasztrofálisan meghibásodott."
 
 #: src/activity_handlers.cpp:3169
 msgid "The Autodoc's failure damages you greatly."
@@ -2728,7 +2730,7 @@ msgstr "térfogat"
 
 #: src/advanced_inv.cpp:224
 msgid "density"
-msgstr ""
+msgstr "sűrűség"
 
 #: src/advanced_inv.cpp:226
 msgid "charges"
@@ -3903,12 +3905,12 @@ msgstr "Te"
 #: data/mods/Xedra_Evolved/monsters/nightmares_and_chimeras.json
 msgid "you"
 msgid_plural "you"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "te"
+msgstr[1] "te"
 
 #: src/avatar.cpp:922
 msgid "Your"
-msgstr ""
+msgstr "Tiéd"
 
 #: src/avatar.cpp:922
 msgid "your"
@@ -4000,11 +4002,11 @@ msgstr "Mit szeretnél ezzel tenni: %s?"
 
 #: src/avatar.cpp:1418
 msgid "Use relic"
-msgstr ""
+msgstr "Relikvia használata"
 
 #: src/avatar.cpp:1419
 msgid "Activate this relic."
-msgstr ""
+msgstr "Relikvia aktiválása"
 
 #: src/avatar.cpp:1772
 msgid "Your body is wracked with excruciating pain!"
@@ -4073,11 +4075,11 @@ msgstr "Beugrasz a vízbe?"
 
 #: src/avatar_action.cpp:142
 msgid "Diving will destroy the following items.  Proceed?"
-msgstr ""
+msgstr "A búvárkodás a következő tárgyakat semmisíti meg.  Folytatod?"
 
 #: src/avatar_action.cpp:143
 msgid "These items are not inside a waterproof container."
-msgstr ""
+msgstr "Ezek a tárgyak nincsenek vízálló tárolóban."
 
 #. ~ Key binding name
 #. ~ Response to NPC dialogue
@@ -4085,7 +4087,7 @@ msgstr ""
 #: src/avatar_action.cpp:145 src/debug_menu.cpp:3143 src/editmap.cpp:973
 #: src/editmap.cpp:974 src/editmap.cpp:981 src/editmap.cpp:982
 #: src/options.cpp:1702 src/options.cpp:2642 src/trap.cpp:475
-#: src/veh_interact.cpp:1429
+#: src/veh_interact.cpp:1430
 #: data/mods/BombasticPerks/corefiles/config_menu.json
 #: data/mods/Xedra_Evolved/eocs/eoc_riddles.json data/raw/keybindings.json
 msgid "No"
@@ -4097,7 +4099,7 @@ msgstr "Nem"
 #. ~ EOC option name in effect in EoC "EOC_XE_RIDDLE_20"
 #: src/avatar_action.cpp:146 src/debug_menu.cpp:3143 src/editmap.cpp:973
 #: src/editmap.cpp:974 src/editmap.cpp:981 src/editmap.cpp:982
-#: src/trap.cpp:475 src/veh_interact.cpp:1429
+#: src/trap.cpp:475 src/veh_interact.cpp:1430
 #: data/mods/BombasticPerks/corefiles/config_menu.json
 #: data/mods/Xedra_Evolved/eocs/eoc_riddles.json data/raw/keybindings.json
 msgid "Yes"
@@ -4105,15 +4107,15 @@ msgstr "Igen"
 
 #: src/avatar_action.cpp:156
 msgid "Will be dissolved:"
-msgstr ""
+msgstr "Fel fog oldódni:"
 
 #: src/avatar_action.cpp:163
 msgid "Will be destroyed:"
-msgstr ""
+msgstr "Meg fog semmisülni:"
 
 #: src/avatar_action.cpp:170
 msgid "Will get wet:"
-msgstr ""
+msgstr "Nedves lesz:"
 
 #: src/avatar_action.cpp:178
 msgid "You back away from the water."
@@ -4239,7 +4241,7 @@ msgstr "A víz lemossa a világító ragcsot!"
 
 #: src/avatar_action.cpp:627
 msgid "The water washes off the acidic bile!"
-msgstr ""
+msgstr "A víz lemossa a savas epét!"
 
 #: src/avatar_action.cpp:640
 msgid "You sink like a rock!"
@@ -4385,7 +4387,7 @@ msgstr "Nem tudod annyira összeszedni magad, hogy bármit is elhajíthass."
 msgid "You aren't holding something you can throw."
 msgstr ""
 
-#: src/avatar_action.cpp:1143 src/character.cpp:3431 src/character.cpp:13363
+#: src/avatar_action.cpp:1143 src/character.cpp:3431 src/character.cpp:13364
 msgid "You can't use anything while incorporeal."
 msgstr ""
 
@@ -5230,7 +5232,7 @@ msgstr "A tárolási kapacitás %i egységgel növekedett."
 
 #: src/bionics.cpp:3052
 msgid "Stop power generation at"
-msgstr ""
+msgstr "Az energiatermelés leállítása, amikor eléri a következő szintet: "
 
 #: src/bionics.cpp:3053
 #, c-format
@@ -5463,11 +5465,11 @@ msgstr "BE"
 
 #: src/bionics_ui.cpp:344
 msgid "(incapacitated)"
-msgstr ""
+msgstr "(cselekvőképtelen)"
 
 #: src/bionics_ui.cpp:347
 msgid "(hidden)"
-msgstr ""
+msgstr "(rejtett)"
 
 #: src/bionics_ui.cpp:351
 #, c-format
@@ -5538,7 +5540,7 @@ msgstr ""
 
 #: src/bionics_ui.cpp:937
 msgid "Select action"
-msgstr ""
+msgstr "Művelet kiválasztása"
 
 #. ~ Item action name of "message"
 #. ~ Item action name of "ACIDBOMB_ACT"
@@ -5644,7 +5646,7 @@ msgstr "Hatások"
 
 #: src/bodygraph.cpp:539 src/options.cpp:1872
 msgid "Worn"
-msgstr ""
+msgstr "Wiselt"
 
 #: src/bodygraph.cpp:546
 msgid "Coverage"
@@ -6319,23 +6321,23 @@ msgstr "Mégse"
 msgid "OK"
 msgstr "OK"
 
-#: src/cata_tiles.cpp:5598
+#: src/cata_tiles.cpp:5600
 msgid "direct3d"
 msgstr "direct3d"
 
-#: src/cata_tiles.cpp:5600 src/options.cpp:2656
+#: src/cata_tiles.cpp:5602 src/options.cpp:2656
 msgid "software"
 msgstr "szoftver"
 
-#: src/cata_tiles.cpp:5601
+#: src/cata_tiles.cpp:5603
 msgid "opengl"
 msgstr "opengl"
 
-#: src/cata_tiles.cpp:5602
+#: src/cata_tiles.cpp:5604
 msgid "opengles2"
 msgstr "opengles2"
 
-#: src/cata_tiles.cpp:5628
+#: src/cata_tiles.cpp:5630
 msgid "Display 0"
 msgstr "Display 0"
 
@@ -6737,7 +6739,7 @@ msgstr ""
 msgid "You pour %1$s into the %2$s."
 msgstr "A(z) %1$s-t beöntöd ebbe: %2$s"
 
-#: src/character.cpp:6087 src/character.cpp:6106 src/veh_interact.cpp:3192
+#: src/character.cpp:6087 src/character.cpp:6106 src/veh_interact.cpp:3193
 msgid "There's some left over!"
 msgstr "Még maradt!"
 
@@ -6921,7 +6923,7 @@ msgstr[1] ""
 msgid "You cough heavily."
 msgstr "Erősen felköhögsz."
 
-#: src/character.cpp:7368 src/monster.cpp:3453 src/monster.cpp:3464
+#: src/character.cpp:7368 src/monster.cpp:3483 src/monster.cpp:3494
 msgid "a hacking cough."
 msgstr "krákogó köhögés."
 
@@ -7578,133 +7580,133 @@ msgstr ""
 msgid "Your soporific inducer starts back up."
 msgstr ""
 
-#: src/character.cpp:11722
+#: src/character.cpp:11723
 #, c-format
 msgid "You put the %s in your inventory."
 msgstr "A(z) %st a leltárodba rakod."
 
-#: src/character.cpp:11737
+#: src/character.cpp:11738
 #, c-format
 msgid "The %s is already empty!"
 msgstr "A(z) %s már üres!"
 
-#: src/character.cpp:11741
+#: src/character.cpp:11742
 msgid "The item can't be unloaded in its current state!"
 msgstr ""
 
-#: src/character.cpp:11795
+#: src/character.cpp:11796
 msgid "Unload what?"
 msgstr "Mit ürítesz ki?"
 
-#: src/character.cpp:11812 src/character.cpp:11820
+#: src/character.cpp:11813 src/character.cpp:11821
 #, c-format
 msgid "You can't unload a %s!"
 msgstr "A(z) %st nem lehet kiüríteni!"
 
-#: src/character.cpp:11818
+#: src/character.cpp:11819
 #, c-format
 msgid "You can't unload a rechargeable %s!"
 msgstr "Az újratölthető %st nem lehet kiüríteni!"
 
-#: src/character.cpp:11828
+#: src/character.cpp:11829
 #, c-format
 msgid "Your %s isn't charged."
 msgstr "A(z) %s nincs feltöltve."
 
-#: src/character.cpp:11830
+#: src/character.cpp:11831
 #, c-format
 msgid "Your %s isn't loaded."
 msgstr "A(z) %s nincs betárazva."
 
-#: src/character.cpp:12301
+#: src/character.cpp:12302
 #, c-format
 msgid "Your %s is not good reading material."
 msgstr "A(z) %s nem jó olvasnivaló."
 
-#: src/character.cpp:12303
+#: src/character.cpp:12304
 #, c-format
 msgid "The %s is not good reading material."
 msgstr ""
 
-#: src/character.cpp:12315
+#: src/character.cpp:12316
 msgid "It's a bad idea to read while driving!"
 msgstr "Vezetés közben nem jó ötlet olvasni!"
 
-#: src/character.cpp:12321 src/iuse_actor.cpp:2695
+#: src/character.cpp:12322 src/iuse_actor.cpp:2695
 msgid "What's the point of studying?  (Your morale is too low!)"
 msgstr "Mi értelme van bármit is tanulni? (Túl rossz a hangulatod!)"
 
-#: src/character.cpp:12322
+#: src/character.cpp:12323
 #, c-format
 msgid "What's the point of studying?  (%s)'s morale is too low!)"
 msgstr ""
 
-#: src/character.cpp:12326
+#: src/character.cpp:12327
 #, c-format
 msgid "%s %d needed to understand.  You have %d"
 msgstr ""
 "Megértéséhez a(z) %s készség %d. szintje szükséges, ez nálad jelenleg %d."
 
-#: src/character.cpp:12328 src/character.cpp:12371
+#: src/character.cpp:12329 src/character.cpp:12372
 #, c-format
 msgid "%s %d needed to understand.  %s has %d"
 msgstr ""
 "Megértéséhez a(z) %s készség %d. szintje szükséges, ez %sesetében jelenleg "
 "%d."
 
-#: src/character.cpp:12335 src/iuse.cpp:4189
+#: src/character.cpp:12336 src/iuse.cpp:4189
 msgid "You're illiterate!"
 msgstr "Analfabéta vagy!"
 
-#: src/character.cpp:12336 src/character.cpp:12368
+#: src/character.cpp:12337 src/character.cpp:12369
 #, c-format
 msgid "%s is illiterate!"
 msgstr "%s analfabéta!"
 
-#: src/character.cpp:12338
+#: src/character.cpp:12339
 msgid "Your eyes won't focus without reading glasses."
 msgstr "Olvasószemüveg nélkül a szemed nem tud fókuszálni."
 
-#: src/character.cpp:12339
+#: src/character.cpp:12340
 #, c-format
 msgid "%s's eyes won't focus without reading glasses."
 msgstr ""
 
-#: src/character.cpp:12357
+#: src/character.cpp:12358
 msgid "Maybe someone could read that to you, but you're deaf!"
 msgstr "Azt talán valaki fel tudná neked olvasni, de süket vagy!"
 
-#: src/character.cpp:12375
+#: src/character.cpp:12376
 #, c-format
 msgid "%s needs reading glasses!"
 msgstr "%s tulajdonában nincs olvasószemüveg!"
 
-#: src/character.cpp:12379
+#: src/character.cpp:12380
 #, c-format
 msgid "It's too dark for %s to read!"
 msgstr "Túl sötét van ahhoz, hogy %s olvasni tudjon!"
 
-#: src/character.cpp:12382
+#: src/character.cpp:12383
 #, c-format
 msgid "%s could read that to you, but they can't see you."
 msgstr "%s talán azt fel tudná neked olvasni, de nem lát téged."
 
-#: src/character.cpp:12386
+#: src/character.cpp:12387
 #, c-format
 msgid "%s morale is too low!"
 msgstr "%s hangulata túlságosan alacsony!"
 
-#: src/character.cpp:12388
+#: src/character.cpp:12389
 #, c-format
 msgid "%s is blind."
 msgstr "%s vak."
 
 #. ~ Label of UI widget "ll_weight_carried_value"
-#: src/character.cpp:12469 data/json/ui/sidebar-legacy-labels.json
+#: src/character.cpp:12470 data/json/ui/sidebar-legacy-labels.json
 msgid "Weight Carried"
 msgstr ""
 
-#: src/character.cpp:12471 src/medical_ui.cpp:552 src/newcharacter.cpp:1464
+#: src/character.cpp:12472 src/medical_ui.cpp:552 src/newcharacter.cpp:1464
 #: src/player_display.cpp:1596
 msgid "Dexterity"
 msgstr "Ügyesség"
@@ -7712,206 +7714,206 @@ msgstr "Ügyesség"
 #. ~ Label of UI widget "pain_num_label"
 #. ~ Label of UI widget "pain_num_no_label"
 #. ~ Label of UI widget "pain_desc_label"
-#: src/character.cpp:12473 src/distraction_manager.cpp:30
+#: src/character.cpp:12474 src/distraction_manager.cpp:30
 #: src/memorial_logger.cpp:352 src/player_display.cpp:1571
 #: data/json/ui/pain.json
 msgid "Pain"
 msgstr "Fájdalom"
 
 #. ~ Label of UI widget "thirst_desc_label"
-#: src/character.cpp:12476 src/debug_menu.cpp:1959
+#: src/character.cpp:12477 src/debug_menu.cpp:1959
 #: src/distraction_manager.cpp:39 data/json/ui/thirst.json
 msgid "Thirst"
 msgstr "Szomjúság"
 
 #. ~ Clause text "underweight" of UI widget "weight_desc_label"
-#: src/character.cpp:12479 src/display.cpp:672 data/json/ui/weight.json
+#: src/character.cpp:12480 src/display.cpp:672 data/json/ui/weight.json
 msgid "Underweight"
 msgstr " Sovány"
 
-#: src/character.cpp:12490
+#: src/character.cpp:12491
 msgid "Martial Art"
 msgstr ""
 
 #. ~ Mutation name
-#: src/character.cpp:12498 data/json/mutations/mutations.json
+#: src/character.cpp:12499 data/json/mutations/mutations.json
 msgid "Sunlight Dependent"
 msgstr "Napfényfüggő"
 
-#: src/character.cpp:12506
+#: src/character.cpp:12507
 msgid "Bio/Mut/Etc Effects"
 msgstr ""
 
-#: src/character.cpp:12510
+#: src/character.cpp:12511
 msgid "Penalty Cap"
 msgstr ""
 
-#: src/character.cpp:12846 src/character.cpp:12892
+#: src/character.cpp:12847 src/character.cpp:12893
 #, c-format
 msgid "You land on %s."
 msgstr ""
 
-#: src/character.cpp:12876
+#: src/character.cpp:12877
 #, c-format
 msgid "You are slammed against %1$s for %2$d damage."
 msgstr ""
 
-#: src/character.cpp:12879
+#: src/character.cpp:12880
 #, c-format
 msgid "You are slammed against %s!"
 msgstr ""
 
-#: src/character.cpp:12881
+#: src/character.cpp:12882
 msgid "…but your shock absorbers negate the damage!"
-msgstr ""
-
-#: src/character.cpp:12887
-#, c-format
-msgid "You are slammed against %s."
 msgstr ""
 
 #: src/character.cpp:12888
 #, c-format
+msgid "You are slammed against %s."
+msgstr ""
+
+#: src/character.cpp:12889
+#, c-format
 msgid "<npcname> is slammed against %s."
 msgstr ""
 
-#: src/character.cpp:12948 src/character.cpp:12977
+#: src/character.cpp:12949 src/character.cpp:12978
 #, c-format
 msgid "<npcname> bounces off a %s!"
 msgstr ""
 
-#: src/character.cpp:12948 src/character.cpp:12977
+#: src/character.cpp:12949 src/character.cpp:12978
 #, c-format
 msgid "You bounce off a %s!"
 msgstr ""
 
-#: src/character.cpp:12958
+#: src/character.cpp:12959
 #, c-format
 msgid "<npcname> bounces off %s!"
 msgstr ""
 
-#: src/character.cpp:12958
+#: src/character.cpp:12959
 #, c-format
 msgid "You bounce off %s!"
 msgstr ""
 
-#: src/character.cpp:13020
+#: src/character.cpp:13021
 #, c-format
 msgid "%s spilled from your hand."
 msgstr ""
 
-#: src/character.cpp:13114
+#: src/character.cpp:13115
 #, c-format
 msgid "Your ground sonar detected a %1$s to the %2$s!"
 msgstr ""
 
-#: src/character.cpp:13135 src/vehicle_move.cpp:1302
+#: src/character.cpp:13136 src/vehicle_move.cpp:1302
 #, c-format
 msgid "You've spotted a %1$s to the %2$s!"
 msgstr "Egy %1$st látsz %2$s felé!"
 
-#: src/character.cpp:13161
+#: src/character.cpp:13162
 msgid "You need to put the bag away before trying to wield something from it."
 msgstr ""
 
-#: src/character.cpp:13238
+#: src/character.cpp:13239
 msgid "No item."
 msgstr ""
 
-#: src/character.cpp:13372 src/consumption.cpp:1907
+#: src/character.cpp:13373 src/consumption.cpp:1907
 msgid "You do not have that item."
 msgstr ""
 
-#: src/character.cpp:13382 src/character.cpp:13437 src/iuse.cpp:9225
+#: src/character.cpp:13383 src/character.cpp:13438 src/iuse.cpp:9225
 #, c-format
 msgid "You can't do anything interesting with your %s."
 msgstr "Ezzel semmi érdekeset nem tudsz csinálni: %s."
 
-#: src/character.cpp:13395
+#: src/character.cpp:13396
 msgid "Your biology is not compatible with that healing item."
 msgstr ""
 
-#: src/character.cpp:13435
+#: src/character.cpp:13436
 msgid "You are not wielding anything you could use."
 msgstr ""
 
-#: src/character.cpp:13581
+#: src/character.cpp:13582
 msgid "You roll on the ground, trying to smother the fire!"
 msgstr "A földön fetrengve próbálod kioltani a lángokat!"
 
-#: src/character.cpp:13582
+#: src/character.cpp:13583
 msgid "<npcname> rolls on the ground!"
 msgstr "<npcname> a földön fetreng!"
 
-#: src/character.cpp:13585
+#: src/character.cpp:13586
 msgid "You attempt to put out the fire on you!"
 msgstr "Megpróbálod kioltani magadon a tüzet!"
 
-#: src/character.cpp:13586
+#: src/character.cpp:13587
 msgid "<npcname> attempts to put out the fire on them!"
 msgstr "<npcname> megpróbálja kioltani magán a tüzet."
 
-#: src/character.cpp:13599
+#: src/character.cpp:13600
 msgid ""
 "Your broken limb significantly hampers your efforts to put pressure on a "
 "bleeding wound!"
 msgstr ""
 
-#: src/character.cpp:13600
+#: src/character.cpp:13601
 msgid ""
 "<npcname>'s broken limb significantly hampers their effort to put pressure "
 "on a bleeding wound!"
 msgstr ""
 
-#: src/character.cpp:13603
+#: src/character.cpp:13604
 msgid ""
 "Your hands are too encumbered to effectively put pressure on a bleeding "
 "wound!"
 msgstr ""
 
-#: src/character.cpp:13604
+#: src/character.cpp:13605
 msgid ""
 "<npcname>'s hands are too encumbered to effectively put pressure on a "
 "bleeding wound!"
 msgstr ""
 
-#: src/character.cpp:13610
+#: src/character.cpp:13611
 msgid ""
 "Your bleeding is beyond staunching barehanded!  A tourniquet might help."
 msgstr ""
 
-#: src/character.cpp:13611
+#: src/character.cpp:13612
 msgid "<npcname>'s bleeding is beyond staunching barehanded!"
 msgstr ""
 
-#: src/character.cpp:13618
+#: src/character.cpp:13619
 msgid "You put pressure on the bleeding wound…"
 msgstr ""
 
-#: src/character.cpp:13619
+#: src/character.cpp:13620
 msgid "<npcname> puts pressure on the bleeding wound…"
 msgstr ""
 
-#: src/character.cpp:13713 src/newcharacter.cpp:406
+#: src/character.cpp:13714 src/newcharacter.cpp:406
 msgid "Select a style.\n"
 msgstr ""
 
-#: src/character.cpp:13714 src/newcharacter.cpp:407
+#: src/character.cpp:13715 src/newcharacter.cpp:407
 #, c-format
 msgid ""
 "STR: <color_white>%d</color>, DEX: <color_white>%d</color>, PER: <color_white>%d</color>, INT: <color_white>%d</color>\n"
 "Press [<color_yellow>%s</color>] for technique details and compatible weapons.\n"
 msgstr ""
 
-#: src/character.cpp:13725
+#: src/character.cpp:13726
 msgid "Keep hands free (off)"
 msgstr "A kéz maradjon üresen (ki)"
 
-#: src/character.cpp:13725
+#: src/character.cpp:13726
 msgid "Keep hands free (on)"
 msgstr "A kéz maradjon üresen (be)"
 
-#: src/character.cpp:13726
+#: src/character.cpp:13727
 msgid ""
 "When this is enabled, player won't wield things unless explicitly told to."
 msgstr ""
@@ -7963,7 +7965,7 @@ msgstr ""
 
 #. ~ Damage adjective of material
 #: src/character_armor.cpp:363 src/character_attire.cpp:1947
-#: src/veh_interact.cpp:2948 data/json/materials.json
+#: src/veh_interact.cpp:2949 data/json/materials.json
 #: data/mods/MindOverMatter/materials.json
 msgid "destroyed"
 msgstr "tönkrement"
@@ -8474,7 +8476,7 @@ msgstr ""
 msgid "<npcname> stands up."
 msgstr "<npcname> feláll."
 
-#: src/character_escape.cpp:111 src/monster.cpp:2571
+#: src/character_escape.cpp:111 src/monster.cpp:2601
 #, c-format
 msgid "The %s escapes the bear trap!"
 msgstr "A(z) %s kiszabadítja magát a medvecsapdából!"
@@ -8496,7 +8498,7 @@ msgstr "<npcname> kiszabadítja magát a medvecsapdából!"
 msgid "You try to free yourself from the bear trap, but can't get loose!"
 msgstr "Megpróbálod magadat kiszabadítani a medvecsapdából, de nem sikerül!"
 
-#: src/character_escape.cpp:137 src/monster.cpp:2547
+#: src/character_escape.cpp:137 src/monster.cpp:2577
 #, c-format
 msgid "The %s escapes the light snare!"
 msgstr "A(z) %s kiszabadítja magát a könnyű csapdából!"
@@ -8513,7 +8515,7 @@ msgstr "<npcname> kiszabadítja magát a könnyű csapdából!"
 msgid "You try to free yourself from the light snare, but can't get loose!"
 msgstr "Megpróbálod magadat kiszabadítani a könnyű csapdából, de nem sikerül!"
 
-#: src/character_escape.cpp:162 src/monster.cpp:2559
+#: src/character_escape.cpp:162 src/monster.cpp:2589
 #, c-format
 msgid "The %s escapes the heavy snare!"
 msgstr "A(z) %s kiszabadítja magát a nehéz csapdából!"
@@ -8588,7 +8590,7 @@ msgstr ""
 msgid "<npcname> tries to break out of the grab, but fails!"
 msgstr "<npcname> megpróbál kitörni a megragadó szorításból, de nem tud!"
 
-#: src/character_escape.cpp:348 src/monster.cpp:2537
+#: src/character_escape.cpp:348 src/monster.cpp:2567
 #, c-format
 msgid "The %s breaks free of the webs!"
 msgstr "%s kiszabadítja magát a hálóból!"
@@ -9846,7 +9848,7 @@ msgstr "Keres"
 
 #. ~ Key binding name
 #. ~ Construction category name
-#: src/construction.cpp:1019 src/veh_interact.cpp:1031
+#: src/construction.cpp:1019 src/veh_interact.cpp:1032
 #: data/json/construction_category.json data/raw/keybindings.json
 msgid "Filter"
 msgstr "Szűrő"
@@ -9927,7 +9929,7 @@ msgid ""
 msgstr ""
 "Sajnos nincsen nálad semmi hegyes tárgy, hogy a sírra bármit is karcolhass."
 
-#: src/construction.cpp:1698 src/veh_interact.cpp:2041
+#: src/construction.cpp:1698 src/veh_interact.cpp:2042
 msgid "Enter new vehicle name:"
 msgstr "Add meg az új jármű nevét:"
 
@@ -10915,7 +10917,7 @@ msgid "%1s disassembles the %2s into its components."
 msgstr ""
 
 #. ~ %1$d: quantity destroyed, %2$s: pluralized name of destroyed item
-#: src/crafting.cpp:2987 src/veh_interact.cpp:3293
+#: src/crafting.cpp:2987 src/veh_interact.cpp:3294
 #, c-format
 msgid "You fail to recover %1$d %2$s."
 msgstr ""
@@ -11862,9 +11864,9 @@ msgid "%s stumbles into you!"
 msgstr ""
 
 #: src/creature.cpp:1598 src/mattack_actors.cpp:488 src/mattack_actors.cpp:722
-#: src/mattack_actors.cpp:978 src/monster.cpp:2204 src/monster.cpp:2211
-#: src/monster.cpp:2231 src/monster.cpp:2241 src/monster.cpp:2274
-#: src/monster.cpp:2281 src/monster.cpp:2290
+#: src/mattack_actors.cpp:978 src/monster.cpp:2234 src/monster.cpp:2241
+#: src/monster.cpp:2261 src/monster.cpp:2271 src/monster.cpp:2304
+#: src/monster.cpp:2311 src/monster.cpp:2320
 msgid "Something"
 msgstr "Valami"
 
@@ -15057,7 +15059,7 @@ msgstr "%i. SZINT, %d'%d, %d'%d"
 msgid "Underground"
 msgstr "Föld alatt"
 
-#: src/distraction_manager.cpp:29 src/veh_interact.cpp:2832
+#: src/distraction_manager.cpp:29 src/veh_interact.cpp:2833
 msgid "Noise"
 msgstr "Zaj"
 
@@ -16340,7 +16342,7 @@ msgstr "Kezelési távolságon belül"
 msgid "Press enter to recall from their mission."
 msgstr ""
 
-#: src/faction.cpp:815 src/veh_interact.cpp:2529 src/veh_interact.cpp:2530
+#: src/faction.cpp:815 src/veh_interact.cpp:2530 src/veh_interact.cpp:2531
 msgid "Status: "
 msgstr "Állapot: "
 
@@ -18651,7 +18653,7 @@ msgstr "%s beléd ütközött, és lepattantál róla!"
 msgid "The %s drowns!"
 msgstr "A(z) %s megfullad!"
 
-#: src/game.cpp:5014 src/monmove.cpp:2385
+#: src/game.cpp:5014 src/monmove.cpp:2386
 #, c-format
 msgid "The %s flops around and dies!"
 msgstr "A(z) %s rángatózva dobálja magát, majd meghal!"
@@ -19681,8 +19683,8 @@ msgstr ""
 "múlt."
 
 #: src/game.cpp:10315 src/iuse.cpp:3143 src/iuse.cpp:4742 src/iuse.cpp:4787
-#: src/iuse.cpp:8457 src/iuse.cpp:8682 src/veh_interact.cpp:1248
-#: src/veh_interact.cpp:1886
+#: src/iuse.cpp:8457 src/iuse.cpp:8682 src/veh_interact.cpp:1249
+#: src/veh_interact.cpp:1887
 #, c-format
 msgid "%s helps with this task…"
 msgstr "%s segít a feladattal..."
@@ -21611,7 +21613,7 @@ msgid "PRICE"
 msgstr "ÁR"
 
 #: src/game_inventory.cpp:2954 src/mod_manager.cpp:95
-#: src/npctalk_rules.cpp:310 src/veh_interact.cpp:1975
+#: src/npctalk_rules.cpp:310 src/veh_interact.cpp:1976
 msgid "Default"
 msgstr "Alap"
 
@@ -21659,7 +21661,7 @@ msgid "PIERCE"
 msgstr ""
 
 #: src/game_inventory.cpp:3136 src/veh_appliance.cpp:425
-#: src/veh_interact.cpp:1337
+#: src/veh_interact.cpp:1338
 #, c-format
 msgid "Refill %s"
 msgstr "%s újratöltése"
@@ -30017,7 +30019,7 @@ msgstr " (%s kör)"
 msgid " (dirty)"
 msgstr " (koszos)"
 
-#: src/item_tname.cpp:361 src/veh_interact.cpp:1462
+#: src/item_tname.cpp:361 src/veh_interact.cpp:1463
 msgid " (rotten)"
 msgstr " (rohadt)"
 
@@ -30045,7 +30047,7 @@ msgstr " (forró)"
 msgid " (cold)"
 msgstr " (hideg)"
 
-#: src/item_tname.cpp:396 src/veh_interact.cpp:1460
+#: src/item_tname.cpp:396 src/veh_interact.cpp:1461
 msgid " (frozen)"
 msgstr " (fagyott)"
 
@@ -33699,7 +33701,7 @@ msgstr "<bold>Átalakítható ezzé</bold>: "
 msgid "%s (%d %s)"
 msgstr "%s (%d %s)"
 
-#: src/iuse_actor.cpp:517 src/medical_ui.cpp:232 src/veh_interact.cpp:2637
+#: src/iuse_actor.cpp:517 src/medical_ui.cpp:232 src/veh_interact.cpp:2638
 #: src/vehicle.cpp:2861
 #, c-format
 msgid "%s (%s)"
@@ -36024,7 +36026,7 @@ msgstr ""
 msgid "Only affects the monsters: %s"
 msgstr ""
 
-#: src/magic.cpp:3004 src/magic.cpp:3439 src/veh_interact.cpp:2836
+#: src/magic.cpp:3004 src/magic.cpp:3439 src/veh_interact.cpp:2837
 msgid "Range"
 msgstr "Hatótáv"
 
@@ -36044,7 +36046,7 @@ msgid ", %d/sec"
 msgstr ""
 
 #: src/magic.cpp:3044 src/magic.cpp:3099 src/magic.cpp:3386
-#: src/veh_interact.cpp:2802
+#: src/veh_interact.cpp:2803
 msgid "Damage"
 msgstr "Sebzéspont"
 
@@ -37149,27 +37151,27 @@ msgstr ""
 msgid "You could harvest the following things from it:"
 msgstr "Az alábbi dolgokat lehetne betakarítani:"
 
-#: src/mapgen.cpp:4779
+#: src/mapgen.cpp:4739
 msgid "Viewing all palettes"
 msgstr ""
 
-#: src/mapgen.cpp:7013
+#: src/mapgen.cpp:6970
 msgid "Sub-prime contact console"
 msgstr "Subprime kapcsolati konzol"
 
-#: src/mapgen.cpp:7015
+#: src/mapgen.cpp:6972
 msgid "Terminate Specimens"
 msgstr "Kísérleti alanyok kivégezve."
 
-#: src/mapgen.cpp:7016
+#: src/mapgen.cpp:6973
 msgid "Release Specimens"
 msgstr "Kísérleti alanyok kiengedése"
 
-#: src/mapgen.cpp:7018
+#: src/mapgen.cpp:6975
 msgid "Toggle Portal"
 msgstr "Portál ki/be"
 
-#: src/mapgen.cpp:7019
+#: src/mapgen.cpp:6976
 msgid "Activate Resonance Cascade"
 msgstr "Rezonancia kaszkád aktiválása"
 
@@ -37192,8 +37194,8 @@ msgstr "Rezonancia kaszkád aktiválása"
 #. on map microlab_DinoLab
 #. ~ Access denied message on computer "Missile Controls" placed on map
 #. silo_finale
-#: src/mapgen.cpp:7023 src/mapgen.cpp:7074 src/mapgen.cpp:8142
-#: src/mapgen.cpp:8161 src/mapgen.cpp:8181 src/mapgen.cpp:8200
+#: src/mapgen.cpp:6980 src/mapgen.cpp:7031 src/mapgen.cpp:8099
+#: src/mapgen.cpp:8118 src/mapgen.cpp:8138 src/mapgen.cpp:8157
 #: data/json/mapgen/lab/lab_floorplans_finale1level.json
 #: data/json/mapgen/microlab/microlab_special_tiles.json
 #: data/mods/DinoMod/mapgen/microlab_DinoLab.json
@@ -37203,46 +37205,46 @@ msgid ""
 "ERROR!  Access denied!  Unauthorized access will be met with lethal force!"
 msgstr ""
 
-#: src/mapgen.cpp:7068 src/mapgen.cpp:8136 src/mapgen.cpp:8155
-#: src/mapgen.cpp:8175 src/mapgen.cpp:8194
+#: src/mapgen.cpp:7025 src/mapgen.cpp:8093 src/mapgen.cpp:8112
+#: src/mapgen.cpp:8132 src/mapgen.cpp:8151
 msgid "Bionic access"
 msgstr "Bionikus hozzáférés"
 
 #. ~ Interactive menu name in computer "Surgery room computer" placed on map
 #. ~ Interactive menu name in computer "Dinosaur surgery room computer" placed
 #. on map microlab_DinoLab
-#: src/mapgen.cpp:7069 src/mapgen.cpp:8137 src/mapgen.cpp:8156
-#: src/mapgen.cpp:8176 src/mapgen.cpp:8195
+#: src/mapgen.cpp:7026 src/mapgen.cpp:8094 src/mapgen.cpp:8113
+#: src/mapgen.cpp:8133 src/mapgen.cpp:8152
 #: data/json/mapgen/microlab/microlab_special_tiles.json
 #: data/mods/DinoMod/mapgen/microlab_DinoLab.json
 #: data/mods/No_Hope/Mapgen/nested/microlab_special_tiles.json
 msgid "Manifest"
 msgstr "Szállítólevél"
 
-#: src/mapgen.cpp:7070 src/mapgen.cpp:8138 src/mapgen.cpp:8157
-#: src/mapgen.cpp:8177 src/mapgen.cpp:8196
+#: src/mapgen.cpp:7027 src/mapgen.cpp:8095 src/mapgen.cpp:8114
+#: src/mapgen.cpp:8134 src/mapgen.cpp:8153
 msgid "Open Chambers"
 msgstr "Kamranyitás"
 
 #. ~ Computer name placed on map
-#: src/mapgen.cpp:7960 src/mapgen.cpp:7977
+#: src/mapgen.cpp:7917 src/mapgen.cpp:7934
 #: data/json/mapgen/lab/lab_modular/lab_nests_modular/lab_nested_security.json
 msgid "Log Console"
 msgstr "Naplózási konzol"
 
 #. ~ Interactive menu name in computer "Log Console" placed on map
-#: src/mapgen.cpp:7961 src/mapgen.cpp:7978
+#: src/mapgen.cpp:7918 src/mapgen.cpp:7935
 #: data/json/mapgen/lab/lab_modular/lab_nests_modular/lab_nested_security.json
 msgid "View Research Logs"
 msgstr "Kutatási naplók áttekintése"
 
 #. ~ Interactive menu name in computer "Log Console" placed on map
-#: src/mapgen.cpp:7962 src/mapgen.cpp:7979
+#: src/mapgen.cpp:7919 src/mapgen.cpp:7936
 #: data/json/mapgen/lab/lab_modular/lab_nests_modular/lab_nested_security.json
 msgid "Download Map Data"
 msgstr "Térképadatok letöltése"
 
-#: src/mapgen.cpp:8535
+#: src/mapgen.cpp:8492
 msgid "invalid position (not vehicle/appliance)"
 msgstr ""
 
@@ -37984,7 +37986,7 @@ msgstr ""
 "\n"
 
 #: src/medical_ui.cpp:550 src/newcharacter.cpp:1464
-#: src/player_display.cpp:1594 src/veh_interact.cpp:2830
+#: src/player_display.cpp:1594 src/veh_interact.cpp:2831
 msgid "Strength"
 msgstr "Erő"
 
@@ -38977,13 +38979,13 @@ msgstr "Története a játékban"
 #, c-format
 msgctxt "memorial_male"
 msgid "Activated the %s."
-msgstr ""
+msgstr "Aktiválta a %s-t."
 
 #: src/memorial_logger.cpp:447
 #, c-format
 msgctxt "memorial_female"
 msgid "Activated the %s."
-msgstr ""
+msgstr "Aktiválta a %s-t."
 
 #: src/memorial_logger.cpp:455
 msgctxt "memorial_male"
@@ -39008,12 +39010,12 @@ msgstr "Mutagént fogyasztott."
 #: src/memorial_logger.cpp:470
 msgctxt "memorial_male"
 msgid "Injected mutagen."
-msgstr ""
+msgstr "Mutagént fecskendezett be"
 
 #: src/memorial_logger.cpp:471
 msgctxt "memorial_female"
 msgid "Injected mutagen."
-msgstr ""
+msgstr "Mutagént fecskendezett be"
 
 #: src/memorial_logger.cpp:474
 msgctxt "memorial_male"
@@ -39058,12 +39060,12 @@ msgstr ""
 #: src/memorial_logger.cpp:497
 msgctxt "memorial_female"
 msgid "Died"
-msgstr ""
+msgstr "Meghalt"
 
 #: src/memorial_logger.cpp:497
 msgctxt "memorial_male"
 msgid "Died"
-msgstr ""
+msgstr "Meghalt"
 
 #: src/memorial_logger.cpp:501
 msgctxt "memorial_male"
@@ -39894,7 +39896,7 @@ msgstr "rossz"
 #: src/messages.cpp:501
 msgctxt "message type"
 msgid "mixed"
-msgstr ""
+msgstr "kevert"
 
 #: src/messages.cpp:502
 msgctxt "message type"
@@ -39904,12 +39906,12 @@ msgstr ""
 #: src/messages.cpp:503
 msgctxt "message type"
 msgid "info"
-msgstr ""
+msgstr "infó"
 
 #: src/messages.cpp:504
 msgctxt "message type"
 msgid "neutral"
-msgstr ""
+msgstr "semleges"
 
 #: src/messages.cpp:505
 msgctxt "message type"
@@ -42182,7 +42184,7 @@ msgstr ""
 msgid "DOOT."
 msgstr ""
 
-#: src/mondeath.cpp:54 src/monstergenerator.cpp:1835
+#: src/mondeath.cpp:54 src/monstergenerator.cpp:1875
 #, c-format
 msgid "The %s dies!"
 msgstr "A(z) %s meghal!"
@@ -42683,65 +42685,65 @@ msgid ""
 "needs immediate care.\""
 msgstr ""
 
-#: src/monmove.cpp:1985
+#: src/monmove.cpp:1986
 #, c-format
 msgid "A %1$s flies over the %2$s!"
 msgstr ""
 
 #. ~ Message when a monster emerges from water
 #. ~ %1$s: monster name, %2$s: leaps/emerges, %3$s: terrain name
-#: src/monmove.cpp:1993
+#: src/monmove.cpp:1994
 #, c-format
 msgctxt "monster movement"
 msgid "A %1$s %2$s from the %3$s!"
 msgstr "Egy %1$s %2$s a %3$sből!"
 
-#: src/monmove.cpp:1995
+#: src/monmove.cpp:1996
 msgid "emerges"
 msgstr "emelkedik ki"
 
-#: src/monmove.cpp:1995
+#: src/monmove.cpp:1996
 msgid "leaps"
 msgstr "ugrik ki"
 
 #. ~ Message when a monster enters water
 #. ~ %1$s: monster name, %2$s: dives/sinks, %3$s: terrain name
-#: src/monmove.cpp:2000
+#: src/monmove.cpp:2001
 #, c-format
 msgctxt "monster movement"
 msgid "A %1$s %2$s into the %3$s!"
 msgstr "Egy %1$s %2$s a %3$sbe!"
 
-#: src/monmove.cpp:2002
+#: src/monmove.cpp:2003
 msgid "dives"
 msgstr "ugrik fejest"
 
-#: src/monmove.cpp:2002
+#: src/monmove.cpp:2003
 msgid "sinks"
 msgstr "merül bele"
 
-#: src/monmove.cpp:2265
+#: src/monmove.cpp:2266
 #, c-format
 msgid "The %1$s tramples %2$s."
 msgstr ""
 
-#: src/monmove.cpp:2360
+#: src/monmove.cpp:2361
 #, c-format
 msgid "The %1$s bounces off a %2$s!"
 msgstr ""
 
-#: src/monmove.cpp:2372
+#: src/monmove.cpp:2373
 #, c-format
 msgid "The %1$s bounces off %2$s!"
 msgstr ""
 
-#: src/monmove.cpp:2395
+#: src/monmove.cpp:2396
 #, c-format
 msgid "The %1$s bounces off a %2$s and takes %3$d damage."
 msgstr ""
 
 #. ~ %1$s - monster name, %2$s - vehicle name
-#: src/monmove.cpp:2530
+#: src/monmove.cpp:2531
 #, c-format
 msgid "%1$s shoves %2$s out of their way!"
 msgstr ""
@@ -43105,84 +43107,84 @@ msgstr ""
 msgid "Lifespan end time: %1$d (turns left %2$d)"
 msgstr ""
 
-#: src/monster.cpp:1653
+#: src/monster.cpp:1663
 #, c-format
 msgid "%1$s saw the %2$s being stolen!"
 msgstr ""
 
-#: src/monster.cpp:2204
+#: src/monster.cpp:2234
 #, c-format
 msgid "%s misses you."
 msgstr ""
 
-#: src/monster.cpp:2206
+#: src/monster.cpp:2236
 #, c-format
 msgid "You dodge %s."
 msgstr "Kitérsz %s elől."
 
-#: src/monster.cpp:2206 src/monster.cpp:2214
+#: src/monster.cpp:2236 src/monster.cpp:2244
 msgid "something"
 msgstr ""
 
-#: src/monster.cpp:2210
+#: src/monster.cpp:2240
 #, c-format
 msgid "%1$s misses %2$s!"
 msgstr ""
 
-#: src/monster.cpp:2213
+#: src/monster.cpp:2243
 #, c-format
 msgid "%1$s dodges %2$s attack."
 msgstr "%1$s kitér a(z) %2$s támadása elől."
 
-#: src/monster.cpp:2218
+#: src/monster.cpp:2248
 msgid "You dodge an attack from an unseen source."
 msgstr "Kitérsz egy ismeretlen helyről érkezett támadás elől."
 
 #. ~ 1$s is attacker name, 2$s is bodypart name in accusative.
-#: src/monster.cpp:2231
+#: src/monster.cpp:2261
 #, c-format
 msgid "%1$s hits your %2$s."
 msgstr ""
 
 #. ~ %1$s: name of your mount, %2$s: target NPC name, %3$d: damage value
 #. ~ %1$s: name of your mount, %2$s: target creature name, %3$d: damage value
-#: src/monster.cpp:2237 src/monster.cpp:2249
+#: src/monster.cpp:2267 src/monster.cpp:2279
 #, c-format
 msgid "Your %1$s hits %2$s for %3$d damage!"
 msgstr "A(z) %1$s eltalálja a(z) %2$st és %3$d sebzés okoz!"
 
 #. ~ %1$s: attacker name, %2$s: target NPC name, %3$s: bodypart name in
 #. accusative
-#: src/monster.cpp:2241
+#: src/monster.cpp:2271
 #, c-format
 msgid "%1$s hits %2$s %3$s."
 msgstr ""
 
-#: src/monster.cpp:2254
+#: src/monster.cpp:2284
 #, c-format
 msgid "Something hits the %1$s!"
 msgstr ""
 
-#: src/monster.cpp:2256
+#: src/monster.cpp:2286
 #, c-format
 msgid "The %1$s hits something!"
 msgstr ""
 
 #. ~ %1$s: attacker name, %2$s: target creature name
-#: src/monster.cpp:2259
+#: src/monster.cpp:2289
 #, c-format
 msgid "The %1$s hits %2$s!"
 msgstr "A(z) %1$s eltalálja a(z) %2$st!"
 
 #. ~ %s is bodypart name in accusative.
-#: src/monster.cpp:2265
+#: src/monster.cpp:2295
 #, c-format
 msgid "Something hits your %s."
 msgstr "Valami eltalálja a %s."
 
 #. ~ 1$s is attacker name, 2$s is bodypart name in accusative, 3$s is armor
 #. name
-#: src/monster.cpp:2273
+#: src/monster.cpp:2303
 #, c-format
 msgid "%1$s hits your %2$s, but your %3$s protects you."
 msgstr ""
@@ -43191,174 +43193,174 @@ msgstr ""
 #. ~ $3s is target bodypart name in accusative, $4s is the monster target
 #. name,
 #. ~ 5$s is target armor name.
-#: src/monster.cpp:2280
+#: src/monster.cpp:2310
 #, c-format
 msgid "%1$s hits %2$s %3$s but is stopped by %4$s %5$s."
 msgstr ""
 
 #. ~ $1s is monster name, %2$s is that monster target name,
 #. ~ $3s is target armor name.
-#: src/monster.cpp:2289
+#: src/monster.cpp:2319
 #, c-format
 msgid "%1$s hits %2$s but is stopped by its %3$s."
 msgstr ""
 
 #. ~ 1$s is bodypart name in accusative, 2$s is armor name.
-#: src/monster.cpp:2296
+#: src/monster.cpp:2326
 #, c-format
 msgid "Something hits your %1$s, but your %2$s protects you."
 msgstr "Valami eltalálja a %1$s, de a(z) %2$s megvéd."
 
-#: src/monster.cpp:2332
+#: src/monster.cpp:2362
 msgid "You're envenomed!"
 msgstr "Megmérgeztek!"
 
-#: src/monster.cpp:2338
+#: src/monster.cpp:2368
 msgid "You feel venom flood your body, wracking you with pain…"
 msgstr ""
 "Érzed, ahogyan a méreg szétterjed a testedben, amely fájdalomba rándul..."
 
-#: src/monster.cpp:2343
+#: src/monster.cpp:2373
 msgid "You feel venom enter your body!"
 msgstr "Érzed, ahogyan a méreg szétterül a testedben!"
 
-#: src/monster.cpp:2490
+#: src/monster.cpp:2520
 #, c-format
 msgid "The %s struggles to break free of its bonds."
 msgstr ""
 
-#: src/monster.cpp:2496
+#: src/monster.cpp:2526
 #, c-format
 msgid "The %s easily slips out of its bonds."
 msgstr ""
 
-#: src/monster.cpp:2511
+#: src/monster.cpp:2541
 #, c-format
 msgid "The %s snaps the bindings holding it down."
 msgstr ""
 
-#: src/monster.cpp:2513
+#: src/monster.cpp:2543
 #, c-format
 msgid "The %s breaks free of the bindings holding it down."
 msgstr ""
 
-#: src/monster.cpp:2524
+#: src/monster.cpp:2554
 #, c-format
 msgid "The %s struggles to stand."
 msgstr ""
 
-#: src/monster.cpp:2528
+#: src/monster.cpp:2558
 #, c-format
 msgid "The %s climbs to its feet!"
 msgstr "A %s lábra áll!"
 
-#: src/monster.cpp:2581
+#: src/monster.cpp:2611
 #, c-format
 msgid "The %s frees itself from the rubble!"
 msgstr "A %s kiszabadul a törmelékből!"
 
-#: src/monster.cpp:2597
+#: src/monster.cpp:2627
 #, c-format
 msgid "The %s escapes the pit!"
 msgstr "A %s kiszabadul a gödörből!"
 
-#: src/monster.cpp:2628
+#: src/monster.cpp:2658
 #, c-format
 msgid "The %s is no longer grabbed!"
 msgstr ""
 
-#: src/monster.cpp:2640
+#: src/monster.cpp:2670
 #, c-format
 msgid "The %s breaks free from the %s's grab!"
 msgstr ""
 
-#: src/monster.cpp:2961
+#: src/monster.cpp:2991
 msgid "hummmmm."
 msgstr ""
 
-#: src/monster.cpp:2971
+#: src/monster.cpp:3001
 msgid "fwoosh!"
 msgstr ""
 
-#: src/monster.cpp:2982
+#: src/monster.cpp:3012
 #, c-format
 msgid "The %s explodes in a fiery inferno!"
 msgstr ""
 
-#: src/monster.cpp:2985
+#: src/monster.cpp:3015
 #, c-format
 msgid "Lightning from %1$s engulfs the %2$s!"
 msgstr ""
 
-#: src/monster.cpp:2994
+#: src/monster.cpp:3024
 msgid "BOOOOOOOM!!!"
 msgstr ""
 
-#: src/monster.cpp:2996
+#: src/monster.cpp:3026
 msgid "vrrrRRRUUMMMMMMMM!"
 msgstr ""
 
-#: src/monster.cpp:3001
+#: src/monster.cpp:3031
 #, c-format
 msgid "Lightning strikes the %s!"
 msgstr ""
 
-#: src/monster.cpp:3002
+#: src/monster.cpp:3032
 msgid "Your vision goes white!"
 msgstr ""
 
-#: src/monster.cpp:3007
+#: src/monster.cpp:3037
 msgid "VMMMMMMMMM!"
 msgstr ""
 
-#: src/monster.cpp:3069
+#: src/monster.cpp:3099
 msgid "The last enemy holding you collapses!"
 msgstr ""
 
-#: src/monster.cpp:3070
+#: src/monster.cpp:3100
 msgid "The last enemy holding <npcname> collapses!"
 msgstr ""
 
-#: src/monster.cpp:3266
+#: src/monster.cpp:3296
 #, c-format
 msgid "Your %s emits a beeping noise as its batteries start to get low."
 msgstr ""
 
-#: src/monster.cpp:3527
+#: src/monster.cpp:3557
 #, c-format
 msgid "The %s is visibly regenerating!"
 msgstr "A %s láthatóan regenerálódik!"
 
-#: src/monster.cpp:3529
+#: src/monster.cpp:3559
 #, c-format
 msgid "The %s seems a little healthier."
 msgstr "A %s egy kicsit egészségesebbnek tűnik."
 
-#: src/monster.cpp:3531
+#: src/monster.cpp:3561
 #, c-format
 msgid "The %s is healing slowly."
 msgstr ""
 
-#: src/monster.cpp:3541
+#: src/monster.cpp:3571
 #, c-format
 msgid "The %s uses the darkness to regenerate."
 msgstr ""
 
-#: src/monster.cpp:3608
+#: src/monster.cpp:3638
 msgid "The shadow withers in the light!"
 msgstr ""
 
-#: src/monster.cpp:3614
+#: src/monster.cpp:3644
 #, c-format
 msgid "The %s burns horribly in the sunlight!"
 msgstr "A %s szörnyen megég a napfényen!"
 
-#: src/monster.cpp:3652
+#: src/monster.cpp:3682
 #, c-format
 msgid "The spores transform %1$s into a %2$s!"
 msgstr ""
 
-#: src/monstergenerator.cpp:1298 src/mtype.cpp:529
+#: src/monstergenerator.cpp:1338 src/mtype.cpp:529
 msgid "footsteps."
 msgstr ""
 
@@ -47230,11 +47232,11 @@ msgstr ""
 
 #: src/options.cpp:1779
 msgid "Measurement units"
-msgstr ""
+msgstr "Mértékegységek"
 
 #: src/options.cpp:1780
 msgid "Options regarding measurement units."
-msgstr ""
+msgstr "A mértékegységekre vonatkozó lehetőségek."
 
 #: src/options.cpp:1782
 msgid "Temperature units"
@@ -47242,7 +47244,7 @@ msgstr "Hőmérséklet mértékegysége"
 
 #: src/options.cpp:1783
 msgid "Switch between Fahrenheit, Celsius, and Kelvin."
-msgstr ""
+msgstr "Váltás Fahrenheit, Celsius és Kelvin között."
 
 #: src/options.cpp:1784
 msgid "Celsius"
@@ -47262,7 +47264,7 @@ msgstr "Sebesség mértékegysége"
 
 #: src/options.cpp:1789
 msgid "Switch between mph, km/h, and tiles/turn."
-msgstr ""
+msgstr "Váltás mérföld/óra (mph), kilométer/óra (km/h) és mező/kör között."
 
 #: src/options.cpp:1790
 msgid "tiles/turn"
@@ -47274,7 +47276,7 @@ msgstr "Tömeg mértékegysége"
 
 #: src/options.cpp:1795
 msgid "Switch between lbs and kg."
-msgstr ""
+msgstr "Váltás font (lbs) és kilogram (kg) között."
 
 #: src/options.cpp:1796 src/units_utility.cpp:93
 msgid "kg"
@@ -47290,7 +47292,7 @@ msgstr "Térfogati egységek"
 
 #: src/options.cpp:1801
 msgid "Switch between the cups (c), liters (L), and quarts (qt)."
-msgstr ""
+msgstr "Váltés a bögre (c), a liter (L) és a quart (qt) között."
 
 #: src/options.cpp:1802
 msgid "Cup"
@@ -47306,11 +47308,11 @@ msgstr "Quart"
 
 #: src/options.cpp:1805
 msgid "Distance units"
-msgstr ""
+msgstr "Távolsági egységek"
 
 #: src/options.cpp:1806
 msgid "Switch between metric and imperial distance units."
-msgstr ""
+msgstr "Váltás a metrikus és a birodalmi távolságegységek között."
 
 #: src/options.cpp:1807
 msgid "Imperial"
@@ -47349,94 +47351,109 @@ msgstr "24h"
 
 #: src/options.cpp:1820
 msgid "Show vitamin masses"
-msgstr ""
+msgstr "Vitamintömegek megjelenítése"
 
 #: src/options.cpp:1821
 msgid ""
 "Display the masses of vitamins in addition to units/RDA values in item "
 "descriptions."
 msgstr ""
+"A vitaminok tömegének megjelenítése az egység/RDA-értékek (Javasolt napi "
+"bevitel) mellett a tételek leírásában"
 
 #: src/options.cpp:1828
 msgid "Additional messages in the log"
-msgstr ""
+msgstr "További üzenetek a naplóban"
 
 #: src/options.cpp:1829
 msgid ""
 "If true, some additional messages will be shown in the sidebar message log."
 msgstr ""
+"Ha igen, néhány további üzenet megjelenik az oldalsáv üzenetnaplójában."
 
 #: src/options.cpp:1832
 msgid "Items on the ground"
-msgstr ""
+msgstr "Földön heverő tárgyak"
 
 #: src/options.cpp:1833
 msgid ""
 "Show messages about items lying on the ground when character steps on tile "
 "with them."
 msgstr ""
+"A földön heverő tárgyakról szóló üzenetek megjelenítése, amikor a karakter "
+"rálép a mezőre amin van."
 
 #: src/options.cpp:1837
 msgid "Special monster movement"
-msgstr ""
+msgstr "Speciális szörnymozgás"
 
 #: src/options.cpp:1838
 msgid ""
 "Show messages about special monster movement: flying over the fence, diving "
 "into the water etc."
 msgstr ""
+"Mutasson üzeneteket a szörnyek különleges mozgásáról: átrepül a kerítésen, "
+"beugrik a vízbe stb."
 
 #: src/options.cpp:1842
 msgid "Monster attempts to free itself"
-msgstr ""
+msgstr "A szörny megpróbálja kiszabadítani magát"
 
 #: src/options.cpp:1843
 msgid ""
 "Show messages about monster trying to free itself from effects preventing it"
 " from moving: downed, tied etc."
 msgstr ""
+"Üzenetek megjelenítése arról, hogy a szörny megpróbálja kiszabadítani magát "
+"a mozgását akadályozó hatásokból: földre került, megkötözött stb."
 
 #: src/options.cpp:1847
 msgid "Monster/NPC attacking monster/NPC"
-msgstr ""
+msgstr "Szörny/NPC támadó szörny/NPC"
 
 #: src/options.cpp:1848
 msgid ""
 "Show messages about non-playable creatures attacking other non-playable "
 "creatures."
 msgstr ""
+"A nem játszható lényekről szóló üzenetek megjelenítése, amelyek más nem "
+"játszható lényeket támadnak meg."
 
 #: src/options.cpp:1855
 msgid "Naming options"
-msgstr ""
+msgstr "Elnevezési beállítások"
 
 #: src/options.cpp:1856
 msgid "Options regarding the naming of items."
-msgstr ""
+msgstr "Az elemek elnevezésére vonatkozó lehetőségek."
 
 #: src/options.cpp:1858
 msgid "Show drug brand names"
-msgstr ""
+msgstr "Gyógyszer márkanevek megjelenítése"
 
 #: src/options.cpp:1859
 msgid ""
 "If true, show brand names for drugs, instead of generic functional names - "
 "'Adderall', instead of 'prescription stimulant'."
 msgstr ""
+"Ha igen, akkor a gyógyszerek márkaneveit mutatja a generikus funkcionális "
+"nevek helyett - „Adderall” a „vényköteles stimuláns” helyett."
 
 #: src/options.cpp:1861
 msgid "Show gun brand names"
-msgstr ""
+msgstr "Fegyver márkanevek megjelenítése"
 
 #: src/options.cpp:1862
 msgid ""
 "If true, show brand names for guns, instead of generic functional names - "
 "'m4a1' or 'h&k416a5' instead of 'NATO assault rifle'."
 msgstr ""
+"Ha igen, akkor a fegyverek márkaneveit mutatja az általános funkcionális "
+"nevek helyett - „m4a1” vagy „h&k416a5” a „NATO rohamlöveg” helyett."
 
 #: src/options.cpp:1864
 msgid "Add ammo to weapon/magazine names"
-msgstr ""
+msgstr "Lőszer hozzáadása a fegyver/tár nevekhez"
 
 #: src/options.cpp:1865
 msgid ""
@@ -47444,10 +47461,13 @@ msgid ""
 "example \"Mosin-Nagant M44 (4/5)\" becomes \"Mosin-Nagant M44 (4/5 "
 "7.62x54mm)\"."
 msgstr ""
+"Ha igaz, az alapértelmezett lőszer hozzáadódik a fegyver és a tár nevéhez.  "
+"Például a „Mosin-Nagant M44 (4/5)” helyett „Mosin-Nagant M44 (4/5 "
+"7.62x54mm)” lesz."
 
 #: src/options.cpp:1868
 msgid "Detailed containers"
-msgstr ""
+msgstr "Részletes konténerek"
 
 #: src/options.cpp:1869
 msgid ""
@@ -47455,14 +47475,17 @@ msgid ""
 "containers have detailed remaining volume info.  - None: no additional info "
 "is provided."
 msgstr ""
+"Minden: minden konténer részletes információval rendelkezik a fennmaradó "
+"mennyiségről.  - Viselt: csak a viselt konténerek rendelkeznek részletes "
+"információval a maradék térfogatról.  - Nincs: nincs további információ."
 
 #: src/options.cpp:1880
 msgid "Accessibility options"
-msgstr ""
+msgstr "Akadálymentesítési lehetőségek"
 
 #: src/options.cpp:1881
 msgid "Options regarding the accessibility."
-msgstr ""
+msgstr "Az akadálymentességgel kapcsolatos lehetőségek."
 
 #: src/options.cpp:1883
 msgid "Use key code input mode"
@@ -47674,11 +47697,11 @@ msgstr ""
 
 #: src/options.cpp:2042
 msgid "Vehicle interface options"
-msgstr ""
+msgstr "Jármű interfész opciók"
 
 #: src/options.cpp:2043
 msgid "Options regarding vehicle interface."
-msgstr ""
+msgstr "A jármű interfészre vonatkozó lehetőségek."
 
 #: src/options.cpp:2045
 msgid "Vehicle plating changes part color"
@@ -47686,7 +47709,7 @@ msgstr "Jármű páncélzata megváltoztatja az alkatrész színét"
 
 #: src/options.cpp:2046
 msgid "If true, vehicle parts will change color if they are armor plated."
-msgstr ""
+msgstr "Ha igen, a járműalkatrészek színe megváltozik, ha páncélozottak."
 
 #: src/options.cpp:2050
 msgid "Auto-shift the view while driving"
@@ -47694,7 +47717,7 @@ msgstr "Automatikus nézeteltolás vezetés közben"
 
 #: src/options.cpp:2051
 msgid "If true, view will automatically shift towards the driving direction."
-msgstr ""
+msgstr "Ha igen, a nézet automatikusan a vezetési irányba tolódik."
 
 #: src/options.cpp:2055
 msgid "Draw vehicle facing indicator"
@@ -47726,11 +47749,11 @@ msgstr ""
 
 #: src/options.cpp:2068
 msgid "Sidebar interface options"
-msgstr ""
+msgstr "Oldalsáv felület beállításai"
 
 #: src/options.cpp:2069
 msgid "Options regarding sidebar interface."
-msgstr ""
+msgstr "Az oldalsáv felületére vonatkozó beállítások."
 
 #: src/options.cpp:2071
 msgid "Sidebar position"
@@ -47786,6 +47809,8 @@ msgid ""
 "Number of turns after which a message will be removed from the sidebar log."
 "  0 = disabled."
 msgstr ""
+"A fordulatok száma, amely után az üzenet törlődik az oldalsáv naplójából.  0"
+" = letiltva."
 
 #: src/options.cpp:2094
 msgid "Message cooldown"
@@ -47795,18 +47820,20 @@ msgstr "Üzenetek eltűnése"
 msgid ""
 "Number of turns during which similar messages are hidden.  0 = disabled."
 msgstr ""
+"Azon fordulók száma, amelyek során hasonló üzeneteket rejtenek el.  0 = "
+"letiltva."
 
 #: src/options.cpp:2099
 msgid "Limit message history"
-msgstr ""
+msgstr "Üzenet előzmények korlátozása"
 
 #: src/options.cpp:2100
 msgid "Number of messages to preserve in the history, and when saving."
-msgstr ""
+msgstr "Az előzményekben és a mentéskor megőrzendő üzenetek száma."
 
 #: src/options.cpp:2105
 msgid "Suppress \"Unknown command\" messages"
-msgstr ""
+msgstr "„Ismeretlen parancs” üzenetek elnyomása"
 
 #: src/options.cpp:2106
 msgid ""
@@ -47818,7 +47845,7 @@ msgstr ""
 
 #: src/options.cpp:2111
 msgid "Popup window when achievement completed"
-msgstr ""
+msgstr "Popup ablak, ha a teljesítmény feltétele teljesült"
 
 #: src/options.cpp:2112
 msgid ""
@@ -47826,18 +47853,20 @@ msgid ""
 "when completing an achievement that has not been completed in a previous "
 "game."
 msgstr ""
+"Megjelenik egy felugró ablak egy eredmény teljesítésekor.  Első: egy olyan "
+"eredmény teljesítésekor, amelyet egy korábbi játékban még nem teljesítettek."
 
 #: src/options.cpp:2117
 msgid "First"
-msgstr ""
+msgstr "Első"
 
 #: src/options.cpp:2121
 msgid "Look around position"
-msgstr ""
+msgstr "Körbenézés pozíviója"
 
 #: src/options.cpp:2122
 msgid "Switch between look around panel being left or right."
-msgstr ""
+msgstr "Váltás a bal vagy jobb oldali panel körülnézése között."
 
 #: src/options.cpp:2127
 msgid "Aim window display style"
@@ -47874,13 +47903,15 @@ msgstr "Függőleges"
 
 #: src/options.cpp:2139
 msgid "Full screen Advanced Inventory Manager"
-msgstr ""
+msgstr "Teljes képernyős haladó leltárkezelő"
 
 #: src/options.cpp:2140
 msgid ""
 "If true, Advanced Inventory Manager menu will fit full screen, otherwise it "
 "will leave sidebar visible."
 msgstr ""
+"Ha igaz, akkor a Haladó leltárkezelő menü teljes képernyős lesz, ellenkező "
+"esetben az oldalsáv látható marad."
 
 #: src/options.cpp:2146
 msgid "QOL options"
@@ -47958,16 +47989,18 @@ msgstr ""
 
 #: src/options.cpp:2179
 msgid "Show item health"
-msgstr ""
+msgstr "Tárgy állapotának megjelenítése"
 
 #: src/options.cpp:2181
 msgid ""
 "Show item health bars, descriptions like reinforced, scratched etc. or both."
 msgstr ""
+"Megjelenítheti a tárgyak állapotjelző sávjait, leírásait, például "
+"megerősített, megkarcolt stb. vagy mindkettőt."
 
 #: src/options.cpp:2183
 msgid "Descriptions"
-msgstr ""
+msgstr "Leírások"
 
 #: src/options.cpp:2188
 msgid "Show item symbols"
@@ -47981,47 +48014,51 @@ msgstr ""
 
 #: src/options.cpp:2193
 msgid "Show armor coverage map"
-msgstr ""
+msgstr "Páncélzat lefedettségi térkép megjelenítése"
 
 #: src/options.cpp:2194
 msgid ""
 "If true, show a visual representation of armor coverage in the item info "
 "window."
 msgstr ""
+"Ha igen, megjeleníti a páncélzat lefedettségének vizuális ábrázolását a "
+"tárgy információs ablakában."
 
 #: src/options.cpp:2198
 msgid "Favorited item's mark position"
-msgstr ""
+msgstr "Kedvelt elem jelölési pozíciója"
 
 #: src/options.cpp:2199
 msgid ""
 "Where to place mark of the favorited item (asterisk): before item's name "
 "(prefix) or after item's name (suffix)."
 msgstr ""
+"A kedvelt elem jelölésének helye (csillag): az elem neve előtt (előtag) vagy"
+" az elem neve után (utótag)."
 
 #: src/options.cpp:2200
 msgid "Prefix"
-msgstr ""
+msgstr "Előtag"
 
 #: src/options.cpp:2200
 msgid "Suffix"
-msgstr ""
+msgstr "Utótag"
 
 #: src/options.cpp:2206
 msgid "Mouse control options"
-msgstr ""
+msgstr "Egérvezérlési beállítások"
 
 #: src/options.cpp:2207
 msgid "Options regarding mouse control."
-msgstr ""
+msgstr "Egérvezérléssel kapcsolatos lehetőségek."
 
 #: src/options.cpp:2209
 msgid "Enable mouse"
-msgstr ""
+msgstr "Egér engedélyezése"
 
 #: src/options.cpp:2210
 msgid "Enable input from mouse."
-msgstr ""
+msgstr "Az egérről történő bevitel engedélyezése."
 
 #: src/options.cpp:2213
 msgid "Enable joystick"
@@ -48029,7 +48066,7 @@ msgstr "Joystick engedélyezése"
 
 #: src/options.cpp:2214
 msgid "If true, enable input from joystick."
-msgstr ""
+msgstr "Ha igen, engedélyezi a joystick bemenetét."
 
 #: src/options.cpp:2218
 msgid "Hide mouse cursor"
@@ -48040,6 +48077,9 @@ msgid ""
 "Show: cursor is always shown.  Hide: cursor is hidden.  HideKB: cursor is "
 "hidden on keyboard input and unhidden on mouse movement."
 msgstr ""
+"Mutat: a kurzor mindig megjelenik.  Elrejt: a kurzor el van rejtve.  "
+"ElrejtBill: a kurzor billentyűzetbevitelkor el van rejtve, egérmozgáskor "
+"pedig feloldódik."
 
 #. ~ show mouse cursor
 #: src/options.cpp:2221
@@ -48078,11 +48118,11 @@ msgstr "Gyors"
 
 #: src/options.cpp:2249
 msgid "Animation options"
-msgstr ""
+msgstr "Animációs beállítások"
 
 #: src/options.cpp:2250
 msgid "Options regarding animations."
-msgstr ""
+msgstr "Az animációkkal kapcsolatos lehetőségek."
 
 #: src/options.cpp:2252
 msgid "Animations"
@@ -48140,11 +48180,11 @@ msgstr "Az animációs képkockák közötti idő ms-ban."
 
 #: src/options.cpp:2292
 msgid "Blinking effects speed"
-msgstr ""
+msgstr "A villogó hatások sebessége"
 
 #: src/options.cpp:2293
 msgid "The speed of every blinking effects in ms."
-msgstr ""
+msgstr "Az egyes villogó hatások sebessége ms-ban."
 
 #: src/options.cpp:2297
 msgid "Force redraw"
@@ -48156,45 +48196,48 @@ msgstr "Ha igen, akkor a játékot körönként legalább egyszer újrarajzoltat
 
 #: src/options.cpp:2305
 msgid "ASCII graphic options"
-msgstr ""
+msgstr "ASCII grafikai beállítások"
 
 #: src/options.cpp:2306
 msgid "Options regarding ASCII graphic."
-msgstr ""
+msgstr "ASCII grafikára vonatkozó lehetőségek."
 
 #: src/options.cpp:2309
 msgid "Enable ASCII art on the title screen"
-msgstr ""
+msgstr "ASCII art engedélyezése a címképernyőn"
 
 #: src/options.cpp:2310
 msgid ""
 "If true, shows an ASCII graphic on the title screen.  If false, shows a "
 "text-only title screen."
 msgstr ""
+"Ha igen, egy ASCII grafikát jelenít meg a címképernyőn.  Ha nem, akkor csak "
+"szöveges címképernyő jelenik meg."
 
 #: src/options.cpp:2314
 msgid "Use seasonal title screen"
-msgstr ""
+msgstr "Szezonális címképernyő használata"
 
 #: src/options.cpp:2315
 msgid "If true, the title screen will use the art appropriate for the season."
 msgstr ""
+"Ha igen, a címképernyő az évszaknak megfelelő grafikát fogja használni."
 
 #: src/options.cpp:2321
 msgid "Alternative title screen frequency"
-msgstr ""
+msgstr "Alternatív címképernyő gyakorisága"
 
 #: src/options.cpp:2322
 msgid "Set the probability of the alternate title screen appearing."
-msgstr ""
+msgstr "Beállítja az alternatív címképernyő megjelenésének valószínűségét."
 
 #: src/options.cpp:2330
 msgid "Terminal display options"
-msgstr ""
+msgstr "A terminál kijelzőjének beállításai"
 
 #: src/options.cpp:2331
 msgid "Options regarding terminal display."
-msgstr ""
+msgstr "A terminál kijelzőjére vonatkozó lehetőségek."
 
 #: src/options.cpp:2333
 msgid "Terminal width"
@@ -48202,7 +48245,7 @@ msgstr "Terminál szélessége"
 
 #: src/options.cpp:2334
 msgid "Set the size of the terminal along the X axis."
-msgstr ""
+msgstr "A terminál méretének beállítása az X tengely mentén."
 
 #: src/options.cpp:2338
 msgid "Terminal height"
@@ -48210,17 +48253,19 @@ msgstr "Terminál magassága"
 
 #: src/options.cpp:2339
 msgid "Set the size of the terminal along the Y axis."
-msgstr ""
+msgstr "A terminál méretének beállítása az Y tengely mentén."
 
 #: src/options.cpp:2347
 msgid "Font settings"
-msgstr ""
+msgstr "Betűtípus beállítások"
 
 #: src/options.cpp:2348
 msgid ""
 "Font display settings.  To change font type or source file, edit fonts.json "
 "in config directory."
 msgstr ""
+"Betűtípus megjelenítési beállítások.  A betűtípus vagy a forrásfájl "
+"megváltoztatásához szerkessze a fonts.json fájlt a config könyvtárban."
 
 #: src/options.cpp:2350
 msgid "Font blending"
@@ -48228,7 +48273,7 @@ msgstr "Betűsimítás"
 
 #: src/options.cpp:2351
 msgid "If true, vector fonts may look better."
-msgstr ""
+msgstr "Ha igen, a vektoros betűtípusok jobban nézhetnek ki."
 
 #: src/options.cpp:2355
 msgid "Font width"
@@ -48783,11 +48828,11 @@ msgstr "Kérdez"
 
 #: src/options.cpp:2778
 msgid "World time options"
-msgstr ""
+msgstr "Világidő beállítások"
 
 #: src/options.cpp:2779
 msgid "Options regarding the passage of time in the world."
-msgstr ""
+msgstr "Az idő múlására vonatkozó lehetőségek a világban."
 
 #: src/options.cpp:2781
 msgid "Season length"
@@ -48823,33 +48868,36 @@ msgstr "Örökös évszak"
 
 #: src/options.cpp:2792
 msgid "If true, keep the initial season for ever."
-msgstr ""
+msgstr "Ha igen, megmarad a kezdeti szezont örökre."
 
 #: src/options.cpp:2796
 msgid "Day/night cycle"
-msgstr ""
+msgstr "Nappali/éjszakai ciklus"
 
 #: src/options.cpp:2797
 msgid ""
 "Day/night cycle settings.  'Normal' sets a normal cycle.  'Eternal Day' sets"
 " eternal day.  'Eternal Night' sets eternal night."
 msgstr ""
+"Nappali/éjszakai ciklus beállítások.  A »Normál« normál ciklust állít be.  "
+"Az »Örök nappal« az örök nappalt állítja be.  Az »Örök éjszaka« az örök "
+"éjszakát állítja be."
 
 #: src/options.cpp:2799
 msgid "Eternal Day"
-msgstr ""
+msgstr "Örökös nappal"
 
 #: src/options.cpp:2800
 msgid "Eternal Night"
-msgstr ""
+msgstr "Örökös éjszaka"
 
 #: src/options.cpp:2807
 msgid "Misc options"
-msgstr ""
+msgstr "Egyéb beállítások"
 
 #: src/options.cpp:2810
 msgid "Wandering hordes"
-msgstr ""
+msgstr "Kalandozó hordák"
 
 #: src/options.cpp:2811
 msgid ""
@@ -48859,6 +48907,12 @@ msgid ""
 "can appear to walk through walls under some circumstances.  Must reset world"
 " directory after changing for it to take effect."
 msgstr ""
+"Ha igaz, zombihordákat emulál.  A zombik hordákká csoportosulhatnak, amelyek"
+" a városokban kóborolhatnak, és néha a zaj felé mozognak.  Megjegyzés: a "
+"jelenlegi implementáció nem veszi megfelelően figyelembe az akadályokat, így"
+" a hordák bizonyos körülmények között úgy tűnhet, hogy átmennek a falakon.  "
+"A változtatás után vissza kell állítani a világkönyvtárat, hogy a módosítás "
+"érvénybe lépjen."
 
 #: src/options.cpp:2815
 msgid "Surrounded start"
@@ -49502,7 +49556,7 @@ msgstr ""
 
 #: src/options.cpp:4066
 msgid "options"
-msgstr "opciók"
+msgstr "beállítások"
 
 #: src/output.cpp:873 src/output.cpp:894
 #, c-format
@@ -49542,7 +49596,7 @@ msgstr ""
 
 #: src/output.cpp:1080
 msgid "iron"
-msgstr ""
+msgstr "vas"
 
 #: src/output.cpp:1081
 msgid "<color_cyan>quality</color> provided by tool"
@@ -52448,7 +52502,7 @@ msgstr "Szükséges szerszám:"
 
 #. ~ %1$s represents the internal color name which shouldn't be translated,
 #. %2$s is the word "NONE"
-#: src/requirements.cpp:850 src/veh_interact.cpp:380
+#: src/requirements.cpp:850 src/veh_interact.cpp:381
 msgid "NONE"
 msgstr "SEMMI"
 
@@ -53574,7 +53628,7 @@ msgstr ""
 
 #: src/teleport.cpp:191
 msgid "You feel a strange, inwards force."
-msgstr ""
+msgstr "Egy furcsa, befelé irányuló erőt érzel."
 
 #: src/teleport.cpp:228 src/teleport.cpp:274 src/teleport.cpp:305
 msgid "You cannot teleport safely."
@@ -53591,24 +53645,24 @@ msgstr ""
 
 #: src/teleport.cpp:286
 msgid "<npcname> flickers."
-msgstr ""
+msgstr "<npcname> villog."
 
 #: src/teleport.cpp:286
 msgid "You flicker."
-msgstr ""
+msgstr "Villogsz"
 
 #: src/teleport.cpp:288
 #, c-format
 msgid "%1$s flickers."
-msgstr ""
+msgstr "%1$s villog."
 
 #: src/teleport.cpp:296
 msgid "You feel disjointed."
-msgstr ""
+msgstr "Szétesettnek érzed magad."
 
 #: src/teleport.cpp:312
 msgid "You're blasted with strange energy!"
-msgstr ""
+msgstr "Furcsa energiák árasztanak el!"
 
 #: src/teleport.cpp:317
 #, c-format
@@ -53754,17 +53808,17 @@ msgstr "Csere"
 #: src/trade_ui.cpp:311
 #, c-format
 msgid "Credit %s"
-msgstr ""
+msgstr "Hitel %s"
 
 #: src/trade_ui.cpp:311
 #, c-format
 msgid "Debt %s"
-msgstr ""
+msgstr "Tartozás %s"
 
 #: src/trade_ui.cpp:318
 #, c-format
 msgid "%s to switch panes"
-msgstr ""
+msgstr "%s az ablakok váltásához"
 
 #: src/trade_ui.cpp:323
 #, c-format
@@ -53774,7 +53828,7 @@ msgstr ""
 #: src/trade_ui.cpp:328
 #, c-format
 msgid "Bank Balance: %s"
-msgstr ""
+msgstr "Banki egyenleg: %s"
 
 #: src/trade_ui.cpp:331
 #, c-format
@@ -53821,7 +53875,7 @@ msgstr "Válassz nyelvet"
 #: src/translations.cpp:107
 #, c-format
 msgid "Cataclysm: Dark Days Ahead - %s"
-msgstr ""
+msgstr "Cataclysm: Dark Days Ahead - %s"
 
 #: src/trap.cpp:474
 #, c-format
@@ -54642,7 +54696,7 @@ msgstr ""
 msgid "Remove other cables first"
 msgstr ""
 
-#: src/veh_interact.cpp:213
+#: src/veh_interact.cpp:214
 #, c-format
 msgid ""
 "Press space, choose a facing direction for the new %s and confirm with "
@@ -54651,163 +54705,163 @@ msgstr ""
 "Nyomj egy szóközt, majd hogy merre nézzen az új %s, végül a befejezéshez egy"
 " Entert."
 
-#: src/veh_interact.cpp:260
+#: src/veh_interact.cpp:261
 msgid "Select part"
 msgstr "Melyik alkatrészt?"
 
-#: src/veh_interact.cpp:365
+#: src/veh_interact.cpp:366
 msgid "<color_white>Time required:</color>\n"
 msgstr "<color_white>Szükséges idő:</color>\n"
 
-#: src/veh_interact.cpp:368
+#: src/veh_interact.cpp:369
 msgid "<color_white>Skills required:</color>\n"
 msgstr "<color_white>Szükséges készség:</color>\n"
 
 #. ~ %1$s represents the internal color name which shouldn't be translated,
 #. %2$s is skill name, and %3$i is skill level
-#: src/veh_interact.cpp:375
+#: src/veh_interact.cpp:376
 #, c-format
 msgid "> %1$s%2$s %3$i</color>\n"
 msgstr "> %1$s%2$s %3$i</color>\n"
 
-#: src/veh_interact.cpp:544
+#: src/veh_interact.cpp:545
 #, c-format
 msgid "You cannot rename this vehicle as it is owned by: %s."
 msgstr "Ezt a járművet nem lehet átnevezni, mivel a(z) %s tulajdona."
 
-#: src/veh_interact.cpp:569
+#: src/veh_interact.cpp:570
 #, c-format
 msgid "You cannot assign crew on this vehicle as it is owned by: %s."
 msgstr ""
 "Ehhez a járműhöz nem lehet személyzetet rendelni, mivel a(z) %s tulajdona."
 
-#: src/veh_interact.cpp:578
+#: src/veh_interact.cpp:579
 #, c-format
 msgid "You cannot relabel this vehicle as it is owned by: %s."
 msgstr "Ezt a címkét nem lehet átnevezni, mivel a jármű a(z) %s tulajdona."
 
-#: src/veh_interact.cpp:800
+#: src/veh_interact.cpp:801
 msgid "Unracking is required before installing any parts here."
 msgstr ""
 
 #. ~ %1$s is fuel_type
-#: src/veh_interact.cpp:806
+#: src/veh_interact.cpp:807
 #, c-format
 msgid "Only one %1$s powered engine can be installed."
 msgstr "Csak egy %1$s meghajtású motort lehet beépíteni."
 
-#: src/veh_interact.cpp:810 src/veh_interact.cpp:1755
+#: src/veh_interact.cpp:811 src/veh_interact.cpp:1756
 msgid "This vehicle cannot be modified in this way.\n"
 msgstr ""
 
-#: src/veh_interact.cpp:813
+#: src/veh_interact.cpp:814
 msgid "This part cannot be installed.\n"
 msgstr ""
 
-#: src/veh_interact.cpp:821
+#: src/veh_interact.cpp:822
 msgid "Funnels need to be installed over a tank."
 msgstr "Tölcsért egy tartály fölé kell szerelni."
 
-#: src/veh_interact.cpp:830
+#: src/veh_interact.cpp:831
 msgid "Can't install turret on another turret."
 msgstr "A lövegtornyot nem lehet a másik lövegtoronyra építeni."
 
-#: src/veh_interact.cpp:873 src/veh_interact.cpp:1181
-#: src/veh_interact.cpp:1787
+#: src/veh_interact.cpp:874 src/veh_interact.cpp:1182
+#: src/veh_interact.cpp:1788
 msgid "<color_white>Additional requirements:</color>\n"
 msgstr "<color_white>Szükséges még:</color>\n"
 
 #. ~ %1$s represents the internal color name which shouldn't be translated,
 #. %2$s is skill name, and %3$i is skill level
-#: src/veh_interact.cpp:883
+#: src/veh_interact.cpp:884
 #, c-format
 msgid "> %1$s%2$s %3$i</color> for extra engines."
 msgstr "> %1$s%2$s %3$i</color> több motorhoz."
 
-#: src/veh_interact.cpp:887
+#: src/veh_interact.cpp:888
 msgid ""
 "> <color_red>You cannot install any more engines on this vehicle.</color>"
 msgstr ""
 
 #. ~ %1$s represents the internal color name which shouldn't be translated,
 #. %2$s is skill name, and %3$i is skill level
-#: src/veh_interact.cpp:897
+#: src/veh_interact.cpp:898
 #, c-format
 msgid "> %1$s%2$s %3$i</color> for extra steering axles."
 msgstr "> %1$s%2$s %3$i</color> több kormányozható tengelyhez."
 
-#: src/veh_interact.cpp:911
+#: src/veh_interact.cpp:912
 msgid ""
 "<color_white>Cannot install due to:</color>\n"
 "> "
 msgstr ""
 
-#: src/veh_interact.cpp:973
+#: src/veh_interact.cpp:974
 msgid "Cannot install any part here."
 msgstr "Ide nem tudsz alkatrészt beszerelni."
 
-#: src/veh_interact.cpp:978
+#: src/veh_interact.cpp:979
 msgid "Choose new part to install here:"
 msgstr "Válaszd ki, hogy ide milyen új alkatrészt szeretnél beszerelni:"
 
-#: src/veh_interact.cpp:1029
+#: src/veh_interact.cpp:1030
 msgid "Search for part"
 msgstr "Alkatrész keresése"
 
-#: src/veh_interact.cpp:1046 src/veh_interact.cpp:1860
+#: src/veh_interact.cpp:1047 src/veh_interact.cpp:1861
 msgid "Your morale is too low to construct…"
 msgstr ""
 
-#: src/veh_interact.cpp:1049 src/veh_interact.cpp:1139
-#: src/veh_interact.cpp:1268 src/veh_interact.cpp:1863
+#: src/veh_interact.cpp:1050 src/veh_interact.cpp:1140
+#: src/veh_interact.cpp:1269 src/veh_interact.cpp:1864
 msgid "It's too dark to see what you are doing…"
 msgstr ""
 
-#: src/veh_interact.cpp:1052
+#: src/veh_interact.cpp:1053
 msgid "You can't install parts while driving."
 msgstr "Vezetés közben nem lehet alkatrészt beszerelni."
 
-#: src/veh_interact.cpp:1062
+#: src/veh_interact.cpp:1063
 msgid ""
 "Installing this part will mean that this vehicle is no longer flightworthy."
 "  Continue?"
 msgstr ""
 
-#: src/veh_interact.cpp:1070
+#: src/veh_interact.cpp:1071
 msgid "Installing this part will make the vehicle unfoldable.  Continue?"
 msgstr ""
 
-#: src/veh_interact.cpp:1136
+#: src/veh_interact.cpp:1137
 msgid "Your morale is too low to repair…"
 msgstr "Túl alacsony a hangulatod ahhoz, hogy bármit is megszerelhess..."
 
-#: src/veh_interact.cpp:1142
+#: src/veh_interact.cpp:1143
 msgid "You can't repair stuff while driving."
 msgstr "Vezetés közben nem tudsz semmit se megszerelni."
 
-#: src/veh_interact.cpp:1145
+#: src/veh_interact.cpp:1146
 msgid "There are no damaged parts on this vehicle."
 msgstr "Ezen a járművön nincsenek sérült alkatrészek."
 
-#: src/veh_interact.cpp:1158
+#: src/veh_interact.cpp:1159
 msgid "Choose a part here to repair:"
 msgstr "Itt válaszd ki, hogy melyik alkatrészt szeretnéd megjavítani:"
 
-#: src/veh_interact.cpp:1189
+#: src/veh_interact.cpp:1190
 msgid ""
 "\n"
 "Unracking is required before replacing this part.\n"
 msgstr ""
 
-#: src/veh_interact.cpp:1196
+#: src/veh_interact.cpp:1197
 msgid "This part cannot be repaired.\n"
 msgstr ""
 
-#: src/veh_interact.cpp:1199
+#: src/veh_interact.cpp:1200
 msgid "This vehicle cannot be repaired.\n"
 msgstr ""
 
-#: src/veh_interact.cpp:1212
+#: src/veh_interact.cpp:1213
 #, c-format
 msgid ""
 "\n"
@@ -54815,118 +54869,118 @@ msgid ""
 "\n"
 msgstr ""
 
-#: src/veh_interact.cpp:1232
+#: src/veh_interact.cpp:1233
 msgid ""
 "Repairing this part will mean that this vehicle is no longer flightworthy.  "
 "Continue?"
 msgstr ""
 
-#: src/veh_interact.cpp:1235
+#: src/veh_interact.cpp:1236
 msgid "You chose not to install this part to keep the vehicle flyable.\n"
 msgstr ""
 
-#: src/veh_interact.cpp:1265
+#: src/veh_interact.cpp:1266
 msgid "Your morale is too low to mend…"
 msgstr ""
 
-#: src/veh_interact.cpp:1271
+#: src/veh_interact.cpp:1272
 msgid "No faulty parts require mending."
 msgstr "Nincsen megjavítandó hibás alkatrész."
 
-#: src/veh_interact.cpp:1274
+#: src/veh_interact.cpp:1275
 msgid "You can't mend stuff while driving."
 msgstr "Vezetés közben nem tudsz semmit se megjavítani."
 
-#: src/veh_interact.cpp:1281
+#: src/veh_interact.cpp:1282
 msgid "Choose a part here to mend:"
 msgstr "Itt válaszd ki, hogy melyik alkatrészt szeretnéd megjavítani:"
 
-#: src/veh_interact.cpp:1305
+#: src/veh_interact.cpp:1306
 msgid "You can't refill a moving vehicle."
 msgstr "Mozgó járművet nem lehet feltölteni."
 
-#: src/veh_interact.cpp:1309
+#: src/veh_interact.cpp:1310
 msgid "No parts can currently be refilled."
 msgstr "Egyetlen alkatrészt sem lehet feltölteni."
 
-#: src/veh_interact.cpp:1317
+#: src/veh_interact.cpp:1318
 msgid "Select part to refill:"
 msgstr "Melyik alkatrészt töltöd fel?"
 
-#: src/veh_interact.cpp:1367
+#: src/veh_interact.cpp:1368
 #, c-format
 msgid "Engines: %sSafe %4d kW</color> %sMax %4d kW</color>"
 msgstr "Motorok: %sBiztonságos %4d kW</color> %sMax %4d kW</color>"
 
-#: src/veh_interact.cpp:1370
+#: src/veh_interact.cpp:1371
 msgid "Fuel     Use"
 msgstr "Üzema. haszn."
 
-#: src/veh_interact.cpp:1373
+#: src/veh_interact.cpp:1374
 msgid "Tanks"
 msgstr "Tartályok"
 
-#: src/veh_interact.cpp:1374 src/veh_interact.cpp:1401
+#: src/veh_interact.cpp:1375 src/veh_interact.cpp:1402
 msgid "Contents     Qty"
 msgstr "Tartalom Db."
 
-#: src/veh_interact.cpp:1379
+#: src/veh_interact.cpp:1380
 #, c-format
 msgid "Batteries: %s%+4d W</color>"
 msgstr "Akkumulátorok: %s%+4d W</color>"
 
-#: src/veh_interact.cpp:1382
+#: src/veh_interact.cpp:1383
 #, c-format
 msgid "Batteries: %s%+4.1f kW</color>"
 msgstr "Akkumulátorok: %s%+4.1f kW</color>"
 
-#: src/veh_interact.cpp:1386
+#: src/veh_interact.cpp:1387
 msgid "Capacity  Status"
 msgstr "Kapacit. Állapt"
 
-#: src/veh_interact.cpp:1392
+#: src/veh_interact.cpp:1393
 msgid "Reactors"
 msgstr "Reaktorok"
 
-#: src/veh_interact.cpp:1394
+#: src/veh_interact.cpp:1395
 #, c-format
 msgid "Reactors: Up to %s%+4d W</color>"
 msgstr "Reaktorok: Max %s%+4d W</color>"
 
-#: src/veh_interact.cpp:1397
+#: src/veh_interact.cpp:1398
 #, c-format
 msgid "Reactors: Up to %s%+4.1f kW</color>"
 msgstr "Reaktorok: Max %s%+4.1f kW</color>"
 
-#: src/veh_interact.cpp:1404
+#: src/veh_interact.cpp:1405
 msgid "Turrets"
 msgstr "Lövegtornyok"
 
-#: src/veh_interact.cpp:1405
+#: src/veh_interact.cpp:1406
 msgid "Ammo     Qty"
 msgstr "Lősz Db."
 
-#: src/veh_interact.cpp:1408
+#: src/veh_interact.cpp:1409
 msgid "Seats"
 msgstr "Ülés"
 
-#: src/veh_interact.cpp:1409
+#: src/veh_interact.cpp:1410
 msgid "Who"
 msgstr "Ki?"
 
-#: src/veh_interact.cpp:1585
+#: src/veh_interact.cpp:1586
 msgid "'{' to scroll up"
 msgstr "'{' a felfele görgetéshez"
 
-#: src/veh_interact.cpp:1622
+#: src/veh_interact.cpp:1623
 msgid "'}' to scroll down"
 msgstr "'}' a lefele görgetéshez"
 
-#: src/veh_interact.cpp:1758
+#: src/veh_interact.cpp:1759
 msgid "This part cannot be uninstalled.\n"
 msgstr ""
 
-#: src/veh_interact.cpp:1764
+#: src/veh_interact.cpp:1765
 #, c-format
 msgid ""
 "<color_white>Removing the broken %1$s may yield some fragments.</color>\n"
@@ -54934,14 +54988,14 @@ msgstr ""
 "<color_white>Az elromlott  %1$s eltávolítása néhány töredéket "
 "eredményezhet.</color>\n"
 
-#: src/veh_interact.cpp:1771
+#: src/veh_interact.cpp:1772
 #, c-format
 msgid ""
 "<color_white>Removing the %1$s may yield:</color>\n"
 "> %2$s\n"
 msgstr ""
 
-#: src/veh_interact.cpp:1776
+#: src/veh_interact.cpp:1777
 #, c-format
 msgid ""
 "<color_white>Removing the %1$s will yield:</color>\n"
@@ -54952,195 +55006,195 @@ msgstr ""
 
 #. ~ %1$s represents the internal color name which shouldn't be translated,
 #. %2$s is pre-translated reason
-#: src/veh_interact.cpp:1798
+#: src/veh_interact.cpp:1799
 #, c-format
 msgid "> %1$s%2$s</color>"
 msgstr "> %1$s%2$s</color>"
 
-#: src/veh_interact.cpp:1813
+#: src/veh_interact.cpp:1814
 msgid "No parts here."
 msgstr "Itt nincsenek alkatrészek."
 
-#: src/veh_interact.cpp:1818
+#: src/veh_interact.cpp:1819
 msgid "Choose a part here to remove:"
 msgstr "Itt válaszd ki, hogy melyik alkatrészt szeretnéd leszerelni:"
 
-#: src/veh_interact.cpp:1866
+#: src/veh_interact.cpp:1867
 msgid "You cannot remove that part while something is attached to it."
 msgstr ""
 "Addig nem tudod leszerelni azt az alkatrészt, amíg valami más is hozzá van "
 "rögzítve."
 
-#: src/veh_interact.cpp:1869
+#: src/veh_interact.cpp:1870
 msgid "Better not remove something while driving."
 msgstr "Vezetés közben jobb lesz semmit se piszkálni."
 
-#: src/veh_interact.cpp:1879
+#: src/veh_interact.cpp:1880
 msgid ""
 "Removing this part will mean that this vehicle is no longer flightworthy.  "
 "Continue?"
 msgstr ""
 
-#: src/veh_interact.cpp:1902 src/veh_interact.cpp:2965
+#: src/veh_interact.cpp:1903 src/veh_interact.cpp:2966
 msgid "The vehicle has no liquid fuel left to siphon."
 msgstr "Ebben a járműben nincsen leszívható folyékony üzemanyag."
 
-#: src/veh_interact.cpp:1906
+#: src/veh_interact.cpp:1907
 msgid "You need a <color_red>hose</color> to siphon liquid fuel."
 msgstr "Folyékony üzemanyag leszívásához kell egy <color_red>cső</color>."
 
-#: src/veh_interact.cpp:1910
+#: src/veh_interact.cpp:1911
 msgid "You can't siphon from a moving vehicle."
 msgstr "Mozgó járműből nem lehet üzemanyagot leszívni."
 
-#: src/veh_interact.cpp:1918
+#: src/veh_interact.cpp:1919
 msgid "Select part to siphon:"
 msgstr ""
 
-#: src/veh_interact.cpp:1947 src/veh_interact.cpp:2999
+#: src/veh_interact.cpp:1948 src/veh_interact.cpp:3000
 msgid "The vehicle has no solid fuel left to remove."
 msgstr "Ebben a járműben nincsen eltávolítható szilárd üzemanyag."
 
-#: src/veh_interact.cpp:1951
+#: src/veh_interact.cpp:1952
 msgid "You can't unload from a moving vehicle."
 msgstr "Mozgó járműből nem lehet kirakodni."
 
-#: src/veh_interact.cpp:1966 src/veh_shape.cpp:151
+#: src/veh_interact.cpp:1967 src/veh_shape.cpp:151
 msgid "Choose cosmetic variant:"
 msgstr ""
 
-#: src/veh_interact.cpp:2003
+#: src/veh_interact.cpp:2004
 msgid "Need at least one seat and an ally to assign crew members."
 msgstr ""
 "Legalább egy ülés és egy szövetséges kell ahhoz, hogy a személyzetet "
 "kijelölhesd."
 
-#: src/veh_interact.cpp:2008
+#: src/veh_interact.cpp:2009
 msgid "Assign crew positions:"
 msgstr "Személyzet ülésének kijelölése:"
 
-#: src/veh_interact.cpp:2016
+#: src/veh_interact.cpp:2017
 msgid "Select crew member"
 msgstr "Személyzet kiválasztása."
 
-#: src/veh_interact.cpp:2019
+#: src/veh_interact.cpp:2020
 msgid "Clear assignment"
 msgstr "Ülésrend törlése"
 
-#: src/veh_interact.cpp:2057
+#: src/veh_interact.cpp:2058
 msgid "There are no parts here to label."
 msgstr "Itt nincsenek felcímkézhető alkatrészek."
 
-#: src/veh_interact.cpp:2064
+#: src/veh_interact.cpp:2065
 msgid "New label:"
 msgstr "Új címke:"
 
-#: src/veh_interact.cpp:2088
+#: src/veh_interact.cpp:2089
 msgid ""
 "<color_red>Unsuitable terrain</color> for working on part that requires "
 "jacking."
 msgstr ""
 
-#: src/veh_interact.cpp:2122
+#: src/veh_interact.cpp:2123
 #, c-format
 msgid "(Strong Back helped, giving +%d strength)"
 msgstr ""
 
-#: src/veh_interact.cpp:2126
+#: src/veh_interact.cpp:2127
 #, c-format
 msgid "(Bad Back reduced usable strength by %d)"
 msgstr ""
 
-#: src/veh_interact.cpp:2131
+#: src/veh_interact.cpp:2132
 #, c-format
 msgid "(Effective lifting strength is %d)"
 msgstr ""
 
 #. ~ %1$s is quality name, %2$d is quality level
-#: src/veh_interact.cpp:2138
+#: src/veh_interact.cpp:2139
 #, c-format
 msgid "1 tool with %1$s %2$d"
 msgstr "1 %1$s %2$d szerszám "
 
-#: src/veh_interact.cpp:2143
+#: src/veh_interact.cpp:2144
 #, c-format
 msgid "strength ( assisted ) %d %s"
 msgstr ""
 
-#: src/veh_interact.cpp:2145
+#: src/veh_interact.cpp:2146
 #, c-format
 msgid "strength %d %s"
 msgstr ""
 
-#: src/veh_interact.cpp:2148
+#: src/veh_interact.cpp:2149
 #, c-format
 msgid "> %1$s <color_white>OR</color> %2$s"
 msgstr "> %1$s <color_white>VAGY</color> %2$s"
 
-#: src/veh_interact.cpp:2384
+#: src/veh_interact.cpp:2385
 msgid "<color_light_red>disabled</color>"
 msgstr "<color_light_red>hibás</color>"
 
-#: src/veh_interact.cpp:2386
+#: src/veh_interact.cpp:2387
 msgid "<color_light_red>lack</color>"
 msgstr "<color_light_red>nincs</color>"
 
-#: src/veh_interact.cpp:2388
+#: src/veh_interact.cpp:2389
 msgid "<color_light_red>unbalanced</color>"
 msgstr "<color_light_red>kiegyensúlyozatlan</color>"
 
-#: src/veh_interact.cpp:2390
+#: src/veh_interact.cpp:2391
 msgid "<color_light_red>no steering</color>"
 msgstr "<color_light_red>nincs kormányzás</color>"
 
-#: src/veh_interact.cpp:2392
+#: src/veh_interact.cpp:2393
 msgid "<color_light_red>broken steering</color>"
 msgstr "<color_light_red>hibás kormányzás</color>"
 
-#: src/veh_interact.cpp:2394
+#: src/veh_interact.cpp:2395
 msgid "<color_light_red>poor steering</color>"
 msgstr "<color_light_red>rossz kormányzás</color>"
 
-#: src/veh_interact.cpp:2396
+#: src/veh_interact.cpp:2397
 msgid "<color_light_green>enough</color>"
 msgstr "<color_light_green>elég</color>"
 
-#: src/veh_interact.cpp:2401
+#: src/veh_interact.cpp:2402
 msgid "<color_light_red>sinks</color>"
 msgstr ""
 
-#: src/veh_interact.cpp:2403
+#: src/veh_interact.cpp:2404
 msgid "<color_light_blue>floats</color>"
 msgstr ""
 
-#: src/veh_interact.cpp:2407
+#: src/veh_interact.cpp:2408
 #, c-format
 msgid "Wheels/boat: %s/%s"
 msgstr "Kerék/hajó: %s/%s"
 
-#: src/veh_interact.cpp:2411
+#: src/veh_interact.cpp:2412
 #, c-format
 msgid "Boat: %s"
 msgstr "Hajó: %s"
 
-#: src/veh_interact.cpp:2414
+#: src/veh_interact.cpp:2415
 #, c-format
 msgid "Wheels: %s"
 msgstr "Kerék: %s"
 
-#: src/veh_interact.cpp:2472
+#: src/veh_interact.cpp:2473
 #, c-format
 msgid ""
 "Air Safe/Top speed: "
 "<color_light_green>%3d</color>/<color_light_red>%3d</color> %s"
 msgstr ""
 
-#: src/veh_interact.cpp:2478
+#: src/veh_interact.cpp:2479
 #, c-format
 msgid "Air acceleration: <color_light_blue>%3d</color> %s/s"
 msgstr ""
 
-#: src/veh_interact.cpp:2485
+#: src/veh_interact.cpp:2486
 #, c-format
 msgid ""
 "Safe/Top speed: <color_light_green>%3d</color>/<color_light_red>%3d</color> "
@@ -55148,12 +55202,12 @@ msgid ""
 msgstr ""
 
 #. ~ /t means per turn
-#: src/veh_interact.cpp:2493
+#: src/veh_interact.cpp:2494
 #, c-format
 msgid "Acceleration: <color_light_blue>%3d</color> %s/s"
 msgstr ""
 
-#: src/veh_interact.cpp:2502
+#: src/veh_interact.cpp:2503
 #, c-format
 msgid ""
 "Water Safe/Top speed: "
@@ -55161,215 +55215,215 @@ msgid ""
 msgstr ""
 
 #. ~ /t means per turn
-#: src/veh_interact.cpp:2510
+#: src/veh_interact.cpp:2511
 #, c-format
 msgid "Water acceleration: <color_light_blue>%3d</color> %s/s"
 msgstr ""
 
-#: src/veh_interact.cpp:2519
+#: src/veh_interact.cpp:2520
 #, c-format
 msgid "Mass: <color_light_blue>%5.0f</color> %s"
 msgstr "Tömeg: <color_light_blue>%5.0f</color>%s"
 
-#: src/veh_interact.cpp:2523
+#: src/veh_interact.cpp:2524
 #, c-format
 msgid ""
 "Cargo volume: <color_light_blue>%s</color> / <color_light_blue>%s</color> %s"
 msgstr ""
 
-#: src/veh_interact.cpp:2524
+#: src/veh_interact.cpp:2525
 #, c-format
 msgid "Cargo: <color_light_blue>%s</color> / <color_light_blue>%s</color> %s"
 msgstr ""
 
-#: src/veh_interact.cpp:2561
+#: src/veh_interact.cpp:2562
 msgid "Most damaged:"
 msgstr "Legsérültebb:"
 
-#: src/veh_interact.cpp:2562
+#: src/veh_interact.cpp:2563
 msgid "Most damaged (can't repair):"
 msgstr "Legsérültebb (javíthatatlan):"
 
-#: src/veh_interact.cpp:2570
+#: src/veh_interact.cpp:2571
 msgid "Needs repair:"
 msgstr "Meg kell szerelni:"
 
-#: src/veh_interact.cpp:2577
+#: src/veh_interact.cpp:2578
 #, c-format
 msgid "Air drag:       <color_light_blue>%5.2f</color>"
 msgstr "Légellenállás:  <color_light_blue>%5.2f</color>"
 
-#: src/veh_interact.cpp:2583
+#: src/veh_interact.cpp:2584
 #, c-format
 msgid "Water drag:     <color_light_blue>%5.2f</color>"
 msgstr "Vízellenállás:  <color_light_blue>%5.2f</color>"
 
-#: src/veh_interact.cpp:2590
+#: src/veh_interact.cpp:2591
 #, c-format
 msgid "Rolling drag:   <color_light_blue>%5.2f</color>"
 msgstr "Gördülési ell.:  <color_light_blue>%5.2f</color>"
 
-#: src/veh_interact.cpp:2596
+#: src/veh_interact.cpp:2597
 #, c-format
 msgid "Static drag:    <color_light_blue>%5d</color>"
 msgstr "Statikus ellen.:<color_light_blue>%5d</color>"
 
-#: src/veh_interact.cpp:2601
+#: src/veh_interact.cpp:2602
 #, c-format
 msgid "Offroad:        <color_light_blue>%4d</color>%%"
 msgstr "Terepen:        <color_light_blue>%4d</color>%%"
 
-#: src/veh_interact.cpp:2610
+#: src/veh_interact.cpp:2611
 #, c-format
 msgid ""
 "Draft/Clearance:<color_light_blue>%4.2f</color>m/<color_light_blue>%4.2f</color>m"
 msgstr ""
 
-#: src/veh_interact.cpp:2611
+#: src/veh_interact.cpp:2612
 #, c-format
 msgid ""
 "Draft/Clearance:<color_light_blue>%4.2f</color>m/<color_light_red>%4.2f</color>m"
 msgstr ""
 
-#: src/veh_interact.cpp:2633 src/veh_interact.cpp:2635
+#: src/veh_interact.cpp:2634 src/veh_interact.cpp:2636
 msgid "Name: "
 msgstr "Név:"
 
-#: src/veh_interact.cpp:2645
+#: src/veh_interact.cpp:2646
 #, c-format
 msgctxt "keybinding"
 msgid "<color_light_gray>%1$s<color_light_green>%2$s</color>%3$s</color>"
 msgstr "<color_light_gray>%1$s<color_light_green>%2$s</color>%3$s</color>"
 
-#: src/veh_interact.cpp:2647
+#: src/veh_interact.cpp:2648
 #, c-format
 msgctxt "keybinding"
 msgid "<color_dark_gray>%1$s<color_green>%2$s</color>%3$s</color>"
 msgstr "<color_dark_gray>%1$s<color_green>%2$s</color>%3$s</color>"
 
-#: src/veh_interact.cpp:2649
+#: src/veh_interact.cpp:2650
 #, c-format
 msgctxt "keybinding"
 msgid "<color_light_gray><color_light_green>%1$s</color>-%2$s</color>"
 msgstr ""
 
-#: src/veh_interact.cpp:2651
+#: src/veh_interact.cpp:2652
 #, c-format
 msgctxt "keybinding"
 msgid "<color_dark_gray><color_green>%1$s</color>-%2$s</color>"
 msgstr ""
 
-#: src/veh_interact.cpp:2676
+#: src/veh_interact.cpp:2677
 msgctxt "veh_interact"
 msgid "install"
 msgstr "felszerel"
 
-#: src/veh_interact.cpp:2679
+#: src/veh_interact.cpp:2680
 msgctxt "veh_interact"
 msgid "repair"
 msgstr "javít"
 
-#: src/veh_interact.cpp:2682
+#: src/veh_interact.cpp:2683
 msgctxt "veh_interact"
 msgid "mend"
 msgstr "helyrehoz"
 
-#: src/veh_interact.cpp:2685
+#: src/veh_interact.cpp:2686
 msgctxt "veh_interact"
 msgid "refill"
 msgstr "újratöltés"
 
-#: src/veh_interact.cpp:2688
+#: src/veh_interact.cpp:2689
 msgctxt "veh_interact"
 msgid "remove"
 msgstr "eltávolít"
 
-#: src/veh_interact.cpp:2691
+#: src/veh_interact.cpp:2692
 msgctxt "veh_interact"
 msgid "siphon"
 msgstr ""
 
-#: src/veh_interact.cpp:2694
+#: src/veh_interact.cpp:2695
 msgctxt "veh_interact"
 msgid "unload"
 msgstr "kitárazás"
 
-#: src/veh_interact.cpp:2697
+#: src/veh_interact.cpp:2698
 msgctxt "veh_interact"
 msgid "crew"
 msgstr "személyzet"
 
-#: src/veh_interact.cpp:2700
+#: src/veh_interact.cpp:2701
 msgctxt "veh_interact"
 msgid "shape"
 msgstr "forma"
 
-#: src/veh_interact.cpp:2703
+#: src/veh_interact.cpp:2704
 msgctxt "veh_interact"
 msgid "rename"
 msgstr "átnevezés"
 
-#: src/veh_interact.cpp:2706
+#: src/veh_interact.cpp:2707
 msgctxt "veh_interact"
 msgid "label"
 msgstr "címke"
 
-#: src/veh_interact.cpp:2709
+#: src/veh_interact.cpp:2710
 msgctxt "veh_interact"
 msgid "back"
 msgstr "vissza"
 
-#: src/veh_interact.cpp:2798
+#: src/veh_interact.cpp:2799
 msgid "Dur"
 msgstr "Trt"
 
-#: src/veh_interact.cpp:2798
+#: src/veh_interact.cpp:2799
 msgid "Durability"
 msgstr "Tartósság"
 
-#: src/veh_interact.cpp:2802
+#: src/veh_interact.cpp:2803
 msgid "Dmg"
 msgstr "Sbz"
 
 #. ~ Label of UI widget "weight_desc_label"
 #. ~ Label of UI widget "zenfs_weight_health_clause"
-#: src/veh_interact.cpp:2808 data/json/ui/weight.json
+#: src/veh_interact.cpp:2809 data/json/ui/weight.json
 #: data/json/ui/zenfs/diet.json data/mods/CrazyCataclysm/crazy_widgets.json
 msgid "Weight"
 msgstr "Súly"
 
-#: src/veh_interact.cpp:2808
+#: src/veh_interact.cpp:2809
 msgid "Wgt"
 msgstr "Súly"
 
-#: src/veh_interact.cpp:2814
+#: src/veh_interact.cpp:2815
 msgid "FoldVol"
 msgstr "HajTérf"
 
-#: src/veh_interact.cpp:2814
+#: src/veh_interact.cpp:2815
 msgid "Folded Volume"
 msgstr "Hajtogatott térfogata"
 
-#: src/veh_interact.cpp:2823
+#: src/veh_interact.cpp:2824
 msgid "Cap"
 msgstr "Kap"
 
-#: src/veh_interact.cpp:2823
+#: src/veh_interact.cpp:2824
 msgid "Capacity"
 msgstr "Kapacitás"
 
 #. ~ Label of UI widget "str_num"
 #. ~ Label of UI widget "zenfs_str"
-#: src/veh_interact.cpp:2830 data/json/ui/stats.json
+#: src/veh_interact.cpp:2831 data/json/ui/stats.json
 #: data/json/ui/zenfs/stats.json
 msgid "Str"
 msgstr "Erő"
 
-#: src/veh_interact.cpp:2834
+#: src/veh_interact.cpp:2835
 msgid "NoisRed"
 msgstr "ZajCsök"
 
-#: src/veh_interact.cpp:2834
+#: src/veh_interact.cpp:2835
 msgid "Noise Reduction"
 msgstr "Zajcsökkentés"
 
@@ -55381,7 +55435,7 @@ msgstr "Zajcsökkentés"
 #. ~ "menu_text" action message of item "kelvinist's candle (off)"
 #. ~ Name of material
 #. ~ Spell name
-#: src/veh_interact.cpp:2842 data/json/items/items_holiday.json
+#: src/veh_interact.cpp:2843 data/json/items/items_holiday.json
 #: data/json/items/tool/lighting.json
 #: data/mods/CrazyCataclysm/crazy_items.json
 #: data/mods/Magiclysm/items/caster_level_boosters.json
@@ -55390,184 +55444,184 @@ msgstr "Zajcsökkentés"
 msgid "Light"
 msgstr "Meggyújt"
 
-#: src/veh_interact.cpp:2857
+#: src/veh_interact.cpp:2858
 msgid "Dia"
 msgstr "Átm"
 
-#: src/veh_interact.cpp:2857
+#: src/veh_interact.cpp:2858
 msgid "Wheel Diameter"
 msgstr "Kerékátmérő"
 
-#: src/veh_interact.cpp:2861
+#: src/veh_interact.cpp:2862
 msgid "Wdt"
 msgstr "Szl"
 
-#: src/veh_interact.cpp:2861
+#: src/veh_interact.cpp:2862
 msgid "Wheel Width"
 msgstr "Kerék szélesség"
 
-#: src/veh_interact.cpp:2868
+#: src/veh_interact.cpp:2869
 msgid "Electric Power"
 msgstr "Elektromos energia"
 
-#: src/veh_interact.cpp:2868
+#: src/veh_interact.cpp:2869
 msgid "Epwr"
 msgstr "Elek"
 
-#: src/veh_interact.cpp:2877
+#: src/veh_interact.cpp:2878
 #, c-format
 msgid "Charge: <color_light_gray>%s</color>"
 msgstr "Töltés: <color_light_gray>%s</color>"
 
-#: src/veh_interact.cpp:2883
+#: src/veh_interact.cpp:2884
 #, c-format
 msgid "Drain: <color_light_gray>%+8d</color>"
 msgstr "Merülés: <color_light_gray>%+8d</color>"
 
-#: src/veh_interact.cpp:2888
+#: src/veh_interact.cpp:2889
 msgid "boardable"
 msgstr "átjárható"
 
-#: src/veh_interact.cpp:2888
+#: src/veh_interact.cpp:2889
 msgid "opaque"
 msgstr "áttetsző"
 
-#: src/veh_interact.cpp:2888
+#: src/veh_interact.cpp:2889
 msgid "openable"
 msgstr "nyitható"
 
-#: src/veh_interact.cpp:2903
+#: src/veh_interact.cpp:2904
 msgid "BatCap"
 msgstr "Aksi"
 
-#: src/veh_interact.cpp:2903
+#: src/veh_interact.cpp:2904
 msgid "Battery Capacity"
 msgstr "Akkumulátor kapacitás"
 
-#: src/veh_interact.cpp:2909
+#: src/veh_interact.cpp:2910
 #, c-format
 msgid "Power: <color_light_gray>%+8d</color>"
 msgstr "Áram: <color_light_gray>%+8d</color>"
 
-#: src/veh_interact.cpp:2932
+#: src/veh_interact.cpp:2933
 msgid "like new"
 msgstr "újszerű"
 
 #. ~ Bash damage verb of material
 #. ~ Damage adjective of material
-#: src/veh_interact.cpp:2936 data/json/materials.json
+#: src/veh_interact.cpp:2937 data/json/materials.json
 #: data/mods/Aftershock/items/materials.json
 #: data/mods/Magiclysm/materials.json data/mods/Xedra_Evolved/material.json
 #: data/mods/aftershock_exoplanet/items/materials.json
 msgid "dented"
 msgstr "horpadt"
 
-#: src/veh_interact.cpp:2940
+#: src/veh_interact.cpp:2941
 msgid "battered"
 msgstr "viharvert"
 
-#: src/veh_interact.cpp:2944
+#: src/veh_interact.cpp:2945
 msgid "wrecked"
 msgstr "roncs"
 
-#: src/veh_interact.cpp:2969
+#: src/veh_interact.cpp:2970
 msgid "Select tank to siphon:"
 msgstr "Melyik tartályt szívod le?"
 
-#: src/veh_interact.cpp:3005
+#: src/veh_interact.cpp:3006
 msgid "Remove what?"
 msgstr "Mit távolítasz el?"
 
-#: src/veh_interact.cpp:3026
+#: src/veh_interact.cpp:3027
 msgid "The vehicle has no charged plutonium cells."
 msgstr "Ebben a járműben nincsen feltöltött plutónium cella."
 
-#: src/veh_interact.cpp:3085
+#: src/veh_interact.cpp:3086
 #, c-format
 msgid "You don't meet the requirements to install the %s."
 msgstr "A(z) %s beszereléséhez nem felesz meg a feltételeknek."
 
-#: src/veh_interact.cpp:3086
+#: src/veh_interact.cpp:3087
 #, c-format
 msgid "<npcname> doesn't meet the requirements to install the %s."
 msgstr ""
 
-#: src/veh_interact.cpp:3107
+#: src/veh_interact.cpp:3108
 #, c-format
 msgid "Could not find base part in requirements for %s."
 msgstr "A(z) %s feltételei között nem található meg az alap alkatrész."
 
-#: src/veh_interact.cpp:3147
+#: src/veh_interact.cpp:3148
 #, c-format
 msgid "You install a %1$s into the %2$s."
 msgstr "Beszereled a(z) %1$st a(z) %2$sba."
 
 #. ~ 1$s vehicle name, 2$s tank name
-#: src/veh_interact.cpp:3183
+#: src/veh_interact.cpp:3184
 #, c-format
 msgid "You refill the %1$s's %2$s."
 msgstr "A(z) %1$s-t feltöltöd ezzel: %2$s."
 
 #. ~ 1$s vehicle name, 2$s tank name
-#: src/veh_interact.cpp:3186
+#: src/veh_interact.cpp:3187
 #, c-format
 msgid "You completely refill the %1$s's %2$s."
 msgstr "A(z) %1$s-t teljesen feltankolod ezzel: %2$s."
 
 #. ~ 1$s vehicle name, 2$s reactor name
-#: src/veh_interact.cpp:3204
+#: src/veh_interact.cpp:3205
 #, c-format
 msgid "You refuel the %1$s's %2$s."
 msgstr "A(z) %1$s-t feltankolod ezzel: %2$s."
 
 #. ~ 1$s is the vehicle part name
-#: src/veh_interact.cpp:3224
+#: src/veh_interact.cpp:3225
 #, c-format
 msgid "The %1$s has already been removed by someone else."
 msgstr ""
 
 #. ~  1$s is the vehicle part name
-#: src/veh_interact.cpp:3239
+#: src/veh_interact.cpp:3240
 #, c-format
 msgid "You don't meet the requirements to remove the %1$s."
 msgstr ""
 
-#: src/veh_interact.cpp:3260
+#: src/veh_interact.cpp:3261
 #, c-format
 msgid "You remove the broken %1$s from the %2$s."
 msgstr "Eltávolítod az elromlott %1$st innen: %2$s."
 
-#: src/veh_interact.cpp:3262
+#: src/veh_interact.cpp:3263
 #, c-format
 msgid "You smash the %1$s to bits, removing it from the %2$s."
 msgstr ""
 
-#: src/veh_interact.cpp:3265
+#: src/veh_interact.cpp:3266
 #, c-format
 msgid "You remove the %1$s from the %2$s."
 msgstr "Eltávolítod a %1$st innen: %2$s."
 
-#: src/veh_interact.cpp:3294
+#: src/veh_interact.cpp:3295
 #, c-format
 msgid "<npcname> fails to recover %1$d %2$s."
 msgstr ""
 
-#: src/veh_interact.cpp:3305
+#: src/veh_interact.cpp:3306
 #, c-format
 msgid "You fail to recover %1$s."
 msgstr ""
 
-#: src/veh_interact.cpp:3306
+#: src/veh_interact.cpp:3307
 #, c-format
 msgid "<npcname> fails to recover %1$s."
 msgstr ""
 
-#: src/veh_interact.cpp:3351
+#: src/veh_interact.cpp:3352
 #, c-format
 msgid "You completely dismantle the %s."
 msgstr "Teljesen szétszereled: %s."
 
-#: src/veh_interact.cpp:3387
+#: src/veh_interact.cpp:3388
 #, c-format
 msgid "You disconnect the %s's power connection."
 msgstr ""
@@ -79388,7 +79442,7 @@ msgstr "Nem ezt szeretted volna életként."
 #. ~ Description of effect type "Unhappy, Sad, Depressed"
 #: data/json/effects.json
 msgid "You wonder what's the point of fighting?"
-msgstr ""
+msgstr "Azon tűnődsz, hogy mi értelme van a harcnak?"
 
 #. ~ Description of effect type "Unhappy, Sad, Depressed"
 #: data/json/effects.json
@@ -79398,7 +79452,7 @@ msgstr "Mikor lesz már vége ennek a nyomorúságnak?"
 #. ~ Miss message of effect type "Unhappy, Sad, Depressed"
 #: data/json/effects.json
 msgid "You dejectedly consider the pointlessness of it all."
-msgstr ""
+msgstr "Csüggedten gondolkodsz az egész értelmetlenségén."
 
 #. ~ Name of effect type id "irradiated"
 #. ~ Name of effect type id "effect_weakening"
@@ -80766,7 +80820,7 @@ msgstr "Páncélod segítségével könnyedén észlelheted a túlvilági jelenl
 #: data/mods/Xedra_Evolved/effects/effects.json
 #: data/mods/Xedra_Evolved/enchantments/mutations.json
 msgid "You sense an otherworldy danger here."
-msgstr ""
+msgstr "Valami túlvilági veszélyt érzel itt."
 
 #. ~ Name of a enchantment
 #: data/json/enchantments.json
@@ -83716,6 +83770,8 @@ msgid ""
 "This piece of armor is an energy barrier and will break after absorbing a "
 "certain amount of damage."
 msgstr ""
+"Ez a páncéldarab egy energiagát, és bizonyos mennyiségű sebzés elnyelése "
+"után megtörik."
 
 #. ~ Please leave anything in <angle brackets> unchanged.
 #. ~ Description of JSON flag "ROBOFAC_ROBOT_MEDIUM"
@@ -87502,7 +87558,7 @@ msgstr ""
 #: data/json/hobbies.json
 msgctxt "profession_male"
 msgid "Soccer (Beginner)"
-msgstr ""
+msgstr "Labdarúgás (kezdő)"
 
 #. ~ Description of profession "Soccer (Beginner)" for male
 #: data/json/hobbies.json
@@ -87511,12 +87567,14 @@ msgid ""
 "You used to kick a ball around with your friends, having fun together.  "
 "Though it may not be the case anymore."
 msgstr ""
+"Régebben labdáztál a barátaiddal, és együtt szórakoztatok.  Bár ez ma már "
+"lehet, hogy nem így van."
 
 #. ~ Profession name for female
 #: data/json/hobbies.json
 msgctxt "profession_female"
 msgid "Soccer (Beginner)"
-msgstr ""
+msgstr "Soccer (Beginner)"
 
 #. ~ Description of profession "Soccer (Beginner)" for female
 #: data/json/hobbies.json
@@ -87525,12 +87583,14 @@ msgid ""
 "You used to kick a ball around with your friends, having fun together.  "
 "Though it may not be the case anymore."
 msgstr ""
+"Régebben labdáztál a barátaiddal, és együtt szórakoztatok.  Bár ez ma már "
+"lehet, hogy nem így van."
 
 #. ~ Profession name for male
 #: data/json/hobbies.json
 msgctxt "profession_male"
 msgid "Soccer (Intermediate)"
-msgstr ""
+msgstr "Labdarúgás (középhaladó)"
 
 #. ~ Description of profession "Soccer (Intermediate)" for male
 #: data/json/hobbies.json
@@ -87540,12 +87600,15 @@ msgid ""
 "tackles.  Whether you can go past the backline of the undead is a question "
 "yet to be answered."
 msgstr ""
+"A szép játék iránti szenvedélyed megmutatkozik a cseleiden, technikádon és "
+"szereléseiden. Hogy azonban át tudsz-e jutni az élőhalottak védelmén, az még"
+" nyitott kérdés."
 
 #. ~ Profession name for female
 #: data/json/hobbies.json
 msgctxt "profession_female"
 msgid "Soccer (Intermediate)"
-msgstr ""
+msgstr "Labdarúgás (középhaladó)"
 
 #. ~ Description of profession "Soccer (Intermediate)" for female
 #: data/json/hobbies.json
@@ -87555,12 +87618,15 @@ msgid ""
 "tackles.  Whether you can go past the backline of the undead is a question "
 "yet to be answered."
 msgstr ""
+"A szép játék iránti szenvedélyed megmutatkozik a cseleiden, technikádon és "
+"szereléseiden. Hogy azonban át tudsz-e jutni az élőhalottak védelmén, az még"
+" nyitott kérdés."
 
 #. ~ Profession name for male
 #: data/json/hobbies.json
 msgctxt "profession_male"
 msgid "Soccer (Expert)"
-msgstr ""
+msgstr "Labdarúgás (profi)"
 
 #. ~ Description of profession "Soccer (Expert)" for male
 #: data/json/hobbies.json
@@ -87569,12 +87635,15 @@ msgid ""
 "You were on trial at a professional club, ready to get a contract.  What a "
 "great opportunity for you, if only your coaches were still alive."
 msgstr ""
+"Próbajátékon voltál egy profi klubnál, készen arra, hogy szerződést kapj.  "
+"Micsoda remek lehetőség volt ez számodra – kár, hogy az edzőid már nem "
+"élnek."
 
 #. ~ Profession name for female
 #: data/json/hobbies.json
 msgctxt "profession_female"
 msgid "Soccer (Expert)"
-msgstr ""
+msgstr "Labdarúgás (profi)"
 
 #. ~ Description of profession "Soccer (Expert)" for female
 #: data/json/hobbies.json
@@ -87583,6 +87652,9 @@ msgid ""
 "You were on trial at a professional club, ready to get a contract.  What a "
 "great opportunity for you, if only your coaches were still alive."
 msgstr ""
+"Próbajátékon voltál egy profi klubnál, készen arra, hogy szerződést kapj.  "
+"Micsoda remek lehetőség volt ez számodra – kár, hogy az edzőid már nem "
+"élnek."
 
 #. ~ Profession name for male
 #: data/json/hobbies.json
@@ -89087,7 +89159,7 @@ msgstr "Hangkeltés"
 #. ~ Item category name used for headers
 #: data/json/item_category.json
 msgid "Files"
-msgstr ""
+msgstr "Akták"
 
 #. ~ Item category name used for descriptive text
 #: data/json/item_category.json
@@ -93901,12 +93973,12 @@ msgstr "Epoxi"
 #. ~ Name of material
 #: data/json/materials.json
 msgid "Fiberglass Laminate"
-msgstr ""
+msgstr "Üvegszálas laminált"
 
 #. ~ Name of material
 #: data/json/materials.json
 msgid "Carbon Fiber Composite"
-msgstr ""
+msgstr "Szénszálas kompozit"
 
 #. ~ Name of material
 #: data/json/materials.json
@@ -94640,6 +94712,11 @@ msgstr "Keményacél"
 
 #. ~ Name of material
 #: data/json/materials.json
+msgid "Exodii Ceramic"
+msgstr ""
+
+#. ~ Name of material
+#: data/json/materials.json
 msgid "Budget Steel Chain"
 msgstr "Gazdaságos acéllánc"
 
@@ -94681,7 +94758,7 @@ msgstr "Energikus nanovegyület"
 #. ~ Name of material
 #: data/json/materials.json
 msgid "Plutonium"
-msgstr ""
+msgstr "lutónium"
 
 #. ~ Name of material
 #: data/json/materials.json
@@ -94701,17 +94778,17 @@ msgstr ""
 #. ~ Name of material
 #: data/json/materials.json
 msgid "Nitrogen"
-msgstr ""
+msgstr "Nitrogén"
 
 #. ~ Name of material
 #: data/json/materials.json
 msgid "Oxygen"
-msgstr ""
+msgstr "Oxigén"
 
 #. ~ Name of material
 #: data/json/materials.json
 msgid "Hydrogen"
-msgstr ""
+msgstr "Hidrogén"
 
 #. ~ Name of material
 #: data/json/materials.json
@@ -94763,7 +94840,7 @@ msgstr "kibomló"
 #. ~ Name of material
 #: data/json/materials.json
 msgid "Ballistic Barrier"
-msgstr ""
+msgstr "Ballisztikus akadály"
 
 #. ~ Name of material
 #: data/json/materials.json
@@ -95056,7 +95133,7 @@ msgstr "Élvezted a beszélgetést"
 #. ~ Morale text
 #: data/json/morale_types.json
 msgid "Had to suffer through an inane conversation"
-msgstr ""
+msgstr "Végig kellett szenvednem egy értelmetlen beszélgetést"
 
 #. ~ Morale text
 #: data/json/morale_types.json
@@ -95392,7 +95469,7 @@ msgstr "Koszos ruha"
 #. ~ Morale text
 #: data/json/morale_types.json
 msgid "Anguished by memories of butchering a person's corpse"
-msgstr ""
+msgstr "Gyötrik az emlékek, hogy feldarabolta egy ember holttestét."
 
 #. ~ Morale text
 #: data/json/morale_types.json
@@ -103311,6 +103388,9 @@ msgid ""
 "  You were no trained assassin, but you know how to shoot a gun and get out "
 "of dodge quickly."
 msgstr ""
+"Piszkos munkát végeztél egy bandának, a maffiának, vagy bárkinek, akinek "
+"volt elég pénze. Nem voltál képzett bérgyilkos, de tudtad, hogyan kell lőni "
+"és gyorsan eltűnni a helyszínről."
 
 #. ~ Profession name for female
 #: data/json/professions.json
@@ -103326,6 +103406,9 @@ msgid ""
 "  You were no trained assassin, but you know how to shoot a gun and get out "
 "of dodge quickly."
 msgstr ""
+"Piszkos munkát végeztél egy bandának, a maffiának, vagy bárkinek, akinek "
+"volt elég pénze. Nem voltál képzett bérgyilkos, de tudtad, hogyan kell lőni "
+"és gyorsan eltűnni a helyszínről."
 
 #. ~ Profession name for male
 #: data/json/professions.json
@@ -120639,14 +120722,14 @@ msgstr ""
 #: data/json/effects_on_condition/mutation_eocs/mutation_effect_eocs.json
 #: data/json/monster_special_attacks/spells.json
 msgid "CHIMERA"
-msgstr ""
+msgstr "KIMÉRA"
 
 #. ~ Snippet in category "<radiation_category>"
 #. ~ Snippet in category "<random_category>"
 #: data/json/effects_on_condition/mutation_eocs/mutation_effect_eocs.json
 #: data/json/monster_special_attacks/spells.json
 msgid "INSECT"
-msgstr ""
+msgstr "ROVAR"
 
 #. ~ Snippet in category "<radiation_category>"
 #. ~ Snippet in category "<random_category>"
@@ -120660,7 +120743,7 @@ msgstr ""
 #: data/json/effects_on_condition/mutation_eocs/mutation_effect_eocs.json
 #: data/json/monster_special_attacks/spells.json
 msgid "URSINE"
-msgstr ""
+msgstr "MEDVEFÉLE"
 
 #. ~ Snippet in category "<radiation_category>"
 #. ~ Snippet in category "<random_category>"
@@ -120674,7 +120757,7 @@ msgstr ""
 #: data/json/effects_on_condition/mutation_eocs/mutation_effect_eocs.json
 #: data/json/monster_special_attacks/spells.json
 msgid "BIRD"
-msgstr ""
+msgstr "MADÁR"
 
 #. ~ Snippet in category "<radiation_category>"
 #. ~ Snippet in category "<random_category>"
@@ -120692,28 +120775,28 @@ msgstr "ORVOSI"
 #: data/json/effects_on_condition/mutation_eocs/mutation_effect_eocs.json
 #: data/json/monster_special_attacks/spells.json
 msgid "LUPINE"
-msgstr ""
+msgstr "FARKASFÉLE"
 
 #. ~ Snippet in category "<radiation_category>"
 #. ~ Snippet in category "<random_category>"
 #: data/json/effects_on_condition/mutation_eocs/mutation_effect_eocs.json
 #: data/json/monster_special_attacks/spells.json
 msgid "RAT"
-msgstr ""
+msgstr "PATKÁNY"
 
 #. ~ Snippet in category "<radiation_category>"
 #. ~ Snippet in category "<random_category>"
 #: data/json/effects_on_condition/mutation_eocs/mutation_effect_eocs.json
 #: data/json/monster_special_attacks/spells.json
 msgid "SLIME"
-msgstr ""
+msgstr "NYÁLKA"
 
 #. ~ Snippet in category "<radiation_category>"
 #. ~ Snippet in category "<random_category>"
 #: data/json/effects_on_condition/mutation_eocs/mutation_effect_eocs.json
 #: data/json/monster_special_attacks/spells.json
 msgid "PLANT"
-msgstr ""
+msgstr "NÖVÉNY"
 
 #. ~ Snippet in category "<radiation_category>"
 #. ~ Snippet in category "<random_category>"
@@ -120727,14 +120810,14 @@ msgstr ""
 #: data/json/effects_on_condition/mutation_eocs/mutation_effect_eocs.json
 #: data/json/monster_special_attacks/spells.json
 msgid "RAPTOR"
-msgstr ""
+msgstr "RAPTOR"
 
 #. ~ Snippet in category "<radiation_category>"
 #. ~ Snippet in category "<random_category>"
 #: data/json/effects_on_condition/mutation_eocs/mutation_effect_eocs.json
 #: data/json/monster_special_attacks/spells.json
 msgid "MOUSE"
-msgstr ""
+msgstr "EGÉR"
 
 #. ~ Snippet in category "<radiation_category>"
 #. ~ Snippet in category "<random_category>"
@@ -120755,21 +120838,21 @@ msgstr ""
 #: data/json/effects_on_condition/mutation_eocs/mutation_effect_eocs.json
 #: data/json/monster_special_attacks/spells.json
 msgid "FISH"
-msgstr ""
+msgstr "HAL"
 
 #. ~ Snippet in category "<radiation_category>"
 #. ~ Snippet in category "<random_category>"
 #: data/json/effects_on_condition/mutation_eocs/mutation_effect_eocs.json
 #: data/json/monster_special_attacks/spells.json
 msgid "HUMAN"
-msgstr ""
+msgstr "EMBER"
 
 #. ~ Snippet in category "<radiation_category>"
 #. ~ Snippet in category "<random_category>"
 #: data/json/effects_on_condition/mutation_eocs/mutation_effect_eocs.json
 #: data/json/monster_special_attacks/spells.json
 msgid "RABBIT"
-msgstr ""
+msgstr "NYUL"
 
 #. ~ Snippet in category "<radiation_category>"
 #. ~ Snippet in category "<random_category>"
@@ -120783,7 +120866,7 @@ msgstr ""
 #: data/json/effects_on_condition/mutation_eocs/mutation_effect_eocs.json
 #: data/json/monster_special_attacks/spells.json
 msgid "BEAST"
-msgstr ""
+msgstr "VADÁLLAT"
 
 #. ~ Snippet in category "<radiation_category>"
 #. ~ Snippet in category "<random_category>"
@@ -120804,7 +120887,7 @@ msgstr ""
 #: data/json/effects_on_condition/mutation_eocs/mutation_effect_eocs.json
 #: data/json/monster_special_attacks/spells.json
 msgid "LIZARD"
-msgstr ""
+msgstr "GYÍK"
 
 #. ~ Snippet in category "<radiation_category>"
 #. ~ Snippet in category "<random_category>"
@@ -121337,36 +121420,36 @@ msgstr ""
 #. ~ Text variable value in effect in EoC "EOC_PORTAL_STORM_DUNGEON"
 #: data/json/effects_on_condition/nether_eocs/portal_storm_effect_on_condition.json
 msgid "Somewhere"
-msgstr ""
+msgstr "Valahol"
 
 #. ~ Text variable value in effect in EoC "EOC_PORTAL_STORM_CELL"
 #. ~ Text variable value in effect in EoC "EOC_PORTAL_STORM_DUNGEON"
 #: data/json/effects_on_condition/nether_eocs/portal_storm_effect_on_condition.json
 msgid "Nowhere"
-msgstr ""
+msgstr "Sehol"
 
 #. ~ Text variable value in effect in EoC "EOC_PORTAL_STORM_CELL"
 #. ~ Text variable value in effect in EoC "EOC_PORTAL_STORM_DUNGEON"
 #: data/json/effects_on_condition/nether_eocs/portal_storm_effect_on_condition.json
 msgid "Everywhere"
-msgstr ""
+msgstr "Mindenhol"
 
 #. ~ Text variable value in effect in EoC "EOC_PORTAL_STORM_CELL"
 #. ~ Text variable value in effect in EoC "EOC_PORTAL_STORM_DUNGEON"
 #: data/json/effects_on_condition/nether_eocs/portal_storm_effect_on_condition.json
 msgid "Yesterday"
-msgstr ""
+msgstr "Tegnap"
 
 #. ~ Text variable value in effect in EoC "EOC_PORTAL_STORM_CELL"
 #. ~ Text variable value in effect in EoC "EOC_PORTAL_STORM_DUNGEON"
 #: data/json/effects_on_condition/nether_eocs/portal_storm_effect_on_condition.json
 msgid "Tomorrow"
-msgstr ""
+msgstr "Holnap"
 
 #. ~ Fail message in teleportation in effect in EoC "EOC_PORTAL_STORM_CELL"
 #: data/json/effects_on_condition/nether_eocs/portal_storm_effect_on_condition.json
 msgid "that sucks"
-msgstr ""
+msgstr "ez szívás"
 
 #. ~ Player message in effect in EoC "EOC_PORTAL_STORM_CELL_TELEPORT" in
 #. nested EOCs in effect in EoC "EOC_PORTAL_STORM_CELL"
@@ -129293,6 +129376,21 @@ msgid ""
 "A wooden pallet, containing cargo and possessing a torn cover.  You can "
 "reach the contents, but it's awfully hard due to the belts still being in "
 "place."
+msgstr ""
+
+#. ~ Furniture name
+#. ~ Item name
+#: data/json/furniture_and_terrain/furniture-storage.json
+#: data/json/items/tool/workshop.json
+msgid "Exodii kiln"
+msgid_plural "Exodii kilns"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of furniture "Exodii kiln"
+#: data/json/furniture_and_terrain/furniture-storage.json
+msgid ""
+"An imposing kiln produced by the Exodii, used to produce their ceramic armor"
 msgstr ""
 
 #. ~ Furniture name
@@ -149628,6 +149726,20 @@ msgstr[1] ""
 msgid ""
 "Blood mixed with acidic compounds, foul-smelling and extremely corrosive, a "
 "means of refining this could net some useful chemicals."
+msgstr ""
+
+#. ~ Item name
+#: data/json/items/chemicals_and_resources.json
+msgid "exodii ceramic patch"
+msgid_plural "exodii ceramic patch"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "exodii ceramic patch"
+#: data/json/items/chemicals_and_resources.json
+msgid ""
+"A patch kit produced by the Exodii for repairing their nanotube-infused "
+"ceramics.  Requires a kiln."
 msgstr ""
 
 #. ~ Item name
@@ -193066,14 +193178,29 @@ msgstr[1] "símaszk"
 msgid "A warm covering that protects the head and face from the cold."
 msgstr "Három lyukú álcasapka, ami a fejet és az arcot védi a hidegtől."
 
-#. ~ Item name
+#. ~ Variant name of item "balaclava"
 #: data/json/items/armor/masks.json
-msgid "skull balaclava"
-msgid_plural "skull balaclavas"
+msgid "black balaclava"
+msgid_plural "black balaclavas"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Description of "skull balaclava"
+#. ~ Description of variant "black balaclava" of item "balaclava"
+#. ~ Description of variant "long black dress" of item "long dress"
+#. ~ Description of variant "black binder" of item "binder"
+#: data/json/items/armor/masks.json data/json/items/armor/torso_clothes.json
+#: data/json/items/armor/undergarment.json
+msgid "This one is black."
+msgstr ""
+
+#. ~ Variant name of item "balaclava"
+#: data/json/items/armor/masks.json
+msgid "skull print balaclava"
+msgid_plural "skull print balaclavas"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of variant "skull print balaclava" of item "balaclava"
 #: data/json/items/armor/masks.json
 msgid ""
 "A skull-print balaclava covering the head and face, commonly used by "
@@ -195749,6 +195876,78 @@ msgid ""
 msgstr ""
 
 #. ~ Item name
+#: data/json/items/armor/scarfs.json
+msgid "nylon throat guard"
+msgid_plural "nylon throat guards"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "nylon throat guard"
+#: data/json/items/armor/scarfs.json
+msgid ""
+"A common nylon throat guard commonly used for neck protection when playing "
+"sports."
+msgstr ""
+
+#. ~ Item name
+#: data/json/items/armor/scarfs.json
+msgid "canvas throat guard"
+msgid_plural "canvas throat guards"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "canvas throat guard"
+#: data/json/items/armor/scarfs.json
+msgid ""
+"A common canvas throat guard commonly used for neck protection when playing "
+"sports like hockey."
+msgstr ""
+
+#. ~ Item name
+#: data/json/items/armor/scarfs.json
+msgid "plastic throat guard"
+msgid_plural "plastic throat guards"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "plastic throat guard"
+#: data/json/items/armor/scarfs.json
+msgid ""
+"A rare variety of throat guard originally known as a gorget and used for "
+"neck protection in HEMA.  It's made from thick rubber covered by nylon.  It "
+"offers good protection for the throat, but it only covers a small portion of"
+" the nape."
+msgstr ""
+
+#. ~ Item name
+#: data/json/items/armor/scarfs.json
+msgid "cut-resistant throat guard"
+msgid_plural "cut-resistant throat guards"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "cut-resistant throat guard"
+#: data/json/items/armor/scarfs.json
+msgid ""
+"A cut-resistant Kevlar throat guard, commonly used by welders, security "
+"forces and in some sports."
+msgstr ""
+
+#. ~ Item name
+#: data/json/items/armor/scarfs.json
+msgid "mercenary throat guard"
+msgid_plural "mercenary throat guards"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "mercenary throat guard"
+#: data/json/items/armor/scarfs.json
+msgid ""
+"A ballistic collar modified to wear it as a standalone armor, carefully "
+"combined with a regular nylon throat guard for extra protection."
+msgstr ""
+
+#. ~ Item name
 #: data/json/items/armor/sheath.json
 msgid "axe ring holster"
 msgid_plural "axe ring holsters"
@@ -197482,66 +197681,6 @@ msgstr ""
 
 #. ~ Item name
 #: data/json/items/armor/suits_clothes.json
-msgid "dinosaur suit"
-msgid_plural "dinosaur suits"
-msgstr[0] "dinoszaurusz jelmez"
-msgstr[1] "dinoszaurusz jelmez"
-
-#. ~ Description of "dinosaur suit"
-#. ~ Description of variant "dinosaur fursuit" of item "fursuit"
-#: data/json/items/armor/suits_clothes.json
-msgid ""
-"A full-body costume in the form of an anthropomorphic dinosaur.  It is quite"
-" encumbering and has little storage but is very warm."
-msgstr ""
-"Egész testet beborító dinoszaurusz jelmez. Rendkívül ormótlan és kevés dolog"
-" fér el benne, de jó meleg."
-
-#. ~ Item name
-#: data/json/items/armor/suits_clothes.json
-msgid "shark suit"
-msgid_plural "shark suits"
-msgstr[0] "cápavédelmi ruha"
-msgstr[1] "cápavédelmi ruha"
-
-#. ~ Description of "shark suit"
-#: data/json/items/armor/suits_clothes.json
-msgid ""
-"A full-body costume in the form of an anthropomorphic bull shark.  It is "
-"quite encumbering and has little storage but is very warm."
-msgstr ""
-
-#. ~ Item name
-#: data/json/items/armor/suits_clothes.json
-msgid "dragon suit"
-msgid_plural "dragon suits"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description of "dragon suit"
-#: data/json/items/armor/suits_clothes.json
-msgid ""
-"A cartoonish recreation of a western dragon remade into a suit.  Effectively"
-" useless nowadays, unless you think the mutants will treat you as one of "
-"their own if you wear this.  The wings really get in the way."
-msgstr ""
-
-#. ~ Item name
-#: data/json/items/armor/suits_clothes.json
-msgid "feline suit"
-msgid_plural "feline suits"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description of "feline suit"
-#: data/json/items/armor/suits_clothes.json
-msgid ""
-"A fursuit made to resemble an anthropomorphic feline of indistinguishable "
-"breed.  It's a decent source of faux fur if you need it."
-msgstr ""
-
-#. ~ Item name
-#: data/json/items/armor/suits_clothes.json
 msgid "flag jumpsuit"
 msgid_plural "flag jumpsuits"
 msgstr[0] ""
@@ -197629,6 +197768,18 @@ msgstr[1] ""
 msgid "This one is green."
 msgstr ""
 
+#. ~ Variant name of item "jumpsuit"
+#: data/json/items/armor/suits_clothes.json
+msgid "Hub 01 jumpsuit"
+msgid_plural "Hub 01 jumpsuits"
+msgstr[0] "Hub 01 kezeslábas"
+msgstr[1] "Hub 01 kezeslábas"
+
+#. ~ Description of variant "Hub 01 jumpsuit" of item "jumpsuit"
+#: data/json/items/armor/suits_clothes.json
+msgid "A brown jumpsuit worn by the staff of Hub 01."
+msgstr "A Hub 01 személyzete által viselt barna kezeslábas."
+
 #. ~ Description of "jumpsuit"
 #: data/json/items/armor/suits_clothes.json
 msgid ""
@@ -197698,18 +197849,6 @@ msgstr ""
 #: data/json/items/armor/suits_clothes.json
 msgid "You facial skin is now visible."
 msgstr ""
-
-#. ~ Item name
-#: data/json/items/armor/suits_clothes.json
-msgid "Hub 01 jumpsuit"
-msgid_plural "Hub 01 jumpsuits"
-msgstr[0] "Hub 01 kezeslábas"
-msgstr[1] "Hub 01 kezeslábas"
-
-#. ~ Description of "Hub 01 jumpsuit"
-#: data/json/items/armor/suits_clothes.json
-msgid "A brown jumpsuit worn by the staff of Hub 01."
-msgstr "A Hub 01 személyzete által viselt barna kezeslábas."
 
 #. ~ Item name
 #: data/json/items/armor/suits_clothes.json
@@ -197954,6 +198093,15 @@ msgid "dinosaur fursuit"
 msgid_plural "dinosaur fursuits"
 msgstr[0] ""
 msgstr[1] ""
+
+#. ~ Description of variant "dinosaur fursuit" of item "fursuit"
+#: data/json/items/armor/suits_clothes.json
+msgid ""
+"A full-body costume in the form of an anthropomorphic dinosaur.  It is quite"
+" encumbering and has little storage but is very warm."
+msgstr ""
+"Egész testet beborító dinoszaurusz jelmez. Rendkívül ormótlan és kevés dolog"
+" fér el benne, de jó meleg."
 
 #. ~ Item name
 #: data/json/items/armor/suits_clothes.json
@@ -201618,13 +201766,6 @@ msgid "long black dress"
 msgid_plural "long black dresses"
 msgstr[0] ""
 msgstr[1] ""
-
-#. ~ Description of variant "long black dress" of item "long dress"
-#. ~ Description of variant "black binder" of item "binder"
-#: data/json/items/armor/torso_clothes.json
-#: data/json/items/armor/undergarment.json
-msgid "This one is black."
-msgstr ""
 
 #. ~ Variant name of item "long dress"
 #: data/json/items/armor/torso_clothes.json
@@ -280301,19 +280442,6 @@ msgstr ""
 
 #. ~ Item name
 #: data/json/items/melee/bludgeons.json
-msgid "glass shiv"
-msgid_plural "glass shivs"
-msgstr[0] "üveges csuri"
-msgstr[1] "üveges csuri"
-
-#. ~ Description of "glass shiv"
-#: data/json/items/melee/bludgeons.json
-msgid "A glass shard with wrapping at one end so it can be safely wielded."
-msgstr ""
-"Biztonságos használat okán az egyik végén betekert üvegszilánk vágófegyver."
-
-#. ~ Item name
-#: data/json/items/melee/bludgeons.json
 #: data/mods/Aftershock/items/weapons.json
 #: data/mods/aftershock_exoplanet/items/weapons.json
 msgid "golf club"
@@ -281288,6 +281416,42 @@ msgstr[1] "harci kalapács"
 msgid ""
 "A medieval hammer with a spike on one end, made for battle.  Its odd shape "
 "and balance make it an excellent weapon, but an ineffective tool."
+msgstr ""
+
+#. ~ Item name
+#: data/json/items/melee/bludgeons.json
+msgid "breacher"
+msgid_plural "breachers"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "breacher"
+#: data/json/items/melee/bludgeons.json
+msgid ""
+"Some sort of large prybar of a make and manufacturer you've never seen "
+"before.  On the heavier end is a set of thick, crabclaw like shears "
+"connected to a hydraulic piston, capable of cutting or prying through metal "
+"with great force.  The Exodii use these for general purpose breaching and "
+"scrapping heavy machines, and it's been retrofitted to run on their bionic "
+"power."
+msgstr ""
+
+#. ~ Item name
+#: data/json/items/melee/bludgeons.json
+msgid "sapper"
+msgid_plural "sappers"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "sapper"
+#: data/json/items/melee/bludgeons.json
+msgid ""
+"A metal pole saw covered in faded orange paint and warning labels written in"
+" an unknown language.  The circular blade at the end is over an inch thick, "
+"its deeply dished grooves suggesting its purpose as a digging implement "
+"rather than a cutter.  The Exodii use these to chew through reinforced walls"
+" like concrete or solid steel, and it's been retrofitted to run on their "
+"bionic power."
 msgstr ""
 
 #. ~ Item name
@@ -282430,6 +282594,25 @@ msgid ""
 "well.  Though it is quite sturdy, it can't hold an edge very well."
 msgstr ""
 
+#. ~ Variant name of gun mod "Bayonet"
+#. ~ Variant name of item "Bayonet"
+#: data/json/items/melee/swords_and_blades.json
+msgid "L-backswerda"
+msgid_plural "L-backswerdas"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of variant "L-backswerda"of gun mod "Bayonet"
+#. ~ Description of variant "L-backswerda" of item "Bayonet"
+#: data/json/items/melee/swords_and_blades.json
+msgid ""
+"A bayonet, although not of any model you're familiar with.  Despite "
+"differences in appearance it seems analogous to any other bayonet - The "
+"chrome shaded blade is worn but well-maintained, with a grooved edge on its "
+"back to act as a sawing implement.  The handle and guard have some "
+"additional mechanisms installed to help affix it to a variety of firearms."
+msgstr ""
+
 #. ~ Item name
 #. ~ Gun mod name
 #: data/json/items/melee/swords_and_blades.json
@@ -282713,6 +282896,19 @@ msgid ""
 "A knife consisting of a long, somewhat sharpened spike and a tightly-wrapped"
 " rag as a handle.  Not as good as a real knife, but it'll do in a pinch."
 msgstr ""
+
+#. ~ Item name
+#: data/json/items/melee/swords_and_blades.json
+msgid "glass shiv"
+msgid_plural "glass shivs"
+msgstr[0] "üveges csuri"
+msgstr[1] "üveges csuri"
+
+#. ~ Description of "glass shiv"
+#: data/json/items/melee/swords_and_blades.json
+msgid "A glass shard with wrapping at one end so it can be safely wielded."
+msgstr ""
+"Biztonságos használat okán az egyik végén betekert üvegszilánk vágófegyver."
 
 #. ~ Item name
 #: data/json/items/melee/swords_and_blades.json
@@ -285253,6 +285449,8 @@ msgid ""
 "A leather hand and arm wrap incorporating metal plates over the knuckles to "
 "improve punching power and defense."
 msgstr ""
+"Bőr kéz- és alkarvédő, amely fémlemezeket tartalmaz az ujjperceken az ütőerő"
+" és a védelem növelése érdekében."
 
 #. ~ Item name
 #: data/json/items/melee/unarmed_weapons.json
@@ -285268,6 +285466,9 @@ msgid ""
 "punches to do extra damage.  A good, quick weapon - but you have to get "
 "within punching range to use it."
 msgstr ""
+"Fémből, rézből készült fegyver, amelyet a tenyérben kell tartani, hogy "
+"ütéskor extra sebzést okozzon.  Jó, gyors fegyver – de közel kell kerülni az"
+" ellenfélhez a használatához."
 
 #. ~ Item name
 #: data/json/items/melee/unarmed_weapons.json
@@ -285282,6 +285483,8 @@ msgid ""
 "A pair of knuckles consisting of two small squares of wood with several "
 "nails sticking through them.  Useful in nasty street fights."
 msgstr ""
+"Egy pár boxer, amely két kis fadarabból áll, több átszúrt szöggel. Hasznos "
+"eszköz durva utcai verekedésekben."
 
 #. ~ Item name
 #: data/json/items/melee/unarmed_weapons.json
@@ -285297,6 +285500,9 @@ msgid ""
 "to protect the wearer's knuckles.  A good, quick weapon - but you have to "
 "get within punching range to use it."
 msgstr ""
+"Durván formára vert fémdarabokból álló ütőeszköz, alatta összehajtott "
+"rongyokkal, hogy védje a viselő ujjperceit.  Jó, gyors fegyver – de "
+"használatához közel kell kerülni az ellenfélhez."
 
 #. ~ Item name
 #: data/json/items/melee/unarmed_weapons.json
@@ -285312,6 +285518,9 @@ msgid ""
 "cause punches to do more damage.  A good, quick weapon - but you have to get"
 " within punching range to use it."
 msgstr ""
+"Egy pár acélból kovácsolt boxer, amelyet a tenyérben kell tartani, hogy "
+"ütéskor nagyobb sebzést okozzon. Jó, gyors fegyver – de használatához közel "
+"kell kerülni az ellenfélhez."
 
 #. ~ Item name
 #: data/json/items/melee/unarmed_weapons.json
@@ -285324,6 +285533,8 @@ msgstr[1] "szögekkel kivert kesztyű"
 #: data/json/items/melee/unarmed_weapons.json
 msgid "A pair of gloves with studded metal knuckles and a thin back plating."
 msgstr ""
+"Egy pár kesztyű szegecselt fém ujjpercekkel és vékony hátoldali "
+"páncélozással."
 
 #. ~ Item name
 #: data/json/items/melee/unarmed_weapons.json
@@ -285338,6 +285549,8 @@ msgid ""
 "A pair of thick steel plates covering your proximal phalange.  They are "
 "strapped to your hands with metal braces."
 msgstr ""
+"Egy pár vastag acéllemez, amelyek a kézujjak első ujjpercét fedik. "
+"Fémpántokkal rögzülnek a kézre."
 
 #. ~ Item name
 #: data/json/items/melee/unarmed_weapons.json
@@ -285353,6 +285566,8 @@ msgid ""
 "strapped to your hands, the spikes protrude 5 centimeters past your clenched"
 " fists."
 msgstr ""
+"Egy pár fémpánt, mindegyiken egy-egy masszív tüskével.  A kezedre erősítve a"
+" tüskék 5 centiméterrel nyúlnak túl az ököl szorításán."
 
 #. ~ Item name
 #: data/json/items/ranged/archery.json
@@ -285394,7 +285609,9 @@ msgstr[1] "gumifejű tompa fa nyíl"
 msgid ""
 "A fletched wooden arrow shaft with a blunt rubber tip.  Can stun weaker "
 "enemies."
-msgstr "Tompa gumifejű, tollas nyílvessző. A gyengébb ellenfeleket lebénítja."
+msgstr ""
+"Tollazott fanyílvessző tompa gumivégződéssel. Gyengébb ellenfeleket "
+"elkábíthat."
 
 #. ~ Item name
 #: data/json/items/ranged/archery.json
@@ -285473,13 +285690,13 @@ msgstr ""
 #: data/json/items/ranged/archery.json
 msgid "makeshift metal arrow"
 msgid_plural "makeshift metal arrows"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "hevenyészett fém nyíl"
+msgstr[1] "hevenyészett fém nyíl"
 
 #. ~ Description of "makeshift metal arrow"
 #: data/json/items/ranged/archery.json
 msgid "A simple fletched wooden arrow shaft with a sharpened makeshift tip."
-msgstr ""
+msgstr "Egyszerű, tollazott fanyílvessző, házilag kihegyezett heggyel."
 
 #. ~ Item name
 #: data/json/items/ranged/archery.json
@@ -285545,8 +285762,8 @@ msgstr ""
 #: data/json/items/ranged/archery.json
 msgid "emerald arrow"
 msgid_plural "emerald arrows"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "smaragd nyíl"
+msgstr[1] "smaragd nyíl"
 
 #. ~ Description of "emerald arrow"
 #: data/json/items/ranged/archery.json
@@ -285554,6 +285771,8 @@ msgid ""
 "A fletched lance carved from inscrutable green stone.  Impractically heavy, "
 "its difficult to imagine who or what could have fired it from a bow."
 msgstr ""
+"Tollazott lándzsa, kifürkészhetetlen zöld kőből faragva. Használhatatlanul "
+"nehéz – nehéz elképzelni, ki vagy mi lőhette ki egy íjból."
 
 #. ~ Item name
 #: data/json/items/ranged/archery.json
@@ -285594,6 +285813,8 @@ msgid ""
 "This arrow has a flaming rag wrapped around the shaft near the head.  You "
 "should shoot it soon before it burns through the rag and fuel."
 msgstr ""
+"Ez a nyíl egy lángoló ronggyal van betekerve a hegye közelében. Hamarosan el"
+" kell lőnöd, mielőtt a tűz átégeti a rongyot és az üzemanyagot."
 
 #. ~ Item name
 #. ~ Name of a gun
@@ -285601,8 +285822,8 @@ msgstr ""
 #: data/mods/Xedra_Evolved/items/weapon_copy_extensions.json
 msgid "survival bow"
 msgid_plural "survival bows"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "túlélőíj"
+msgstr[1] "túlélőíj"
 
 #. ~ Description of gun "survival bow"
 #. ~ Description of "survival bow"
@@ -285611,6 +285832,8 @@ msgid ""
 "A weak bow crudely crafted from a single uncured wood stave.  Weak and "
 "wildly inaccurate, but easy to make."
 msgstr ""
+"Gyenge íj, durván faragott, kezeletlen fadarabból. Gyenge és rendkívül "
+"pontatlan, de könnyen elkészíthető."
 
 #. ~ Item name
 #. ~ Name of a gun
@@ -285628,14 +285851,17 @@ msgid ""
 "Emphasizing portability and agility over power, this all-wood bow is "
 "suitable for small game and harassing enemies."
 msgstr ""
+"A hordozhatóságot és a fürgeséget helyezi előtérbe az erővel szemben; ez a "
+"teljesen fából készült íj kisebb vadak elejtésére és ellenségek zaklatására "
+"alkalmas."
 
 #. ~ Item name
 #. ~ Name of a gun
 #: data/json/items/ranged/archery.json
 msgid "compound hunting bow"
 msgid_plural "compound hunting bows"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "összetett vadászíj"
+msgstr[1] "összetett vadászíj"
 
 #. ~ Description of gun "compound hunting bow"
 #. ~ Description of "compound hunting bow"
@@ -285645,6 +285871,9 @@ msgid ""
 " that can be used effectively by fairly strong archers.  Currently set to a "
 "medium weight."
 msgstr ""
+"Nagy erejű íj formázott bütykökkel és plusz húrokkal a nagy sebességű "
+"lövésekhez, amelyet erősebb íjászok hatékonyan használhatnak.  Jelenleg "
+"közepes erősségre van állítva."
 
 #. ~ "menu_text" action message of item "compound hunting bow"
 #. ~ "menu_text" action message of item "compound hunting bow (low)"
@@ -287261,7 +287490,7 @@ msgstr[1] ""
 
 #. ~ Description of "enormous steel ingot"
 #: data/json/items/resources/alien.json
-msgid "A monolithic block of high quality steel."
+msgid "A monolithic block of low carbon steel."
 msgstr ""
 
 #. ~ Item name
@@ -303597,6 +303826,16 @@ msgid ""
 "soldering, woodworking, welding, anything that can be aided by a firm grip."
 "  Also has a small, flat metal surface, useful for light metalworking if "
 "needed."
+msgstr ""
+
+#. ~ Description of "Exodii kiln"
+#: data/json/items/tool/workshop.json
+msgid ""
+"An electric kiln, powered by your electric grid.  A bit larger than a "
+"refridgerator, this Exodii-manufactured kiln is large enough to repair the "
+"sheets of ceramic they use for armor.  It is designed for firing sheets of "
+"the Exodii's ceramic, but you could use it to fire anything made of clay.  A"
+" large and power-hungry appliance."
 msgstr ""
 
 #. ~ Item name
@@ -329188,7 +329427,7 @@ msgstr ""
 #. ~ Mutation name
 #: data/json/mutations/appearance_hair_styles.json
 msgid "Hair: bald"
-msgstr ""
+msgstr "Haj: kopasz"
 
 #. ~ Description of mutation "Hair: bald"
 #: data/json/mutations/appearance_hair_styles.json
@@ -329198,128 +329437,128 @@ msgstr "Kopasz vagy."
 #. ~ Mutation name
 #: data/json/mutations/appearance_hair_styles.json
 msgid "Hair: buzz cut"
-msgstr ""
+msgstr "Haj: buzz cut"
 
 #. ~ Description of mutation "Hair: buzz cut"
 #: data/json/mutations/appearance_hair_styles.json
 msgid "Your hair has been shaved close to the head."
-msgstr ""
+msgstr "A közel a fejedhez, vágott szinte már borotvát stílus."
 
 #. ~ Variant name of mutation "Hair: buzz cut"
 #: data/json/mutations/appearance_hair_styles.json
 msgid "Hair: black, buzz cut"
-msgstr ""
+msgstr "Haj: fekete, buzz cut"
 
 #. ~ Description of variant "Hair: black, buzz cut" of mutation"Hair: buzz
 #. cut"
 #: data/json/mutations/appearance_hair_styles.json
 msgid "Your black hair has been shaved close to the head."
-msgstr ""
+msgstr "Fekete haj a fejhez közel borotválva."
 
 #. ~ Variant name of mutation "Hair: buzz cut"
 #: data/json/mutations/appearance_hair_styles.json
 msgid "Hair: blond, buzz cut"
-msgstr ""
+msgstr "Haj: szőke, buzz cut"
 
 #. ~ Description of variant "Hair: blond, buzz cut" of mutation"Hair: buzz
 #. cut"
 #: data/json/mutations/appearance_hair_styles.json
 msgid "Your blond hair has been shaved close to the head."
-msgstr ""
+msgstr "Szőke haj a fejhez közel borotválva."
 
 #. ~ Variant name of mutation "Hair: buzz cut"
 #: data/json/mutations/appearance_hair_styles.json
 msgid "Hair: blue, buzz cut"
-msgstr ""
+msgstr "Haj: kék, buzz cut"
 
 #. ~ Description of variant "Hair: blue, buzz cut" of mutation"Hair: buzz cut"
 #: data/json/mutations/appearance_hair_styles.json
 msgid "Your blue hair has been shaved close to the head."
-msgstr ""
+msgstr "Kék haj a fejhez közel borotválva."
 
 #. ~ Variant name of mutation "Hair: buzz cut"
 #: data/json/mutations/appearance_hair_styles.json
 msgid "Hair: brown, buzz cut"
-msgstr ""
+msgstr "Haj: barna, buzz cut"
 
 #. ~ Description of variant "Hair: brown, buzz cut" of mutation"Hair: buzz
 #. cut"
 #: data/json/mutations/appearance_hair_styles.json
 msgid "Your brown hair has been shaved close to the head."
-msgstr ""
+msgstr "FeketBarnae haj a fejhez közel borotválva."
 
 #. ~ Variant name of mutation "Hair: buzz cut"
 #: data/json/mutations/appearance_hair_styles.json
 msgid "Hair: gray, buzz cut"
-msgstr ""
+msgstr "Haj: szürke, buzz cut"
 
 #. ~ Description of variant "Hair: gray, buzz cut" of mutation"Hair: buzz cut"
 #: data/json/mutations/appearance_hair_styles.json
 msgid "Your gray hair has been shaved close to the head."
-msgstr ""
+msgstr "Szürke haj a fejhez közel borotválva."
 
 #. ~ Variant name of mutation "Hair: buzz cut"
 #: data/json/mutations/appearance_hair_styles.json
 msgid "Hair: green, buzz cut"
-msgstr ""
+msgstr "Haj: zöld, buzz cut"
 
 #. ~ Description of variant "Hair: green, buzz cut" of mutation"Hair: buzz
 #. cut"
 #: data/json/mutations/appearance_hair_styles.json
 msgid "Your green hair has been shaved close to the head."
-msgstr ""
+msgstr "Zöld haj a fejhez közel borotválva."
 
 #. ~ Variant name of mutation "Hair: buzz cut"
 #: data/json/mutations/appearance_hair_styles.json
 msgid "Hair: pink, buzz cut"
-msgstr ""
+msgstr "Haj: pink, buzz cut"
 
 #. ~ Description of variant "Hair: pink, buzz cut" of mutation"Hair: buzz cut"
 #: data/json/mutations/appearance_hair_styles.json
 msgid "Your pink hair has been shaved close to the head."
-msgstr ""
+msgstr "Pink haj a fejhez közel borotválva."
 
 #. ~ Variant name of mutation "Hair: buzz cut"
 #: data/json/mutations/appearance_hair_styles.json
 msgid "Hair: purple, buzz cut"
-msgstr ""
+msgstr "Haj: lila, buzz cut"
 
 #. ~ Description of variant "Hair: purple, buzz cut" of mutation"Hair: buzz
 #. cut"
 #: data/json/mutations/appearance_hair_styles.json
 msgid "Your purple hair has been shaved close to the head."
-msgstr ""
+msgstr "Lila haj a fejhez közel borotválva."
 
 #. ~ Variant name of mutation "Hair: buzz cut"
 #: data/json/mutations/appearance_hair_styles.json
 msgid "Hair: red, buzz cut"
-msgstr ""
+msgstr "Haj: vörös, buzz cut"
 
 #. ~ Description of variant "Hair: red, buzz cut" of mutation"Hair: buzz cut"
 #: data/json/mutations/appearance_hair_styles.json
 msgid "Your red hair has been shaved close to the head."
-msgstr ""
+msgstr "Vörös haj a fejhez közel borotválva."
 
 #. ~ Variant name of mutation "Hair: buzz cut"
 #: data/json/mutations/appearance_hair_styles.json
 msgid "Hair: white, buzz cut"
-msgstr ""
+msgstr "Haj: fehér, buzz cut"
 
 #. ~ Description of variant "Hair: white, buzz cut" of mutation"Hair: buzz
 #. cut"
 #: data/json/mutations/appearance_hair_styles.json
 msgid "Your white hair has been shaved close to the head."
-msgstr ""
+msgstr "Fehér haj a fejhez közel borotválva."
 
 #. ~ Mutation name
 #: data/json/mutations/appearance_hair_styles.json
 msgid "Hair: crew-cut"
-msgstr ""
+msgstr "Hair: géppel nyírt"
 
 #. ~ Description of mutation "Hair: crew-cut"
 #: data/json/mutations/appearance_hair_styles.json
 msgid "Crewcut hair style."
-msgstr ""
+msgstr "Géppel nyírt hajstílus"
 
 #. ~ Variant name of mutation "Hair: crew-cut"
 #: data/json/mutations/appearance_hair_styles.json
@@ -329346,12 +329585,12 @@ msgstr "Géppel nagyon rövidre vágott szőke haj."
 #. ~ Variant name of mutation "Hair: crew-cut"
 #: data/json/mutations/appearance_hair_styles.json
 msgid "Hair: blue, crew-cut"
-msgstr ""
+msgstr "Haj: kék, géppel nyírt"
 
 #. ~ Description of variant "Hair: blue, crew-cut" of mutation"Hair: crew-cut"
 #: data/json/mutations/appearance_hair_styles.json
 msgid "Crewcut blue hair style."
-msgstr ""
+msgstr "Géppel nagyon rövidre vágott kék haj."
 
 #. ~ Variant name of mutation "Hair: crew-cut"
 #: data/json/mutations/appearance_hair_styles.json
@@ -335783,11 +336022,13 @@ msgstr ""
 
 #. ~ Mutation name
 #: data/json/mutations/mutations.json
+#: data/mods/Xedra_Evolved/mutations/paraclesians/arvore_mutations.json
 msgid "Jaundice"
 msgstr ""
 
 #. ~ Description of mutation "Jaundice"
 #: data/json/mutations/mutations.json
+#: data/mods/Xedra_Evolved/mutations/paraclesians/arvore_mutations.json
 msgid ""
 "It's subtle, but your skin has definitely taken on a sickly yellow-green "
 "hue."
@@ -388274,7 +388515,7 @@ msgstr ""
 #: data/json/npcs/isherwood_farm/NPC_Jack_Isherwood.json
 msgctxt "u:f"
 msgid "Hello traveler, what brings you here?"
-msgstr ""
+msgstr "Helló utazó, mi szél hozott ide?"
 
 #. ~ NPC dialogue line
 #. ~ You don't need to translate genders that aren't in your language
@@ -388283,7 +388524,7 @@ msgstr ""
 #: data/json/npcs/isherwood_farm/NPC_Jack_Isherwood.json
 msgctxt "u:m"
 msgid "Hello traveler, what brings you here?"
-msgstr ""
+msgstr "Helló utazó, mi szél hozott ide?"
 
 #. ~ NPC dialogue line
 #. ~ You don't need to translate genders that aren't in your language
@@ -388292,7 +388533,7 @@ msgstr ""
 #: data/json/npcs/isherwood_farm/NPC_Jack_Isherwood.json
 msgctxt "u:n"
 msgid "Hello traveler, what brings you here?"
-msgstr ""
+msgstr "Helló utazó, mi szél hozott ide?"
 
 #. ~ Response to NPC dialogue
 #: data/json/npcs/isherwood_farm/NPC_Jack_Isherwood.json
@@ -388314,7 +388555,7 @@ msgstr ""
 #. ~ Response to NPC dialogue
 #: data/json/npcs/isherwood_farm/NPC_Jack_Isherwood.json
 msgid "Your whole family survived?"
-msgstr ""
+msgstr "Az egész családod túlélte?"
 
 #. ~ NPC dialogue line
 #: data/json/npcs/isherwood_farm/NPC_Jack_Isherwood.json
@@ -388741,7 +388982,7 @@ msgstr ""
 #. ~ Response to NPC dialogue
 #: data/json/npcs/isherwood_farm/NPC_Lisa_Isherwood.json
 msgid "Oh, ok."
-msgstr ""
+msgstr "Oh, oké."
 
 #. ~ Response to NPC dialogue
 #: data/json/npcs/isherwood_farm/NPC_Lisa_Isherwood.json
@@ -388751,7 +388992,7 @@ msgstr ""
 #. ~ Response to NPC dialogue
 #: data/json/npcs/isherwood_farm/NPC_Lisa_Isherwood.json
 msgid "Nice talking to you, bye."
-msgstr ""
+msgstr "Jó volt veled beszélgetni, szia."
 
 #. ~ NPC dialogue line
 #: data/json/npcs/isherwood_farm/NPC_Lisa_Isherwood.json
@@ -389043,7 +389284,7 @@ msgstr ""
 #. ~ Response to NPC dialogue
 #: data/json/npcs/isherwood_farm/NPC_Luke_Isherwood.json
 msgid "Tell me about your dad."
-msgstr ""
+msgstr "Mesélj nekem az apádról."
 
 #. ~ NPC dialogue line
 #: data/json/npcs/isherwood_farm/NPC_Luke_Isherwood.json
@@ -389232,21 +389473,21 @@ msgstr ""
 #. Sometimes they also have prison guards' gear.
 #: data/json/npcs/island_prison/prisoners.json
 msgid "prisoner"
-msgstr ""
+msgstr "fogoly"
 
 #. ~ Name suffix of an NPC
 #. ~ Former prisoner with a melee or ranged weapon and prison clothing.
 #. Sometimes they also have prison guards' gear.
 #: data/json/npcs/island_prison/prisoners.json
 msgid "gatekeeper"
-msgstr ""
+msgstr "kapuőr"
 
 #. ~ Name suffix of an NPC
 #. ~ Former prisoner with a melee or ranged weapon and prison clothing.
 #. Sometimes they also have prison guards' gear.
 #: data/json/npcs/island_prison/prisoners.json
 msgid "leader of prisoners"
-msgstr ""
+msgstr "a foglyok vezetője"
 
 #. ~ Name of an NPC class
 #. ~ Skills intentionally kept low.  This character should probably have a
@@ -389254,27 +389495,27 @@ msgstr ""
 #: data/json/npcs/island_prison/prisoners.json
 #: data/json/npcs/prisoners/mi-go_prisoners.json
 msgid "Prisoner"
-msgstr ""
+msgstr "Fogoly"
 
 #. ~ Job description of "Prisoner" NPC class
 #: data/json/npcs/island_prison/prisoners.json
 msgid "I'm here to kick ass."
-msgstr ""
+msgstr "Azért vagyok itt, hogy szétrúgjak pár segget."
 
 #. ~ NPC dialogue line
 #: data/json/npcs/island_prison/prisoners.json
 msgid "Get the fuck out of here."
-msgstr ""
+msgstr "Takarodj innen a picsába."
 
 #. ~ Response to NPC dialogue
 #: data/json/npcs/island_prison/prisoners.json
 msgid "Ok, sorry, I'm already leaving!"
-msgstr ""
+msgstr "Oké, bocsánat, már megyek is!"
 
 #. ~ Response to NPC dialogue
 #: data/json/npcs/island_prison/prisoners.json
 msgid "Hey, fuck you, <name_b>!"
-msgstr ""
+msgstr "Hé, baszd meg, <name_b>!"
 
 #. ~ NPC dialogue line
 #: data/json/npcs/island_prison/prisoners.json
@@ -416087,7 +416328,7 @@ msgstr ""
 #. ~ Generic negative/hostile pronouns
 #: data/json/npcs/snippets/talk_tags.json
 msgid "ass"
-msgstr ""
+msgstr "segg"
 
 #. ~ Snippet in category "<name_b>"
 #. ~ Generic negative/hostile pronouns
@@ -416099,7 +416340,7 @@ msgstr ""
 #. ~ Generic negative/hostile pronouns
 #: data/json/npcs/snippets/talk_tags.json
 msgid "assface"
-msgstr ""
+msgstr "seggarc"
 
 #. ~ Snippet in category "<name_b>"
 #. ~ Generic negative/hostile pronouns
@@ -416153,7 +416394,7 @@ msgstr ""
 #. ~ Generic negative/hostile pronouns
 #: data/json/npcs/snippets/talk_tags.json
 msgid "bitch"
-msgstr ""
+msgstr "kurva"
 
 #. ~ Snippet in category "<name_b>"
 #. ~ Generic negative/hostile pronouns
@@ -416281,7 +416522,7 @@ msgstr "faszfej"
 #. ~ Generic negative/hostile pronouns
 #: data/json/npcs/snippets/talk_tags.json
 msgid "dildo"
-msgstr ""
+msgstr "dildó"
 
 #. ~ Snippet in category "<name_b>"
 #. ~ Generic negative/hostile pronouns
@@ -416366,7 +416607,7 @@ msgstr ""
 #. ~ Generic negative/hostile pronouns
 #: data/json/npcs/snippets/talk_tags.json
 msgid "fart"
-msgstr ""
+msgstr "fing"
 
 #. ~ Snippet in category "<name_b>"
 #. ~ Generic negative/hostile pronouns
@@ -416607,7 +416848,7 @@ msgstr "punk"
 #. ~ Generic negative/hostile pronouns
 #: data/json/npcs/snippets/talk_tags.json
 msgid "pussy"
-msgstr ""
+msgstr "punci"
 
 #. ~ Snippet in category "<name_b>"
 #. ~ Generic negative/hostile pronouns
@@ -417187,148 +417428,148 @@ msgstr ""
 #. ~ Snippet in category "<the_cataclysm>"
 #: data/json/npcs/snippets/talk_tags.json
 msgid "the annihilation"
-msgstr ""
+msgstr "a megsemmisülés"
 
 #. ~ Snippet in category "<the_cataclysm>"
 #: data/json/npcs/snippets/talk_tags.json
 msgid "the apocalypse"
-msgstr ""
+msgstr "az apokalipszis"
 
 #. ~ Snippet in category "<the_cataclysm>"
 #: data/json/npcs/snippets/talk_tags.json
 msgid "the Armageddon"
-msgstr ""
+msgstr "az Armageddon"
 
 #. ~ Snippet in category "<the_cataclysm>"
 #: data/json/npcs/snippets/talk_tags.json
 msgid "the calamity"
-msgstr ""
+msgstr "a katasztrófa"
 
 #. ~ Snippet in category "<the_cataclysm>"
 #: data/json/npcs/snippets/talk_tags.json
 msgid "the Cataclysm"
-msgstr ""
+msgstr "a kataklizma"
 
 #. ~ Snippet in category "<the_cataclysm>"
 #: data/json/npcs/snippets/talk_tags.json
 msgid "the cataclysmic event"
-msgstr ""
+msgstr "a kataklizmikus esemény"
 
 #. ~ Snippet in category "<the_cataclysm>"
 #: data/json/npcs/snippets/talk_tags.json
 msgid "the collapse"
-msgstr ""
+msgstr "az összeomlás"
 
 #. ~ Snippet in category "<the_cataclysm>"
 #: data/json/npcs/snippets/talk_tags.json
 msgid "the devastation"
-msgstr ""
+msgstr "a pusztítás"
 
 #. ~ Snippet in category "<the_cataclysm>"
 #: data/json/npcs/snippets/talk_tags.json
 msgid "the doomsday"
-msgstr ""
+msgstr "a végítélet napja"
 
 #. ~ Snippet in category "<the_cataclysm>"
 #: data/json/npcs/snippets/talk_tags.json
 msgid "the downfall"
-msgstr ""
+msgstr "a bukás"
 
 #. ~ Snippet in category "<the_cataclysm>"
 #: data/json/npcs/snippets/talk_tags.json
 msgid "the end"
-msgstr ""
+msgstr "a vég"
 
 #. ~ Snippet in category "<the_cataclysm>"
 #: data/json/npcs/snippets/talk_tags.json
 msgid "the endgame"
-msgstr ""
+msgstr "a végjáték"
 
 #. ~ Snippet in category "<the_cataclysm>"
 #: data/json/npcs/snippets/talk_tags.json
 msgid "the end of days"
-msgstr ""
+msgstr "a végnapok"
 
 #. ~ Snippet in category "<the_cataclysm>"
 #: data/json/npcs/snippets/talk_tags.json
 msgid "the end of the world"
-msgstr ""
+msgstr "a világvége"
 
 #. ~ Snippet in category "<the_cataclysm>"
 #: data/json/npcs/snippets/talk_tags.json
 msgid "the extinction event"
-msgstr ""
+msgstr "a kihalási esemény"
 
 #. ~ Snippet in category "<the_cataclysm>"
 #: data/json/npcs/snippets/talk_tags.json
 msgid "the final hour"
-msgstr ""
+msgstr "a végső óra"
 
 #. ~ Snippet in category "<the_cataclysm>"
 #: data/json/npcs/snippets/talk_tags.json
 msgid "the grand catastrophe"
-msgstr ""
+msgstr "a nagy katasztrófa"
 
 #. ~ Snippet in category "<the_cataclysm>"
 #: data/json/npcs/snippets/talk_tags.json
 msgid "the great disaster"
-msgstr ""
+msgstr "a nagy katasztrófa"
 
 #. ~ Snippet in category "<the_cataclysm>"
 #: data/json/npcs/snippets/talk_tags.json
 msgid "the great upheaval"
-msgstr ""
+msgstr "a nagy felfordulás"
 
 #. ~ Snippet in category "<the_cataclysm>"
 #: data/json/npcs/snippets/talk_tags.json
 msgid "the reckoning"
-msgstr ""
+msgstr "a leszámolás"
 
 #. ~ Snippet in category "<the_cataclysm>"
 #: data/json/npcs/snippets/talk_tags.json
 msgid "the ruin"
-msgstr ""
+msgstr "a rom"
 
 #. ~ Snippet in category "<the_cataclysm>"
 #: data/json/npcs/snippets/talk_tags.json
 msgid "the terminal event"
-msgstr ""
+msgstr "a végső esemény"
 
 #. ~ Snippet in category "<the_cataclysm>"
 #: data/json/npcs/snippets/talk_tags.json
 msgid "the twilight"
-msgstr ""
+msgstr "az alkonyat"
 
 #. ~ Snippet in category "<the_cataclysm>"
 #: data/json/npcs/snippets/talk_tags.json
 msgid "the upheaval"
-msgstr ""
+msgstr "a felfordulás"
 
 #. ~ Snippet in category "<the_cataclysm>"
 #: data/json/npcs/snippets/talk_tags.json
 msgid "the world's demise"
-msgstr ""
+msgstr "a világ pusztulása"
 
 #. ~ Snippet in category "<the_cataclysm>"
 #: data/json/npcs/snippets/talk_tags.json
 msgid "the world's end"
-msgstr ""
+msgstr "a világvége"
 
 #. ~ Snippet in category "<the_cataclysm>"
 #: data/json/npcs/snippets/talk_tags.json
 msgid "the world's ruin"
-msgstr ""
+msgstr "a világ pusztulása"
 
 #. ~ Snippet in category "<granny_name_g>"
 #: data/json/npcs/snippets/talk_tags.json
 msgctxt "<granny_name_g>"
 msgid "child"
-msgstr ""
+msgstr "gyermek"
 
 #. ~ Snippet in category "<granny_name_g>"
 #: data/json/npcs/snippets/talk_tags.json
 msgid "my child"
-msgstr ""
+msgstr "gyermekem"
 
 #. ~ Snippet in category "<granny_name_g>"
 #: data/json/npcs/snippets/talk_tags.json
@@ -417849,7 +418090,7 @@ msgstr ""
 #. ~ Avatar response indicated that the conversation is over via TALK_DONE.
 #: data/json/npcs/snippets/talk_tags_avatar.json
 msgid "Take care."
-msgstr ""
+msgstr "Vigyázz magadra."
 
 #. ~ Snippet in category "<end_talking_bye>"
 #. ~ Avatar response indicated that the conversation is over via TALK_DONE.
@@ -417914,7 +418155,7 @@ msgstr ""
 #. ~ Avatar response indicated that the conversation is over via TALK_DONE.
 #: data/json/npcs/snippets/talk_tags_avatar.json
 msgid "Talk to you later."
-msgstr ""
+msgstr "Később még beszélünk."
 
 #. ~ Snippet in category "<end_talking_later>"
 #. ~ Avatar response indicated that the conversation is over via TALK_DONE.
@@ -428987,25 +429228,25 @@ msgstr ""
 #. ~ Generic acknowledgment of a command.
 #: data/json/npcs/snippets/talk_tags_follower.json
 msgid "Alrighty."
-msgstr ""
+msgstr "Rendben."
 
 #. ~ Snippet in category "<acknowledged>"
 #. ~ Generic acknowledgment of a command.
 #: data/json/npcs/snippets/talk_tags_follower.json
 msgid "As you command."
-msgstr ""
+msgstr "Ahogy parancsolod."
 
 #. ~ Snippet in category "<acknowledged>"
 #. ~ Generic acknowledgment of a command.
 #: data/json/npcs/snippets/talk_tags_follower.json
 msgid "At once."
-msgstr ""
+msgstr "Azonnal."
 
 #. ~ Snippet in category "<acknowledged>"
 #. ~ Generic acknowledgment of a command.
 #: data/json/npcs/snippets/talk_tags_follower.json
 msgid "At your service."
-msgstr ""
+msgstr "Szolgálatára."
 
 #. ~ Snippet in category "<acknowledged>"
 #. ~ Generic acknowledgment of a command.
@@ -431120,7 +431361,7 @@ msgstr ""
 #. because the NPC no longer likes the avatar.
 #: data/json/npcs/snippets/talk_tags_follower.json
 msgid "So, this is us.  Goodbye."
-msgstr "  Viszontlátásra."
+msgstr "Szóval, ezek vagyunk mi.  Viszontlátásra."
 
 #. ~ Snippet in category "<im_leaving_you>"
 #. ~ The NPC says these things when leaving the avatar's faction, generally
@@ -446704,7 +446945,7 @@ msgstr ""
 #. game.
 #: data/json/obsoletion_and_migration_0.I/talk_tags_obsolete.json
 msgid "fuck you"
-msgstr ""
+msgstr "baszd meg!"
 
 #. ~ [DEPRECATED] Don't translate this line.
 #. ~ This string is from an obsolete source and will no longer be used in the
@@ -446718,14 +446959,14 @@ msgstr ""
 #. game.
 #: data/json/obsoletion_and_migration_0.I/talk_tags_obsolete.json
 msgid "happy"
-msgstr ""
+msgstr "boldog"
 
 #. ~ [DEPRECATED] Don't translate this line.
 #. ~ This string is from an obsolete source and will no longer be used in the
 #. game.
 #: data/json/obsoletion_and_migration_0.I/talk_tags_obsolete.json
 msgid "sad"
-msgstr ""
+msgstr "szomorú"
 
 #. ~ [DEPRECATED] Don't translate this line.
 #. ~ This string is from an obsolete source and will no longer be used in the
@@ -446746,14 +446987,14 @@ msgstr ""
 #. game.
 #: data/json/obsoletion_and_migration_0.I/talk_tags_obsolete.json
 msgid "I'll kill you,"
-msgstr ""
+msgstr "Meg foglak ölni,"
 
 #. ~ [DEPRECATED] Don't translate this line.
 #. ~ This string is from an obsolete source and will no longer be used in the
 #. game.
 #: data/json/obsoletion_and_migration_0.I/talk_tags_obsolete.json
 msgid "I won't last much longer"
-msgstr ""
+msgstr "Már nem sokáig fogom bírni."
 
 #. ~ [DEPRECATED] Don't translate this line.
 #. ~ This string is from an obsolete source and will no longer be used in the
@@ -446980,7 +447221,7 @@ msgid "Spider nest is here."
 msgstr ""
 
 #. ~ Name of map extra
-#: data/json/overmap/map_extras.json
+#: data/json/overmap/map_extras.json data/mods/Backrooms/map_extras.json
 msgid "Wasp Nest"
 msgstr ""
 
@@ -447232,18 +447473,18 @@ msgid "Some unfortunates from the billions lost in the Cataclysm."
 msgstr ""
 
 #. ~ Description of map extra "Wasp Nest"
-#: data/json/overmap/map_extras.json
+#: data/json/overmap/map_extras.json data/mods/Backrooms/map_extras.json
 msgid "A wasp nest."
 msgstr ""
 
 #. ~ Name of map extra
-#: data/json/overmap/map_extras.json
+#: data/json/overmap/map_extras.json data/mods/Backrooms/map_extras.json
 msgid "Dermatik Nest"
 msgstr ""
 
 #. ~ Description of map extra "Dermatik Nest"
 #. ~ Response to NPC dialogue
-#: data/json/overmap/map_extras.json
+#: data/json/overmap/map_extras.json data/mods/Backrooms/map_extras.json
 #: data/mods/Magiclysm/npc/TALK_FORGE_DIVINER.json
 msgid "A dermatik nest."
 msgstr ""
@@ -459702,6 +459943,16 @@ msgstr "lágyékkötő"
 #. ~ Description of the category "loincloths"
 #: data/json/recipes/nested.json
 msgid "Recipes related to making loincloths out of varied materials."
+msgstr ""
+
+#. ~ name of the nested group
+#: data/json/recipes/nested.json
+msgid "throat guards"
+msgstr ""
+
+#. ~ Description of the category "throat guards"
+#: data/json/recipes/nested.json
+msgid "Recipes related to making throat guards out of varied materials."
 msgstr ""
 
 #. ~ name of the nested group
@@ -474439,7 +474690,7 @@ msgstr ""
 #. ~ Snippet in category "PORTAL_STORM_VOICES_1"
 #: data/json/snippets/effect_on_conditions.json
 msgid "You hear a gentle voice saying \"Come outside.  I'm waiting for you.\""
-msgstr ""
+msgstr "Egy szelíd hangot hallasz, amely azt mondja: „Gyere ki.  Várlak.”"
 
 #. ~ Snippet in category "PORTAL_STORM_VOICES_1"
 #: data/json/snippets/effect_on_conditions.json
@@ -474447,6 +474698,8 @@ msgid ""
 "You hear a gentle voice saying \"Why are you not here yet?  It's beautiful "
 "outside.\""
 msgstr ""
+"Egy szelíd hangot hallasz, amely azt mondja: „Miért nem vagy még itt?  "
+"Gyönyörű idő van idekint.”"
 
 #. ~ Snippet in category "PORTAL_STORM_VOICES_1"
 #: data/json/snippets/effect_on_conditions.json
@@ -474460,6 +474713,7 @@ msgstr ""
 #: data/json/snippets/effect_on_conditions.json
 msgid "You hear a gentle voice saying \"There is a place for you here.\""
 msgstr ""
+"Egy szelíd hangot hallasz, amely azt mondja: „Van itt számodra egy hely”."
 
 #. ~ Snippet in category "PORTAL_STORM_VOICES_1"
 #: data/json/snippets/effect_on_conditions.json
@@ -474467,6 +474721,8 @@ msgid ""
 "You hear a gentle voice saying \"The place you called home is not there "
 "anymore.  Come with me and find your new home.\""
 msgstr ""
+"Egy szelíd hangot hallasz, amely azt mondja: „A hely, amelyet otthonodnak "
+"neveztél, már nincs ott.  Gyere velem, és találd meg az új otthonodat.”"
 
 #. ~ Snippet in category "PORTAL_STORM_VOICES_1"
 #: data/json/snippets/effect_on_conditions.json
@@ -474474,6 +474730,8 @@ msgid ""
 "You hear a gentle voice saying \"What good comes from hiding from the truth "
 "in a mausoleum of brick walls?\""
 msgstr ""
+"Egy szelíd hangot hallasz, amely azt mondja: „Mi jó származik abból, ha az "
+"igazság elől egy téglafalakból épült mauzóleumban rejtőzködsz?”."
 
 #. ~ Snippet in category "PORTAL_STORM_VOICES_1"
 #: data/json/snippets/effect_on_conditions.json
@@ -474481,6 +474739,8 @@ msgid ""
 "You hear a gentle voice saying \"There is no amount of concrete or stone you"
 " could put between you and the veil that is thinner than a shadow.\""
 msgstr ""
+"Egy szelíd hangot hallasz, amely azt mondja: „Nincs az a beton vagy kő, amit"
+" közéd és a fátyol közé tehetnél, amely vékonyabb, mint egy árnyék.”"
 
 #. ~ Snippet in category "PORTAL_STORM_VOICES_1"
 #: data/json/snippets/effect_on_conditions.json
@@ -474488,6 +474748,8 @@ msgid ""
 "You hear a gentle voice saying \"You want to sleep now?  Just moments after "
 "you've finally awoken?\""
 msgstr ""
+"Egy szelíd hangot hallasz, amely azt mondja: „Már most aludni akarsz?  "
+"Rögtön azután, hogy végre felébredtél?”"
 
 #. ~ Snippet in category "PORTAL_STORM_VOICES_1"
 #: data/json/snippets/effect_on_conditions.json
@@ -474691,6 +474953,8 @@ msgid ""
 "You hear a deep voice saying \"ᚲᛟᛗᛖ ᚺᛖᛁᛗᛞᚨᛚᛚ, ᛚᛖᛏ ᚢᛊ ᛏᚱᚨᚹᛖᛚ ᛏᛟ ᚨᛊᚷᚨᚱᛞ "
 "ᛏᛟᚷᛖᚦᛖᚱ\""
 msgstr ""
+"Egy mély hangot hallasz, amely azt mondja: „ᚲᛟᛗᛖ ᚺᛖᛁᛗᛞᚨᛚᛚ, ᛚᛖᛏ ᚢᛊ ᛏᚱᚨᚹᛖᛚ ᛏᛟ "
+"ᚨᛊᚷᚨᚱᛞ ᛏᛟᚷᛖᚦᛖᚱ”."
 
 #. ~ Snippet in category "PORTAL_STORM_VOICES_2"
 #: data/json/snippets/effect_on_conditions.json
@@ -474698,6 +474962,8 @@ msgid ""
 "You hear a voice saying \"The struggle is futile.  Can you fix the broken?  "
 "Can you weave existence itself?\""
 msgstr ""
+"Egy hangot hallasz, amely azt mondja: „A küzdelem hiábavaló.  Meg tudod "
+"javítani a töröttet?  Meg tudod-e szőni magát a létezést?”"
 
 #. ~ Snippet in category "PORTAL_STORM_VOICES_2"
 #: data/json/snippets/effect_on_conditions.json
@@ -507483,37 +507749,37 @@ msgstr "Dátum:"
 #. ~ Text in UI widget "l_time"
 #: data/json/ui/sidebar-mobile.json
 msgid " Time:"
-msgstr "Idő:"
+msgstr "  Idő:"
 
 #. ~ Text in UI widget "l_place"
 #: data/json/ui/sidebar-mobile.json
 msgid "Place:"
-msgstr "Hely:"
+msgstr " Hely:"
 
 #. ~ Text in UI widget "l_sky"
 #: data/json/ui/sidebar-mobile.json
 msgid "  Sky:"
-msgstr ""
+msgstr "   Ég:"
 
 #. ~ Text in UI widget "l_wind"
 #: data/json/ui/sidebar-mobile.json
 msgid " Wind:"
-msgstr "Szél:"
+msgstr " Szél:"
 
 #. ~ Text in UI widget "l_light"
 #: data/json/ui/sidebar-mobile.json
 msgid "Light:"
-msgstr "Fény :"
+msgstr " Fény:"
 
 #. ~ Text in UI widget "l_sound"
 #: data/json/ui/sidebar-mobile.json
 msgid "Sound:"
-msgstr "Hang:"
+msgstr " Hang:"
 
 #. ~ Text in UI widget "l_temp"
 #: data/json/ui/sidebar-mobile.json
 msgid " Temp:"
-msgstr "Hőm:"
+msgstr "  Hőm:"
 
 #. ~ Text in UI widget "l_str"
 #: data/json/ui/sidebar-mobile.json
@@ -509946,7 +510212,7 @@ msgstr ""
 #. ~ Vehicle part name
 #: data/json/vehicleparts/boards.json
 msgid "stow board"
-msgstr "akasztós lap"
+msgstr "vágódeszka"
 
 #. ~ Description of vehicle part "stow board"
 #: data/json/vehicleparts/boards.json
@@ -509974,12 +510240,12 @@ msgstr ""
 #. ~ Vehicle part name
 #: data/json/vehicleparts/boards.json
 msgid "heavy-duty board"
-msgstr ""
+msgstr "strapabíró tábla"
 
 #. ~ Vehicle part name
 #: data/json/vehicleparts/boards.json
 msgid "heavy-duty quarterpanel"
-msgstr ""
+msgstr "nagy strapabíró negyedpanel"
 
 #. ~ Description of vehicle part "heavy-duty quarterpanel"
 #: data/json/vehicleparts/boards.json
@@ -510047,7 +510313,7 @@ msgstr "tároló zsák"
 #. ~ Vehicle part name
 #: data/json/vehicleparts/cargo.json
 msgid "metal tray"
-msgstr ""
+msgstr "fémtálca"
 
 #. ~ Vehicle part name
 #: data/json/vehicleparts/cargo.json
@@ -510316,13 +510582,13 @@ msgstr ""
 #: data/json/vehicleparts/seats.json data/json/vehicleparts/wheel.json
 msgctxt "vpart_variants"
 msgid "Front"
-msgstr "Front"
+msgstr "Elülső"
 
 #. ~ Label of vehicle part variant "full_front"
 #: data/json/vehicleparts/doors.json
 msgctxt "vpart_variants"
 msgid "Full Front"
-msgstr ""
+msgstr "Teljesen elöl"
 
 #. ~ Label of vehicle part variant "full_front_left"
 #. ~ Label of vehicle part variant "full_nw"
@@ -510371,13 +510637,13 @@ msgstr ""
 #: data/json/vehicleparts/seats.json data/json/vehicleparts/wheel.json
 msgctxt "vpart_variants"
 msgid "Rear"
-msgstr ""
+msgstr "Hátsó"
 
 #. ~ Label of vehicle part variant "full_rear"
 #: data/json/vehicleparts/doors.json
 msgctxt "vpart_variants"
 msgid "Full Rear"
-msgstr ""
+msgstr "Teljesen hátsó"
 
 #. ~ Label of vehicle part variant "full_vertical_left"
 #: data/json/vehicleparts/doors.json data/json/vehicleparts/windshields.json
@@ -510436,24 +510702,24 @@ msgstr ""
 #. ~ Vehicle part name
 #: data/json/vehicleparts/doors.json
 msgid "cloth flap door"
-msgstr ""
+msgstr "ruhával fedett ajtó"
 
 #. ~ Description of vehicle part "cloth flap door"
 #: data/json/vehicleparts/doors.json
 msgid ""
 "A cloth sheet that can be fastened into a closed position to act as a door."
-msgstr ""
+msgstr "Egy zárt helyzetbe rögzíthető szövetlap, amely ajtóként funkcionál."
 
 #. ~ Vehicle part name
 #: data/json/vehicleparts/doors.json
 msgid "cloth curtain door"
-msgstr ""
+msgstr "szövet függöny ajtó"
 
 #. ~ Description of vehicle part "cloth curtain door"
 #: data/json/vehicleparts/doors.json
 msgid ""
 "A cloth sheet that can be slid into a closed position to act as a door."
-msgstr ""
+msgstr "Egy zárt helyzetbe csúsztatható szövetlap, amely ajtóként funkcionál."
 
 #. ~ Vehicle part name
 #: data/json/vehicleparts/doors.json
@@ -510465,12 +510731,14 @@ msgstr "átlátszatlan ajtó"
 #: data/json/vehicleparts/doors.json
 msgid ""
 "A door.  Solid construction means you can't see through it when closed."
-msgstr "Egy tömör ajtó.  Amikor be van csukva, akkor nem látsz át raja."
+msgstr ""
+"Egy tömör ajtó.  A masszív szerkezet miatt csukott állapotban nem lehet "
+"átlátni rajta."
 
 #. ~ Vehicle part name
 #: data/json/vehicleparts/doors.json
 msgid "heavy-duty door"
-msgstr ""
+msgstr "masszív ajtó"
 
 #. ~ Description of vehicle part "heavy-duty door"
 #: data/json/vehicleparts/doors.json
@@ -510483,7 +510751,7 @@ msgstr ""
 #. ~ Vehicle part name
 #: data/json/vehicleparts/doors.json
 msgid "heavy-duty opaque door"
-msgstr ""
+msgstr "masszív, átlátszatlan ajtó"
 
 #. ~ Description of vehicle part "heavy-duty opaque door"
 #. ~ Description of vehicle part "opaque hatch"
@@ -510492,7 +510760,9 @@ msgstr ""
 msgid ""
 "A strong door.  Solid construction means you can't see through it when "
 "closed."
-msgstr "Egy erős, tömör ajtó.  Amikor be van csukva, akkor nem látsz át raja."
+msgstr ""
+"Egy erős, tömör ajtó.  A masszív kialakítás miazz zárt állapotban nem lehet "
+"átlátni rajta."
 
 #. ~ Vehicle part name
 #: data/json/vehicleparts/doors.json
@@ -510526,7 +510796,7 @@ msgstr "átlátszatlan tolóajtó"
 #. ~ Vehicle part name
 #: data/json/vehicleparts/doors.json
 msgid "heavy-duty hatch"
-msgstr ""
+msgstr "masszív bukóajtó"
 
 #. ~ Description of vehicle part "heavy-duty hatch"
 #: data/json/vehicleparts/doors.json
@@ -510538,7 +510808,7 @@ msgstr ""
 #. ~ Vehicle part name
 #: data/json/vehicleparts/doors.json
 msgid "heavy-duty opaque hatch"
-msgstr ""
+msgstr "masszív átlátszatlan bukóajtó"
 
 #. ~ Description of vehicle part "heavy-duty opaque hatch"
 #: data/json/vehicleparts/doors.json
@@ -519594,15 +519864,15 @@ msgstr ""
 #: data/mods/aftershock_exoplanet/recipes/esper/electrokinesis_practice.json
 msgid "[Ψ]hacking interface"
 msgid_plural "[Ψ]hacking interfaces"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "[Ψ]hacker interfész"
+msgstr[1] "[Ψ]hacker interfész"
 
 #. ~ Description of "[Ψ]hacking interface"
 #: data/mods/Aftershock/items/esper_summons.json
 #: data/mods/MindOverMatter/items/psions_summon_items.json
 #: data/mods/aftershock_exoplanet/items/esper_summons.json
 msgid "You can hack nearby devices."
-msgstr ""
+msgstr "Fel tudod törni a közelben lévő eszközöket."
 
 #. ~ Item name
 #: data/mods/Aftershock/items/ethereal.json
@@ -521465,8 +521735,8 @@ msgstr ""
 #: data/mods/aftershock_exoplanet/items/robotparts.json
 msgid "surgical droid chassis"
 msgid_plural "surgical droid chassis"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "sebészeti droid alváz"
+msgstr[1] "sebészeti droid alváz"
 
 #. ~ Description of "surgical droid chassis"
 #: data/mods/Aftershock/items/robotparts.json
@@ -521535,14 +521805,14 @@ msgstr "Egy pár hátracsuklós láb, mint amivel a csirke lépegető halad."
 #: data/mods/aftershock_exoplanet/items/seed.json
 msgid "pineapple roots"
 msgid_plural "pineapple roots"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "ananászgyökér"
+msgstr[1] "ananászgyökér"
 
 #. ~ Description of "pineapple roots"
 #: data/mods/Aftershock/items/seed.json
 #: data/mods/aftershock_exoplanet/items/seed.json
 msgid "Roots of a pineapple plant, for growing your own."
-msgstr ""
+msgstr "Ananásznövény gyökerei, a saját termesztéshez."
 
 #. ~ Item name
 #: data/mods/Aftershock/items/seed.json
@@ -521550,28 +521820,28 @@ msgstr ""
 #: data/mods/aftershock_exoplanet/items/seed.json
 msgid "melon seeds"
 msgid_plural "melon seeds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "dinnyemag"
+msgstr[1] "dinnyemag"
 
 #. ~ Description of "melon seeds"
 #: data/mods/Aftershock/items/seed.json
 #: data/mods/aftershock_exoplanet/items/seed.json
 msgid "Some melon seeds."
-msgstr ""
+msgstr "Néhány dinnyemag."
 
 #. ~ Item name
 #: data/mods/Aftershock/items/seed.json
 #: data/mods/aftershock_exoplanet/items/seed.json
 msgid "banana saplings"
 msgid_plural "banana saplings"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "banánfacsemete"
+msgstr[1] "banánfacsemete"
 
 #. ~ Description of "banana saplings"
 #: data/mods/Aftershock/items/seed.json
 #: data/mods/aftershock_exoplanet/items/seed.json
 msgid "Some banana saplings."
-msgstr ""
+msgstr "Néhány banánfacsemete."
 
 #. ~ Item name
 #: data/mods/Aftershock/items/seed.json
@@ -522539,8 +522809,8 @@ msgstr ""
 #: data/mods/aftershock_exoplanet/items/weapons.json
 msgid "bodyguard knife"
 msgid_plural "bodyguard knives"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "testőrkés"
+msgstr[1] "testőrkés"
 
 #. ~ Description of "bodyguard knife"
 #: data/mods/Aftershock/items/weapons.json
@@ -522549,6 +522819,8 @@ msgid ""
 "Designed to evade security measures, this knife is a must have for any "
 "Cataclysm dinner party."
 msgstr ""
+"Ezt a kést úgy tervezték, hogy kikerülje a biztonsági intézkedéseket, így "
+"minden Cataclysm vacsorapartin elengedhetetlen kelléke."
 
 #. ~ Item name
 #: data/mods/Aftershock/items/weapons.json
@@ -522571,8 +522843,8 @@ msgstr ""
 #: data/mods/aftershock_exoplanet/items/weapons.json
 msgid "trident"
 msgid_plural "tridents"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "háromágú szigony"
+msgstr[1] "háromágú szigony"
 
 #. ~ Description of "trident"
 #: data/mods/Aftershock/items/weapons.json
@@ -522581,6 +522853,8 @@ msgid ""
 "A three pronged spear that is surface treated to be used confidently above "
 "and below water."
 msgstr ""
+"Háromágú dárda, amely felületkezelt, hogy magabiztosan használható legyen a "
+"víz felett és alatt is."
 
 #. ~ Item name
 #. ~ Name of a gun
@@ -523348,22 +523622,23 @@ msgstr ""
 #: data/mods/aftershock_exoplanet/items/armor/cyberpunk.json
 msgid "transparent rain coat"
 msgid_plural "transparent rain coats"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "átlátszó esőkabát"
+msgstr[1] "átlátszó esőkabát"
 
 #. ~ Description of "transparent rain coat"
 #: data/mods/Aftershock/items/armor/cyberpunk.json
 #: data/mods/aftershock_exoplanet/items/armor/cyberpunk.json
 msgid "A mostly transparent raincoat with no pockets.  Essential urban wear."
 msgstr ""
+"Többnyire átlátszó esőkabát zsebek nélkül.  Elengedhetetlen városi viselet."
 
 #. ~ Item name
 #: data/mods/Aftershock/items/armor/cyberpunk.json
 #: data/mods/aftershock_exoplanet/items/armor/cyberpunk.json
 msgid "academy cloak"
 msgid_plural "academy cloaks"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "akadémiai köpeny"
+msgstr[1] "akadémiai köpeny"
 
 #. ~ Description of "academy cloak"
 #: data/mods/Aftershock/items/armor/cyberpunk.json
@@ -523372,6 +523647,8 @@ msgid ""
 "A short ochre cloak given to traveling faculty, still tailored in styles "
 "that echo down from previous millennia."
 msgstr ""
+"Rövid, okkersárga köpeny, amelyet az utazó tanároknak adnak, még mindig az "
+"előző évezredekből visszhangzó stílusban szabva."
 
 #. ~ Item name
 #: data/mods/Aftershock/items/armor/cyberpunk.json
@@ -526280,8 +526557,8 @@ msgstr ""
 #: data/mods/aftershock_exoplanet/items/comestibles/alienfood.json
 msgid "cooked alien flesh"
 msgid_plural "cooked alien flesh"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "főtt idegen hús"
+msgstr[1] "főtt idegen hús"
 
 #. ~ Description of "cooked alien flesh"
 #: data/mods/Aftershock/items/comestibles/alienfood.json
@@ -526290,14 +526567,16 @@ msgid ""
 "This is a chunk of freshly cooked alien meat.  It could be either filling "
 "and nutritious, or poisonous and lethal."
 msgstr ""
+"Ez egy darab frissen főzött idegen hús.  Lehet laktató és tápláló, vagy "
+"mérgező és halálos."
 
 #. ~ Item name
 #: data/mods/Aftershock/items/comestibles/alienfood.json
 #: data/mods/aftershock_exoplanet/items/comestibles/alienfood.json
 msgid "scrap of alien flesh"
 msgid_plural "scraps of alien flesh"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "darabka idegen hús"
+msgstr[1] "darabka idegen hús"
 
 #. ~ Description of "scrap of alien flesh"
 #: data/mods/Aftershock/items/comestibles/alienfood.json
@@ -526306,22 +526585,24 @@ msgid ""
 "This is a tiny scrap of dubiously edible alien meat.  It's not much, but it "
 "might be better than starving."
 msgstr ""
+"Ez egy aprócska darabka, kétes módon ehető idegen hús.  Nem sok, de talán "
+"jobb, mint éhen halni."
 
 #. ~ Item name
 #: data/mods/Aftershock/items/comestibles/alienfood.json
 #: data/mods/aftershock_exoplanet/items/comestibles/alienfood.json
 msgid "cooked scrap of alien flesh"
 msgid_plural "cooked scraps of alien flesh"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "főtt idegen húsdarabka"
+msgstr[1] "főtt idegen húsdarabka"
 
 #. ~ Item name
 #: data/mods/Aftershock/items/comestibles/alienfood.json
 #: data/mods/aftershock_exoplanet/items/comestibles/alienfood.json
 msgid "alien stomach"
 msgid_plural "alien stomachs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "idegen gyomor"
+msgstr[1] "idegen gyomor"
 
 #. ~ Description of "alien stomach"
 #: data/mods/Aftershock/items/comestibles/alienfood.json
@@ -526330,14 +526611,16 @@ msgid ""
 "A balloon-like organ you can only guess is a stomach.  It is surprisingly "
 "durable."
 msgstr ""
+"Egy ballonszerű szerv, amiről csak sejteni lehet, hogy a gyomor.  Meglepően "
+"tartós."
 
 #. ~ Item name
 #: data/mods/Aftershock/items/comestibles/alienfood.json
 #: data/mods/aftershock_exoplanet/items/comestibles/alienfood.json
 msgid "large alien stomach"
 msgid_plural "large alien stomachs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "hatalmas idegen gyomor"
+msgstr[1] "hatalmas idegen gyomor"
 
 #. ~ Description of "large alien stomach"
 #: data/mods/Aftershock/items/comestibles/alienfood.json
@@ -526352,8 +526635,8 @@ msgstr ""
 #: data/mods/aftershock_exoplanet/items/comestibles/alienfood.json
 msgid "piece of raw alien lung"
 msgid_plural "pieces of raw alien lung"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "nyers idegen tüdő"
+msgstr[1] "nyers idegen tüdő"
 
 #. ~ Description of "piece of raw alien lung"
 #: data/mods/Aftershock/items/comestibles/alienfood.json
@@ -526362,14 +526645,16 @@ msgid ""
 "A red sponge-like organ rests in your hands.  It leaks out a strange liquid,"
 " and spoils very quickly.  You hazard a guess this is a lung."
 msgstr ""
+"Egy vörös szivacsszerű szerv pihen a kezedben.  Furcsa folyadék szivárog "
+"belőle, és nagyon gyorsan megromlik.  Megkockáztatod, hogy ez egy tüdő."
 
 #. ~ Item name
 #: data/mods/Aftershock/items/comestibles/alienfood.json
 #: data/mods/aftershock_exoplanet/items/comestibles/alienfood.json
 msgid "cooked piece of alien lung"
 msgid_plural "cooked pieces of alien lung"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "főtt idegen tüdődarab"
+msgstr[1] "főtt idegen tüdődarab"
 
 #. ~ Description of "cooked piece of alien lung"
 #: data/mods/Aftershock/items/comestibles/alienfood.json
@@ -543457,6 +543742,30 @@ msgid ""
 "come with a cap, making it hard to carry around when full."
 msgstr ""
 
+#. ~ Item name
+#: data/mods/Backrooms/items.json
+msgid "almond water"
+msgid_plural "almond waters"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "almond water"
+#: data/mods/Backrooms/items.json
+msgid "A bottle of what looks like slightly-cloudy water."
+msgstr ""
+
+#. ~ Item name
+#: data/mods/Backrooms/items.json
+msgid "almond water bottle"
+msgid_plural "almond water bottles"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "almond water bottle"
+#: data/mods/Backrooms/items.json
+msgid "A sealed glass bottle, holding a slightly-cloudy liquid."
+msgstr ""
+
 #. ~ Description of "newspaper page"
 #: data/mods/Backrooms/items.json
 msgid ""
@@ -549740,22 +550049,22 @@ msgstr ""
 #. ~ Response to NPC dialogue
 #: data/mods/Defense_Mode/dialogue/menu_screen.json
 msgid "Increase by 1"
-msgstr ""
+msgstr "Növelés 1-el"
 
 #. ~ Response to NPC dialogue
 #: data/mods/Defense_Mode/dialogue/menu_screen.json
 msgid "Increase by 5"
-msgstr ""
+msgstr "Növelés 5-el"
 
 #. ~ Response to NPC dialogue
 #: data/mods/Defense_Mode/dialogue/menu_screen.json
 msgid "Decrease by 1"
-msgstr ""
+msgstr "Csökkentés 1-el"
 
 #. ~ Response to NPC dialogue
 #: data/mods/Defense_Mode/dialogue/menu_screen.json
 msgid "Decrease by 5"
-msgstr ""
+msgstr "Csökkentés 5-el"
 
 #. ~ Response to NPC dialogue
 #: data/mods/Defense_Mode/dialogue/menu_screen.json
@@ -650688,7 +650997,7 @@ msgstr ""
 #. ~ MOD name
 #: data/mods/Xedra_Evolved/modinfo.json
 msgid "Xedra Evolved"
-msgstr ""
+msgstr "Xedra Evolved"
 
 #. ~ Description of MOD "Xedra Evolved"
 #: data/mods/Xedra_Evolved/modinfo.json
@@ -651336,6 +651645,11 @@ msgstr ""
 #. ~ Vitamin name
 #: data/mods/Xedra_Evolved/vitamin.json
 msgid "Arvore Mutagen"
+msgstr ""
+
+#. ~ Vitamin name
+#: data/mods/Xedra_Evolved/vitamin.json
+msgid "Arvore Alchemical Mutagen"
 msgstr ""
 
 #. ~ Vitamin name
@@ -653973,8 +654287,40 @@ msgstr ""
 
 #. ~ Blood analysis description of effect type "Arvore Mutation, Arvore
 #. Transformation, Arvore Metamorphosis"
+#. ~ Blood analysis description of effect type "Arvore Stolen Power Mutation,
+#. Arvore Stolen Power Transformation, Arvore Stolen Power Metamorphosis"
 #: data/mods/Xedra_Evolved/effects/effects.json
 msgid "Anomalous chlorophyll content in blood sample"
+msgstr ""
+
+#. ~ Name of effect type id "mutagen_alchemical_plantkin"
+#: data/mods/Xedra_Evolved/effects/effects.json
+msgid "Arvore Stolen Power Mutation"
+msgstr ""
+
+#. ~ Name of effect type id "mutagen_alchemical_plantkin"
+#: data/mods/Xedra_Evolved/effects/effects.json
+msgid "Arvore Stolen Power Transformation"
+msgstr ""
+
+#. ~ Name of effect type id "mutagen_alchemical_plantkin"
+#: data/mods/Xedra_Evolved/effects/effects.json
+msgid "Arvore Stolen Power Metamorphosis"
+msgstr ""
+
+#. ~ Description of effect type "Arvore Stolen Power Mutation"
+#: data/mods/Xedra_Evolved/effects/effects.json
+msgid "You consumed Arvore alchemical draught."
+msgstr ""
+
+#. ~ Description of effect type "Arvore Stolen Power Transformation"
+#: data/mods/Xedra_Evolved/effects/effects.json
+msgid "You consumed a large amount of Arvore alchemical draught."
+msgstr ""
+
+#. ~ Description of effect type "Arvore Stolen Power Metamorphosis"
+#: data/mods/Xedra_Evolved/effects/effects.json
+msgid "You consumed a life-changing amount of Arvore alchemical draught."
 msgstr ""
 
 #. ~ Name of effect type id "mutagen_waterkin"
@@ -671268,6 +671614,28 @@ msgstr ""
 #: data/mods/Xedra_Evolved/mutations/mutation_category.json
 msgctxt "memorial_female"
 msgid "Fell with a great sound."
+msgstr ""
+
+#. ~ Mutation class name
+#: data/mods/Xedra_Evolved/mutations/mutation_category.json
+msgid "Arvorian Canker"
+msgstr ""
+
+#. ~ "mutagen_message" of mutation class "Arvorian Canker"
+#: data/mods/Xedra_Evolved/mutations/mutation_category.json
+msgid "Gorged with verdant power."
+msgstr ""
+
+#. ~ Memorial message of mutation class "Arvorian Canker" for male
+#: data/mods/Xedra_Evolved/mutations/mutation_category.json
+msgctxt "memorial_male"
+msgid "Withered and rotted away."
+msgstr ""
+
+#. ~ Memorial message of mutation class "Arvorian Canker" for female
+#: data/mods/Xedra_Evolved/mutations/mutation_category.json
+msgctxt "memorial_female"
+msgid "Withered and rotted away."
 msgstr ""
 
 #. ~ "mutagen_message" of mutation class "Salamander"
@@ -695773,8 +696141,8 @@ msgstr "Oktató a Cataclysm-DDA hoz"
 #: data/mods/dda_tutorial/monsters.json
 msgid "dummy"
 msgid_plural "dummies"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Gyakorló báb"
+msgstr[1] "Gyakorló báb"
 
 #. ~ Description of monster "dummy"
 #: data/mods/dda_tutorial/monsters.json
@@ -695782,12 +696150,14 @@ msgid ""
 "This dummy serves for only one purpose - to teach players how to hit "
 "monsters."
 msgstr ""
+"Ez a bábú egyetlen célt szolgál – megtanítani a játékosokat, hogyan "
+"találjanak el szörnyeket."
 
 #. ~ Death message of monster "dummy"
 #: data/mods/dda_tutorial/monsters.json
 #, c-format
 msgid "The %s is destroyed."
-msgstr ""
+msgstr "A(z) %s megsemmisült."
 
 #. ~ Overmap terrain name
 #: data/mods/dda_tutorial/overmap_terrain.json

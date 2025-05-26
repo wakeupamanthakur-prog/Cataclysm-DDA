@@ -145,7 +145,6 @@
 # 嘿咻大侠, 2025
 # Edelweiss BTSU, 2025
 # MC RANK, 2025
-# ZiYuanShang, 2025
 # 陈睿, 2025
 # Lucky, 2025
 # Cmxsppd, 2025
@@ -154,17 +153,18 @@
 # 何方神圣 何 <1366003560@qq.com>, 2025
 # Rocket F, 2025
 # Orchestra, 2025
-# u, 2025
 # cainiao <cainiaowu@hotmail.com>, 2025
 # Jianxiang Wang <qrox@sina.com>, 2025
 # Guderiss <Guderiss@outlook.com>, 2025
+# ZiYuanShang, 2025
+# u, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: cataclysm-dda 0.I\n"
-"POT-Creation-Date: 2025-05-15 11:11+0000\n"
+"POT-Creation-Date: 2025-05-21 17:47+0000\n"
 "PO-Revision-Date: 2018-04-26 14:47+0000\n"
-"Last-Translator: Guderiss <Guderiss@outlook.com>, 2025\n"
+"Last-Translator: u, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/cataclysm-dda-translators/teams/2217/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -351,7 +351,7 @@ msgstr "%s（方向键）"
 #: src/iuse_actor.cpp:5328 src/iuse_actor.cpp:5367 src/iuse_actor.cpp:5470
 #: src/iuse_actor.cpp:5525 src/iuse_actor.cpp:5556 src/monexamine.cpp:93
 #: src/monexamine.cpp:215 src/monexamine.cpp:311 src/monexamine.cpp:347
-#: src/npc.cpp:1389 src/npc.cpp:1396 src/veh_interact.cpp:3014
+#: src/npc.cpp:1389 src/npc.cpp:1396 src/veh_interact.cpp:3015
 #: src/vehicle_use.cpp:1623 src/vehicle_use.cpp:2384
 #: data/json/npcs/snippets/talk_tags_avatar.json
 #: data/mods/Aftershock/npcs/Augustmoon_Salvors/augustmoon_doctor.json
@@ -533,7 +533,7 @@ msgstr "你不再拥有那部书！"
 msgid "<npcname> no longer has the book!"
 msgstr "<npcname> 不再拥有那部书！"
 
-#: src/activity_actor.cpp:1705 src/character.cpp:12343 src/npc.cpp:1347
+#: src/activity_actor.cpp:1705 src/character.cpp:12344 src/npc.cpp:1347
 msgid "It's too dark to read!"
 msgstr "光线不足，你无法阅读！"
 
@@ -860,7 +860,7 @@ msgstr "随着一声令人满足的咔嗒声，保险箱的锁被打开了。"
 msgid "You disassemble your %s."
 msgstr "你拆解了%s。"
 
-#: src/activity_actor.cpp:4066 src/character.cpp:11905
+#: src/activity_actor.cpp:4066 src/character.cpp:11906
 #, c-format
 msgid "You unload your %s."
 msgstr "你清空了%s。"
@@ -4147,7 +4147,7 @@ msgstr "这些物品未被装入水密容器。"
 #: src/avatar_action.cpp:145 src/debug_menu.cpp:3143 src/editmap.cpp:973
 #: src/editmap.cpp:974 src/editmap.cpp:981 src/editmap.cpp:982
 #: src/options.cpp:1702 src/options.cpp:2642 src/trap.cpp:475
-#: src/veh_interact.cpp:1429
+#: src/veh_interact.cpp:1430
 #: data/mods/BombasticPerks/corefiles/config_menu.json
 #: data/mods/Xedra_Evolved/eocs/eoc_riddles.json data/raw/keybindings.json
 msgid "No"
@@ -4159,7 +4159,7 @@ msgstr "否"
 #. ~ EOC option name in effect in EoC "EOC_XE_RIDDLE_20"
 #: src/avatar_action.cpp:146 src/debug_menu.cpp:3143 src/editmap.cpp:973
 #: src/editmap.cpp:974 src/editmap.cpp:981 src/editmap.cpp:982
-#: src/trap.cpp:475 src/veh_interact.cpp:1429
+#: src/trap.cpp:475 src/veh_interact.cpp:1430
 #: data/mods/BombasticPerks/corefiles/config_menu.json
 #: data/mods/Xedra_Evolved/eocs/eoc_riddles.json data/raw/keybindings.json
 msgid "Yes"
@@ -4446,7 +4446,7 @@ msgstr "你无法提起力气投掷任何东西……"
 msgid "You aren't holding something you can throw."
 msgstr "你并未手持任何能够投掷的物品。"
 
-#: src/avatar_action.cpp:1143 src/character.cpp:3431 src/character.cpp:13363
+#: src/avatar_action.cpp:1143 src/character.cpp:3431 src/character.cpp:13364
 msgid "You can't use anything while incorporeal."
 msgstr "你不能在虚体形态下使用任何物品。"
 
@@ -6326,23 +6326,23 @@ msgstr "取消"
 msgid "OK"
 msgstr "确定"
 
-#: src/cata_tiles.cpp:5598
+#: src/cata_tiles.cpp:5600
 msgid "direct3d"
 msgstr "direct3d"
 
-#: src/cata_tiles.cpp:5600 src/options.cpp:2656
+#: src/cata_tiles.cpp:5602 src/options.cpp:2656
 msgid "software"
 msgstr "软件"
 
-#: src/cata_tiles.cpp:5601
+#: src/cata_tiles.cpp:5603
 msgid "opengl"
 msgstr "opengl"
 
-#: src/cata_tiles.cpp:5602
+#: src/cata_tiles.cpp:5604
 msgid "opengles2"
 msgstr "opengles2"
 
-#: src/cata_tiles.cpp:5628
+#: src/cata_tiles.cpp:5630
 msgid "Display 0"
 msgstr "显示 0"
 
@@ -6739,7 +6739,7 @@ msgstr "%1$s不能被撑大来容纳%2$s。"
 msgid "You pour %1$s into the %2$s."
 msgstr "你把 %1$s 灌进 %2$s。"
 
-#: src/character.cpp:6087 src/character.cpp:6106 src/veh_interact.cpp:3192
+#: src/character.cpp:6087 src/character.cpp:6106 src/veh_interact.cpp:3193
 msgid "There's some left over!"
 msgstr "还剩了一些没倒完！"
 
@@ -6920,7 +6920,7 @@ msgstr[0] "你的 %s 有 %d 单位剩余，但需要 %d 单位。"
 msgid "You cough heavily."
 msgstr "你咳得很厉害。"
 
-#: src/character.cpp:7368 src/monster.cpp:3453 src/monster.cpp:3464
+#: src/character.cpp:7368 src/monster.cpp:3483 src/monster.cpp:3494
 msgid "a hacking cough."
 msgstr "一阵干咳。"
 
@@ -7578,130 +7578,130 @@ msgstr "你的催眠诱导CBM耗尽了能量。"
 msgid "Your soporific inducer starts back up."
 msgstr "你重新启动了催眠诱导CBM。"
 
-#: src/character.cpp:11722
+#: src/character.cpp:11723
 #, c-format
 msgid "You put the %s in your inventory."
 msgstr "你将 %s 放进物品栏。"
 
-#: src/character.cpp:11737
+#: src/character.cpp:11738
 #, c-format
 msgid "The %s is already empty!"
 msgstr "%s 已经空了！"
 
-#: src/character.cpp:11741
+#: src/character.cpp:11742
 msgid "The item can't be unloaded in its current state!"
 msgstr "物品无法在当前状态下被倒出！"
 
-#: src/character.cpp:11795
+#: src/character.cpp:11796
 msgid "Unload what?"
 msgstr "清空什么？"
 
-#: src/character.cpp:11812 src/character.cpp:11820
+#: src/character.cpp:11813 src/character.cpp:11821
 #, c-format
 msgid "You can't unload a %s!"
 msgstr "你不能清空 %s！"
 
-#: src/character.cpp:11818
+#: src/character.cpp:11819
 #, c-format
 msgid "You can't unload a rechargeable %s!"
 msgstr "你不能清空可充电 %s 的电量！"
 
-#: src/character.cpp:11828
+#: src/character.cpp:11829
 #, c-format
 msgid "Your %s isn't charged."
 msgstr "%s 没有充电。"
 
-#: src/character.cpp:11830
+#: src/character.cpp:11831
 #, c-format
 msgid "Your %s isn't loaded."
 msgstr "%s 没有被装填。"
 
-#: src/character.cpp:12301
+#: src/character.cpp:12302
 #, c-format
 msgid "Your %s is not good reading material."
 msgstr "%s 可不是本好读物。"
 
-#: src/character.cpp:12303
+#: src/character.cpp:12304
 #, c-format
 msgid "The %s is not good reading material."
 msgstr "%s 可不是本好读物。"
 
-#: src/character.cpp:12315
+#: src/character.cpp:12316
 msgid "It's a bad idea to read while driving!"
 msgstr "驾驶时读书可不是什么好主意！"
 
-#: src/character.cpp:12321 src/iuse_actor.cpp:2695
+#: src/character.cpp:12322 src/iuse_actor.cpp:2695
 msgid "What's the point of studying?  (Your morale is too low!)"
 msgstr "学习还有什么意义呢？（你的心情值过低！）"
 
-#: src/character.cpp:12322
+#: src/character.cpp:12323
 #, c-format
 msgid "What's the point of studying?  (%s)'s morale is too low!)"
 msgstr "学习还有什么意义呢？（%s 的心情值过低！）"
 
-#: src/character.cpp:12326
+#: src/character.cpp:12327
 #, c-format
 msgid "%s %d needed to understand.  You have %d"
 msgstr "需要 %s %d 级才能理解。你的等级为 %d"
 
-#: src/character.cpp:12328 src/character.cpp:12371
+#: src/character.cpp:12329 src/character.cpp:12372
 #, c-format
 msgid "%s %d needed to understand.  %s has %d"
 msgstr "需要 %s %d 级才能理解。%s 的等级为 %d"
 
-#: src/character.cpp:12335 src/iuse.cpp:4189
+#: src/character.cpp:12336 src/iuse.cpp:4189
 msgid "You're illiterate!"
 msgstr "你并不识字，无法读书！"
 
-#: src/character.cpp:12336 src/character.cpp:12368
+#: src/character.cpp:12337 src/character.cpp:12369
 #, c-format
 msgid "%s is illiterate!"
 msgstr "%s 是个文盲！"
 
-#: src/character.cpp:12338
+#: src/character.cpp:12339
 msgid "Your eyes won't focus without reading glasses."
 msgstr "没有眼镜，你无法阅读！"
 
-#: src/character.cpp:12339
+#: src/character.cpp:12340
 #, c-format
 msgid "%s's eyes won't focus without reading glasses."
 msgstr "没有眼镜，%s 无法阅读！"
 
-#: src/character.cpp:12357
+#: src/character.cpp:12358
 msgid "Maybe someone could read that to you, but you're deaf!"
 msgstr "他也许能读给你听，但是你失聪了！"
 
-#: src/character.cpp:12375
+#: src/character.cpp:12376
 #, c-format
 msgid "%s needs reading glasses!"
 msgstr "%s 需要老花镜！"
 
-#: src/character.cpp:12379
+#: src/character.cpp:12380
 #, c-format
 msgid "It's too dark for %s to read!"
 msgstr "光线不足，%s 没法阅读！"
 
-#: src/character.cpp:12382
+#: src/character.cpp:12383
 #, c-format
 msgid "%s could read that to you, but they can't see you."
 msgstr "%s 可以读给你听，但是他看不见你。"
 
-#: src/character.cpp:12386
+#: src/character.cpp:12387
 #, c-format
 msgid "%s morale is too low!"
 msgstr "%s 的心情值太低！"
 
-#: src/character.cpp:12388
+#: src/character.cpp:12389
 #, c-format
 msgid "%s is blind."
 msgstr "%s 已经失明了。"
 
 #. ~ Label of UI widget "ll_weight_carried_value"
-#: src/character.cpp:12469 data/json/ui/sidebar-legacy-labels.json
+#: src/character.cpp:12470 data/json/ui/sidebar-legacy-labels.json
 msgid "Weight Carried"
 msgstr "负重"
 
-#: src/character.cpp:12471 src/medical_ui.cpp:552 src/newcharacter.cpp:1464
+#: src/character.cpp:12472 src/medical_ui.cpp:552 src/newcharacter.cpp:1464
 #: src/player_display.cpp:1596
 msgid "Dexterity"
 msgstr "敏捷"
@@ -7709,191 +7709,191 @@ msgstr "敏捷"
 #. ~ Label of UI widget "pain_num_label"
 #. ~ Label of UI widget "pain_num_no_label"
 #. ~ Label of UI widget "pain_desc_label"
-#: src/character.cpp:12473 src/distraction_manager.cpp:30
+#: src/character.cpp:12474 src/distraction_manager.cpp:30
 #: src/memorial_logger.cpp:352 src/player_display.cpp:1571
 #: data/json/ui/pain.json
 msgid "Pain"
 msgstr "疼痛"
 
 #. ~ Label of UI widget "thirst_desc_label"
-#: src/character.cpp:12476 src/debug_menu.cpp:1959
+#: src/character.cpp:12477 src/debug_menu.cpp:1959
 #: src/distraction_manager.cpp:39 data/json/ui/thirst.json
 msgid "Thirst"
 msgstr "口渴"
 
 #. ~ Clause text "underweight" of UI widget "weight_desc_label"
-#: src/character.cpp:12479 src/display.cpp:672 data/json/ui/weight.json
+#: src/character.cpp:12480 src/display.cpp:672 data/json/ui/weight.json
 msgid "Underweight"
 msgstr "偏瘦"
 
-#: src/character.cpp:12490
+#: src/character.cpp:12491
 msgid "Martial Art"
 msgstr "武术"
 
 #. ~ Mutation name
-#: src/character.cpp:12498 data/json/mutations/mutations.json
+#: src/character.cpp:12499 data/json/mutations/mutations.json
 msgid "Sunlight Dependent"
 msgstr "阳光依赖"
 
-#: src/character.cpp:12506
+#: src/character.cpp:12507
 msgid "Bio/Mut/Etc Effects"
 msgstr "生化插件/变异效果"
 
-#: src/character.cpp:12510
+#: src/character.cpp:12511
 msgid "Penalty Cap"
 msgstr "惩罚上限"
 
-#: src/character.cpp:12846 src/character.cpp:12892
+#: src/character.cpp:12847 src/character.cpp:12893
 #, c-format
 msgid "You land on %s."
 msgstr "你摔在 %s 上。"
 
-#: src/character.cpp:12876
+#: src/character.cpp:12877
 #, c-format
 msgid "You are slammed against %1$s for %2$d damage."
 msgstr "你撞上%1$s，受到%2$d点伤害。"
 
-#: src/character.cpp:12879
+#: src/character.cpp:12880
 #, c-format
 msgid "You are slammed against %s!"
 msgstr "你撞上了 %s！"
 
-#: src/character.cpp:12881
+#: src/character.cpp:12882
 msgid "…but your shock absorbers negate the damage!"
 msgstr "……但是减震器吸收了所有的伤害！"
 
-#: src/character.cpp:12887
+#: src/character.cpp:12888
 #, c-format
 msgid "You are slammed against %s."
 msgstr "你撞上了 %s。"
 
-#: src/character.cpp:12888
+#: src/character.cpp:12889
 #, c-format
 msgid "<npcname> is slammed against %s."
 msgstr "<npcname> 撞上了 %s。"
 
-#: src/character.cpp:12948 src/character.cpp:12977
+#: src/character.cpp:12949 src/character.cpp:12978
 #, c-format
 msgid "<npcname> bounces off a %s!"
 msgstr "<npcname> 反弹了一个 %s！"
 
-#: src/character.cpp:12948 src/character.cpp:12977
+#: src/character.cpp:12949 src/character.cpp:12978
 #, c-format
 msgid "You bounce off a %s!"
 msgstr "你反弹了一个 %s！"
 
-#: src/character.cpp:12958
+#: src/character.cpp:12959
 #, c-format
 msgid "<npcname> bounces off %s!"
 msgstr "<npcname> 反弹了 %s！"
 
-#: src/character.cpp:12958
+#: src/character.cpp:12959
 #, c-format
 msgid "You bounce off %s!"
 msgstr "你反弹了 %s！"
 
-#: src/character.cpp:13020
+#: src/character.cpp:13021
 #, c-format
 msgid "%s spilled from your hand."
 msgstr "%s从你的手中流走了。"
 
-#: src/character.cpp:13114
+#: src/character.cpp:13115
 #, c-format
 msgid "Your ground sonar detected a %1$s to the %2$s!"
 msgstr "你的声纳足在 %2$s 方向发现了一个 %1$s！"
 
-#: src/character.cpp:13135 src/vehicle_move.cpp:1302
+#: src/character.cpp:13136 src/vehicle_move.cpp:1302
 #, c-format
 msgid "You've spotted a %1$s to the %2$s!"
 msgstr "你在 %2$s 方向发现了一个 %1$s！"
 
-#: src/character.cpp:13161
+#: src/character.cpp:13162
 msgid "You need to put the bag away before trying to wield something from it."
 msgstr "你得先把袋子收起来，然后再试着手持物品。"
 
-#: src/character.cpp:13238
+#: src/character.cpp:13239
 msgid "No item."
 msgstr "没有物品。"
 
-#: src/character.cpp:13372 src/consumption.cpp:1907
+#: src/character.cpp:13373 src/consumption.cpp:1907
 msgid "You do not have that item."
 msgstr "你没有那东西。"
 
-#: src/character.cpp:13382 src/character.cpp:13437 src/iuse.cpp:9225
+#: src/character.cpp:13383 src/character.cpp:13438 src/iuse.cpp:9225
 #, c-format
 msgid "You can't do anything interesting with your %s."
 msgstr "你没法用%s干任何有意义的事。"
 
-#: src/character.cpp:13395
+#: src/character.cpp:13396
 msgid "Your biology is not compatible with that healing item."
 msgstr "你的生物特性与那件医疗用品不兼容。"
 
-#: src/character.cpp:13435
+#: src/character.cpp:13436
 msgid "You are not wielding anything you could use."
 msgstr "你没在拿着什么可以用的东西。"
 
-#: src/character.cpp:13581
+#: src/character.cpp:13582
 msgid "You roll on the ground, trying to smother the fire!"
 msgstr "你在地上打滚，尝试扑灭火焰！"
 
-#: src/character.cpp:13582
+#: src/character.cpp:13583
 msgid "<npcname> rolls on the ground!"
 msgstr "<npcname> 在地上打滚！"
 
-#: src/character.cpp:13585
+#: src/character.cpp:13586
 msgid "You attempt to put out the fire on you!"
 msgstr "你尝试扑灭身上的火焰！"
 
-#: src/character.cpp:13586
+#: src/character.cpp:13587
 msgid "<npcname> attempts to put out the fire on them!"
 msgstr "<npcname> 尝试扑灭身上的火焰！"
 
-#: src/character.cpp:13599
+#: src/character.cpp:13600
 msgid ""
 "Your broken limb significantly hampers your efforts to put pressure on a "
 "bleeding wound!"
 msgstr "你的断肢让压迫伤口止血变得极其困难！"
 
-#: src/character.cpp:13600
+#: src/character.cpp:13601
 msgid ""
 "<npcname>'s broken limb significantly hampers their effort to put pressure "
 "on a bleeding wound!"
 msgstr "<npcname> 的断肢让压迫伤口止血变得极其困难！"
 
-#: src/character.cpp:13603
+#: src/character.cpp:13604
 msgid ""
 "Your hands are too encumbered to effectively put pressure on a bleeding "
 "wound!"
 msgstr "你的双手过于累赘，无法有效压迫伤口止血。"
 
-#: src/character.cpp:13604
+#: src/character.cpp:13605
 msgid ""
 "<npcname>'s hands are too encumbered to effectively put pressure on a "
 "bleeding wound!"
 msgstr "<npcname> 的双手过于累赘，无法有效压迫伤口止血。"
 
-#: src/character.cpp:13610
+#: src/character.cpp:13611
 msgid ""
 "Your bleeding is beyond staunching barehanded!  A tourniquet might help."
 msgstr "你的出血量已经超过了手动按压止血的能力！止血带可能有帮助。"
 
-#: src/character.cpp:13611
+#: src/character.cpp:13612
 msgid "<npcname>'s bleeding is beyond staunching barehanded!"
 msgstr "<npcname> 的出血量已经超过了手动按压止血的能力！"
 
-#: src/character.cpp:13618
+#: src/character.cpp:13619
 msgid "You put pressure on the bleeding wound…"
 msgstr "你压迫伤口来止血……"
 
-#: src/character.cpp:13619
+#: src/character.cpp:13620
 msgid "<npcname> puts pressure on the bleeding wound…"
 msgstr "<npcname> 压迫伤口来止血……"
 
-#: src/character.cpp:13713 src/newcharacter.cpp:406
+#: src/character.cpp:13714 src/newcharacter.cpp:406
 msgid "Select a style.\n"
 msgstr "选择招式\n"
 
-#: src/character.cpp:13714 src/newcharacter.cpp:407
+#: src/character.cpp:13715 src/newcharacter.cpp:407
 #, c-format
 msgid ""
 "STR: <color_white>%d</color>, DEX: <color_white>%d</color>, PER: <color_white>%d</color>, INT: <color_white>%d</color>\n"
@@ -7902,15 +7902,15 @@ msgstr ""
 "力量：<color_white>%d</color>，敏捷：<color_white>%d</color>，感知：<color_white>%d</color>，智力：<color_white>%d</color>\n"
 "按[<color_yellow>%s</color>]查看招式细节和配合武器。\n"
 
-#: src/character.cpp:13725
+#: src/character.cpp:13726
 msgid "Keep hands free (off)"
 msgstr "保持空手（关）"
 
-#: src/character.cpp:13725
+#: src/character.cpp:13726
 msgid "Keep hands free (on)"
 msgstr "保持空手（开）"
 
-#: src/character.cpp:13726
+#: src/character.cpp:13727
 msgid ""
 "When this is enabled, player won't wield things unless explicitly told to."
 msgstr "当这个选项被开启，玩家不会手持任何东西，除非被要求那样做。"
@@ -7960,7 +7960,7 @@ msgstr "你的 %1$s %2$s 了！"
 
 #. ~ Damage adjective of material
 #: src/character_armor.cpp:363 src/character_attire.cpp:1947
-#: src/veh_interact.cpp:2948 data/json/materials.json
+#: src/veh_interact.cpp:2949 data/json/materials.json
 #: data/mods/MindOverMatter/materials.json
 msgid "destroyed"
 msgstr "毁坏"
@@ -8467,7 +8467,7 @@ msgstr "<npcname> 灵巧地扭动自己的双脚。"
 msgid "<npcname> stands up."
 msgstr "<npcname> 站了起来。"
 
-#: src/character_escape.cpp:111 src/monster.cpp:2571
+#: src/character_escape.cpp:111 src/monster.cpp:2601
 #, c-format
 msgid "The %s escapes the bear trap!"
 msgstr "%s 从捕熊陷阱中脱出！"
@@ -8489,7 +8489,7 @@ msgstr "<npcname> 从捕熊陷阱挣脱了出来！"
 msgid "You try to free yourself from the bear trap, but can't get loose!"
 msgstr "你尝试从捕熊陷阱里挣脱出来，但是失败了！"
 
-#: src/character_escape.cpp:137 src/monster.cpp:2547
+#: src/character_escape.cpp:137 src/monster.cpp:2577
 #, c-format
 msgid "The %s escapes the light snare!"
 msgstr "%s 从小型捕猎陷阱中脱出！"
@@ -8506,7 +8506,7 @@ msgstr "<npcname> 从小型捕猎陷阱中挣扎了出来！"
 msgid "You try to free yourself from the light snare, but can't get loose!"
 msgstr "你尝试从小型捕猎陷阱中挣扎出来，但是失败了！"
 
-#: src/character_escape.cpp:162 src/monster.cpp:2559
+#: src/character_escape.cpp:162 src/monster.cpp:2589
 #, c-format
 msgid "The %s escapes the heavy snare!"
 msgstr "%s 从大型捕猎陷阱中脱出！"
@@ -8581,7 +8581,7 @@ msgstr "%s抓住了你的%s，你尝试挣脱但是失败了！"
 msgid "<npcname> tries to break out of the grab, but fails!"
 msgstr "<npcname> 试着挣脱但是失败了！"
 
-#: src/character_escape.cpp:348 src/monster.cpp:2537
+#: src/character_escape.cpp:348 src/monster.cpp:2567
 #, c-format
 msgid "The %s breaks free of the webs!"
 msgstr "%s 挣脱了蛛网的束缚！"
@@ -8789,7 +8789,7 @@ msgstr "避免卸载物品堆叠（不包括装填物）超过一定数量？（
 
 #: src/clzones.cpp:283
 msgid "What is the maximum stack size to unload?"
-msgstr ""
+msgstr "设置清空的最大堆叠数量为？"
 
 #: src/clzones.cpp:294
 msgid ""
@@ -9821,7 +9821,7 @@ msgstr "搜索"
 
 #. ~ Key binding name
 #. ~ Construction category name
-#: src/construction.cpp:1019 src/veh_interact.cpp:1031
+#: src/construction.cpp:1019 src/veh_interact.cpp:1032
 #: data/json/construction_category.json data/raw/keybindings.json
 msgid "Filter"
 msgstr "筛选"
@@ -9893,7 +9893,7 @@ msgid ""
 "grave."
 msgstr "不幸的是，你没有什么锋利的东西可以在墓碑上刻写铭文。"
 
-#: src/construction.cpp:1698 src/veh_interact.cpp:2041
+#: src/construction.cpp:1698 src/veh_interact.cpp:2042
 msgid "Enter new vehicle name:"
 msgstr "输入新的载具名字："
 
@@ -10875,7 +10875,7 @@ msgid "%1s disassembles the %2s into its components."
 msgstr "%1s 把 %2s 拆解成了零件。"
 
 #. ~ %1$d: quantity destroyed, %2$s: pluralized name of destroyed item
-#: src/crafting.cpp:2987 src/veh_interact.cpp:3293
+#: src/crafting.cpp:2987 src/veh_interact.cpp:3294
 #, c-format
 msgid "You fail to recover %1$d %2$s."
 msgstr "你未能将 %1$d 个 %2$s 回收。"
@@ -11598,7 +11598,7 @@ msgstr "关联配方："
 #: src/crafting_gui.cpp:2323 src/game_inventory.cpp:2614
 #: data/raw/keybindings.json
 msgid "Compare"
-msgstr "C比较"
+msgstr "比较"
 
 #: src/crafting_gui.cpp:2324
 msgid "Select item to compare with."
@@ -11824,9 +11824,9 @@ msgid "%s stumbles into you!"
 msgstr "%s一个趔趄撞上了你！"
 
 #: src/creature.cpp:1598 src/mattack_actors.cpp:488 src/mattack_actors.cpp:722
-#: src/mattack_actors.cpp:978 src/monster.cpp:2204 src/monster.cpp:2211
-#: src/monster.cpp:2231 src/monster.cpp:2241 src/monster.cpp:2274
-#: src/monster.cpp:2281 src/monster.cpp:2290
+#: src/mattack_actors.cpp:978 src/monster.cpp:2234 src/monster.cpp:2241
+#: src/monster.cpp:2261 src/monster.cpp:2271 src/monster.cpp:2304
+#: src/monster.cpp:2311 src/monster.cpp:2320
 msgid "Something"
 msgstr "某物"
 
@@ -13384,7 +13384,7 @@ msgstr "设置击杀经验？当前：%d"
 #: src/debug_menu.cpp:2514
 #, c-format
 msgid "Cause how much pain?  Current pain: %d"
-msgstr ""
+msgstr "增减疼痛值？当前疼痛：%d"
 
 #: src/debug_menu.cpp:2528
 msgid "Mutate category"
@@ -13418,17 +13418,17 @@ msgstr "辐射"
 #: src/debug_menu.cpp:2579
 #, c-format
 msgid "Set lifestyle value to?  Currently: %d"
-msgstr ""
+msgstr "设定生活方式的值？当前：%d"
 
 #: src/debug_menu.cpp:2585
 #, c-format
 msgid "Set the daily health value to?  Currently: %d"
-msgstr ""
+msgstr "设置每日健康值？当前：%d"
 
 #: src/debug_menu.cpp:2591
 #, c-format
 msgid "Set the radiation to?  Currently: %d"
-msgstr ""
+msgstr "设置辐射值？目前：%d"
 
 #: src/debug_menu.cpp:2605
 msgid "Choose mission type"
@@ -15017,7 +15017,7 @@ msgstr "高度 %i，%d'%d，%d'%d"
 msgid "Underground"
 msgstr "地下"
 
-#: src/distraction_manager.cpp:29 src/veh_interact.cpp:2832
+#: src/distraction_manager.cpp:29 src/veh_interact.cpp:2833
 msgid "Noise"
 msgstr "噪音"
 
@@ -16297,7 +16297,7 @@ msgstr "在可交互范围内"
 msgid "Press enter to recall from their mission."
 msgstr "按\"回车\"键召回同伴。"
 
-#: src/faction.cpp:815 src/veh_interact.cpp:2529 src/veh_interact.cpp:2530
+#: src/faction.cpp:815 src/veh_interact.cpp:2530 src/veh_interact.cpp:2531
 msgid "Status: "
 msgstr "状态："
 
@@ -18943,7 +18943,7 @@ msgstr "%s将你撞飞出去了！"
 msgid "The %s drowns!"
 msgstr "%s淹死了！"
 
-#: src/game.cpp:5014 src/monmove.cpp:2385
+#: src/game.cpp:5014 src/monmove.cpp:2386
 #, c-format
 msgid "The %s flops around and dies!"
 msgstr "%s扑腾着死掉了！"
@@ -19339,7 +19339,7 @@ msgstr "不可通过"
 #: src/game.cpp:6837
 #, c-format
 msgid "Move cost: %d"
-msgstr "移动耗时：%d"
+msgstr "行动耗时：%d"
 
 #: src/game.cpp:6846 src/ui_extended_description.cpp:58
 #, c-format
@@ -19939,8 +19939,8 @@ msgid ""
 msgstr "你的心情不好，而且一想到要做那些无聊的工作，你决定还是不干了。"
 
 #: src/game.cpp:10315 src/iuse.cpp:3143 src/iuse.cpp:4742 src/iuse.cpp:4787
-#: src/iuse.cpp:8457 src/iuse.cpp:8682 src/veh_interact.cpp:1248
-#: src/veh_interact.cpp:1886
+#: src/iuse.cpp:8457 src/iuse.cpp:8682 src/veh_interact.cpp:1249
+#: src/veh_interact.cpp:1887
 #, c-format
 msgid "%s helps with this task…"
 msgstr "%s 协助你完成这项任务……"
@@ -20653,7 +20653,7 @@ msgstr "自动标记：上行阶梯"
 
 #: src/game.cpp:13512
 msgid "Set scent map sensitivity to?"
-msgstr ""
+msgstr "将气味图灵敏度设置为？"
 
 #: src/game.cpp:13649 src/game.cpp:13652
 msgid "Saving game, this may take a while."
@@ -21841,7 +21841,7 @@ msgid "PRICE"
 msgstr "安装价格"
 
 #: src/game_inventory.cpp:2954 src/mod_manager.cpp:95
-#: src/npctalk_rules.cpp:310 src/veh_interact.cpp:1975
+#: src/npctalk_rules.cpp:310 src/veh_interact.cpp:1976
 msgid "Default"
 msgstr "默认"
 
@@ -21889,7 +21889,7 @@ msgid "PIERCE"
 msgstr "穿甲"
 
 #: src/game_inventory.cpp:3136 src/veh_appliance.cpp:425
-#: src/veh_interact.cpp:1337
+#: src/veh_interact.cpp:1338
 #, c-format
 msgid "Refill %s"
 msgstr "补充 %s"
@@ -24907,7 +24907,7 @@ msgstr "没有足够现金，你需要充值。"
 #: src/iexamine.cpp:5691
 #, c-format
 msgid "How many liters of %s to buy?  Max: %d L."
-msgstr ""
+msgstr "购买多少升 %s？上限：%d 升。"
 
 #: src/iexamine.cpp:5703 src/iexamine.cpp:5733
 msgid "Glug Glug Glug"
@@ -28740,7 +28740,7 @@ msgstr "* 这件物品可以当做 <info>骰子</info> 使用，它有 <info>%d<
 #: src/item.cpp:5847
 #, c-format
 msgid "* This item is currently used by %s"
-msgstr ""
+msgstr "*这个物品已被%s使用"
 
 #: src/item.cpp:5883
 msgid ""
@@ -29228,7 +29228,7 @@ msgstr "%s 被大风吹灭了。"
 #: src/item.cpp:14179
 #, c-format
 msgid " %s's cable"
-msgstr ""
+msgstr "%s的电缆"
 
 #: src/item.cpp:14208
 #, c-format
@@ -29293,12 +29293,12 @@ msgstr "%s从UPS上脱落了。"
 #: src/item.cpp:14462
 #, c-format
 msgid "over-extended %s"
-msgstr ""
+msgstr "%s被过度延伸"
 
 #: src/item.cpp:14463
 #, c-format
 msgid "%s's over-extended cable"
-msgstr ""
+msgstr "%s的电缆被过度拉伸"
 
 #: src/item.cpp:14465 src/item.cpp:14467
 #, c-format
@@ -30091,7 +30091,7 @@ msgstr "（%s 回合）"
 msgid " (dirty)"
 msgstr "（肮脏）"
 
-#: src/item_tname.cpp:361 src/veh_interact.cpp:1462
+#: src/item_tname.cpp:361 src/veh_interact.cpp:1463
 msgid " (rotten)"
 msgstr "（腐坏）"
 
@@ -30119,7 +30119,7 @@ msgstr "（热腾腾）"
 msgid " (cold)"
 msgstr "（冰凉）"
 
-#: src/item_tname.cpp:396 src/veh_interact.cpp:1460
+#: src/item_tname.cpp:396 src/veh_interact.cpp:1461
 msgid " (frozen)"
 msgstr "（冷冻）"
 
@@ -30227,7 +30227,7 @@ msgstr "（激活）"
 
 #: src/item_tname.cpp:573
 msgid " (in use)"
-msgstr ""
+msgstr "（在使用中）"
 
 #: src/item_tname.cpp:583
 msgid " (sealed)"
@@ -33768,7 +33768,7 @@ msgstr "<bold>变成</bold>："
 msgid "%s (%d %s)"
 msgstr "%s（%d%s）"
 
-#: src/iuse_actor.cpp:517 src/medical_ui.cpp:232 src/veh_interact.cpp:2637
+#: src/iuse_actor.cpp:517 src/medical_ui.cpp:232 src/veh_interact.cpp:2638
 #: src/vehicle.cpp:2861
 #, c-format
 msgid "%s (%s)"
@@ -36101,7 +36101,7 @@ msgstr "有效目标"
 msgid "Only affects the monsters: %s"
 msgstr "有效生物：%s"
 
-#: src/magic.cpp:3004 src/magic.cpp:3439 src/veh_interact.cpp:2836
+#: src/magic.cpp:3004 src/magic.cpp:3439 src/veh_interact.cpp:2837
 msgid "Range"
 msgstr "有效距离"
 
@@ -36121,7 +36121,7 @@ msgid ", %d/sec"
 msgstr "，%d/秒"
 
 #: src/magic.cpp:3044 src/magic.cpp:3099 src/magic.cpp:3386
-#: src/veh_interact.cpp:2802
+#: src/veh_interact.cpp:2803
 msgid "Damage"
 msgstr "伤害"
 
@@ -36297,7 +36297,7 @@ msgstr "清除那些无用的弱者虽然令人反感，但却是必须的。"
 #: src/magic_spell_effect.cpp:1880
 #, c-format
 msgid "%s failed, you are too weak!"
-msgstr ""
+msgstr "%s失败，你太弱了！"
 
 #. ~ Death message of monster "your mother"
 #. ~ Death message of monster "evil multi-cooker"
@@ -37217,27 +37217,27 @@ msgstr "<header>那是一个%s。</header>"
 msgid "You could harvest the following things from it:"
 msgstr "你可从中收获下列物品："
 
-#: src/mapgen.cpp:4779
+#: src/mapgen.cpp:4739
 msgid "Viewing all palettes"
 msgstr "查看所有调色板"
 
-#: src/mapgen.cpp:7013
+#: src/mapgen.cpp:6970
 msgid "Sub-prime contact console"
 msgstr "次位面联系终端"
 
-#: src/mapgen.cpp:7015
+#: src/mapgen.cpp:6972
 msgid "Terminate Specimens"
 msgstr "终结样品"
 
-#: src/mapgen.cpp:7016
+#: src/mapgen.cpp:6973
 msgid "Release Specimens"
 msgstr "释放样品"
 
-#: src/mapgen.cpp:7018
+#: src/mapgen.cpp:6975
 msgid "Toggle Portal"
 msgstr "切换传送门"
 
-#: src/mapgen.cpp:7019
+#: src/mapgen.cpp:6976
 msgid "Activate Resonance Cascade"
 msgstr "开启串联共振进程"
 
@@ -37260,8 +37260,8 @@ msgstr "开启串联共振进程"
 #. on map microlab_DinoLab
 #. ~ Access denied message on computer "Missile Controls" placed on map
 #. silo_finale
-#: src/mapgen.cpp:7023 src/mapgen.cpp:7074 src/mapgen.cpp:8142
-#: src/mapgen.cpp:8161 src/mapgen.cpp:8181 src/mapgen.cpp:8200
+#: src/mapgen.cpp:6980 src/mapgen.cpp:7031 src/mapgen.cpp:8099
+#: src/mapgen.cpp:8118 src/mapgen.cpp:8138 src/mapgen.cpp:8157
 #: data/json/mapgen/lab/lab_floorplans_finale1level.json
 #: data/json/mapgen/microlab/microlab_special_tiles.json
 #: data/mods/DinoMod/mapgen/microlab_DinoLab.json
@@ -37271,46 +37271,46 @@ msgid ""
 "ERROR!  Access denied!  Unauthorized access will be met with lethal force!"
 msgstr "错误！拒绝访问！未授权的访问者将会受到致命性攻击！"
 
-#: src/mapgen.cpp:7068 src/mapgen.cpp:8136 src/mapgen.cpp:8155
-#: src/mapgen.cpp:8175 src/mapgen.cpp:8194
+#: src/mapgen.cpp:7025 src/mapgen.cpp:8093 src/mapgen.cpp:8112
+#: src/mapgen.cpp:8132 src/mapgen.cpp:8151
 msgid "Bionic access"
 msgstr "生化插件权限"
 
 #. ~ Interactive menu name in computer "Surgery room computer" placed on map
 #. ~ Interactive menu name in computer "Dinosaur surgery room computer" placed
 #. on map microlab_DinoLab
-#: src/mapgen.cpp:7069 src/mapgen.cpp:8137 src/mapgen.cpp:8156
-#: src/mapgen.cpp:8176 src/mapgen.cpp:8195
+#: src/mapgen.cpp:7026 src/mapgen.cpp:8094 src/mapgen.cpp:8113
+#: src/mapgen.cpp:8133 src/mapgen.cpp:8152
 #: data/json/mapgen/microlab/microlab_special_tiles.json
 #: data/mods/DinoMod/mapgen/microlab_DinoLab.json
 #: data/mods/No_Hope/Mapgen/nested/microlab_special_tiles.json
 msgid "Manifest"
 msgstr "清单"
 
-#: src/mapgen.cpp:7070 src/mapgen.cpp:8138 src/mapgen.cpp:8157
-#: src/mapgen.cpp:8177 src/mapgen.cpp:8196
+#: src/mapgen.cpp:7027 src/mapgen.cpp:8095 src/mapgen.cpp:8114
+#: src/mapgen.cpp:8134 src/mapgen.cpp:8153
 msgid "Open Chambers"
 msgstr "打开隔离室"
 
 #. ~ Computer name placed on map
-#: src/mapgen.cpp:7960 src/mapgen.cpp:7977
+#: src/mapgen.cpp:7917 src/mapgen.cpp:7934
 #: data/json/mapgen/lab/lab_modular/lab_nests_modular/lab_nested_security.json
 msgid "Log Console"
 msgstr "日志终端"
 
 #. ~ Interactive menu name in computer "Log Console" placed on map
-#: src/mapgen.cpp:7961 src/mapgen.cpp:7978
+#: src/mapgen.cpp:7918 src/mapgen.cpp:7935
 #: data/json/mapgen/lab/lab_modular/lab_nests_modular/lab_nested_security.json
 msgid "View Research Logs"
 msgstr "查看研究记录"
 
 #. ~ Interactive menu name in computer "Log Console" placed on map
-#: src/mapgen.cpp:7962 src/mapgen.cpp:7979
+#: src/mapgen.cpp:7919 src/mapgen.cpp:7936
 #: data/json/mapgen/lab/lab_modular/lab_nests_modular/lab_nested_security.json
 msgid "Download Map Data"
 msgstr "下载地图数据"
 
-#: src/mapgen.cpp:8535
+#: src/mapgen.cpp:8492
 msgid "invalid position (not vehicle/appliance)"
 msgstr "无效位置（非载具/家电）"
 
@@ -37535,7 +37535,7 @@ msgstr "* 可在 <info>普通攻击</info> 或 <info>远距攻击</info> 时发�
 
 #: src/martialarts.cpp:2132
 msgid "* Will only activate on a <info>reach attack</info>"
-msgstr "* 仅再<info>远距攻击</info>时发动"
+msgstr "* 仅在 <info>远距攻击</info> 时发动"
 
 #: src/martialarts.cpp:2136
 msgid "* Moves target <info>behind</info> you"
@@ -38041,7 +38041,7 @@ msgstr ""
 "\n"
 
 #: src/medical_ui.cpp:550 src/newcharacter.cpp:1464
-#: src/player_display.cpp:1594 src/veh_interact.cpp:2830
+#: src/player_display.cpp:1594 src/veh_interact.cpp:2831
 msgid "Strength"
 msgstr "力量"
 
@@ -42292,7 +42292,7 @@ msgstr "一具令人毛骨悚然的骷髅从地底爬了出来！"
 msgid "DOOT."
 msgstr "嘟，DOOT。"
 
-#: src/mondeath.cpp:54 src/monstergenerator.cpp:1835
+#: src/mondeath.cpp:54 src/monstergenerator.cpp:1875
 #, c-format
 msgid "The %s dies!"
 msgstr "%s 死了！"
@@ -42798,65 +42798,65 @@ msgid ""
 "needs immediate care.\""
 msgstr "一个柔和的机器声音说：\"请离开全自动医疗仪，这个病人需要立即护理。\""
 
-#: src/monmove.cpp:1985
+#: src/monmove.cpp:1986
 #, c-format
 msgid "A %1$s flies over the %2$s!"
 msgstr "%1$s 飞过了 %2$s！"
 
 #. ~ Message when a monster emerges from water
 #. ~ %1$s: monster name, %2$s: leaps/emerges, %3$s: terrain name
-#: src/monmove.cpp:1993
+#: src/monmove.cpp:1994
 #, c-format
 msgctxt "monster movement"
 msgid "A %1$s %2$s from the %3$s!"
 msgstr "%1$s 从 %3$s %2$s！"
 
-#: src/monmove.cpp:1995
+#: src/monmove.cpp:1996
 msgid "emerges"
 msgstr "出现"
 
-#: src/monmove.cpp:1995
+#: src/monmove.cpp:1996
 msgid "leaps"
 msgstr "跳出"
 
 #. ~ Message when a monster enters water
 #. ~ %1$s: monster name, %2$s: dives/sinks, %3$s: terrain name
-#: src/monmove.cpp:2000
+#: src/monmove.cpp:2001
 #, c-format
 msgctxt "monster movement"
 msgid "A %1$s %2$s into the %3$s!"
 msgstr "%1$s %2$s入了 %3$s！"
 
-#: src/monmove.cpp:2002
+#: src/monmove.cpp:2003
 msgid "dives"
 msgstr "潜"
 
-#: src/monmove.cpp:2002
+#: src/monmove.cpp:2003
 msgid "sinks"
 msgstr "沉"
 
-#: src/monmove.cpp:2265
+#: src/monmove.cpp:2266
 #, c-format
 msgid "The %1$s tramples %2$s."
 msgstr "%1$s踩过了%2$s。"
 
-#: src/monmove.cpp:2360
+#: src/monmove.cpp:2361
 #, c-format
 msgid "The %1$s bounces off a %2$s!"
 msgstr "%1$s 弹开了 %2$s！"
 
-#: src/monmove.cpp:2372
+#: src/monmove.cpp:2373
 #, c-format
 msgid "The %1$s bounces off %2$s!"
 msgstr "%1$s 弹开了 %2$s！"
 
-#: src/monmove.cpp:2395
+#: src/monmove.cpp:2396
 #, c-format
 msgid "The %1$s bounces off a %2$s and takes %3$d damage."
 msgstr "%1$s弹开了%2$s并受到%3$d点伤害。"
 
 #. ~ %1$s - monster name, %2$s - vehicle name
-#: src/monmove.cpp:2530
+#: src/monmove.cpp:2531
 #, c-format
 msgid "%1$s shoves %2$s out of their way!"
 msgstr "%1$s 把 %2$s 推开！"
@@ -43220,84 +43220,84 @@ msgstr "<color_red>（无生命指征）</color>"
 msgid "Lifespan end time: %1$d (turns left %2$d)"
 msgstr "寿命结束时间：%1$d（剩余%2$d回合）"
 
-#: src/monster.cpp:1653
+#: src/monster.cpp:1663
 #, c-format
 msgid "%1$s saw the %2$s being stolen!"
 msgstr "%1$s看见%2$s被偷了东西！"
 
-#: src/monster.cpp:2204
+#: src/monster.cpp:2234
 #, c-format
 msgid "%s misses you."
 msgstr "%s 没击中你。"
 
-#: src/monster.cpp:2206
+#: src/monster.cpp:2236
 #, c-format
 msgid "You dodge %s."
 msgstr "你躲开了 %s。"
 
-#: src/monster.cpp:2206 src/monster.cpp:2214
+#: src/monster.cpp:2236 src/monster.cpp:2244
 msgid "something"
 msgstr "某物"
 
-#: src/monster.cpp:2210
+#: src/monster.cpp:2240
 #, c-format
 msgid "%1$s misses %2$s!"
 msgstr "%1$s 没击中 %2$s！"
 
-#: src/monster.cpp:2213
+#: src/monster.cpp:2243
 #, c-format
 msgid "%1$s dodges %2$s attack."
 msgstr "%1$s 闪避了 %2$s 的攻击。"
 
-#: src/monster.cpp:2218
+#: src/monster.cpp:2248
 msgid "You dodge an attack from an unseen source."
 msgstr "你躲避了不知来路的攻击。"
 
 #. ~ 1$s is attacker name, 2$s is bodypart name in accusative.
-#: src/monster.cpp:2231
+#: src/monster.cpp:2261
 #, c-format
 msgid "%1$s hits your %2$s."
 msgstr "%1$s 击中了你的 %2$s。"
 
 #. ~ %1$s: name of your mount, %2$s: target NPC name, %3$d: damage value
 #. ~ %1$s: name of your mount, %2$s: target creature name, %3$d: damage value
-#: src/monster.cpp:2237 src/monster.cpp:2249
+#: src/monster.cpp:2267 src/monster.cpp:2279
 #, c-format
 msgid "Your %1$s hits %2$s for %3$d damage!"
 msgstr "你的%1$s击中%2$s，造成%3$d点伤害！"
 
 #. ~ %1$s: attacker name, %2$s: target NPC name, %3$s: bodypart name in
 #. accusative
-#: src/monster.cpp:2241
+#: src/monster.cpp:2271
 #, c-format
 msgid "%1$s hits %2$s %3$s."
 msgstr "%1$s 击中了 %2$s %3$s。"
 
-#: src/monster.cpp:2254
+#: src/monster.cpp:2284
 #, c-format
 msgid "Something hits the %1$s!"
 msgstr "有东西击中了你的 %1$s。"
 
-#: src/monster.cpp:2256
+#: src/monster.cpp:2286
 #, c-format
 msgid "The %1$s hits something!"
 msgstr "%1$s 击中了什么东西！"
 
 #. ~ %1$s: attacker name, %2$s: target creature name
-#: src/monster.cpp:2259
+#: src/monster.cpp:2289
 #, c-format
 msgid "The %1$s hits %2$s!"
 msgstr "%1$s 击中了 %2$s！"
 
 #. ~ %s is bodypart name in accusative.
-#: src/monster.cpp:2265
+#: src/monster.cpp:2295
 #, c-format
 msgid "Something hits your %s."
 msgstr "有东西击中了你的%s。"
 
 #. ~ 1$s is attacker name, 2$s is bodypart name in accusative, 3$s is armor
 #. name
-#: src/monster.cpp:2273
+#: src/monster.cpp:2303
 #, c-format
 msgid "%1$s hits your %2$s, but your %3$s protects you."
 msgstr "%1$s 击中了你的 %2$s，但你的 %3$s 保护了你。"
@@ -43306,173 +43306,173 @@ msgstr "%1$s 击中了你的 %2$s，但你的 %3$s 保护了你。"
 #. ~ $3s is target bodypart name in accusative, $4s is the monster target
 #. name,
 #. ~ 5$s is target armor name.
-#: src/monster.cpp:2280
+#: src/monster.cpp:2310
 #, c-format
 msgid "%1$s hits %2$s %3$s but is stopped by %4$s %5$s."
 msgstr "%1$s 击中了 %2$s %3$s，但是没能击穿%4$s的%5$s。"
 
 #. ~ $1s is monster name, %2$s is that monster target name,
 #. ~ $3s is target armor name.
-#: src/monster.cpp:2289
+#: src/monster.cpp:2319
 #, c-format
 msgid "%1$s hits %2$s but is stopped by its %3$s."
 msgstr "%1$s 击中了 %2$s，但是没能击穿它的%3$s。"
 
 #. ~ 1$s is bodypart name in accusative, 2$s is armor name.
-#: src/monster.cpp:2296
+#: src/monster.cpp:2326
 #, c-format
 msgid "Something hits your %1$s, but your %2$s protects you."
 msgstr "有东西击中了你的 %1$s，但你的 %2$s 保护了你。"
 
-#: src/monster.cpp:2332
+#: src/monster.cpp:2362
 msgid "You're envenomed!"
 msgstr "你中毒了！"
 
-#: src/monster.cpp:2338
+#: src/monster.cpp:2368
 msgid "You feel venom flood your body, wracking you with pain…"
 msgstr "你感觉毒素涌入你的身体，让你非常疼痛……"
 
-#: src/monster.cpp:2343
+#: src/monster.cpp:2373
 msgid "You feel venom enter your body!"
 msgstr "你感觉到毒素涌入你的身体！"
 
-#: src/monster.cpp:2490
+#: src/monster.cpp:2520
 #, c-format
 msgid "The %s struggles to break free of its bonds."
 msgstr "%s 挣扎着想摆脱束缚。"
 
-#: src/monster.cpp:2496
+#: src/monster.cpp:2526
 #, c-format
 msgid "The %s easily slips out of its bonds."
 msgstr "%s 轻易地摆脱了束缚。"
 
-#: src/monster.cpp:2511
+#: src/monster.cpp:2541
 #, c-format
 msgid "The %s snaps the bindings holding it down."
 msgstr "%s 破坏了束缚。"
 
-#: src/monster.cpp:2513
+#: src/monster.cpp:2543
 #, c-format
 msgid "The %s breaks free of the bindings holding it down."
 msgstr "%s 挣脱了束缚。"
 
-#: src/monster.cpp:2524
+#: src/monster.cpp:2554
 #, c-format
 msgid "The %s struggles to stand."
 msgstr "%s 挣扎着站起来。"
 
-#: src/monster.cpp:2528
+#: src/monster.cpp:2558
 #, c-format
 msgid "The %s climbs to its feet!"
 msgstr "%s 爬了起来！"
 
-#: src/monster.cpp:2581
+#: src/monster.cpp:2611
 #, c-format
 msgid "The %s frees itself from the rubble!"
 msgstr "%s 从瓦砾中钻出！"
 
-#: src/monster.cpp:2597
+#: src/monster.cpp:2627
 #, c-format
 msgid "The %s escapes the pit!"
 msgstr "%s 逃离了深坑！"
 
-#: src/monster.cpp:2628
+#: src/monster.cpp:2658
 #, c-format
 msgid "The %s is no longer grabbed!"
 msgstr "%s挣脱了！"
 
-#: src/monster.cpp:2640
+#: src/monster.cpp:2670
 #, c-format
 msgid "The %s breaks free from the %s's grab!"
 msgstr "%s从%s的抓握中挣脱了出来！"
 
-#: src/monster.cpp:2961
+#: src/monster.cpp:2991
 msgid "hummmmm."
 msgstr "嗡嗡嗡……"
 
-#: src/monster.cpp:2971
+#: src/monster.cpp:3001
 msgid "fwoosh!"
 msgstr "嗖！"
 
-#: src/monster.cpp:2982
+#: src/monster.cpp:3012
 #, c-format
 msgid "The %s explodes in a fiery inferno!"
 msgstr "%s 在地狱般的烈焰中爆炸了！"
 
-#: src/monster.cpp:2985
+#: src/monster.cpp:3015
 #, c-format
 msgid "Lightning from %1$s engulfs the %2$s!"
 msgstr "%1$s 的闪电吞没了 %2$s！"
 
-#: src/monster.cpp:2994
+#: src/monster.cpp:3024
 msgid "BOOOOOOOM!!!"
 msgstr "BOOOOOOOM!!!"
 
-#: src/monster.cpp:2996
+#: src/monster.cpp:3026
 msgid "vrrrRRRUUMMMMMMMM!"
 msgstr "嗡嗡嗡滋滋滋嗡嗡嗡！"
 
-#: src/monster.cpp:3001
+#: src/monster.cpp:3031
 #, c-format
 msgid "Lightning strikes the %s!"
 msgstr "闪电击中了%s！"
 
-#: src/monster.cpp:3002
+#: src/monster.cpp:3032
 msgid "Your vision goes white!"
 msgstr "你的眼前一片白茫茫！"
 
-#: src/monster.cpp:3007
+#: src/monster.cpp:3037
 msgid "VMMMMMMMMM!"
 msgstr "嗡嗡嗡呜呜呜！"
 
-#: src/monster.cpp:3069
+#: src/monster.cpp:3099
 msgid "The last enemy holding you collapses!"
 msgstr "最后一个抓着你的敌人倒下了！"
 
-#: src/monster.cpp:3070
+#: src/monster.cpp:3100
 msgid "The last enemy holding <npcname> collapses!"
 msgstr "最后一个抓着 <npcname> 的敌人倒下了！"
 
-#: src/monster.cpp:3266
+#: src/monster.cpp:3296
 #, c-format
 msgid "Your %s emits a beeping noise as its batteries start to get low."
 msgstr "你的 %s 电量过低，发出了滴滴声。"
 
-#: src/monster.cpp:3527
+#: src/monster.cpp:3557
 #, c-format
 msgid "The %s is visibly regenerating!"
 msgstr "%s 以肉眼可见的速度再生着！"
 
-#: src/monster.cpp:3529
+#: src/monster.cpp:3559
 #, c-format
 msgid "The %s seems a little healthier."
 msgstr "%s 看起来恢复了一些。"
 
-#: src/monster.cpp:3531
+#: src/monster.cpp:3561
 #, c-format
 msgid "The %s is healing slowly."
 msgstr "%s 正在缓慢恢复。"
 
-#: src/monster.cpp:3541
+#: src/monster.cpp:3571
 #, c-format
 msgid "The %s uses the darkness to regenerate."
 msgstr "%s 会在黑暗中自愈。"
 
-#: src/monster.cpp:3608
+#: src/monster.cpp:3638
 msgid "The shadow withers in the light!"
 msgstr "暗影在光亮中变得虚弱！"
 
-#: src/monster.cpp:3614
+#: src/monster.cpp:3644
 #, c-format
 msgid "The %s burns horribly in the sunlight!"
 msgstr "%s 在阳光下剧烈的燃烧着！"
 
-#: src/monster.cpp:3652
+#: src/monster.cpp:3682
 #, c-format
 msgid "The spores transform %1$s into a %2$s!"
 msgstr "孢子把 %1$s 转化成 %2$s！"
 
-#: src/monstergenerator.cpp:1298 src/mtype.cpp:529
+#: src/monstergenerator.cpp:1338 src/mtype.cpp:529
 msgid "footsteps."
 msgstr "脚步声。"
 
@@ -52557,7 +52557,7 @@ msgstr "需要工具："
 
 #. ~ %1$s represents the internal color name which shouldn't be translated,
 #. %2$s is the word "NONE"
-#: src/requirements.cpp:850 src/veh_interact.cpp:380
+#: src/requirements.cpp:850 src/veh_interact.cpp:381
 msgid "NONE"
 msgstr "无"
 
@@ -54764,98 +54764,98 @@ msgstr "/能源并网"
 msgid "Remove other cables first"
 msgstr "请先移除其他的线缆"
 
-#: src/veh_interact.cpp:213
+#: src/veh_interact.cpp:214
 #, c-format
 msgid ""
 "Press space, choose a facing direction for the new %s and confirm with "
 "enter."
 msgstr "按空格键后选择 %s 的朝向，再按回车键确认。"
 
-#: src/veh_interact.cpp:260
+#: src/veh_interact.cpp:261
 msgid "Select part"
 msgstr "选择部件"
 
-#: src/veh_interact.cpp:365
+#: src/veh_interact.cpp:366
 msgid "<color_white>Time required:</color>\n"
 msgstr "<color_white>耗时：</color>\n"
 
-#: src/veh_interact.cpp:368
+#: src/veh_interact.cpp:369
 msgid "<color_white>Skills required:</color>\n"
 msgstr "<color_white>所需技能：</color>\n"
 
 #. ~ %1$s represents the internal color name which shouldn't be translated,
 #. %2$s is skill name, and %3$i is skill level
-#: src/veh_interact.cpp:375
+#: src/veh_interact.cpp:376
 #, c-format
 msgid "> %1$s%2$s %3$i</color>\n"
 msgstr "> %1$s%2$s %3$i</color>\n"
 
-#: src/veh_interact.cpp:544
+#: src/veh_interact.cpp:545
 #, c-format
 msgid "You cannot rename this vehicle as it is owned by: %s."
 msgstr "你不能重命名此载具，因为它属于：%s。"
 
-#: src/veh_interact.cpp:569
+#: src/veh_interact.cpp:570
 #, c-format
 msgid "You cannot assign crew on this vehicle as it is owned by: %s."
 msgstr "你不能指定该载具成员座位，因为它属于：%s。"
 
-#: src/veh_interact.cpp:578
+#: src/veh_interact.cpp:579
 #, c-format
 msgid "You cannot relabel this vehicle as it is owned by: %s."
 msgstr "你不能重新标记此载具，因为它属于：%s。"
 
-#: src/veh_interact.cpp:800
+#: src/veh_interact.cpp:801
 msgid "Unracking is required before installing any parts here."
 msgstr "在这里安装部件前需要先从摩托车托架上卸下载具。"
 
 #. ~ %1$s is fuel_type
-#: src/veh_interact.cpp:806
+#: src/veh_interact.cpp:807
 #, c-format
 msgid "Only one %1$s powered engine can be installed."
 msgstr "只能安装一个 %1$s 引擎。"
 
-#: src/veh_interact.cpp:810 src/veh_interact.cpp:1755
+#: src/veh_interact.cpp:811 src/veh_interact.cpp:1756
 msgid "This vehicle cannot be modified in this way.\n"
 msgstr "这台载具不能被这样改造。\n"
 
-#: src/veh_interact.cpp:813
+#: src/veh_interact.cpp:814
 msgid "This part cannot be installed.\n"
 msgstr "无法安装此部件。\n"
 
-#: src/veh_interact.cpp:821
+#: src/veh_interact.cpp:822
 msgid "Funnels need to be installed over a tank."
 msgstr "集雨器需要被安装在水箱上。"
 
-#: src/veh_interact.cpp:830
+#: src/veh_interact.cpp:831
 msgid "Can't install turret on another turret."
 msgstr "无法在一个炮塔上安装另一个炮塔。"
 
-#: src/veh_interact.cpp:873 src/veh_interact.cpp:1181
-#: src/veh_interact.cpp:1787
+#: src/veh_interact.cpp:874 src/veh_interact.cpp:1182
+#: src/veh_interact.cpp:1788
 msgid "<color_white>Additional requirements:</color>\n"
 msgstr "<color_white>额外要求：</color>\n"
 
 #. ~ %1$s represents the internal color name which shouldn't be translated,
 #. %2$s is skill name, and %3$i is skill level
-#: src/veh_interact.cpp:883
+#: src/veh_interact.cpp:884
 #, c-format
 msgid "> %1$s%2$s %3$i</color> for extra engines."
 msgstr "> %1$s%2$s %3$i</color> 以增加额外引擎。"
 
-#: src/veh_interact.cpp:887
+#: src/veh_interact.cpp:888
 msgid ""
 "> <color_red>You cannot install any more engines on this vehicle.</color>"
 msgstr "> <color_red>你无法在这个载具上安装更多引擎了。</color>"
 
 #. ~ %1$s represents the internal color name which shouldn't be translated,
 #. %2$s is skill name, and %3$i is skill level
-#: src/veh_interact.cpp:897
+#: src/veh_interact.cpp:898
 #, c-format
 msgid "> %1$s%2$s %3$i</color> for extra steering axles."
 msgstr "> %1$s%2$s %3$i</color> 以增加额外转向轴。"
 
-#: src/veh_interact.cpp:911
+#: src/veh_interact.cpp:912
 msgid ""
 "<color_white>Cannot install due to:</color>\n"
 "> "
@@ -54863,58 +54863,58 @@ msgstr ""
 "<color_white>无法安装的原因：</color>\n"
 "> "
 
-#: src/veh_interact.cpp:973
+#: src/veh_interact.cpp:974
 msgid "Cannot install any part here."
 msgstr "这里什么也不能装。"
 
-#: src/veh_interact.cpp:978
+#: src/veh_interact.cpp:979
 msgid "Choose new part to install here:"
 msgstr "选择所要安装的新部件："
 
-#: src/veh_interact.cpp:1029
+#: src/veh_interact.cpp:1030
 msgid "Search for part"
 msgstr "筛选部件"
 
-#: src/veh_interact.cpp:1046 src/veh_interact.cpp:1860
+#: src/veh_interact.cpp:1047 src/veh_interact.cpp:1861
 msgid "Your morale is too low to construct…"
 msgstr "你心情值过低，无法建造……"
 
-#: src/veh_interact.cpp:1049 src/veh_interact.cpp:1139
-#: src/veh_interact.cpp:1268 src/veh_interact.cpp:1863
+#: src/veh_interact.cpp:1050 src/veh_interact.cpp:1140
+#: src/veh_interact.cpp:1269 src/veh_interact.cpp:1864
 msgid "It's too dark to see what you are doing…"
 msgstr "光线不足，你无法继续……"
 
-#: src/veh_interact.cpp:1052
+#: src/veh_interact.cpp:1053
 msgid "You can't install parts while driving."
 msgstr "你在驾驶载具时无法安装部件。"
 
-#: src/veh_interact.cpp:1062
+#: src/veh_interact.cpp:1063
 msgid ""
 "Installing this part will mean that this vehicle is no longer flightworthy."
 "  Continue?"
 msgstr "安装此部件将使载具不可飞行。是否继续？"
 
-#: src/veh_interact.cpp:1070
+#: src/veh_interact.cpp:1071
 msgid "Installing this part will make the vehicle unfoldable.  Continue?"
 msgstr "安装此部件将使车辆不可折叠。是否继续？"
 
-#: src/veh_interact.cpp:1136
+#: src/veh_interact.cpp:1137
 msgid "Your morale is too low to repair…"
 msgstr "你心情值过低，无法修理……"
 
-#: src/veh_interact.cpp:1142
+#: src/veh_interact.cpp:1143
 msgid "You can't repair stuff while driving."
 msgstr "你在驾驶载具时无法修理部件。"
 
-#: src/veh_interact.cpp:1145
+#: src/veh_interact.cpp:1146
 msgid "There are no damaged parts on this vehicle."
 msgstr "载具中没有损坏的部件。"
 
-#: src/veh_interact.cpp:1158
+#: src/veh_interact.cpp:1159
 msgid "Choose a part here to repair:"
 msgstr "选择所要维修的部件："
 
-#: src/veh_interact.cpp:1189
+#: src/veh_interact.cpp:1190
 msgid ""
 "\n"
 "Unracking is required before replacing this part.\n"
@@ -54922,15 +54922,15 @@ msgstr ""
 "\n"
 "替换这个部件需要先拆卸载具部件\n"
 
-#: src/veh_interact.cpp:1196
+#: src/veh_interact.cpp:1197
 msgid "This part cannot be repaired.\n"
 msgstr "无法修理此部件。\n"
 
-#: src/veh_interact.cpp:1199
+#: src/veh_interact.cpp:1200
 msgid "This vehicle cannot be repaired.\n"
 msgstr "这台载具不能被修理。\n"
 
-#: src/veh_interact.cpp:1212
+#: src/veh_interact.cpp:1213
 #, c-format
 msgid ""
 "\n"
@@ -54941,124 +54941,124 @@ msgstr ""
 "<color_yellow>你需要具有 %s 专长才能够确保安全维修飞行载具！</color>\n"
 "\n"
 
-#: src/veh_interact.cpp:1232
+#: src/veh_interact.cpp:1233
 msgid ""
 "Repairing this part will mean that this vehicle is no longer flightworthy.  "
 "Continue?"
 msgstr "修理此部件将使载具不可飞行。是否继续？"
 
-#: src/veh_interact.cpp:1235
+#: src/veh_interact.cpp:1236
 msgid "You chose not to install this part to keep the vehicle flyable.\n"
 msgstr "你选择不安装这个部件，以保持载具飞行性能。\n"
 
-#: src/veh_interact.cpp:1265
+#: src/veh_interact.cpp:1266
 msgid "Your morale is too low to mend…"
 msgstr "你心情值过低，无法修复……"
 
-#: src/veh_interact.cpp:1271
+#: src/veh_interact.cpp:1272
 msgid "No faulty parts require mending."
 msgstr "没有需要修复的故障部件。"
 
-#: src/veh_interact.cpp:1274
+#: src/veh_interact.cpp:1275
 msgid "You can't mend stuff while driving."
 msgstr "你在驾驶载具时无法修复部件。"
 
-#: src/veh_interact.cpp:1281
+#: src/veh_interact.cpp:1282
 msgid "Choose a part here to mend:"
 msgstr "选择要修复的部件："
 
-#: src/veh_interact.cpp:1305
+#: src/veh_interact.cpp:1306
 msgid "You can't refill a moving vehicle."
 msgstr "你无法为正在移动的载具补充液体。"
 
-#: src/veh_interact.cpp:1309
+#: src/veh_interact.cpp:1310
 msgid "No parts can currently be refilled."
 msgstr "没有可以补充液体的部件。"
 
-#: src/veh_interact.cpp:1317
+#: src/veh_interact.cpp:1318
 msgid "Select part to refill:"
 msgstr "选择要补充液体的部件："
 
-#: src/veh_interact.cpp:1367
+#: src/veh_interact.cpp:1368
 #, c-format
 msgid "Engines: %sSafe %4d kW</color> %sMax %4d kW</color>"
 msgstr "引擎：%s安全 %4d 千瓦</color> %s最大 %4d 千瓦</color>"
 
-#: src/veh_interact.cpp:1370
+#: src/veh_interact.cpp:1371
 msgid "Fuel     Use"
 msgstr "燃料消耗"
 
-#: src/veh_interact.cpp:1373
+#: src/veh_interact.cpp:1374
 msgid "Tanks"
 msgstr "油箱"
 
-#: src/veh_interact.cpp:1374 src/veh_interact.cpp:1401
+#: src/veh_interact.cpp:1375 src/veh_interact.cpp:1402
 msgid "Contents     Qty"
 msgstr "存量"
 
-#: src/veh_interact.cpp:1379
+#: src/veh_interact.cpp:1380
 #, c-format
 msgid "Batteries: %s%+4d W</color>"
 msgstr "电池：%s%+4d 瓦</color>"
 
-#: src/veh_interact.cpp:1382
+#: src/veh_interact.cpp:1383
 #, c-format
 msgid "Batteries: %s%+4.1f kW</color>"
 msgstr "电池：%s%+4.1f 千瓦</color>"
 
-#: src/veh_interact.cpp:1386
+#: src/veh_interact.cpp:1387
 msgid "Capacity  Status"
 msgstr "容量"
 
-#: src/veh_interact.cpp:1392
+#: src/veh_interact.cpp:1393
 msgid "Reactors"
 msgstr "反应堆"
 
-#: src/veh_interact.cpp:1394
+#: src/veh_interact.cpp:1395
 #, c-format
 msgid "Reactors: Up to %s%+4d W</color>"
 msgstr "反应堆：最高 %s%+4d 瓦</color>"
 
-#: src/veh_interact.cpp:1397
+#: src/veh_interact.cpp:1398
 #, c-format
 msgid "Reactors: Up to %s%+4.1f kW</color>"
 msgstr "反应堆：最高 %s%+4.1f 千瓦</color>"
 
-#: src/veh_interact.cpp:1404
+#: src/veh_interact.cpp:1405
 msgid "Turrets"
 msgstr "炮塔"
 
-#: src/veh_interact.cpp:1405
+#: src/veh_interact.cpp:1406
 msgid "Ammo     Qty"
 msgstr "弹药量"
 
-#: src/veh_interact.cpp:1408
+#: src/veh_interact.cpp:1409
 msgid "Seats"
 msgstr "座位"
 
-#: src/veh_interact.cpp:1409
+#: src/veh_interact.cpp:1410
 msgid "Who"
 msgstr "乘员"
 
-#: src/veh_interact.cpp:1585
+#: src/veh_interact.cpp:1586
 msgid "'{' to scroll up"
 msgstr "按\"{\"向上滚动列表"
 
-#: src/veh_interact.cpp:1622
+#: src/veh_interact.cpp:1623
 msgid "'}' to scroll down"
 msgstr "按\"}\"向下滚动列表"
 
-#: src/veh_interact.cpp:1758
+#: src/veh_interact.cpp:1759
 msgid "This part cannot be uninstalled.\n"
 msgstr "无法拆卸此部件。\n"
 
-#: src/veh_interact.cpp:1764
+#: src/veh_interact.cpp:1765
 #, c-format
 msgid ""
 "<color_white>Removing the broken %1$s may yield some fragments.</color>\n"
 msgstr "<color_white>移除损坏的 %1$s 可获得部分零件。</color>\n"
 
-#: src/veh_interact.cpp:1771
+#: src/veh_interact.cpp:1772
 #, c-format
 msgid ""
 "<color_white>Removing the %1$s may yield:</color>\n"
@@ -55067,7 +55067,7 @@ msgstr ""
 "<color_white>移除 %1$s 可获得：</color>\n"
 "> %2$s\n"
 
-#: src/veh_interact.cpp:1776
+#: src/veh_interact.cpp:1777
 #, c-format
 msgid ""
 "<color_white>Removing the %1$s will yield:</color>\n"
@@ -55078,179 +55078,179 @@ msgstr ""
 
 #. ~ %1$s represents the internal color name which shouldn't be translated,
 #. %2$s is pre-translated reason
-#: src/veh_interact.cpp:1798
+#: src/veh_interact.cpp:1799
 #, c-format
 msgid "> %1$s%2$s</color>"
 msgstr "> %1$s%2$s</color>"
 
-#: src/veh_interact.cpp:1813
+#: src/veh_interact.cpp:1814
 msgid "No parts here."
 msgstr "这里没有部件。"
 
-#: src/veh_interact.cpp:1818
+#: src/veh_interact.cpp:1819
 msgid "Choose a part here to remove:"
 msgstr "选择所要拆除的部件："
 
-#: src/veh_interact.cpp:1866
+#: src/veh_interact.cpp:1867
 msgid "You cannot remove that part while something is attached to it."
 msgstr "你不能拆除连接其他部分的部件。"
 
-#: src/veh_interact.cpp:1869
+#: src/veh_interact.cpp:1870
 msgid "Better not remove something while driving."
 msgstr "驾驶时最好别乱拆部件。"
 
-#: src/veh_interact.cpp:1879
+#: src/veh_interact.cpp:1880
 msgid ""
 "Removing this part will mean that this vehicle is no longer flightworthy.  "
 "Continue?"
 msgstr "移除此部件将使载具不可飞行。是否继续？"
 
-#: src/veh_interact.cpp:1902 src/veh_interact.cpp:2965
+#: src/veh_interact.cpp:1903 src/veh_interact.cpp:2966
 msgid "The vehicle has no liquid fuel left to siphon."
 msgstr "这辆载具没有可抽取的液态燃料。"
 
-#: src/veh_interact.cpp:1906
+#: src/veh_interact.cpp:1907
 msgid "You need a <color_red>hose</color> to siphon liquid fuel."
 msgstr "你需要一根 <color_red>软管</color> 来抽取液体燃料。"
 
-#: src/veh_interact.cpp:1910
+#: src/veh_interact.cpp:1911
 msgid "You can't siphon from a moving vehicle."
 msgstr "你无法从正在移动的载具中抽油。"
 
-#: src/veh_interact.cpp:1918
+#: src/veh_interact.cpp:1919
 msgid "Select part to siphon:"
 msgstr "选择要抽取的水箱："
 
-#: src/veh_interact.cpp:1947 src/veh_interact.cpp:2999
+#: src/veh_interact.cpp:1948 src/veh_interact.cpp:3000
 msgid "The vehicle has no solid fuel left to remove."
 msgstr "这辆载具没有可清空的固态燃料。"
 
-#: src/veh_interact.cpp:1951
+#: src/veh_interact.cpp:1952
 msgid "You can't unload from a moving vehicle."
 msgstr "你无法从正在移动的载具中清空燃料。"
 
-#: src/veh_interact.cpp:1966 src/veh_shape.cpp:151
+#: src/veh_interact.cpp:1967 src/veh_shape.cpp:151
 msgid "Choose cosmetic variant:"
 msgstr "选择皮肤变异："
 
-#: src/veh_interact.cpp:2003
+#: src/veh_interact.cpp:2004
 msgid "Need at least one seat and an ally to assign crew members."
 msgstr "需要至少一个座位及一名同伴才能指定乘员。"
 
-#: src/veh_interact.cpp:2008
+#: src/veh_interact.cpp:2009
 msgid "Assign crew positions:"
 msgstr "指定乘员位置："
 
-#: src/veh_interact.cpp:2016
+#: src/veh_interact.cpp:2017
 msgid "Select crew member"
 msgstr "选择乘员"
 
-#: src/veh_interact.cpp:2019
+#: src/veh_interact.cpp:2020
 msgid "Clear assignment"
 msgstr "清除指定乘员"
 
-#: src/veh_interact.cpp:2057
+#: src/veh_interact.cpp:2058
 msgid "There are no parts here to label."
 msgstr "这里没地方做标记。"
 
-#: src/veh_interact.cpp:2064
+#: src/veh_interact.cpp:2065
 msgid "New label:"
 msgstr "新标签："
 
-#: src/veh_interact.cpp:2088
+#: src/veh_interact.cpp:2089
 msgid ""
 "<color_red>Unsuitable terrain</color> for working on part that requires "
 "jacking."
 msgstr "<color_red>地形不适宜</color>进行需要千斤顶的安装工作。"
 
-#: src/veh_interact.cpp:2122
+#: src/veh_interact.cpp:2123
 #, c-format
 msgid "(Strong Back helped, giving +%d strength)"
 msgstr "（背肌发达提供载具装卸加成，等效力量 +%d）"
 
-#: src/veh_interact.cpp:2126
+#: src/veh_interact.cpp:2127
 #, c-format
 msgid "(Bad Back reduced usable strength by %d)"
 msgstr "（背部旧伤提供载具装卸惩罚，等效力量 -%d）"
 
-#: src/veh_interact.cpp:2131
+#: src/veh_interact.cpp:2132
 #, c-format
 msgid "(Effective lifting strength is %d)"
 msgstr "（实际抬举力量为%d）"
 
 #. ~ %1$s is quality name, %2$d is quality level
-#: src/veh_interact.cpp:2138
+#: src/veh_interact.cpp:2139
 #, c-format
 msgid "1 tool with %1$s %2$d"
 msgstr "1 个 %2$d 级 %1$s 工具"
 
-#: src/veh_interact.cpp:2143
+#: src/veh_interact.cpp:2144
 #, c-format
 msgid "strength ( assisted ) %d %s"
 msgstr "力量（含协助者）%d %s"
 
-#: src/veh_interact.cpp:2145
+#: src/veh_interact.cpp:2146
 #, c-format
 msgid "strength %d %s"
 msgstr "力量 %d %s"
 
-#: src/veh_interact.cpp:2148
+#: src/veh_interact.cpp:2149
 #, c-format
 msgid "> %1$s <color_white>OR</color> %2$s"
 msgstr "> %1$s <color_white>或者</color> %2$s"
 
-#: src/veh_interact.cpp:2384
+#: src/veh_interact.cpp:2385
 msgid "<color_light_red>disabled</color>"
 msgstr "<color_light_red>无法运作</color>"
 
-#: src/veh_interact.cpp:2386
+#: src/veh_interact.cpp:2387
 msgid "<color_light_red>lack</color>"
 msgstr "<color_light_red>缺少</color>"
 
-#: src/veh_interact.cpp:2388
+#: src/veh_interact.cpp:2389
 msgid "<color_light_red>unbalanced</color>"
 msgstr "<color_light_red>不平衡</color>"
 
-#: src/veh_interact.cpp:2390
+#: src/veh_interact.cpp:2391
 msgid "<color_light_red>no steering</color>"
 msgstr "<color_light_red>没有转向轮</color>"
 
-#: src/veh_interact.cpp:2392
+#: src/veh_interact.cpp:2393
 msgid "<color_light_red>broken steering</color>"
 msgstr "<color_light_red>转向轮损坏</color>"
 
-#: src/veh_interact.cpp:2394
+#: src/veh_interact.cpp:2395
 msgid "<color_light_red>poor steering</color>"
 msgstr "<color_light_red>转向困难</color>"
 
-#: src/veh_interact.cpp:2396
+#: src/veh_interact.cpp:2397
 msgid "<color_light_green>enough</color>"
 msgstr "<color_light_green>足够</color>"
 
-#: src/veh_interact.cpp:2401
+#: src/veh_interact.cpp:2402
 msgid "<color_light_red>sinks</color>"
 msgstr "<color_light_red>沉没</color>"
 
-#: src/veh_interact.cpp:2403
+#: src/veh_interact.cpp:2404
 msgid "<color_light_blue>floats</color>"
 msgstr "<color_light_blue>浮起</color>"
 
-#: src/veh_interact.cpp:2407
+#: src/veh_interact.cpp:2408
 #, c-format
 msgid "Wheels/boat: %s/%s"
 msgstr "轮胎/船体：%s/%s"
 
-#: src/veh_interact.cpp:2411
+#: src/veh_interact.cpp:2412
 #, c-format
 msgid "Boat: %s"
 msgstr "船体：%s"
 
-#: src/veh_interact.cpp:2414
+#: src/veh_interact.cpp:2415
 #, c-format
 msgid "Wheels: %s"
 msgstr "轮胎：%s"
 
-#: src/veh_interact.cpp:2472
+#: src/veh_interact.cpp:2473
 #, c-format
 msgid ""
 "Air Safe/Top speed: "
@@ -55258,12 +55258,12 @@ msgid ""
 msgstr ""
 "空中安全/最高速度：<color_light_green>%3d</color>/<color_light_red>%3d</color> %s"
 
-#: src/veh_interact.cpp:2478
+#: src/veh_interact.cpp:2479
 #, c-format
 msgid "Air acceleration: <color_light_blue>%3d</color> %s/s"
 msgstr "空中加速度：<color_light_blue>%3d</color> %s/s"
 
-#: src/veh_interact.cpp:2485
+#: src/veh_interact.cpp:2486
 #, c-format
 msgid ""
 "Safe/Top speed: <color_light_green>%3d</color>/<color_light_red>%3d</color> "
@@ -55272,12 +55272,12 @@ msgstr ""
 "安全/最高速度：<color_light_green>%3d</color>/<color_light_red>%3d</color> %s"
 
 #. ~ /t means per turn
-#: src/veh_interact.cpp:2493
+#: src/veh_interact.cpp:2494
 #, c-format
 msgid "Acceleration: <color_light_blue>%3d</color> %s/s"
 msgstr "加速度：<color_light_blue>%3d</color> %s/s"
 
-#: src/veh_interact.cpp:2502
+#: src/veh_interact.cpp:2503
 #, c-format
 msgid ""
 "Water Safe/Top speed: "
@@ -55286,217 +55286,217 @@ msgstr ""
 "水中安全/最高速度：<color_light_green>%3d</color>/<color_light_red>%3d</color> %s"
 
 #. ~ /t means per turn
-#: src/veh_interact.cpp:2510
+#: src/veh_interact.cpp:2511
 #, c-format
 msgid "Water acceleration: <color_light_blue>%3d</color> %s/s"
 msgstr "水中加速度：<color_light_blue>%3d</color> %s/s"
 
-#: src/veh_interact.cpp:2519
+#: src/veh_interact.cpp:2520
 #, c-format
 msgid "Mass: <color_light_blue>%5.0f</color> %s"
 msgstr "重量：<color_light_blue>%5.0f</color> %s"
 
-#: src/veh_interact.cpp:2523
+#: src/veh_interact.cpp:2524
 #, c-format
 msgid ""
 "Cargo volume: <color_light_blue>%s</color> / <color_light_blue>%s</color> %s"
 msgstr "载货：<color_light_blue>%s</color>/<color_light_blue>%s</color> %s"
 
-#: src/veh_interact.cpp:2524
+#: src/veh_interact.cpp:2525
 #, c-format
 msgid "Cargo: <color_light_blue>%s</color> / <color_light_blue>%s</color> %s"
 msgstr "货舱：<color_light_blue>%s</color>/<color_light_blue>%s</color> %s"
 
-#: src/veh_interact.cpp:2561
+#: src/veh_interact.cpp:2562
 msgid "Most damaged:"
 msgstr "损坏最重："
 
-#: src/veh_interact.cpp:2562
+#: src/veh_interact.cpp:2563
 msgid "Most damaged (can't repair):"
 msgstr "损坏最重（无法修理）："
 
-#: src/veh_interact.cpp:2570
+#: src/veh_interact.cpp:2571
 msgid "Needs repair:"
 msgstr "需要修理："
 
-#: src/veh_interact.cpp:2577
+#: src/veh_interact.cpp:2578
 #, c-format
 msgid "Air drag:       <color_light_blue>%5.2f</color>"
 msgstr "空气阻力：<color_light_blue>%5.2f</color>"
 
-#: src/veh_interact.cpp:2583
+#: src/veh_interact.cpp:2584
 #, c-format
 msgid "Water drag:     <color_light_blue>%5.2f</color>"
 msgstr "水中阻力：<color_light_blue>%5.2f</color>"
 
-#: src/veh_interact.cpp:2590
+#: src/veh_interact.cpp:2591
 #, c-format
 msgid "Rolling drag:   <color_light_blue>%5.2f</color>"
 msgstr "滚动阻力：<color_light_blue>%5.2f</color>"
 
-#: src/veh_interact.cpp:2596
+#: src/veh_interact.cpp:2597
 #, c-format
 msgid "Static drag:    <color_light_blue>%5d</color>"
 msgstr "静态阻力：<color_light_blue>%5d</color>"
 
-#: src/veh_interact.cpp:2601
+#: src/veh_interact.cpp:2602
 #, c-format
 msgid "Offroad:        <color_light_blue>%4d</color>%%"
 msgstr "越野能力：<color_light_blue>%4d</color>%%"
 
-#: src/veh_interact.cpp:2610
+#: src/veh_interact.cpp:2611
 #, c-format
 msgid ""
 "Draft/Clearance:<color_light_blue>%4.2f</color>m/<color_light_blue>%4.2f</color>m"
 msgstr ""
 "吃水/最高水位：<color_light_blue>%4.2f</color>米/<color_light_blue>%4.2f</color>米"
 
-#: src/veh_interact.cpp:2611
+#: src/veh_interact.cpp:2612
 #, c-format
 msgid ""
 "Draft/Clearance:<color_light_blue>%4.2f</color>m/<color_light_red>%4.2f</color>m"
 msgstr ""
 "吃水/最高水位：<color_light_blue>%4.2f</color>米/<color_light_red>%4.2f</color>米"
 
-#: src/veh_interact.cpp:2633 src/veh_interact.cpp:2635
+#: src/veh_interact.cpp:2634 src/veh_interact.cpp:2636
 msgid "Name: "
 msgstr "名字："
 
-#: src/veh_interact.cpp:2645
+#: src/veh_interact.cpp:2646
 #, c-format
 msgctxt "keybinding"
 msgid "<color_light_gray>%1$s<color_light_green>%2$s</color>%3$s</color>"
 msgstr "<color_light_gray>%1$s<color_light_green>%2$s</color>%3$s</color>"
 
-#: src/veh_interact.cpp:2647
+#: src/veh_interact.cpp:2648
 #, c-format
 msgctxt "keybinding"
 msgid "<color_dark_gray>%1$s<color_green>%2$s</color>%3$s</color>"
 msgstr "<color_dark_gray>%1$s<color_green>%2$s</color>%3$s</color>"
 
-#: src/veh_interact.cpp:2649
+#: src/veh_interact.cpp:2650
 #, c-format
 msgctxt "keybinding"
 msgid "<color_light_gray><color_light_green>%1$s</color>-%2$s</color>"
 msgstr "<color_light_gray><color_light_green>%1$s</color>%2$s</color>"
 
-#: src/veh_interact.cpp:2651
+#: src/veh_interact.cpp:2652
 #, c-format
 msgctxt "keybinding"
 msgid "<color_dark_gray><color_green>%1$s</color>-%2$s</color>"
 msgstr "<color_dark_gray><color_green>%1$s</color>%2$s</color>"
 
-#: src/veh_interact.cpp:2676
+#: src/veh_interact.cpp:2677
 msgctxt "veh_interact"
 msgid "install"
 msgstr "安装"
 
-#: src/veh_interact.cpp:2679
+#: src/veh_interact.cpp:2680
 msgctxt "veh_interact"
 msgid "repair"
 msgstr "修理"
 
-#: src/veh_interact.cpp:2682
+#: src/veh_interact.cpp:2683
 msgctxt "veh_interact"
 msgid "mend"
 msgstr "修复"
 
-#: src/veh_interact.cpp:2685
+#: src/veh_interact.cpp:2686
 msgctxt "veh_interact"
 msgid "refill"
 msgstr "补充"
 
-#: src/veh_interact.cpp:2688
+#: src/veh_interact.cpp:2689
 msgctxt "veh_interact"
 msgid "remove"
 msgstr "拆卸"
 
-#: src/veh_interact.cpp:2691
+#: src/veh_interact.cpp:2692
 msgctxt "veh_interact"
 msgid "siphon"
 msgstr "抽取"
 
-#: src/veh_interact.cpp:2694
+#: src/veh_interact.cpp:2695
 msgctxt "veh_interact"
 msgid "unload"
 msgstr "清空"
 
-#: src/veh_interact.cpp:2697
+#: src/veh_interact.cpp:2698
 msgctxt "veh_interact"
 msgid "crew"
 msgstr "乘员"
 
-#: src/veh_interact.cpp:2700
+#: src/veh_interact.cpp:2701
 msgctxt "veh_interact"
 msgid "shape"
 msgstr "外观"
 
-#: src/veh_interact.cpp:2703
+#: src/veh_interact.cpp:2704
 msgctxt "veh_interact"
 msgid "rename"
 msgstr "重命名"
 
-#: src/veh_interact.cpp:2706
+#: src/veh_interact.cpp:2707
 msgctxt "veh_interact"
 msgid "label"
 msgstr "标签"
 
-#: src/veh_interact.cpp:2709
+#: src/veh_interact.cpp:2710
 msgctxt "veh_interact"
 msgid "back"
 msgstr "退出"
 
-#: src/veh_interact.cpp:2798
+#: src/veh_interact.cpp:2799
 msgid "Dur"
 msgstr "耐久"
 
-#: src/veh_interact.cpp:2798
+#: src/veh_interact.cpp:2799
 msgid "Durability"
 msgstr "耐久"
 
-#: src/veh_interact.cpp:2802
+#: src/veh_interact.cpp:2803
 msgid "Dmg"
 msgstr "伤害"
 
 #. ~ Label of UI widget "weight_desc_label"
 #. ~ Label of UI widget "zenfs_weight_health_clause"
-#: src/veh_interact.cpp:2808 data/json/ui/weight.json
+#: src/veh_interact.cpp:2809 data/json/ui/weight.json
 #: data/json/ui/zenfs/diet.json data/mods/CrazyCataclysm/crazy_widgets.json
 msgid "Weight"
 msgstr "重量"
 
-#: src/veh_interact.cpp:2808
+#: src/veh_interact.cpp:2809
 msgid "Wgt"
 msgstr "重量"
 
-#: src/veh_interact.cpp:2814
+#: src/veh_interact.cpp:2815
 msgid "FoldVol"
 msgstr "折叠体积"
 
-#: src/veh_interact.cpp:2814
+#: src/veh_interact.cpp:2815
 msgid "Folded Volume"
 msgstr "折叠体积"
 
-#: src/veh_interact.cpp:2823
+#: src/veh_interact.cpp:2824
 msgid "Cap"
 msgstr "容量"
 
-#: src/veh_interact.cpp:2823
+#: src/veh_interact.cpp:2824
 msgid "Capacity"
 msgstr "容量"
 
 #. ~ Label of UI widget "str_num"
 #. ~ Label of UI widget "zenfs_str"
-#: src/veh_interact.cpp:2830 data/json/ui/stats.json
+#: src/veh_interact.cpp:2831 data/json/ui/stats.json
 #: data/json/ui/zenfs/stats.json
 msgid "Str"
 msgstr "力量"
 
-#: src/veh_interact.cpp:2834
+#: src/veh_interact.cpp:2835
 msgid "NoisRed"
 msgstr "降噪"
 
-#: src/veh_interact.cpp:2834
+#: src/veh_interact.cpp:2835
 msgid "Noise Reduction"
 msgstr "降低噪声"
 
@@ -55508,7 +55508,7 @@ msgstr "降低噪声"
 #. ~ "menu_text" action message of item "kelvinist's candle (off)"
 #. ~ Name of material
 #. ~ Spell name
-#: src/veh_interact.cpp:2842 data/json/items/items_holiday.json
+#: src/veh_interact.cpp:2843 data/json/items/items_holiday.json
 #: data/json/items/tool/lighting.json
 #: data/mods/CrazyCataclysm/crazy_items.json
 #: data/mods/Magiclysm/items/caster_level_boosters.json
@@ -55517,184 +55517,184 @@ msgstr "降低噪声"
 msgid "Light"
 msgstr "点亮"
 
-#: src/veh_interact.cpp:2857
+#: src/veh_interact.cpp:2858
 msgid "Dia"
 msgstr "直径"
 
-#: src/veh_interact.cpp:2857
+#: src/veh_interact.cpp:2858
 msgid "Wheel Diameter"
 msgstr "轮胎直径"
 
-#: src/veh_interact.cpp:2861
+#: src/veh_interact.cpp:2862
 msgid "Wdt"
 msgstr "宽度"
 
-#: src/veh_interact.cpp:2861
+#: src/veh_interact.cpp:2862
 msgid "Wheel Width"
 msgstr "轮胎宽度"
 
-#: src/veh_interact.cpp:2868
+#: src/veh_interact.cpp:2869
 msgid "Electric Power"
 msgstr "电力产出"
 
-#: src/veh_interact.cpp:2868
+#: src/veh_interact.cpp:2869
 msgid "Epwr"
 msgstr "发电"
 
-#: src/veh_interact.cpp:2877
+#: src/veh_interact.cpp:2878
 #, c-format
 msgid "Charge: <color_light_gray>%s</color>"
 msgstr "能源：<color_light_gray>%s</color>"
 
-#: src/veh_interact.cpp:2883
+#: src/veh_interact.cpp:2884
 #, c-format
 msgid "Drain: <color_light_gray>%+8d</color>"
 msgstr "消耗：<color_light_gray>%+8d 瓦</color>"
 
-#: src/veh_interact.cpp:2888
+#: src/veh_interact.cpp:2889
 msgid "boardable"
 msgstr "可乘坐"
 
-#: src/veh_interact.cpp:2888
+#: src/veh_interact.cpp:2889
 msgid "opaque"
 msgstr "不透明"
 
-#: src/veh_interact.cpp:2888
+#: src/veh_interact.cpp:2889
 msgid "openable"
 msgstr "可开启"
 
-#: src/veh_interact.cpp:2903
+#: src/veh_interact.cpp:2904
 msgid "BatCap"
 msgstr "电容"
 
-#: src/veh_interact.cpp:2903
+#: src/veh_interact.cpp:2904
 msgid "Battery Capacity"
 msgstr "电池容量"
 
-#: src/veh_interact.cpp:2909
+#: src/veh_interact.cpp:2910
 #, c-format
 msgid "Power: <color_light_gray>%+8d</color>"
 msgstr "出力：<color_light_gray>%+8d 瓦</color>"
 
-#: src/veh_interact.cpp:2932
+#: src/veh_interact.cpp:2933
 msgid "like new"
 msgstr "全新"
 
 #. ~ Bash damage verb of material
 #. ~ Damage adjective of material
-#: src/veh_interact.cpp:2936 data/json/materials.json
+#: src/veh_interact.cpp:2937 data/json/materials.json
 #: data/mods/Aftershock/items/materials.json
 #: data/mods/Magiclysm/materials.json data/mods/Xedra_Evolved/material.json
 #: data/mods/aftershock_exoplanet/items/materials.json
 msgid "dented"
 msgstr "凹损"
 
-#: src/veh_interact.cpp:2940
+#: src/veh_interact.cpp:2941
 msgid "battered"
 msgstr "破旧"
 
-#: src/veh_interact.cpp:2944
+#: src/veh_interact.cpp:2945
 msgid "wrecked"
 msgstr "残破"
 
-#: src/veh_interact.cpp:2969
+#: src/veh_interact.cpp:2970
 msgid "Select tank to siphon:"
 msgstr "选择要抽取的水箱："
 
-#: src/veh_interact.cpp:3005
+#: src/veh_interact.cpp:3006
 msgid "Remove what?"
 msgstr "清空什么？"
 
-#: src/veh_interact.cpp:3026
+#: src/veh_interact.cpp:3027
 msgid "The vehicle has no charged plutonium cells."
 msgstr "这辆载具没有可用的核能钚电池。"
 
-#: src/veh_interact.cpp:3085
+#: src/veh_interact.cpp:3086
 #, c-format
 msgid "You don't meet the requirements to install the %s."
 msgstr "你未能达到安装 %s 的要求。"
 
-#: src/veh_interact.cpp:3086
+#: src/veh_interact.cpp:3087
 #, c-format
 msgid "<npcname> doesn't meet the requirements to install the %s."
 msgstr "<npcname> 未能达到安装 %s 的要求。"
 
-#: src/veh_interact.cpp:3107
+#: src/veh_interact.cpp:3108
 #, c-format
 msgid "Could not find base part in requirements for %s."
 msgstr "未能找到安装 %s 所需的基础部件。"
 
-#: src/veh_interact.cpp:3147
+#: src/veh_interact.cpp:3148
 #, c-format
 msgid "You install a %1$s into the %2$s."
 msgstr "你将 %1$s 安装在 %2$s 上。"
 
 #. ~ 1$s vehicle name, 2$s tank name
-#: src/veh_interact.cpp:3183
+#: src/veh_interact.cpp:3184
 #, c-format
 msgid "You refill the %1$s's %2$s."
 msgstr "你补充了 %1$s 的 %2$s。"
 
 #. ~ 1$s vehicle name, 2$s tank name
-#: src/veh_interact.cpp:3186
+#: src/veh_interact.cpp:3187
 #, c-format
 msgid "You completely refill the %1$s's %2$s."
 msgstr "你补充满了 %1$s 的 %2$s。"
 
 #. ~ 1$s vehicle name, 2$s reactor name
-#: src/veh_interact.cpp:3204
+#: src/veh_interact.cpp:3205
 #, c-format
 msgid "You refuel the %1$s's %2$s."
 msgstr "你给 %1$s 的 %2$s 加油。"
 
 #. ~ 1$s is the vehicle part name
-#: src/veh_interact.cpp:3224
+#: src/veh_interact.cpp:3225
 #, c-format
 msgid "The %1$s has already been removed by someone else."
 msgstr "%1$s 已经被别人移除了。"
 
 #. ~  1$s is the vehicle part name
-#: src/veh_interact.cpp:3239
+#: src/veh_interact.cpp:3240
 #, c-format
 msgid "You don't meet the requirements to remove the %1$s."
 msgstr "你未能达到拆除 %1$s 的要求。"
 
-#: src/veh_interact.cpp:3260
+#: src/veh_interact.cpp:3261
 #, c-format
 msgid "You remove the broken %1$s from the %2$s."
 msgstr "你把损坏的 %1$s 从 %2$s 中拆除。"
 
-#: src/veh_interact.cpp:3262
+#: src/veh_interact.cpp:3263
 #, c-format
 msgid "You smash the %1$s to bits, removing it from the %2$s."
 msgstr "你从 %2$s 砸碎并移除了 %1$s。"
 
-#: src/veh_interact.cpp:3265
+#: src/veh_interact.cpp:3266
 #, c-format
 msgid "You remove the %1$s from the %2$s."
 msgstr "你从 %2$s 移除了 %1$s。"
 
-#: src/veh_interact.cpp:3294
+#: src/veh_interact.cpp:3295
 #, c-format
 msgid "<npcname> fails to recover %1$d %2$s."
 msgstr "<npcname> 未能将 %1$d 个 %2$s 回收。"
 
-#: src/veh_interact.cpp:3305
+#: src/veh_interact.cpp:3306
 #, c-format
 msgid "You fail to recover %1$s."
 msgstr "你未能将 %1$s 回收。"
 
-#: src/veh_interact.cpp:3306
+#: src/veh_interact.cpp:3307
 #, c-format
 msgid "<npcname> fails to recover %1$s."
 msgstr "<npcname> 未能将 %1$s 回收。"
 
-#: src/veh_interact.cpp:3351
+#: src/veh_interact.cpp:3352
 #, c-format
 msgid "You completely dismantle the %s."
 msgstr "你彻底拆除了 %s。"
 
-#: src/veh_interact.cpp:3387
+#: src/veh_interact.cpp:3388
 #, c-format
 msgid "You disconnect the %s's power connection."
 msgstr "你断开了%s的电力连接。"
@@ -85210,7 +85210,7 @@ msgstr "你在大学打过球，如果不是世界末日，你还有机会去当
 #: data/json/hobbies.json
 msgctxt "profession_male"
 msgid "Soccer (Beginner)"
-msgstr ""
+msgstr "足球（入门）"
 
 #. ~ Description of profession "Soccer (Beginner)" for male
 #: data/json/hobbies.json
@@ -85218,13 +85218,13 @@ msgctxt "prof_desc_male"
 msgid ""
 "You used to kick a ball around with your friends, having fun together.  "
 "Though it may not be the case anymore."
-msgstr ""
+msgstr "你过去常和朋友一起踢球，并且一起玩得很开心。尽管情况可能不再如此。"
 
 #. ~ Profession name for female
 #: data/json/hobbies.json
 msgctxt "profession_female"
 msgid "Soccer (Beginner)"
-msgstr ""
+msgstr "足球（入门）"
 
 #. ~ Description of profession "Soccer (Beginner)" for female
 #: data/json/hobbies.json
@@ -85232,13 +85232,13 @@ msgctxt "prof_desc_female"
 msgid ""
 "You used to kick a ball around with your friends, having fun together.  "
 "Though it may not be the case anymore."
-msgstr ""
+msgstr "你过去常和朋友一起踢球，并且一起玩得很开心。尽管情况可能不再如此。"
 
 #. ~ Profession name for male
 #: data/json/hobbies.json
 msgctxt "profession_male"
 msgid "Soccer (Intermediate)"
-msgstr ""
+msgstr "足球（中级）"
 
 #. ~ Description of profession "Soccer (Intermediate)" for male
 #: data/json/hobbies.json
@@ -85247,13 +85247,13 @@ msgid ""
 "Your fondness for the beautiful game shows with your flairs, skills and "
 "tackles.  Whether you can go past the backline of the undead is a question "
 "yet to be answered."
-msgstr ""
+msgstr "你对美丽足球的钟爱在你的天赋、技能和铲球中显露无遗。至于能否突破不死者的后防线，这仍是个悬而未决的问题。"
 
 #. ~ Profession name for female
 #: data/json/hobbies.json
 msgctxt "profession_female"
 msgid "Soccer (Intermediate)"
-msgstr ""
+msgstr "足球（中级）"
 
 #. ~ Description of profession "Soccer (Intermediate)" for female
 #: data/json/hobbies.json
@@ -85262,13 +85262,13 @@ msgid ""
 "Your fondness for the beautiful game shows with your flairs, skills and "
 "tackles.  Whether you can go past the backline of the undead is a question "
 "yet to be answered."
-msgstr ""
+msgstr "你对美丽足球的钟爱在你的天赋、技巧和铲球中显露无遗。至于能否突破不死者的后防线，这仍是个悬而未决的问题。"
 
 #. ~ Profession name for male
 #: data/json/hobbies.json
 msgctxt "profession_male"
 msgid "Soccer (Expert)"
-msgstr ""
+msgstr "足球（专家）"
 
 #. ~ Description of profession "Soccer (Expert)" for male
 #: data/json/hobbies.json
@@ -85276,13 +85276,13 @@ msgctxt "prof_desc_male"
 msgid ""
 "You were on trial at a professional club, ready to get a contract.  What a "
 "great opportunity for you, if only your coaches were still alive."
-msgstr ""
+msgstr "你在一家职业俱乐部试训并准备拿到合同。如果你的教练还活着，那对你来说是一个多么好的机会啊。"
 
 #. ~ Profession name for female
 #: data/json/hobbies.json
 msgctxt "profession_female"
 msgid "Soccer (Expert)"
-msgstr ""
+msgstr "足球（专家）"
 
 #. ~ Description of profession "Soccer (Expert)" for female
 #: data/json/hobbies.json
@@ -85290,7 +85290,7 @@ msgctxt "prof_desc_female"
 msgid ""
 "You were on trial at a professional club, ready to get a contract.  What a "
 "great opportunity for you, if only your coaches were still alive."
-msgstr ""
+msgstr "你在一家职业俱乐部试训并准备拿到合同。如果你的教练还活着，那对你来说是一个多么好的机会啊。"
 
 #. ~ Profession name for male
 #: data/json/hobbies.json
@@ -92077,6 +92077,11 @@ msgstr "表面硬化碳钢"
 #: data/mods/aftershock_exoplanet/items/materials.json
 msgid "Tempered Carbon Steel"
 msgstr "回火碳钢"
+
+#. ~ Name of material
+#: data/json/materials.json
+msgid "Exodii Ceramic"
+msgstr "流亡族陶瓷"
 
 #. ~ Name of material
 #: data/json/materials.json
@@ -99594,7 +99599,7 @@ msgid ""
 "You did the wet work for a gang, mafia, or whatever person had enough money."
 "  You were no trained assassin, but you know how to shoot a gun and get out "
 "of dodge quickly."
-msgstr ""
+msgstr "你为一个帮派、黑手党或任何有钱的人做了暗杀任务。你不是训练有素的刺客，但你知道如何开枪并迅速摆脱躲避。"
 
 #. ~ Profession name for female
 #: data/json/professions.json
@@ -99609,7 +99614,7 @@ msgid ""
 "You did the wet work for a gang, mafia, or whatever person had enough money."
 "  You were no trained assassin, but you know how to shoot a gun and get out "
 "of dodge quickly."
-msgstr ""
+msgstr "你为一个帮派、黑手党或任何有钱的人做了暗杀任务。你不是训练有素的刺客，但你知道如何开枪并迅速摆脱躲避。"
 
 #. ~ Profession name for male
 #: data/json/professions.json
@@ -124706,6 +124711,20 @@ msgid ""
 msgstr "一个装有货物的木制货运托盘，上面的包装已经破损，但扎带还在。你能够得着里面的东西，但这可一点都不轻松！"
 
 #. ~ Furniture name
+#. ~ Item name
+#: data/json/furniture_and_terrain/furniture-storage.json
+#: data/json/items/tool/workshop.json
+msgid "Exodii kiln"
+msgid_plural "Exodii kilns"
+msgstr[0] ""
+
+#. ~ Description of furniture "Exodii kiln"
+#: data/json/furniture_and_terrain/furniture-storage.json
+msgid ""
+"An imposing kiln produced by the Exodii, used to produce their ceramic armor"
+msgstr ""
+
+#. ~ Furniture name
 #: data/json/furniture_and_terrain/furniture-surfaces.json
 msgid "counter"
 msgstr "柜台"
@@ -144189,6 +144208,19 @@ msgid ""
 "Blood mixed with acidic compounds, foul-smelling and extremely corrosive, a "
 "means of refining this could net some useful chemicals."
 msgstr "混合着酸性化合物的血液，臭气熏天且腐蚀性极强，能用来通过某种方法提取出一些有用的化学物质。"
+
+#. ~ Item name
+#: data/json/items/chemicals_and_resources.json
+msgid "exodii ceramic patch"
+msgid_plural "exodii ceramic patch"
+msgstr[0] ""
+
+#. ~ Description of "exodii ceramic patch"
+#: data/json/items/chemicals_and_resources.json
+msgid ""
+"A patch kit produced by the Exodii for repairing their nanotube-infused "
+"ceramics.  Requires a kiln."
+msgstr ""
 
 #. ~ Item name
 #: data/json/items/electronics.json
@@ -184216,13 +184248,27 @@ msgstr[0] "面罩"
 msgid "A warm covering that protects the head and face from the cold."
 msgstr "一个只露出眼睛，非常暖和的棉制头部面罩。"
 
-#. ~ Item name
+#. ~ Variant name of item "balaclava"
 #: data/json/items/armor/masks.json
-msgid "skull balaclava"
-msgid_plural "skull balaclavas"
-msgstr[0] "骷髅面罩"
+msgid "black balaclava"
+msgid_plural "black balaclavas"
+msgstr[0] ""
 
-#. ~ Description of "skull balaclava"
+#. ~ Description of variant "black balaclava" of item "balaclava"
+#. ~ Description of variant "long black dress" of item "long dress"
+#. ~ Description of variant "black binder" of item "binder"
+#: data/json/items/armor/masks.json data/json/items/armor/torso_clothes.json
+#: data/json/items/armor/undergarment.json
+msgid "This one is black."
+msgstr "这个是黑色的。"
+
+#. ~ Variant name of item "balaclava"
+#: data/json/items/armor/masks.json
+msgid "skull print balaclava"
+msgid_plural "skull print balaclavas"
+msgstr[0] ""
+
+#. ~ Description of variant "skull print balaclava" of item "balaclava"
 #: data/json/items/armor/masks.json
 msgid ""
 "A skull-print balaclava covering the head and face, commonly used by "
@@ -186748,6 +186794,73 @@ msgid ""
 msgstr "一种大型的祈祷披肩，是虔诚的犹太教徒在晨祷或其他某些场合穿戴的。"
 
 #. ~ Item name
+#: data/json/items/armor/scarfs.json
+msgid "nylon throat guard"
+msgid_plural "nylon throat guards"
+msgstr[0] ""
+
+#. ~ Description of "nylon throat guard"
+#: data/json/items/armor/scarfs.json
+msgid ""
+"A common nylon throat guard commonly used for neck protection when playing "
+"sports."
+msgstr ""
+
+#. ~ Item name
+#: data/json/items/armor/scarfs.json
+msgid "canvas throat guard"
+msgid_plural "canvas throat guards"
+msgstr[0] ""
+
+#. ~ Description of "canvas throat guard"
+#: data/json/items/armor/scarfs.json
+msgid ""
+"A common canvas throat guard commonly used for neck protection when playing "
+"sports like hockey."
+msgstr ""
+
+#. ~ Item name
+#: data/json/items/armor/scarfs.json
+msgid "plastic throat guard"
+msgid_plural "plastic throat guards"
+msgstr[0] ""
+
+#. ~ Description of "plastic throat guard"
+#: data/json/items/armor/scarfs.json
+msgid ""
+"A rare variety of throat guard originally known as a gorget and used for "
+"neck protection in HEMA.  It's made from thick rubber covered by nylon.  It "
+"offers good protection for the throat, but it only covers a small portion of"
+" the nape."
+msgstr ""
+
+#. ~ Item name
+#: data/json/items/armor/scarfs.json
+msgid "cut-resistant throat guard"
+msgid_plural "cut-resistant throat guards"
+msgstr[0] ""
+
+#. ~ Description of "cut-resistant throat guard"
+#: data/json/items/armor/scarfs.json
+msgid ""
+"A cut-resistant Kevlar throat guard, commonly used by welders, security "
+"forces and in some sports."
+msgstr ""
+
+#. ~ Item name
+#: data/json/items/armor/scarfs.json
+msgid "mercenary throat guard"
+msgid_plural "mercenary throat guards"
+msgstr[0] ""
+
+#. ~ Description of "mercenary throat guard"
+#: data/json/items/armor/scarfs.json
+msgid ""
+"A ballistic collar modified to wear it as a standalone armor, carefully "
+"combined with a regular nylon throat guard for extra protection."
+msgstr ""
+
+#. ~ Item name
 #: data/json/items/armor/sheath.json
 msgid "axe ring holster"
 msgid_plural "axe ring holsters"
@@ -188310,61 +188423,6 @@ msgstr "基本款牛仔工装裤，是无产阶级（以及一些潮人）的象
 
 #. ~ Item name
 #: data/json/items/armor/suits_clothes.json
-msgid "dinosaur suit"
-msgid_plural "dinosaur suits"
-msgstr[0] "恐龙套装"
-
-#. ~ Description of "dinosaur suit"
-#. ~ Description of variant "dinosaur fursuit" of item "fursuit"
-#: data/json/items/armor/suits_clothes.json
-msgid ""
-"A full-body costume in the form of an anthropomorphic dinosaur.  It is quite"
-" encumbering and has little storage but is very warm."
-msgstr "一套全身恐龙外形的服装。十分累赘，而且没多少存储空间，但是非常暖和。"
-
-#. ~ Item name
-#: data/json/items/armor/suits_clothes.json
-msgid "shark suit"
-msgid_plural "shark suits"
-msgstr[0] "鲨鲨套装"
-
-#. ~ Description of "shark suit"
-#: data/json/items/armor/suits_clothes.json
-msgid ""
-"A full-body costume in the form of an anthropomorphic bull shark.  It is "
-"quite encumbering and has little storage but is very warm."
-msgstr "一件覆盖全身的仿公牛鲨套装。它非常累赘，几乎没有存储空间，但非常温暖。"
-
-#. ~ Item name
-#: data/json/items/armor/suits_clothes.json
-msgid "dragon suit"
-msgid_plural "dragon suits"
-msgstr[0] "龙套装"
-
-#. ~ Description of "dragon suit"
-#: data/json/items/armor/suits_clothes.json
-msgid ""
-"A cartoonish recreation of a western dragon remade into a suit.  Effectively"
-" useless nowadays, unless you think the mutants will treat you as one of "
-"their own if you wear this.  The wings really get in the way."
-msgstr ""
-"一套将西方式巨龙进行卡通化改编的套装。在现在其实已经没用了，除非你认为如果你穿上这个，变种人会把你当成它们中的一员。不过，它背后的翅膀可能有点太碍事了。"
-
-#. ~ Item name
-#: data/json/items/armor/suits_clothes.json
-msgid "feline suit"
-msgid_plural "feline suits"
-msgstr[0] "猫猫套装"
-
-#. ~ Description of "feline suit"
-#: data/json/items/armor/suits_clothes.json
-msgid ""
-"A fursuit made to resemble an anthropomorphic feline of indistinguishable "
-"breed.  It's a decent source of faux fur if you need it."
-msgstr "一件毛皮套装，外形被弄成一种无法区分具体品种的猫人。不管怎么说，它是个不错的人造毛皮来源。"
-
-#. ~ Item name
-#: data/json/items/armor/suits_clothes.json
 msgid "flag jumpsuit"
 msgid_plural "flag jumpsuits"
 msgstr[0] "爱国连身衣"
@@ -188446,6 +188504,17 @@ msgstr[0] ""
 msgid "This one is green."
 msgstr "这个是绿色的。"
 
+#. ~ Variant name of item "jumpsuit"
+#: data/json/items/armor/suits_clothes.json
+msgid "Hub 01 jumpsuit"
+msgid_plural "Hub 01 jumpsuits"
+msgstr[0] "HUB 01 连身衣"
+
+#. ~ Description of variant "Hub 01 jumpsuit" of item "jumpsuit"
+#: data/json/items/armor/suits_clothes.json
+msgid "A brown jumpsuit worn by the staff of Hub 01."
+msgstr "一件棕色的连身衣，是Hub 01的工作服。"
+
 #. ~ Description of "jumpsuit"
 #: data/json/items/armor/suits_clothes.json
 msgid ""
@@ -188508,17 +188577,6 @@ msgstr "拉链下拉"
 #: data/json/items/armor/suits_clothes.json
 msgid "You facial skin is now visible."
 msgstr "你的脸现在露出来了。"
-
-#. ~ Item name
-#: data/json/items/armor/suits_clothes.json
-msgid "Hub 01 jumpsuit"
-msgid_plural "Hub 01 jumpsuits"
-msgstr[0] "HUB 01 连身衣"
-
-#. ~ Description of "Hub 01 jumpsuit"
-#: data/json/items/armor/suits_clothes.json
-msgid "A brown jumpsuit worn by the staff of Hub 01."
-msgstr "一件棕色的连身衣，是Hub 01的工作服。"
 
 #. ~ Item name
 #: data/json/items/armor/suits_clothes.json
@@ -188746,6 +188804,13 @@ msgstr "一套外观流线型的完整服装，呈现拟人化的杀人鲸形态
 msgid "dinosaur fursuit"
 msgid_plural "dinosaur fursuits"
 msgstr[0] "恐龙兽装"
+
+#. ~ Description of variant "dinosaur fursuit" of item "fursuit"
+#: data/json/items/armor/suits_clothes.json
+msgid ""
+"A full-body costume in the form of an anthropomorphic dinosaur.  It is quite"
+" encumbering and has little storage but is very warm."
+msgstr "一套全身恐龙外形的服装。十分累赘，而且没多少存储空间，但是非常暖和。"
 
 #. ~ Item name
 #: data/json/items/armor/suits_clothes.json
@@ -192144,13 +192209,6 @@ msgstr[0] ""
 msgid "long black dress"
 msgid_plural "long black dresses"
 msgstr[0] ""
-
-#. ~ Description of variant "long black dress" of item "long dress"
-#. ~ Description of variant "black binder" of item "binder"
-#: data/json/items/armor/torso_clothes.json
-#: data/json/items/armor/undergarment.json
-msgid "This one is black."
-msgstr "这个是黑色的。"
 
 #. ~ Variant name of item "long dress"
 #: data/json/items/armor/torso_clothes.json
@@ -265261,17 +265319,6 @@ msgstr "一根细长的木棍。虽然传统上是作为一种训练工具，但
 
 #. ~ Item name
 #: data/json/items/melee/bludgeons.json
-msgid "glass shiv"
-msgid_plural "glass shivs"
-msgstr[0] "碎玻璃刀"
-
-#. ~ Description of "glass shiv"
-#: data/json/items/melee/bludgeons.json
-msgid "A glass shard with wrapping at one end so it can be safely wielded."
-msgstr "一片碎玻璃，一端已经被包扎好，可以安全地手持。"
-
-#. ~ Item name
-#: data/json/items/melee/bludgeons.json
 #: data/mods/Aftershock/items/weapons.json
 #: data/mods/aftershock_exoplanet/items/weapons.json
 msgid "golf club"
@@ -266183,6 +266230,40 @@ msgid ""
 "A medieval hammer with a spike on one end, made for battle.  Its odd shape "
 "and balance make it an excellent weapon, but an ineffective tool."
 msgstr "一把中世纪风格的战锤，一端有根尖刺。它古怪的外形和平衡使它成为一把优秀的武器，不过敲起钉子来就没有五金店里的锤子好用了。"
+
+#. ~ Item name
+#: data/json/items/melee/bludgeons.json
+msgid "breacher"
+msgid_plural "breachers"
+msgstr[0] ""
+
+#. ~ Description of "breacher"
+#: data/json/items/melee/bludgeons.json
+msgid ""
+"Some sort of large prybar of a make and manufacturer you've never seen "
+"before.  On the heavier end is a set of thick, crabclaw like shears "
+"connected to a hydraulic piston, capable of cutting or prying through metal "
+"with great force.  The Exodii use these for general purpose breaching and "
+"scrapping heavy machines, and it's been retrofitted to run on their bionic "
+"power."
+msgstr ""
+
+#. ~ Item name
+#: data/json/items/melee/bludgeons.json
+msgid "sapper"
+msgid_plural "sappers"
+msgstr[0] ""
+
+#. ~ Description of "sapper"
+#: data/json/items/melee/bludgeons.json
+msgid ""
+"A metal pole saw covered in faded orange paint and warning labels written in"
+" an unknown language.  The circular blade at the end is over an inch thick, "
+"its deeply dished grooves suggesting its purpose as a digging implement "
+"rather than a cutter.  The Exodii use these to chew through reinforced walls"
+" like concrete or solid steel, and it's been retrofitted to run on their "
+"bionic power."
+msgstr ""
 
 #. ~ Item name
 #: data/json/items/melee/fake.json
@@ -267242,6 +267323,24 @@ msgid ""
 msgstr ""
 "用于卡拉什尼科夫步枪的6H4刺刀，从东方集团国家进口的多余军事物资。刀身由不锈钢制成，手柄由轻便耐用的塑料制成。它的特点是在刀脊上有一段中等长度的锯齿，也可以作为剪线钳使用。虽然很结实，但不好抓握。"
 
+#. ~ Variant name of gun mod "Bayonet"
+#. ~ Variant name of item "Bayonet"
+#: data/json/items/melee/swords_and_blades.json
+msgid "L-backswerda"
+msgid_plural "L-backswerdas"
+msgstr[0] ""
+
+#. ~ Description of variant "L-backswerda"of gun mod "Bayonet"
+#. ~ Description of variant "L-backswerda" of item "Bayonet"
+#: data/json/items/melee/swords_and_blades.json
+msgid ""
+"A bayonet, although not of any model you're familiar with.  Despite "
+"differences in appearance it seems analogous to any other bayonet - The "
+"chrome shaded blade is worn but well-maintained, with a grooved edge on its "
+"back to act as a sawing implement.  The handle and guard have some "
+"additional mechanisms installed to help affix it to a variety of firearms."
+msgstr ""
+
 #. ~ Item name
 #. ~ Gun mod name
 #: data/json/items/melee/swords_and_blades.json
@@ -267531,6 +267630,17 @@ msgid ""
 "A knife consisting of a long, somewhat sharpened spike and a tightly-wrapped"
 " rag as a handle.  Not as good as a real knife, but it'll do in a pinch."
 msgstr "一把小刀，由一根略微锋利的钉刺组成，一边紧紧包裹有破布作为握柄。虽然没有真正的刀子好，但在紧要关头也能用。"
+
+#. ~ Item name
+#: data/json/items/melee/swords_and_blades.json
+msgid "glass shiv"
+msgid_plural "glass shivs"
+msgstr[0] "碎玻璃刀"
+
+#. ~ Description of "glass shiv"
+#: data/json/items/melee/swords_and_blades.json
+msgid "A glass shard with wrapping at one end so it can be safely wielded."
+msgstr "一片碎玻璃，一端已经被包扎好，可以安全地手持。"
 
 #. ~ Item name
 #: data/json/items/melee/swords_and_blades.json
@@ -271999,8 +272109,8 @@ msgstr[0] "巨型钢铸件"
 
 #. ~ Description of "enormous steel ingot"
 #: data/json/items/resources/alien.json
-msgid "A monolithic block of high quality steel."
-msgstr "一块巨大且完整的高品质钢锭。"
+msgid "A monolithic block of low carbon steel."
+msgstr ""
 
 #. ~ Item name
 #: data/json/items/resources/alien.json
@@ -280163,14 +280273,14 @@ msgstr "一把锋利的刀状工具。用来从蜂巢收集蜂蜜。勉强能够
 #: data/json/items/tool/knives.json
 msgid "pocket knife"
 msgid_plural "pocket knives"
-msgstr[0] "折叠刀"
+msgstr[0] "小折刀"
 
 #. ~ Description of "pocket knife"
 #: data/json/items/tool/knives.json
 msgid ""
 "A small pocket knife.  It isn't great for combat, but it's better than "
 "nothing.  It's sharp enough to butcher with."
-msgstr "一把折叠刀，作为武器那是相当糟糕，但总比没有好。不过足够用来切肉了。"
+msgstr "一把小巧的折刀，作为武器那是相当糟糕，但总比没有好。不过足够用来切肉了。"
 
 #. ~ Item name
 #: data/json/items/tool/knives.json
@@ -287236,6 +287346,16 @@ msgid ""
 "needed."
 msgstr ""
 "这是一种固定在工作台面上的重型金属虎钳，通过其钳口和螺丝机构，能紧紧夹持物品，对于需要稳固抓握的多种手工活非常有用，比如焊接、木工、焊接等工作。它还带有一块小而平坦的金属表面，必要时可用于轻型金工操作。"
+
+#. ~ Description of "Exodii kiln"
+#: data/json/items/tool/workshop.json
+msgid ""
+"An electric kiln, powered by your electric grid.  A bit larger than a "
+"refridgerator, this Exodii-manufactured kiln is large enough to repair the "
+"sheets of ceramic they use for armor.  It is designed for firing sheets of "
+"the Exodii's ceramic, but you could use it to fire anything made of clay.  A"
+" large and power-hungry appliance."
+msgstr ""
 
 #. ~ Item name
 #. ~ Vehicle part name
@@ -317866,11 +317986,13 @@ msgstr ""
 
 #. ~ Mutation name
 #: data/json/mutations/mutations.json
+#: data/mods/Xedra_Evolved/mutations/paraclesians/arvore_mutations.json
 msgid "Jaundice"
 msgstr "黄疸"
 
 #. ~ Description of mutation "Jaundice"
 #: data/json/mutations/mutations.json
+#: data/mods/Xedra_Evolved/mutations/paraclesians/arvore_mutations.json
 msgid ""
 "It's subtle, but your skin has definitely taken on a sickly yellow-green "
 "hue."
@@ -430473,7 +430595,7 @@ msgid "Spider nest is here."
 msgstr "这里有个蜘蛛巢。"
 
 #. ~ Name of map extra
-#: data/json/overmap/map_extras.json
+#: data/json/overmap/map_extras.json data/mods/Backrooms/map_extras.json
 msgid "Wasp Nest"
 msgstr "黄蜂巢"
 
@@ -430725,18 +430847,18 @@ msgid "Some unfortunates from the billions lost in the Cataclysm."
 msgstr "这里有些在大灾变中不幸丧生的人的尸体。"
 
 #. ~ Description of map extra "Wasp Nest"
-#: data/json/overmap/map_extras.json
+#: data/json/overmap/map_extras.json data/mods/Backrooms/map_extras.json
 msgid "A wasp nest."
 msgstr "一个黄蜂巢。"
 
 #. ~ Name of map extra
-#: data/json/overmap/map_extras.json
+#: data/json/overmap/map_extras.json data/mods/Backrooms/map_extras.json
 msgid "Dermatik Nest"
 msgstr "寄生蜂蜂巢"
 
 #. ~ Description of map extra "Dermatik Nest"
 #. ~ Response to NPC dialogue
-#: data/json/overmap/map_extras.json
+#: data/json/overmap/map_extras.json data/mods/Backrooms/map_extras.json
 #: data/mods/Magiclysm/npc/TALK_FORGE_DIVINER.json
 msgid "A dermatik nest."
 msgstr "一个寄生蜂蜂巢。"
@@ -443199,6 +443321,16 @@ msgstr "各种材料的兜裆布的配方。"
 
 #. ~ name of the nested group
 #: data/json/recipes/nested.json
+msgid "throat guards"
+msgstr ""
+
+#. ~ Description of the category "throat guards"
+#: data/json/recipes/nested.json
+msgid "Recipes related to making throat guards out of varied materials."
+msgstr ""
+
+#. ~ name of the nested group
+#: data/json/recipes/nested.json
 msgid "pouches"
 msgstr "小布袋"
 
@@ -444932,7 +445064,7 @@ msgstr "制造：钢制胸甲"
 #: data/json/recipes/basecamps/expansion/recipe_modular_workshop/version_2/modular_workshop_recipe_groups.json
 #: data/json/recipes/basecamps/recipe_groups.json
 msgid " Craft: Knife, Pocket"
-msgstr "制造：折叠刀"
+msgstr "制造：小折刀"
 
 #. ~ Description for recipe group
 #: data/json/recipes/basecamps/base/recipe_bare_bones_basecamp/bare_bones_basecamp_recipe_groups.json
@@ -457273,17 +457405,19 @@ msgid ""
 "\n"
 "Spouts of blood spurt in all directions as bullet-riddled bodies collapse to the ground, the camera toppling rearwards as a bark of automatic gunfire echoes through the audio, accompanied by the approaching, hurried stomps of soldiers' boots."
 msgstr ""
-"这段本地保存的直播录像拍摄于一条破败的后巷。戴眼镜的老者和拉美裔中年女性被捆成一排靠墙而立，双腿互缚，双手反绑。身着战术装备的男子扛着棒球棍在镜头前雀跃如朝阳：\"老铁们好！我是安德烈·迪利曼，今天咱们要当回侦探——\"棒球棍在肩头轻叩，\"就靠这两位俊男靓女，查查这烂摊子到底该谁背锅。来，做个自我介绍？\"\n"
+"这段本地保存的直播录像拍摄于一条破败的后巷。戴眼镜的老者和拉美裔中年女性紧贴着墙壁并排站立，双腿互缚，双手反绑。身着战术装备的男子扛着棒球棍在镜头前雀跃如朝阳：\"老铁们好！我是安德烈·迪利曼，今天咱们要当回侦探——\"棒球棍在肩头轻叩，\"当然得靠这两位'贵宾'帮忙，查查这烂摊子到底该谁背锅。来，做个自我介绍？\"\n"
 "\n"
-"两名俘虏交换了认命的眼神。女人低头嗫嚅：\"玛莎·夏尔玛博士。\"\n"
+"两名俘虏交换了认命的眼神低下头。女人低头嗫嚅：\"玛莎·夏尔玛博士。\"\n"
 "\"康拉德·夏尔玛博士。\"同伴闷声补充。\n"
-"\"原来都是詹姆斯生物科技的狗杂种~\"男子哼着调子在两人面前踱步，\"先从简单的来。CDC说有什么东西在搞烂人脑子——\"他突然凑近镜头，\"你们实验室到底煮了什么毒汤？\"\n"
+"\"而你们两个杂种都在詹姆森生物科技工作~\"男子哼着调子在两人面前踱步，\"先从简单的来。疾病预防控制中心说有什么东西在搞烂人脑子，让人发疯。你们在实验室里造了什么孽？\"\n"
 "\n"
-"女博士猛然抬头：\"蠢货！\"\n"
+"女人抬起头，与提问者对视，难以置信地摇摇头。\"傻逼。\"\n"
 "\n"
-"\"懂了。\"男子转身招手，\"亚历山大、托马斯、玛丽，把崽子带来...还有铁丝网！\"在俘虏凄厉的哀嚎中，胡子拉碴的瘦子抱着啼哭的婴儿入镜，身后男女正展开带刺铁丝。当生锈的铁丝勒进婴儿肚皮时，首领倒数：\"三、二、一...\"\n"
+"\"明白了。得来点硬的。\"安德烈恍然大悟般转身，\"亚历山大、托马斯、玛丽，把小崽子带来...还有铁丝网！\"\n"
 "\n"
-"自动步枪的爆响撕裂空气。镜头翻转间，血雾如烟花绽放，军靴声由远及近。"
+"在俘虏凄厉的哀嚎中，胡子拉碴的瘦子抱着啼哭的婴儿入镜，身后男女正展开带刺铁丝。三人不顾婴儿被铁刺刮破皮肤的惨叫，将生锈的铁丝绕在婴儿腰际，各执一端形成绞索。\"听好了，\"安德烈兴奋地指挥，\"我数到三就开勒。要是咱们的贵宾们还不开口...\"他突然咧嘴一笑，\"就把这小杂种绞成肉酱！三、二、一……\"\n"
+"\n"
+"自动步枪的爆响撕裂空气。鲜血四溅，弹痕累累的躯体纷纷倒地，摄像机向后翻倒，急促的军靴声越来越近。"
 
 #. ~ Name of a snippet in category "local_files_simple"
 #. ~ mostly work of random people: chat logs, SMSes, popular photos and videos
@@ -528086,6 +528220,28 @@ msgid ""
 "or similar dispenser.  Holds a lot of liquid, but unfortunately it doesn't "
 "come with a cap, making it hard to carry around when full."
 msgstr "一个相当大的蓝色塑料壶，用于在饮水机之类的地方盛水和供水。可容纳大量液体，但不幸的是它没有带盖，装满时很难随身携带。"
+
+#. ~ Item name
+#: data/mods/Backrooms/items.json
+msgid "almond water"
+msgid_plural "almond waters"
+msgstr[0] ""
+
+#. ~ Description of "almond water"
+#: data/mods/Backrooms/items.json
+msgid "A bottle of what looks like slightly-cloudy water."
+msgstr ""
+
+#. ~ Item name
+#: data/mods/Backrooms/items.json
+msgid "almond water bottle"
+msgid_plural "almond water bottles"
+msgstr[0] ""
+
+#. ~ Description of "almond water bottle"
+#: data/mods/Backrooms/items.json
+msgid "A sealed glass bottle, holding a slightly-cloudy liquid."
+msgstr ""
 
 #. ~ Description of "newspaper page"
 #: data/mods/Backrooms/items.json
@@ -622714,14 +622870,14 @@ msgstr ""
 #. ~ Mutation name
 #: data/mods/Perk_melee/perk_techniques.json
 msgid "Coiling Strikes"
-msgstr ""
+msgstr "盘卷旋击"
 
 #. ~ Description of mutation "Coiling Strikes"
 #: data/mods/Perk_melee/perk_techniques.json
 msgid ""
 "Perform a quick reach attack with a polearm or staff if you have at least 1 "
 "momentum stack.  The attack will heavily scale with perception."
-msgstr ""
+msgstr "若你拥有至少 1 层 动量，可使用长柄武器或长棍发动一次快速的 远距攻击 。此攻击将大幅受感知属性加成。"
 
 #. ~ Mutation name
 #: data/mods/Perk_melee/perk_techniques.json
@@ -622768,7 +622924,7 @@ msgstr ""
 #: data/mods/Perk_melee/perk_techniques.json
 #: data/mods/Perk_melee/techniques/techniques.json
 msgid "Estocada"
-msgstr ""
+msgstr "迅捷刺击"
 
 #. ~ Description of mutation "Estocada"
 #: data/mods/Perk_melee/perk_techniques.json
@@ -622776,7 +622932,7 @@ msgid ""
 "Perform a quick lunging thrust with a long sword, thrusting sword or "
 "quarterstaff.  You must have exactly 1 momentum stack to perform this "
 "attack."
-msgstr ""
+msgstr "使用长剑、刺剑或长棍快速刺击。发动此攻击需精确保持 1 层 动量。"
 
 #. ~ Mutation name
 #: data/mods/Perk_melee/perk_techniques.json
@@ -622793,7 +622949,7 @@ msgstr "当对同一目标的第三次攻击触发满层 战斗节奏 加成时�
 #. ~ Mutation name
 #: data/mods/Perk_melee/perk_techniques.json
 msgid "Timed lunge"
-msgstr ""
+msgstr "进退游刃"
 
 #. ~ Description of mutation "Timed lunge"
 #: data/mods/Perk_melee/perk_techniques.json
@@ -622803,6 +622959,7 @@ msgid ""
 "you are already adjacent to them.  You must have exactly 1 momentum stack to"
 " perform this attack."
 msgstr ""
+"使用击剑或长刺剑发动远距攻击。此次攻击将根据站位进行战术位移，若与目标间隔则突进至其身旁，若已贴身则反向撤离。发动此攻击需精确保持 1 层 动量。"
 
 #. ~ Mutation name
 #: data/mods/Perk_melee/perk_techniques.json
@@ -623009,7 +623166,7 @@ msgstr "快速移动产生 动量 层数。只要动量处于生效状态，你�
 #. ~ Mutation name
 #: data/mods/Perk_melee/PERKS/momentum.json
 msgid "Ballistic Evasion"
-msgstr ""
+msgstr "子弹时间"
 
 #. ~ Description of mutation "Ballistic Evasion"
 #: data/mods/Perk_melee/PERKS/momentum.json
@@ -623019,19 +623176,19 @@ msgid ""
 " attack for every point of dexterity you have.  If you have less than 4 "
 "momentum stacks, gain a 1% chance to dodge any ranged attack for every point"
 " of dexterity you have."
-msgstr ""
+msgstr "若你拥有至少 4 层 动量 ，每点敏捷可为你提供 5% 远程攻击闪避；若 动量 不足 4 层，则每点敏捷提供 1% 远程攻击闪避。"
 
 #. ~ Mutation name
 #: data/mods/Perk_melee/PERKS/momentum.json
 msgid "Duelist Form"
-msgstr ""
+msgstr "决斗架势"
 
 #. ~ Description of mutation "Duelist Form"
 #: data/mods/Perk_melee/PERKS/momentum.json
 msgid ""
 "If you have more than 1 momentum stack, your momentum will be set to 1 "
 "whenever you wait a turn."
-msgstr ""
+msgstr "若你拥有 动量 层数超过 1 层，当你进行回合等待时， 动量 层数将被重置为 1 层。"
 
 #. ~ Mutation name
 #: data/mods/Perk_melee/PERKS/perks.json
@@ -623304,8 +623461,8 @@ msgid ""
 "or smaller</info> size incapable of flight. Requires "
 "<info>momentum(3)</info> or higher to trigger."
 msgstr ""
-"* "
-"仅对<info>未被击倒</info>且体型<info>相近或更小</info>的类人目标生效，需要<info>动量(3)</info>或更高来触发。"
+"* 仅对<info>未被击倒</info>且体型<info>相近或更小</info>的类人目标生效，需要<info>动量 "
+"[3]</info>或更高来触发。"
 
 #. ~ Message of martial technique "Vulgar Opening"
 #: data/mods/Perk_melee/techniques/techniques.json
@@ -623316,7 +623473,7 @@ msgstr ""
 #. ~ Martial technique name
 #: data/mods/Perk_melee/techniques/techniques.json
 msgid "Coiling strike"
-msgstr ""
+msgstr "盘卷旋击"
 
 #. ~ Description of martial technique "Coiling strike"
 #. ~ Description of martial technique "Lunge"
@@ -623328,13 +623485,13 @@ msgstr ""
 #: data/mods/Perk_melee/techniques/techniques.json
 #, c-format
 msgid "You quickly stab %s with a sideways thrust"
-msgstr ""
+msgstr "你侧向戳击快速击中%s"
 
 #. ~ Message of martial technique "Coiling strike"
 #: data/mods/Perk_melee/techniques/techniques.json
 #, c-format
 msgid "<npcname> stabs %s with a quick thrust"
-msgstr ""
+msgstr "<npcname>侧向戳击快速击中%s"
 
 #. ~ Message of martial technique "Make Way"
 #: data/mods/Perk_melee/techniques/techniques.json
@@ -623365,18 +623522,18 @@ msgstr "* 仅对体型<info>相近或更小</info>，不能飞行且<info>未被
 #: data/mods/Perk_melee/techniques/techniques.json
 #, c-format
 msgid "You thrust your weapon into %s"
-msgstr ""
+msgstr "你将你的武器刺入%s"
 
 #. ~ Message of martial technique "Estocada"
 #: data/mods/Perk_melee/techniques/techniques.json
 #, c-format
 msgid "<npcname> thrusts their weapon into %s"
-msgstr ""
+msgstr "<npcname>将TA的武器刺入%s"
 
 #. ~ Condition description of martial technique "Estocada"
 #: data/mods/Perk_melee/techniques/techniques.json
 msgid "* Requires <info>momentum(1)</info> to trigger."
-msgstr ""
+msgstr "* 需 <info>动量 [1]</info> 方可触发。"
 
 #. ~ Martial technique name
 #: data/mods/Perk_melee/techniques/techniques.json
@@ -635217,6 +635374,11 @@ msgstr "奇木灵诱变剂"
 
 #. ~ Vitamin name
 #: data/mods/Xedra_Evolved/vitamin.json
+msgid "Arvore Alchemical Mutagen"
+msgstr ""
+
+#. ~ Vitamin name
+#: data/mods/Xedra_Evolved/vitamin.json
 msgid "Undine Mutagen"
 msgstr "水仙子诱变剂"
 
@@ -637853,8 +638015,40 @@ msgstr "你饮用了改变生活的奇木灵命运药水。"
 
 #. ~ Blood analysis description of effect type "Arvore Mutation, Arvore
 #. Transformation, Arvore Metamorphosis"
+#. ~ Blood analysis description of effect type "Arvore Stolen Power Mutation,
+#. Arvore Stolen Power Transformation, Arvore Stolen Power Metamorphosis"
 #: data/mods/Xedra_Evolved/effects/effects.json
 msgid "Anomalous chlorophyll content in blood sample"
+msgstr ""
+
+#. ~ Name of effect type id "mutagen_alchemical_plantkin"
+#: data/mods/Xedra_Evolved/effects/effects.json
+msgid "Arvore Stolen Power Mutation"
+msgstr ""
+
+#. ~ Name of effect type id "mutagen_alchemical_plantkin"
+#: data/mods/Xedra_Evolved/effects/effects.json
+msgid "Arvore Stolen Power Transformation"
+msgstr ""
+
+#. ~ Name of effect type id "mutagen_alchemical_plantkin"
+#: data/mods/Xedra_Evolved/effects/effects.json
+msgid "Arvore Stolen Power Metamorphosis"
+msgstr ""
+
+#. ~ Description of effect type "Arvore Stolen Power Mutation"
+#: data/mods/Xedra_Evolved/effects/effects.json
+msgid "You consumed Arvore alchemical draught."
+msgstr ""
+
+#. ~ Description of effect type "Arvore Stolen Power Transformation"
+#: data/mods/Xedra_Evolved/effects/effects.json
+msgid "You consumed a large amount of Arvore alchemical draught."
+msgstr ""
+
+#. ~ Description of effect type "Arvore Stolen Power Metamorphosis"
+#: data/mods/Xedra_Evolved/effects/effects.json
+msgid "You consumed a life-changing amount of Arvore alchemical draught."
 msgstr ""
 
 #. ~ Name of effect type id "mutagen_waterkin"
@@ -654551,6 +654745,28 @@ msgctxt "memorial_female"
 msgid "Fell with a great sound."
 msgstr "巨响一声倒下。"
 
+#. ~ Mutation class name
+#: data/mods/Xedra_Evolved/mutations/mutation_category.json
+msgid "Arvorian Canker"
+msgstr ""
+
+#. ~ "mutagen_message" of mutation class "Arvorian Canker"
+#: data/mods/Xedra_Evolved/mutations/mutation_category.json
+msgid "Gorged with verdant power."
+msgstr ""
+
+#. ~ Memorial message of mutation class "Arvorian Canker" for male
+#: data/mods/Xedra_Evolved/mutations/mutation_category.json
+msgctxt "memorial_male"
+msgid "Withered and rotted away."
+msgstr ""
+
+#. ~ Memorial message of mutation class "Arvorian Canker" for female
+#: data/mods/Xedra_Evolved/mutations/mutation_category.json
+msgctxt "memorial_female"
+msgid "Withered and rotted away."
+msgstr ""
+
 #. ~ "mutagen_message" of mutation class "Salamander"
 #: data/mods/Xedra_Evolved/mutations/mutation_category.json
 msgid "Touched by fire."
@@ -668482,22 +668698,22 @@ msgstr ""
 msgid ""
 "Welcome.  What do you seek here?  Fortune?  Safety?  A friend?  A mentor?  "
 "What brought you here?"
-msgstr ""
+msgstr "欢迎。你在此寻求什么？财富？安全？朋友？导师？是什么让你来到此处？"
 
 #. ~ Response to NPC dialogue
 #: data/mods/Xedra_Evolved/npc/vampire_mentor.json
 msgid "I want to talk."
-msgstr ""
+msgstr "我想谈谈。"
 
 #. ~ Response to NPC dialogue
 #: data/mods/Xedra_Evolved/npc/vampire_mentor.json
 msgid "I want a mentor."
-msgstr ""
+msgstr "我想寻求一位导师。"
 
 #. ~ Response to NPC dialogue
 #: data/mods/Xedra_Evolved/npc/vampire_mentor.json
 msgid "I want to kill vampires."
-msgstr ""
+msgstr "我是来消灭吸血鬼的。"
 
 #. ~ Response to NPC dialogue
 #: data/mods/Xedra_Evolved/npc/vampire_mentor.json
@@ -668527,12 +668743,12 @@ msgstr ""
 #. ~ Response to NPC dialogue
 #: data/mods/Xedra_Evolved/npc/vampire_mentor.json
 msgid "Can I do something for you?"
-msgstr ""
+msgstr "我能为你做些什么吗？"
 
 #. ~ Response to NPC dialogue
 #: data/mods/Xedra_Evolved/npc/vampire_mentor.json
 msgid "What did you meant by \"mentor\"?"
-msgstr ""
+msgstr "你所说的“导师”是什么意思？"
 
 #. ~ Response to NPC dialogue
 #: data/mods/Xedra_Evolved/npc/vampire_mentor.json
@@ -668542,22 +668758,22 @@ msgstr "我只想四处看看。再见。"
 #. ~ NPC dialogue line
 #: data/mods/Xedra_Evolved/npc/vampire_mentor.json
 msgid "I can help you become a stronger vampire, if it is what you wish."
-msgstr ""
+msgstr "若你愿意，我可助你成为一名更强大的吸血鬼。"
 
 #. ~ NPC dialogue line
 #: data/mods/Xedra_Evolved/npc/vampire_mentor.json
 msgid "I can share with you the gift of vampirism, if it is what you wish."
-msgstr ""
+msgstr "若你愿意，我可将吸血鬼的恩赐分享与你。"
 
 #. ~ Response to NPC dialogue
 #: data/mods/Xedra_Evolved/npc/vampire_mentor.json
 msgid "I want to become a stronger vampire."
-msgstr ""
+msgstr "我想成为更强的吸血鬼。"
 
 #. ~ Response to NPC dialogue
 #: data/mods/Xedra_Evolved/npc/vampire_mentor.json
 msgid "I want to become a vampire."
-msgstr ""
+msgstr "我想成为一名吸血鬼。"
 
 #. ~ Response to NPC dialogue
 #: data/mods/Xedra_Evolved/npc/vampire_mentor.json
@@ -668567,36 +668783,36 @@ msgstr ""
 #. ~ Response to NPC dialogue
 #: data/mods/Xedra_Evolved/npc/vampire_mentor.json
 msgid "Maybe later.  Bye."
-msgstr ""
+msgstr "下次吧。再见。"
 
 #. ~ NPC dialogue line
 #: data/mods/Xedra_Evolved/npc/vampire_mentor.json
 msgid ""
 "There are many vampires in this place.  Feel free to kill the others, I am "
 "not affiliated with them."
-msgstr ""
+msgstr "此处有许多吸血鬼。尽管动手，我与它们并无关联。"
 
 #. ~ Response to NPC dialogue
 #: data/mods/Xedra_Evolved/npc/vampire_mentor.json
 msgid "I'm here to kill all vampires, no exceptions.  Prepare to die."
-msgstr ""
+msgstr "我是来消灭“所有”吸血鬼的，没有例外。受死吧。"
 
 #. ~ Response to NPC dialogue
 #: data/mods/Xedra_Evolved/npc/vampire_mentor.json
 msgid ""
 "You seem more reasonable than the rest.  Would you like to be cured of your "
 "curse?"
-msgstr ""
+msgstr "你似乎比其他同类更理智。你想摆脱诅咒吗？"
 
 #. ~ Response to NPC dialogue
 #: data/mods/Xedra_Evolved/npc/vampire_mentor.json
 msgid "It can wait.  Can we talk?"
-msgstr ""
+msgstr "这事可以等会儿再说。我们先来谈谈？"
 
 #. ~ Response to NPC dialogue
 #: data/mods/Xedra_Evolved/npc/vampire_mentor.json
 msgid "It can wait.  Can we discuss what you meant by \"mentor\"?"
-msgstr ""
+msgstr "这事可以等会儿再说。你所说的“导师”是什么意思？"
 
 #. ~ NPC dialogue line
 #: data/mods/Xedra_Evolved/npc/vampire_mentor.json
@@ -668647,7 +668863,7 @@ msgstr ""
 #. ~ Response to NPC dialogue
 #: data/mods/Xedra_Evolved/npc/vampire_mentor.json
 msgid "Maybe later, but not now."
-msgstr ""
+msgstr "现在不行，下次吧。"
 
 #. ~ NPC dialogue line
 #: data/mods/Xedra_Evolved/npc/vampire_mentor.json
@@ -668667,12 +668883,12 @@ msgid ""
 "I can do it, if you truly want it.  I've seen that those who willingly "
 "become vampires are more likely to fully walk the path so I won't attempt to"
 " force you."
-msgstr ""
+msgstr "若你真心所求，我自可成全。甘愿堕为血族者，往往更能贯彻始终，故我无意强求。"
 
 #. ~ Response to NPC dialogue
 #: data/mods/Xedra_Evolved/npc/vampire_mentor.json
 msgid "I am sure.  Grant me vampirism."
-msgstr ""
+msgstr "我心意已决。赐予我吸血鬼之力吧。"
 
 #. ~ NPC dialogue line
 #: data/mods/Xedra_Evolved/npc/vampire_mentor.json
@@ -668683,11 +668899,13 @@ msgid ""
 "vampiric power that cannot be achieved through time alone.  When you'll "
 "reach that point, come back here and I'll help you reach them."
 msgstr ""
+"[ 咬你 ] "
+"收下吧。初时或许毫无异样，但切记留好人血以防饥渴来袭，备好荫蔽以御日光灼肤。血族之力亦有境界，非仅凭光阴可至。若你行至彼处，再来此地，我自会助你突破桎梏。"
 
 #. ~ Response to NPC dialogue
 #: data/mods/Xedra_Evolved/npc/vampire_mentor.json
 msgid "Got it.  See you."
-msgstr ""
+msgstr "明白了。再见。"
 
 #. ~ NPC dialogue line
 #: data/mods/Xedra_Evolved/npc/vampire_mentor.json
@@ -668703,7 +668921,7 @@ msgid ""
 "Your vampirism isn't potent enough.  Come back when your mortal hungers will"
 " begin to be replaced by immortal hungers.  They are the signs that your "
 "power increased enough to withstand what you'll gain from my help."
-msgstr ""
+msgstr "你的血族之力还不够醇厚。待凡躯饥饿渐为永生之渴所替时，再返此地——那便是力量足以承纳我所授之力的征兆。"
 
 #. ~ Response to NPC dialogue
 #: data/mods/Xedra_Evolved/npc/vampire_mentor.json
@@ -668919,44 +669137,44 @@ msgstr ""
 msgid ""
 "No.  I've long passed the point of no return.  Either your cure won't do "
 "anything, or it'll kill me."
-msgstr ""
+msgstr "不必。我早已无路可退。你的方法要么毫无作用，要么只会让我丧命。"
 
 #. ~ Response to NPC dialogue
 #: data/mods/Xedra_Evolved/npc/vampire_mentor.json
 msgid "Then you must die."
-msgstr ""
+msgstr "那你只能去死了。"
 
 #. ~ Response to NPC dialogue
 #: data/mods/Xedra_Evolved/npc/vampire_mentor.json
 msgid "I understand.  Can we talk?"
-msgstr ""
+msgstr "了解。我们来谈谈其他的事？"
 
 #. ~ NPC dialogue line
 #: data/mods/Xedra_Evolved/npc/vampire_mentor.json
 msgid "No thanks.  I am here to help others, not because I need help."
-msgstr ""
+msgstr "不必。我来此只为助人，而非求援。"
 
 #. ~ Response to NPC dialogue
 #: data/mods/Xedra_Evolved/npc/vampire_mentor.json
 msgid "Then I'd like your help as a mentor."
-msgstr ""
+msgstr "那我希望你能以导师的身份给予我帮助。"
 
 #. ~ Response to NPC dialogue
 #: data/mods/Xedra_Evolved/npc/vampire_mentor.json
 msgid "Then I'd like your help as a vampire slayer."
-msgstr ""
+msgstr "那我希望你能以吸血鬼杀手的身份给予我帮助。"
 
 #. ~ NPC dialogue line
 #: data/mods/Xedra_Evolved/npc/vampire_mentor.json
 msgid ""
 "No thanks.  I've decided long ago to never gamble my life for someone else's"
 " cause.  I prefer waiting on the side, helping those who want my help."
-msgstr ""
+msgstr "我对此敬谢不敏。我早已决定不为他人赌上性命。我更愿意在一旁等待，帮助那些需要我帮助的人。"
 
 #. ~ Response to NPC dialogue
 #: data/mods/Xedra_Evolved/npc/vampire_mentor.json
 msgid "I want your help, mentor."
-msgstr ""
+msgstr "我需要你的帮助，导师。"
 
 #. ~ Mission name
 #: data/mods/Xedra_Evolved/npc/vampire_mentor.json

@@ -42,7 +42,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: cataclysm-dda 0.I\n"
-"POT-Creation-Date: 2025-05-15 11:11+0000\n"
+"POT-Creation-Date: 2025-05-21 17:47+0000\n"
 "PO-Revision-Date: 2018-04-26 14:47+0000\n"
 "Last-Translator: pigmentblue15, 2025\n"
 "Language-Team: Japanese (https://app.transifex.com/cataclysm-dda-translators/teams/2217/ja/)\n"
@@ -231,7 +231,7 @@ msgstr "%s (方向キー)"
 #: src/iuse_actor.cpp:5328 src/iuse_actor.cpp:5367 src/iuse_actor.cpp:5470
 #: src/iuse_actor.cpp:5525 src/iuse_actor.cpp:5556 src/monexamine.cpp:93
 #: src/monexamine.cpp:215 src/monexamine.cpp:311 src/monexamine.cpp:347
-#: src/npc.cpp:1389 src/npc.cpp:1396 src/veh_interact.cpp:3014
+#: src/npc.cpp:1389 src/npc.cpp:1396 src/veh_interact.cpp:3015
 #: src/vehicle_use.cpp:1623 src/vehicle_use.cpp:2384
 #: data/json/npcs/snippets/talk_tags_avatar.json
 #: data/mods/Aftershock/npcs/Augustmoon_Salvors/augustmoon_doctor.json
@@ -413,7 +413,7 @@ msgstr "本を所持していません！"
 msgid "<npcname> no longer has the book!"
 msgstr "<npcname>は本を所持していません！"
 
-#: src/activity_actor.cpp:1705 src/character.cpp:12343 src/npc.cpp:1347
+#: src/activity_actor.cpp:1705 src/character.cpp:12344 src/npc.cpp:1347
 msgid "It's too dark to read!"
 msgstr "暗すぎて読めません！"
 
@@ -740,7 +740,7 @@ msgstr "カチッと音がして、金庫の鍵が開きました！"
 msgid "You disassemble your %s."
 msgstr "%sを分解しました。"
 
-#: src/activity_actor.cpp:4066 src/character.cpp:11905
+#: src/activity_actor.cpp:4066 src/character.cpp:11906
 #, c-format
 msgid "You unload your %s."
 msgstr "%sの装填物を抜き取りました。"
@@ -4034,7 +4034,7 @@ msgstr "これらのアイテムは防水容器の中に入っていません。
 #: src/avatar_action.cpp:145 src/debug_menu.cpp:3143 src/editmap.cpp:973
 #: src/editmap.cpp:974 src/editmap.cpp:981 src/editmap.cpp:982
 #: src/options.cpp:1702 src/options.cpp:2642 src/trap.cpp:475
-#: src/veh_interact.cpp:1429
+#: src/veh_interact.cpp:1430
 #: data/mods/BombasticPerks/corefiles/config_menu.json
 #: data/mods/Xedra_Evolved/eocs/eoc_riddles.json data/raw/keybindings.json
 msgid "No"
@@ -4046,7 +4046,7 @@ msgstr "No"
 #. ~ EOC option name in effect in EoC "EOC_XE_RIDDLE_20"
 #: src/avatar_action.cpp:146 src/debug_menu.cpp:3143 src/editmap.cpp:973
 #: src/editmap.cpp:974 src/editmap.cpp:981 src/editmap.cpp:982
-#: src/trap.cpp:475 src/veh_interact.cpp:1429
+#: src/trap.cpp:475 src/veh_interact.cpp:1430
 #: data/mods/BombasticPerks/corefiles/config_menu.json
 #: data/mods/Xedra_Evolved/eocs/eoc_riddles.json data/raw/keybindings.json
 msgid "Yes"
@@ -4333,7 +4333,7 @@ msgstr "投擲する気力が湧きません..."
 msgid "You aren't holding something you can throw."
 msgstr "投擲できるアイテムを所持していません。"
 
-#: src/avatar_action.cpp:1143 src/character.cpp:3431 src/character.cpp:13363
+#: src/avatar_action.cpp:1143 src/character.cpp:3431 src/character.cpp:13364
 msgid "You can't use anything while incorporeal."
 msgstr "実体がないため何も使用できません。"
 
@@ -6215,23 +6215,23 @@ msgstr "取消"
 msgid "OK"
 msgstr "OK"
 
-#: src/cata_tiles.cpp:5598
+#: src/cata_tiles.cpp:5600
 msgid "direct3d"
 msgstr "Direct3D"
 
-#: src/cata_tiles.cpp:5600 src/options.cpp:2656
+#: src/cata_tiles.cpp:5602 src/options.cpp:2656
 msgid "software"
 msgstr "ソフトウェア"
 
-#: src/cata_tiles.cpp:5601
+#: src/cata_tiles.cpp:5603
 msgid "opengl"
 msgstr "OpenGL"
 
-#: src/cata_tiles.cpp:5602
+#: src/cata_tiles.cpp:5604
 msgid "opengles2"
 msgstr "OpenGL ES2"
 
-#: src/cata_tiles.cpp:5628
+#: src/cata_tiles.cpp:5630
 msgid "Display 0"
 msgstr "0表示"
 
@@ -6629,7 +6629,7 @@ msgstr "%1$sにこれ以上の%2$sを入れられません。"
 msgid "You pour %1$s into the %2$s."
 msgstr "%1$sを%2$sに注ぎ入れました。"
 
-#: src/character.cpp:6087 src/character.cpp:6106 src/veh_interact.cpp:3192
+#: src/character.cpp:6087 src/character.cpp:6106 src/veh_interact.cpp:3193
 msgid "There's some left over!"
 msgstr "全てをくみ取ることはできませんでした！"
 
@@ -6810,7 +6810,7 @@ msgstr[0] "%s(%d)の装填量は%d以上必要です。"
 msgid "You cough heavily."
 msgstr "騒々しく咳をしています。"
 
-#: src/character.cpp:7368 src/monster.cpp:3453 src/monster.cpp:3464
+#: src/character.cpp:7368 src/monster.cpp:3483 src/monster.cpp:3494
 msgid "a hacking cough."
 msgstr "[苦しそうな空咳]"
 
@@ -7468,130 +7468,130 @@ msgstr "電力が尽き、睡眠導入装置が停止しました！"
 msgid "Your soporific inducer starts back up."
 msgstr "睡眠導入装置が再起動しました。"
 
-#: src/character.cpp:11722
+#: src/character.cpp:11723
 #, c-format
 msgid "You put the %s in your inventory."
 msgstr "%sを所持しました。"
 
-#: src/character.cpp:11737
+#: src/character.cpp:11738
 #, c-format
 msgid "The %s is already empty!"
 msgstr "%sは既に空です！"
 
-#: src/character.cpp:11741
+#: src/character.cpp:11742
 msgid "The item can't be unloaded in its current state!"
 msgstr "現在の状態ではアイテムを取り外せません！"
 
-#: src/character.cpp:11795
+#: src/character.cpp:11796
 msgid "Unload what?"
 msgstr "装填物を抜き取るアイテムを選択"
 
-#: src/character.cpp:11812 src/character.cpp:11820
+#: src/character.cpp:11813 src/character.cpp:11821
 #, c-format
 msgid "You can't unload a %s!"
 msgstr "%sからは抜き取れません！"
 
-#: src/character.cpp:11818
+#: src/character.cpp:11819
 #, c-format
 msgid "You can't unload a rechargeable %s!"
 msgstr "充電式の%sから抜き取れるものはありません！"
 
-#: src/character.cpp:11828
+#: src/character.cpp:11829
 #, c-format
 msgid "Your %s isn't charged."
 msgstr "%sは充電されていません。"
 
-#: src/character.cpp:11830
+#: src/character.cpp:11831
 #, c-format
 msgid "Your %s isn't loaded."
 msgstr "%sは充填されていません。"
 
-#: src/character.cpp:12301
+#: src/character.cpp:12302
 #, c-format
 msgid "Your %s is not good reading material."
 msgstr "%sはあまり読み物には適しません。"
 
-#: src/character.cpp:12303
+#: src/character.cpp:12304
 #, c-format
 msgid "The %s is not good reading material."
 msgstr "%sはあまり読み物には適しません。"
 
-#: src/character.cpp:12315
+#: src/character.cpp:12316
 msgid "It's a bad idea to read while driving!"
 msgstr "運転中に本を読む馬鹿はいません！"
 
-#: src/character.cpp:12321 src/iuse_actor.cpp:2695
+#: src/character.cpp:12322 src/iuse_actor.cpp:2695
 msgid "What's the point of studying?  (Your morale is too low!)"
 msgstr "意欲が低すぎる！"
 
-#: src/character.cpp:12322
+#: src/character.cpp:12323
 #, c-format
 msgid "What's the point of studying?  (%s)'s morale is too low!)"
 msgstr "%sの意欲が低すぎる！"
 
-#: src/character.cpp:12326
+#: src/character.cpp:12327
 #, c-format
 msgid "%s %d needed to understand.  You have %d"
 msgstr "%sスキル(Lv%d)が必要(現在Lv%d)"
 
-#: src/character.cpp:12328 src/character.cpp:12371
+#: src/character.cpp:12329 src/character.cpp:12372
 #, c-format
 msgid "%s %d needed to understand.  %s has %d"
 msgstr "%sスキル(Lv%d)が必要(%s: 現在Lv%d)"
 
-#: src/character.cpp:12335 src/iuse.cpp:4189
+#: src/character.cpp:12336 src/iuse.cpp:4189
 msgid "You're illiterate!"
 msgstr "字が読めません！"
 
-#: src/character.cpp:12336 src/character.cpp:12368
+#: src/character.cpp:12337 src/character.cpp:12369
 #, c-format
 msgid "%s is illiterate!"
 msgstr "%sは字が読めない！"
 
-#: src/character.cpp:12338
+#: src/character.cpp:12339
 msgid "Your eyes won't focus without reading glasses."
 msgstr "老眼鏡を着用していない"
 
-#: src/character.cpp:12339
+#: src/character.cpp:12340
 #, c-format
 msgid "%s's eyes won't focus without reading glasses."
 msgstr "%sは老眼鏡を着用していない"
 
-#: src/character.cpp:12357
+#: src/character.cpp:12358
 msgid "Maybe someone could read that to you, but you're deaf!"
 msgstr "読み上げてもらうことはできますが、耳が聞こえません！"
 
-#: src/character.cpp:12375
+#: src/character.cpp:12376
 #, c-format
 msgid "%s needs reading glasses!"
 msgstr "%sには老眼鏡が必要！"
 
-#: src/character.cpp:12379
+#: src/character.cpp:12380
 #, c-format
 msgid "It's too dark for %s to read!"
 msgstr "暗すぎて%sが文字を読めない！"
 
-#: src/character.cpp:12382
+#: src/character.cpp:12383
 #, c-format
 msgid "%s could read that to you, but they can't see you."
 msgstr "%sは本を読み上げられるが、こちらを視認できない"
 
-#: src/character.cpp:12386
+#: src/character.cpp:12387
 #, c-format
 msgid "%s morale is too low!"
 msgstr "%sの意欲が低すぎる！"
 
-#: src/character.cpp:12388
+#: src/character.cpp:12389
 #, c-format
 msgid "%s is blind."
 msgstr "%sは目が見えない"
 
 #. ~ Label of UI widget "ll_weight_carried_value"
-#: src/character.cpp:12469 data/json/ui/sidebar-legacy-labels.json
+#: src/character.cpp:12470 data/json/ui/sidebar-legacy-labels.json
 msgid "Weight Carried"
 msgstr "所持重量"
 
-#: src/character.cpp:12471 src/medical_ui.cpp:552 src/newcharacter.cpp:1464
+#: src/character.cpp:12472 src/medical_ui.cpp:552 src/newcharacter.cpp:1464
 #: src/player_display.cpp:1596
 msgid "Dexterity"
 msgstr "器用"
@@ -7599,191 +7599,191 @@ msgstr "器用"
 #. ~ Label of UI widget "pain_num_label"
 #. ~ Label of UI widget "pain_num_no_label"
 #. ~ Label of UI widget "pain_desc_label"
-#: src/character.cpp:12473 src/distraction_manager.cpp:30
+#: src/character.cpp:12474 src/distraction_manager.cpp:30
 #: src/memorial_logger.cpp:352 src/player_display.cpp:1571
 #: data/json/ui/pain.json
 msgid "Pain"
 msgstr "苦痛"
 
 #. ~ Label of UI widget "thirst_desc_label"
-#: src/character.cpp:12476 src/debug_menu.cpp:1959
+#: src/character.cpp:12477 src/debug_menu.cpp:1959
 #: src/distraction_manager.cpp:39 data/json/ui/thirst.json
 msgid "Thirst"
 msgstr "水分"
 
 #. ~ Clause text "underweight" of UI widget "weight_desc_label"
-#: src/character.cpp:12479 src/display.cpp:672 data/json/ui/weight.json
+#: src/character.cpp:12480 src/display.cpp:672 data/json/ui/weight.json
 msgid "Underweight"
 msgstr "痩せぎみ"
 
-#: src/character.cpp:12490
+#: src/character.cpp:12491
 msgid "Martial Art"
 msgstr "戦闘スタイル"
 
 #. ~ Mutation name
-#: src/character.cpp:12498 data/json/mutations/mutations.json
+#: src/character.cpp:12499 data/json/mutations/mutations.json
 msgid "Sunlight Dependent"
 msgstr "日光依存"
 
-#: src/character.cpp:12506
+#: src/character.cpp:12507
 msgid "Bio/Mut/Etc Effects"
 msgstr "CBM/変異/効果"
 
-#: src/character.cpp:12510
+#: src/character.cpp:12511
 msgid "Penalty Cap"
 msgstr "ペナルティ上限"
 
-#: src/character.cpp:12846 src/character.cpp:12892
+#: src/character.cpp:12847 src/character.cpp:12893
 #, c-format
 msgid "You land on %s."
 msgstr "%sに着地しました。"
 
-#: src/character.cpp:12876
+#: src/character.cpp:12877
 #, c-format
 msgid "You are slammed against %1$s for %2$d damage."
 msgstr "%1$sに叩きつけられ、%2$dのダメージを受けました！"
 
-#: src/character.cpp:12879
+#: src/character.cpp:12880
 #, c-format
 msgid "You are slammed against %s!"
 msgstr "%sに叩きつけられました！"
 
-#: src/character.cpp:12881
+#: src/character.cpp:12882
 msgid "…but your shock absorbers negate the damage!"
 msgstr "...しかし、緩衝装置によってダメージを吸収しました！"
 
-#: src/character.cpp:12887
+#: src/character.cpp:12888
 #, c-format
 msgid "You are slammed against %s."
 msgstr "%sに叩きつけられました！"
 
-#: src/character.cpp:12888
+#: src/character.cpp:12889
 #, c-format
 msgid "<npcname> is slammed against %s."
 msgstr "<npcname>は%sに叩きつけられました！"
 
-#: src/character.cpp:12948 src/character.cpp:12977
+#: src/character.cpp:12949 src/character.cpp:12978
 #, c-format
 msgid "<npcname> bounces off a %s!"
 msgstr "<npcname>が%sを弾き返しました！"
 
-#: src/character.cpp:12948 src/character.cpp:12977
+#: src/character.cpp:12949 src/character.cpp:12978
 #, c-format
 msgid "You bounce off a %s!"
 msgstr "%sが跳ね返りました！"
 
-#: src/character.cpp:12958
+#: src/character.cpp:12959
 #, c-format
 msgid "<npcname> bounces off %s!"
 msgstr "<npcname>が%sを弾き返しました！"
 
-#: src/character.cpp:12958
+#: src/character.cpp:12959
 #, c-format
 msgid "You bounce off %s!"
 msgstr "%sが跳ね返りました！"
 
-#: src/character.cpp:13020
+#: src/character.cpp:13021
 #, c-format
 msgid "%s spilled from your hand."
 msgstr "%sがこぼれ落ちました。"
 
-#: src/character.cpp:13114
+#: src/character.cpp:13115
 #, c-format
 msgid "Your ground sonar detected a %1$s to the %2$s!"
 msgstr "ソナーが%1$sに%2$sを検知しました！"
 
-#: src/character.cpp:13135 src/vehicle_move.cpp:1302
+#: src/character.cpp:13136 src/vehicle_move.cpp:1302
 #, c-format
 msgid "You've spotted a %1$s to the %2$s!"
 msgstr "%2$sに%1$sを発見しました！"
 
-#: src/character.cpp:13161
+#: src/character.cpp:13162
 msgid "You need to put the bag away before trying to wield something from it."
 msgstr "収納アイテム内のアイテムを装備するには、まず収納アイテムを離す必要があります。"
 
-#: src/character.cpp:13238
+#: src/character.cpp:13239
 msgid "No item."
 msgstr "アイテムがありません。"
 
-#: src/character.cpp:13372 src/consumption.cpp:1907
+#: src/character.cpp:13373 src/consumption.cpp:1907
 msgid "You do not have that item."
 msgstr "そのアイテムを所持していません。"
 
-#: src/character.cpp:13382 src/character.cpp:13437 src/iuse.cpp:9225
+#: src/character.cpp:13383 src/character.cpp:13438 src/iuse.cpp:9225
 #, c-format
 msgid "You can't do anything interesting with your %s."
 msgstr "%sを使ってできることは特にありません。"
 
-#: src/character.cpp:13395
+#: src/character.cpp:13396
 msgid "Your biology is not compatible with that healing item."
 msgstr "体質的な問題でその回復アイテムを使えません。"
 
-#: src/character.cpp:13435
+#: src/character.cpp:13436
 msgid "You are not wielding anything you could use."
 msgstr "使用できるアイテムを装備していません。"
 
-#: src/character.cpp:13581
+#: src/character.cpp:13582
 msgid "You roll on the ground, trying to smother the fire!"
 msgstr "火を消そうとして、地面を転がりました！"
 
-#: src/character.cpp:13582
+#: src/character.cpp:13583
 msgid "<npcname> rolls on the ground!"
 msgstr "<npcname>は地面を転がりました！"
 
-#: src/character.cpp:13585
+#: src/character.cpp:13586
 msgid "You attempt to put out the fire on you!"
 msgstr "火を消そうとして失敗しました！"
 
-#: src/character.cpp:13586
+#: src/character.cpp:13587
 msgid "<npcname> attempts to put out the fire on them!"
 msgstr "<npcname>は火を消そうとして失敗しました！"
 
-#: src/character.cpp:13599
+#: src/character.cpp:13600
 msgid ""
 "Your broken limb significantly hampers your efforts to put pressure on a "
 "bleeding wound!"
 msgstr "骨折しており、傷口を押さえて止血するのが困難です！"
 
-#: src/character.cpp:13600
+#: src/character.cpp:13601
 msgid ""
 "<npcname>'s broken limb significantly hampers their effort to put pressure "
 "on a bleeding wound!"
 msgstr "<npcname>は骨折しており、傷口を押さえて止血するのが困難です！"
 
-#: src/character.cpp:13603
+#: src/character.cpp:13604
 msgid ""
 "Your hands are too encumbered to effectively put pressure on a bleeding "
 "wound!"
 msgstr "手の動作制限が高すぎて、傷口を押さえて止血するのが困難です！"
 
-#: src/character.cpp:13604
+#: src/character.cpp:13605
 msgid ""
 "<npcname>'s hands are too encumbered to effectively put pressure on a "
 "bleeding wound!"
 msgstr "<npcname>は手の動作制限が高すぎて、傷口を押さえて止血するのが困難です！"
 
-#: src/character.cpp:13610
+#: src/character.cpp:13611
 msgid ""
 "Your bleeding is beyond staunching barehanded!  A tourniquet might help."
 msgstr "手だけでは出血を止められそうにありません！止血帯が必要です。"
 
-#: src/character.cpp:13611
+#: src/character.cpp:13612
 msgid "<npcname>'s bleeding is beyond staunching barehanded!"
 msgstr "手だけでは<npcname>の出血を止められそうにありません！止血帯が必要です。"
 
-#: src/character.cpp:13618
+#: src/character.cpp:13619
 msgid "You put pressure on the bleeding wound…"
 msgstr "出血している傷口を押さえました..."
 
-#: src/character.cpp:13619
+#: src/character.cpp:13620
 msgid "<npcname> puts pressure on the bleeding wound…"
 msgstr "<npcname>は出血している傷口を押さえました..."
 
-#: src/character.cpp:13713 src/newcharacter.cpp:406
+#: src/character.cpp:13714 src/newcharacter.cpp:406
 msgid "Select a style.\n"
 msgstr "戦闘スタイルを選択\n"
 
-#: src/character.cpp:13714 src/newcharacter.cpp:407
+#: src/character.cpp:13715 src/newcharacter.cpp:407
 #, c-format
 msgid ""
 "STR: <color_white>%d</color>, DEX: <color_white>%d</color>, PER: <color_white>%d</color>, INT: <color_white>%d</color>\n"
@@ -7792,15 +7792,15 @@ msgstr ""
 "筋力: <color_white>%d</color>、器用: <color_white>%d</color>、感覚: <color_white>%d</color>、知性: <color_white>%d</color>\n"
 "[<color_yellow>%s</color>]を押して技の詳細や対応装備を表示。\n"
 
-#: src/character.cpp:13725
+#: src/character.cpp:13726
 msgid "Keep hands free (off)"
 msgstr "素手(無効)"
 
-#: src/character.cpp:13725
+#: src/character.cpp:13726
 msgid "Keep hands free (on)"
 msgstr "素手(有効)"
 
-#: src/character.cpp:13726
+#: src/character.cpp:13727
 msgid ""
 "When this is enabled, player won't wield things unless explicitly told to."
 msgstr "有効にすると、あえて何かを装備しない限り素手を保ちます。"
@@ -7850,7 +7850,7 @@ msgstr "%1$sが%2$s！"
 
 #. ~ Damage adjective of material
 #: src/character_armor.cpp:363 src/character_attire.cpp:1947
-#: src/veh_interact.cpp:2948 data/json/materials.json
+#: src/veh_interact.cpp:2949 data/json/materials.json
 #: data/mods/MindOverMatter/materials.json
 msgid "destroyed"
 msgstr "大破"
@@ -8357,7 +8357,7 @@ msgstr "<npcname>は巧みに転がって着地しました。"
 msgid "<npcname> stands up."
 msgstr "<npcname>は立ち上がりました。"
 
-#: src/character_escape.cpp:111 src/monster.cpp:2571
+#: src/character_escape.cpp:111 src/monster.cpp:2601
 #, c-format
 msgid "The %s escapes the bear trap!"
 msgstr "%sはトラバサミから逃れて、自由になりました！"
@@ -8379,7 +8379,7 @@ msgstr "<npcname>はトラバサミから逃れて、自由になりました！
 msgid "You try to free yourself from the bear trap, but can't get loose!"
 msgstr "トラバサミから逃れようとしましたが、上手く外せません！"
 
-#: src/character_escape.cpp:137 src/monster.cpp:2547
+#: src/character_escape.cpp:137 src/monster.cpp:2577
 #, c-format
 msgid "The %s escapes the light snare!"
 msgstr "%sはくくり罠を外して、自由になりました！"
@@ -8396,7 +8396,7 @@ msgstr "<npcname>はくくり罠を外して、自由になりました！"
 msgid "You try to free yourself from the light snare, but can't get loose!"
 msgstr "くくり罠を外そうとしましたが、上手く外せませんでした！"
 
-#: src/character_escape.cpp:162 src/monster.cpp:2559
+#: src/character_escape.cpp:162 src/monster.cpp:2589
 #, c-format
 msgid "The %s escapes the heavy snare!"
 msgstr "%sは強化くくり罠を外して、自由になりました！"
@@ -8471,7 +8471,7 @@ msgstr "%sによる%sの拘束を振りほどこうとして、失敗しまし�
 msgid "<npcname> tries to break out of the grab, but fails!"
 msgstr "<npcname>は拘束を解こうとしましたが、失敗しました！"
 
-#: src/character_escape.cpp:348 src/monster.cpp:2537
+#: src/character_escape.cpp:348 src/monster.cpp:2567
 #, c-format
 msgid "The %s breaks free of the webs!"
 msgstr "%sがクモの巣から自由になりました！"
@@ -9714,7 +9714,7 @@ msgstr "検索"
 
 #. ~ Key binding name
 #. ~ Construction category name
-#: src/construction.cpp:1019 src/veh_interact.cpp:1031
+#: src/construction.cpp:1019 src/veh_interact.cpp:1032
 #: data/json/construction_category.json data/raw/keybindings.json
 msgid "Filter"
 msgstr "フィルタ"
@@ -9786,7 +9786,7 @@ msgid ""
 "grave."
 msgstr "残念ながら、墓に文字を刻める鋭い道具を所持していません。"
 
-#: src/construction.cpp:1698 src/veh_interact.cpp:2041
+#: src/construction.cpp:1698 src/veh_interact.cpp:2042
 msgid "Enter new vehicle name:"
 msgstr "車両の新しい名前を入力して下さい:"
 
@@ -10769,7 +10769,7 @@ msgid "%1s disassembles the %2s into its components."
 msgstr "%1sは%2sを個別の部品に分解しました。"
 
 #. ~ %1$d: quantity destroyed, %2$s: pluralized name of destroyed item
-#: src/crafting.cpp:2987 src/veh_interact.cpp:3293
+#: src/crafting.cpp:2987 src/veh_interact.cpp:3294
 #, c-format
 msgid "You fail to recover %1$d %2$s."
 msgstr "%1$d%2$sの回収に失敗しました。"
@@ -11723,9 +11723,9 @@ msgid "%s stumbles into you!"
 msgstr "%sが接触しました！"
 
 #: src/creature.cpp:1598 src/mattack_actors.cpp:488 src/mattack_actors.cpp:722
-#: src/mattack_actors.cpp:978 src/monster.cpp:2204 src/monster.cpp:2211
-#: src/monster.cpp:2231 src/monster.cpp:2241 src/monster.cpp:2274
-#: src/monster.cpp:2281 src/monster.cpp:2290
+#: src/mattack_actors.cpp:978 src/monster.cpp:2234 src/monster.cpp:2241
+#: src/monster.cpp:2261 src/monster.cpp:2271 src/monster.cpp:2304
+#: src/monster.cpp:2311 src/monster.cpp:2320
 msgid "Something"
 msgstr "何か"
 
@@ -14920,7 +14920,7 @@ msgstr "%i階層, %d'%d, %d'%d"
 msgid "Underground"
 msgstr "地下"
 
-#: src/distraction_manager.cpp:29 src/veh_interact.cpp:2832
+#: src/distraction_manager.cpp:29 src/veh_interact.cpp:2833
 msgid "Noise"
 msgstr "騒音"
 
@@ -16200,7 +16200,7 @@ msgstr "会話範囲内"
 msgid "Press enter to recall from their mission."
 msgstr "エンターキーで任務からの帰還を指示"
 
-#: src/faction.cpp:815 src/veh_interact.cpp:2529 src/veh_interact.cpp:2530
+#: src/faction.cpp:815 src/veh_interact.cpp:2530 src/veh_interact.cpp:2531
 msgid "Status: "
 msgstr "状態: "
 
@@ -18842,7 +18842,7 @@ msgstr "%sに衝突され、吹き飛ばされました！"
 msgid "The %s drowns!"
 msgstr "%sは溺死しました！"
 
-#: src/game.cpp:5014 src/monmove.cpp:2385
+#: src/game.cpp:5014 src/monmove.cpp:2386
 #, c-format
 msgid "The %s flops around and dies!"
 msgstr "%sは周囲をばたばたと動き回って死にました！"
@@ -19839,8 +19839,8 @@ msgid ""
 msgstr "気分が落ち込んでおり、作業を始めようとする気分にもなりません。"
 
 #: src/game.cpp:10315 src/iuse.cpp:3143 src/iuse.cpp:4742 src/iuse.cpp:4787
-#: src/iuse.cpp:8457 src/iuse.cpp:8682 src/veh_interact.cpp:1248
-#: src/veh_interact.cpp:1886
+#: src/iuse.cpp:8457 src/iuse.cpp:8682 src/veh_interact.cpp:1249
+#: src/veh_interact.cpp:1887
 #, c-format
 msgid "%s helps with this task…"
 msgstr "%sが作業を手伝ってくれました..."
@@ -21743,7 +21743,7 @@ msgid "PRICE"
 msgstr "価格"
 
 #: src/game_inventory.cpp:2954 src/mod_manager.cpp:95
-#: src/npctalk_rules.cpp:310 src/veh_interact.cpp:1975
+#: src/npctalk_rules.cpp:310 src/veh_interact.cpp:1976
 msgid "Default"
 msgstr "既定"
 
@@ -21791,7 +21791,7 @@ msgid "PIERCE"
 msgstr "貫通"
 
 #: src/game_inventory.cpp:3136 src/veh_appliance.cpp:425
-#: src/veh_interact.cpp:1337
+#: src/veh_interact.cpp:1338
 #, c-format
 msgid "Refill %s"
 msgstr "%sに補充"
@@ -30007,7 +30007,7 @@ msgstr " (%sターン)"
 msgid " (dirty)"
 msgstr "(汚)"
 
-#: src/item_tname.cpp:361 src/veh_interact.cpp:1462
+#: src/item_tname.cpp:361 src/veh_interact.cpp:1463
 msgid " (rotten)"
 msgstr "(腐)"
 
@@ -30035,7 +30035,7 @@ msgstr "(温)"
 msgid " (cold)"
 msgstr "(冷)"
 
-#: src/item_tname.cpp:396 src/veh_interact.cpp:1460
+#: src/item_tname.cpp:396 src/veh_interact.cpp:1461
 msgid " (frozen)"
 msgstr "(凍)"
 
@@ -33687,7 +33687,7 @@ msgstr "<bold>変化</bold>: "
 msgid "%s (%d %s)"
 msgstr "%s (%d %s)"
 
-#: src/iuse_actor.cpp:517 src/medical_ui.cpp:232 src/veh_interact.cpp:2637
+#: src/iuse_actor.cpp:517 src/medical_ui.cpp:232 src/veh_interact.cpp:2638
 #: src/vehicle.cpp:2861
 #, c-format
 msgid "%s (%s)"
@@ -36019,7 +36019,7 @@ msgstr "対象"
 msgid "Only affects the monsters: %s"
 msgstr "モンスターにのみ影響: %s"
 
-#: src/magic.cpp:3004 src/magic.cpp:3439 src/veh_interact.cpp:2836
+#: src/magic.cpp:3004 src/magic.cpp:3439 src/veh_interact.cpp:2837
 msgid "Range"
 msgstr "射程"
 
@@ -36039,7 +36039,7 @@ msgid ", %d/sec"
 msgstr "、%d/秒"
 
 #: src/magic.cpp:3044 src/magic.cpp:3099 src/magic.cpp:3386
-#: src/veh_interact.cpp:2802
+#: src/veh_interact.cpp:2803
 msgid "Damage"
 msgstr "与ダメージ"
 
@@ -37135,27 +37135,27 @@ msgstr "<header>%s</header>"
 msgid "You could harvest the following things from it:"
 msgstr "収穫物: "
 
-#: src/mapgen.cpp:4779
+#: src/mapgen.cpp:4739
 msgid "Viewing all palettes"
 msgstr "全パレット表示"
 
-#: src/mapgen.cpp:7013
+#: src/mapgen.cpp:6970
 msgid "Sub-prime contact console"
 msgstr "二次接触コンソール"
 
-#: src/mapgen.cpp:7015
+#: src/mapgen.cpp:6972
 msgid "Terminate Specimens"
 msgstr "検体を処分"
 
-#: src/mapgen.cpp:7016
+#: src/mapgen.cpp:6973
 msgid "Release Specimens"
 msgstr "検体を解放"
 
-#: src/mapgen.cpp:7018
+#: src/mapgen.cpp:6975
 msgid "Toggle Portal"
 msgstr "ポータルを起動"
 
-#: src/mapgen.cpp:7019
+#: src/mapgen.cpp:6976
 msgid "Activate Resonance Cascade"
 msgstr "共鳴連鎖を開始"
 
@@ -37178,8 +37178,8 @@ msgstr "共鳴連鎖を開始"
 #. on map microlab_DinoLab
 #. ~ Access denied message on computer "Missile Controls" placed on map
 #. silo_finale
-#: src/mapgen.cpp:7023 src/mapgen.cpp:7074 src/mapgen.cpp:8142
-#: src/mapgen.cpp:8161 src/mapgen.cpp:8181 src/mapgen.cpp:8200
+#: src/mapgen.cpp:6980 src/mapgen.cpp:7031 src/mapgen.cpp:8099
+#: src/mapgen.cpp:8118 src/mapgen.cpp:8138 src/mapgen.cpp:8157
 #: data/json/mapgen/lab/lab_floorplans_finale1level.json
 #: data/json/mapgen/microlab/microlab_special_tiles.json
 #: data/mods/DinoMod/mapgen/microlab_DinoLab.json
@@ -37189,46 +37189,46 @@ msgid ""
 "ERROR!  Access denied!  Unauthorized access will be met with lethal force!"
 msgstr "エラー！アクセスが拒否されました！不正アクセスが検知されたため殺傷兵器を呼び出しています！"
 
-#: src/mapgen.cpp:7068 src/mapgen.cpp:8136 src/mapgen.cpp:8155
-#: src/mapgen.cpp:8175 src/mapgen.cpp:8194
+#: src/mapgen.cpp:7025 src/mapgen.cpp:8093 src/mapgen.cpp:8112
+#: src/mapgen.cpp:8132 src/mapgen.cpp:8151
 msgid "Bionic access"
 msgstr "生体部品管理端末"
 
 #. ~ Interactive menu name in computer "Surgery room computer" placed on map
 #. ~ Interactive menu name in computer "Dinosaur surgery room computer" placed
 #. on map microlab_DinoLab
-#: src/mapgen.cpp:7069 src/mapgen.cpp:8137 src/mapgen.cpp:8156
-#: src/mapgen.cpp:8176 src/mapgen.cpp:8195
+#: src/mapgen.cpp:7026 src/mapgen.cpp:8094 src/mapgen.cpp:8113
+#: src/mapgen.cpp:8133 src/mapgen.cpp:8152
 #: data/json/mapgen/microlab/microlab_special_tiles.json
 #: data/mods/DinoMod/mapgen/microlab_DinoLab.json
 #: data/mods/No_Hope/Mapgen/nested/microlab_special_tiles.json
 msgid "Manifest"
 msgstr "一覧表"
 
-#: src/mapgen.cpp:7070 src/mapgen.cpp:8138 src/mapgen.cpp:8157
-#: src/mapgen.cpp:8177 src/mapgen.cpp:8196
+#: src/mapgen.cpp:7027 src/mapgen.cpp:8095 src/mapgen.cpp:8114
+#: src/mapgen.cpp:8134 src/mapgen.cpp:8153
 msgid "Open Chambers"
 msgstr "保管室を開放"
 
 #. ~ Computer name placed on map
-#: src/mapgen.cpp:7960 src/mapgen.cpp:7977
+#: src/mapgen.cpp:7917 src/mapgen.cpp:7934
 #: data/json/mapgen/lab/lab_modular/lab_nests_modular/lab_nested_security.json
 msgid "Log Console"
 msgstr "履歴"
 
 #. ~ Interactive menu name in computer "Log Console" placed on map
-#: src/mapgen.cpp:7961 src/mapgen.cpp:7978
+#: src/mapgen.cpp:7918 src/mapgen.cpp:7935
 #: data/json/mapgen/lab/lab_modular/lab_nests_modular/lab_nested_security.json
 msgid "View Research Logs"
 msgstr "研究履歴を閲覧する"
 
 #. ~ Interactive menu name in computer "Log Console" placed on map
-#: src/mapgen.cpp:7962 src/mapgen.cpp:7979
+#: src/mapgen.cpp:7919 src/mapgen.cpp:7936
 #: data/json/mapgen/lab/lab_modular/lab_nests_modular/lab_nested_security.json
 msgid "Download Map Data"
 msgstr "マップデータをダウンロードする"
 
-#: src/mapgen.cpp:8535
+#: src/mapgen.cpp:8492
 msgid "invalid position (not vehicle/appliance)"
 msgstr "無効な位置(車両/設備ではない原因)"
 
@@ -37959,7 +37959,7 @@ msgstr ""
 " \n"
 
 #: src/medical_ui.cpp:550 src/newcharacter.cpp:1464
-#: src/player_display.cpp:1594 src/veh_interact.cpp:2830
+#: src/player_display.cpp:1594 src/veh_interact.cpp:2831
 msgid "Strength"
 msgstr "筋力"
 
@@ -42213,7 +42213,7 @@ msgstr "恐ろしいスケルトンが起き上がりました！"
 msgid "DOOT."
 msgstr "プェッ。"
 
-#: src/mondeath.cpp:54 src/monstergenerator.cpp:1835
+#: src/mondeath.cpp:54 src/monstergenerator.cpp:1875
 #, c-format
 msgid "The %s dies!"
 msgstr "%sは死にました！"
@@ -42719,65 +42719,65 @@ msgid ""
 "needs immediate care.\""
 msgstr "[柔和な機械音声]「オートドクから離れてください。この患者は直ちに治療を受ける必要があります」"
 
-#: src/monmove.cpp:1985
+#: src/monmove.cpp:1986
 #, c-format
 msgid "A %1$s flies over the %2$s!"
 msgstr "%1$sは%2$sを飛び越えました！"
 
 #. ~ Message when a monster emerges from water
 #. ~ %1$s: monster name, %2$s: leaps/emerges, %3$s: terrain name
-#: src/monmove.cpp:1993
+#: src/monmove.cpp:1994
 #, c-format
 msgctxt "monster movement"
 msgid "A %1$s %2$s from the %3$s!"
 msgstr "%1$sは%3$sから%2$s！"
 
-#: src/monmove.cpp:1995
+#: src/monmove.cpp:1996
 msgid "emerges"
 msgstr "出てきました"
 
-#: src/monmove.cpp:1995
+#: src/monmove.cpp:1996
 msgid "leaps"
 msgstr "飛び出しました"
 
 #. ~ Message when a monster enters water
 #. ~ %1$s: monster name, %2$s: dives/sinks, %3$s: terrain name
-#: src/monmove.cpp:2000
+#: src/monmove.cpp:2001
 #, c-format
 msgctxt "monster movement"
 msgid "A %1$s %2$s into the %3$s!"
 msgstr "%1$sは%3$sに%2$s！"
 
-#: src/monmove.cpp:2002
+#: src/monmove.cpp:2003
 msgid "dives"
 msgstr "潜りました"
 
-#: src/monmove.cpp:2002
+#: src/monmove.cpp:2003
 msgid "sinks"
 msgstr "沈みました"
 
-#: src/monmove.cpp:2265
+#: src/monmove.cpp:2266
 #, c-format
 msgid "The %1$s tramples %2$s."
 msgstr "%1$sは%2$sを押しのけました。"
 
-#: src/monmove.cpp:2360
+#: src/monmove.cpp:2361
 #, c-format
 msgid "The %1$s bounces off a %2$s!"
 msgstr "%1$sは%2$sに弾かれました！"
 
-#: src/monmove.cpp:2372
+#: src/monmove.cpp:2373
 #, c-format
 msgid "The %1$s bounces off %2$s!"
 msgstr "%1$sは%2$sに弾かれました！"
 
-#: src/monmove.cpp:2395
+#: src/monmove.cpp:2396
 #, c-format
 msgid "The %1$s bounces off a %2$s and takes %3$d damage."
 msgstr "%1$sは%2$sにぶつかって%3$dダメージを受けました。"
 
 #. ~ %1$s - monster name, %2$s - vehicle name
-#: src/monmove.cpp:2530
+#: src/monmove.cpp:2531
 #, c-format
 msgid "%1$s shoves %2$s out of their way!"
 msgstr "%1$sは邪魔な%2$sを押し退けました！"
@@ -43141,84 +43141,84 @@ msgstr "<color_red>(産卵なし)</color>"
 msgid "Lifespan end time: %1$d (turns left %2$d)"
 msgstr "消滅: %1$d (残り%2$dターン)"
 
-#: src/monster.cpp:1653
+#: src/monster.cpp:1663
 #, c-format
 msgid "%1$s saw the %2$s being stolen!"
 msgstr "%1$sは%2$sの盗難を目撃しました！"
 
-#: src/monster.cpp:2204
+#: src/monster.cpp:2234
 #, c-format
 msgid "%s misses you."
 msgstr "%sの攻撃は外れました。"
 
-#: src/monster.cpp:2206
+#: src/monster.cpp:2236
 #, c-format
 msgid "You dodge %s."
 msgstr "%sの攻撃を回避しました。"
 
-#: src/monster.cpp:2206 src/monster.cpp:2214
+#: src/monster.cpp:2236 src/monster.cpp:2244
 msgid "something"
 msgstr "何か"
 
-#: src/monster.cpp:2210
+#: src/monster.cpp:2240
 #, c-format
 msgid "%1$s misses %2$s!"
 msgstr "%1$sの%2$sへの攻撃は外れました！"
 
-#: src/monster.cpp:2213
+#: src/monster.cpp:2243
 #, c-format
 msgid "%1$s dodges %2$s attack."
 msgstr "%1$sは%2$sの攻撃を回避しました。"
 
-#: src/monster.cpp:2218
+#: src/monster.cpp:2248
 msgid "You dodge an attack from an unseen source."
 msgstr "目に見えない相手からの攻撃を回避しました。"
 
 #. ~ 1$s is attacker name, 2$s is bodypart name in accusative.
-#: src/monster.cpp:2231
+#: src/monster.cpp:2261
 #, c-format
 msgid "%1$s hits your %2$s."
 msgstr "%1$sは%2$sを攻撃しました。"
 
 #. ~ %1$s: name of your mount, %2$s: target NPC name, %3$d: damage value
 #. ~ %1$s: name of your mount, %2$s: target creature name, %3$d: damage value
-#: src/monster.cpp:2237 src/monster.cpp:2249
+#: src/monster.cpp:2267 src/monster.cpp:2279
 #, c-format
 msgid "Your %1$s hits %2$s for %3$d damage!"
 msgstr "%1$sが%2$sに命中して%3$dのダメージを与えました！"
 
 #. ~ %1$s: attacker name, %2$s: target NPC name, %3$s: bodypart name in
 #. accusative
-#: src/monster.cpp:2241
+#: src/monster.cpp:2271
 #, c-format
 msgid "%1$s hits %2$s %3$s."
 msgstr "%1$sは%2$sの%3$sを攻撃しました。"
 
-#: src/monster.cpp:2254
+#: src/monster.cpp:2284
 #, c-format
 msgid "Something hits the %1$s!"
 msgstr "何かが%1$sを攻撃しました！"
 
-#: src/monster.cpp:2256
+#: src/monster.cpp:2286
 #, c-format
 msgid "The %1$s hits something!"
 msgstr "%1$sは何かを攻撃しました！"
 
 #. ~ %1$s: attacker name, %2$s: target creature name
-#: src/monster.cpp:2259
+#: src/monster.cpp:2289
 #, c-format
 msgid "The %1$s hits %2$s!"
 msgstr "%1$sは%2$sを攻撃しました！"
 
 #. ~ %s is bodypart name in accusative.
-#: src/monster.cpp:2265
+#: src/monster.cpp:2295
 #, c-format
 msgid "Something hits your %s."
 msgstr "何かが%sを攻撃しました。"
 
 #. ~ 1$s is attacker name, 2$s is bodypart name in accusative, 3$s is armor
 #. name
-#: src/monster.cpp:2273
+#: src/monster.cpp:2303
 #, c-format
 msgid "%1$s hits your %2$s, but your %3$s protects you."
 msgstr "%1$sが%2$sを攻撃しましたが、%3$sに弾かれました。"
@@ -43227,173 +43227,173 @@ msgstr "%1$sが%2$sを攻撃しましたが、%3$sに弾かれました。"
 #. ~ $3s is target bodypart name in accusative, $4s is the monster target
 #. name,
 #. ~ 5$s is target armor name.
-#: src/monster.cpp:2280
+#: src/monster.cpp:2310
 #, c-format
 msgid "%1$s hits %2$s %3$s but is stopped by %4$s %5$s."
 msgstr "%1$sが%2$sの%3$sを攻撃しましたが、%4$sの%5$sに弾かれました。"
 
 #. ~ $1s is monster name, %2$s is that monster target name,
 #. ~ $3s is target armor name.
-#: src/monster.cpp:2289
+#: src/monster.cpp:2319
 #, c-format
 msgid "%1$s hits %2$s but is stopped by its %3$s."
 msgstr "%1$sが%2$sを攻撃しましたが、%3$sに阻まれました。"
 
 #. ~ 1$s is bodypart name in accusative, 2$s is armor name.
-#: src/monster.cpp:2296
+#: src/monster.cpp:2326
 #, c-format
 msgid "Something hits your %1$s, but your %2$s protects you."
 msgstr "何かが%1$sを攻撃しましたが、%2$sに弾かれました。"
 
-#: src/monster.cpp:2332
+#: src/monster.cpp:2362
 msgid "You're envenomed!"
 msgstr "毒を注入されました！"
 
-#: src/monster.cpp:2338
+#: src/monster.cpp:2368
 msgid "You feel venom flood your body, wracking you with pain…"
 msgstr "毒液が激痛を伴って身体を蝕んでいます..."
 
-#: src/monster.cpp:2343
+#: src/monster.cpp:2373
 msgid "You feel venom enter your body!"
 msgstr "体内に毒を注入されたようです！"
 
-#: src/monster.cpp:2490
+#: src/monster.cpp:2520
 #, c-format
 msgid "The %s struggles to break free of its bonds."
 msgstr "%sは拘束から抜け出そうと暴れています。"
 
-#: src/monster.cpp:2496
+#: src/monster.cpp:2526
 #, c-format
 msgid "The %s easily slips out of its bonds."
 msgstr "%sはするりと拘束を抜け出してしまいました。"
 
-#: src/monster.cpp:2511
+#: src/monster.cpp:2541
 #, c-format
 msgid "The %s snaps the bindings holding it down."
 msgstr "%sは拘束を引きちぎりました。"
 
-#: src/monster.cpp:2513
+#: src/monster.cpp:2543
 #, c-format
 msgid "The %s breaks free of the bindings holding it down."
 msgstr "%sは拘束から抜け出しました。"
 
-#: src/monster.cpp:2524
+#: src/monster.cpp:2554
 #, c-format
 msgid "The %s struggles to stand."
 msgstr "%sは起き上がろうともがきました。"
 
-#: src/monster.cpp:2528
+#: src/monster.cpp:2558
 #, c-format
 msgid "The %s climbs to its feet!"
 msgstr "%sがよろよろと起き上がりました！"
 
-#: src/monster.cpp:2581
+#: src/monster.cpp:2611
 #, c-format
 msgid "The %s frees itself from the rubble!"
 msgstr "%sは瓦礫をどけて、自由になりました！"
 
-#: src/monster.cpp:2597
+#: src/monster.cpp:2627
 #, c-format
 msgid "The %s escapes the pit!"
 msgstr "%sは穴から脱出しました！"
 
-#: src/monster.cpp:2628
+#: src/monster.cpp:2658
 #, c-format
 msgid "The %s is no longer grabbed!"
 msgstr "%sは拘束から解放されました！"
 
-#: src/monster.cpp:2640
+#: src/monster.cpp:2670
 #, c-format
 msgid "The %s breaks free from the %s's grab!"
 msgstr "%sは%sの拘束から解放されました！"
 
-#: src/monster.cpp:2961
+#: src/monster.cpp:2991
 msgid "hummmmm."
 msgstr "ヴヴヴヴヴヴ..."
 
-#: src/monster.cpp:2971
+#: src/monster.cpp:3001
 msgid "fwoosh!"
 msgstr "ボッ！"
 
-#: src/monster.cpp:2982
+#: src/monster.cpp:3012
 #, c-format
 msgid "The %s explodes in a fiery inferno!"
 msgstr "%sが爆発し、炎を噴き上げました！"
 
-#: src/monster.cpp:2985
+#: src/monster.cpp:3015
 #, c-format
 msgid "Lightning from %1$s engulfs the %2$s!"
 msgstr "%1$sから放たれた電撃に%2$sが飲み込まれました！"
 
-#: src/monster.cpp:2994
+#: src/monster.cpp:3024
 msgid "BOOOOOOOM!!!"
 msgstr "ドゴォォォォン！！！"
 
-#: src/monster.cpp:2996
+#: src/monster.cpp:3026
 msgid "vrrrRRRUUMMMMMMMM!"
 msgstr "ヴヴヴヴヴヴヴヴヴゥン！"
 
-#: src/monster.cpp:3001
+#: src/monster.cpp:3031
 #, c-format
 msgid "Lightning strikes the %s!"
 msgstr "落雷が%sに命中しました！"
 
-#: src/monster.cpp:3002
+#: src/monster.cpp:3032
 msgid "Your vision goes white!"
 msgstr "目の前が真っ白になりました！"
 
-#: src/monster.cpp:3007
+#: src/monster.cpp:3037
 msgid "VMMMMMMMMM!"
 msgstr "ヴヴヴヴヴヴヴヴ！"
 
-#: src/monster.cpp:3069
+#: src/monster.cpp:3099
 msgid "The last enemy holding you collapses!"
 msgstr "あなたを拘束していた敵が崩れ落ちました！"
 
-#: src/monster.cpp:3070
+#: src/monster.cpp:3100
 msgid "The last enemy holding <npcname> collapses!"
 msgstr "<npcname>を拘束していた敵が崩れ落ちました！"
 
-#: src/monster.cpp:3266
+#: src/monster.cpp:3296
 #, c-format
 msgid "Your %s emits a beeping noise as its batteries start to get low."
 msgstr "%sはバッテリー残量が少なくなり、ビーッという警告音を発しました。"
 
-#: src/monster.cpp:3527
+#: src/monster.cpp:3557
 #, c-format
 msgid "The %s is visibly regenerating!"
 msgstr "%sの傷が瞬く間に再生しています！"
 
-#: src/monster.cpp:3529
+#: src/monster.cpp:3559
 #, c-format
 msgid "The %s seems a little healthier."
 msgstr "%sは少し回復したようです。"
 
-#: src/monster.cpp:3531
+#: src/monster.cpp:3561
 #, c-format
 msgid "The %s is healing slowly."
 msgstr "%sはゆっくりと傷を回復しています。"
 
-#: src/monster.cpp:3541
+#: src/monster.cpp:3571
 #, c-format
 msgid "The %s uses the darkness to regenerate."
 msgstr "%sは暗所で回復しています。"
 
-#: src/monster.cpp:3608
+#: src/monster.cpp:3638
 msgid "The shadow withers in the light!"
 msgstr "光に照らされて影は消滅しました！"
 
-#: src/monster.cpp:3614
+#: src/monster.cpp:3644
 #, c-format
 msgid "The %s burns horribly in the sunlight!"
 msgstr "%sは日光によって全身が燃え始めました！"
 
-#: src/monster.cpp:3652
+#: src/monster.cpp:3682
 #, c-format
 msgid "The spores transform %1$s into a %2$s!"
 msgstr "胞子が%1$sを%2$sに変異させました！"
 
-#: src/monstergenerator.cpp:1298 src/mtype.cpp:529
+#: src/monstergenerator.cpp:1338 src/mtype.cpp:529
 msgid "footsteps."
 msgstr "[足音]"
 
@@ -52541,7 +52541,7 @@ msgstr "必要な道具: "
 
 #. ~ %1$s represents the internal color name which shouldn't be translated,
 #. %2$s is the word "NONE"
-#: src/requirements.cpp:850 src/veh_interact.cpp:380
+#: src/requirements.cpp:850 src/veh_interact.cpp:381
 msgid "NONE"
 msgstr "なし"
 
@@ -54747,98 +54747,98 @@ msgstr " / 配線を統合する"
 msgid "Remove other cables first"
 msgstr "他のケーブルを先に取り外す必要がある"
 
-#: src/veh_interact.cpp:213
+#: src/veh_interact.cpp:214
 #, c-format
 msgid ""
 "Press space, choose a facing direction for the new %s and confirm with "
 "enter."
 msgstr "スペースを押し、方向キーで%sの向きを選びEnterキーを押して確定してください。"
 
-#: src/veh_interact.cpp:260
+#: src/veh_interact.cpp:261
 msgid "Select part"
 msgstr "部品選択"
 
-#: src/veh_interact.cpp:365
+#: src/veh_interact.cpp:366
 msgid "<color_white>Time required:</color>\n"
 msgstr "<color_white>所要時間:</color>\n"
 
-#: src/veh_interact.cpp:368
+#: src/veh_interact.cpp:369
 msgid "<color_white>Skills required:</color>\n"
 msgstr "<color_white>必要スキル:</color>\n"
 
 #. ~ %1$s represents the internal color name which shouldn't be translated,
 #. %2$s is skill name, and %3$i is skill level
-#: src/veh_interact.cpp:375
+#: src/veh_interact.cpp:376
 #, c-format
 msgid "> %1$s%2$s %3$i</color>\n"
 msgstr "> %1$s%2$s %3$i</color>\n"
 
-#: src/veh_interact.cpp:544
+#: src/veh_interact.cpp:545
 #, c-format
 msgid "You cannot rename this vehicle as it is owned by: %s."
 msgstr "この車両の所有者は%sであるため、名称を変更できません。"
 
-#: src/veh_interact.cpp:569
+#: src/veh_interact.cpp:570
 #, c-format
 msgid "You cannot assign crew on this vehicle as it is owned by: %s."
 msgstr "この車両の所有者は%sであるため、乗員を割り当てられません。"
 
-#: src/veh_interact.cpp:578
+#: src/veh_interact.cpp:579
 #, c-format
 msgid "You cannot relabel this vehicle as it is owned by: %s."
 msgstr "この車両の所有者は%sであるため、ラベル付けできません。"
 
-#: src/veh_interact.cpp:800
+#: src/veh_interact.cpp:801
 msgid "Unracking is required before installing any parts here."
 msgstr "ここに部品を取り付けるには、ラックから車両を降ろす必要があります。"
 
 #. ~ %1$s is fuel_type
-#: src/veh_interact.cpp:806
+#: src/veh_interact.cpp:807
 #, c-format
 msgid "Only one %1$s powered engine can be installed."
 msgstr "%1$sを動力とするエンジンは1台しか取り付けられません。"
 
-#: src/veh_interact.cpp:810 src/veh_interact.cpp:1755
+#: src/veh_interact.cpp:811 src/veh_interact.cpp:1756
 msgid "This vehicle cannot be modified in this way.\n"
 msgstr "この車両はこの方法では改造できません。\n"
 
-#: src/veh_interact.cpp:813
+#: src/veh_interact.cpp:814
 msgid "This part cannot be installed.\n"
 msgstr "この部品は取り付けられません。\n"
 
-#: src/veh_interact.cpp:821
+#: src/veh_interact.cpp:822
 msgid "Funnels need to be installed over a tank."
 msgstr "漏斗はタンクの上に設置する必要があります。"
 
-#: src/veh_interact.cpp:830
+#: src/veh_interact.cpp:831
 msgid "Can't install turret on another turret."
 msgstr "複数のタレットを同じ位置に重ねて取り付けることはできません。"
 
-#: src/veh_interact.cpp:873 src/veh_interact.cpp:1181
-#: src/veh_interact.cpp:1787
+#: src/veh_interact.cpp:874 src/veh_interact.cpp:1182
+#: src/veh_interact.cpp:1788
 msgid "<color_white>Additional requirements:</color>\n"
 msgstr "<color_white>追加要件:</color>\n"
 
 #. ~ %1$s represents the internal color name which shouldn't be translated,
 #. %2$s is skill name, and %3$i is skill level
-#: src/veh_interact.cpp:883
+#: src/veh_interact.cpp:884
 #, c-format
 msgid "> %1$s%2$s %3$i</color> for extra engines."
 msgstr "> %1$s%2$s %3$i</color> でエンジン追加"
 
-#: src/veh_interact.cpp:887
+#: src/veh_interact.cpp:888
 msgid ""
 "> <color_red>You cannot install any more engines on this vehicle.</color>"
 msgstr "> <color_red>この車両にはこれ以上エンジンを取り付けられません。</color>"
 
 #. ~ %1$s represents the internal color name which shouldn't be translated,
 #. %2$s is skill name, and %3$i is skill level
-#: src/veh_interact.cpp:897
+#: src/veh_interact.cpp:898
 #, c-format
 msgid "> %1$s%2$s %3$i</color> for extra steering axles."
 msgstr "> %1$s%2$s %3$i</color>で車軸追加"
 
-#: src/veh_interact.cpp:911
+#: src/veh_interact.cpp:912
 msgid ""
 "<color_white>Cannot install due to:</color>\n"
 "> "
@@ -54846,58 +54846,58 @@ msgstr ""
 "<color_white>取付不可:</color>\n"
 "> "
 
-#: src/veh_interact.cpp:973
+#: src/veh_interact.cpp:974
 msgid "Cannot install any part here."
 msgstr "ここには部品を取り付けられません。"
 
-#: src/veh_interact.cpp:978
+#: src/veh_interact.cpp:979
 msgid "Choose new part to install here:"
 msgstr "取り付ける部品を選択: "
 
-#: src/veh_interact.cpp:1029
+#: src/veh_interact.cpp:1030
 msgid "Search for part"
 msgstr "部品検索"
 
-#: src/veh_interact.cpp:1046 src/veh_interact.cpp:1860
+#: src/veh_interact.cpp:1047 src/veh_interact.cpp:1861
 msgid "Your morale is too low to construct…"
 msgstr "建設する意欲が湧きません..."
 
-#: src/veh_interact.cpp:1049 src/veh_interact.cpp:1139
-#: src/veh_interact.cpp:1268 src/veh_interact.cpp:1863
+#: src/veh_interact.cpp:1050 src/veh_interact.cpp:1140
+#: src/veh_interact.cpp:1269 src/veh_interact.cpp:1864
 msgid "It's too dark to see what you are doing…"
 msgstr "暗すぎて見えません..."
 
-#: src/veh_interact.cpp:1052
+#: src/veh_interact.cpp:1053
 msgid "You can't install parts while driving."
 msgstr "運転中は部品を取り付けられません。"
 
-#: src/veh_interact.cpp:1062
+#: src/veh_interact.cpp:1063
 msgid ""
 "Installing this part will mean that this vehicle is no longer flightworthy."
 "  Continue?"
 msgstr "この部品を取り付けると、車両が飛行できなくなります。続けますか？"
 
-#: src/veh_interact.cpp:1070
+#: src/veh_interact.cpp:1071
 msgid "Installing this part will make the vehicle unfoldable.  Continue?"
 msgstr "この部品を取り付けると、車両が折り畳めなくなります。続けますか？"
 
-#: src/veh_interact.cpp:1136
+#: src/veh_interact.cpp:1137
 msgid "Your morale is too low to repair…"
 msgstr "修復する意欲が湧きません..."
 
-#: src/veh_interact.cpp:1142
+#: src/veh_interact.cpp:1143
 msgid "You can't repair stuff while driving."
 msgstr "運転中は修復できません。"
 
-#: src/veh_interact.cpp:1145
+#: src/veh_interact.cpp:1146
 msgid "There are no damaged parts on this vehicle."
 msgstr "この車両には損傷している部品がありません。"
 
-#: src/veh_interact.cpp:1158
+#: src/veh_interact.cpp:1159
 msgid "Choose a part here to repair:"
 msgstr "修復する部品を選択: "
 
-#: src/veh_interact.cpp:1189
+#: src/veh_interact.cpp:1190
 msgid ""
 "\n"
 "Unracking is required before replacing this part.\n"
@@ -54905,15 +54905,15 @@ msgstr ""
 "\n"
 "この部品を取り外す前に、ラックから車両を降ろす必要があります。\n"
 
-#: src/veh_interact.cpp:1196
+#: src/veh_interact.cpp:1197
 msgid "This part cannot be repaired.\n"
 msgstr "この部品は修復できません。\n"
 
-#: src/veh_interact.cpp:1199
+#: src/veh_interact.cpp:1200
 msgid "This vehicle cannot be repaired.\n"
 msgstr "この車両は修復できません。\n"
 
-#: src/veh_interact.cpp:1212
+#: src/veh_interact.cpp:1213
 #, c-format
 msgid ""
 "\n"
@@ -54924,124 +54924,124 @@ msgstr ""
 "<color_yellow>この部品を確実に修理するには、「%s」の熟練が必要です！</color>\n"
 "\n"
 
-#: src/veh_interact.cpp:1232
+#: src/veh_interact.cpp:1233
 msgid ""
 "Repairing this part will mean that this vehicle is no longer flightworthy.  "
 "Continue?"
 msgstr "この部品を修復すると、車両が飛行できなくなります。続けますか？"
 
-#: src/veh_interact.cpp:1235
+#: src/veh_interact.cpp:1236
 msgid "You chose not to install this part to keep the vehicle flyable.\n"
 msgstr "部品の取り付けを中止しました。車両は飛行可能です。\n"
 
-#: src/veh_interact.cpp:1265
+#: src/veh_interact.cpp:1266
 msgid "Your morale is too low to mend…"
 msgstr "修理する意欲が湧きません..."
 
-#: src/veh_interact.cpp:1271
+#: src/veh_interact.cpp:1272
 msgid "No faulty parts require mending."
 msgstr "修理が必要な部品がありません。"
 
-#: src/veh_interact.cpp:1274
+#: src/veh_interact.cpp:1275
 msgid "You can't mend stuff while driving."
 msgstr "運転中は修理できません。"
 
-#: src/veh_interact.cpp:1281
+#: src/veh_interact.cpp:1282
 msgid "Choose a part here to mend:"
 msgstr "修理する部品を選択: "
 
-#: src/veh_interact.cpp:1305
+#: src/veh_interact.cpp:1306
 msgid "You can't refill a moving vehicle."
 msgstr "動いている車両には補充できません。"
 
-#: src/veh_interact.cpp:1309
+#: src/veh_interact.cpp:1310
 msgid "No parts can currently be refilled."
 msgstr "現在はアイテムを補充できません。"
 
-#: src/veh_interact.cpp:1317
+#: src/veh_interact.cpp:1318
 msgid "Select part to refill:"
 msgstr "補充する部品を選択: "
 
-#: src/veh_interact.cpp:1367
+#: src/veh_interact.cpp:1368
 #, c-format
 msgid "Engines: %sSafe %4d kW</color> %sMax %4d kW</color>"
 msgstr "エンジン: %s安全 %4d kW</color> %s最高 %4d kW</color>"
 
-#: src/veh_interact.cpp:1370
+#: src/veh_interact.cpp:1371
 msgid "Fuel     Use"
 msgstr "燃料     使用"
 
-#: src/veh_interact.cpp:1373
+#: src/veh_interact.cpp:1374
 msgid "Tanks"
 msgstr "タンク"
 
-#: src/veh_interact.cpp:1374 src/veh_interact.cpp:1401
+#: src/veh_interact.cpp:1375 src/veh_interact.cpp:1402
 msgid "Contents     Qty"
 msgstr "内容     装填量"
 
-#: src/veh_interact.cpp:1379
+#: src/veh_interact.cpp:1380
 #, c-format
 msgid "Batteries: %s%+4d W</color>"
 msgstr "バッテリー: %s%+4d W</color>"
 
-#: src/veh_interact.cpp:1382
+#: src/veh_interact.cpp:1383
 #, c-format
 msgid "Batteries: %s%+4.1f kW</color>"
 msgstr "バッテリー: %s%+4.1f kW</color>"
 
-#: src/veh_interact.cpp:1386
+#: src/veh_interact.cpp:1387
 msgid "Capacity  Status"
 msgstr "最大容量  残量"
 
-#: src/veh_interact.cpp:1392
+#: src/veh_interact.cpp:1393
 msgid "Reactors"
 msgstr "反応炉"
 
-#: src/veh_interact.cpp:1394
+#: src/veh_interact.cpp:1395
 #, c-format
 msgid "Reactors: Up to %s%+4d W</color>"
 msgstr "反応炉: 最高%s%+4d W</color>"
 
-#: src/veh_interact.cpp:1397
+#: src/veh_interact.cpp:1398
 #, c-format
 msgid "Reactors: Up to %s%+4.1f kW</color>"
 msgstr "反応炉: 最高%s%+4.1f kW</color>"
 
-#: src/veh_interact.cpp:1404
+#: src/veh_interact.cpp:1405
 msgid "Turrets"
 msgstr "タレット"
 
-#: src/veh_interact.cpp:1405
+#: src/veh_interact.cpp:1406
 msgid "Ammo     Qty"
 msgstr "弾数     充填量"
 
-#: src/veh_interact.cpp:1408
+#: src/veh_interact.cpp:1409
 msgid "Seats"
 msgstr "座席"
 
-#: src/veh_interact.cpp:1409
+#: src/veh_interact.cpp:1410
 msgid "Who"
 msgstr "乗員"
 
-#: src/veh_interact.cpp:1585
+#: src/veh_interact.cpp:1586
 msgid "'{' to scroll up"
 msgstr "'{'で上スクロール"
 
-#: src/veh_interact.cpp:1622
+#: src/veh_interact.cpp:1623
 msgid "'}' to scroll down"
 msgstr "'}'で下スクロール"
 
-#: src/veh_interact.cpp:1758
+#: src/veh_interact.cpp:1759
 msgid "This part cannot be uninstalled.\n"
 msgstr "この部品は取り外せません。\n"
 
-#: src/veh_interact.cpp:1764
+#: src/veh_interact.cpp:1765
 #, c-format
 msgid ""
 "<color_white>Removing the broken %1$s may yield some fragments.</color>\n"
 msgstr "<color_white>故障した%1$s取り外しで得られるアイテム予測: 各種素材片</color>\n"
 
-#: src/veh_interact.cpp:1771
+#: src/veh_interact.cpp:1772
 #, c-format
 msgid ""
 "<color_white>Removing the %1$s may yield:</color>\n"
@@ -55050,7 +55050,7 @@ msgstr ""
 "<color_white>%1$s取り外しで得られるアイテム予測:</color>\n"
 "> %2$s\n"
 
-#: src/veh_interact.cpp:1776
+#: src/veh_interact.cpp:1777
 #, c-format
 msgid ""
 "<color_white>Removing the %1$s will yield:</color>\n"
@@ -55061,179 +55061,179 @@ msgstr ""
 
 #. ~ %1$s represents the internal color name which shouldn't be translated,
 #. %2$s is pre-translated reason
-#: src/veh_interact.cpp:1798
+#: src/veh_interact.cpp:1799
 #, c-format
 msgid "> %1$s%2$s</color>"
 msgstr "> %1$s%2$s</color>"
 
-#: src/veh_interact.cpp:1813
+#: src/veh_interact.cpp:1814
 msgid "No parts here."
 msgstr "部品がありません。"
 
-#: src/veh_interact.cpp:1818
+#: src/veh_interact.cpp:1819
 msgid "Choose a part here to remove:"
 msgstr "取り外す部品を選択: "
 
-#: src/veh_interact.cpp:1866
+#: src/veh_interact.cpp:1867
 msgid "You cannot remove that part while something is attached to it."
 msgstr "他の部品が邪魔で、この部品を取り外せません。"
 
-#: src/veh_interact.cpp:1869
+#: src/veh_interact.cpp:1870
 msgid "Better not remove something while driving."
 msgstr "運転中に部品を取り外すべきではありません。"
 
-#: src/veh_interact.cpp:1879
+#: src/veh_interact.cpp:1880
 msgid ""
 "Removing this part will mean that this vehicle is no longer flightworthy.  "
 "Continue?"
 msgstr "この部品を取り外すと、車両が飛行できなくなります。続けますか？"
 
-#: src/veh_interact.cpp:1902 src/veh_interact.cpp:2965
+#: src/veh_interact.cpp:1903 src/veh_interact.cpp:2966
 msgid "The vehicle has no liquid fuel left to siphon."
 msgstr "車両には抜き取れる液体燃料が残っていません。"
 
-#: src/veh_interact.cpp:1906
+#: src/veh_interact.cpp:1907
 msgid "You need a <color_red>hose</color> to siphon liquid fuel."
 msgstr "液体燃料を抜き取るには<color_red>ゴムホース</color>が必要です。"
 
-#: src/veh_interact.cpp:1910
+#: src/veh_interact.cpp:1911
 msgid "You can't siphon from a moving vehicle."
 msgstr "動いている車両からは抜き取れません。"
 
-#: src/veh_interact.cpp:1918
+#: src/veh_interact.cpp:1919
 msgid "Select part to siphon:"
 msgstr "内容物を抜き取る部品を選択: "
 
-#: src/veh_interact.cpp:1947 src/veh_interact.cpp:2999
+#: src/veh_interact.cpp:1948 src/veh_interact.cpp:3000
 msgid "The vehicle has no solid fuel left to remove."
 msgstr "車両には抜き取れる固体燃料が入っていません。"
 
-#: src/veh_interact.cpp:1951
+#: src/veh_interact.cpp:1952
 msgid "You can't unload from a moving vehicle."
 msgstr "動いている車両からは取り出せません。"
 
-#: src/veh_interact.cpp:1966 src/veh_shape.cpp:151
+#: src/veh_interact.cpp:1967 src/veh_shape.cpp:151
 msgid "Choose cosmetic variant:"
 msgstr "外観バリエーションを選択:"
 
-#: src/veh_interact.cpp:2003
+#: src/veh_interact.cpp:2004
 msgid "Need at least one seat and an ally to assign crew members."
 msgstr "少なくとも1箇所の座席と1人の友好的な乗員が必要です。"
 
-#: src/veh_interact.cpp:2008
+#: src/veh_interact.cpp:2009
 msgid "Assign crew positions:"
 msgstr "乗員の位置: "
 
-#: src/veh_interact.cpp:2016
+#: src/veh_interact.cpp:2017
 msgid "Select crew member"
 msgstr "乗員を選択"
 
-#: src/veh_interact.cpp:2019
+#: src/veh_interact.cpp:2020
 msgid "Clear assignment"
 msgstr "キー割当解除"
 
-#: src/veh_interact.cpp:2057
+#: src/veh_interact.cpp:2058
 msgid "There are no parts here to label."
 msgstr "ラベルを追加する部品がありません。"
 
-#: src/veh_interact.cpp:2064
+#: src/veh_interact.cpp:2065
 msgid "New label:"
 msgstr "新しいラベル: "
 
-#: src/veh_interact.cpp:2088
+#: src/veh_interact.cpp:2089
 msgid ""
 "<color_red>Unsuitable terrain</color> for working on part that requires "
 "jacking."
 msgstr "持ち上げが必要な作業に<color_red>不向きな地形</color>です。"
 
-#: src/veh_interact.cpp:2122
+#: src/veh_interact.cpp:2123
 #, c-format
 msgid "(Strong Back helped, giving +%d strength)"
 msgstr "(特質: 丈夫な足腰 筋力+%d)"
 
-#: src/veh_interact.cpp:2126
+#: src/veh_interact.cpp:2127
 #, c-format
 msgid "(Bad Back reduced usable strength by %d)"
 msgstr "(特質: 腰痛持ち 筋力-%d)"
 
-#: src/veh_interact.cpp:2131
+#: src/veh_interact.cpp:2132
 #, c-format
 msgid "(Effective lifting strength is %d)"
 msgstr "(現在の有効持上げ筋力 %d)"
 
 #. ~ %1$s is quality name, %2$d is quality level
-#: src/veh_interact.cpp:2138
+#: src/veh_interact.cpp:2139
 #, c-format
 msgid "1 tool with %1$s %2$d"
 msgstr "%1$s%2$dの道具"
 
-#: src/veh_interact.cpp:2143
+#: src/veh_interact.cpp:2144
 #, c-format
 msgid "strength ( assisted ) %d %s"
 msgstr "筋力(支援)%d%s"
 
-#: src/veh_interact.cpp:2145
+#: src/veh_interact.cpp:2146
 #, c-format
 msgid "strength %d %s"
 msgstr "筋力%d%s"
 
-#: src/veh_interact.cpp:2148
+#: src/veh_interact.cpp:2149
 #, c-format
 msgid "> %1$s <color_white>OR</color> %2$s"
 msgstr "> %1$s <color_white>か</color> %2$s"
 
-#: src/veh_interact.cpp:2384
+#: src/veh_interact.cpp:2385
 msgid "<color_light_red>disabled</color>"
 msgstr "<color_light_red>使用不可</color>"
 
-#: src/veh_interact.cpp:2386
+#: src/veh_interact.cpp:2387
 msgid "<color_light_red>lack</color>"
 msgstr "<color_light_red>不足</color>"
 
-#: src/veh_interact.cpp:2388
+#: src/veh_interact.cpp:2389
 msgid "<color_light_red>unbalanced</color>"
 msgstr "<color_light_red>不安定</color>"
 
-#: src/veh_interact.cpp:2390
+#: src/veh_interact.cpp:2391
 msgid "<color_light_red>no steering</color>"
 msgstr "<color_light_red>転舵輪不足</color>"
 
-#: src/veh_interact.cpp:2392
+#: src/veh_interact.cpp:2393
 msgid "<color_light_red>broken steering</color>"
 msgstr "<color_light_red>転舵輪破損</color>"
 
-#: src/veh_interact.cpp:2394
+#: src/veh_interact.cpp:2395
 msgid "<color_light_red>poor steering</color>"
 msgstr "<color_light_red>転舵輪劣化</color>"
 
-#: src/veh_interact.cpp:2396
+#: src/veh_interact.cpp:2397
 msgid "<color_light_green>enough</color>"
 msgstr "<color_light_green>十分</color>"
 
-#: src/veh_interact.cpp:2401
+#: src/veh_interact.cpp:2402
 msgid "<color_light_red>sinks</color>"
 msgstr "<color_light_red>沈降</color>"
 
-#: src/veh_interact.cpp:2403
+#: src/veh_interact.cpp:2404
 msgid "<color_light_blue>floats</color>"
 msgstr "<color_light_blue>浮上</color>"
 
-#: src/veh_interact.cpp:2407
+#: src/veh_interact.cpp:2408
 #, c-format
 msgid "Wheels/boat: %s/%s"
 msgstr "車輪/ボート:       %s/%s"
 
-#: src/veh_interact.cpp:2411
+#: src/veh_interact.cpp:2412
 #, c-format
 msgid "Boat: %s"
 msgstr "ボート:              %s"
 
-#: src/veh_interact.cpp:2414
+#: src/veh_interact.cpp:2415
 #, c-format
 msgid "Wheels: %s"
 msgstr "車輪:              %s"
 
-#: src/veh_interact.cpp:2472
+#: src/veh_interact.cpp:2473
 #, c-format
 msgid ""
 "Air Safe/Top speed: "
@@ -55241,12 +55241,12 @@ msgid ""
 msgstr ""
 "速度(安全/最高): <color_light_green>%3d</color>/<color_light_red>%3d</color> %s"
 
-#: src/veh_interact.cpp:2478
+#: src/veh_interact.cpp:2479
 #, c-format
 msgid "Air acceleration: <color_light_blue>%3d</color> %s/s"
 msgstr "加速度: <color_light_blue>%3d</color> %s/s"
 
-#: src/veh_interact.cpp:2485
+#: src/veh_interact.cpp:2486
 #, c-format
 msgid ""
 "Safe/Top speed: <color_light_green>%3d</color>/<color_light_red>%3d</color> "
@@ -55256,12 +55256,12 @@ msgstr ""
 "%s"
 
 #. ~ /t means per turn
-#: src/veh_interact.cpp:2493
+#: src/veh_interact.cpp:2494
 #, c-format
 msgid "Acceleration: <color_light_blue>%3d</color> %s/s"
 msgstr "加速度: <color_light_blue>%3d</color> %s/s"
 
-#: src/veh_interact.cpp:2502
+#: src/veh_interact.cpp:2503
 #, c-format
 msgid ""
 "Water Safe/Top speed: "
@@ -55270,17 +55270,17 @@ msgstr ""
 "水上速度(安全/最高):<color_light_green>%3d</color>/<color_light_red>%3d</color>%s"
 
 #. ~ /t means per turn
-#: src/veh_interact.cpp:2510
+#: src/veh_interact.cpp:2511
 #, c-format
 msgid "Water acceleration: <color_light_blue>%3d</color> %s/s"
 msgstr "水上加速度: <color_light_blue>%3d</color> %s/s"
 
-#: src/veh_interact.cpp:2519
+#: src/veh_interact.cpp:2520
 #, c-format
 msgid "Mass: <color_light_blue>%5.0f</color> %s"
 msgstr "質量:              <color_light_blue>%5.0f</color> %s"
 
-#: src/veh_interact.cpp:2523
+#: src/veh_interact.cpp:2524
 #, c-format
 msgid ""
 "Cargo volume: <color_light_blue>%s</color> / <color_light_blue>%s</color> %s"
@@ -55288,201 +55288,201 @@ msgstr ""
 "積載量:              "
 "<color_light_blue>%s</color>/<color_light_blue>%s</color>%s"
 
-#: src/veh_interact.cpp:2524
+#: src/veh_interact.cpp:2525
 #, c-format
 msgid "Cargo: <color_light_blue>%s</color> / <color_light_blue>%s</color> %s"
 msgstr "積載: <color_light_blue>%s</color> / <color_light_blue>%s</color> %s"
 
-#: src/veh_interact.cpp:2561
+#: src/veh_interact.cpp:2562
 msgid "Most damaged:"
 msgstr "最大損傷: "
 
-#: src/veh_interact.cpp:2562
+#: src/veh_interact.cpp:2563
 msgid "Most damaged (can't repair):"
 msgstr "最大損傷(修復不可): "
 
-#: src/veh_interact.cpp:2570
+#: src/veh_interact.cpp:2571
 msgid "Needs repair:"
 msgstr "要修復:              "
 
-#: src/veh_interact.cpp:2577
+#: src/veh_interact.cpp:2578
 #, c-format
 msgid "Air drag:       <color_light_blue>%5.2f</color>"
 msgstr "空気抵抗:       <color_light_blue>%5.2f</color>"
 
-#: src/veh_interact.cpp:2583
+#: src/veh_interact.cpp:2584
 #, c-format
 msgid "Water drag:     <color_light_blue>%5.2f</color>"
 msgstr "流体抵抗:       <color_light_blue>%5.2f</color>"
 
-#: src/veh_interact.cpp:2590
+#: src/veh_interact.cpp:2591
 #, c-format
 msgid "Rolling drag:   <color_light_blue>%5.2f</color>"
 msgstr "転がり抵抗:     <color_light_blue>%5.2f</color>"
 
-#: src/veh_interact.cpp:2596
+#: src/veh_interact.cpp:2597
 #, c-format
 msgid "Static drag:    <color_light_blue>%5d</color>"
 msgstr "静止抵抗:       <color_light_blue>%5d</color>"
 
-#: src/veh_interact.cpp:2601
+#: src/veh_interact.cpp:2602
 #, c-format
 msgid "Offroad:        <color_light_blue>%4d</color>%%"
 msgstr "未舗装道:        <color_light_blue>%4d</color>%%"
 
-#: src/veh_interact.cpp:2610
+#: src/veh_interact.cpp:2611
 #, c-format
 msgid ""
 "Draft/Clearance:<color_light_blue>%4.2f</color>m/<color_light_blue>%4.2f</color>m"
 msgstr ""
 "喫水/余裕水深:<color_light_blue>%4.2f</color>m/<color_light_blue>%4.2f</color>m"
 
-#: src/veh_interact.cpp:2611
+#: src/veh_interact.cpp:2612
 #, c-format
 msgid ""
 "Draft/Clearance:<color_light_blue>%4.2f</color>m/<color_light_red>%4.2f</color>m"
 msgstr ""
 "喫水/余裕水深:<color_light_blue>%4.2f</color>m/<color_light_red>%4.2f</color>m"
 
-#: src/veh_interact.cpp:2633 src/veh_interact.cpp:2635
+#: src/veh_interact.cpp:2634 src/veh_interact.cpp:2636
 msgid "Name: "
 msgstr "名前:                "
 
-#: src/veh_interact.cpp:2645
+#: src/veh_interact.cpp:2646
 #, c-format
 msgctxt "keybinding"
 msgid "<color_light_gray>%1$s<color_light_green>%2$s</color>%3$s</color>"
 msgstr "<color_light_gray>%1$s<color_light_green>%2$s</color>%3$s</color>"
 
-#: src/veh_interact.cpp:2647
+#: src/veh_interact.cpp:2648
 #, c-format
 msgctxt "keybinding"
 msgid "<color_dark_gray>%1$s<color_green>%2$s</color>%3$s</color>"
 msgstr "<color_dark_gray>%1$s<color_green>%2$s</color>%3$s</color>"
 
-#: src/veh_interact.cpp:2649
+#: src/veh_interact.cpp:2650
 #, c-format
 msgctxt "keybinding"
 msgid "<color_light_gray><color_light_green>%1$s</color>-%2$s</color>"
 msgstr "<color_light_gray><color_light_green>%1$s</color>-%2$s</color>"
 
-#: src/veh_interact.cpp:2651
+#: src/veh_interact.cpp:2652
 #, c-format
 msgctxt "keybinding"
 msgid "<color_dark_gray><color_green>%1$s</color>-%2$s</color>"
 msgstr "<color_dark_gray><color_green>%1$s</color>-%2$s</color>"
 
-#: src/veh_interact.cpp:2676
+#: src/veh_interact.cpp:2677
 msgctxt "veh_interact"
 msgid "install"
 msgstr "取付"
 
-#: src/veh_interact.cpp:2679
+#: src/veh_interact.cpp:2680
 msgctxt "veh_interact"
 msgid "repair"
 msgstr "修復"
 
-#: src/veh_interact.cpp:2682
+#: src/veh_interact.cpp:2683
 msgctxt "veh_interact"
 msgid "mend"
 msgstr "修理"
 
-#: src/veh_interact.cpp:2685
+#: src/veh_interact.cpp:2686
 msgctxt "veh_interact"
 msgid "refill"
 msgstr "補充"
 
-#: src/veh_interact.cpp:2688
+#: src/veh_interact.cpp:2689
 msgctxt "veh_interact"
 msgid "remove"
 msgstr "取外"
 
-#: src/veh_interact.cpp:2691
+#: src/veh_interact.cpp:2692
 msgctxt "veh_interact"
 msgid "siphon"
 msgstr "液体抜取"
 
-#: src/veh_interact.cpp:2694
+#: src/veh_interact.cpp:2695
 msgctxt "veh_interact"
 msgid "unload"
 msgstr "抜取"
 
-#: src/veh_interact.cpp:2697
+#: src/veh_interact.cpp:2698
 msgctxt "veh_interact"
 msgid "crew"
 msgstr "乗員"
 
-#: src/veh_interact.cpp:2700
+#: src/veh_interact.cpp:2701
 msgctxt "veh_interact"
 msgid "shape"
 msgstr "形状"
 
-#: src/veh_interact.cpp:2703
+#: src/veh_interact.cpp:2704
 msgctxt "veh_interact"
 msgid "rename"
 msgstr "改名"
 
-#: src/veh_interact.cpp:2706
+#: src/veh_interact.cpp:2707
 msgctxt "veh_interact"
 msgid "label"
 msgstr "ラベル"
 
-#: src/veh_interact.cpp:2709
+#: src/veh_interact.cpp:2710
 msgctxt "veh_interact"
 msgid "back"
 msgstr "戻る"
 
-#: src/veh_interact.cpp:2798
+#: src/veh_interact.cpp:2799
 msgid "Dur"
 msgstr "耐久"
 
-#: src/veh_interact.cpp:2798
+#: src/veh_interact.cpp:2799
 msgid "Durability"
 msgstr "耐久"
 
-#: src/veh_interact.cpp:2802
+#: src/veh_interact.cpp:2803
 msgid "Dmg"
 msgstr "与ダメージ"
 
 #. ~ Label of UI widget "weight_desc_label"
 #. ~ Label of UI widget "zenfs_weight_health_clause"
-#: src/veh_interact.cpp:2808 data/json/ui/weight.json
+#: src/veh_interact.cpp:2809 data/json/ui/weight.json
 #: data/json/ui/zenfs/diet.json data/mods/CrazyCataclysm/crazy_widgets.json
 msgid "Weight"
 msgstr "体重"
 
-#: src/veh_interact.cpp:2808
+#: src/veh_interact.cpp:2809
 msgid "Wgt"
 msgstr "重量"
 
-#: src/veh_interact.cpp:2814
+#: src/veh_interact.cpp:2815
 msgid "FoldVol"
 msgstr "折畳体積"
 
-#: src/veh_interact.cpp:2814
+#: src/veh_interact.cpp:2815
 msgid "Folded Volume"
 msgstr "折畳体積"
 
-#: src/veh_interact.cpp:2823
+#: src/veh_interact.cpp:2824
 msgid "Cap"
 msgstr "容量"
 
-#: src/veh_interact.cpp:2823
+#: src/veh_interact.cpp:2824
 msgid "Capacity"
 msgstr "容量"
 
 #. ~ Label of UI widget "str_num"
 #. ~ Label of UI widget "zenfs_str"
-#: src/veh_interact.cpp:2830 data/json/ui/stats.json
+#: src/veh_interact.cpp:2831 data/json/ui/stats.json
 #: data/json/ui/zenfs/stats.json
 msgid "Str"
 msgstr "筋"
 
-#: src/veh_interact.cpp:2834
+#: src/veh_interact.cpp:2835
 msgid "NoisRed"
 msgstr "減音"
 
-#: src/veh_interact.cpp:2834
+#: src/veh_interact.cpp:2835
 msgid "Noise Reduction"
 msgstr "減音"
 
@@ -55494,7 +55494,7 @@ msgstr "減音"
 #. ~ "menu_text" action message of item "kelvinist's candle (off)"
 #. ~ Name of material
 #. ~ Spell name
-#: src/veh_interact.cpp:2842 data/json/items/items_holiday.json
+#: src/veh_interact.cpp:2843 data/json/items/items_holiday.json
 #: data/json/items/tool/lighting.json
 #: data/mods/CrazyCataclysm/crazy_items.json
 #: data/mods/Magiclysm/items/caster_level_boosters.json
@@ -55503,184 +55503,184 @@ msgstr "減音"
 msgid "Light"
 msgstr "点火する"
 
-#: src/veh_interact.cpp:2857
+#: src/veh_interact.cpp:2858
 msgid "Dia"
 msgstr "直径"
 
-#: src/veh_interact.cpp:2857
+#: src/veh_interact.cpp:2858
 msgid "Wheel Diameter"
 msgstr "車輪直径"
 
-#: src/veh_interact.cpp:2861
+#: src/veh_interact.cpp:2862
 msgid "Wdt"
 msgstr "幅"
 
-#: src/veh_interact.cpp:2861
+#: src/veh_interact.cpp:2862
 msgid "Wheel Width"
 msgstr "車輪幅"
 
-#: src/veh_interact.cpp:2868
+#: src/veh_interact.cpp:2869
 msgid "Electric Power"
 msgstr "電力"
 
-#: src/veh_interact.cpp:2868
+#: src/veh_interact.cpp:2869
 msgid "Epwr"
 msgstr "電力"
 
-#: src/veh_interact.cpp:2877
+#: src/veh_interact.cpp:2878
 #, c-format
 msgid "Charge: <color_light_gray>%s</color>"
 msgstr "電力: <color_light_gray>%s</color>"
 
-#: src/veh_interact.cpp:2883
+#: src/veh_interact.cpp:2884
 #, c-format
 msgid "Drain: <color_light_gray>%+8d</color>"
 msgstr "消費: <color_light_gray>%+8d</color>"
 
-#: src/veh_interact.cpp:2888
+#: src/veh_interact.cpp:2889
 msgid "boardable"
 msgstr "搭乗可能"
 
-#: src/veh_interact.cpp:2888
+#: src/veh_interact.cpp:2889
 msgid "opaque"
 msgstr "不透明"
 
-#: src/veh_interact.cpp:2888
+#: src/veh_interact.cpp:2889
 msgid "openable"
 msgstr "開閉式"
 
-#: src/veh_interact.cpp:2903
+#: src/veh_interact.cpp:2904
 msgid "BatCap"
 msgstr "電力容量"
 
-#: src/veh_interact.cpp:2903
+#: src/veh_interact.cpp:2904
 msgid "Battery Capacity"
 msgstr "電力容量"
 
-#: src/veh_interact.cpp:2909
+#: src/veh_interact.cpp:2910
 #, c-format
 msgid "Power: <color_light_gray>%+8d</color>"
 msgstr "電力: <color_light_gray>%+8d</color>"
 
-#: src/veh_interact.cpp:2932
+#: src/veh_interact.cpp:2933
 msgid "like new"
 msgstr "新品同様"
 
 #. ~ Bash damage verb of material
 #. ~ Damage adjective of material
-#: src/veh_interact.cpp:2936 data/json/materials.json
+#: src/veh_interact.cpp:2937 data/json/materials.json
 #: data/mods/Aftershock/items/materials.json
 #: data/mods/Magiclysm/materials.json data/mods/Xedra_Evolved/material.json
 #: data/mods/aftershock_exoplanet/items/materials.json
 msgid "dented"
 msgstr "軽損"
 
-#: src/veh_interact.cpp:2940
+#: src/veh_interact.cpp:2941
 msgid "battered"
 msgstr "凸凹"
 
-#: src/veh_interact.cpp:2944
+#: src/veh_interact.cpp:2945
 msgid "wrecked"
 msgstr "中損"
 
-#: src/veh_interact.cpp:2969
+#: src/veh_interact.cpp:2970
 msgid "Select tank to siphon:"
 msgstr "抜き取るタンクを選択: "
 
-#: src/veh_interact.cpp:3005
+#: src/veh_interact.cpp:3006
 msgid "Remove what?"
 msgstr "何を取り外しますか？"
 
-#: src/veh_interact.cpp:3026
+#: src/veh_interact.cpp:3027
 msgid "The vehicle has no charged plutonium cells."
 msgstr "車両に原子力電池が入っていません。"
 
-#: src/veh_interact.cpp:3085
+#: src/veh_interact.cpp:3086
 #, c-format
 msgid "You don't meet the requirements to install the %s."
 msgstr "%sを取り付ける要件を満たしていません。"
 
-#: src/veh_interact.cpp:3086
+#: src/veh_interact.cpp:3087
 #, c-format
 msgid "<npcname> doesn't meet the requirements to install the %s."
 msgstr "<npcname>は%sを取り付ける要件を満たしていません。"
 
-#: src/veh_interact.cpp:3107
+#: src/veh_interact.cpp:3108
 #, c-format
 msgid "Could not find base part in requirements for %s."
 msgstr "%sに必要な基礎部品が見つかりません。"
 
-#: src/veh_interact.cpp:3147
+#: src/veh_interact.cpp:3148
 #, c-format
 msgid "You install a %1$s into the %2$s."
 msgstr "%1$sを%2$sに取り付けました。"
 
 #. ~ 1$s vehicle name, 2$s tank name
-#: src/veh_interact.cpp:3183
+#: src/veh_interact.cpp:3184
 #, c-format
 msgid "You refill the %1$s's %2$s."
 msgstr "%1$sの%2$sに補充しました。"
 
 #. ~ 1$s vehicle name, 2$s tank name
-#: src/veh_interact.cpp:3186
+#: src/veh_interact.cpp:3187
 #, c-format
 msgid "You completely refill the %1$s's %2$s."
 msgstr "%1$sの%2$sに最大量まで補充しました。"
 
 #. ~ 1$s vehicle name, 2$s reactor name
-#: src/veh_interact.cpp:3204
+#: src/veh_interact.cpp:3205
 #, c-format
 msgid "You refuel the %1$s's %2$s."
 msgstr "%1$sの%2$sに燃料を補給しました。"
 
 #. ~ 1$s is the vehicle part name
-#: src/veh_interact.cpp:3224
+#: src/veh_interact.cpp:3225
 #, c-format
 msgid "The %1$s has already been removed by someone else."
 msgstr "%1$sは既に他の使用者によって取り外されています。"
 
 #. ~  1$s is the vehicle part name
-#: src/veh_interact.cpp:3239
+#: src/veh_interact.cpp:3240
 #, c-format
 msgid "You don't meet the requirements to remove the %1$s."
 msgstr "%1$sを取り外す要件を満たしていません。"
 
-#: src/veh_interact.cpp:3260
+#: src/veh_interact.cpp:3261
 #, c-format
 msgid "You remove the broken %1$s from the %2$s."
 msgstr "壊れた%1$sを%2$sから取り外しました。"
 
-#: src/veh_interact.cpp:3262
+#: src/veh_interact.cpp:3263
 #, c-format
 msgid "You smash the %1$s to bits, removing it from the %2$s."
 msgstr "%1$sを叩き壊し、%2$sから取り外しました。"
 
-#: src/veh_interact.cpp:3265
+#: src/veh_interact.cpp:3266
 #, c-format
 msgid "You remove the %1$s from the %2$s."
 msgstr "%2$sから%1$sを取り外しました。"
 
-#: src/veh_interact.cpp:3294
+#: src/veh_interact.cpp:3295
 #, c-format
 msgid "<npcname> fails to recover %1$d %2$s."
 msgstr "<npcname>は%1$d個の%2$sの回収に失敗しました。"
 
-#: src/veh_interact.cpp:3305
+#: src/veh_interact.cpp:3306
 #, c-format
 msgid "You fail to recover %1$s."
 msgstr "%1$sの回収に失敗しました。"
 
-#: src/veh_interact.cpp:3306
+#: src/veh_interact.cpp:3307
 #, c-format
 msgid "<npcname> fails to recover %1$s."
 msgstr "<npcname>は%1$sの回収に失敗しました。"
 
-#: src/veh_interact.cpp:3351
+#: src/veh_interact.cpp:3352
 #, c-format
 msgid "You completely dismantle the %s."
 msgstr "%sを完全に分解しました。"
 
-#: src/veh_interact.cpp:3387
+#: src/veh_interact.cpp:3388
 #, c-format
 msgid "You disconnect the %s's power connection."
 msgstr "%sの配線との接続を解除しました。"
@@ -92219,6 +92219,11 @@ msgstr "焼戻炭素鋼"
 
 #. ~ Name of material
 #: data/json/materials.json
+msgid "Exodii Ceramic"
+msgstr "特殊セラミック"
+
+#. ~ Name of material
+#: data/json/materials.json
 msgid "Budget Steel Chain"
 msgstr "鎖(粗鋼)"
 
@@ -112830,7 +112835,7 @@ msgstr "変異原キレート剤"
 #: data/mods/Aftershock/npcs/milly_whately_dialogue.json
 #: data/mods/aftershock_exoplanet/npcs/milly_whately_dialogue.json
 msgid "Mutagen"
-msgstr "変異原物質"
+msgstr "変異原"
 
 #. ~ Vitamin name
 #: data/json/vitamin.json
@@ -125165,6 +125170,20 @@ msgid ""
 "place."
 msgstr ""
 "梱包用の防水シートが破れている、木製パレットに積まれた貨物です。中身を漁ることはできますが、ベルトで固定されているため、かなり大変そうです。"
+
+#. ~ Furniture name
+#. ~ Item name
+#: data/json/furniture_and_terrain/furniture-storage.json
+#: data/json/items/tool/workshop.json
+msgid "Exodii kiln"
+msgid_plural "Exodii kilns"
+msgstr[0] "エクゾディ窯炉"
+
+#. ~ Description of furniture "Exodii kiln"
+#: data/json/furniture_and_terrain/furniture-storage.json
+msgid ""
+"An imposing kiln produced by the Exodii, used to produce their ceramic armor"
+msgstr "エクゾディがセラミック装甲を製作するために開発した立派な窯です。"
 
 #. ~ Furniture name
 #: data/json/furniture_and_terrain/furniture-surfaces.json
@@ -144779,6 +144798,19 @@ msgid ""
 "Blood mixed with acidic compounds, foul-smelling and extremely corrosive, a "
 "means of refining this could net some useful chemicals."
 msgstr "酸性の化合物と混ざり合っている、非常に腐食性が高く酷い臭いがする体液です。精製すれば、有用な化学物質を入手できるかもしれません。"
+
+#. ~ Item name
+#: data/json/items/chemicals_and_resources.json
+msgid "exodii ceramic patch"
+msgid_plural "exodii ceramic patch"
+msgstr[0] "特殊セラミックパッチ"
+
+#. ~ Description of "exodii ceramic patch"
+#: data/json/items/chemicals_and_resources.json
+msgid ""
+"A patch kit produced by the Exodii for repairing their nanotube-infused "
+"ceramics.  Requires a kiln."
+msgstr "エクゾディがナノチューブ混合セラミックを修復する際に使うパッチです。使用するには窯炉が必要です。"
 
 #. ~ Item name
 #: data/json/items/electronics.json
@@ -184961,13 +184993,27 @@ msgstr[0] "バラクラバ"
 msgid "A warm covering that protects the head and face from the cold."
 msgstr "顔と頭を覆う防寒具です。"
 
-#. ~ Item name
+#. ~ Variant name of item "balaclava"
 #: data/json/items/armor/masks.json
-msgid "skull balaclava"
-msgid_plural "skull balaclavas"
+msgid "black balaclava"
+msgid_plural "black balaclavas"
+msgstr[0] "バラクラバ(黒)"
+
+#. ~ Description of variant "black balaclava" of item "balaclava"
+#. ~ Description of variant "long black dress" of item "long dress"
+#. ~ Description of variant "black binder" of item "binder"
+#: data/json/items/armor/masks.json data/json/items/armor/torso_clothes.json
+#: data/json/items/armor/undergarment.json
+msgid "This one is black."
+msgstr "これは黒色のデザインです。"
+
+#. ~ Variant name of item "balaclava"
+#: data/json/items/armor/masks.json
+msgid "skull print balaclava"
+msgid_plural "skull print balaclavas"
 msgstr[0] "バラクラバ(骸骨)"
 
-#. ~ Description of "skull balaclava"
+#. ~ Description of variant "skull print balaclava" of item "balaclava"
 #: data/json/items/armor/masks.json
 msgid ""
 "A skull-print balaclava covering the head and face, commonly used by "
@@ -187510,6 +187556,75 @@ msgid ""
 msgstr "戒律に厳格なユダヤ教徒が朝の祈りや行事の際に着用する、礼拝用の大きなショールです。"
 
 #. ~ Item name
+#: data/json/items/armor/scarfs.json
+msgid "nylon throat guard"
+msgid_plural "nylon throat guards"
+msgstr[0] "ナイロンスロートガード"
+
+#. ~ Description of "nylon throat guard"
+#: data/json/items/armor/scarfs.json
+msgid ""
+"A common nylon throat guard commonly used for neck protection when playing "
+"sports."
+msgstr "スポーツで首を保護するためによく使われる、ナイロン製の一般的なスロートガードです。"
+
+#. ~ Item name
+#: data/json/items/armor/scarfs.json
+msgid "canvas throat guard"
+msgid_plural "canvas throat guards"
+msgstr[0] "帆布スロートガード"
+
+#. ~ Description of "canvas throat guard"
+#: data/json/items/armor/scarfs.json
+msgid ""
+"A common canvas throat guard commonly used for neck protection when playing "
+"sports like hockey."
+msgstr "ホッケーなどのスポーツで首を保護するためによく使われる、帆布製の一般的なスロートガードです。"
+
+#. ~ Item name
+#: data/json/items/armor/scarfs.json
+msgid "plastic throat guard"
+msgid_plural "plastic throat guards"
+msgstr[0] "硬質スロートガード"
+
+#. ~ Description of "plastic throat guard"
+#: data/json/items/armor/scarfs.json
+msgid ""
+"A rare variety of throat guard originally known as a gorget and used for "
+"neck protection in HEMA.  It's made from thick rubber covered by nylon.  It "
+"offers good protection for the throat, but it only covers a small portion of"
+" the nape."
+msgstr ""
+"元々は西洋剣術用の喉用防具でありゴルゲットと呼ばれていた、珍しいデザインのスロートガードです。厚いゴムをナイロンで覆った構造で喉をしっかりと保護しますが、首全体を覆うわけではありません。"
+
+#. ~ Item name
+#: data/json/items/armor/scarfs.json
+msgid "cut-resistant throat guard"
+msgid_plural "cut-resistant throat guards"
+msgstr[0] "防刃スロートガード"
+
+#. ~ Description of "cut-resistant throat guard"
+#: data/json/items/armor/scarfs.json
+msgid ""
+"A cut-resistant Kevlar throat guard, commonly used by welders, security "
+"forces and in some sports."
+msgstr "溶接作業、治安維持、一部のスポーツでよく使われる、防刃性能に優れたケブラー製のスロートガードです。"
+
+#. ~ Item name
+#: data/json/items/armor/scarfs.json
+msgid "mercenary throat guard"
+msgid_plural "mercenary throat guards"
+msgstr[0] "マーセナリースロートガード"
+
+#. ~ Description of "mercenary throat guard"
+#: data/json/items/armor/scarfs.json
+msgid ""
+"A ballistic collar modified to wear it as a standalone armor, carefully "
+"combined with a regular nylon throat guard for extra protection."
+msgstr ""
+"単独で防具として着用できるように改造した首用防弾プロテクターです。一般的なナイロンスロートガードと上手く組み合わせることで防御力を高めました。"
+
+#. ~ Item name
 #: data/json/items/armor/sheath.json
 msgid "axe ring holster"
 msgid_plural "axe ring holsters"
@@ -189077,61 +189192,6 @@ msgstr ""
 
 #. ~ Item name
 #: data/json/items/armor/suits_clothes.json
-msgid "dinosaur suit"
-msgid_plural "dinosaur suits"
-msgstr[0] "着ぐるみ(恐竜)"
-
-#. ~ Description of "dinosaur suit"
-#. ~ Description of variant "dinosaur fursuit" of item "fursuit"
-#: data/json/items/armor/suits_clothes.json
-msgid ""
-"A full-body costume in the form of an anthropomorphic dinosaur.  It is quite"
-" encumbering and has little storage but is very warm."
-msgstr "恐竜を擬人化したデザインの全身着ぐるみです。かなり動き辛いですが、中は非常に暖かいです。"
-
-#. ~ Item name
-#: data/json/items/armor/suits_clothes.json
-msgid "shark suit"
-msgid_plural "shark suits"
-msgstr[0] "着ぐるみ(サメ)"
-
-#. ~ Description of "shark suit"
-#: data/json/items/armor/suits_clothes.json
-msgid ""
-"A full-body costume in the form of an anthropomorphic bull shark.  It is "
-"quite encumbering and has little storage but is very warm."
-msgstr "オオメジロザメを擬人化したデザインの全身着ぐるみです。かなり動き辛くポケットも少ないですが、中は非常に暖かいです。"
-
-#. ~ Item name
-#: data/json/items/armor/suits_clothes.json
-msgid "dragon suit"
-msgid_plural "dragon suits"
-msgstr[0] "着ぐるみ(ドラゴン)"
-
-#. ~ Description of "dragon suit"
-#: data/json/items/armor/suits_clothes.json
-msgid ""
-"A cartoonish recreation of a western dragon remade into a suit.  Effectively"
-" useless nowadays, unless you think the mutants will treat you as one of "
-"their own if you wear this.  The wings really get in the way."
-msgstr ""
-"漫画に登場するようなデザインの、西洋のドラゴンの着ぐるみです。これを着ていれば変異体が仲間として扱ってくれる、というようなことはなく、今の状況では役に立ちません。それにしても、背中の翼は本当に邪魔ですね。"
-
-#. ~ Item name
-#: data/json/items/armor/suits_clothes.json
-msgid "feline suit"
-msgid_plural "feline suits"
-msgstr[0] "着ぐるみ(ネコ)"
-
-#. ~ Description of "feline suit"
-#: data/json/items/armor/suits_clothes.json
-msgid ""
-"A fursuit made to resemble an anthropomorphic feline of indistinguishable "
-"breed.  It's a decent source of faux fur if you need it."
-msgstr "よく分からない品種のネコを擬人化したデザインの、毛皮製の着ぐるみです。十分な量の毛皮の生地が入手できそうです。"
-
-#. ~ Item name
-#: data/json/items/armor/suits_clothes.json
 msgid "flag jumpsuit"
 msgid_plural "flag jumpsuits"
 msgstr[0] "ジャンプスーツ(星条旗)"
@@ -189213,6 +189273,17 @@ msgstr[0] "ジャンプスーツ(緑)"
 msgid "This one is green."
 msgstr "これは緑色のデザインです。"
 
+#. ~ Variant name of item "jumpsuit"
+#: data/json/items/armor/suits_clothes.json
+msgid "Hub 01 jumpsuit"
+msgid_plural "Hub 01 jumpsuits"
+msgstr[0] "ハブ01ジャンプスーツ"
+
+#. ~ Description of variant "Hub 01 jumpsuit" of item "jumpsuit"
+#: data/json/items/armor/suits_clothes.json
+msgid "A brown jumpsuit worn by the staff of Hub 01."
+msgstr "ハブ01の職員が着用する茶色のジャンプスーツです。"
+
 #. ~ Description of "jumpsuit"
 #: data/json/items/armor/suits_clothes.json
 msgid ""
@@ -189276,17 +189347,6 @@ msgstr "ジッパーを開く"
 #: data/json/items/armor/suits_clothes.json
 msgid "You facial skin is now visible."
 msgstr "ジッパーを開いて顔を出しました。"
-
-#. ~ Item name
-#: data/json/items/armor/suits_clothes.json
-msgid "Hub 01 jumpsuit"
-msgid_plural "Hub 01 jumpsuits"
-msgstr[0] "ハブ01ジャンプスーツ"
-
-#. ~ Description of "Hub 01 jumpsuit"
-#: data/json/items/armor/suits_clothes.json
-msgid "A brown jumpsuit worn by the staff of Hub 01."
-msgstr "ハブ01の職員が着用する茶色のジャンプスーツです。"
 
 #. ~ Item name
 #: data/json/items/armor/suits_clothes.json
@@ -189518,6 +189578,13 @@ msgstr "シャチを擬人化したデザインの、全身を覆う艶やかな
 msgid "dinosaur fursuit"
 msgid_plural "dinosaur fursuits"
 msgstr[0] "着ぐるみ(恐竜)"
+
+#. ~ Description of variant "dinosaur fursuit" of item "fursuit"
+#: data/json/items/armor/suits_clothes.json
+msgid ""
+"A full-body costume in the form of an anthropomorphic dinosaur.  It is quite"
+" encumbering and has little storage but is very warm."
+msgstr "恐竜を擬人化したデザインの全身着ぐるみです。かなり動き辛いですが、中は非常に暖かいです。"
 
 #. ~ Item name
 #: data/json/items/armor/suits_clothes.json
@@ -192915,13 +192982,6 @@ msgstr[0] "ロングドレス(白)"
 msgid "long black dress"
 msgid_plural "long black dresses"
 msgstr[0] "ロングドレス(黒)"
-
-#. ~ Description of variant "long black dress" of item "long dress"
-#. ~ Description of variant "black binder" of item "binder"
-#: data/json/items/armor/torso_clothes.json
-#: data/json/items/armor/undergarment.json
-msgid "This one is black."
-msgstr "これは黒色のデザインです。"
 
 #. ~ Variant name of item "long dress"
 #: data/json/items/armor/torso_clothes.json
@@ -249824,7 +249884,7 @@ msgstr ""
 #: data/json/items/gun/38.json
 msgid "Uberti 1873"
 msgid_plural "Uberti 1873s"
-msgstr[0] "ライフル(..357口径/ｳﾍﾞﾙﾃｨ1873)"
+msgstr[0] "ライフル(.357口径/ｳﾍﾞﾙﾃｨ1873)"
 
 #. ~ Description of variant "reproduction .357 lever-action rifle" of gun
 #. "Uberti 1873"
@@ -266168,17 +266228,6 @@ msgstr "細長い木の棒です。古くから訓練用の武器として使わ
 
 #. ~ Item name
 #: data/json/items/melee/bludgeons.json
-msgid "glass shiv"
-msgid_plural "glass shivs"
-msgstr[0] "簡易ナイフ(ガラス)"
-
-#. ~ Description of "glass shiv"
-#: data/json/items/melee/bludgeons.json
-msgid "A glass shard with wrapping at one end so it can be safely wielded."
-msgstr "安全に振り回せるように持ち手にラップを巻き付けたガラス片です。"
-
-#. ~ Item name
-#: data/json/items/melee/bludgeons.json
 #: data/mods/Aftershock/items/weapons.json
 #: data/mods/aftershock_exoplanet/items/weapons.json
 msgid "golf club"
@@ -267096,6 +267145,42 @@ msgid ""
 "A medieval hammer with a spike on one end, made for battle.  Its odd shape "
 "and balance make it an excellent weapon, but an ineffective tool."
 msgstr "一方の先端が尖っている、中世の戦闘用ハンマーです。奇妙な形状とバランスのお陰で優れた武器として扱えますが、工具としては役に立ちません。"
+
+#. ~ Item name
+#: data/json/items/melee/bludgeons.json
+msgid "breacher"
+msgid_plural "breachers"
+msgstr[0] "ブリーチャー"
+
+#. ~ Description of "breacher"
+#: data/json/items/melee/bludgeons.json
+msgid ""
+"Some sort of large prybar of a make and manufacturer you've never seen "
+"before.  On the heavier end is a set of thick, crabclaw like shears "
+"connected to a hydraulic piston, capable of cutting or prying through metal "
+"with great force.  The Exodii use these for general purpose breaching and "
+"scrapping heavy machines, and it's been retrofitted to run on their bionic "
+"power."
+msgstr ""
+"大型バールのようですが、こんなメーカーと形状のものは見たことがありません。重厚な先端部には油圧ピストンに接続されたカニの爪のような分厚い鋏が付いており、金属を力任せに切断したりこじ開けたりすることができます。エクゾディは大型機械の破砕や解体にこの装置を使っており、CBM電力で稼働するように改造されています。"
+
+#. ~ Item name
+#: data/json/items/melee/bludgeons.json
+msgid "sapper"
+msgid_plural "sappers"
+msgstr[0] "サッパー"
+
+#. ~ Description of "sapper"
+#: data/json/items/melee/bludgeons.json
+msgid ""
+"A metal pole saw covered in faded orange paint and warning labels written in"
+" an unknown language.  The circular blade at the end is over an inch thick, "
+"its deeply dished grooves suggesting its purpose as a digging implement "
+"rather than a cutter.  The Exodii use these to chew through reinforced walls"
+" like concrete or solid steel, and it's been retrofitted to run on their "
+"bionic power."
+msgstr ""
+"褪せたオレンジ色の塗装と未知の言語で書かれた警告ラベルに覆われたポールソーです。先端に付いた丸ノコギリは厚さが2cm以上あり、深く鋭い刃を見ると、この道具が切断というより掘削の用途で使われていることを示唆しています。エクゾディはコンクリートや鋼鉄でできた強靭な壁の破壊にこのポールソーを使っており、CBM電力で稼働するように改造されています。"
 
 #. ~ Item name
 #: data/json/items/melee/fake.json
@@ -268165,6 +268250,25 @@ msgid ""
 msgstr ""
 "6H4はカラシニコフ系ライフル用の銃剣であり、大半は東側諸国から持ち込まれたものです。刃はステンレス鋼製、柄は軽く丈夫なプラスチック製で、刃の背には中程度の長さの鋸刃が付いており、ワイヤーカッターとして使うことも可能です。かなり頑丈ですが、切れ味を維持するのは困難です。"
 
+#. ~ Variant name of gun mod "Bayonet"
+#. ~ Variant name of item "Bayonet"
+#: data/json/items/melee/swords_and_blades.json
+msgid "L-backswerda"
+msgid_plural "L-backswerdas"
+msgstr[0] "Lバックスウェルダ"
+
+#. ~ Description of variant "L-backswerda"of gun mod "Bayonet"
+#. ~ Description of variant "L-backswerda" of item "Bayonet"
+#: data/json/items/melee/swords_and_blades.json
+msgid ""
+"A bayonet, although not of any model you're familiar with.  Despite "
+"differences in appearance it seems analogous to any other bayonet - The "
+"chrome shaded blade is worn but well-maintained, with a grooved edge on its "
+"back to act as a sawing implement.  The handle and guard have some "
+"additional mechanisms installed to help affix it to a variety of firearms."
+msgstr ""
+"あまり見慣れない形状をしている銃剣です。デザインは異なるものの、銃剣と同じように扱えそうです。クローム仕上げの刃は摩耗しているものの手入れは行き届いており、刃の片側には溝がありノコギリのように機能します。ハンドルとガードには、様々な銃器に対応できるように複数の機構が取り付けられています。"
+
 #. ~ Item name
 #. ~ Gun mod name
 #: data/json/items/melee/swords_and_blades.json
@@ -268441,6 +268545,17 @@ msgid ""
 " rag as a handle.  Not as good as a real knife, but it'll do in a pinch."
 msgstr ""
 "ある程度研いだ長いスパイクの一端に布を固く巻きつけて作った、簡易的なナイフです。本物のナイフほどではありませんが、いざというときに役立ちます。"
+
+#. ~ Item name
+#: data/json/items/melee/swords_and_blades.json
+msgid "glass shiv"
+msgid_plural "glass shivs"
+msgstr[0] "簡易ナイフ(ガラス)"
+
+#. ~ Description of "glass shiv"
+#: data/json/items/melee/swords_and_blades.json
+msgid "A glass shard with wrapping at one end so it can be safely wielded."
+msgstr "安全に振り回せるように持ち手にラップを巻き付けたガラス片です。"
 
 #. ~ Item name
 #: data/json/items/melee/swords_and_blades.json
@@ -272927,8 +273042,8 @@ msgstr[0] "巨大鋼鋳塊"
 
 #. ~ Description of "enormous steel ingot"
 #: data/json/items/resources/alien.json
-msgid "A monolithic block of high quality steel."
-msgstr "ひとかたまりの高品質な鋼鉄製ブロックです。"
+msgid "A monolithic block of low carbon steel."
+msgstr "低炭素鋼の大きな塊です。"
 
 #. ~ Item name
 #: data/json/items/resources/alien.json
@@ -288258,6 +288373,17 @@ msgid ""
 "needed."
 msgstr ""
 "作業台にボルトで固定して使う、重厚な金属製の万力です。口金とネジによって物体をしっかりと保持し、はんだ付け、木工、溶接などの固定が必要なあらゆる手作業で役立ちます。狭いものの平らな金属面があるため、簡単な金属加工にも便利です。"
+
+#. ~ Description of "Exodii kiln"
+#: data/json/items/tool/workshop.json
+msgid ""
+"An electric kiln, powered by your electric grid.  A bit larger than a "
+"refridgerator, this Exodii-manufactured kiln is large enough to repair the "
+"sheets of ceramic they use for armor.  It is designed for firing sheets of "
+"the Exodii's ceramic, but you could use it to fire anything made of clay.  A"
+" large and power-hungry appliance."
+msgstr ""
+"電気配線に接続して稼働する電動窯です。冷蔵庫より少し大きなサイズの窯炉は、エクゾディが装甲として使うセラミック板を修理するのに十分な容量があります。エクゾディの特殊なセラミックを焼成するための機械ですが、その他の陶器の焼成にも使えます。稼働には電力を大量に必要とします。"
 
 #. ~ Item name
 #. ~ Vehicle part name
@@ -319100,11 +319226,13 @@ msgstr ""
 
 #. ~ Mutation name
 #: data/json/mutations/mutations.json
+#: data/mods/Xedra_Evolved/mutations/paraclesians/arvore_mutations.json
 msgid "Jaundice"
 msgstr "黄緑色の肌"
 
 #. ~ Description of mutation "Jaundice"
 #: data/json/mutations/mutations.json
+#: data/mods/Xedra_Evolved/mutations/paraclesians/arvore_mutations.json
 msgid ""
 "It's subtle, but your skin has definitely taken on a sickly yellow-green "
 "hue."
@@ -432545,7 +432673,7 @@ msgid "Spider nest is here."
 msgstr "クモの巣があります。"
 
 #. ~ Name of map extra
-#: data/json/overmap/map_extras.json
+#: data/json/overmap/map_extras.json data/mods/Backrooms/map_extras.json
 msgid "Wasp Nest"
 msgstr "スズメバチの巣"
 
@@ -432797,18 +432925,18 @@ msgid "Some unfortunates from the billions lost in the Cataclysm."
 msgstr "大変動で失われた数多の命のうちの何人かです。"
 
 #. ~ Description of map extra "Wasp Nest"
-#: data/json/overmap/map_extras.json
+#: data/json/overmap/map_extras.json data/mods/Backrooms/map_extras.json
 msgid "A wasp nest."
 msgstr "スズメバチの巣です。"
 
 #. ~ Name of map extra
-#: data/json/overmap/map_extras.json
+#: data/json/overmap/map_extras.json data/mods/Backrooms/map_extras.json
 msgid "Dermatik Nest"
 msgstr "寄生バチの巣"
 
 #. ~ Description of map extra "Dermatik Nest"
 #. ~ Response to NPC dialogue
-#: data/json/overmap/map_extras.json
+#: data/json/overmap/map_extras.json data/mods/Backrooms/map_extras.json
 #: data/mods/Magiclysm/npc/TALK_FORGE_DIVINER.json
 msgid "A dermatik nest."
 msgstr "寄生バチの巣です。"
@@ -445281,6 +445409,16 @@ msgstr "腰巻き"
 #: data/json/recipes/nested.json
 msgid "Recipes related to making loincloths out of varied materials."
 msgstr "さまざまな素材で腰巻きを製作するレシピです。"
+
+#. ~ name of the nested group
+#: data/json/recipes/nested.json
+msgid "throat guards"
+msgstr "スロートガード"
+
+#. ~ Description of the category "throat guards"
+#: data/json/recipes/nested.json
+msgid "Recipes related to making throat guards out of varied materials."
+msgstr "さまざまな素材でスロートガードを製作するレシピです。"
 
 #. ~ name of the nested group
 #: data/json/recipes/nested.json
@@ -504328,13 +504466,13 @@ msgstr "シールド:"
 #: data/mods/Aftershock/vitamin.json
 #: data/mods/aftershock_exoplanet/vitamin.json
 msgid "Mastodon Mutagen"
-msgstr "変異原物質(マストドン)"
+msgstr "変異原(マストドン)"
 
 #. ~ Vitamin name
 #: data/mods/Aftershock/vitamin.json
 #: data/mods/aftershock_exoplanet/vitamin.json
 msgid "Mi-go Mutagen"
-msgstr "変異原物質(ミ＝ゴ)"
+msgstr "変異原(ミ＝ゴ)"
 
 #. ~ Vitamin name
 #: data/mods/Aftershock/vitamin.json
@@ -531102,6 +531240,28 @@ msgid ""
 msgstr ""
 "ウォータークーラーに水を補給するための、プラスチック製の青い大型容器です。水が大量に入りますが、残念ながら蓋が破損しているため、満杯にすると持ち運ぶのに苦労します。"
 
+#. ~ Item name
+#: data/mods/Backrooms/items.json
+msgid "almond water"
+msgid_plural "almond waters"
+msgstr[0] "アーモンドウォーター"
+
+#. ~ Description of "almond water"
+#: data/mods/Backrooms/items.json
+msgid "A bottle of what looks like slightly-cloudy water."
+msgstr "少し濁った水のような液体です。"
+
+#. ~ Item name
+#: data/mods/Backrooms/items.json
+msgid "almond water bottle"
+msgid_plural "almond water bottles"
+msgstr[0] "ガラス瓶(250ml)"
+
+#. ~ Description of "almond water bottle"
+#: data/mods/Backrooms/items.json
+msgid "A sealed glass bottle, holding a slightly-cloudy liquid."
+msgstr "中に少し濁った液体が密閉されているガラス瓶です。"
+
 #. ~ Description of "newspaper page"
 #: data/mods/Backrooms/items.json
 msgid ""
@@ -538429,17 +538589,17 @@ msgstr "湿地"
 #. ~ Vitamin name
 #: data/mods/DinoMod/vitamin.json
 msgid "Stego Mutagen"
-msgstr "変異原物質(ステゴサウルス)"
+msgstr "変異原(ステゴサウルス)"
 
 #. ~ Vitamin name
 #: data/mods/DinoMod/vitamin.json
 msgid "Horns Mutagen"
-msgstr "変異原物質(角竜類)"
+msgstr "変異原(角竜類)"
 
 #. ~ Vitamin name
 #: data/mods/DinoMod/vitamin.json
 msgid "Tyrant Mutagen"
-msgstr "変異原物質(ティラノサウルス)"
+msgstr "変異原(ティラノサウルス)"
 
 #. ~ Response to NPC dialogue
 #: data/mods/DinoMod/NPC/BEGGAR_2_Dino_Dave.json
@@ -565285,12 +565445,12 @@ msgstr "<npcname>が足を踏み入れると、ルーン文字が明るく輝き
 #. ~ Vitamin name
 #: data/mods/Magiclysm/vitamin.json
 msgid "Black Dragon Mutagen"
-msgstr "変異原物質(黒竜)"
+msgstr "変異原(黒竜)"
 
 #. ~ Vitamin name
 #: data/mods/Magiclysm/vitamin.json
 msgid "Concentrated Mana Mutagen"
-msgstr "変異原物質(濃縮マナ)"
+msgstr "変異原(濃縮マナ)"
 
 #. ~ Sound description of spell "Summon Nether Being"
 #: data/mods/Magiclysm/Spells/alien_mages.json
@@ -640011,62 +640171,67 @@ msgstr "時間識"
 #. ~ Vitamin name
 #: data/mods/Xedra_Evolved/vitamin.json
 msgid "Ierde Mutagen"
-msgstr "変異原物質(エルデ)"
+msgstr "変異原(エルデ)"
 
 #. ~ Vitamin name
 #: data/mods/Xedra_Evolved/vitamin.json
 msgid "Arvore Mutagen"
-msgstr "変異原物質(アルボレ)"
+msgstr "変異原(アルボレ)"
+
+#. ~ Vitamin name
+#: data/mods/Xedra_Evolved/vitamin.json
+msgid "Arvore Alchemical Mutagen"
+msgstr "錬金性変異原(アルボレ)"
 
 #. ~ Vitamin name
 #: data/mods/Xedra_Evolved/vitamin.json
 msgid "Undine Mutagen"
-msgstr "変異原物質(ウンディーネ)"
+msgstr "変異原(ウンディーネ)"
 
 #. ~ Vitamin name
 #: data/mods/Xedra_Evolved/vitamin.json
 msgid "Salamander Mutagen"
-msgstr "変異原物質(サラマンダー)"
+msgstr "変異原(サラマンダー)"
 
 #. ~ Vitamin name
 #: data/mods/Xedra_Evolved/vitamin.json
 msgid "Homullus Mutagen"
-msgstr "変異原物質(ホムルス)"
+msgstr "変異原(ホムルス)"
 
 #. ~ Vitamin name
 #: data/mods/Xedra_Evolved/vitamin.json
 msgid "Sylph Mutagen"
-msgstr "変異原物質(シルフ)"
+msgstr "変異原(シルフ)"
 
 #. ~ Vitamin name
 #: data/mods/Xedra_Evolved/vitamin.json
 msgid "Noble Fair Folk Mutagen"
-msgstr "変異原物質(貴族妖精)"
+msgstr "変異原(貴族妖精)"
 
 #. ~ Vitamin name
 #: data/mods/Xedra_Evolved/vitamin.json
 msgid "Brownie Mutagen"
-msgstr "変異原物質(ブラウニー)"
+msgstr "変異原(ブラウニー)"
 
 #. ~ Vitamin name
 #: data/mods/Xedra_Evolved/vitamin.json
 msgid "Pooka Mutagen"
-msgstr "変異原物質(プーカ)"
+msgstr "変異原(プーカ)"
 
 #. ~ Vitamin name
 #: data/mods/Xedra_Evolved/vitamin.json
 msgid "Selkie Mutagen"
-msgstr "変異原物質(セルキー)"
+msgstr "変異原(セルキー)"
 
 #. ~ Vitamin name
 #: data/mods/Xedra_Evolved/vitamin.json
 msgid "Trow Mutagen"
-msgstr "変異原物質(トロウ)"
+msgstr "変異原(トロウ)"
 
 #. ~ Vitamin name
 #: data/mods/Xedra_Evolved/vitamin.json
 msgid "Lilin Mutagen"
-msgstr "変異原物質(リリス)"
+msgstr "変異原(リリス)"
 
 #. ~ Weather type name
 #: data/mods/Xedra_Evolved/weather_type.json
@@ -642694,9 +642859,41 @@ msgstr "運命の水薬(アルボレ)を、人間を超越してしまうほど�
 
 #. ~ Blood analysis description of effect type "Arvore Mutation, Arvore
 #. Transformation, Arvore Metamorphosis"
+#. ~ Blood analysis description of effect type "Arvore Stolen Power Mutation,
+#. Arvore Stolen Power Transformation, Arvore Stolen Power Metamorphosis"
 #: data/mods/Xedra_Evolved/effects/effects.json
 msgid "Anomalous chlorophyll content in blood sample"
 msgstr "血中に異常な濃度のクロロフィルを検出"
+
+#. ~ Name of effect type id "mutagen_alchemical_plantkin"
+#: data/mods/Xedra_Evolved/effects/effects.json
+msgid "Arvore Stolen Power Mutation"
+msgstr "錬金性変化(アルボレ)"
+
+#. ~ Name of effect type id "mutagen_alchemical_plantkin"
+#: data/mods/Xedra_Evolved/effects/effects.json
+msgid "Arvore Stolen Power Transformation"
+msgstr "錬金性変異(アルボレ)"
+
+#. ~ Name of effect type id "mutagen_alchemical_plantkin"
+#: data/mods/Xedra_Evolved/effects/effects.json
+msgid "Arvore Stolen Power Metamorphosis"
+msgstr "錬金性急変(アルボレ)"
+
+#. ~ Description of effect type "Arvore Stolen Power Mutation"
+#: data/mods/Xedra_Evolved/effects/effects.json
+msgid "You consumed Arvore alchemical draught."
+msgstr "アルボレの錬金薬を摂取しました。"
+
+#. ~ Description of effect type "Arvore Stolen Power Transformation"
+#: data/mods/Xedra_Evolved/effects/effects.json
+msgid "You consumed a large amount of Arvore alchemical draught."
+msgstr "アルボレの錬金薬を大量に摂取しました。"
+
+#. ~ Description of effect type "Arvore Stolen Power Metamorphosis"
+#: data/mods/Xedra_Evolved/effects/effects.json
+msgid "You consumed a life-changing amount of Arvore alchemical draught."
+msgstr "アルボレの錬金薬を、人間を超越してしまうほど大量に摂取しました。"
 
 #. ~ Name of effect type id "mutagen_waterkin"
 #: data/mods/Xedra_Evolved/effects/effects.json
@@ -644678,7 +644875,7 @@ msgstr "あなたが免疫系によって殺されたのか、それとも消化
 msgid ""
 "As you imbibe the concoction, you feel the stolen power fusing with your "
 "essence."
-msgstr "調合物を摂取すると、盗み取った力が自己の本質と溶け合ったように感じます。"
+msgstr "調合物を摂取すると、奪い取った力が自己の本質と溶け合ったように感じます。"
 
 #. ~ Player message in false effect in EoC "become_fire_fae"
 #. ~ Player message in false effect in EoC "become_doll_fae"
@@ -659597,6 +659794,28 @@ msgstr "大きな音を立てて大地から引き抜かれました。"
 msgctxt "memorial_female"
 msgid "Fell with a great sound."
 msgstr "大きな音を立てて大地から引き抜かれました。"
+
+#. ~ Mutation class name
+#: data/mods/Xedra_Evolved/mutations/mutation_category.json
+msgid "Arvorian Canker"
+msgstr "侵蝕アルボレ"
+
+#. ~ "mutagen_message" of mutation class "Arvorian Canker"
+#: data/mods/Xedra_Evolved/mutations/mutation_category.json
+msgid "Gorged with verdant power."
+msgstr "豊かな新緑の力を貪り尽くしました。"
+
+#. ~ Memorial message of mutation class "Arvorian Canker" for male
+#: data/mods/Xedra_Evolved/mutations/mutation_category.json
+msgctxt "memorial_male"
+msgid "Withered and rotted away."
+msgstr "自然を蝕み腐り果てました。"
+
+#. ~ Memorial message of mutation class "Arvorian Canker" for female
+#: data/mods/Xedra_Evolved/mutations/mutation_category.json
+msgctxt "memorial_female"
+msgid "Withered and rotted away."
+msgstr "自然を蝕み腐り果てました。"
 
 #. ~ "mutagen_message" of mutation class "Salamander"
 #: data/mods/Xedra_Evolved/mutations/mutation_category.json
