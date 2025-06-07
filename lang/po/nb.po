@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: cataclysm-dda 0.I\n"
-"POT-Creation-Date: 2025-05-31 00:07+0000\n"
+"POT-Creation-Date: 2025-06-06 22:07+0000\n"
 "PO-Revision-Date: 2018-04-26 14:47+0000\n"
 "Last-Translator: Brett Dong <brett.browning.dong@gmail.com>, 2025\n"
 "Language-Team: Norwegian Bokmål (https://app.transifex.com/cataclysm-dda-translators/teams/2217/nb/)\n"
@@ -2960,7 +2960,7 @@ msgstr ""
 
 #. ~ Construction category name
 #. ~ EOC option name in effect in EoC "EOC_XE_RIDDLE_01"
-#: src/advanced_inv.cpp:2367 src/armor_layers.cpp:754 src/debug_menu.cpp:2068
+#: src/advanced_inv.cpp:2367 src/armor_layers.cpp:754 src/debug_menu.cpp:2069
 #: src/magic.cpp:3244 src/options.cpp:1702 src/options.cpp:1871
 #: src/scenario.cpp:532 data/json/construction_category.json
 #: data/mods/Xedra_Evolved/eocs/eoc_riddles.json
@@ -3459,12 +3459,12 @@ msgstr ""
 msgid "Discover more special encounters to populate this list"
 msgstr ""
 
-#: src/auto_note.cpp:440 src/crafting_gui.cpp:2178 src/editmap.cpp:778
+#: src/auto_note.cpp:440 src/crafting_gui.cpp:2175 src/editmap.cpp:778
 msgid "no"
 msgstr "nei"
 
-#: src/auto_note.cpp:440 src/crafting_gui.cpp:1097 src/crafting_gui.cpp:2177
-#: src/crafting_gui.cpp:2347 src/editmap.cpp:778
+#: src/auto_note.cpp:440 src/crafting_gui.cpp:1097 src/crafting_gui.cpp:2174
+#: src/crafting_gui.cpp:2344 src/editmap.cpp:778
 msgid "yes"
 msgstr ""
 
@@ -3821,7 +3821,7 @@ msgstr ""
 msgid "You (%s)"
 msgstr ""
 
-#: src/avatar.cpp:920 src/crafting_gui.cpp:575 src/debug_menu.cpp:2302
+#: src/avatar.cpp:920 src/crafting_gui.cpp:575 src/debug_menu.cpp:2303
 #: src/game.cpp:13547 src/iuse.cpp:6601 src/npctalk.cpp:3032
 #: src/trade_ui.cpp:316
 msgid "You"
@@ -4010,7 +4010,7 @@ msgstr ""
 #. ~ Key binding name
 #. ~ Response to NPC dialogue
 #. ~ EOC option name in effect in EoC "EOC_XE_RIDDLE_20"
-#: src/avatar_action.cpp:145 src/debug_menu.cpp:3143 src/editmap.cpp:973
+#: src/avatar_action.cpp:145 src/debug_menu.cpp:3169 src/editmap.cpp:973
 #: src/editmap.cpp:974 src/editmap.cpp:981 src/editmap.cpp:982
 #: src/options.cpp:1702 src/options.cpp:2642 src/trap.cpp:475
 #: src/veh_interact.cpp:1430
@@ -4023,7 +4023,7 @@ msgstr ""
 #. ~ Key binding name
 #. ~ Response to NPC dialogue
 #. ~ EOC option name in effect in EoC "EOC_XE_RIDDLE_20"
-#: src/avatar_action.cpp:146 src/debug_menu.cpp:3143 src/editmap.cpp:973
+#: src/avatar_action.cpp:146 src/debug_menu.cpp:3169 src/editmap.cpp:973
 #: src/editmap.cpp:974 src/editmap.cpp:981 src/editmap.cpp:982
 #: src/trap.cpp:475 src/veh_interact.cpp:1430
 #: data/mods/BombasticPerks/corefiles/config_menu.json
@@ -4528,22 +4528,22 @@ msgstr ""
 msgid "You need to input the base camp name."
 msgstr ""
 
-#: src/basecamp.cpp:937
+#: src/basecamp.cpp:940
 #, c-format
 msgid ""
 "Through your looting of %s you found %d days worth of food and other "
 "resources."
 msgstr ""
 
-#: src/basecamp.cpp:953 src/faction_camp.cpp:762
+#: src/basecamp.cpp:956 src/faction_camp.cpp:763
 msgid "Base Missions"
 msgstr ""
 
-#: src/basecamp.cpp:962
+#: src/basecamp.cpp:965
 msgid "Expansion"
 msgstr ""
 
-#: src/basecamp.cpp:965
+#: src/basecamp.cpp:968
 msgid "Empty Expansion"
 msgstr ""
 
@@ -5503,7 +5503,7 @@ msgstr ""
 #. ~ Label of UI widget "health_num"
 #. ~ Label of UI widget "health_desc"
 #. ~ Label of UI widget "lcla_health_layout"
-#: src/bodygraph.cpp:515 src/debug_menu.cpp:2572 data/json/ui/health.json
+#: src/bodygraph.cpp:515 src/debug_menu.cpp:2573 data/json/ui/health.json
 #: data/json/ui/sidebar-legacy-classic.json
 msgid "Health"
 msgstr ""
@@ -5634,7 +5634,7 @@ msgid "dodging"
 msgstr ""
 
 #. ~ Skill name
-#: src/bonuses.cpp:130 src/item_factory.cpp:710 data/json/skills.json
+#: src/bonuses.cpp:130 src/item_factory.cpp:714 data/json/skills.json
 msgid "melee"
 msgstr ""
 
@@ -6071,8 +6071,8 @@ msgstr ""
 
 #. ~ Estimated day-of-season string: $1 = Early/Mid/Late, $2 =
 #. Spring/Summer/Fall/Winter
-#: src/calendar.cpp:927 src/faction.cpp:438 src/faction.cpp:443
-#: src/faction.cpp:446
+#: src/calendar.cpp:927 src/faction.cpp:437 src/faction.cpp:442
+#: src/faction.cpp:445
 #, c-format
 msgid "%1$s %2$s"
 msgstr ""
@@ -6180,7 +6180,7 @@ msgstr ""
 #. ~ EOC option name in effect in EoC "EOC_warp_choose_locale"
 #. ~ EOC option name in effect in EoC "EOC_SYLPH_JUMP_HIGH_ON"
 #: src/cata_imgui.cpp:1026 src/character_body.cpp:1334
-#: src/crafting_gui.cpp:1634 src/handle_action.cpp:867
+#: src/crafting_gui.cpp:1631 src/handle_action.cpp:867
 #: src/inventory_ui.cpp:2900 src/monexamine.cpp:424 src/monexamine.cpp:620
 #: src/npctalk_funcs.cpp:387 src/player_display.cpp:1183
 #: src/vehicle_use.cpp:1480 data/mods/Sky_Island/obelisk_selector.json
@@ -7324,7 +7324,7 @@ msgstr ""
 msgid "clack."
 msgstr ""
 
-#: src/character.cpp:10716 src/character.cpp:10825 src/item_factory.cpp:3080
+#: src/character.cpp:10716 src/character.cpp:10825 src/item_factory.cpp:3084
 #: src/itype.h:758
 msgid "click."
 msgstr ""
@@ -7396,7 +7396,7 @@ msgstr ""
 msgid "chkchh."
 msgstr ""
 
-#: src/character.cpp:10885 src/faction.cpp:835 src/npc.cpp:2775
+#: src/character.cpp:10885 src/faction.cpp:834 src/npc.cpp:2775
 msgid "Wielding: "
 msgstr ""
 
@@ -7588,7 +7588,7 @@ msgid "Pain"
 msgstr ""
 
 #. ~ Label of UI widget "thirst_desc_label"
-#: src/character.cpp:12477 src/debug_menu.cpp:1959
+#: src/character.cpp:12477 src/debug_menu.cpp:1960
 #: src/distraction_manager.cpp:39 data/json/ui/thirst.json
 msgid "Thirst"
 msgstr ""
@@ -8636,7 +8636,7 @@ msgstr ""
 msgid "Ignore items in this area when sorting?"
 msgstr ""
 
-#: src/clzones.cpp:263 src/debug_menu.cpp:1625 src/game.cpp:9049
+#: src/clzones.cpp:263 src/debug_menu.cpp:1626 src/game.cpp:9049
 #: src/handle_action.cpp:900
 msgid "Filter:"
 msgstr ""
@@ -10285,7 +10285,7 @@ msgstr ""
 msgid "<npcname> can no longer make that craft!"
 msgstr ""
 
-#: src/crafting.cpp:524 src/faction_camp.cpp:3518
+#: src/crafting.cpp:524 src/faction_camp.cpp:3514
 #, c-format
 msgid ""
 "You don't have anything in which to store %s and may have to pour it out as "
@@ -11153,7 +11153,7 @@ msgid ""
 "<color_white>Examples:</color>\n"
 msgstr ""
 
-#: src/crafting_gui.cpp:1235 src/crafting_gui.cpp:1887
+#: src/crafting_gui.cpp:1235 src/crafting_gui.cpp:1884
 msgid "Nothing selected!"
 msgstr ""
 
@@ -11226,230 +11226,230 @@ msgctxt "crafting gui"
 msgid "Keybindings"
 msgstr ""
 
-#: src/crafting_gui.cpp:1392 src/game.cpp:8782
+#: src/crafting_gui.cpp:1389 src/game.cpp:8782
 msgctxt "crafting gui"
 msgid "NEW!"
 msgstr ""
 
-#: src/crafting_gui.cpp:1498
+#: src/crafting_gui.cpp:1495
 #, c-format
 msgid "Indent for line %i not set correctly.  Indents reset to 0."
 msgstr ""
 
-#: src/crafting_gui.cpp:1503
+#: src/crafting_gui.cpp:1500
 #, c-format
 msgid "%2dx %s"
 msgstr ""
 
-#: src/crafting_gui.cpp:1643
+#: src/crafting_gui.cpp:1640
 #, c-format
 msgid ""
 "Searching… %3.0f%%\n"
 "%s\n"
 msgstr ""
 
-#: src/crafting_gui.cpp:1892
+#: src/crafting_gui.cpp:1889
 msgid "Crafter can't craft that!"
 msgstr ""
 
-#: src/crafting_gui.cpp:1897
+#: src/crafting_gui.cpp:1894
 msgid "Crafter can't see!"
 msgstr ""
 
-#: src/crafting_gui.cpp:1928 src/output.cpp:1118
+#: src/crafting_gui.cpp:1925 src/output.cpp:1118
 msgid "shirt"
 msgstr ""
 
-#: src/crafting_gui.cpp:1931 src/output.cpp:1121
+#: src/crafting_gui.cpp:1928 src/output.cpp:1121
 #, c-format
 msgid "  <color_white>%s</color>%.*s    %s\n"
 msgstr ""
 
-#: src/crafting_gui.cpp:1933
+#: src/crafting_gui.cpp:1930
 msgid "<color_cyan>name</color> of resulting item"
 msgstr ""
 
-#: src/crafting_gui.cpp:1935
+#: src/crafting_gui.cpp:1932
 msgid "clean"
 msgstr ""
 
-#: src/crafting_gui.cpp:1938 src/output.cpp:1128
+#: src/crafting_gui.cpp:1935 src/output.cpp:1128
 #, c-format
 msgid "  <color_yellow>-</color><color_white>%s</color>%.*s   %s\n"
 msgstr ""
 
-#: src/crafting_gui.cpp:1940 src/output.cpp:1130
+#: src/crafting_gui.cpp:1937 src/output.cpp:1130
 msgid "<color_cyan>names</color> to exclude"
 msgstr ""
 
-#: src/crafting_gui.cpp:1946 src/output.cpp:1136
+#: src/crafting_gui.cpp:1943 src/output.cpp:1136
 #, c-format
 msgid "  <color_yellow>%c</color><color_white>:%s</color>%.*s  %s\n"
 msgstr ""
 
-#: src/crafting_gui.cpp:1951
+#: src/crafting_gui.cpp:1948
 msgid ""
 "\n"
 "Use <color_red>up/down arrow</color> to go through your search history."
 msgstr ""
 
-#: src/crafting_gui.cpp:1955 src/newcharacter.cpp:2183
+#: src/crafting_gui.cpp:1952 src/newcharacter.cpp:2183
 #: src/newcharacter.cpp:2707 src/newcharacter.cpp:3080
 #: src/newcharacter.cpp:3761 src/overmap_ui.cpp:1425 src/overmap_ui.cpp:1438
 #: src/proficiency_ui.cpp:392
 msgid "Search:"
 msgstr ""
 
-#: src/crafting_gui.cpp:2070
+#: src/crafting_gui.cpp:2067
 msgid ""
 "<color_yellow>/!\\</color> Mark all recipes as read?  This cannot be undone."
 " <color_yellow>/!\\</color>"
 msgstr ""
 
-#: src/crafting_gui.cpp:2074
+#: src/crafting_gui.cpp:2071
 #, c-format
 msgid ""
 "Mark recipes in this tab as read?  This cannot be undone.  You can mark all "
 "recipes by choosing yes and pressing %s again."
 msgstr ""
 
-#: src/crafting_gui.cpp:2078
+#: src/crafting_gui.cpp:2075
 #, c-format
 msgid ""
 "Mark filtered recipes as read?  This cannot be undone.  You can mark all "
 "recipes by choosing yes and pressing %s again."
 msgstr ""
 
-#: src/crafting_gui.cpp:2135
+#: src/crafting_gui.cpp:2132
 msgid "Crafter"
 msgstr ""
 
-#: src/crafting_gui.cpp:2137
+#: src/crafting_gui.cpp:2134
 msgid "Can craft"
 msgstr ""
 
-#: src/crafting_gui.cpp:2137
+#: src/crafting_gui.cpp:2134
 msgid "Can practice"
 msgstr ""
 
-#: src/crafting_gui.cpp:2138
+#: src/crafting_gui.cpp:2135
 msgid "Missing"
 msgstr ""
 
-#: src/crafting_gui.cpp:2140
+#: src/crafting_gui.cpp:2137
 msgid "Status"
 msgstr ""
 
-#: src/crafting_gui.cpp:2142
+#: src/crafting_gui.cpp:2139
 msgid "Choose the crafter"
 msgstr ""
 
-#: src/crafting_gui.cpp:2156 src/gates.cpp:350
+#: src/crafting_gui.cpp:2153 src/gates.cpp:350
 msgid "stuff"
 msgstr "ting"
 
-#: src/crafting_gui.cpp:2159
+#: src/crafting_gui.cpp:2156
 msgid "skill"
 msgstr ""
 
-#: src/crafting_gui.cpp:2162
+#: src/crafting_gui.cpp:2159
 msgid "proficiency"
 msgstr ""
 
 #. ~ Name of the damage type as displayed in item info
 #. ~ A verb describing how this damage typeis applied (ex: "bashing")
 #. ~ Monster name
-#: src/crafting_gui.cpp:2165 data/mods/Magiclysm/damage_types.json
+#: src/crafting_gui.cpp:2162 data/mods/Magiclysm/damage_types.json
 #: data/mods/Xedra_Evolved/monsters/monster.json
 msgid "light"
 msgid_plural "lights"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/crafting_gui.cpp:2169
+#: src/crafting_gui.cpp:2166
 msgid "is NPC"
 msgstr ""
 
-#: src/crafting_gui.cpp:2183
+#: src/crafting_gui.cpp:2180
 msgid "asleep"
 msgstr ""
 
-#: src/crafting_gui.cpp:2184
+#: src/crafting_gui.cpp:2181
 msgid "awake"
 msgstr ""
 
 #. ~ Crafting recipes subcategory of "AMMO" cat.
 #. ~ Crafting recipes subcategory of "ELECTRONIC" cat.
-#: src/crafting_gui.cpp:2232 data/json/recipes/recipes.json
+#: src/crafting_gui.cpp:2229 data/json/recipes/recipes.json
 msgid "COMPONENTS"
 msgstr "KOMPONENTER"
 
-#: src/crafting_gui.cpp:2236
+#: src/crafting_gui.cpp:2233
 msgid "RESULTS"
 msgstr ""
 
-#: src/crafting_gui.cpp:2241
+#: src/crafting_gui.cpp:2238
 msgid "Related recipes:"
 msgstr ""
 
 #. ~ Key binding name
-#: src/crafting_gui.cpp:2323 src/game_inventory.cpp:2614
+#: src/crafting_gui.cpp:2320 src/game_inventory.cpp:2614
 #: data/raw/keybindings.json
 msgid "Compare"
 msgstr ""
 
-#: src/crafting_gui.cpp:2324
+#: src/crafting_gui.cpp:2321
 msgid "Select item to compare with."
 msgstr ""
 
-#: src/crafting_gui.cpp:2327 src/game_inventory.cpp:2625
+#: src/crafting_gui.cpp:2324 src/game_inventory.cpp:2625
 msgid "There are no items to compare."
 msgstr "Det er ingen ting å sammenligne."
 
-#: src/crafting_gui.cpp:2353
+#: src/crafting_gui.cpp:2350
 #, c-format
 msgid "* %s hidden recipe - %s in category *"
 msgstr ""
 
-#: src/crafting_gui.cpp:2356
+#: src/crafting_gui.cpp:2353
 #, c-format
 msgid "* %s hidden recipes - %s in category *"
 msgstr ""
 
-#: src/crafting_gui.cpp:2359
+#: src/crafting_gui.cpp:2356
 #, c-format
 msgid "* No hidden recipe - %s in category *"
 msgstr ""
 
-#: src/crafting_gui.cpp:2383
+#: src/crafting_gui.cpp:2380
 msgid "hands encumbrance/wounds"
 msgstr ""
 
-#: src/crafting_gui.cpp:2385
+#: src/crafting_gui.cpp:2382
 msgid "extra manipulators"
 msgstr ""
 
-#: src/crafting_gui.cpp:2392
+#: src/crafting_gui.cpp:2389
 msgid "traits"
 msgstr ""
 
-#: src/crafting_gui.cpp:2409
+#: src/crafting_gui.cpp:2406
 msgid "morale"
 msgstr ""
 
-#: src/crafting_gui.cpp:2415
+#: src/crafting_gui.cpp:2412
 msgid "lighting"
 msgstr ""
 
-#: src/crafting_gui.cpp:2421 src/effect.cpp:900 src/effect.cpp:901
+#: src/crafting_gui.cpp:2418 src/effect.cpp:900 src/effect.cpp:901
 msgid "pain"
 msgstr "smerte"
 
-#: src/crafting_gui.cpp:2472
+#: src/crafting_gui.cpp:2469
 msgid "Searched"
 msgstr ""
 
-#: src/crafting_gui.cpp:2487
+#: src/crafting_gui.cpp:2484
 msgid "Batch"
 msgstr ""
 
@@ -11642,7 +11642,7 @@ msgstr ""
 msgid "Hostile"
 msgstr ""
 
-#: src/creature.cpp:3394 src/faction.cpp:286
+#: src/creature.cpp:3394 src/faction.cpp:285
 msgid "Neutral"
 msgstr ""
 
@@ -11685,632 +11685,632 @@ msgid ""
 "message to the clipboard."
 msgstr ""
 
-#: src/debug_menu.cpp:370
+#: src/debug_menu.cpp:371
 msgid "Failed to create minimized archive"
 msgstr ""
 
-#: src/debug_menu.cpp:439
+#: src/debug_menu.cpp:440
 #, c-format
 msgid "Minimized archive saved to %s"
 msgstr ""
 
-#: src/debug_menu.cpp:487
+#: src/debug_menu.cpp:488
 msgid "Reveal at which vision level?"
 msgstr ""
 
-#: src/debug_menu.cpp:510
+#: src/debug_menu.cpp:511
 msgid "Current overmap revealed."
 msgstr ""
 
-#: src/debug_menu.cpp:510
+#: src/debug_menu.cpp:511
 msgid "Overmap revealed."
 msgstr ""
 
-#: src/debug_menu.cpp:516 src/debug_menu.cpp:2389 src/debug_menu.cpp:2527
+#: src/debug_menu.cpp:517 src/debug_menu.cpp:2390 src/debug_menu.cpp:2528
 msgid "Mutate"
 msgstr ""
 
-#: src/debug_menu.cpp:517
+#: src/debug_menu.cpp:518
 msgid "Change all skills"
 msgstr ""
 
-#: src/debug_menu.cpp:518
+#: src/debug_menu.cpp:519
 msgid "Change all skills theoretical knowledge"
 msgstr ""
 
-#: src/debug_menu.cpp:519
+#: src/debug_menu.cpp:520
 msgid "Learn all melee styles"
 msgstr ""
 
-#: src/debug_menu.cpp:520
+#: src/debug_menu.cpp:521
 msgid "Unlock all recipes"
 msgstr ""
 
-#: src/debug_menu.cpp:521
+#: src/debug_menu.cpp:522
 msgid "Forget all recipes"
 msgstr ""
 
-#: src/debug_menu.cpp:522
+#: src/debug_menu.cpp:523
 msgid "Forget all items"
 msgstr ""
 
-#: src/debug_menu.cpp:523
+#: src/debug_menu.cpp:524
 msgid "Edit player/NPC"
 msgstr ""
 
-#: src/debug_menu.cpp:524
+#: src/debug_menu.cpp:525
 msgid "Damage self"
 msgstr ""
 
-#: src/debug_menu.cpp:525
+#: src/debug_menu.cpp:526
 msgid "Bleed self"
 msgstr ""
 
-#: src/debug_menu.cpp:526
+#: src/debug_menu.cpp:527
 msgid "Set auto move route"
 msgstr ""
 
-#: src/debug_menu.cpp:527
+#: src/debug_menu.cpp:528
 msgid "Control NPC follower"
 msgstr ""
 
-#: src/debug_menu.cpp:528
+#: src/debug_menu.cpp:529
 msgid "Import follower"
 msgstr ""
 
-#: src/debug_menu.cpp:529
+#: src/debug_menu.cpp:530
 msgid "Export follower"
 msgstr ""
 
-#: src/debug_menu.cpp:530
+#: src/debug_menu.cpp:531
 msgid "Export self"
 msgstr ""
 
-#: src/debug_menu.cpp:534
+#: src/debug_menu.cpp:535
 msgid "Change spells"
 msgstr ""
 
-#: src/debug_menu.cpp:537 src/debug_menu.cpp:1042
+#: src/debug_menu.cpp:538 src/debug_menu.cpp:1043
 msgid "Player…"
 msgstr ""
 
-#: src/debug_menu.cpp:588
+#: src/debug_menu.cpp:589
 #, c-format
 msgid "Set %s to how much ammo?  Currently: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:617
+#: src/debug_menu.cpp:618
 msgid "Add new variable"
 msgstr ""
 
-#: src/debug_menu.cpp:621
+#: src/debug_menu.cpp:622
 #, c-format
 msgid "raw var value: %s"
 msgstr ""
 
-#: src/debug_menu.cpp:626
+#: src/debug_menu.cpp:627
 #, c-format
 msgid "as time_duration: %s"
 msgstr ""
 
-#: src/debug_menu.cpp:629
+#: src/debug_menu.cpp:630
 #, c-format
 msgid "as time_point: %s"
 msgstr ""
 
-#: src/debug_menu.cpp:641
+#: src/debug_menu.cpp:642
 msgid "Key\n"
 msgstr ""
 
-#: src/debug_menu.cpp:688
+#: src/debug_menu.cpp:689
 msgid "Edit monster"
 msgstr ""
 
-#: src/debug_menu.cpp:691 src/debug_menu.cpp:1043
+#: src/debug_menu.cpp:692 src/debug_menu.cpp:1044
 msgid "Monster…"
 msgstr ""
 
-#: src/debug_menu.cpp:705
+#: src/debug_menu.cpp:706
 msgid "No monsters found inside the bubble, aborting."
 msgstr ""
 
-#: src/debug_menu.cpp:729
+#: src/debug_menu.cpp:730
 #, c-format
 msgid "Monster %s of type %s"
 msgstr ""
 
-#: src/debug_menu.cpp:732
+#: src/debug_menu.cpp:733
 #, c-format
 msgid "Summoned by: %s"
 msgstr ""
 
-#: src/debug_menu.cpp:735
+#: src/debug_menu.cpp:736
 #, c-format
 msgid "Expires in: %s"
 msgstr ""
 
-#: src/debug_menu.cpp:738
+#: src/debug_menu.cpp:739
 #, c-format
 msgid "Faction: %s"
 msgstr ""
 
-#: src/debug_menu.cpp:739
+#: src/debug_menu.cpp:740
 #, c-format
 msgid "HP(max): %d (%d)"
 msgstr ""
 
-#: src/debug_menu.cpp:741
+#: src/debug_menu.cpp:742
 #, c-format
 msgid "Volume: %sL (size %s)"
 msgstr ""
 
-#: src/debug_menu.cpp:743
+#: src/debug_menu.cpp:744
 #, c-format
 msgid "Speed(base): %d (%d)"
 msgstr ""
 
-#: src/debug_menu.cpp:745
+#: src/debug_menu.cpp:746
 #, c-format
 msgid "Aggression(base): %d (%d)"
 msgstr ""
 
-#: src/debug_menu.cpp:747
+#: src/debug_menu.cpp:748
 #, c-format
 msgid "Morale(base): %d (%d)"
 msgstr ""
 
-#: src/debug_menu.cpp:751
+#: src/debug_menu.cpp:752
 #, c-format
 msgid "Ammo: %s rounds of %s"
 msgstr ""
 
-#: src/debug_menu.cpp:756
+#: src/debug_menu.cpp:757
 #, c-format
 msgid "Wandering towards: %s"
 msgstr ""
 
-#: src/debug_menu.cpp:757
+#: src/debug_menu.cpp:758
 #, c-format
 msgid "From cur location: %s"
 msgstr ""
 
-#: src/debug_menu.cpp:759
+#: src/debug_menu.cpp:760
 #, c-format
 msgid "Desire to wander: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:764
+#: src/debug_menu.cpp:765
 #, c-format
 msgid "Cached item drop: %s"
 msgstr ""
 
-#: src/debug_menu.cpp:769
+#: src/debug_menu.cpp:770
 #, c-format
 msgid "Cached dissection result: %s"
 msgstr ""
 
-#: src/debug_menu.cpp:781 src/debug_menu.cpp:2379
+#: src/debug_menu.cpp:782 src/debug_menu.cpp:2380
 msgid "Set hit points"
 msgstr ""
 
-#: src/debug_menu.cpp:782 src/debug_menu.cpp:2381
+#: src/debug_menu.cpp:783 src/debug_menu.cpp:2382
 msgid "Set morale"
 msgstr ""
 
-#: src/debug_menu.cpp:783
+#: src/debug_menu.cpp:784
 msgid "Set aggression"
 msgstr ""
 
-#: src/debug_menu.cpp:784 src/debug_menu.cpp:2395
+#: src/debug_menu.cpp:785 src/debug_menu.cpp:2396
 msgid "Add an effect"
 msgstr ""
 
-#: src/debug_menu.cpp:785
+#: src/debug_menu.cpp:786
 msgid "Modify ammo"
 msgstr ""
 
 #. ~ EOC option name in effect in EoC "EOC_teleport_test"
 #. ~ EOC option description in effect in EoC "EOC_teleport_test"
-#: src/debug_menu.cpp:786 src/debug_menu.cpp:2394
+#: src/debug_menu.cpp:787 src/debug_menu.cpp:2395
 #: data/json/effects_on_condition/example_eocs.json
 msgid "Teleport"
 msgstr ""
 
-#: src/debug_menu.cpp:788
+#: src/debug_menu.cpp:789
 msgid "Set wander destination (also sets wander desire to 1000 turns)"
 msgstr ""
 
-#: src/debug_menu.cpp:789
+#: src/debug_menu.cpp:790
 msgid "Set wander desire"
 msgstr ""
 
-#: src/debug_menu.cpp:791
+#: src/debug_menu.cpp:792
 msgid "Run EOC with monster as alpha talker (avatar as beta)"
 msgstr ""
 
-#: src/debug_menu.cpp:793
+#: src/debug_menu.cpp:794
 msgid "Run EOC with monster as beta talker (avatar as alpha)"
 msgstr ""
 
-#: src/debug_menu.cpp:799 src/debug_menu.cpp:2084 src/debug_menu.cpp:2092
+#: src/debug_menu.cpp:800 src/debug_menu.cpp:2085 src/debug_menu.cpp:2093
 #, c-format
 msgid "Set the hitpoints to?  Currently: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:806 src/debug_menu.cpp:2488
+#: src/debug_menu.cpp:807 src/debug_menu.cpp:2489
 #, c-format
 msgid "Set the morale to?  Currently: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:813 src/debug_menu.cpp:2163
+#: src/debug_menu.cpp:814 src/debug_menu.cpp:2164
 #, c-format
 msgid "Set aggression to?  Currently: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:824
+#: src/debug_menu.cpp:825
 msgid "This monster doesn't have any defined ammo."
 msgstr ""
 
-#: src/debug_menu.cpp:844
+#: src/debug_menu.cpp:845
 #, c-format
 msgid "Set wander desire to?  Currently: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:862
+#: src/debug_menu.cpp:863
 msgid "Take screenshot"
 msgstr ""
 
-#: src/debug_menu.cpp:863
+#: src/debug_menu.cpp:864
 msgid "Generate game report"
 msgstr ""
 
-#: src/debug_menu.cpp:864
+#: src/debug_menu.cpp:865
 msgid "Generate minimized save archive"
 msgstr ""
 
-#: src/debug_menu.cpp:869
+#: src/debug_menu.cpp:870
 msgid "Check game state"
 msgstr ""
 
-#: src/debug_menu.cpp:870
+#: src/debug_menu.cpp:871
 msgid "Display hordes"
 msgstr ""
 
-#: src/debug_menu.cpp:871
+#: src/debug_menu.cpp:872
 msgid "Test item group"
 msgstr ""
 
-#: src/debug_menu.cpp:872
+#: src/debug_menu.cpp:873
 msgid "Show sound clustering"
 msgstr ""
 
-#: src/debug_menu.cpp:873
+#: src/debug_menu.cpp:874
 msgid "Display weather"
 msgstr ""
 
-#: src/debug_menu.cpp:874
+#: src/debug_menu.cpp:875
 msgid "Display overmap scents"
 msgstr ""
 
-#: src/debug_menu.cpp:875
+#: src/debug_menu.cpp:876
 msgid "Toggle display local scents"
 msgstr ""
 
-#: src/debug_menu.cpp:876
+#: src/debug_menu.cpp:877
 msgid "Toggle display local scents type"
 msgstr ""
 
-#: src/debug_menu.cpp:877
+#: src/debug_menu.cpp:878
 msgid "Toggle display temperature"
 msgstr ""
 
-#: src/debug_menu.cpp:878
+#: src/debug_menu.cpp:879
 msgid "Toggle display vehicle autopilot overlay"
 msgstr ""
 
-#: src/debug_menu.cpp:879
+#: src/debug_menu.cpp:880
 msgid "Toggle display visibility"
 msgstr ""
 
-#: src/debug_menu.cpp:880
+#: src/debug_menu.cpp:881
 msgid "Toggle display lighting"
 msgstr ""
 
-#: src/debug_menu.cpp:881
+#: src/debug_menu.cpp:882
 msgid "Toggle display transparency"
 msgstr ""
 
-#: src/debug_menu.cpp:882
+#: src/debug_menu.cpp:883
 msgid "Toggle display radiation"
 msgstr ""
 
-#: src/debug_menu.cpp:883
+#: src/debug_menu.cpp:884
 msgid "Show mutation category levels"
 msgstr ""
 
-#: src/debug_menu.cpp:884
+#: src/debug_menu.cpp:885
 msgid "Draw benchmark (X seconds)"
 msgstr ""
 
 #. ~ Key binding name
-#: src/debug_menu.cpp:885 data/raw/keybindings.json
+#: src/debug_menu.cpp:886 data/raw/keybindings.json
 msgid "Toggle hour timer"
 msgstr ""
 
-#: src/debug_menu.cpp:886
+#: src/debug_menu.cpp:887
 msgid "Test trait group"
 msgstr ""
 
-#: src/debug_menu.cpp:887
+#: src/debug_menu.cpp:888
 msgid "Toggle NPC pathfinding on map"
 msgstr ""
 
-#: src/debug_menu.cpp:888
+#: src/debug_menu.cpp:889
 msgid "Toggle NPC attack potential values on map"
 msgstr ""
 
-#: src/debug_menu.cpp:889 src/debug_menu.cpp:1007
+#: src/debug_menu.cpp:890 src/debug_menu.cpp:1008
 msgid "Print factions info to console"
 msgstr ""
 
-#: src/debug_menu.cpp:890
+#: src/debug_menu.cpp:891
 msgid "Print NPC magic info to console"
 msgstr ""
 
-#: src/debug_menu.cpp:891
+#: src/debug_menu.cpp:892
 msgid "Test weather"
 msgstr ""
 
-#: src/debug_menu.cpp:892
+#: src/debug_menu.cpp:893
 msgid "Write global effect_on_condition(s) to eocs.output"
 msgstr ""
 
-#: src/debug_menu.cpp:893
+#: src/debug_menu.cpp:894
 msgid "Write global var(s) to var_list.output"
 msgstr ""
 
-#: src/debug_menu.cpp:894
+#: src/debug_menu.cpp:895
 msgid "Write Timed (E)vents to timed_event_list.output"
 msgstr ""
 
-#: src/debug_menu.cpp:895
+#: src/debug_menu.cpp:896
 msgid "Edit global v(a)rs"
 msgstr ""
 
-#: src/debug_menu.cpp:896
+#: src/debug_menu.cpp:897
 msgid "Test map extra list"
 msgstr ""
 
-#: src/debug_menu.cpp:897
+#: src/debug_menu.cpp:898
 msgid "Generate effect list"
 msgstr ""
 
-#: src/debug_menu.cpp:898
+#: src/debug_menu.cpp:899
 msgid "Write city list to cities.output"
 msgstr ""
 
-#: src/debug_menu.cpp:899
+#: src/debug_menu.cpp:900
 msgid "Open ImGui demo screen"
 msgstr ""
 
-#: src/debug_menu.cpp:905 src/debug_menu.cpp:1035
+#: src/debug_menu.cpp:906 src/debug_menu.cpp:1036
 msgid "Info…"
 msgstr ""
 
-#: src/debug_menu.cpp:911
+#: src/debug_menu.cpp:912
 msgid "Enable achievements"
 msgstr ""
 
-#: src/debug_menu.cpp:912
+#: src/debug_menu.cpp:913
 msgid "Unlock all progression"
 msgstr ""
 
-#: src/debug_menu.cpp:913
+#: src/debug_menu.cpp:914
 msgid "Show debug message"
 msgstr ""
 
-#: src/debug_menu.cpp:914
+#: src/debug_menu.cpp:915
 msgid "Crash game (test crash handling)"
 msgstr ""
 
-#: src/debug_menu.cpp:915
+#: src/debug_menu.cpp:916
 msgid "Activate EOC"
 msgstr ""
 
-#: src/debug_menu.cpp:916
+#: src/debug_menu.cpp:917
 msgid "Quit to main menu"
 msgstr "Avslutt til hovedmenyen"
 
 #. ~ Key binding name
-#: src/debug_menu.cpp:917 data/raw/keybindings.json
+#: src/debug_menu.cpp:918 data/raw/keybindings.json
 msgid "Quickload"
 msgstr ""
 
-#: src/debug_menu.cpp:920 src/debug_menu.cpp:1040
+#: src/debug_menu.cpp:921 src/debug_menu.cpp:1041
 msgid "Game…"
 msgstr ""
 
-#: src/debug_menu.cpp:926
+#: src/debug_menu.cpp:927
 msgid "Change battery charge"
 msgstr ""
 
-#: src/debug_menu.cpp:927 src/debug_menu.cpp:960
+#: src/debug_menu.cpp:928 src/debug_menu.cpp:961
 msgid "Spawn a vehicle"
 msgstr ""
 
-#: src/debug_menu.cpp:928
+#: src/debug_menu.cpp:929
 msgid "Delete vehicle"
 msgstr ""
 
-#: src/debug_menu.cpp:929
+#: src/debug_menu.cpp:930
 msgid "Export vehicle as prototype"
 msgstr ""
 
-#: src/debug_menu.cpp:932 src/debug_menu.cpp:1045
+#: src/debug_menu.cpp:933 src/debug_menu.cpp:1046
 msgid "Vehicle…"
 msgstr ""
 
-#: src/debug_menu.cpp:938
+#: src/debug_menu.cpp:939
 msgid "Teleport - short range"
 msgstr ""
 
-#: src/debug_menu.cpp:939
+#: src/debug_menu.cpp:940
 msgid "Teleport - long range"
 msgstr ""
 
-#: src/debug_menu.cpp:940
+#: src/debug_menu.cpp:941
 msgid "Teleport - adjacent overmap"
 msgstr ""
 
-#: src/debug_menu.cpp:941
+#: src/debug_menu.cpp:942
 msgid "Teleport - specific overmap coordinates"
 msgstr ""
 
-#: src/debug_menu.cpp:946
+#: src/debug_menu.cpp:947
 msgid "Teleport - specific city"
 msgstr ""
 
-#: src/debug_menu.cpp:948 src/debug_menu.cpp:1046
+#: src/debug_menu.cpp:949 src/debug_menu.cpp:1047
 msgid "Teleport…"
 msgstr ""
 
-#: src/debug_menu.cpp:954
+#: src/debug_menu.cpp:955
 msgid "Spawn an item"
 msgstr ""
 
-#: src/debug_menu.cpp:955
+#: src/debug_menu.cpp:956
 msgid "Spawn an item group"
 msgstr ""
 
-#: src/debug_menu.cpp:956
+#: src/debug_menu.cpp:957
 msgid "Spawn NPC"
 msgstr ""
 
-#: src/debug_menu.cpp:957
+#: src/debug_menu.cpp:958
 msgid "Spawn named NPC"
 msgstr ""
 
-#: src/debug_menu.cpp:958
+#: src/debug_menu.cpp:959
 msgid "Spawn random NPC on overmap"
 msgstr ""
 
-#: src/debug_menu.cpp:959
+#: src/debug_menu.cpp:960
 msgid "Spawn monster"
 msgstr ""
 
-#: src/debug_menu.cpp:961
+#: src/debug_menu.cpp:962
 msgid "Spawn artifact"
 msgstr ""
 
-#: src/debug_menu.cpp:962
+#: src/debug_menu.cpp:963
 msgid "Spawn clairvoyance artifact"
 msgstr ""
 
-#: src/debug_menu.cpp:963
+#: src/debug_menu.cpp:964
 msgid "Spawn a dummy horde twenty submaps(10 OMTs) to the north"
 msgstr ""
 
-#: src/debug_menu.cpp:966 src/debug_menu.cpp:1041
+#: src/debug_menu.cpp:967 src/debug_menu.cpp:1042
 msgid "Spawning…"
 msgstr ""
 
-#: src/debug_menu.cpp:972
+#: src/debug_menu.cpp:973
 msgid "Kill in Area"
 msgstr ""
 
-#: src/debug_menu.cpp:973
+#: src/debug_menu.cpp:974
 msgid "Kill NPCs"
 msgstr ""
 
-#: src/debug_menu.cpp:974
+#: src/debug_menu.cpp:975
 msgid "Map editor"
 msgstr ""
 
-#: src/debug_menu.cpp:975
+#: src/debug_menu.cpp:976
 msgid "Palette viewer"
 msgstr ""
 
-#: src/debug_menu.cpp:976
+#: src/debug_menu.cpp:977
 msgid "Change weather"
 msgstr ""
 
-#: src/debug_menu.cpp:977
+#: src/debug_menu.cpp:978
 msgid "Change wind direction"
 msgstr ""
 
-#: src/debug_menu.cpp:978
+#: src/debug_menu.cpp:979
 msgid "Change wind speed"
 msgstr ""
 
-#: src/debug_menu.cpp:979
+#: src/debug_menu.cpp:980
 msgid "Generate sound"
 msgstr ""
 
-#: src/debug_menu.cpp:980
+#: src/debug_menu.cpp:981
 msgid "Kill all monsters"
 msgstr ""
 
-#: src/debug_menu.cpp:981
+#: src/debug_menu.cpp:982
 msgid "Change time"
 msgstr ""
 
-#: src/debug_menu.cpp:982
+#: src/debug_menu.cpp:983
 msgid "Force temperature"
 msgstr ""
 
-#: src/debug_menu.cpp:983
+#: src/debug_menu.cpp:984
 msgid "Overmap editor"
 msgstr ""
 
-#: src/debug_menu.cpp:984
+#: src/debug_menu.cpp:985
 msgid "Spawn map extra"
 msgstr ""
 
-#: src/debug_menu.cpp:985
+#: src/debug_menu.cpp:986
 msgid "Spawn nested mapgen"
 msgstr ""
 
-#: src/debug_menu.cpp:988 src/debug_menu.cpp:1047
+#: src/debug_menu.cpp:989 src/debug_menu.cpp:1048
 msgid "Map…"
 msgstr ""
 
-#: src/debug_menu.cpp:994 src/debug_menu.cpp:1000 src/debug_menu.cpp:1049
+#: src/debug_menu.cpp:995 src/debug_menu.cpp:1001 src/debug_menu.cpp:1050
 msgid "Quick setup…"
 msgstr ""
 
-#: src/debug_menu.cpp:995
+#: src/debug_menu.cpp:996
 msgid "Toggle debug mutations"
 msgstr ""
 
-#: src/debug_menu.cpp:996 src/debug_menu.cpp:2385
+#: src/debug_menu.cpp:997 src/debug_menu.cpp:2386
 msgid "Normalize body stats"
 msgstr ""
 
-#: src/debug_menu.cpp:997
+#: src/debug_menu.cpp:998
 msgid "Install ALL bionics"
 msgstr ""
 
-#: src/debug_menu.cpp:1006
+#: src/debug_menu.cpp:1007
 msgid "Edit faction"
 msgstr ""
 
-#: src/debug_menu.cpp:1010
+#: src/debug_menu.cpp:1011
 msgid "Faction"
 msgstr ""
 
-#: src/debug_menu.cpp:1016
+#: src/debug_menu.cpp:1017
 msgid "Display talk topic"
 msgstr ""
 
-#: src/debug_menu.cpp:1019 src/debug_menu.cpp:1048
+#: src/debug_menu.cpp:1020 src/debug_menu.cpp:1049
 msgid "Dialogue…"
 msgstr ""
 
-#: src/debug_menu.cpp:1044
+#: src/debug_menu.cpp:1045
 msgid "Faction…"
 msgstr ""
 
-#: src/debug_menu.cpp:1058
+#: src/debug_menu.cpp:1059
 msgid ""
 "Debug Functions - Using these will cheat not only the game, but yourself.\n"
 "You won't grow.  You won't improve.\n"
@@ -12318,377 +12318,377 @@ msgid ""
 "Nothing will be risked and nothing will be gained."
 msgstr ""
 
-#: src/debug_menu.cpp:1060
+#: src/debug_menu.cpp:1061
 msgid "Debug Functions"
 msgstr ""
 
-#: src/debug_menu.cpp:1138
+#: src/debug_menu.cpp:1139
 #, c-format
 msgid "Name: %1$s"
 msgstr ""
 
-#: src/debug_menu.cpp:1141
+#: src/debug_menu.cpp:1142
 #, c-format
 msgid "Class: %1$s"
 msgstr ""
 
-#: src/debug_menu.cpp:1142 src/magic.cpp:2907 src/magic.cpp:3250
+#: src/debug_menu.cpp:1143 src/magic.cpp:2907 src/magic.cpp:3250
 #: src/magic.cpp:3363
 msgid "Classless"
 msgstr ""
 
 #. ~ %1$s - spell current level, %2$s - spell max level, %3$s - is max level
-#: src/debug_menu.cpp:1154
+#: src/debug_menu.cpp:1155
 #, c-format
 msgid "Spell Level: %1$s / %2$d %3$s"
 msgstr ""
 
-#: src/debug_menu.cpp:1155
+#: src/debug_menu.cpp:1156
 msgid "Unlearned"
 msgstr ""
 
-#: src/debug_menu.cpp:1157
+#: src/debug_menu.cpp:1158
 msgid "(MAX)"
 msgstr ""
 
 #. ~ %1$d - difficulty, %2$s - failure chance
-#: src/debug_menu.cpp:1162
+#: src/debug_menu.cpp:1163
 #, c-format
 msgid "Difficulty: %1$d (%2$s)"
 msgstr ""
 
-#: src/debug_menu.cpp:1165
+#: src/debug_menu.cpp:1166
 msgid "(impeded)"
 msgstr ""
 
 #. ~ %1$s - energy cost, %2$s - is casting impeded, %3$s - current character
 #. energy
-#: src/debug_menu.cpp:1170
+#: src/debug_menu.cpp:1171
 #, c-format
 msgid "Casting Cost: %1$s %2$s (%3$s current) "
 msgstr ""
 
 #. ~ %1$s - cast time, %2$s - is casting impeded, %3$s - casting base time
-#: src/debug_menu.cpp:1178
+#: src/debug_menu.cpp:1179
 #, c-format
 msgid "Casting Time: %1$s %2$s (%3$s base time) "
 msgstr ""
 
-#: src/debug_menu.cpp:1186 src/debug_menu.cpp:1290 src/magic.cpp:2993
+#: src/debug_menu.cpp:1187 src/debug_menu.cpp:1291 src/magic.cpp:2993
 #: src/magic.cpp:3008
 msgid "self"
 msgstr ""
 
-#: src/debug_menu.cpp:1190
+#: src/debug_menu.cpp:1191
 #, c-format
 msgid "Valid Targets: %1$s"
 msgstr ""
 
-#: src/debug_menu.cpp:1194
+#: src/debug_menu.cpp:1195
 #, c-format
 msgid "Only affects the monsters: %1$s"
 msgstr ""
 
 #. ~ amount of damage per second, abbreviated
-#: src/debug_menu.cpp:1208
+#: src/debug_menu.cpp:1209
 #, c-format
 msgid ", %1$d/sec"
 msgstr ""
 
-#: src/debug_menu.cpp:1210
+#: src/debug_menu.cpp:1211
 #, c-format
 msgid "Damage: %1$s %2$s%3$s"
 msgstr ""
 
-#: src/debug_menu.cpp:1214
+#: src/debug_menu.cpp:1215
 #, c-format
 msgid "Healing: %1$s"
 msgstr ""
 
-#: src/debug_menu.cpp:1219 src/magic.cpp:3014 src/magic.cpp:3029
+#: src/debug_menu.cpp:1220 src/magic.cpp:3014 src/magic.cpp:3029
 #: src/magic.cpp:3031
 msgid "Spell Radius"
 msgstr ""
 
-#: src/debug_menu.cpp:1222 src/magic.cpp:3017
+#: src/debug_menu.cpp:1223 src/magic.cpp:3017
 msgid "Cone Arc"
 msgstr ""
 
-#: src/debug_menu.cpp:1223 src/magic.cpp:3018
+#: src/debug_menu.cpp:1224 src/magic.cpp:3018
 msgid "degrees"
 msgstr ""
 
-#: src/debug_menu.cpp:1225 src/magic.cpp:3020
+#: src/debug_menu.cpp:1226 src/magic.cpp:3020
 msgid "Line Width"
 msgstr ""
 
-#: src/debug_menu.cpp:1227
+#: src/debug_menu.cpp:1228
 #, c-format
 msgid "%1$s: %2$d %3$s"
 msgstr ""
 
-#: src/debug_menu.cpp:1233
+#: src/debug_menu.cpp:1234
 #, c-format
 msgid "Variance: %1$d"
 msgstr ""
 
-#: src/debug_menu.cpp:1239 src/magic.cpp:3066
+#: src/debug_menu.cpp:1240 src/magic.cpp:3066
 #, c-format
 msgid "Spawn item group %1$s %2$d times"
 msgstr ""
 
-#: src/debug_menu.cpp:1242
+#: src/debug_menu.cpp:1243
 #, c-format
 msgid "Spawn %1$d %2$s"
 msgstr ""
 
-#: src/debug_menu.cpp:1250
+#: src/debug_menu.cpp:1251
 #, c-format
 msgid "from %1$s"
 msgstr ""
 
-#: src/debug_menu.cpp:1257
+#: src/debug_menu.cpp:1258
 #, c-format
 msgid "Summon: %1$d %2$s"
 msgstr ""
 
-#: src/debug_menu.cpp:1258 src/debug_menu.cpp:1284
+#: src/debug_menu.cpp:1259 src/debug_menu.cpp:1285
 #, c-format
 msgid "Spell Radius: %1$d"
 msgstr ""
 
-#: src/debug_menu.cpp:1265 src/debug_menu.cpp:1270 src/magic.cpp:3092
+#: src/debug_menu.cpp:1266 src/debug_menu.cpp:1271 src/magic.cpp:3092
 #: src/magic.cpp:3097
 msgid "random creature"
 msgstr ""
 
-#: src/debug_menu.cpp:1274
+#: src/debug_menu.cpp:1275
 #, c-format
 msgid "Targets under: %1$dhp become a %2$s"
 msgstr ""
 
-#: src/debug_menu.cpp:1281
+#: src/debug_menu.cpp:1282
 #, c-format
 msgid "Damage: %1$s %2$s"
 msgstr ""
 
-#: src/debug_menu.cpp:1289
+#: src/debug_menu.cpp:1290
 #, c-format
 msgid "Range: %1$s"
 msgstr ""
 
-#: src/debug_menu.cpp:1301
+#: src/debug_menu.cpp:1302
 #, c-format
 msgid "Duration: %1$s"
 msgstr ""
 
-#: src/debug_menu.cpp:1328
+#: src/debug_menu.cpp:1329
 msgid "There are no spells to change."
 msgstr ""
 
-#: src/debug_menu.cpp:1470
+#: src/debug_menu.cpp:1471
 msgid "<<color_white>Spell Name</color>>"
 msgstr ""
 
-#: src/debug_menu.cpp:1471
+#: src/debug_menu.cpp:1472
 msgid "<<color_white>Level</color>>"
 msgstr ""
 
-#: src/debug_menu.cpp:1472
+#: src/debug_menu.cpp:1473
 msgid "<<color_white>Description</color>>"
 msgstr ""
 
-#: src/debug_menu.cpp:1476
+#: src/debug_menu.cpp:1477
 #, c-format
 msgid "<<color_white>[<color_yellow>%1$s</color>] Keybindings</color>>"
 msgstr ""
 
-#: src/debug_menu.cpp:1484
+#: src/debug_menu.cpp:1485
 #, c-format
 msgid "<<color_white>[<color_yellow>%1$s</color>] Filter</color>>"
 msgstr ""
 
-#: src/debug_menu.cpp:1516
+#: src/debug_menu.cpp:1517
 #, c-format
 msgid "%1$3d /%2$3d"
 msgstr ""
 
-#: src/debug_menu.cpp:1583 src/debug_menu.cpp:1691 src/newcharacter.cpp:2025
+#: src/debug_menu.cpp:1584 src/debug_menu.cpp:1692 src/newcharacter.cpp:2025
 #: src/newcharacter.cpp:2448
 msgid "Nothing found."
 msgstr ""
 
-#: src/debug_menu.cpp:1627
+#: src/debug_menu.cpp:1628
 msgid "Filter by spell name or id"
 msgstr ""
 
-#: src/debug_menu.cpp:1654
+#: src/debug_menu.cpp:1655
 #, c-format
 msgid "Set spell level to?  Currently: %1$d"
 msgstr ""
 
-#: src/debug_menu.cpp:1713
+#: src/debug_menu.cpp:1714
 msgid "Choose artifact data:"
 msgstr ""
 
-#: src/debug_menu.cpp:1726
+#: src/debug_menu.cpp:1727
 msgid "Enter max attributes:"
 msgstr ""
 
-#: src/debug_menu.cpp:1727
+#: src/debug_menu.cpp:1728
 msgid "Enter power level:"
 msgstr ""
 
-#: src/debug_menu.cpp:1728
+#: src/debug_menu.cpp:1729
 msgid "Enter negative power limit:"
 msgstr ""
 
-#: src/debug_menu.cpp:1730
+#: src/debug_menu.cpp:1731
 msgid "Is the artifact resonant?"
 msgstr ""
 
-#: src/debug_menu.cpp:1750
+#: src/debug_menu.cpp:1751
 #, c-format
 msgid "You teleport to point %s."
 msgstr ""
 
-#: src/debug_menu.cpp:1755
+#: src/debug_menu.cpp:1756
 msgid "Choose a teleport destination."
 msgstr ""
 
-#: src/debug_menu.cpp:1761 src/overmap_ui.cpp:2209
+#: src/debug_menu.cpp:1762 src/overmap_ui.cpp:2209
 #, c-format
 msgid "You teleport to submap %s."
 msgstr ""
 
-#: src/debug_menu.cpp:1770
+#: src/debug_menu.cpp:1771
 msgid "Teleport where?"
 msgstr ""
 
-#: src/debug_menu.cpp:1778
+#: src/debug_menu.cpp:1779
 #, c-format
 msgid ""
 "Error interpreting teleport target: expected two or three comma-separated "
 "values; got %zu"
 msgstr ""
 
-#: src/debug_menu.cpp:1787
+#: src/debug_menu.cpp:1788
 #, c-format
 msgid ""
 "Error interpreting teleport target: expected an integer or two integers "
 "separated by '; got %s"
 msgstr ""
 
-#: src/debug_menu.cpp:1793 src/debug_menu.cpp:1801
+#: src/debug_menu.cpp:1794 src/debug_menu.cpp:1802
 #, c-format
 msgid "Error interpreting teleport target: %s"
 msgstr ""
 
-#: src/debug_menu.cpp:1814
+#: src/debug_menu.cpp:1815
 msgid "Where is the desired overmap?"
 msgstr ""
 
-#: src/debug_menu.cpp:1825
+#: src/debug_menu.cpp:1826
 #, c-format
 msgid "You teleport to overmap %s."
 msgstr ""
 
-#: src/debug_menu.cpp:1889
+#: src/debug_menu.cpp:1890
 msgid "Maximum strength"
 msgstr ""
 
-#: src/debug_menu.cpp:1890
+#: src/debug_menu.cpp:1891
 msgid "Maximum dexterity"
 msgstr ""
 
-#: src/debug_menu.cpp:1891
+#: src/debug_menu.cpp:1892
 msgid "Maximum intelligence"
 msgstr ""
 
-#: src/debug_menu.cpp:1892
+#: src/debug_menu.cpp:1893
 msgid "Maximum perception"
 msgstr ""
 
-#: src/debug_menu.cpp:1914
+#: src/debug_menu.cpp:1915
 #, c-format
 msgid "Set the stat to?  Currently: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:1929
+#: src/debug_menu.cpp:1930
 #, c-format
 msgid "Hunger: %d  %s"
 msgstr ""
 
-#: src/debug_menu.cpp:1931
+#: src/debug_menu.cpp:1932
 #, c-format
 msgid "Thirst: %d  %s"
 msgstr ""
 
-#: src/debug_menu.cpp:1933
+#: src/debug_menu.cpp:1934
 #, c-format
 msgid "Sleepiness: %d  %s"
 msgstr ""
 
-#: src/debug_menu.cpp:1936
+#: src/debug_menu.cpp:1937
 #, c-format
 msgid "Weariness: %d  %s"
 msgstr ""
 
-#: src/debug_menu.cpp:1939
+#: src/debug_menu.cpp:1940
 msgid "Stored kcal: "
 msgstr ""
 
-#: src/debug_menu.cpp:1940
+#: src/debug_menu.cpp:1941
 msgid "Total kcal: "
 msgstr ""
 
-#: src/debug_menu.cpp:1943
+#: src/debug_menu.cpp:1944
 msgid "Stomach contents"
 msgstr ""
 
-#: src/debug_menu.cpp:1944 src/debug_menu.cpp:1949
+#: src/debug_menu.cpp:1945 src/debug_menu.cpp:1950
 msgid "  Total volume: "
 msgstr ""
 
-#: src/debug_menu.cpp:1945 src/debug_menu.cpp:1950
+#: src/debug_menu.cpp:1946 src/debug_menu.cpp:1951
 msgid "  Water volume: "
 msgstr ""
 
-#: src/debug_menu.cpp:1946 src/debug_menu.cpp:1951
+#: src/debug_menu.cpp:1947 src/debug_menu.cpp:1952
 #, c-format
 msgid "  kcal: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:1948
+#: src/debug_menu.cpp:1949
 msgid "Gut contents"
 msgstr ""
 
 #. ~ Label of UI widget "hunger_desc_label"
-#: src/debug_menu.cpp:1955 src/distraction_manager.cpp:38
+#: src/debug_menu.cpp:1956 src/distraction_manager.cpp:38
 #: data/json/ui/hunger.json
 msgid "Hunger"
 msgstr ""
 
-#: src/debug_menu.cpp:1956
+#: src/debug_menu.cpp:1957
 msgid "Stored kcal"
 msgstr ""
 
-#: src/debug_menu.cpp:1957
+#: src/debug_menu.cpp:1958
 msgid "Stomach kcal"
 msgstr ""
 
-#: src/debug_menu.cpp:1958
+#: src/debug_menu.cpp:1959
 msgid "Gut kcal"
 msgstr ""
 
 #. ~ Label of UI widget "sleepiness_num"
 #. ~ Text in UI widget "zenfs_sleepiness_bar_label"
-#: src/debug_menu.cpp:1960 data/json/ui/sleepiness.json
+#: src/debug_menu.cpp:1961 data/json/ui/sleepiness.json
 #: data/json/ui/zenfs/health.json
 msgid "Sleepiness"
 msgstr ""
 
-#: src/debug_menu.cpp:1961
+#: src/debug_menu.cpp:1962
 msgid "Sleep Deprivation"
 msgstr ""
 
@@ -12699,233 +12699,233 @@ msgstr ""
 #. ~ Label of UI widget "all_weariness_layout"
 #. ~ Label of UI widget "spacebar_all_weariness_layout"
 #. ~ Label of UI widget "zenfs_weariness_bar_10"
-#: src/debug_menu.cpp:1962 data/json/ui/sidebar-legacy-labels-narrow.json
+#: src/debug_menu.cpp:1963 data/json/ui/sidebar-legacy-labels-narrow.json
 #: data/json/ui/spacebar/spacebar_player_weariness_mood_block.json
 #: data/json/ui/weariness.json data/json/ui/zenfs/health.json
 msgid "Weariness"
 msgstr ""
 
-#: src/debug_menu.cpp:1963
+#: src/debug_menu.cpp:1964
 msgid "Weariness tracker"
 msgstr ""
 
-#: src/debug_menu.cpp:1965
+#: src/debug_menu.cpp:1966
 msgid "Reset all basic needs"
 msgstr ""
 
-#: src/debug_menu.cpp:1966
+#: src/debug_menu.cpp:1967
 msgid "Empty stomach and guts"
 msgstr ""
 
-#: src/debug_menu.cpp:1970
+#: src/debug_menu.cpp:1971
 #, c-format
 msgid "%s: daily %d, overall %d"
 msgstr ""
 
-#: src/debug_menu.cpp:1978
+#: src/debug_menu.cpp:1979
 #, c-format
 msgid "Set hunger to?  Currently: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:1984
+#: src/debug_menu.cpp:1985
 #, c-format
 msgid "Set stored kcal to?  Currently: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:1990
+#: src/debug_menu.cpp:1991
 #, c-format
 msgid "Set stomach kcal to?  Currently: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:1997
+#: src/debug_menu.cpp:1998
 #, c-format
 msgid "Set gut kcal to?  Currently: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:2003
+#: src/debug_menu.cpp:2004
 #, c-format
 msgid "Set thirst to?  Currently: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:2009
+#: src/debug_menu.cpp:2010
 #, c-format
 msgid "Set sleepiness to?  Currently: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:2015
+#: src/debug_menu.cpp:2016
 #, c-format
 msgid "Set sleep deprivation to?  Currently: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:2022
+#: src/debug_menu.cpp:2023
 #, c-format
 msgid "Reset weariness?  Currently: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:2028
+#: src/debug_menu.cpp:2029
 #, c-format
 msgid "Set weariness tracker to?  Currently: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:2049 src/debug_menu.cpp:2780
+#: src/debug_menu.cpp:2050 src/debug_menu.cpp:2805
 #, c-format
 msgid "Set %s to?  Currently: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:2105
+#: src/debug_menu.cpp:2106
 msgid "trust"
 msgstr ""
 
-#: src/debug_menu.cpp:2106
+#: src/debug_menu.cpp:2107
 msgid "fear"
 msgstr ""
 
-#: src/debug_menu.cpp:2107
+#: src/debug_menu.cpp:2108
 msgid "value"
 msgstr ""
 
-#: src/debug_menu.cpp:2108
+#: src/debug_menu.cpp:2109
 msgid "anger"
 msgstr ""
 
-#: src/debug_menu.cpp:2109
+#: src/debug_menu.cpp:2110
 msgid "owed"
 msgstr ""
 
-#: src/debug_menu.cpp:2110
+#: src/debug_menu.cpp:2111
 msgid "sold"
 msgstr ""
 
-#: src/debug_menu.cpp:2116
+#: src/debug_menu.cpp:2117
 #, c-format
 msgid "Set trust to?  Currently: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:2122
+#: src/debug_menu.cpp:2123
 #, c-format
 msgid "Set fear to?  Currently: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:2127
+#: src/debug_menu.cpp:2128
 #, c-format
 msgid "Set value to?  Currently: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:2133
+#: src/debug_menu.cpp:2134
 #, c-format
 msgid "Set anger to?  Currently: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:2139
+#: src/debug_menu.cpp:2140
 #, c-format
 msgid "Set owed to?  Currently: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:2144
+#: src/debug_menu.cpp:2145
 #, c-format
 msgid "Set sold to?  Currently: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:2154
+#: src/debug_menu.cpp:2155
 msgid "aggression"
 msgstr ""
 
-#: src/debug_menu.cpp:2155
+#: src/debug_menu.cpp:2156
 msgid "bravery"
 msgstr ""
 
-#: src/debug_menu.cpp:2156
+#: src/debug_menu.cpp:2157
 msgid "collector"
 msgstr ""
 
-#: src/debug_menu.cpp:2157
+#: src/debug_menu.cpp:2158
 msgid "altruism"
 msgstr ""
 
-#: src/debug_menu.cpp:2169
+#: src/debug_menu.cpp:2170
 #, c-format
 msgid "Set bravery to?  Currently: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:2174
+#: src/debug_menu.cpp:2175
 #, c-format
 msgid "Set collector to?  Currently: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:2180
+#: src/debug_menu.cpp:2181
 #, c-format
 msgid "Set altruism to?  Currently: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:2193
+#: src/debug_menu.cpp:2194
 msgid "Select a value and press enter to change it."
 msgstr ""
 
-#: src/debug_menu.cpp:2195
+#: src/debug_menu.cpp:2196
 msgid "Current save file name"
 msgstr ""
 
-#: src/debug_menu.cpp:2197
+#: src/debug_menu.cpp:2198
 msgid "Current pre-Cataclysm name"
 msgstr ""
 
-#: src/debug_menu.cpp:2198
+#: src/debug_menu.cpp:2199
 msgid "Current age"
 msgstr ""
 
-#: src/debug_menu.cpp:2199
+#: src/debug_menu.cpp:2200
 msgid "Current height in cm"
 msgstr ""
 
-#: src/debug_menu.cpp:2200
+#: src/debug_menu.cpp:2201
 msgid "Current blood type"
 msgstr ""
 
-#: src/debug_menu.cpp:2207
+#: src/debug_menu.cpp:2208
 msgid "Rename save file (WARNING: this will duplicate the save):"
 msgstr ""
 
-#: src/debug_menu.cpp:2219
+#: src/debug_menu.cpp:2220
 msgid "Rename character:"
 msgstr ""
 
-#: src/debug_menu.cpp:2229 src/newcharacter.cpp:4714
+#: src/debug_menu.cpp:2230 src/newcharacter.cpp:4714
 msgid "Enter age in years.  Minimum 16, maximum 55"
 msgstr ""
 
-#: src/debug_menu.cpp:2236 src/newcharacter.cpp:4721
+#: src/debug_menu.cpp:2237 src/newcharacter.cpp:4721
 #, c-format
 msgid "Enter height in centimeters.  Minimum %d, maximum %d"
 msgstr ""
 
-#: src/debug_menu.cpp:2244 src/newcharacter.cpp:4729
+#: src/debug_menu.cpp:2245 src/newcharacter.cpp:4729
 msgid "Select blood type"
 msgstr ""
 
-#: src/debug_menu.cpp:2254 src/newcharacter.cpp:4740
+#: src/debug_menu.cpp:2255 src/newcharacter.cpp:4740
 msgid "Select Rh factor"
 msgstr ""
 
-#: src/debug_menu.cpp:2255 src/newcharacter.cpp:4741
+#: src/debug_menu.cpp:2256 src/newcharacter.cpp:4741
 msgid "negative"
 msgstr ""
 
-#: src/debug_menu.cpp:2256 src/newcharacter.cpp:4742
+#: src/debug_menu.cpp:2257 src/newcharacter.cpp:4742
 msgid "positive"
 msgstr ""
 
-#: src/debug_menu.cpp:2299
+#: src/debug_menu.cpp:2300
 msgid "Edit which character?"
 msgstr ""
 
-#: src/debug_menu.cpp:2323 src/newcharacter.cpp:3855 src/newcharacter.cpp:3875
+#: src/debug_menu.cpp:2324 src/newcharacter.cpp:3855 src/newcharacter.cpp:3875
 #: src/newcharacter.cpp:4754 src/newcharacter.cpp:4766
 #: src/player_display.cpp:1105 src/player_display.cpp:1110
 #: src/player_display.cpp:1113 src/player_display.cpp:1154
 msgid "Female"
 msgstr ""
 
-#: src/debug_menu.cpp:2323 src/newcharacter.cpp:3842 src/newcharacter.cpp:3850
+#: src/debug_menu.cpp:2324 src/newcharacter.cpp:3842 src/newcharacter.cpp:3850
 #: src/newcharacter.cpp:3862 src/newcharacter.cpp:3870
 #: src/newcharacter.cpp:4755 src/newcharacter.cpp:4767
 #: src/player_display.cpp:1105 src/player_display.cpp:1110
@@ -12933,696 +12933,705 @@ msgstr ""
 msgid "Male"
 msgstr ""
 
-#: src/debug_menu.cpp:2324
+#: src/debug_menu.cpp:2325
 msgid "class ID:"
 msgstr ""
 
-#: src/debug_menu.cpp:2326
+#: src/debug_menu.cpp:2327
 #, c-format
 msgid "Unique Id: %s"
 msgstr ""
 
-#: src/debug_menu.cpp:2328
+#: src/debug_menu.cpp:2329
 #, c-format
 msgid "Faction: %s (API v%d)"
 msgstr ""
 
-#: src/debug_menu.cpp:2330
+#: src/debug_menu.cpp:2331
 #, c-format
 msgid "Attitude: %s"
 msgstr ""
 
-#: src/debug_menu.cpp:2333
+#: src/debug_menu.cpp:2334
 #, c-format
 msgid "Destination: %s %s"
 msgstr ""
 
-#: src/debug_menu.cpp:2336 src/debug_menu.cpp:2810
+#: src/debug_menu.cpp:2337 src/debug_menu.cpp:2836
 #, c-format
 msgid "Trust: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:2337
+#: src/debug_menu.cpp:2338
 #, c-format
 msgid "Fear: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:2338
+#: src/debug_menu.cpp:2339
 #, c-format
 msgid "Value: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:2339
+#: src/debug_menu.cpp:2340
 #, c-format
 msgid "Anger: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:2340
+#: src/debug_menu.cpp:2341
 #, c-format
 msgid "Owed: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:2341
+#: src/debug_menu.cpp:2342
 #, c-format
 msgid "Sold: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:2343
+#: src/debug_menu.cpp:2344
 #, c-format
 msgid "Aggression: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:2345
+#: src/debug_menu.cpp:2346
 #, c-format
 msgid "Bravery: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:2346
+#: src/debug_menu.cpp:2347
 #, c-format
 msgid "Collector: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:2347
+#: src/debug_menu.cpp:2348
 #, c-format
 msgid "Altruism: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:2349
+#: src/debug_menu.cpp:2350
 msgid "Needs:"
 msgstr ""
 
-#: src/debug_menu.cpp:2354
+#: src/debug_menu.cpp:2355
 #, c-format
 msgid "Total morale: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:2358
+#: src/debug_menu.cpp:2359
 msgid "Player"
 msgstr ""
 
-#: src/debug_menu.cpp:2368
+#: src/debug_menu.cpp:2369
 msgid "Edit description - name, age, height or blood type"
 msgstr ""
 
-#: src/debug_menu.cpp:2369
+#: src/debug_menu.cpp:2370
 msgid "Edit skills"
 msgstr ""
 
-#: src/debug_menu.cpp:2370
+#: src/debug_menu.cpp:2371
 msgid "Edit theoretical skill knowledge"
 msgstr ""
 
-#: src/debug_menu.cpp:2371
+#: src/debug_menu.cpp:2372
 msgid "Edit proficiencies"
 msgstr ""
 
-#: src/debug_menu.cpp:2372
+#: src/debug_menu.cpp:2373
 msgid "Edit stats"
 msgstr ""
 
-#: src/debug_menu.cpp:2373
+#: src/debug_menu.cpp:2374
 msgid "Edit spells"
 msgstr ""
 
-#: src/debug_menu.cpp:2374
+#: src/debug_menu.cpp:2375
 msgid "Grant items"
 msgstr ""
 
-#: src/debug_menu.cpp:2375
+#: src/debug_menu.cpp:2376
 msgid "Delete (all) items"
 msgstr ""
 
-#: src/debug_menu.cpp:2376
+#: src/debug_menu.cpp:2377
 msgid "Drop items"
 msgstr ""
 
-#: src/debug_menu.cpp:2377
+#: src/debug_menu.cpp:2378
 msgid "Wear/wield an item from player's inventory"
 msgstr ""
 
-#: src/debug_menu.cpp:2378
+#: src/debug_menu.cpp:2379
 msgid "Set radiation"
 msgstr ""
 
-#: src/debug_menu.cpp:2380
+#: src/debug_menu.cpp:2381
 msgid "Set stamina"
 msgstr ""
 
-#: src/debug_menu.cpp:2382
+#: src/debug_menu.cpp:2383
 msgid "Cause pain"
 msgstr ""
 
-#: src/debug_menu.cpp:2383
+#: src/debug_menu.cpp:2384
 msgid "Set health"
 msgstr ""
 
-#: src/debug_menu.cpp:2384
+#: src/debug_menu.cpp:2385
 msgid "Set needs"
 msgstr ""
 
-#: src/debug_menu.cpp:2387
+#: src/debug_menu.cpp:2388
 msgid "Set kill XP"
 msgstr ""
 
-#: src/debug_menu.cpp:2390
+#: src/debug_menu.cpp:2391
 msgid "Edit [b]ionics"
 msgstr ""
 
-#: src/debug_menu.cpp:2393
+#: src/debug_menu.cpp:2394
 msgid "Status window"
 msgstr ""
 
-#: src/debug_menu.cpp:2396
+#: src/debug_menu.cpp:2397
 msgid "Print temperature"
 msgstr ""
 
-#: src/debug_menu.cpp:2397
+#: src/debug_menu.cpp:2398
 msgid "Cause asthma attack"
 msgstr ""
 
-#: src/debug_menu.cpp:2398
+#: src/debug_menu.cpp:2399
 msgid "Edit missions (WARNING: Unstable!)"
 msgstr ""
 
-#: src/debug_menu.cpp:2399
+#: src/debug_menu.cpp:2400
 msgid "Print vars to file"
 msgstr ""
 
-#: src/debug_menu.cpp:2401
+#: src/debug_menu.cpp:2402
 msgid "Write effect_on_condition(s) to eocs.output"
 msgstr ""
 
-#: src/debug_menu.cpp:2402
+#: src/debug_menu.cpp:2403
 msgid "Edit vars"
 msgstr ""
 
-#: src/debug_menu.cpp:2405
+#: src/debug_menu.cpp:2406
 msgid "Add mission"
 msgstr ""
 
-#: src/debug_menu.cpp:2406
+#: src/debug_menu.cpp:2407
 msgid "Randomize with class"
 msgstr ""
 
-#: src/debug_menu.cpp:2407
+#: src/debug_menu.cpp:2408
 msgid "Set attitude"
 msgstr ""
 
-#: src/debug_menu.cpp:2408 src/debug_menu.cpp:2823
+#: src/debug_menu.cpp:2409 src/debug_menu.cpp:2849
 msgid "Set opinions"
 msgstr ""
 
-#: src/debug_menu.cpp:2409
+#: src/debug_menu.cpp:2410
 msgid "Set personality"
 msgstr ""
 
-#: src/debug_menu.cpp:2410
+#: src/debug_menu.cpp:2411
 msgid "Set faction"
 msgstr ""
 
-#: src/debug_menu.cpp:2412
+#: src/debug_menu.cpp:2413
 msgid "Run EOC with character as alpha talker (avatar as beta)"
 msgstr ""
 
-#: src/debug_menu.cpp:2414
+#: src/debug_menu.cpp:2415
 msgid "Run EOC with character as beta talker (avatar as alpha)"
 msgstr ""
 
-#: src/debug_menu.cpp:2437
+#: src/debug_menu.cpp:2438
 msgid "Delete all items from the target?"
 msgstr ""
 
-#: src/debug_menu.cpp:2449
+#: src/debug_menu.cpp:2450
 msgid "Make target equip"
 msgstr ""
 
-#: src/debug_menu.cpp:2467 src/editmap.cpp:1228
+#: src/debug_menu.cpp:2468 src/editmap.cpp:1228
 #, c-format
 msgid "Set rads to?  Currently: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:2477
+#: src/debug_menu.cpp:2478
 #, c-format
 msgid "Set stamina to?  Current: %d. Max: %d."
 msgstr ""
 
-#: src/debug_menu.cpp:2482
+#: src/debug_menu.cpp:2483
 msgid "Target stamina value out of bounds!"
 msgstr ""
 
-#: src/debug_menu.cpp:2498
+#: src/debug_menu.cpp:2499
 #, c-format
 msgid "Set kill XP to?  Currently: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:2514
+#: src/debug_menu.cpp:2515
 #, c-format
 msgid "Cause how much pain?  Current pain: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:2528
+#: src/debug_menu.cpp:2529
 msgid "Mutate category"
 msgstr ""
 
-#: src/debug_menu.cpp:2529
+#: src/debug_menu.cpp:2530
 msgid "Reset mutations"
 msgstr ""
 
-#: src/debug_menu.cpp:2543
+#: src/debug_menu.cpp:2544
 msgid "Choose mutation category:"
 msgstr ""
 
-#: src/debug_menu.cpp:2553
+#: src/debug_menu.cpp:2554
 msgid "Include post-threshold traits?"
 msgstr ""
 
-#: src/debug_menu.cpp:2558
+#: src/debug_menu.cpp:2559
 msgid "Remove all mutations?"
 msgstr ""
 
-#: src/debug_menu.cpp:2573
+#: src/debug_menu.cpp:2574
 msgid "Health modifier"
 msgstr ""
 
 #. ~ Label of UI widget "rad_badge_desc"
-#: src/debug_menu.cpp:2574 data/json/ui/radiation.json
+#: src/debug_menu.cpp:2575 data/json/ui/radiation.json
 msgid "Radiation"
 msgstr ""
 
-#: src/debug_menu.cpp:2579
+#: src/debug_menu.cpp:2580
 #, c-format
 msgid "Set lifestyle value to?  Currently: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:2585
+#: src/debug_menu.cpp:2586
 #, c-format
 msgid "Set the daily health value to?  Currently: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:2591
+#: src/debug_menu.cpp:2592
 #, c-format
 msgid "Set the radiation to?  Currently: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:2605
+#: src/debug_menu.cpp:2606
 msgid "Choose mission type"
 msgstr ""
 
-#: src/debug_menu.cpp:2636
+#: src/debug_menu.cpp:2637
 msgid "Choose new class"
 msgstr ""
 
-#: src/debug_menu.cpp:2641
+#: src/debug_menu.cpp:2642
 #, c-format
 msgid "%1$s (ID: %2$s)"
 msgstr ""
 
-#: src/debug_menu.cpp:2654
+#: src/debug_menu.cpp:2655
 msgid "Choose new attitude"
 msgstr ""
 
-#: src/debug_menu.cpp:2660 src/npc.cpp:3179
+#: src/debug_menu.cpp:2661 src/npc.cpp:3179
 msgid "Unknown attitude"
 msgstr ""
 
-#: src/debug_menu.cpp:2701 src/debug_menu.cpp:3841
+#: src/debug_menu.cpp:2702 src/debug_menu.cpp:3867
 msgid "Var list written to var_list.output"
 msgstr ""
 
-#: src/debug_menu.cpp:2706 src/debug_menu.cpp:4240
+#: src/debug_menu.cpp:2707 src/debug_menu.cpp:4266
 msgid "effect_on_condition list written to eocs.output"
 msgstr ""
 
-#: src/debug_menu.cpp:2711
+#: src/debug_menu.cpp:2712
 #, c-format
 msgid "Edit %s's variables"
 msgstr ""
 
-#: src/debug_menu.cpp:2734
+#: src/debug_menu.cpp:2735
 msgid "Like"
 msgstr ""
 
-#: src/debug_menu.cpp:2735
+#: src/debug_menu.cpp:2736
 msgid "Respect"
 msgstr ""
 
-#: src/debug_menu.cpp:2736
+#: src/debug_menu.cpp:2737
 msgid "Trust"
 msgstr ""
 
-#: src/debug_menu.cpp:2742
+#: src/debug_menu.cpp:2743
 #, c-format
 msgid "Change like from %d to: "
 msgstr ""
 
-#: src/debug_menu.cpp:2747
+#: src/debug_menu.cpp:2748
 #, c-format
 msgid "Change respect from %d to: "
 msgstr ""
 
-#: src/debug_menu.cpp:2752
+#: src/debug_menu.cpp:2753
 #, c-format
 msgid "Change trust from %d to: "
 msgstr ""
 
-#: src/debug_menu.cpp:2762
+#: src/debug_menu.cpp:2772
+msgid "Edit which entry?"
+msgstr ""
+
+#: src/debug_menu.cpp:2774
+#, c-format
+msgid "%d kcal, expires %s"
+msgstr ""
+
+#: src/debug_menu.cpp:2787
 #, c-format
 msgid "kcal: have stored %i"
 msgstr ""
 
-#: src/debug_menu.cpp:2765
+#: src/debug_menu.cpp:2790
 #, c-format
 msgid "%s: have stored %d"
 msgstr ""
 
-#: src/debug_menu.cpp:2773
+#: src/debug_menu.cpp:2798
 #, c-format
 msgid "Change food from %d to: "
 msgstr ""
 
-#: src/debug_menu.cpp:2802
+#: src/debug_menu.cpp:2828
 #, c-format
 msgid "Id: %s"
 msgstr ""
 
-#: src/debug_menu.cpp:2803
+#: src/debug_menu.cpp:2829
 #, c-format
 msgid "Wealth: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:2804
+#: src/debug_menu.cpp:2830
 #, c-format
 msgid "Currency: %s"
 msgstr ""
 
-#: src/debug_menu.cpp:2805
+#: src/debug_menu.cpp:2831
 #, c-format
 msgid "Size: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:2806
+#: src/debug_menu.cpp:2832
 #, c-format
 msgid "Power: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:2807
+#: src/debug_menu.cpp:2833
 #, c-format
 msgid "Food Supply: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:2808
+#: src/debug_menu.cpp:2834
 #, c-format
 msgid "Like: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:2809
+#: src/debug_menu.cpp:2835
 #, c-format
 msgid "Respect: %d"
 msgstr ""
 
-#: src/debug_menu.cpp:2811
+#: src/debug_menu.cpp:2837
 #, c-format
 msgid "Known by you: %s"
 msgstr ""
 
-#: src/debug_menu.cpp:2812
+#: src/debug_menu.cpp:2838
 #, c-format
 msgid "Lone wolf: %s"
 msgstr ""
 
-#: src/debug_menu.cpp:2819
+#: src/debug_menu.cpp:2845
 msgid "Set wealth"
 msgstr ""
 
-#: src/debug_menu.cpp:2820
+#: src/debug_menu.cpp:2846
 msgid "Set size"
 msgstr ""
 
-#: src/debug_menu.cpp:2821
+#: src/debug_menu.cpp:2847
 msgid "Set power"
 msgstr ""
 
-#: src/debug_menu.cpp:2822
+#: src/debug_menu.cpp:2848
 msgid "Set food supply"
 msgstr ""
 
-#: src/debug_menu.cpp:2824
+#: src/debug_menu.cpp:2850
 msgid "Toggle Known by you"
 msgstr ""
 
-#: src/debug_menu.cpp:2825
+#: src/debug_menu.cpp:2851
 msgid "Toggle Lone wolf"
 msgstr ""
 
-#: src/debug_menu.cpp:2831
+#: src/debug_menu.cpp:2857
 #, c-format
 msgid "Change wealth from %d to: "
 msgstr ""
 
-#: src/debug_menu.cpp:2836
+#: src/debug_menu.cpp:2862
 #, c-format
 msgid "Change size from %d to: "
 msgstr ""
 
-#: src/debug_menu.cpp:2841
+#: src/debug_menu.cpp:2867
 #, c-format
 msgid "Change power from %d to: "
 msgstr ""
 
-#: src/debug_menu.cpp:2863
+#: src/debug_menu.cpp:2889
 msgid "Yet to start"
 msgstr ""
 
-#: src/debug_menu.cpp:2864
+#: src/debug_menu.cpp:2890
 msgid "In progress"
 msgstr ""
 
 #. ~ EOC option name in effect in EoC "EOC_XE_RIDDLE_07"
-#: src/debug_menu.cpp:2865 data/mods/Xedra_Evolved/eocs/eoc_riddles.json
+#: src/debug_menu.cpp:2891 data/mods/Xedra_Evolved/eocs/eoc_riddles.json
 msgid "Success"
 msgstr ""
 
 #. ~ Morale text
-#: src/debug_menu.cpp:2866 data/json/morale_types.json
+#: src/debug_menu.cpp:2892 data/json/morale_types.json
 msgid "Failure"
 msgstr ""
 
-#: src/debug_menu.cpp:2875
+#: src/debug_menu.cpp:2901
 msgid "Bugged"
 msgstr ""
 
-#: src/debug_menu.cpp:2881 src/wish.cpp:220
+#: src/debug_menu.cpp:2907 src/wish.cpp:220
 msgid "Type:"
 msgstr ""
 
-#: src/debug_menu.cpp:2882
+#: src/debug_menu.cpp:2908
 msgid " Status:"
 msgstr ""
 
-#: src/debug_menu.cpp:2883
+#: src/debug_menu.cpp:2909
 msgid " ID:"
 msgstr ""
 
-#: src/debug_menu.cpp:2884
+#: src/debug_menu.cpp:2910
 msgid " NPC ID:"
 msgstr ""
 
-#: src/debug_menu.cpp:2885
+#: src/debug_menu.cpp:2911
 msgid " Target:"
 msgstr ""
 
-#: src/debug_menu.cpp:2886
+#: src/debug_menu.cpp:2912
 msgid "Player ID:"
 msgstr ""
 
-#: src/debug_menu.cpp:2916 src/debug_menu.cpp:2943
+#: src/debug_menu.cpp:2942 src/debug_menu.cpp:2969
 msgid "Select mission to edit"
 msgstr ""
 
-#: src/debug_menu.cpp:2918
+#: src/debug_menu.cpp:2944
 msgid "Currently assigned missions:"
 msgstr ""
 
-#: src/debug_menu.cpp:2924
+#: src/debug_menu.cpp:2950
 msgid "Not assigned missions:"
 msgstr ""
 
-#: src/debug_menu.cpp:2946 src/diary.cpp:162
+#: src/debug_menu.cpp:2972 src/diary.cpp:162
 msgid "Active missions:"
 msgstr ""
 
-#: src/debug_menu.cpp:2952 src/diary.cpp:163
+#: src/debug_menu.cpp:2978 src/diary.cpp:163
 msgid "Completed missions:"
 msgstr ""
 
-#: src/debug_menu.cpp:2958 src/diary.cpp:164
+#: src/debug_menu.cpp:2984 src/diary.cpp:164
 msgid "Failed missions:"
 msgstr ""
 
-#: src/debug_menu.cpp:2984
+#: src/debug_menu.cpp:3010
 msgid "Removing from active_missions"
 msgstr ""
 
-#: src/debug_menu.cpp:2987
+#: src/debug_menu.cpp:3013
 msgid "Removing from completed_missions"
 msgstr ""
 
-#: src/debug_menu.cpp:2990
+#: src/debug_menu.cpp:3016
 msgid "Removing from failed_missions"
 msgstr ""
 
-#: src/debug_menu.cpp:2995
+#: src/debug_menu.cpp:3021
 msgid "Unsetting current objective"
 msgstr ""
 
-#: src/debug_menu.cpp:3001
+#: src/debug_menu.cpp:3027
 #, c-format
 msgid "Removing from %s missions_assigned"
 msgstr ""
 
-#: src/debug_menu.cpp:3004
+#: src/debug_menu.cpp:3030
 #, c-format
 msgid "Removing from %s missions"
 msgstr ""
 
-#: src/debug_menu.cpp:3018
+#: src/debug_menu.cpp:3044
 msgid "Fail mission"
 msgstr ""
 
-#: src/debug_menu.cpp:3019
+#: src/debug_menu.cpp:3045
 msgid "Mark as complete"
 msgstr ""
 
-#: src/debug_menu.cpp:3020
+#: src/debug_menu.cpp:3046
 msgid "Remove mission without proper cleanup"
 msgstr ""
 
-#: src/debug_menu.cpp:3045
+#: src/debug_menu.cpp:3071
 msgid "Benchmark in progress…"
 msgstr ""
 
-#: src/debug_menu.cpp:3073
+#: src/debug_menu.cpp:3099
 #, c-format
 msgid "Drew %d times in %.3f seconds.  (%.3f fps average)"
 msgstr ""
 
-#: src/debug_menu.cpp:3086
+#: src/debug_menu.cpp:3112
 #, c-format
 msgid "Location %d:%d in %d:%d, %s\n"
 msgstr ""
 
-#: src/debug_menu.cpp:3087
+#: src/debug_menu.cpp:3113
 #, c-format
 msgid "Current turn: %d.\n"
 msgstr ""
 
-#: src/debug_menu.cpp:3088
+#: src/debug_menu.cpp:3114
 #, c-format
 msgid "%d creature exists.\n"
 msgid_plural "%d creatures exist.\n"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/debug_menu.cpp:3107
+#: src/debug_menu.cpp:3133
 msgid ""
 "\n"
 "Specific creature type list:\n"
 msgstr ""
 
-#: src/debug_menu.cpp:3123
+#: src/debug_menu.cpp:3149
 #, c-format
 msgid "%s: map ( %d:%d ) pos ( %d:%d )"
 msgstr ""
 
-#: src/debug_menu.cpp:3127
+#: src/debug_menu.cpp:3153
 #, c-format
 msgid "(you: %d:%d)"
 msgstr ""
 
-#: src/debug_menu.cpp:3129
+#: src/debug_menu.cpp:3155
 #, c-format
 msgid "Stomach Contents: %d mL / %d mL kcal: %d, Water: %d mL"
 msgstr ""
 
-#: src/debug_menu.cpp:3134
+#: src/debug_menu.cpp:3160
 #, c-format
 msgid ""
 "Guts Contents: %d mL / %d mL kcal: %d, Water: %d mL\n"
 "Hunger: %d, Thirst: %d, kcal: %d / %d"
 msgstr ""
 
-#: src/debug_menu.cpp:3140
+#: src/debug_menu.cpp:3166
 #, c-format
 msgid ""
 "Body Mass Index: %.0f\n"
 "Basal Metabolic Rate: %i"
 msgstr ""
 
-#: src/debug_menu.cpp:3142
+#: src/debug_menu.cpp:3168
 #, c-format
 msgid "Player activity level: %s"
 msgstr ""
 
-#: src/debug_menu.cpp:3143
+#: src/debug_menu.cpp:3169
 #, c-format
 msgid "Is debugger active: %s"
 msgstr ""
 
-#: src/debug_menu.cpp:3165
+#: src/debug_menu.cpp:3191
 msgid "Choose vehicle to spawn"
 msgstr ""
 
 #. ~ Menu entry in vehicle wish menu: 1st string: displayed name, 2nd string:
 #. internal name of vehicle
 #. ~ %1$s - npc name, %2$s - npc current activity name.
-#: src/debug_menu.cpp:3169 src/npc.cpp:3957
+#: src/debug_menu.cpp:3195 src/npc.cpp:3957
 #, c-format
 msgid "%1$s (%2$s)"
 msgstr ""
 
-#: src/debug_menu.cpp:3179
+#: src/debug_menu.cpp:3205
 msgid "Vehicle condition"
 msgstr ""
 
-#: src/debug_menu.cpp:3180
+#: src/debug_menu.cpp:3206
 msgid "Undamaged"
 msgstr ""
 
-#: src/debug_menu.cpp:3181
+#: src/debug_menu.cpp:3207
 msgid "Light damage"
 msgstr ""
 
-#: src/debug_menu.cpp:3182
+#: src/debug_menu.cpp:3208
 msgid "Disabled (tires or engine)"
 msgstr ""
 
-#: src/debug_menu.cpp:3204
+#: src/debug_menu.cpp:3230
 msgid "Choose NPC to hold topic:"
 msgstr ""
 
-#: src/debug_menu.cpp:3220
+#: src/debug_menu.cpp:3246
 msgid "Choose talk topic to display:"
 msgstr ""
 
-#: src/debug_menu.cpp:3233
+#: src/debug_menu.cpp:3259
 msgid "You need an NPC to add a talk topic to."
 msgstr ""
 
-#: src/debug_menu.cpp:3242 src/options.cpp:2737 src/worldfactory.cpp:1652
+#: src/debug_menu.cpp:3268 src/options.cpp:2737 src/worldfactory.cpp:1652
 msgid "Reset"
 msgstr ""
 
 #. ~ Item action name of "FISH_TRAP"
-#: src/debug_menu.cpp:3243 data/json/item_actions.json
+#: src/debug_menu.cpp:3269 data/json/item_actions.json
 msgid "Set"
 msgstr "Plassere"
 
-#: src/debug_menu.cpp:3251
+#: src/debug_menu.cpp:3277
 #, c-format
 msgid "Set temperature to?  [%s]"
 msgstr ""
 
-#: src/debug_menu.cpp:3299
+#: src/debug_menu.cpp:3325
 msgid "There's no one to export!"
 msgstr ""
 
@@ -13630,7 +13639,7 @@ msgstr ""
 #. ~ EOC option name in effect in EoC "EOC_PYROKIN_CAUTERIZE_SELECTOR"
 #. ~ EOC option name in effect in EoC
 #. "EOC_VITAKIN_CONCENTRATED_HEALING_SELECTOR"
-#: src/debug_menu.cpp:3325 data/json/ui/bodypart_armor.json
+#: src/debug_menu.cpp:3351 data/json/ui/bodypart_armor.json
 #: data/mods/MindOverMatter/powers/pyrokinesis_eoc.json
 #: data/mods/MindOverMatter/powers/vitakinesis_concentration_eoc.json
 msgid "Torso"
@@ -13640,100 +13649,100 @@ msgstr ""
 #. ~ EOC option name in effect in EoC "EOC_PYROKIN_CAUTERIZE_SELECTOR"
 #. ~ EOC option name in effect in EoC
 #. "EOC_VITAKIN_CONCENTRATED_HEALING_SELECTOR"
-#: src/debug_menu.cpp:3326 data/json/ui/bodypart_armor.json
+#: src/debug_menu.cpp:3352 data/json/ui/bodypart_armor.json
 #: data/mods/MindOverMatter/powers/pyrokinesis_eoc.json
 #: data/mods/MindOverMatter/powers/vitakinesis_concentration_eoc.json
 msgid "Head"
 msgstr ""
 
-#: src/debug_menu.cpp:3327
+#: src/debug_menu.cpp:3353
 msgid "Left arm"
 msgstr ""
 
-#: src/debug_menu.cpp:3328
+#: src/debug_menu.cpp:3354
 msgid "Right arm"
 msgstr ""
 
-#: src/debug_menu.cpp:3329
+#: src/debug_menu.cpp:3355
 msgid "Left leg"
 msgstr ""
 
-#: src/debug_menu.cpp:3330
+#: src/debug_menu.cpp:3356
 msgid "Right leg"
 msgstr ""
 
-#: src/debug_menu.cpp:3356
+#: src/debug_menu.cpp:3382
 msgid "Add bleeding duration in minutes, equal to intensity:"
 msgstr ""
 
-#: src/debug_menu.cpp:3364 src/debug_menu.cpp:3367
+#: src/debug_menu.cpp:3390 src/debug_menu.cpp:3393
 msgid "Select new weather pattern:"
 msgstr ""
 
-#: src/debug_menu.cpp:3369
+#: src/debug_menu.cpp:3395
 msgid "Disable weather forcing"
 msgstr ""
 
-#: src/debug_menu.cpp:3369
+#: src/debug_menu.cpp:3395
 msgid "Keep normal weather patterns"
 msgstr ""
 
-#: src/debug_menu.cpp:3411
+#: src/debug_menu.cpp:3437
 #, c-format
 msgid "Damage self for how much?  HP: %s"
 msgstr ""
 
-#: src/debug_menu.cpp:3425
+#: src/debug_menu.cpp:3451
 msgid "Report written to debug.log"
 msgstr ""
 
-#: src/debug_menu.cpp:3431
+#: src/debug_menu.cpp:3457
 msgid " and to the clipboard."
 msgstr ""
 
-#: src/debug_menu.cpp:3451
+#: src/debug_menu.cpp:3477
 msgid "Effect list written to effect_list.output"
 msgstr ""
 
-#: src/debug_menu.cpp:3462
+#: src/debug_menu.cpp:3488
 msgid "Volume of sound: "
 msgstr ""
 
-#: src/debug_menu.cpp:3466
+#: src/debug_menu.cpp:3492
 #, c-format
 msgid "DEBUG SOUND ( %d )"
 msgstr ""
 
-#: src/debug_menu.cpp:3476
+#: src/debug_menu.cpp:3502
 msgid "There's no NPCs to import!"
 msgstr ""
 
-#: src/debug_menu.cpp:3498
+#: src/debug_menu.cpp:3524
 #, c-format
 msgid "Failed to read NPC: %s"
 msgstr ""
 
-#: src/debug_menu.cpp:3507 src/game.cpp:7365 src/game.cpp:7414
+#: src/debug_menu.cpp:3533 src/game.cpp:7365 src/game.cpp:7414
 msgid "Select first point."
 msgstr ""
 
-#: src/debug_menu.cpp:3517 src/game.cpp:7373 src/game.cpp:7422
+#: src/debug_menu.cpp:3543 src/game.cpp:7373 src/game.cpp:7422
 msgid "Select second point."
 msgstr ""
 
-#: src/debug_menu.cpp:3552
+#: src/debug_menu.cpp:3578
 msgid "Select location to spawn map extra."
 msgstr ""
 
-#: src/debug_menu.cpp:3615 src/game.cpp:8586
+#: src/debug_menu.cpp:3641 src/game.cpp:8586
 msgid "This binary was not compiled with tiles support."
 msgstr ""
 
-#: src/debug_menu.cpp:3661
+#: src/debug_menu.cpp:3687
 msgid "Enter NPC template"
 msgstr ""
 
-#: src/debug_menu.cpp:3689
+#: src/debug_menu.cpp:3715
 msgid ""
 "Activating this will add the Arcade Mode achievement unlocking all starting "
 "scenarios and professions for all worlds.  You will need to save the "
@@ -13747,157 +13756,157 @@ msgid ""
 "mechanics at a reasonable pace."
 msgstr ""
 
-#: src/debug_menu.cpp:3710 src/debug_menu.cpp:3755 src/iuse.cpp:3070
+#: src/debug_menu.cpp:3736 src/debug_menu.cpp:3781 src/iuse.cpp:3070
 #: src/iuse_actor.cpp:5373 src/iuse_actor.cpp:5476
 msgid "There's no vehicle there."
 msgstr ""
 
-#: src/debug_menu.cpp:3717
+#: src/debug_menu.cpp:3743
 msgid "By how much?  (in kJ, negative to discharge)"
 msgstr ""
 
-#: src/debug_menu.cpp:3738
+#: src/debug_menu.cpp:3764
 msgid "Exported file name?"
 msgstr ""
 
-#: src/debug_menu.cpp:3749
+#: src/debug_menu.cpp:3775
 #, c-format
 msgid "Failed to export vehicle: %s"
 msgstr ""
 
-#: src/debug_menu.cpp:3751
+#: src/debug_menu.cpp:3777
 #, c-format
 msgid ""
 "Written: %s .\n"
 " Please format the exported file for readability."
 msgstr ""
 
-#: src/debug_menu.cpp:3761
+#: src/debug_menu.cpp:3787
 msgid "Select new wind direction:"
 msgstr ""
 
-#: src/debug_menu.cpp:3764
+#: src/debug_menu.cpp:3790
 msgid "Disable direction forcing"
 msgstr ""
 
-#: src/debug_menu.cpp:3764
+#: src/debug_menu.cpp:3790
 msgid "Keep normal wind direction"
 msgstr ""
 
-#: src/debug_menu.cpp:3783
+#: src/debug_menu.cpp:3809
 msgid "Select new wind speed:"
 msgstr ""
 
-#: src/debug_menu.cpp:3786
+#: src/debug_menu.cpp:3812
 msgid "Disable speed forcing"
 msgstr ""
 
-#: src/debug_menu.cpp:3786
+#: src/debug_menu.cpp:3812
 msgid "Keep normal wind speed"
 msgstr ""
 
-#: src/debug_menu.cpp:3826
+#: src/debug_menu.cpp:3852
 msgid "city list written to cities.output"
 msgstr ""
 
-#: src/debug_menu.cpp:3890
+#: src/debug_menu.cpp:3916
 msgid "Achievements have been disabled."
 msgstr ""
 
-#: src/debug_menu.cpp:3929
+#: src/debug_menu.cpp:3955
 msgid "How many NPCs to try spawning?"
 msgstr ""
 
-#: src/debug_menu.cpp:3960
+#: src/debug_menu.cpp:3986
 #, c-format
 msgid "%s's head implodes!"
 msgstr "Hodet til %s imploderer!"
 
-#: src/debug_menu.cpp:3984
+#: src/debug_menu.cpp:4010
 msgid "Martial arts debug."
 msgstr ""
 
-#: src/debug_menu.cpp:3985 src/debug_menu.cpp:3996
+#: src/debug_menu.cpp:4011 src/debug_menu.cpp:4022
 msgid "Your eyes blink rapidly as knowledge floods your brain."
 msgstr ""
 
-#: src/debug_menu.cpp:3991
+#: src/debug_menu.cpp:4017
 msgid "You now know a lot more than just 10 styles of kung fu."
 msgstr ""
 
-#: src/debug_menu.cpp:3995
+#: src/debug_menu.cpp:4021
 msgid "Recipe debug."
 msgstr ""
 
-#: src/debug_menu.cpp:4000
+#: src/debug_menu.cpp:4026
 msgid "You know how to craft that now."
 msgstr ""
 
-#: src/debug_menu.cpp:4005
+#: src/debug_menu.cpp:4031
 msgid "Recipe debug: forget recipes."
 msgstr ""
 
-#: src/debug_menu.cpp:4007
+#: src/debug_menu.cpp:4033
 msgid "You don't know how to craft anymore."
 msgstr ""
 
-#: src/debug_menu.cpp:4012
+#: src/debug_menu.cpp:4038
 msgid "Recipe debug: forget items."
 msgstr ""
 
-#: src/debug_menu.cpp:4014
+#: src/debug_menu.cpp:4040
 msgid "You don't know about any items anymore."
 msgstr ""
 
-#: src/debug_menu.cpp:4152
+#: src/debug_menu.cpp:4178
 msgid "Enter benchmark length (in milliseconds):"
 msgstr ""
 
-#: src/debug_menu.cpp:4172
+#: src/debug_menu.cpp:4198
 msgid "Achievements are already enabled"
 msgstr ""
 
-#: src/debug_menu.cpp:4175
+#: src/debug_menu.cpp:4201
 msgid "Achievements enabled"
 msgstr ""
 
-#: src/debug_menu.cpp:4185
+#: src/debug_menu.cpp:4211
 msgid "Are you sure you want to crash the game?"
 msgstr ""
 
-#: src/debug_menu.cpp:4186
+#: src/debug_menu.cpp:4212
 msgid "Are you REALLY sure you want to crash the game?"
 msgstr ""
 
-#: src/debug_menu.cpp:4223
+#: src/debug_menu.cpp:4249
 msgid ""
 "Quit without saving?  This may cause issues such as duplicated or missing "
 "items and vehicles!"
 msgstr ""
 
-#: src/debug_menu.cpp:4230
+#: src/debug_menu.cpp:4256
 msgid ""
 "Quickload without saving?  This may cause issues such as duplicated or "
 "missing items and vehicles!"
 msgstr ""
 
-#: src/debug_menu.cpp:4257
+#: src/debug_menu.cpp:4283
 msgid "Var list written to timed_event_list.output"
 msgstr ""
 
-#: src/debug_menu.cpp:4261
+#: src/debug_menu.cpp:4287
 msgid "Edit global variables"
 msgstr ""
 
-#: src/debug_menu.cpp:4275
+#: src/debug_menu.cpp:4301
 msgid "Writing archive, this may take a while."
 msgstr ""
 
-#: src/debug_menu.cpp:4303
+#: src/debug_menu.cpp:4329
 msgid "There's no vehicle there, destroy vehicles in all loaded submaps?"
 msgstr ""
 
-#: src/debug_menu.cpp:4326 src/debug_menu.cpp:4333
+#: src/debug_menu.cpp:4352 src/debug_menu.cpp:4359
 #, c-format
 msgid "Written: %s"
 msgstr ""
@@ -15689,656 +15698,656 @@ msgstr ""
 msgid "The EMP blast fries your %s!"
 msgstr ""
 
-#: src/faction.cpp:244
+#: src/faction.cpp:243
 msgid "Archenemy"
 msgstr ""
 
-#: src/faction.cpp:247
+#: src/faction.cpp:246
 msgid "Wanted Dead"
 msgstr ""
 
-#: src/faction.cpp:250
+#: src/faction.cpp:249
 msgid "Enemy of the People"
 msgstr ""
 
-#: src/faction.cpp:253
+#: src/faction.cpp:252
 msgid "Wanted Criminal"
 msgstr ""
 
-#: src/faction.cpp:256
+#: src/faction.cpp:255
 msgid "Not Welcome"
 msgstr ""
 
-#: src/faction.cpp:259
+#: src/faction.cpp:258
 msgid "Pariah"
 msgstr ""
 
-#: src/faction.cpp:262
+#: src/faction.cpp:261
 msgid "Disliked"
 msgstr ""
 
 #. ~ Mutation name
 #. ~ EOC option name in effect in EoC "EOC_XE_RIDDLE_09"
-#: src/faction.cpp:265 data/json/mutations/npc_personality.json
+#: src/faction.cpp:264 data/json/mutations/npc_personality.json
 #: data/mods/Xedra_Evolved/eocs/eoc_riddles.json
 msgid "Hero"
 msgstr ""
 
-#: src/faction.cpp:268
+#: src/faction.cpp:267
 msgid "Idol"
 msgstr ""
 
-#: src/faction.cpp:271
+#: src/faction.cpp:270
 msgid "Beloved"
 msgstr ""
 
-#: src/faction.cpp:274
+#: src/faction.cpp:273
 msgid "Highly Valued"
 msgstr ""
 
-#: src/faction.cpp:277
+#: src/faction.cpp:276
 msgid "Valued"
 msgstr ""
 
-#: src/faction.cpp:280
+#: src/faction.cpp:279
 msgid "Well-Liked"
 msgstr ""
 
-#: src/faction.cpp:283
+#: src/faction.cpp:282
 msgid "Liked"
 msgstr ""
 
-#: src/faction.cpp:294
+#: src/faction.cpp:293
 msgctxt "Faction respect"
 msgid "Legendary"
 msgstr ""
 
-#: src/faction.cpp:297
+#: src/faction.cpp:296
 msgctxt "Faction respect"
 msgid "Unchallenged"
 msgstr ""
 
-#: src/faction.cpp:300
+#: src/faction.cpp:299
 msgctxt "Faction respect"
 msgid "Mighty"
 msgstr ""
 
-#: src/faction.cpp:303
+#: src/faction.cpp:302
 msgctxt "Faction respect"
 msgid "Famous"
 msgstr ""
 
-#: src/faction.cpp:306
+#: src/faction.cpp:305
 msgctxt "Faction respect"
 msgid "Well-Known"
 msgstr ""
 
-#: src/faction.cpp:309
+#: src/faction.cpp:308
 msgctxt "Faction respect"
 msgid "Spoken Of"
 msgstr ""
 
-#: src/faction.cpp:314
+#: src/faction.cpp:313
 msgctxt "Faction respect"
 msgid "Worthless Scum"
 msgstr ""
 
-#: src/faction.cpp:317
+#: src/faction.cpp:316
 msgctxt "Faction respect"
 msgid "Vermin"
 msgstr ""
 
-#: src/faction.cpp:320
+#: src/faction.cpp:319
 msgctxt "Faction respect"
 msgid "Despicable"
 msgstr ""
 
-#: src/faction.cpp:323
+#: src/faction.cpp:322
 msgctxt "Faction respect"
 msgid "Parasite"
 msgstr ""
 
-#: src/faction.cpp:326
+#: src/faction.cpp:325
 msgctxt "Faction respect"
 msgid "Leech"
 msgstr ""
 
-#: src/faction.cpp:329
+#: src/faction.cpp:328
 msgctxt "Faction respect"
 msgid "Laughingstock"
 msgstr ""
 
-#: src/faction.cpp:332
+#: src/faction.cpp:331
 msgctxt "Faction respect"
 msgid "Neutral"
 msgstr ""
 
-#: src/faction.cpp:340
+#: src/faction.cpp:339
 msgctxt "Faction wealth"
 msgid "Filthy rich"
 msgstr ""
 
-#: src/faction.cpp:343
+#: src/faction.cpp:342
 msgctxt "Faction wealth"
 msgid "Affluent"
 msgstr ""
 
-#: src/faction.cpp:346
+#: src/faction.cpp:345
 msgctxt "Faction wealth"
 msgid "Prosperous"
 msgstr ""
 
-#: src/faction.cpp:349
+#: src/faction.cpp:348
 msgctxt "Faction wealth"
 msgid "Well-Off"
 msgstr ""
 
-#: src/faction.cpp:352
+#: src/faction.cpp:351
 msgctxt "Faction wealth"
 msgid "Comfortable"
 msgstr ""
 
-#: src/faction.cpp:355
+#: src/faction.cpp:354
 msgctxt "Faction wealth"
 msgid "Wanting"
 msgstr ""
 
-#: src/faction.cpp:358
+#: src/faction.cpp:357
 msgctxt "Faction wealth"
 msgid "Failing"
 msgstr ""
 
-#: src/faction.cpp:361
+#: src/faction.cpp:360
 msgctxt "Faction wealth"
 msgid "Impoverished"
 msgstr ""
 
-#: src/faction.cpp:363
+#: src/faction.cpp:362
 msgctxt "Faction wealth"
 msgid "Destitute"
 msgstr ""
 
-#: src/faction.cpp:371
+#: src/faction.cpp:370
 msgctxt "Faction food"
 msgid "Overflowing"
 msgstr ""
 
-#: src/faction.cpp:374
+#: src/faction.cpp:373
 msgctxt "Faction food"
 msgid "Well-Stocked"
 msgstr ""
 
-#: src/faction.cpp:377
+#: src/faction.cpp:376
 msgctxt "Faction food"
 msgid "Scrapping By"
 msgstr ""
 
-#: src/faction.cpp:380
+#: src/faction.cpp:379
 msgctxt "Faction food"
 msgid "Malnourished"
 msgstr ""
 
-#: src/faction.cpp:382
+#: src/faction.cpp:381
 msgctxt "Faction food"
 msgid "Starving"
 msgstr ""
 
-#: src/faction.cpp:415
+#: src/faction.cpp:414
 msgid "None present (NONE)"
 msgstr ""
 
-#: src/faction.cpp:435
+#: src/faction.cpp:434
 msgid "(PLENTY)"
 msgstr ""
 
-#: src/faction.cpp:435
+#: src/faction.cpp:434
 msgid "(TRACE)"
 msgstr ""
 
-#: src/faction.cpp:437
+#: src/faction.cpp:436
 msgid "(LACK)"
 msgstr ""
 
-#: src/faction.cpp:437
+#: src/faction.cpp:436
 msgid "(POISON)"
 msgstr ""
 
-#: src/faction.cpp:442
+#: src/faction.cpp:441
 msgid "(DANGER)"
 msgstr ""
 
-#: src/faction.cpp:442
+#: src/faction.cpp:441
 msgid "(MEAGER)"
 msgstr ""
 
-#: src/faction.cpp:475
+#: src/faction.cpp:474
 msgctxt "Faction combat lvl"
 msgid "Legendary"
 msgstr ""
 
-#: src/faction.cpp:478
+#: src/faction.cpp:477
 msgctxt "Faction combat lvl"
 msgid "Expert"
 msgstr ""
 
-#: src/faction.cpp:481
+#: src/faction.cpp:480
 msgctxt "Faction combat lvl"
 msgid "Veteran"
 msgstr ""
 
-#: src/faction.cpp:484
+#: src/faction.cpp:483
 msgctxt "Faction combat lvl"
 msgid "Skilled"
 msgstr ""
 
-#: src/faction.cpp:487
+#: src/faction.cpp:486
 msgctxt "Faction combat lvl"
 msgid "Competent"
 msgstr ""
 
-#: src/faction.cpp:490
+#: src/faction.cpp:489
 msgctxt "Faction combat lvl"
 msgid "Untrained"
 msgstr ""
 
-#: src/faction.cpp:493
+#: src/faction.cpp:492
 msgctxt "Faction combat lvl"
 msgid "Crippled"
 msgstr ""
 
-#: src/faction.cpp:496
+#: src/faction.cpp:495
 msgctxt "Faction combat lvl"
 msgid "Feeble"
 msgstr ""
 
-#: src/faction.cpp:498
+#: src/faction.cpp:497
 msgctxt "Faction combat lvl"
 msgid "Worthless"
 msgstr ""
 
-#: src/faction.cpp:612
+#: src/faction.cpp:611
 msgid "Press enter to rename this camp"
 msgstr ""
 
-#: src/faction.cpp:614 src/faction.cpp:712
+#: src/faction.cpp:613 src/faction.cpp:711
 msgid "Direction: to the "
 msgstr ""
 
-#: src/faction.cpp:616 src/faction.cpp:720 src/inventory_ui.cpp:3552
+#: src/faction.cpp:615 src/faction.cpp:719 src/inventory_ui.cpp:3552
 #: src/item.cpp:3672
 #, c-format
 msgid "Location: %s"
 msgstr ""
 
-#: src/faction.cpp:618
+#: src/faction.cpp:617
 #, c-format
 msgid "Food Supply: %s %d kilocalories"
 msgstr ""
 
-#: src/faction.cpp:623
+#: src/faction.cpp:622
 msgid "Worst vitamin:"
 msgstr ""
 
-#: src/faction.cpp:625
+#: src/faction.cpp:624
 msgid "Worst toxin:"
 msgstr ""
 
-#: src/faction.cpp:627
+#: src/faction.cpp:626
 msgid "Next Upgrade: "
 msgstr ""
 
-#: src/faction.cpp:634
+#: src/faction.cpp:633
 #, c-format
 msgid "Attitude to you:           %s"
 msgstr ""
 
-#: src/faction.cpp:643
+#: src/faction.cpp:642
 msgid "In Combat!"
 msgstr ""
 
-#: src/faction.cpp:645
+#: src/faction.cpp:644
 msgid "Sleeping"
 msgstr ""
 
-#: src/faction.cpp:647 src/npc.cpp:3140
+#: src/faction.cpp:646 src/npc.cpp:3140
 msgid "Following"
 msgstr ""
 
-#: src/faction.cpp:649 src/npc.cpp:3143
+#: src/faction.cpp:648 src/npc.cpp:3143
 msgid "Leading"
 msgstr ""
 
-#: src/faction.cpp:651
+#: src/faction.cpp:650
 msgid "Patrolling"
 msgstr ""
 
-#: src/faction.cpp:653
+#: src/faction.cpp:652
 msgid "Guarding"
 msgstr ""
 
-#: src/faction.cpp:670
+#: src/faction.cpp:669
 msgid "Press enter to talk to this follower "
 msgstr ""
 
-#: src/faction.cpp:680
+#: src/faction.cpp:679
 msgid "traveling to: "
 msgstr ""
 
-#: src/faction.cpp:682
+#: src/faction.cpp:681
 #, c-format
 msgid "traveling to: %s"
 msgstr ""
 
-#: src/faction.cpp:684 src/faction.cpp:687
+#: src/faction.cpp:683 src/faction.cpp:686
 msgid "Current Mission: "
 msgstr ""
 
-#: src/faction.cpp:694
+#: src/faction.cpp:693
 msgid "JOB COMPLETED"
 msgstr ""
 
-#: src/faction.cpp:696
+#: src/faction.cpp:695
 msgid "ETA: "
 msgstr ""
 
-#: src/faction.cpp:714
+#: src/faction.cpp:713
 msgid "Direction: Nearby"
 msgstr ""
 
-#: src/faction.cpp:717
+#: src/faction.cpp:716
 #, c-format
 msgid "Location: %s, at camp: %s"
 msgstr ""
 
-#: src/faction.cpp:735 src/faction.cpp:785
+#: src/faction.cpp:734 src/faction.cpp:784
 msgid "Not within radio range"
 msgstr ""
 
-#: src/faction.cpp:746 src/faction.cpp:782
+#: src/faction.cpp:745 src/faction.cpp:781
 msgid "Within radio range"
 msgstr ""
 
-#: src/faction.cpp:791
+#: src/faction.cpp:790
 msgid "You do not have a radio"
 msgstr ""
 
-#: src/faction.cpp:794
+#: src/faction.cpp:793
 msgid "Follower does not have a radio"
 msgstr ""
 
-#: src/faction.cpp:797
+#: src/faction.cpp:796
 msgid "Both you and follower need a radio"
 msgstr ""
 
-#: src/faction.cpp:802
+#: src/faction.cpp:801
 msgid "Within interaction range"
 msgstr ""
 
-#: src/faction.cpp:807
+#: src/faction.cpp:806
 msgid "Press enter to recall from their mission."
 msgstr ""
 
-#: src/faction.cpp:815 src/veh_interact.cpp:2530 src/veh_interact.cpp:2531
+#: src/faction.cpp:814 src/veh_interact.cpp:2530 src/veh_interact.cpp:2531
 msgid "Status: "
 msgstr ""
 
-#: src/faction.cpp:817
+#: src/faction.cpp:816
 msgid "Working at camp"
 msgstr ""
 
-#: src/faction.cpp:819
+#: src/faction.cpp:818
 msgid "Idling at camp"
 msgstr ""
 
-#: src/faction.cpp:823
+#: src/faction.cpp:822
 msgid "Condition: "
 msgstr ""
 
-#: src/faction.cpp:827
+#: src/faction.cpp:826
 msgctxt "needs"
 msgid "Nominal"
 msgstr ""
 
-#: src/faction.cpp:829
+#: src/faction.cpp:828
 msgid "Hunger: "
 msgstr "Sult:"
 
-#: src/faction.cpp:831
+#: src/faction.cpp:830
 msgid "Thirst: "
 msgstr "Tørste:"
 
-#: src/faction.cpp:833
+#: src/faction.cpp:832
 msgid "Sleepiness: "
 msgstr ""
 
-#: src/faction.cpp:854
+#: src/faction.cpp:853
 msgid "Best other skills: "
 msgstr ""
 
-#: src/faction.cpp:855
+#: src/faction.cpp:854
 #, c-format
 msgid "Best combat skill: %s: %d"
 msgstr ""
 
-#: src/faction.cpp:928
+#: src/faction.cpp:927
 msgid "YOUR FACTION"
 msgstr ""
 
-#: src/faction.cpp:929
+#: src/faction.cpp:928
 msgid "YOUR FOLLOWERS"
 msgstr ""
 
-#: src/faction.cpp:930
+#: src/faction.cpp:929
 msgid "OTHER FACTIONS"
 msgstr ""
 
-#: src/faction.cpp:931
+#: src/faction.cpp:930
 msgid "LORE"
 msgstr ""
 
-#: src/faction.cpp:932
+#: src/faction.cpp:931
 msgid "CREATURES"
 msgstr ""
 
-#: src/faction.cpp:949
+#: src/faction.cpp:948
 msgid "You have no camps"
 msgstr ""
 
-#: src/faction.cpp:970
+#: src/faction.cpp:969
 msgid "You have no followers"
 msgstr ""
 
-#: src/faction.cpp:996
+#: src/faction.cpp:995
 msgid "You don't know of any factions."
 msgstr ""
 
-#: src/faction.cpp:1017
+#: src/faction.cpp:1016
 msgid "You haven't learned anything about the world."
 msgstr ""
 
-#: src/faction.cpp:1041
+#: src/faction.cpp:1040
 msgid ""
 "You haven't recorded sightings of any creatures.  Taking photos can be a "
 "good way to keep track of them."
 msgstr ""
 
-#: src/faction_camp.cpp:237
+#: src/faction_camp.cpp:238
 msgid "Recover Ally, "
 msgstr "Helbrede Alliert,"
 
-#: src/faction_camp.cpp:238
+#: src/faction_camp.cpp:239
 msgid " Expansion"
 msgstr "Utvidelse"
 
-#: src/faction_camp.cpp:356
+#: src/faction_camp.cpp:357
 msgid "Obsolete mission"
 msgstr ""
 
-#: src/faction_camp.cpp:359
+#: src/faction_camp.cpp:360
 msgid "Distribute Food"
 msgstr ""
 
-#: src/faction_camp.cpp:362
+#: src/faction_camp.cpp:363
 msgid "Choose New Leader"
 msgstr ""
 
-#: src/faction_camp.cpp:365
+#: src/faction_camp.cpp:366
 msgid "Have A Meal"
 msgstr ""
 
-#: src/faction_camp.cpp:368
+#: src/faction_camp.cpp:369
 msgid "Hide Mission(s)"
 msgstr ""
 
-#: src/faction_camp.cpp:371
+#: src/faction_camp.cpp:372
 msgid "Reveal Hidden Mission(s)"
 msgstr ""
 
-#: src/faction_camp.cpp:374
+#: src/faction_camp.cpp:375
 msgid "Assign Jobs"
 msgstr ""
 
-#: src/faction_camp.cpp:377
+#: src/faction_camp.cpp:378
 msgid "Assign Workers"
 msgstr ""
 
-#: src/faction_camp.cpp:380
+#: src/faction_camp.cpp:381
 msgid "Abandon Camp"
 msgstr ""
 
-#: src/faction_camp.cpp:383
+#: src/faction_camp.cpp:384
 msgid " Upgrade Camp "
 msgstr ""
 
-#: src/faction_camp.cpp:386
+#: src/faction_camp.cpp:387
 msgid " Crafting"
 msgstr ""
 
-#: src/faction_camp.cpp:389
+#: src/faction_camp.cpp:390
 msgid " Gather Materials"
 msgstr ""
 
-#: src/faction_camp.cpp:392
+#: src/faction_camp.cpp:393
 msgid " Collect Firewood"
 msgstr ""
 
-#: src/faction_camp.cpp:395
+#: src/faction_camp.cpp:396
 msgid " Menial Labor"
 msgstr ""
 
-#: src/faction_camp.cpp:398
+#: src/faction_camp.cpp:399
 msgid "Survey terrain and try to convert it to Field"
 msgstr ""
 
-#: src/faction_camp.cpp:401
+#: src/faction_camp.cpp:402
 msgid "Expand Base"
 msgstr ""
 
-#: src/faction_camp.cpp:404
+#: src/faction_camp.cpp:405
 msgid " Cut Logs"
 msgstr ""
 
-#: src/faction_camp.cpp:407
+#: src/faction_camp.cpp:408
 msgid " Clear a forest"
 msgstr ""
 
-#: src/faction_camp.cpp:410
+#: src/faction_camp.cpp:411
 msgid " Setup Hide Site"
 msgstr ""
 
-#: src/faction_camp.cpp:413
+#: src/faction_camp.cpp:414
 msgid " Relay Hide Site"
 msgstr ""
 
-#: src/faction_camp.cpp:416
+#: src/faction_camp.cpp:417
 msgid " Forage for plants"
 msgstr ""
 
-#: src/faction_camp.cpp:419
+#: src/faction_camp.cpp:420
 msgid " Trap Small Game"
 msgstr ""
 
-#: src/faction_camp.cpp:422
+#: src/faction_camp.cpp:423
 msgid " Hunt Large Animals"
 msgstr ""
 
-#: src/faction_camp.cpp:426
+#: src/faction_camp.cpp:427
 msgid " Construct Map Fortifications"
 msgstr ""
 
-#: src/faction_camp.cpp:428
+#: src/faction_camp.cpp:429
 msgid " Construct Spiked Trench"
 msgstr ""
 
-#: src/faction_camp.cpp:432
+#: src/faction_camp.cpp:433
 msgid " Recruit Companions"
 msgstr ""
 
-#: src/faction_camp.cpp:435
+#: src/faction_camp.cpp:436
 msgid " Scout Mission"
 msgstr ""
 
-#: src/faction_camp.cpp:438
+#: src/faction_camp.cpp:439
 msgid " Combat Patrol"
 msgstr ""
 
-#: src/faction_camp.cpp:441
+#: src/faction_camp.cpp:442
 msgid " Plow Fields"
 msgstr ""
 
-#: src/faction_camp.cpp:444
+#: src/faction_camp.cpp:445
 msgid " Plant Fields"
 msgstr ""
 
-#: src/faction_camp.cpp:447
+#: src/faction_camp.cpp:448
 msgid " Harvest Fields"
 msgstr ""
 
-#: src/faction_camp.cpp:487 src/mission_companion.cpp:658
+#: src/faction_camp.cpp:488 src/mission_companion.cpp:658
 #: src/mission_companion.cpp:692 src/mission_companion.cpp:728
 msgid " [DONE]\n"
 msgstr ""
 
-#: src/faction_camp.cpp:492
+#: src/faction_camp.cpp:493
 msgid " left]\n"
 msgstr ""
 
-#: src/faction_camp.cpp:497 src/faction_camp.cpp:513 src/faction_camp.cpp:531
+#: src/faction_camp.cpp:498 src/faction_camp.cpp:514 src/faction_camp.cpp:532
 msgid ""
 "\n"
 "\n"
 "Do you wish to bring your allies back into your party?"
 msgstr ""
 
-#: src/faction_camp.cpp:700 src/faction_camp.cpp:1621
+#: src/faction_camp.cpp:701 src/faction_camp.cpp:1617
 msgid "You choose to wait…"
 msgstr ""
 
-#: src/faction_camp.cpp:721
+#: src/faction_camp.cpp:722
 msgid "You cannot build a camp here."
 msgstr ""
 
-#: src/faction_camp.cpp:725
+#: src/faction_camp.cpp:726
 msgid "Select a camp type:"
 msgstr ""
 
-#: src/faction_camp.cpp:738
+#: src/faction_camp.cpp:739
 msgid "You are too close to another camp!"
 msgstr ""
 
-#: src/faction_camp.cpp:747
+#: src/faction_camp.cpp:748
 #, c-format
 msgid ""
 "%1$s failed to start the %2$s basecamp, %3$s appliance/vehicle seems to be "
 "in the way."
 msgstr ""
 
-#: src/faction_camp.cpp:772
+#: src/faction_camp.cpp:773
 #, c-format
 msgid "%s isn't under your control!"
 msgstr ""
 
-#: src/faction_camp.cpp:792
+#: src/faction_camp.cpp:793
 msgid ""
 "Notes:\n"
 "This will open the regular crafting screen where you may select a recipe and batch size.\n"
@@ -16349,16 +16358,16 @@ msgid ""
 msgstr ""
 
 #. ~ Help menu
-#: src/faction_camp.cpp:796 data/core/help.json
+#: src/faction_camp.cpp:797 data/core/help.json
 msgid "Crafting"
 msgstr ""
 
-#: src/faction_camp.cpp:841 src/faction_camp.cpp:845
+#: src/faction_camp.cpp:842 src/faction_camp.cpp:846
 #, c-format
 msgid "Total calorie cost: %s (have %d)"
 msgstr ""
 
-#: src/faction_camp.cpp:864
+#: src/faction_camp.cpp:865
 #, c-format
 msgid ""
 "Notes:\n"
@@ -16374,11 +16383,11 @@ msgid ""
 "Positions: %d/3\n"
 msgstr ""
 
-#: src/faction_camp.cpp:881
+#: src/faction_camp.cpp:882
 msgid " Recover Ally from Gathering"
 msgstr ""
 
-#: src/faction_camp.cpp:888
+#: src/faction_camp.cpp:889
 #, c-format
 msgid ""
 "Notes:\n"
@@ -16397,11 +16406,11 @@ msgid ""
 "Positions: %d/3\n"
 msgstr ""
 
-#: src/faction_camp.cpp:905
+#: src/faction_camp.cpp:906
 msgid " Recover Firewood Gatherers"
 msgstr ""
 
-#: src/faction_camp.cpp:912
+#: src/faction_camp.cpp:913
 #, c-format
 msgid ""
 "Notes:\n"
@@ -16417,11 +16426,11 @@ msgid ""
 "Positions: %d/1\n"
 msgstr ""
 
-#: src/faction_camp.cpp:928
+#: src/faction_camp.cpp:929
 msgid " Recover Menial Laborer"
 msgstr ""
 
-#: src/faction_camp.cpp:936
+#: src/faction_camp.cpp:937
 #, c-format
 msgid ""
 "Notes:\n"
@@ -16440,11 +16449,11 @@ msgid ""
 "Positions: %d/1\n"
 msgstr ""
 
-#: src/faction_camp.cpp:955
+#: src/faction_camp.cpp:956
 msgid " Recover Log Cutter"
 msgstr ""
 
-#: src/faction_camp.cpp:963
+#: src/faction_camp.cpp:964
 #, c-format
 msgid ""
 "Notes:\n"
@@ -16465,11 +16474,11 @@ msgid ""
 "Positions: %d/1\n"
 msgstr ""
 
-#: src/faction_camp.cpp:983
+#: src/faction_camp.cpp:984
 msgid " Recover Clearcutter"
 msgstr ""
 
-#: src/faction_camp.cpp:991
+#: src/faction_camp.cpp:992
 #, c-format
 msgid ""
 "Notes:\n"
@@ -16488,11 +16497,11 @@ msgid ""
 "Positions: %d/1\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1009
+#: src/faction_camp.cpp:1010
 msgid " Recover Hide Setup"
 msgstr ""
 
-#: src/faction_camp.cpp:1017
+#: src/faction_camp.cpp:1018
 #, c-format
 msgid ""
 "Notes:\n"
@@ -16511,11 +16520,11 @@ msgid ""
 "Positions: %d/1\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1036
+#: src/faction_camp.cpp:1037
 msgid " Recover Hide Relay"
 msgstr ""
 
-#: src/faction_camp.cpp:1044
+#: src/faction_camp.cpp:1045
 #, c-format
 msgid ""
 "Notes:\n"
@@ -16533,11 +16542,11 @@ msgid ""
 "Positions: %d/3\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1061
+#: src/faction_camp.cpp:1062
 msgid " Recover Foragers"
 msgstr ""
 
-#: src/faction_camp.cpp:1069
+#: src/faction_camp.cpp:1070
 #, c-format
 msgid ""
 "Notes:\n"
@@ -16554,11 +16563,11 @@ msgid ""
 "Positions: %d/2\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1085
+#: src/faction_camp.cpp:1086
 msgid " Recover Trappers"
 msgstr ""
 
-#: src/faction_camp.cpp:1093
+#: src/faction_camp.cpp:1094
 #, c-format
 msgid ""
 "Notes:\n"
@@ -16575,23 +16584,23 @@ msgid ""
 "Positions: %d/1\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1109
+#: src/faction_camp.cpp:1110
 msgid " Recover Hunter"
 msgstr ""
 
-#: src/faction_camp.cpp:1126 src/faction_camp.cpp:1152
+#: src/faction_camp.cpp:1127 src/faction_camp.cpp:1153
 msgid " Finish Map Fortifications"
 msgstr ""
 
-#: src/faction_camp.cpp:1141
+#: src/faction_camp.cpp:1142
 msgid " Finish Map Fortification Update"
 msgstr ""
 
-#: src/faction_camp.cpp:1167
+#: src/faction_camp.cpp:1168
 msgid " Recover Recruiter"
 msgstr ""
 
-#: src/faction_camp.cpp:1175
+#: src/faction_camp.cpp:1176
 #, c-format
 msgid ""
 "Notes:\n"
@@ -16610,11 +16619,11 @@ msgid ""
 "Positions: %d/3\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1194
+#: src/faction_camp.cpp:1195
 msgid " Recover Scout"
 msgstr ""
 
-#: src/faction_camp.cpp:1202
+#: src/faction_camp.cpp:1203
 #, c-format
 msgid ""
 "Notes:\n"
@@ -16633,50 +16642,50 @@ msgid ""
 "Positions: %d/3\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1223
+#: src/faction_camp.cpp:1224
 msgid " Recover Combat Patrol"
 msgstr ""
 
-#: src/faction_camp.cpp:1250 src/faction_camp.cpp:1256
-#: src/faction_camp.cpp:1263
+#: src/faction_camp.cpp:1251 src/faction_camp.cpp:1257
+#: src/faction_camp.cpp:1264
 msgid " (Finish) Crafting"
 msgstr ""
 
-#: src/faction_camp.cpp:1253
+#: src/faction_camp.cpp:1254
 msgid " (Finish) Cooking"
 msgstr ""
 
-#: src/faction_camp.cpp:1259
+#: src/faction_camp.cpp:1260
 msgid " (Finish) Smithing"
 msgstr ""
 
-#: src/faction_camp.cpp:1271
+#: src/faction_camp.cpp:1272
 msgid "[DONE]\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1275
+#: src/faction_camp.cpp:1276
 msgid " left] "
 msgstr ""
 
-#: src/faction_camp.cpp:1289
+#: src/faction_camp.cpp:1290
 msgid "Hide one or more missions to clean up the UI."
 msgstr ""
 
-#: src/faction_camp.cpp:1300
+#: src/faction_camp.cpp:1301
 #, c-format
 msgid ""
 "Reveal one or more missions previously hidden.\n"
 "Current number of hidden missions: %d"
 msgstr ""
 
-#: src/faction_camp.cpp:1314
+#: src/faction_camp.cpp:1315
 msgid ""
 "Notes:\n"
 "Plow any spaces that have reverted to dirt or grass.\n"
 "\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1317
+#: src/faction_camp.cpp:1318
 msgid ""
 "\n"
 "\n"
@@ -16692,18 +16701,18 @@ msgid ""
 "Positions: 0/1\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1333
+#: src/faction_camp.cpp:1334
 msgid " (Finish) Plow fields"
 msgstr ""
 
-#: src/faction_camp.cpp:1341
+#: src/faction_camp.cpp:1342
 msgid ""
 "Notes:\n"
 "Plant designated seeds in the spaces that have already been tilled.\n"
 "\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1345
+#: src/faction_camp.cpp:1346
 msgid ""
 "\n"
 "\n"
@@ -16720,18 +16729,18 @@ msgid ""
 "Positions: 0/1\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1363
+#: src/faction_camp.cpp:1364
 msgid " (Finish) Plant Fields"
 msgstr ""
 
-#: src/faction_camp.cpp:1371
+#: src/faction_camp.cpp:1372
 msgid ""
 "Notes:\n"
 "Harvest any plants that are ripe and bring the produce back.\n"
 "\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1374
+#: src/faction_camp.cpp:1375
 msgid ""
 "\n"
 "\n"
@@ -16746,11 +16755,11 @@ msgid ""
 "Positions: 0/1\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1390
+#: src/faction_camp.cpp:1391
 msgid " (Finish) Harvest Fields"
 msgstr ""
 
-#: src/faction_camp.cpp:1431
+#: src/faction_camp.cpp:1432
 #, c-format
 msgid ""
 "Notes:\n"
@@ -16766,11 +16775,11 @@ msgid ""
 "Positions: %d/1\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1455
+#: src/faction_camp.cpp:1456
 msgid "Recover Field Surveyor"
 msgstr ""
 
-#: src/faction_camp.cpp:1462
+#: src/faction_camp.cpp:1463
 #, c-format
 msgid ""
 "Notes:\n"
@@ -16788,11 +16797,11 @@ msgid ""
 "Positions: %d/1\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1484
+#: src/faction_camp.cpp:1485
 msgid "Recover Surveyor"
 msgstr ""
 
-#: src/faction_camp.cpp:1493
+#: src/faction_camp.cpp:1494
 #, c-format
 msgid ""
 "Notes:\n"
@@ -16801,17 +16810,12 @@ msgid ""
 "> Increases your faction's food supply value which in turn is used to pay laborers for their time\n"
 "\n"
 "Must have enjoyability >= -6\n"
-"Perishable food liquidated at penalty depending on upgrades and rot time:\n"
-"> Rotten: 0%%\n"
-"> Rots in < 2 days: 60%%\n"
-"> Rots in < 5 days: 80%%\n"
-"\n"
 "Total faction food stock: %d kcal\n"
 "or %d / %d / %d days' rations\n"
 "where the days is measured for Extra / Moderate / No exercise levels"
 msgstr ""
 
-#: src/faction_camp.cpp:1516
+#: src/faction_camp.cpp:1512
 msgid ""
 "Notes:\n"
 "Choose a new leader for your faction.\n"
@@ -16820,7 +16824,7 @@ msgid ""
 "Risk: None\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1526
+#: src/faction_camp.cpp:1522
 msgid ""
 "Notes:\n"
 "Eat some food from the larder.\n"
@@ -16829,7 +16833,7 @@ msgid ""
 "Risk: None\n"
 msgstr ""
 
-#: src/faction_camp.cpp:1537
+#: src/faction_camp.cpp:1533
 msgid ""
 "Notes:\n"
 "Assign repeating job duties to NPCs stationed here.\n"
@@ -16841,19 +16845,19 @@ msgid ""
 "Time: Ongoing"
 msgstr ""
 
-#: src/faction_camp.cpp:1547
+#: src/faction_camp.cpp:1543
 msgid ""
 "Notes:\n"
 "Assign followers to work at this camp."
 msgstr ""
 
-#: src/faction_camp.cpp:1553
+#: src/faction_camp.cpp:1549
 msgid ""
 "Notes:\n"
 "Abandon this camp"
 msgstr ""
 
-#: src/faction_camp.cpp:1567
+#: src/faction_camp.cpp:1563
 msgid ""
 "Notes:\n"
 "Cancel a current mission and force the immediate return of a companion.  No work will be done on the mission and all resources used on the mission will be lost.\n"
@@ -16863,385 +16867,385 @@ msgid ""
 "Companions must be on missions for at least 24 hours before emergency recall becomes available."
 msgstr ""
 
-#: src/faction_camp.cpp:1577
+#: src/faction_camp.cpp:1573
 msgid "Emergency Recall"
 msgstr ""
 
-#: src/faction_camp.cpp:1607
+#: src/faction_camp.cpp:1603
 #, c-format
 msgid "It's too early for that.  A new leader can be chosen in %s."
 msgstr ""
 
-#: src/faction_camp.cpp:1614
+#: src/faction_camp.cpp:1610
 msgid "autocratic"
 msgstr ""
 
-#: src/faction_camp.cpp:1615
+#: src/faction_camp.cpp:1611
 msgid "sortition"
 msgstr ""
 
-#: src/faction_camp.cpp:1616
+#: src/faction_camp.cpp:1612
 msgid "democratic"
 msgstr ""
 
-#: src/faction_camp.cpp:1618
+#: src/faction_camp.cpp:1614
 msgid "Choose how the new leader will be determined."
 msgstr ""
 
-#: src/faction_camp.cpp:1628
+#: src/faction_camp.cpp:1624
 msgid ""
 "As an experienced leader, only you know what will be required of future leaders.  You will choose.\n"
 "\n"
 "Is this acceptable?"
 msgstr ""
 
-#: src/faction_camp.cpp:1655
+#: src/faction_camp.cpp:1651
 msgid ""
 "You will allow fate to choose the next leader.  Whether it's by dice, drawing straws, or picking names out of a hat, it will be purely random.\n"
 "\n"
 "Is this acceptable?"
 msgstr ""
 
-#: src/faction_camp.cpp:1661
+#: src/faction_camp.cpp:1657
 msgid "Fate calls for you to remain in your role as leader… for now."
 msgstr ""
 
-#: src/faction_camp.cpp:1666
+#: src/faction_camp.cpp:1662
 #, c-format
 msgid "Fate chooses %s to lead your faction."
 msgstr ""
 
-#: src/faction_camp.cpp:1674
+#: src/faction_camp.cpp:1670
 msgid ""
 "A leader can only lead those willing to follow.  Everyone must get a say in choosing the new leader.\n"
 "\n"
 "Is this acceptable?"
 msgstr ""
 
-#: src/faction_camp.cpp:1683
+#: src/faction_camp.cpp:1679
 msgid "You win the election!"
 msgstr ""
 
-#: src/faction_camp.cpp:1687
+#: src/faction_camp.cpp:1683
 #, c-format
 msgid ""
 "%1$s wins the election with a popularity of %2$s!  The runner-up had a "
 "popularity of %3$s."
 msgstr ""
 
-#: src/faction_camp.cpp:1696
+#: src/faction_camp.cpp:1692
 msgid "Have a meal?"
 msgstr ""
 
-#: src/faction_camp.cpp:1698
+#: src/faction_camp.cpp:1694
 msgid "Snack"
 msgstr ""
 
-#: src/faction_camp.cpp:1699
+#: src/faction_camp.cpp:1695
 msgid "Meal"
 msgstr ""
 
-#: src/faction_camp.cpp:1700
+#: src/faction_camp.cpp:1696
 msgid "Just stuff your face.  You're hungry!"
 msgstr ""
 
-#: src/faction_camp.cpp:1703
+#: src/faction_camp.cpp:1699
 msgid "You decide not to have anything after all."
 msgstr ""
 
-#: src/faction_camp.cpp:1710
+#: src/faction_camp.cpp:1706
 msgid ""
 "You check storage for some food, but there is nothing but dust and cobwebs…"
 msgstr ""
 
-#: src/faction_camp.cpp:1713
+#: src/faction_camp.cpp:1709
 msgid "There's only one meal left.  Guess that's dinner!"
 msgstr ""
 
-#: src/faction_camp.cpp:1781 src/faction_camp.cpp:1794
+#: src/faction_camp.cpp:1777 src/faction_camp.cpp:1790
 msgid "returns to you with something…"
 msgstr ""
 
-#: src/faction_camp.cpp:1784
+#: src/faction_camp.cpp:1780
 msgid "returns from your kitchen with something…"
 msgstr ""
 
-#: src/faction_camp.cpp:1787
+#: src/faction_camp.cpp:1783
 msgid "returns from your farm with something…"
 msgstr ""
 
-#: src/faction_camp.cpp:1790
+#: src/faction_camp.cpp:1786
 msgid "returns from your blacksmith shop with something…"
 msgstr ""
 
-#: src/faction_camp.cpp:1810
+#: src/faction_camp.cpp:1806
 msgid "departs to search for materials…"
 msgstr ""
 
-#: src/faction_camp.cpp:1819
+#: src/faction_camp.cpp:1815
 msgid "departs to search for firewood…"
 msgstr ""
 
-#: src/faction_camp.cpp:1836
+#: src/faction_camp.cpp:1832
 msgid "departs to look for suitable fields…"
 msgstr ""
 
-#: src/faction_camp.cpp:1845
+#: src/faction_camp.cpp:1841
 msgid "departs to survey land…"
 msgstr ""
 
-#: src/faction_camp.cpp:1852 src/faction_camp.cpp:1862
+#: src/faction_camp.cpp:1848 src/faction_camp.cpp:1858
 msgid "returns from working in the woods…"
 msgstr ""
 
-#: src/faction_camp.cpp:1872
+#: src/faction_camp.cpp:1868
 msgid "returns from working on the hide site…"
 msgstr ""
 
-#: src/faction_camp.cpp:1880
+#: src/faction_camp.cpp:1876
 msgid "returns from shuttling gear between the hide site…"
 msgstr ""
 
-#: src/faction_camp.cpp:1893
+#: src/faction_camp.cpp:1889
 msgid "departs to search for edible plants…"
 msgstr ""
 
-#: src/faction_camp.cpp:1902
+#: src/faction_camp.cpp:1898
 msgid "departs to set traps for small animals…"
 msgstr ""
 
-#: src/faction_camp.cpp:1911
+#: src/faction_camp.cpp:1907
 msgid "departs to hunt for meat…"
 msgstr ""
 
-#: src/faction_camp.cpp:1930
+#: src/faction_camp.cpp:1926
 msgid "departs to search for recruits…"
 msgstr ""
 
-#: src/faction_camp.cpp:1986 src/faction_camp.cpp:2489
+#: src/faction_camp.cpp:1982 src/faction_camp.cpp:2485
 msgid "You don't have enough food stored to feed your companion."
 msgstr "Du har ikke nok mat lagret til å mate din kamerat."
 
-#: src/faction_camp.cpp:2052
+#: src/faction_camp.cpp:2048
 msgid ""
 "You don't have enough food stored to feed your companion for this task."
 msgstr ""
 
-#: src/faction_camp.cpp:2055
+#: src/faction_camp.cpp:2051
 msgid "You don't have enough food stored to feed a larger work crew."
 msgstr ""
 
-#: src/faction_camp.cpp:2123 src/faction_camp.cpp:2127
-#: src/faction_camp.cpp:2130
+#: src/faction_camp.cpp:2119 src/faction_camp.cpp:2123
+#: src/faction_camp.cpp:2126
 msgid "begins to upgrade the camp…"
 msgstr ""
 
-#: src/faction_camp.cpp:2164
+#: src/faction_camp.cpp:2160
 msgid "You don't have the materials for the upgrade."
 msgstr "Du har ikke nok materialer for oppgraderingen."
 
-#: src/faction_camp.cpp:2191 src/faction_camp.cpp:3970
+#: src/faction_camp.cpp:2187 src/faction_camp.cpp:3966
 msgid "responds to the emergency recall…"
 msgstr ""
 
-#: src/faction_camp.cpp:2198
+#: src/faction_camp.cpp:2194
 #, c-format
 msgid "You abandon %s."
 msgstr ""
 
-#: src/faction_camp.cpp:2294
+#: src/faction_camp.cpp:2290
 msgid "You have no companions following you."
 msgstr ""
 
-#: src/faction_camp.cpp:2307 src/faction_camp.cpp:2415
+#: src/faction_camp.cpp:2303 src/faction_camp.cpp:2411
 #, c-format
 msgid "Press %s to inspect this follower."
 msgstr ""
 
-#: src/faction_camp.cpp:2309
+#: src/faction_camp.cpp:2305
 #, c-format
 msgid "Press %s to assign this follower to this camp."
 msgstr ""
 
-#: src/faction_camp.cpp:2382
+#: src/faction_camp.cpp:2378
 msgid "Job/Priority"
 msgstr ""
 
-#: src/faction_camp.cpp:2384
+#: src/faction_camp.cpp:2380
 msgid "There are no NPCs stationed here"
 msgstr ""
 
-#: src/faction_camp.cpp:2400 src/faction_camp.cpp:2455
+#: src/faction_camp.cpp:2396 src/faction_camp.cpp:2451
 #, c-format
 msgid "%s : %s"
 msgstr ""
 
-#: src/faction_camp.cpp:2405
+#: src/faction_camp.cpp:2401
 msgid "No current job."
 msgstr ""
 
-#: src/faction_camp.cpp:2417
+#: src/faction_camp.cpp:2413
 #, c-format
 msgid "Press %s to change this workers job priorities."
 msgstr ""
 
-#: src/faction_camp.cpp:2447
+#: src/faction_camp.cpp:2443
 msgid "Assign job priority (0 to disable)"
 msgstr ""
 
-#: src/faction_camp.cpp:2450
+#: src/faction_camp.cpp:2446
 msgid "Clear all priorities"
 msgstr ""
 
-#: src/faction_camp.cpp:2451
+#: src/faction_camp.cpp:2447
 msgid "Set all priorities"
 msgstr ""
 
-#: src/faction_camp.cpp:2467
+#: src/faction_camp.cpp:2463
 msgid "Priority for all jobs "
 msgstr ""
 
-#: src/faction_camp.cpp:2473
+#: src/faction_camp.cpp:2469
 #, c-format
 msgid "Priority for %s "
 msgstr ""
 
-#: src/faction_camp.cpp:2499
+#: src/faction_camp.cpp:2495
 #, c-format
 msgid "%s goes off to clean toilets and sort loot."
 msgstr ""
 
-#: src/faction_camp.cpp:2520
+#: src/faction_camp.cpp:2516
 #, c-format
 msgid "%s isn't a recognized terrain.  Please file a bug report."
 msgstr ""
 
-#: src/faction_camp.cpp:2533
+#: src/faction_camp.cpp:2529
 msgid ""
 "The logged tile has been cleared and cannot be logged further after this "
 "mission."
 msgstr ""
 
-#: src/faction_camp.cpp:2549
+#: src/faction_camp.cpp:2545
 #, c-format
 msgid "Select a forest (or road/trail) from %d to %d tiles away."
 msgstr ""
 
-#: src/faction_camp.cpp:2569 src/faction_camp.cpp:2608
-#: src/faction_camp.cpp:2649 src/faction_camp.cpp:2713
-#: src/faction_camp.cpp:2876 src/faction_camp.cpp:3461
+#: src/faction_camp.cpp:2565 src/faction_camp.cpp:2604
+#: src/faction_camp.cpp:2645 src/faction_camp.cpp:2709
+#: src/faction_camp.cpp:2872 src/faction_camp.cpp:3457
 #, c-format
 msgid ""
 "Trip Estimate:\n"
 "%s"
 msgstr "Tur estimering\\: %s"
 
-#: src/faction_camp.cpp:2576
+#: src/faction_camp.cpp:2572
 msgid "departs to cut logs…"
 msgstr ""
 
-#: src/faction_camp.cpp:2593
+#: src/faction_camp.cpp:2589
 msgid ""
 "Forests are the only valid cutting locations, with forest dirt roads, forest"
 " rural roads, and trails being valid as well.  Note that it's likely both "
 "forest and field roads look exactly the same after having been cleared."
 msgstr ""
 
-#: src/faction_camp.cpp:2615
+#: src/faction_camp.cpp:2611
 msgid "departs to clear a forest…"
 msgstr ""
 
-#: src/faction_camp.cpp:2628
+#: src/faction_camp.cpp:2624
 #, c-format
 msgid "Select a forest, swamp, or field from %d to %d tiles away."
 msgstr ""
 
-#: src/faction_camp.cpp:2641 src/faction_camp.cpp:2686
+#: src/faction_camp.cpp:2637 src/faction_camp.cpp:2682
 msgid "Select items to send"
 msgstr ""
 
-#: src/faction_camp.cpp:2641 src/faction_camp.cpp:2686
-#: src/faction_camp.cpp:2699
+#: src/faction_camp.cpp:2637 src/faction_camp.cpp:2682
+#: src/faction_camp.cpp:2695
 msgid "These are the items you've selected so far."
 msgstr ""
 
-#: src/faction_camp.cpp:2655
+#: src/faction_camp.cpp:2651
 msgid "departs to build a hide site…"
 msgstr ""
 
-#: src/faction_camp.cpp:2673
+#: src/faction_camp.cpp:2669
 #, c-format
 msgid "Select an existing hide site from %d to %d tiles away."
 msgstr ""
 
-#: src/faction_camp.cpp:2699
+#: src/faction_camp.cpp:2695
 msgid "Select items to bring back"
 msgstr ""
 
-#: src/faction_camp.cpp:2720
+#: src/faction_camp.cpp:2716
 msgid "departs for the hide site…"
 msgstr ""
 
-#: src/faction_camp.cpp:2734
+#: src/faction_camp.cpp:2730
 msgid "You need equipment to transport to/from the hide site…"
 msgstr ""
 
-#: src/faction_camp.cpp:2792
+#: src/faction_camp.cpp:2788
 msgid ""
 "Select a start and end point.  Line must be straight.  Fields, forests, and "
 "swamps are valid fortification locations.  In addition to existing "
 "fortification constructions."
 msgstr ""
 
-#: src/faction_camp.cpp:2796
+#: src/faction_camp.cpp:2792
 #, c-format
 msgid "Select a start point from %d to %d tiles away."
 msgstr ""
 
-#: src/faction_camp.cpp:2801
+#: src/faction_camp.cpp:2797
 #, c-format
 msgid "Select an end point from %d to %d tiles away."
 msgstr ""
 
-#: src/faction_camp.cpp:2809
+#: src/faction_camp.cpp:2805
 msgid "Construction line must be straight!"
 msgstr ""
 
-#: src/faction_camp.cpp:2824
+#: src/faction_camp.cpp:2820
 msgid "Spiked pits must be built over existing trenches!"
 msgstr ""
 
-#: src/faction_camp.cpp:2846
+#: src/faction_camp.cpp:2842
 msgid "Invalid terrain in construction path."
 msgstr ""
 
-#: src/faction_camp.cpp:2881
+#: src/faction_camp.cpp:2877
 msgid "You don't have the material to build the fortification."
 msgstr ""
 
-#: src/faction_camp.cpp:2894
+#: src/faction_camp.cpp:2890
 msgid "begins constructing fortifications…"
 msgstr ""
 
-#: src/faction_camp.cpp:3051
+#: src/faction_camp.cpp:3047
 msgid ""
 "Bug, Incorrect recipe: More than one rotation per orientation isn't valid"
 msgstr ""
 
-#: src/faction_camp.cpp:3120
+#: src/faction_camp.cpp:3116
 #, c-format
 msgid "Number of additional sessions required: %i"
 msgstr ""
 
-#: src/faction_camp.cpp:3135
+#: src/faction_camp.cpp:3131
 msgid "Start constructing salt water pipes…"
 msgstr ""
 
-#: src/faction_camp.cpp:3173
+#: src/faction_camp.cpp:3169
 msgid "Continue constructing salt water pipes…"
 msgstr ""
 
-#: src/faction_camp.cpp:3290
+#: src/faction_camp.cpp:3286
 msgid ""
 "This functionality cannot be constructed as the tile directly adjacent to "
 "this expansion is not of a type a pipe can be constructed through.  "
@@ -17249,7 +17253,7 @@ msgid ""
 "be removed from the set of available recipes and won't show up again."
 msgstr ""
 
-#: src/faction_camp.cpp:3335
+#: src/faction_camp.cpp:3331
 msgid ""
 "This functionality cannot be constructed as no valid path to a swamp has "
 "been found with a maximum length (20 tiles) at a maximum range of 10 tiles."
@@ -17257,465 +17261,465 @@ msgid ""
 "removed from the set of available recipes and won't show up again."
 msgstr ""
 
-#: src/faction_camp.cpp:3443
+#: src/faction_camp.cpp:3439
 msgid ""
 "Select checkpoints until you reach maximum range or select the last point "
 "again to end.  Cancel to undo a selection."
 msgstr ""
 
-#: src/faction_camp.cpp:3465
+#: src/faction_camp.cpp:3461
 msgid "departs on patrol…"
 msgstr ""
 
-#: src/faction_camp.cpp:3475
+#: src/faction_camp.cpp:3471
 msgid "There's nobody assigned to work at the camp!"
 msgstr ""
 
-#: src/faction_camp.cpp:3522
+#: src/faction_camp.cpp:3518
 msgid ""
 "Eligible locations must be a terrain OR furniture (not item) that can "
 "contain liquid, and does not already have any items on its tile."
 msgstr ""
 
-#: src/faction_camp.cpp:3529
+#: src/faction_camp.cpp:3525
 msgid "Choose a NPC to craft"
 msgstr ""
 
-#: src/faction_camp.cpp:3540
+#: src/faction_camp.cpp:3536
 msgid "lacks necessary skills"
 msgstr ""
 
-#: src/faction_camp.cpp:3542
+#: src/faction_camp.cpp:3538
 msgid "lacks necessary proficiencies"
 msgstr ""
 
-#: src/faction_camp.cpp:3544
+#: src/faction_camp.cpp:3540
 msgid "already working on something else"
 msgstr ""
 
-#: src/faction_camp.cpp:3574
+#: src/faction_camp.cpp:3570
 #, c-format
 msgid "This will cost %i kcal (you have %i stored), is that acceptable?"
 msgstr ""
 
-#: src/faction_camp.cpp:3580
+#: src/faction_camp.cpp:3576
 msgid "Not enough stored food."
 msgstr ""
 
-#: src/faction_camp.cpp:3587
+#: src/faction_camp.cpp:3583
 msgid "begins to work…"
 msgstr ""
 
-#: src/faction_camp.cpp:3765
+#: src/faction_camp.cpp:3761
 msgid "+ more\n"
 msgstr ""
 
-#: src/faction_camp.cpp:3801
+#: src/faction_camp.cpp:3797
 msgid "begins to harvest the field…"
 msgstr ""
 
-#: src/faction_camp.cpp:3808
+#: src/faction_camp.cpp:3804
 msgid "Selected seeds"
 msgstr ""
 
-#: src/faction_camp.cpp:3808 src/mission_companion.cpp:1574
+#: src/faction_camp.cpp:3804 src/mission_companion.cpp:1574
 msgid "Which seeds do you wish to have planted?"
 msgstr ""
 
-#: src/faction_camp.cpp:3809
+#: src/faction_camp.cpp:3805
 msgid "You have no additional seeds to give your companions…"
 msgstr ""
 
-#: src/faction_camp.cpp:3831
+#: src/faction_camp.cpp:3827
 msgid "begins planting the field…"
 msgstr ""
 
-#: src/faction_camp.cpp:3837
+#: src/faction_camp.cpp:3833
 msgid "begins plowing the field…"
 msgstr ""
 
-#: src/faction_camp.cpp:3890
+#: src/faction_camp.cpp:3886
 msgid "Your companion seems disappointed that your pantry is empty…"
 msgstr ""
 
-#: src/faction_camp.cpp:4030
+#: src/faction_camp.cpp:4026
 #, c-format
 msgid ""
 "%1$s failed to build the %2$s upgrade, %3$s vehicle/appliance seems to be in"
 " the way."
 msgstr ""
 
-#: src/faction_camp.cpp:4046
+#: src/faction_camp.cpp:4042
 msgid "returns from upgrading the camp having earned a bit of experience…"
 msgstr ""
 
-#: src/faction_camp.cpp:4058
+#: src/faction_camp.cpp:4054
 msgid "returns from doing the dirty work to keep the camp running…"
 msgstr ""
 
-#: src/faction_camp.cpp:4075
+#: src/faction_camp.cpp:4071
 msgid "gathering materials"
 msgstr ""
 
-#: src/faction_camp.cpp:4083
+#: src/faction_camp.cpp:4079
 msgid "foraging for edible plants"
 msgstr ""
 
-#: src/faction_camp.cpp:4087
+#: src/faction_camp.cpp:4083
 msgid "trapping small animals"
 msgstr ""
 
-#: src/faction_camp.cpp:4094
+#: src/faction_camp.cpp:4090
 msgid "hunting for meat"
 msgstr ""
 
-#: src/faction_camp.cpp:4107
+#: src/faction_camp.cpp:4103
 #, c-format
 msgid "returns from %s carrying supplies and has a bit more experience…"
 msgstr ""
 
-#: src/faction_camp.cpp:4161
+#: src/faction_camp.cpp:4157
 msgid "returns from constructing fortifications…"
 msgstr ""
 
-#: src/faction_camp.cpp:4183 src/faction_camp.cpp:4277
+#: src/faction_camp.cpp:4179 src/faction_camp.cpp:4273
 msgid "Error: Failed to find the pipe task that was to be constructed"
 msgstr ""
 
-#: src/faction_camp.cpp:4253
+#: src/faction_camp.cpp:4249
 msgid "returns from construction of the salt water pipe swamp segment…"
 msgstr ""
 
-#: src/faction_camp.cpp:4375
+#: src/faction_camp.cpp:4371
 msgid "returns from construction of a salt water pipe segment…"
 msgstr ""
 
-#: src/faction_camp.cpp:4384
+#: src/faction_camp.cpp:4380
 msgid "returns from searching for recruits with a bit more experience…"
 msgstr ""
 
-#: src/faction_camp.cpp:4398
+#: src/faction_camp.cpp:4394
 #, c-format
 msgid "%s encountered %s…"
 msgstr ""
 
-#: src/faction_camp.cpp:4400
+#: src/faction_camp.cpp:4396
 #, c-format
 msgid "%s didn't find anyone to recruit…"
 msgstr ""
 
-#: src/faction_camp.cpp:4406
+#: src/faction_camp.cpp:4402
 #, c-format
 msgid "%s convinced %s to hear a recruitment offer from you…"
 msgstr ""
 
-#: src/faction_camp.cpp:4409
+#: src/faction_camp.cpp:4405
 #, c-format
 msgid "%s wasn't interested in anything %s had to offer…"
 msgstr ""
 
-#: src/faction_camp.cpp:4418
+#: src/faction_camp.cpp:4414
 msgid ""
 "NPC Overview:\n"
 "\n"
 msgstr ""
 
-#: src/faction_camp.cpp:4419
+#: src/faction_camp.cpp:4415
 #, c-format
 msgid ""
 "Name:  %s\n"
 "\n"
 msgstr ""
 
-#: src/faction_camp.cpp:4420
+#: src/faction_camp.cpp:4416
 #, c-format
 msgid "Strength:        %10d\n"
 msgstr ""
 
-#: src/faction_camp.cpp:4421
+#: src/faction_camp.cpp:4417
 #, c-format
 msgid "Dexterity:       %10d\n"
 msgstr ""
 
-#: src/faction_camp.cpp:4422
+#: src/faction_camp.cpp:4418
 #, c-format
 msgid "Intelligence:    %10d\n"
 msgstr ""
 
-#: src/faction_camp.cpp:4423
+#: src/faction_camp.cpp:4419
 #, c-format
 msgid ""
 "Perception:      %10d\n"
 "\n"
 msgstr ""
 
-#: src/faction_camp.cpp:4424
+#: src/faction_camp.cpp:4420
 msgid "Top 3 Skills:\n"
 msgstr ""
 
-#: src/faction_camp.cpp:4441
+#: src/faction_camp.cpp:4437
 msgid "Asking for:\n"
 msgstr ""
 
-#: src/faction_camp.cpp:4442
+#: src/faction_camp.cpp:4438
 #, c-format
 msgid ""
 "> Food:     %10d days\n"
 "\n"
 msgstr ""
 
-#: src/faction_camp.cpp:4443
+#: src/faction_camp.cpp:4439
 #, c-format
 msgid ""
 "Faction Food:%9d days\n"
 "\n"
 msgstr ""
 
-#: src/faction_camp.cpp:4445
+#: src/faction_camp.cpp:4441
 #, c-format
 msgid ""
 "Recruit Chance: %10d%%\n"
 "\n"
 msgstr ""
 
-#: src/faction_camp.cpp:4447
+#: src/faction_camp.cpp:4443
 msgid "Select an option:"
 msgstr ""
 
-#: src/faction_camp.cpp:4451
+#: src/faction_camp.cpp:4447
 msgid "Increase Food"
 msgstr ""
 
-#: src/faction_camp.cpp:4452
+#: src/faction_camp.cpp:4448
 msgid "Decrease Food"
 msgstr ""
 
-#: src/faction_camp.cpp:4453
+#: src/faction_camp.cpp:4449
 msgid "Make Offer"
 msgstr ""
 
-#: src/faction_camp.cpp:4454
+#: src/faction_camp.cpp:4450
 msgid "Not Interested"
 msgstr ""
 
-#: src/faction_camp.cpp:4458
+#: src/faction_camp.cpp:4454
 msgid "You decide you aren't interested…"
 msgstr ""
 
-#: src/faction_camp.cpp:4478
+#: src/faction_camp.cpp:4474
 #, c-format
 msgid "%s has been convinced to join!"
 msgstr ""
 
-#: src/faction_camp.cpp:4480
+#: src/faction_camp.cpp:4476
 #, c-format
 msgid "%s wasn't interested…"
 msgstr ""
 
-#: src/faction_camp.cpp:4528
+#: src/faction_camp.cpp:4524
 #, c-format
 msgid "%s didn't return from patrol…"
 msgstr ""
 
-#: src/faction_camp.cpp:4535
+#: src/faction_camp.cpp:4531
 msgid "returns from patrol…"
 msgstr ""
 
-#: src/faction_camp.cpp:4542
+#: src/faction_camp.cpp:4538
 msgid "stops looking for terrain to turn into fields…"
 msgstr ""
 
-#: src/faction_camp.cpp:4553 src/faction_camp.cpp:4635
+#: src/faction_camp.cpp:4549 src/faction_camp.cpp:4631
 #, c-format
 msgid "Select a tile up to %d tiles away."
 msgstr ""
 
-#: src/faction_camp.cpp:4560 src/faction_camp.cpp:4642
+#: src/faction_camp.cpp:4556 src/faction_camp.cpp:4638
 #, c-format
 msgid "You must select a tile within %d range of the camp"
 msgstr ""
 
-#: src/faction_camp.cpp:4564 src/faction_camp.cpp:4646
+#: src/faction_camp.cpp:4560 src/faction_camp.cpp:4642
 msgid "Expansions must be on the same level as the camp"
 msgstr ""
 
-#: src/faction_camp.cpp:4570 src/faction_camp.cpp:4652
+#: src/faction_camp.cpp:4566 src/faction_camp.cpp:4648
 msgid ""
 "You already have an expansion at that location.  Do you want to finish this "
 "mission?  If not, another tile can be checked."
 msgstr ""
 
-#: src/faction_camp.cpp:4580
+#: src/faction_camp.cpp:4576
 msgid ""
 "This location is already a field.  Do you want to finish this mission?  If "
 "not, another tile can be checked."
 msgstr ""
 
-#: src/faction_camp.cpp:4602
+#: src/faction_camp.cpp:4598
 #, c-format
 msgid ""
 "This location has %d tiles blocking it from being converted.  Do you want to"
 " finish this mission?  If not, another tile can be checked."
 msgstr ""
 
-#: src/faction_camp.cpp:4613
+#: src/faction_camp.cpp:4609
 msgid ""
 "This location has now been converted into a field!  Do you want to finish "
 "the mission?  If not, another tile can be checked."
 msgstr ""
 
-#: src/faction_camp.cpp:4624
+#: src/faction_camp.cpp:4620
 msgid "gives up trying to create an expansion…"
 msgstr ""
 
-#: src/faction_camp.cpp:4666
+#: src/faction_camp.cpp:4662
 #, c-format
 msgid ""
 "You can't build any expansion in a %s.  Do you want to finish this mission?"
 "  If not, another tile can be checked."
 msgstr ""
 
-#: src/faction_camp.cpp:4676
+#: src/faction_camp.cpp:4672
 msgid "Select an expansion:"
 msgstr ""
 
-#: src/faction_camp.cpp:4691
+#: src/faction_camp.cpp:4687
 msgid ""
 "Do you want to finish this mission?  If not, another tile can be checked."
 msgstr ""
 
-#: src/faction_camp.cpp:4703
+#: src/faction_camp.cpp:4699
 #, c-format
 msgid ""
 "%1$s failed to add the %2$s expansion, %3$s vehicle/appliance seems to be in"
 " the way."
 msgstr ""
 
-#: src/faction_camp.cpp:4708
+#: src/faction_camp.cpp:4704
 msgid ""
 "Do you want to finish this mission?  If not, another tile can be checked, or"
 " you can try again after clearing away the obstacle."
 msgstr ""
 
-#: src/faction_camp.cpp:4717
+#: src/faction_camp.cpp:4713
 msgid "returns from surveying for the expansion."
 msgstr ""
 
-#: src/faction_camp.cpp:4737
+#: src/faction_camp.cpp:4733
 msgid "returns from working your fields…"
 msgstr ""
 
-#: src/faction_camp.cpp:5064
+#: src/faction_camp.cpp:5060
 #, c-format
 msgid "Select a location from %d to %d tiles away."
 msgstr ""
 
-#: src/faction_camp.cpp:5078
+#: src/faction_camp.cpp:5074
 #, c-format
 msgid ""
 "You must select a target from %d to %d range.  Your selection was range %d."
 msgstr ""
 
-#: src/faction_camp.cpp:5089
+#: src/faction_camp.cpp:5085
 msgid "You must be able to see the target that you select."
 msgstr ""
 
-#: src/faction_camp.cpp:5095
+#: src/faction_camp.cpp:5091
 msgid "Do you want to bounce off this location to extend range?"
 msgstr ""
 
-#: src/faction_camp.cpp:5282
+#: src/faction_camp.cpp:5278
 msgid "Confirm again to finalize the path, or cancel to undo."
 msgstr ""
 
-#: src/faction_camp.cpp:5310
+#: src/faction_camp.cpp:5306
 msgid "This path is too far, continue to undo and try again."
 msgstr ""
 
-#: src/faction_camp.cpp:5377 src/faction_camp.cpp:5426 src/iuse.cpp:8404
+#: src/faction_camp.cpp:5373 src/faction_camp.cpp:5422 src/iuse.cpp:8404
 #: src/iuse.cpp:8625
 msgctxt "short for infinity"
 msgid "inf"
 msgstr ""
 
-#: src/faction_camp.cpp:5383 src/faction_camp.cpp:5432
+#: src/faction_camp.cpp:5379 src/faction_camp.cpp:5428
 msgid "Volume (L)"
 msgstr ""
 
-#: src/faction_camp.cpp:5384 src/faction_camp.cpp:5433
+#: src/faction_camp.cpp:5380 src/faction_camp.cpp:5429
 msgid "Weight (kg)"
 msgstr ""
 
-#: src/faction_camp.cpp:5394 src/faction_camp.cpp:5442
+#: src/faction_camp.cpp:5390 src/faction_camp.cpp:5438
 msgid "To select items, type a number before selecting."
 msgstr ""
 
-#: src/faction_camp.cpp:5397
+#: src/faction_camp.cpp:5393
 msgid "You have nothing to send."
 msgstr ""
 
-#: src/faction_camp.cpp:5445
+#: src/faction_camp.cpp:5441
 msgid "You have nothing to retrieve."
 msgstr ""
 
-#: src/faction_camp.cpp:5459
+#: src/faction_camp.cpp:5455
 msgid "You do not have sufficient sort zones.  Do you want to add them?"
 msgstr ""
 
-#: src/faction_camp.cpp:5472
+#: src/faction_camp.cpp:5468
 msgid ""
 "Please create some sorting zones.  You must create a camp food zone, and a "
 "camp storage zone."
 msgstr ""
 
-#: src/faction_camp.cpp:5510
+#: src/faction_camp.cpp:5506
 #, c-format
 msgid ">Distance:%15.2f (km)\n"
 msgstr ""
 
-#: src/faction_camp.cpp:5511 src/faction_camp.cpp:5515
+#: src/faction_camp.cpp:5507 src/faction_camp.cpp:5511
 #, c-format
 msgid ">One Way: %15d trips\n"
 msgstr ""
 
-#: src/faction_camp.cpp:5512
+#: src/faction_camp.cpp:5508
 #, c-format
 msgid ">Covered: %15.2f (km)\n"
 msgstr ""
 
-#: src/faction_camp.cpp:5514
+#: src/faction_camp.cpp:5510
 #, c-format
 msgid ">Distance:%15d (m)\n"
 msgstr ""
 
-#: src/faction_camp.cpp:5516
+#: src/faction_camp.cpp:5512
 #, c-format
 msgid ">Covered: %15d (m)\n"
 msgstr ""
 
-#: src/faction_camp.cpp:5518
+#: src/faction_camp.cpp:5514
 #, c-format
 msgid ">Travel:  %s\n"
 msgstr ""
 
-#: src/faction_camp.cpp:5519
+#: src/faction_camp.cpp:5515
 #, c-format
 msgid ">Working: %s\n"
 msgstr ""
 
-#: src/faction_camp.cpp:5521
+#: src/faction_camp.cpp:5517
 #, c-format
 msgid "Total:    %s\n"
 msgstr ""
 
-#: src/faction_camp.cpp:5522
+#: src/faction_camp.cpp:5518
 #, c-format
 msgid ""
 "Food:     %15d (kcal)\n"
 "\n"
 msgstr ""
 
-#: src/faction_camp.cpp:5544
+#: src/faction_camp.cpp:5540
 #, c-format
 msgid ""
 "Skill used: %s\n"
@@ -17725,7 +17729,7 @@ msgid ""
 "Calories per craft: %s\n"
 msgstr ""
 
-#: src/faction_camp.cpp:5610
+#: src/faction_camp.cpp:5606
 #, c-format
 msgid ""
 "Notes:\n"
@@ -17745,179 +17749,179 @@ msgid ""
 "Positions: %d/1\n"
 msgstr ""
 
-#: src/faction_camp.cpp:5661
+#: src/faction_camp.cpp:5657
 msgid "Harvestable: "
 msgstr ""
 
-#: src/faction_camp.cpp:5663
+#: src/faction_camp.cpp:5659
 msgid "Ready for Planting: "
 msgstr ""
 
-#: src/faction_camp.cpp:5665
+#: src/faction_camp.cpp:5661
 msgid "Needs Plowing: "
 msgstr ""
 
-#: src/faction_camp.cpp:5762
+#: src/faction_camp.cpp:5759
 msgid "You are too full to eat right now, and put the meal back into storage."
 msgstr ""
 
-#: src/faction_camp.cpp:5763
+#: src/faction_camp.cpp:5760
 msgid ""
 "<npcname> is too full to eat right now, and puts the meal back into storage."
 msgstr ""
 
-#: src/faction_camp.cpp:5773
+#: src/faction_camp.cpp:5770
 #, c-format
 msgid ""
 "%s takes one look at the food and declines, explaining they're allergic."
 msgstr ""
 
-#: src/faction_camp.cpp:5779
+#: src/faction_camp.cpp:5776
 #, c-format
 msgid ""
 "%s takes a bite but spits it out.  It seems something in the food disagrees "
 "with them."
 msgstr ""
 
-#: src/faction_camp.cpp:5785
+#: src/faction_camp.cpp:5782
 #, c-format
 msgid ""
 "%s thanks you for the meal, but when they see what's in the meal their "
 "attitude suddenly changes!"
 msgstr ""
 
-#: src/faction_camp.cpp:5842
+#: src/faction_camp.cpp:5943
 msgid "You do not have a camp food zone.  Aborting…"
 msgstr ""
 
-#: src/faction_camp.cpp:5852
+#: src/faction_camp.cpp:5953
 msgid ""
 "Do you also wish to distribute comestibles without any calorie value (i.e. "
 "multivitamins, mutagens)?"
 msgstr ""
 
-#: src/faction_camp.cpp:5975
+#: src/faction_camp.cpp:6002
 msgid "No suitable items are located at the drop points…"
 msgstr ""
 
-#: src/faction_camp.cpp:5982
+#: src/faction_camp.cpp:6011
 #, c-format
 msgid "You distribute %d kcal worth of food to your companions."
 msgstr ""
 
-#: src/faction_camp.cpp:5985
+#: src/faction_camp.cpp:6014
 msgid "You distribute vitamins and medicine to your companions."
 msgstr ""
 
-#: src/faction_camp.cpp:6049
+#: src/faction_camp.cpp:6231
 msgid "<No longer valid construction>"
 msgstr ""
 
-#: src/faction_camp.cpp:6070
+#: src/faction_camp.cpp:6252
 msgid " <Unsupported recipe>"
 msgstr ""
 
-#: src/faction_camp.cpp:6094
+#: src/faction_camp.cpp:6276
 msgid "Select mission(s) to reveal, escape when done"
 msgstr ""
 
-#: src/faction_camp.cpp:6097 src/faction_camp.cpp:6141
+#: src/faction_camp.cpp:6279 src/faction_camp.cpp:6323
 msgid "You're done for now…"
 msgstr ""
 
-#: src/faction_camp.cpp:6138
+#: src/faction_camp.cpp:6320
 msgid "Select mission(s) to hide, escape when done"
 msgstr ""
 
-#: src/faction_camp.cpp:6181
+#: src/faction_camp.cpp:6363
 msgid ""
 "No eligible locations found to place resulting liquids, placing them at random.\n"
 "\n"
 "Eligible locations must be a terrain OR furniture (not item) that can contain liquid, and does not already have any items on its tile."
 msgstr ""
 
-#: src/faction_camp.cpp:6206
+#: src/faction_camp.cpp:6388
 #, c-format
 msgid "While %s, a silent specter approaches %s…"
 msgstr ""
 
-#: src/faction_camp.cpp:6210
+#: src/faction_camp.cpp:6392
 #, c-format
 msgid ""
 "%s notices the antlered horror and slips away before it gets too close."
 msgstr ""
 
-#: src/faction_camp.cpp:6214
+#: src/faction_camp.cpp:6396
 #, c-format
 msgid "Another survivor approaches %s asking for directions."
 msgstr ""
 
-#: src/faction_camp.cpp:6215
+#: src/faction_camp.cpp:6397
 #, c-format
 msgid ""
 "Fearful that he may be an agent of some hostile faction, %s doesn't mention "
 "the camp."
 msgstr ""
 
-#: src/faction_camp.cpp:6217
+#: src/faction_camp.cpp:6399
 msgid "The two part on friendly terms and the survivor isn't seen again."
 msgstr ""
 
-#: src/faction_camp.cpp:6220
+#: src/faction_camp.cpp:6402
 #, c-format
 msgid "%s didn't detect the ambush until it was too late!"
 msgstr ""
 
-#: src/faction_camp.cpp:6230
+#: src/faction_camp.cpp:6412
 #, c-format
 msgid "The bull moose charged %s from the tree line…"
 msgstr ""
 
-#: src/faction_camp.cpp:6231
+#: src/faction_camp.cpp:6413
 #, c-format
 msgid ""
 "Despite being caught off guard %s was able to run away until the moose gave "
 "up pursuit."
 msgstr ""
 
-#: src/faction_camp.cpp:6234
+#: src/faction_camp.cpp:6416
 #, c-format
 msgid "The jabberwock grabbed %s by the arm from behind and began to scream."
 msgstr ""
 
-#: src/faction_camp.cpp:6236
+#: src/faction_camp.cpp:6418
 #, c-format
 msgid ""
 "Terrified, %s spun around and delivered a massive kick to the creature's "
 "torso…"
 msgstr ""
 
-#: src/faction_camp.cpp:6238
+#: src/faction_camp.cpp:6420
 #, c-format
 msgid "Collapsing into a pile of gore, %s walked away unscathed…"
 msgstr ""
 
-#: src/faction_camp.cpp:6240
+#: src/faction_camp.cpp:6422
 msgid "(Sounds like bullshit, you wonder what really happened.)"
 msgstr ""
 
-#: src/faction_camp.cpp:6245
+#: src/faction_camp.cpp:6427
 #, c-format
 msgid ""
 "%s turned to find the hideous black eyes of a giant wasp staring back from "
 "only a few feet away…"
 msgstr ""
 
-#: src/faction_camp.cpp:6247
+#: src/faction_camp.cpp:6429
 msgid "The screams were terrifying, there was nothing anyone could do."
 msgstr ""
 
-#: src/faction_camp.cpp:6249
+#: src/faction_camp.cpp:6431
 #, c-format
 msgid "Pieces of %s were found strewn across a few bushes."
 msgstr ""
 
-#: src/faction_camp.cpp:6250
+#: src/faction_camp.cpp:6432
 msgid "(You wonder if your companions are fit to work on their own…)"
 msgstr ""
 
@@ -28973,17 +28977,17 @@ msgid ""
 "[<color_yellow>%s</color>] Context menu"
 msgstr ""
 
-#: src/item_factory.cpp:695
+#: src/item_factory.cpp:699
 msgid "manual"
 msgstr ""
 
-#: src/item_factory.cpp:697
+#: src/item_factory.cpp:701
 msgid "revolver"
 msgstr "revolver"
 
 #. ~ Firing mode of gun
 #. ~ Firing mode of gun mod
-#: src/item_factory.cpp:699 data/json/items/gun/10mm.json
+#: src/item_factory.cpp:703 data/json/items/gun/10mm.json
 #: data/json/items/gun/22.json data/json/items/gun/223.json
 #: data/json/items/gun/3006.json data/json/items/gun/300BLK.json
 #: data/json/items/gun/308.json data/json/items/gun/30carbine.json
@@ -29015,14 +29019,14 @@ msgstr "revolver"
 msgid "semi-auto"
 msgstr ""
 
-#: src/item_factory.cpp:1996
+#: src/item_factory.cpp:2000
 msgid ""
 "Can be activated to <good>increase environmental protection</good>.  Will "
 "consume charges when active, but <info>only when environmental hazards are "
 "present</info>."
 msgstr ""
 
-#: src/item_factory.cpp:3755
+#: src/item_factory.cpp:3759
 #, c-format
 msgid "%s needs pocket definitions"
 msgstr ""
@@ -35155,7 +35159,7 @@ msgid "< <color_green>Mouse view</color> >"
 msgstr ""
 
 #: src/loading_ui.cpp:136 src/main_menu.cpp:430 src/path_info.cpp:483
-#: src/sdltiles.cpp:198
+#: src/sdltiles.cpp:202
 msgid "Cataclysm: Dark Days Ahead"
 msgstr ""
 
@@ -37181,7 +37185,7 @@ msgstr ""
 msgid "very damaged"
 msgstr ""
 
-#: src/math_parser_diag.cpp:604
+#: src/math_parser_diag.cpp:592
 msgid "Input a value:"
 msgstr ""
 
@@ -49074,7 +49078,7 @@ msgstr ""
 msgid "<color_light_gray>Distance: </color><color_white>%d</color>"
 msgstr ""
 
-#: src/overmap_ui.cpp:889 src/sdltiles.cpp:1102
+#: src/overmap_ui.cpp:889 src/sdltiles.cpp:1106
 msgid "DANGEROUS AREA!"
 msgstr ""
 
@@ -51962,7 +51966,7 @@ msgstr ""
 msgid "KILLS"
 msgstr ""
 
-#: src/sdltiles.cpp:1154
+#: src/sdltiles.cpp:1158
 msgid "-- Notes: --"
 msgstr ""
 
@@ -170825,6 +170829,20 @@ msgstr ""
 msgid "rear channel pocket."
 msgstr ""
 
+#. ~ Item name
+#: data/json/items/armor/coats.json
+msgid "abaya"
+msgid_plural "abayas"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "abaya"
+#: data/json/items/armor/coats.json
+msgid ""
+"A loose-fitting, full-length outer garment generally worn over clothing by "
+"Muslim women."
+msgstr ""
+
 #. ~ Description of a pocket in item "abstract combat exoskeleton"
 #: data/json/items/armor/combat_exoskeleton.json
 msgid "Compartment for a tool battery."
@@ -174788,6 +174806,33 @@ msgstr[1] ""
 #. dress"
 #: data/json/items/armor/hats.json data/json/items/armor/torso_clothes.json
 msgid "It's colored dark purple."
+msgstr ""
+
+#. ~ Item name
+#: data/json/items/armor/hats.json
+msgid "hijab"
+msgid_plural "hijabs"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "hijab"
+#: data/json/items/armor/hats.json
+msgid ""
+"A headscarf worn by Muslim women which covers most of the head, leaving the "
+"face visible."
+msgstr ""
+
+#. ~ Item name
+#: data/json/items/armor/hats.json
+msgid "niqab"
+msgid_plural "niqabs"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "niqab"
+#: data/json/items/armor/hats.json
+msgid ""
+"A veil worn by Muslim women which covers the face, leaving the eyes visible."
 msgstr ""
 
 #. ~ Item name
@@ -190067,6 +190112,65 @@ msgid ""
 msgstr ""
 
 #. ~ Item name
+#. ~ Variant name of item "small backpack"
+#: data/json/items/armor/storage_packs.json
+msgid "small backpack"
+msgid_plural "small backpacks"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "small backpack"
+#: data/json/items/armor/storage_packs.json
+msgid "A small simple backpack, probably sized for a kid."
+msgstr ""
+
+#. ~ Description of variant "small backpack" of item "small backpack"
+#: data/json/items/armor/storage_packs.json
+msgid "A little <color> backpack, probably sized for a kid."
+msgstr ""
+
+#. ~ Variant name of item "small backpack"
+#: data/json/items/armor/storage_packs.json
+msgid "boy's backpack"
+msgid_plural "boy's backpacks"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of variant "boy's backpack" of item "small backpack"
+#: data/json/items/armor/storage_packs.json
+msgid "A boy's backpack.  <boy_brand>"
+msgstr ""
+
+#. ~ Variant name of item "small backpack"
+#: data/json/items/armor/storage_packs.json
+msgid "girl's backpack"
+msgid_plural "girl's backpacks"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of variant "girl's backpack" of item "small backpack"
+#: data/json/items/armor/storage_packs.json
+msgid "A girl's backpack.  <girl_brand>"
+msgstr ""
+
+#. ~ Variant name of item "small backpack"
+#: data/json/items/armor/storage_packs.json
+msgid "kid's backpack"
+msgid_plural "kid's backpacks"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of variant "kid's backpack" of item "small backpack"
+#: data/json/items/armor/storage_packs.json
+msgid "A kid's backpack.  <kid_brand>"
+msgstr ""
+
+#. ~ Description of a pocket in item "small backpack"
+#: data/json/items/armor/storage_packs.json
+msgid "A zipper pocket, meant for pens and pencils."
+msgstr ""
+
+#. ~ Item name
 #: data/json/items/armor/suits_clothes.json
 msgid "bondage suit"
 msgid_plural "bondage suits"
@@ -194574,15 +194678,127 @@ msgstr[1] ""
 #. ~ Variant name of item "hoodie"
 #. ~ Variant name of item "cropped hoodie"
 #: data/json/items/armor/torso_clothes.json
-msgid "animal hoodie"
-msgid_plural "animal hoodies"
+msgid "shark hoodie"
+msgid_plural "shark hoodies"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Description of variant "animal hoodie" of item "hoodie"
-#. ~ Description of variant "animal hoodie" of item "cropped hoodie"
+#. ~ Description of variant "shark hoodie" of item "hoodie"
+#. ~ Description of variant "shark hoodie" of item "cropped hoodie"
 #: data/json/items/armor/torso_clothes.json
-msgid "This one looks like a cute <hoodie_animal>."
+msgid "This one is made to look like a cute shark."
+msgstr ""
+
+#. ~ Variant name of item "hoodie"
+#. ~ Variant name of item "cropped hoodie"
+#: data/json/items/armor/torso_clothes.json
+msgid "bear hoodie"
+msgid_plural "bear hoodies"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of variant "bear hoodie" of item "hoodie"
+#. ~ Description of variant "bear hoodie" of item "cropped hoodie"
+#: data/json/items/armor/torso_clothes.json
+msgid "This one is made to look like a cute bear."
+msgstr ""
+
+#. ~ Variant name of item "hoodie"
+#. ~ Variant name of item "cropped hoodie"
+#: data/json/items/armor/torso_clothes.json
+msgid "cat hoodie"
+msgid_plural "cat hoodies"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of variant "cat hoodie" of item "hoodie"
+#. ~ Description of variant "cat hoodie" of item "cropped hoodie"
+#: data/json/items/armor/torso_clothes.json
+msgid "This one is made to look like a cute cat."
+msgstr ""
+
+#. ~ Variant name of item "hoodie"
+#. ~ Variant name of item "cropped hoodie"
+#: data/json/items/armor/torso_clothes.json
+msgid "bunny hoodie"
+msgid_plural "bunny hoodies"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of variant "bunny hoodie" of item "hoodie"
+#. ~ Description of variant "bunny hoodie" of item "cropped hoodie"
+#: data/json/items/armor/torso_clothes.json
+msgid "This one is made to look like a cute bunny."
+msgstr ""
+
+#. ~ Variant name of item "hoodie"
+#. ~ Variant name of item "cropped hoodie"
+#: data/json/items/armor/torso_clothes.json
+msgid "wolf hoodie"
+msgid_plural "wolf hoodies"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of variant "wolf hoodie" of item "hoodie"
+#. ~ Description of variant "wolf hoodie" of item "cropped hoodie"
+#: data/json/items/armor/torso_clothes.json
+msgid "This one is made to look like a cute wolf."
+msgstr ""
+
+#. ~ Variant name of item "hoodie"
+#. ~ Variant name of item "cropped hoodie"
+#: data/json/items/armor/torso_clothes.json
+msgid "lizard hoodie"
+msgid_plural "lizard hoodies"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of variant "lizard hoodie" of item "hoodie"
+#. ~ Description of variant "lizard hoodie" of item "cropped hoodie"
+#: data/json/items/armor/torso_clothes.json
+msgid "This one is made to look like a cute lizard."
+msgstr ""
+
+#. ~ Variant name of item "hoodie"
+#. ~ Variant name of item "cropped hoodie"
+#: data/json/items/armor/torso_clothes.json
+msgid "dog hoodie"
+msgid_plural "dog hoodies"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of variant "dog hoodie" of item "hoodie"
+#. ~ Description of variant "dog hoodie" of item "cropped hoodie"
+#: data/json/items/armor/torso_clothes.json
+msgid "This one is made to look like a cute dog."
+msgstr ""
+
+#. ~ Variant name of item "hoodie"
+#. ~ Variant name of item "cropped hoodie"
+#: data/json/items/armor/torso_clothes.json
+msgid "panda hoodie"
+msgid_plural "panda hoodies"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of variant "panda hoodie" of item "hoodie"
+#. ~ Description of variant "panda hoodie" of item "cropped hoodie"
+#: data/json/items/armor/torso_clothes.json
+msgid "This one is made to look like a cute panda."
+msgstr ""
+
+#. ~ Variant name of item "hoodie"
+#. ~ Variant name of item "cropped hoodie"
+#: data/json/items/armor/torso_clothes.json
+msgid "frog hoodie"
+msgid_plural "frog hoodies"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of variant "frog hoodie" of item "hoodie"
+#. ~ Description of variant "frog hoodie" of item "cropped hoodie"
+#: data/json/items/armor/torso_clothes.json
+msgid "This one is made to look like a cute frog."
 msgstr ""
 
 #. ~ Item name
@@ -244052,8 +244268,8 @@ msgstr[1] ""
 msgid ""
 "A bundle of presses, coat hangars, and other miscellaneous items needed to "
 "store and keep a good change of clothes.  You can interact with it to swap "
-"to the clothes it's currently containing, or disassemble it to get the "
-"clothes back."
+"to the clothes it's currently containing, or put your current clothes in if "
+"there's nothing already inside."
 msgstr ""
 
 #. ~ Item name
@@ -310595,8 +310811,7 @@ msgid ""
 msgstr ""
 
 #. ~ Monster name
-#. ~ Snippet in category "<hoodie_animal>"
-#: data/json/monsters/mammal.json data/json/snippets/clothing.json
+#: data/json/monsters/mammal.json
 #: data/mods/Magiclysm/monsters/zombified_monsters.json
 msgid "wolf"
 msgid_plural "wolfs"
@@ -311991,8 +312206,7 @@ msgid ""
 msgstr ""
 
 #. ~ Monster name
-#. ~ Snippet in category "<hoodie_animal>"
-#: data/json/monsters/nether.json data/json/snippets/clothing.json
+#: data/json/monsters/nether.json
 msgid "dog"
 msgid_plural "dogs"
 msgstr[0] ""
@@ -458811,6 +459025,188 @@ msgstr ""
 msgid "Your ad here!"
 msgstr ""
 
+#. ~ Snippet in category "<kid_brand>"
+#. ~ Suitable for kids' unisex backpacks, lunchboxes, graphic tees, and
+#. similar items.
+#: data/json/snippets/branding.json
+msgid ""
+"It's covered in shooting stars and glowing comets, the kind that people used"
+" to wish upon."
+msgstr ""
+
+#. ~ Snippet in category "<kid_brand>"
+#. ~ Suitable for kids' unisex backpacks, lunchboxes, graphic tees, and
+#. similar items.
+#: data/json/snippets/branding.json
+msgid ""
+"There's a big, confident-looking sun wearing sunglasses looking back at you "
+"from its surface."
+msgstr ""
+
+#. ~ Snippet in category "<kid_brand>"
+#. ~ Suitable for kids' unisex backpacks, lunchboxes, graphic tees, and
+#. similar items.
+#: data/json/snippets/branding.json
+msgid ""
+"As you examine it, its cartoon owl mascot stares back at you with big, "
+"inscrutable eyes."
+msgstr ""
+
+#. ~ Snippet in category "<kid_brand>"
+#. ~ Suitable for kids' unisex backpacks, lunchboxes, graphic tees, and
+#. similar items.
+#: data/json/snippets/branding.json
+msgid ""
+"It's covered in tiny paw prints, like an untrained pet left muddy tracks all"
+" over it."
+msgstr ""
+
+#. ~ Snippet in category "<kid_brand>"
+#. ~ Suitable for kids' unisex backpacks, lunchboxes, graphic tees, and
+#. similar items.
+#: data/json/snippets/branding.json
+msgid ""
+"Various pieces of fruit with legs and arms beam up at you with smiling "
+"faces, as if inviting you to eat them."
+msgstr ""
+
+#. ~ Snippet in category "<kid_brand>"
+#. ~ Suitable for kids' unisex backpacks, lunchboxes, graphic tees, and
+#. similar items.
+#: data/json/snippets/branding.json
+msgid ""
+"An old cartoon character smiles jauntily from its surface, celebrating their"
+" recently renewed return to television.  The TV stations shutting down "
+"stopped that nostalgia grab before it started."
+msgstr ""
+
+#. ~ Snippet in category "<boy_brand>"
+#. ~ Suitable for boys' backpacks, lunchboxes, graphic tees, and similar
+#. items.
+#: data/json/snippets/branding.json
+msgid ""
+"It's decorated with a big cartoon dinosaur, crushing a helpless car beneath "
+"it."
+msgstr ""
+
+#. ~ Snippet in category "<boy_brand>"
+#. ~ Suitable for boys' backpacks, lunchboxes, graphic tees, and similar
+#. items.
+#: data/json/snippets/branding.json
+msgid ""
+"It's emblazoned with the logo of a superhero who was always stopping the end"
+" of the world from happening.  Unfortunately, like most heroes, he was "
+"fictional."
+msgstr ""
+
+#. ~ Snippet in category "<boy_brand>"
+#. ~ Suitable for boys' backpacks, lunchboxes, graphic tees, and similar
+#. items.
+#: data/json/snippets/branding.json
+msgid ""
+"It features a colorful rocket ship fearlessly blasting off into an "
+"unexplored, starry cosmos."
+msgstr ""
+
+#. ~ Snippet in category "<boy_brand>"
+#. ~ Suitable for boys' backpacks, lunchboxes, graphic tees, and similar
+#. items.
+#: data/json/snippets/branding.json
+msgid ""
+"It's got a space-themed design, astronauts orbiting helplessly in the void "
+"among asteroids and alien planets with rings."
+msgstr ""
+
+#. ~ Snippet in category "<boy_brand>"
+#. ~ Suitable for boys' backpacks, lunchboxes, graphic tees, and similar
+#. items.
+#: data/json/snippets/branding.json
+msgid ""
+"It features a rebellious skull and crossbones, like the merciless black flag"
+" of a pirate."
+msgstr ""
+
+#. ~ Snippet in category "<boy_brand>"
+#. ~ Suitable for boys' backpacks, lunchboxes, graphic tees, and similar
+#. items.
+#: data/json/snippets/branding.json
+msgid ""
+"It's patterned like an aged treasure map, complete with dotted lines and an "
+"X marking the spot."
+msgstr ""
+
+#. ~ Snippet in category "<boy_brand>"
+#. ~ Suitable for boys' backpacks, lunchboxes, graphic tees, and similar
+#. items.
+#: data/json/snippets/branding.json
+msgid ""
+"It's covered in rampaging monster trucks, leaving criss-crossing trails of "
+"muddy tire tracks in their wake."
+msgstr ""
+
+#. ~ Snippet in category "<boy_brand>"
+#. ~ Suitable for boys' backpacks, lunchboxes, graphic tees, and similar
+#. items.
+#: data/json/snippets/branding.json
+msgid ""
+"There's a sporty pattern of sneakers, soccer balls, and championship "
+"trophies covering it."
+msgstr ""
+
+#. ~ Snippet in category "<girl_brand>"
+#. ~ Suitable for girls' backpacks, lunchboxes, graphic tees, and similar
+#. items.
+#: data/json/snippets/branding.json
+msgid ""
+"Images of glowing magic wands and small fairies shedding pixie dust from "
+"their wings cover its surface."
+msgstr ""
+
+#. ~ Snippet in category "<girl_brand>"
+#. ~ Suitable for girls' backpacks, lunchboxes, graphic tees, and similar
+#. items.
+#: data/json/snippets/branding.json
+msgid "Little cartoon ballerinas pose gracefully on a pastel background."
+msgstr ""
+
+#. ~ Snippet in category "<girl_brand>"
+#. ~ Suitable for girls' backpacks, lunchboxes, graphic tees, and similar
+#. items.
+#: data/json/snippets/branding.json
+msgid ""
+"Little pink hearts and sparkles decorate the space around a single large, "
+"central red heart.  A big sharp arrow has pierced straight through it, "
+"coming out the other side."
+msgstr ""
+
+#. ~ Snippet in category "<girl_brand>"
+#. ~ Suitable for girls' backpacks, lunchboxes, graphic tees, and similar
+#. items.
+#: data/json/snippets/branding.json
+msgid ""
+"It's covered in unicorns that prance under various rainbows arcing between "
+"white, fluffy clouds."
+msgstr ""
+
+#. ~ Snippet in category "<girl_brand>"
+#. ~ Suitable for girls' backpacks, lunchboxes, graphic tees, and similar
+#. items.
+#: data/json/snippets/branding.json
+msgid ""
+"Bright flowers cover it, sprouting from tangles of long green vines that "
+"converge on a central, half-hidden door."
+msgstr ""
+
+#. ~ Snippet in category "<girl_brand>"
+#. ~ Suitable for girls' backpacks, lunchboxes, graphic tees, and similar
+#. items.
+#: data/json/snippets/branding.json
+msgid ""
+"It's covered in cartoon kittens playfully competing over balls of yarn.  One"
+" kitten teeters precariously as if it's about to fall off the edge of the "
+"drawing."
+msgstr ""
+
 #. ~ Name of a snippet in category "note_child"
 #. ~ The grammar and punctuation mistakes are there on purpose 9/10 times.
 #. Keep in mind that those notes are supposed to be written by primary-school-
@@ -460777,44 +461173,6 @@ msgstr ""
 msgid ""
 "the Debian logo on it, underneath it says \"The Universal Operating System\""
 msgstr ""
-
-#. ~ Snippet in category "<hoodie_animal>"
-#: data/json/snippets/clothing.json
-msgid "shark"
-msgstr ""
-
-#. ~ Snippet in category "<hoodie_animal>"
-#: data/json/snippets/clothing.json
-msgid "bear"
-msgstr ""
-
-#. ~ Snippet in category "<hoodie_animal>"
-#: data/json/snippets/clothing.json
-msgid "cat"
-msgstr ""
-
-#. ~ Snippet in category "<hoodie_animal>"
-#: data/json/snippets/clothing.json
-msgid "bunny"
-msgstr ""
-
-#. ~ Snippet in category "<hoodie_animal>"
-#: data/json/snippets/clothing.json
-msgid "lizard"
-msgstr ""
-
-#. ~ Snippet in category "<hoodie_animal>"
-#: data/json/snippets/clothing.json
-msgid "panda"
-msgstr ""
-
-#. ~ Snippet in category "<hoodie_animal>"
-#. ~ Monster name
-#: data/json/snippets/clothing.json data/mods/Magiclysm/monsters/monsters.json
-msgid "frog"
-msgid_plural "frogs"
-msgstr[0] ""
-msgstr[1] ""
 
 #. ~ Name of a snippet in category "log_immersion27"
 #: data/json/snippets/dimensional_exploration.json
@@ -503940,7 +504298,6 @@ msgstr ""
 
 #. ~ Description of scenario "Scavenger's Frontier" for male
 #: data/mods/Aftershock/scenarios.json
-#: data/mods/aftershock_exoplanet/scenarios.json
 msgctxt "scen_desc_male"
 msgid ""
 "The Cryosleeper slow approach allows the display of Salus IV through all its"
@@ -503953,7 +504310,6 @@ msgstr ""
 
 #. ~ Description of scenario "Scavenger's Frontier" for female
 #: data/mods/Aftershock/scenarios.json
-#: data/mods/aftershock_exoplanet/scenarios.json
 msgctxt "scen_desc_female"
 msgid ""
 "The Cryosleeper slow approach allows the display of Salus IV through all its"
@@ -504030,7 +504386,6 @@ msgstr ""
 
 #. ~ Description of scenario "One Last Dance on the Ice" for male
 #: data/mods/Aftershock/scenarios.json
-#: data/mods/aftershock_exoplanet/scenarios.json
 msgctxt "scen_desc_male"
 msgid ""
 "You've chased your quarry from the tragedies they left behind in the core of"
@@ -504047,7 +504402,6 @@ msgstr ""
 
 #. ~ Description of scenario "One Last Dance on the Ice" for female
 #: data/mods/Aftershock/scenarios.json
-#: data/mods/aftershock_exoplanet/scenarios.json
 msgctxt "scen_desc_female"
 msgid ""
 "You've chased your quarry from the tragedies they left behind in the core of"
@@ -504134,7 +504488,6 @@ msgstr ""
 
 #. ~ Description of scenario "Emergency Evacuation" for male
 #: data/mods/Aftershock/scenarios.json
-#: data/mods/aftershock_exoplanet/scenarios.json
 msgctxt "scen_desc_male"
 msgid ""
 "You must have hit your head when the first explosion happened.  You sit up "
@@ -504146,7 +504499,6 @@ msgstr ""
 
 #. ~ Description of scenario "Emergency Evacuation" for female
 #: data/mods/Aftershock/scenarios.json
-#: data/mods/aftershock_exoplanet/scenarios.json
 msgctxt "scen_desc_female"
 msgid ""
 "You must have hit your head when the first explosion happened.  You sit up "
@@ -504179,7 +504531,6 @@ msgstr ""
 
 #. ~ Description of scenario "Esper" for male
 #: data/mods/Aftershock/scenarios.json
-#: data/mods/aftershock_exoplanet/scenarios.json
 msgctxt "scen_desc_male"
 msgid ""
 "There are stories that before the Discontinuity, scientists had developed treatments to unlock the powers of the human mind.  To read thoughts, move objects at a distance, control computers by the power of will alone, and even stranger things.  Just one more lost secret of the Golden Age.\n"
@@ -504189,7 +504540,6 @@ msgstr ""
 
 #. ~ Description of scenario "Esper" for female
 #: data/mods/Aftershock/scenarios.json
-#: data/mods/aftershock_exoplanet/scenarios.json
 msgctxt "scen_desc_female"
 msgid ""
 "There are stories that before the Discontinuity, scientists had developed treatments to unlock the powers of the human mind.  To read thoughts, move objects at a distance, control computers by the power of will alone, and even stranger things.  Just one more lost secret of the Golden Age.\n"
@@ -520463,7 +520813,6 @@ msgstr ""
 
 #. ~ Description of mission "The bounty is on Salus IV"
 #: data/mods/Aftershock/missions/bounty_hunter_missions.json
-#: data/mods/aftershock_exoplanet/missions/bounty_hunter_missions.json
 msgid ""
 "You've chased your bounty all the way to the ass end of the galaxy here in "
 "the Salus system.  A place of so little value to UICA that it's left to "
@@ -590040,6 +590389,13 @@ msgid ""
 "A shrieker is a human-sized mushroom that emits a piercing screech to drive "
 "off creatures that disturb it."
 msgstr ""
+
+#. ~ Monster name
+#: data/mods/Magiclysm/monsters/monsters.json
+msgid "frog"
+msgid_plural "frogs"
+msgstr[0] ""
+msgstr[1] ""
 
 #. ~ Description of monster "frog"
 #: data/mods/Magiclysm/monsters/monsters.json
@@ -683964,6 +684320,102 @@ msgid ""
 "You are one of these countless scavengers, come to exploit the frozen ruins of Salus IV for your own benefit."
 msgstr ""
 
+#. ~ Description of scenario "Scavenger's Frontier" for male
+#: data/mods/aftershock_exoplanet/scenarios.json
+msgctxt "scen_desc_male"
+msgid ""
+"The Cryosleeper's slow approach allows the display of Salus IV in all its "
+"forms: a fiery marble against interstellar darkness, a silver-white mirror, "
+"and finally, a world of glaciers split by the thin ruins of an equatorial "
+"metroplex.  Before long, Port Augustmoon's ancient hull comes to obstruct "
+"most the viewport, and the ship's computer announces that it is time to "
+"disembark."
+msgstr ""
+
+#. ~ Description of scenario "Scavenger's Frontier" for female
+#: data/mods/aftershock_exoplanet/scenarios.json
+msgctxt "scen_desc_female"
+msgid ""
+"The Cryosleeper's slow approach allows the display of Salus IV in all its "
+"forms: a fiery marble against interstellar darkness, a silver-white mirror, "
+"and finally, a world of glaciers split by the thin ruins of an equatorial "
+"metroplex.  Before long, Port Augustmoon's ancient hull comes to obstruct "
+"most the viewport, and the ship's computer announces that it is time to "
+"disembark."
+msgstr ""
+
+#. ~ Description of scenario "One Last Dance on the Ice" for male
+#: data/mods/aftershock_exoplanet/scenarios.json
+msgctxt "scen_desc_male"
+msgid ""
+"You've chased your quarry from the tragedies they left behind in the core of"
+" civilized space; all the way out here to the fringes of inhabited space.  "
+"You caught up with their ship here in the Salus system, and heavily damaged "
+"it.  But the combat didn't leave your ship unscathed.  Opportunistic "
+"scavengers or pirates, you don't know which, ambushed you as you were "
+"harrying your mark's ship and forcing it to ground.  You know your quarry "
+"have crash landed somewhere on this planet but your ship, Truth and "
+"Reconciliation, will never fly again.  You won't even walk away from this "
+"icy wreck if you can't destroy the squad of drones and scavenger bots that "
+"have dropped in to finish you off."
+msgstr ""
+
+#. ~ Description of scenario "One Last Dance on the Ice" for female
+#: data/mods/aftershock_exoplanet/scenarios.json
+msgctxt "scen_desc_female"
+msgid ""
+"You've chased your quarry from the tragedies they left behind in the core of"
+" civilized space; all the way out here to the fringes of inhabited space.  "
+"You caught up with their ship here in the Salus system, and heavily damaged "
+"it.  But the combat didn't leave your ship unscathed.  Opportunistic "
+"scavengers or pirates, you don't know which, ambushed you as you were "
+"harrying your mark's ship and forcing it to ground.  You know your quarry "
+"have crash landed somewhere on this planet but your ship, Truth and "
+"Reconciliation, will never fly again.  You won't even walk away from this "
+"icy wreck if you can't destroy the squad of drones and scavenger bots that "
+"have dropped in to finish you off."
+msgstr ""
+
+#. ~ Description of scenario "Emergency Evacuation" for male
+#: data/mods/aftershock_exoplanet/scenarios.json
+msgctxt "scen_desc_male"
+msgid ""
+"You must have hit your head when the first explosion happened.  You sit up "
+"and realize everyone is gone, the air smells like smoke, and that the ship's"
+" computer is calmly announcing in its posh English voice: \"Abandon vessel "
+"immediately, seven minutes to atmospheric entry.  Abandon vessel "
+"immediately…\" Time to grab what you can and find an escape pod."
+msgstr ""
+
+#. ~ Description of scenario "Emergency Evacuation" for female
+#: data/mods/aftershock_exoplanet/scenarios.json
+msgctxt "scen_desc_female"
+msgid ""
+"You must have hit your head when the first explosion happened.  You sit up "
+"and realize everyone is gone, the air smells like smoke, and that the ship's"
+" computer is calmly announcing in its posh English voice: \"Abandon vessel "
+"immediately, seven minutes to atmospheric entry.  Abandon vessel "
+"immediately…\" Time to grab what you can and find an escape pod."
+msgstr ""
+
+#. ~ Description of scenario "Esper" for male
+#: data/mods/aftershock_exoplanet/scenarios.json
+msgctxt "scen_desc_male"
+msgid ""
+"There are stories that before the Discontinuity, scientists had developed secret treatments unlock the powers of the human mind.  To read thoughts, move objects at a distance, control computers by the power of will alone, were just a few of the rumored abilities that laid dormant and at the edge of human potential.  But all knowledge of these treatments was lost when the Discontinuity shattered interstellar civilization.\n"
+"\n"
+"Or so you thought, until you had heard some tantalizing rumors about espers, centered on a backwater planet on the edge of known civilization.  You remember buying passage to the Salus system, arriving at Port Augustmoon, buying supplies, and descending to the surface, but after that things get hazy…  You're not entirely sure where you are, and you've clearly been through it, but somehow you've rediscovered that lost secret.  Now you just need to make it back alive."
+msgstr ""
+
+#. ~ Description of scenario "Esper" for female
+#: data/mods/aftershock_exoplanet/scenarios.json
+msgctxt "scen_desc_female"
+msgid ""
+"There are stories that before the Discontinuity, scientists had developed secret treatments unlock the powers of the human mind.  To read thoughts, move objects at a distance, control computers by the power of will alone, were just a few of the rumored abilities that laid dormant and at the edge of human potential.  But all knowledge of these treatments was lost when the Discontinuity shattered interstellar civilization.\n"
+"\n"
+"Or so you thought, until you had heard some tantalizing rumors about espers, centered on a backwater planet on the edge of known civilization.  You remember buying passage to the Salus system, arriving at Port Augustmoon, buying supplies, and descending to the surface, but after that things get hazy…  You're not entirely sure where you are, and you've clearly been through it, but somehow you've rediscovered that lost secret.  Now you just need to make it back alive."
+msgstr ""
+
 #. ~ Description of scenario "Stranded Spacer" for male
 #: data/mods/aftershock_exoplanet/scenarios.json
 msgctxt "scen_desc_male"
@@ -683994,6 +684446,13 @@ msgstr ""
 #. ~ Weather type name
 #: data/mods/aftershock_exoplanet/weather_type.json
 msgid "Whiteout"
+msgstr ""
+
+#. ~ Player message in effect in EoC "afs_spot_spaceport"
+#: data/mods/aftershock_exoplanet/EOC/world_eocs.json
+msgid ""
+"You notice the rocket plumes of three ascending ships in the distance.  "
+"There must be a large space port in that direction."
 msgstr ""
 
 #. ~ Item name
@@ -684081,6 +684540,28 @@ msgstr ""
 #. ~ Overmap terrain name
 #: data/mods/aftershock_exoplanet/maps/overmap_terrain/overmap_terrain_transportation.json
 msgid "bridgehead structure"
+msgstr ""
+
+#. ~ Description of mission "The bounty is on Salus IV"
+#: data/mods/aftershock_exoplanet/missions/bounty_hunter_missions.json
+msgid ""
+"You've chased your bounty all the way to the ass end of the galaxy here in "
+"the Salus system; a place of so little value to UICA that it's left to "
+"pirates and hermits.  While you don't know where exactly your bounty is in "
+"this desolate wasteland, you do have a lead on one of his associates.  Maybe"
+" he'll be able to tell you where to go."
+msgstr ""
+
+#. ~ Mission name
+#: data/mods/aftershock_exoplanet/missions/exploration_missions.json
+msgid "Reach the spaceport"
+msgstr ""
+
+#. ~ Description of mission "Reach the spaceport"
+#: data/mods/aftershock_exoplanet/missions/exploration_missions.json
+msgid ""
+"You spotted a spaceport in the distance.  You should head there to see if "
+"you can find a way off this planet."
 msgstr ""
 
 #. ~ Response to NPC dialogue
