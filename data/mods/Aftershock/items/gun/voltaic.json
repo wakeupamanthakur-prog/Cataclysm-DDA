@@ -1,7 +1,8 @@
 [
   {
     "id": "afs_electro_anomaly_rifle",
-    "type": "GUN",
+    "type": "ITEM",
+    "subtypes": [ "GUN" ],
     "copy-from": "laser_rifle",
     "name": { "str": "R-PROTON ENR" },
     "description": "Within the solid barrel of the Raaz PROTON, an electrical anomaly is carefully duplicated through magnetic stimulation and projected outwards.  Freed from containment, the anomaly will temporarily settle in the physical world and quickly emit its stored electrical charge before dissipating.",
@@ -9,7 +10,7 @@
     "price_postapoc": "200 kUSD",
     "ammo": [ "battery" ],
     "ammo_to_fire": 0,
-    "energy_drain": "30 kJ",
+    "energy_drain": "50 kJ",
     "modes": [ [ "DEFAULT", "Pulse ", 1 ] ],
     "ranged_damage": [ { "damage_type": "electric", "amount": 10 }, { "damage_type": "pure", "amount": 25 } ],
     "pocket_data": [
@@ -27,7 +28,8 @@
   },
   {
     "id": "afs_archangel_enr",
-    "type": "GUN",
+    "type": "ITEM",
+    "subtypes": [ "ARTIFACT", "GUN" ],
     "copy-from": "laser_rifle",
     "name": { "str": "W3310 Archangel ENR" },
     "description": "A powerful anti-drone defense weapon, the W3310 Archangel is capable of firing a chain of electrical discharges that can arc between multiple targets.  Most effective against groups of lightly armored foes, use within closed spaces is not recommended due to the risk of self-inflicted injury.",
@@ -35,8 +37,12 @@
     "price_postapoc": "22 kUSD",
     "ammo": [ "battery" ],
     "ammo_to_fire": 0,
-    "energy_drain": "75 kJ",
+    "//": "High energy drain due to the damage dealt by the chain effect.",
+    "valid_mod_locations": [ [ "sling", 1 ] ],
+    "energy_drain": "70 kJ",
     "modes": [ [ "DEFAULT", "Pulse ", 1 ] ],
+    "skill": "smartgun",
+    "range": 30,
     "ranged_damage": [ { "damage_type": "electric", "amount": 15 } ],
     "pocket_data": [
       {
@@ -49,11 +55,13 @@
       }
     ],
     "ammo_effects": [ "ELECTRIC_CHAIN" ],
-    "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE" ]
+    "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE", "MUNDANE", "WONT_TRAIN_MARKSMANSHIP" ],
+    "passive_effects": [ { "id": "ench_smart_gun" } ]
   },
   {
     "id": "afs_voltaic_pistol",
-    "type": "GUN",
+    "type": "ITEM",
+    "subtypes": [ "ARTIFACT", "GUN" ],
     "copy-from": "laser_rifle",
     "name": { "str": "W3100 Volt" },
     "description": "Wraitheon Armories' premier electrolaser personal defense weapon.  The W3100 Volt adjustable power settings make it adaptable to most conflict situations, lethal or otherwise, and make it a favorite among well-off security forces and law enforcement corps.",
@@ -61,12 +69,14 @@
     "price_postapoc": "12 kUSD",
     "ammo": [ "battery" ],
     "ammo_to_fire": 0,
-    "energy_drain": "15 kJ",
+    "energy_drain": "20 kJ",
     "weight": "780 g",
     "volume": "480 ml",
     "longest_side": "205 mm",
+    "skill": "smartgun",
+    "range": 15,
     "modes": [ [ "DEFAULT", "Pulse ", 1 ] ],
-    "ranged_damage": [ { "damage_type": "electric", "amount": 7 } ],
+    "ranged_damage": [ { "damage_type": "electric", "amount": 10 } ],
     "valid_mod_locations": [ [ "grip", 1 ], [ "rail", 1 ], [ "sights", 1 ], [ "stock", 1 ], [ "underbarrel", 1 ] ],
     "pocket_data": [
       {
@@ -79,11 +89,13 @@
       }
     ],
     "ammo_effects": [ "BEANBAG" ],
-    "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE" ]
+    "flags": [ "NEVER_JAMS", "NON_FOULING", "NEEDS_NO_LUBE", "MUNDANE", "WONT_TRAIN_MARKSMANSHIP" ],
+    "passive_effects": [ { "id": "ench_smart_gun" } ]
   },
   {
     "id": "afs_mine_shocker",
-    "type": "GUN",
+    "type": "ITEM",
+    "subtypes": [ "GUN" ],
     "symbol": "%",
     "color": "blue",
     "name": { "str": "mine shocker", "//~": "NO_I18N" },

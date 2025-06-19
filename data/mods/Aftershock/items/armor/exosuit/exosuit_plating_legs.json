@@ -1,13 +1,14 @@
 [
   {
     "id": "exo_leg_steel",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "category": "exosuit",
     "name": { "str": "steel leg plate (exosuit)", "str_pl": "steel leg plates (exosuit)" },
     "description": "Designed to attach to an exosuit's legs, these are sturdy plates of steel.",
     "weight": "13500 g",
     "volume": "6500 ml",
-    "material": [ "qt_steel" ],
+    "material": [ "afs_steel" ],
     "symbol": "L",
     "looks_like": "legguard_lightplate",
     "color": "light_gray",
@@ -15,7 +16,7 @@
     "non_functional": "damaged_exo_leg_steel",
     "armor": [
       {
-        "material": [ { "type": "qt_steel", "covered_by_mat": 100, "thickness": 6 } ],
+        "material": [ { "type": "afs_steel", "covered_by_mat": 100, "thickness": 2 } ],
         "covers": [ "leg_l", "leg_r", "foot_l", "foot_r" ],
         "coverage": 100,
         "encumbrance": 5
@@ -24,7 +25,8 @@
   },
   {
     "id": "damaged_exo_leg_steel",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "copy-from": "exo_leg_steel",
     "name": { "str": "damaged steel leg plate (exosuit)", "str_pl": "damaged steel leg plates (exosuit)" },
     "description": "The remains of a steel leg plate after taking a strong impact.  Can be restored to full effectiveness via reforging.",
@@ -32,7 +34,7 @@
     "non_functional": "destroyed_exo_leg_steel",
     "armor": [
       {
-        "material": [ { "type": "qt_steel", "covered_by_mat": 100, "thickness": 3 } ],
+        "material": [ { "type": "afs_steel", "covered_by_mat": 100, "thickness": 1 } ],
         "covers": [ "leg_l", "leg_r", "foot_l", "foot_r" ],
         "coverage": 85,
         "encumbrance": 5
@@ -41,7 +43,8 @@
   },
   {
     "id": "destroyed_exo_leg_steel",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "copy-from": "exo_leg_steel",
     "name": { "str": "shattered steel leg plate (exosuit)", "str_pl": "shattered steel leg plates (exosuit)" },
     "description": "The remains of a steel leg plate after taking a strong impact.  No longer provides functional protection, just weight.",
@@ -49,7 +52,8 @@
   },
   {
     "id": "exo_leg_plastic",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "category": "exosuit",
     "copy-from": "exo_leg_steel",
     "name": { "str": "plastic leg plate (exosuit)", "str_pl": "plastic leg plates (exosuit)" },
@@ -68,7 +72,8 @@
   },
   {
     "id": "damaged_exo_leg_plastic",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "copy-from": "exo_leg_plastic",
     "name": { "str": "damaged plastic leg plate (exosuit)", "str_pl": "damaged plastic leg plates (exosuit)" },
     "description": "The remains of a plastic leg plate after taking a strong impact.  Can be restored to full effectiveness via reforging.",
@@ -85,7 +90,8 @@
   },
   {
     "id": "destroyed_exo_leg_plastic",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "copy-from": "exo_leg_plastic",
     "name": { "str": "shattered plastic leg plate (exosuit)", "str_pl": "shattered plastic leg plates (exosuit)" },
     "description": "The remains of a plastic leg plate after taking a strong impact.  No longer provides functional protection, just weight.",
@@ -93,17 +99,18 @@
   },
   {
     "id": "exo_leg_vcc",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "category": "exosuit",
     "copy-from": "exo_leg_steel",
     "name": { "str": "carbide leg plate (exosuit)", "str_pl": "carbide leg plates (exosuit)" },
     "description": "Designed to attach to an exosuit's legs, these are sturdy plates of vacuum-cast carbide.",
     "weight": "20250 g",
-    "material": [ "vacuum_carbide" ],
+    "material": [ "vacuum_carbide_hard" ],
     "non_functional": "damaged_exo_leg_vcc",
     "armor": [
       {
-        "material": [ { "type": "vacuum_carbide", "covered_by_mat": 100, "thickness": 4 } ],
+        "material": [ { "type": "vacuum_carbide", "covered_by_mat": 100, "thickness": 1 } ],
         "covers": [ "leg_l", "leg_r", "foot_l", "foot_r" ],
         "coverage": 100,
         "encumbrance": 20
@@ -112,7 +119,8 @@
   },
   {
     "id": "damaged_exo_leg_vcc",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "copy-from": "exo_leg_vcc",
     "name": { "str": "damaged carbide leg plate (exosuit)", "str_pl": "damaged carbide leg plates (exosuit)" },
     "description": "The remains of a carbide leg plate after taking a strong impact.",
@@ -120,7 +128,7 @@
     "non_functional": "destroyed_exo_leg_vcc",
     "armor": [
       {
-        "material": [ { "type": "vacuum_carbide", "covered_by_mat": 100, "thickness": 2 } ],
+        "material": [ { "type": "vacuum_carbide", "covered_by_mat": 100, "thickness": 1 } ],
         "covers": [ "leg_l", "leg_r", "foot_l", "foot_r" ],
         "coverage": 85,
         "encumbrance": 5
@@ -129,7 +137,8 @@
   },
   {
     "id": "destroyed_exo_leg_vcc",
-    "type": "ARMOR",
+    "type": "ITEM",
+    "subtypes": [ "ARMOR" ],
     "copy-from": "exo_leg_vcc",
     "name": { "str": "shattered carbide leg plate (exosuit)", "str_pl": "shattered carbide leg plates (exosuit)" },
     "description": "The remains of a vacuum-cast carbide leg plate after taking a strong impact.  No longer provides functional protection, just weight.",

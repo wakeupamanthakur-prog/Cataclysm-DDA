@@ -1,7 +1,8 @@
 [
   {
     "id": "rebar_rail",
-    "type": "AMMO",
+    "type": "ITEM",
+    "subtypes": [ "AMMO" ],
     "name": { "str": "rebar rail" },
     "description": "A short piece of ferromagnetic rebar which has been straightened and sharpened on one end.  Could be used as a projectile by a sufficiently powerful electromagnetic weapon.",
     "weight": "236 g",
@@ -16,7 +17,7 @@
     "count": 10,
     "ammo_type": "metal_rail",
     "range": 40,
-    "damage": { "damage_type": "stab", "amount": 70, "armor_penetration": 25 },
+    "damage": { "damage_type": "bullet", "amount": 90, "armor_penetration": 40 },
     "dispersion": 150,
     "effects": [ "RECYCLED", "NON_FOULING" ],
     "melee_damage": { "bash": 5, "cut": 1 }
@@ -24,7 +25,8 @@
   {
     "id": "steel_rail",
     "copy-from": "rebar_rail",
-    "type": "AMMO",
+    "type": "ITEM",
+    "subtypes": [ "AMMO" ],
     "name": { "str": "steel rail" },
     "description": "A short piece of steel which has been forged true and sharpened on one end.  Could be used as a projectile by a sufficiently powerful electromagnetic weapon.",
     "weight": "212 g",
@@ -34,8 +36,6 @@
     "material": [ "steel" ],
     "color": "light_gray",
     "dispersion": 0,
-    "effects": [ "NEVER_MISFIRES", "NON_FOULING" ],
-    "relative": { "range": 10, "damage": { "damage_type": "stab", "amount": -5, "armor_penetration": 15 } },
-    "melee_damage": { "bash": 4, "cut": 2 }
+    "effects": [ "NEVER_MISFIRES", "NON_FOULING" ]
   }
 ]

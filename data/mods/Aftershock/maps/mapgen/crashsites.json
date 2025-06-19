@@ -1,7 +1,6 @@
 [
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "afs_crashed_cargo_shuttle" ],
     "object": {
       "predecessor_mapgen": "field",
@@ -55,7 +54,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ "afs_crashed_cargo_shuttle_wraitheon" ],
     "object": {
       "predecessor_mapgen": "field",
@@ -100,7 +98,7 @@
         "0": "f_afs_shuttle_manuevering_thruster"
       },
       "items": {
-        "T": { "item": "afs_wraitheon_smart_rifle_cache", "chance": 100 },
+        "T": { "item": "afs_wraitheon_carsh_site_cache", "chance": 100 },
         ",": { "item": "afs_shuttle_debris", "chance": 30 },
         "#": { "item": "afs_shuttle_debris", "chance": 6 }
       },
@@ -117,7 +115,7 @@
     "subtype": "distribution",
     "entries": [
       { "item": "scrap", "prob": 30 },
-      { "item": "steel_chunk", "prob": 20 },
+      { "item": "ch_steel_chunk", "prob": 20 },
       { "item": "afs_material_1", "prob": 10 },
       { "item": "sheet_metal_small", "prob": 10 },
       { "item": "sheet_metal", "prob": 5 }

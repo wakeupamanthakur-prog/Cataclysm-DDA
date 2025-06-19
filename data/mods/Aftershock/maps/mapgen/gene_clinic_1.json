@@ -1,7 +1,6 @@
 [
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": "afs_gene_clinic_1_a1",
     "object": {
       "fill_ter": "t_linoleum_white",
@@ -44,7 +43,7 @@
         "3": { "signage": "Mercurial Gene Clinic: Welcome <city> to the better you.  Genetech: Embrace the next evolution." }
       },
       "items": {
-        "q": { "item": "afs_mutant_colonist_eva_g", "chance": 60, "repeat": [ 1, 2 ] },
+        "q": { "item": "afs_wintersuit_generic_basic", "chance": 60, "repeat": [ 1, 2 ] },
         "k": { "item": "office", "chance": 60 }
       },
       "place_monster": [ { "group": "AFS_GROUP_RUIN_MOXIE", "x": [ 3, 20 ], "y": [ 8, 16 ], "pack_size": [ 2, 5 ], "chance": 60 } ],
@@ -65,7 +64,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": "afs_gene_clinic_1_a2",
     "object": {
       "fill_ter": "t_linoleum_white",
@@ -140,7 +138,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": "afs_gene_clinic_1_a3",
     "object": {
       "fill_ter": "t_linoleum_white",
@@ -207,7 +204,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": "afs_gene_clinic_1_a4",
     "object": {
       "fill_ter": "t_metal_floor",
@@ -243,7 +239,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "afs_gene_clinic_1_a2_unlooted",
     "object": {
       "mapgensize": [ 24, 24 ],
@@ -281,7 +276,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "afs_gene_clinic_1_a2_looted",
     "object": {
       "mapgensize": [ 24, 24 ],
@@ -313,12 +307,11 @@
       ],
       "palettes": [ "afs_habitat_residential_furnishing_looted" ],
       "terrain": { "1": "t_mdoor_frame" },
-      "items": { "2": { "item": "trash", "chance": 10, "repeat": [ 1, 4 ] } }
+      "items": { "2": { "item": "SUS_trash_floor", "chance": 10, "repeat": [ 1, 4 ] } }
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "afs_gene_clinic_1_a3_unlooted",
     "object": {
       "mapgensize": [ 24, 24 ],
@@ -375,7 +368,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "afs_gene_clinic_1_a3_looted",
     "object": {
       "mapgensize": [ 24, 24 ],
@@ -408,7 +400,7 @@
       "palettes": [ "afs_habitat_residential_furnishing_looted" ],
       "terrain": { "2": "t_mdoor_frame" },
       "furniture": { "3": "f_gene_editor_gutted", "5": "f_e_safe_o", "à": "f_locker", "á": "f_locker" },
-      "items": { "1": { "item": "trash", "chance": 10, "repeat": [ 1, 4 ] } }
+      "items": { "1": { "item": "SUS_trash_floor", "chance": 10, "repeat": [ 1, 4 ] } }
     }
   },
   {

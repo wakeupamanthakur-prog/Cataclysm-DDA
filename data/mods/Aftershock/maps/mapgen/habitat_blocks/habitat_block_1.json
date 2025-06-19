@@ -1,7 +1,6 @@
 [
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ [ "afs_habblock_1_a1", "afs_hablock_1_a2" ] ],
     "object": {
       "fill_ter": "t_metal_floor",
@@ -39,7 +38,7 @@
         "afs_light_param_palette"
       ],
       "furniture": { "1": "f_washer", "2": "f_dryer", "3": "f_atm" },
-      "vendingmachines": { "V": { "item_group": "afs_vending_false_meals", "reinforced": true, "powered": true } },
+      "vendingmachines": { "V": { "item_group": "afs_vending_false_meals", "reinforced": true, "powered": true, "networked": true } },
       "place_monster": [
         { "group": "AFS_GROUP_RUIN_MOXIE", "x": [ 0, 23 ], "y": [ 0, 23 ], "pack_size": [ 1, 3 ], "chance": 20 },
         { "group": "AFS_GROUP_RUIN_MOXIE", "x": [ 24, 47 ], "y": [ 0, 23 ], "pack_size": [ 1, 3 ], "chance": 20 }
@@ -90,7 +89,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ [ "afs_habblock_1_floor2_a1", "afs_hablock_1_floor2_a2" ] ],
     "object": {
       "fill_ter": "t_metal_floor",
@@ -152,7 +150,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ [ "afs_habblock_1_roof_a1", "afs_hablock_1_roof_a2" ] ],
     "object": {
       "fill_ter": "t_metal_floor",
@@ -197,7 +194,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "afs_habblock_1_slot1_cafe_a1",
     "object": {
       "mapgensize": [ 24, 24 ],
@@ -233,7 +229,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "afs_habblock_1_slot1_diner_a1",
     "object": {
       "mapgensize": [ 24, 24 ],
@@ -269,7 +264,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "afs_habblock_1_slot1_diner_a2",
     "object": {
       "mapgensize": [ 24, 24 ],
@@ -307,7 +301,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "afs_habblock_1_slot1_cafe_a2",
     "object": {
       "mapgensize": [ 24, 24 ],
@@ -345,7 +338,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "afs_habblock_1_slot2_grocer",
     "object": {
       "mapgensize": [ 24, 24 ],
@@ -387,7 +379,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "afs_habblock_1_slot2_library",
     "object": {
       "mapgensize": [ 24, 24 ],
@@ -429,7 +420,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "afs_habblock_1_slot2_robotics_shop",
     "object": {
       "mapgensize": [ 24, 24 ],
@@ -471,7 +461,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "afs_habblock_1_slot2_civ_gun_shop",
     "object": {
       "mapgensize": [ 24, 24 ],
@@ -523,7 +512,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "afs_habblock_1_slot2_clothes_shop",
     "object": {
       "mapgensize": [ 24, 24 ],
@@ -565,7 +553,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "afs_habblock_1_slot2_hardware_shop",
     "object": {
       "mapgensize": [ 24, 24 ],
@@ -603,7 +590,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "afs_habblock_1_slot2_pharmacy",
     "object": {
       "mapgensize": [ 24, 24 ],
@@ -645,7 +631,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "afs_habblock_1_slot3_indoor_garden",
     "object": {
       "mapgensize": [ 24, 24 ],
@@ -683,7 +668,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "afs_habblock_1_slot3_arcade",
     "object": {
       "mapgensize": [ 24, 24 ],
@@ -716,12 +700,12 @@
       "palettes": [ "afs_habitat_residential_furnishing" ],
       "terrain": { "=": "t_wall_prefab_glass", "/": "t_wall_prefab_metal", ":": "t_door_c", "'": "t_metal_floor_olight_inactive" },
       "furniture": { "^": "f_sink", "1": "f_arcade_machine" },
+      "items": { "&": { "item": "SUS_toilet", "chance": 50 } },
       "toilets": { "&": {  } }
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "afs_habblock_1_slot3_sauna",
     "object": {
       "mapgensize": [ 24, 24 ],
@@ -759,7 +743,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "afs_habblock_1_slot3_resident_storage",
     "object": {
       "mapgensize": [ 24, 24 ],
@@ -795,7 +778,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "afs_habblock_1_slot3_gym",
     "object": {
       "mapgensize": [ 24, 24 ],
@@ -828,12 +810,12 @@
       "palettes": [ "afs_habitat_residential_furnishing" ],
       "terrain": { "=": "t_wall_prefab_glass", "/": "t_wall_prefab_metal", ":": "t_door_c", "'": "t_metal_floor_olight_inactive" },
       "furniture": { "^": "f_sink", "1": "f_treadmill", "2": "f_exercise", "3": "f_punching_bag" },
+      "items": { "&": { "item": "SUS_toilet", "chance": 50 } },
       "toilets": { "&": {  } }
     }
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "afs_habblock_1_roof_barren",
     "object": {
       "mapgensize": [ 24, 24 ],
@@ -869,7 +851,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "afs_habblock_1_roof_solar",
     "object": {
       "mapgensize": [ 24, 24 ],
@@ -906,7 +887,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "afs_habblock_1_roof_xeno_garden",
     "object": {
       "mapgensize": [ 24, 24 ],
@@ -941,7 +921,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "afs_habblock_1_roof_garden",
     "object": {
       "mapgensize": [ 24, 24 ],
@@ -984,7 +963,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "nested_mapgen_id": "afs_habblock_1_roof_helipad",
     "object": {
       "mapgensize": [ 24, 24 ],

@@ -11,7 +11,7 @@
     "power": 20,
     "currency": "crypto_coin",
     "//": "90 days worth of food for 1 person, at 3000kcal/day and full RDA of iron/calcium/vitC",
-    "fac_food_supply": { "calories": 270000000, "vitamins": { "iron": 8640, "calcium": 8640, "vitC": 8640 } },
+    "fac_food_supply": [ [ 0, { "calories": 270000000, "vitamins": { "iron": 8640, "calcium": 8640, "vitC": 8640 } } ] ],
     "wealth": 75000,
     "relations": {
       "free_merchants": {
@@ -94,7 +94,7 @@
       { "item": "UICA_10000d", "fixed_adj": 0 }
     ],
     "//": "Being an interplantary authority with effectively unlimited resources to draw upon, these numbers are here only as a technical limit. Vitamins are capped at ~90% of the max for a 32-bit integer and calories scaled to match.",
-    "fac_food_supply": { "calories": 62500000000000, "vitamins": { "iron": 2000000000, "calcium": 2000000000, "vitC": 2000000000 } },
+    "fac_food_supply": [ [ 0, { "calories": 62500000000000, "vitamins": { "iron": 2000000000, "calcium": 2000000000, "vitC": 2000000000 } } ] ],
     "wealth": 75000,
     "relations": {
       "your_followers": { "share public goods": true, "lets you in": true, "knows your voice": true },
@@ -168,6 +168,15 @@
         "defends your space": true,
         "knows your voice": true
       },
+      "independents": {
+        "kill on sight": false,
+        "watch your back": true,
+        "share my stuff": true,
+        "guard your stuff": true,
+        "lets you in": false,
+        "defends your space": false,
+        "knows your voice": true
+      },
       "hells_raiders": { "kill on sight": true },
       "Prepnet_Phyle": { "kill on sight": true },
       "marloss": { "kill on sight": true }
@@ -186,7 +195,7 @@
     "power": 100,
     "currency": "",
     "//": "Doesn't actually have NPCs, so no camp or food supply is necessary.",
-    "fac_food_supply": { "calories": 0, "vitamins": {  } },
+    "fac_food_supply": [ [ 0, { "calories": 0, "vitamins": {  } } ] ],
     "wealth": 75000,
     "relations": {
       "free_merchants": {
@@ -258,10 +267,7 @@
         "lets you in": false,
         "defends your space": false,
         "knows your voice": true
-      },
-      "hells_raiders": { "kill on sight": true },
-      "Prepnet_Phyle": { "kill on sight": true },
-      "marloss": { "kill on sight": true }
+      }
     },
     "description": "A massive, multi-system corporation with major investments across artificial intelligence, shipbuilding, military cybernetics and applied robotics.  Among the oldest of the Solar Corporations, it is a major player in the Orion Arm, and a key military supplier of UICA's military hardware.  It is best known for its normally secretive and highly advanced research and archaeology division."
   },
@@ -276,7 +282,7 @@
     "power": 100,
     "currency": "",
     "//": "Being an interplantary enitity with effectively unlimited resources to draw upon, these numbers are here only as a technical limit. Vitamins are capped at ~90% of the max for a 32-bit integer and calories scaled to match.",
-    "fac_food_supply": { "calories": 62500000000000, "vitamins": { "iron": 2000000000, "calcium": 2000000000, "vitC": 2000000000 } },
+    "fac_food_supply": [ [ 0, { "calories": 62500000000000, "vitamins": { "iron": 2000000000, "calcium": 2000000000, "vitC": 2000000000 } } ] ],
     "wealth": 62500000000000,
     "relations": {
       "free_merchants": {
@@ -357,6 +363,112 @@
   },
   {
     "type": "faction",
+    "id": "independents",
+    "name": "Independents",
+    "likes_u": 0,
+    "respects_u": 0,
+    "known_by_u": true,
+    "size": 100,
+    "power": 100,
+    "currency": "money",
+    "price_rules": [
+      { "item": "cash_card", "fixed_adj": 0 },
+      { "item": "UICA_1d", "fixed_adj": 0 },
+      { "item": "UICA_50d", "fixed_adj": 0 },
+      { "item": "UICA_10d", "fixed_adj": 0 },
+      { "item": "UICA_100d", "fixed_adj": 0 },
+      { "item": "UICA_1000d", "fixed_adj": 0 },
+      { "item": "UICA_10000d", "fixed_adj": 0 }
+    ],
+    "fac_food_supply": [ [ 0, { "calories": 62500000000000, "vitamins": { "iron": 2000000000, "calcium": 2000000000, "vitC": 2000000000 } } ] ],
+    "wealth": 62500000000000,
+    "relations": {
+      "free_merchants": {
+        "kill on sight": false,
+        "watch your back": false,
+        "share my stuff": false,
+        "guard your stuff": false,
+        "lets you in": true,
+        "defends your space": false,
+        "knows your voice": true
+      },
+      "old_guard": {
+        "kill on sight": false,
+        "watch your back": false,
+        "share my stuff": false,
+        "guard your stuff": false,
+        "lets you in": true,
+        "defends your space": false,
+        "knows your voice": false
+      },
+      "tacoma_commune": {
+        "kill on sight": false,
+        "watch your back": false,
+        "share my stuff": false,
+        "guard your stuff": false,
+        "lets you in": true,
+        "defends your space": false
+      },
+      "lobby_beggars": {
+        "kill on sight": false,
+        "watch your back": false,
+        "share my stuff": false,
+        "guard your stuff": false,
+        "lets you in": true,
+        "defends your space": false
+      },
+      "no_faction": {
+        "kill on sight": false,
+        "watch your back": false,
+        "share my stuff": false,
+        "guard your stuff": false,
+        "lets you in": false,
+        "defends your space": false,
+        "knows your voice": false
+      },
+      "wasteland_scavengers": {
+        "kill on sight": false,
+        "watch your back": false,
+        "share my stuff": false,
+        "guard your stuff": false,
+        "lets you in": false,
+        "defends your space": false,
+        "knows your voice": true
+      },
+      "UICA": {
+        "kill on sight": false,
+        "watch your back": false,
+        "share my stuff": false,
+        "guard your stuff": false,
+        "lets you in": true,
+        "defends your space": false,
+        "knows your voice": true
+      },
+      "mercurial": {
+        "kill on sight": false,
+        "watch your back": false,
+        "share my stuff": false,
+        "guard your stuff": false,
+        "lets you in": false,
+        "defends your space": false,
+        "knows your voice": true
+      },
+      "wraitheon": {
+        "kill on sight": false,
+        "watch your back": false,
+        "share my stuff": false,
+        "guard your stuff": false,
+        "lets you in": false,
+        "defends your space": false,
+        "knows your voice": true
+      },
+      "hells_raiders": { "kill on sight": true },
+      "marloss": { "kill on sight": true }
+    },
+    "description": "A loose group of salvors, mercenaries and frontiersmen working as free agents or in representation of interest groups too small or remote to have official presence in the system.  Equally likely to cooperate among themselves as they are to fight each other."
+  },
+  {
+    "type": "faction",
     "id": "whately_family",
     "name": "Whately Family",
     "mon_faction": "whately",
@@ -366,7 +478,7 @@
     "size": 15,
     "power": 20,
     "//": "Doesn't actually have *spawned* NPCs, so no camp or food supply is necessary.",
-    "fac_food_supply": { "calories": 0, "vitamins": {  } },
+    "fac_food_supply": [ [ 0, { "calories": 0, "vitamins": {  } } ] ],
     "wealth": 7500,
     "relations": {
       "free_merchants": {
