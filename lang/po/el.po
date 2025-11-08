@@ -15,7 +15,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: cataclysm-dda 0.J\n"
-"POT-Creation-Date: 2025-10-31 18:30+0000\n"
+"POT-Creation-Date: 2025-11-07 14:48+0000\n"
 "PO-Revision-Date: 2018-04-26 14:47+0000\n"
 "Last-Translator: Brett Dong <brett.browning.dong@gmail.com>, 2025\n"
 "Language-Team: Greek (https://app.transifex.com/cataclysm-dda-translators/teams/2217/el/)\n"
@@ -2629,7 +2629,7 @@ msgstr ""
 msgid "< [%s] Sort: %s >"
 msgstr ""
 
-#: src/advanced_inv.cpp:883 src/inventory_ui.cpp:2863
+#: src/advanced_inv.cpp:883 src/inventory_ui.cpp:2867
 #: src/worldfactory.cpp:1244
 #, c-format
 msgid "[%s] Filter"
@@ -3360,7 +3360,7 @@ msgid "Pick a color:"
 msgstr ""
 
 #. ~ %1$s: note color abbreviation, %2$s: note color name
-#: src/auto_note.cpp:515 src/help.cpp:156 src/overmap_ui.cpp:1277
+#: src/auto_note.cpp:515 src/help.cpp:156 src/overmap_ui.cpp:1332
 #, c-format
 msgctxt "note color"
 msgid "%1$s:%2$s, "
@@ -5128,7 +5128,7 @@ msgstr ""
 
 #. ~ Help menu
 #. ~ Item category name used for headers
-#: src/bionics_ui.cpp:285 src/init.cpp:809 src/init.cpp:998
+#: src/bionics_ui.cpp:285 src/init.cpp:807 src/init.cpp:995
 #: data/core/help.json data/json/item_category.json
 msgid "Bionics"
 msgstr ""
@@ -6409,7 +6409,7 @@ msgstr ""
 #. ~ EOC option name
 #: src/cata_imgui.cpp:1026 src/character_body.cpp:1337
 #: src/crafting_gui.cpp:1678 src/handle_action.cpp:882
-#: src/inventory_ui.cpp:2920 src/monexamine.cpp:426 src/monexamine.cpp:622
+#: src/inventory_ui.cpp:2924 src/monexamine.cpp:426 src/monexamine.cpp:622
 #: src/npctalk_funcs.cpp:387 src/player_display.cpp:1171
 #: src/vehicle_use.cpp:1492 data/json/effects_on_condition/item_eocs.json
 #: data/mods/Sky_Island/obelisk_selector.json
@@ -6420,7 +6420,7 @@ msgstr "Άκυρο"
 
 #. ~ Response to NPC dialogue
 #. ~ Clause text of UI widget 'health_desc_template'
-#: src/cata_imgui.cpp:1028 src/overmap_ui.cpp:1929
+#: src/cata_imgui.cpp:1028 src/overmap_ui.cpp:1984
 #: data/json/npcs/computers/TALK_PREPPER_1_COMPUTER.json
 #: data/json/ui/health.json
 msgid "OK"
@@ -7130,7 +7130,7 @@ msgstr ""
 msgid "Roots"
 msgstr ""
 
-#: src/character.cpp:6025 src/character.cpp:6028 src/init.cpp:825
+#: src/character.cpp:6025 src/character.cpp:6028 src/init.cpp:823
 msgid "Enchantments"
 msgstr ""
 
@@ -8478,7 +8478,7 @@ msgstr ""
 #. ~ That spore sound again
 #. ~ Message of spell 'Death Pouf Sound'
 #: src/character_health.cpp:2839 src/character_health.cpp:2851
-#: src/monattack.cpp:1573 src/monattack.cpp:1638
+#: src/monattack.cpp:1571 src/monattack.cpp:1636
 #: data/json/monster_special_attacks/monster_deaths.json
 msgid "Pouf!"
 msgstr ""
@@ -9329,8 +9329,7 @@ msgid "Changes to:"
 msgstr ""
 
 #: src/computer_session.cpp:878 src/computer_session.cpp:886
-#: src/iuse_actor.cpp:543 src/overmap_ui.cpp:1147 src/overmap_ui.cpp:1157
-#: src/wish.cpp:1429
+#: src/iuse_actor.cpp:543 src/wish.cpp:1429
 #, c-format
 msgid "%s"
 msgstr ""
@@ -11446,7 +11445,7 @@ msgstr ""
 
 #: src/crafting_gui.cpp:1282 src/newcharacter.cpp:2217
 #: src/newcharacter.cpp:2752 src/newcharacter.cpp:3138
-#: src/newcharacter.cpp:3820 src/overmap_ui.cpp:1498 src/overmap_ui.cpp:1511
+#: src/newcharacter.cpp:3820 src/overmap_ui.cpp:1553 src/overmap_ui.cpp:1566
 #: src/proficiency_ui.cpp:391
 msgid "Search:"
 msgstr ""
@@ -12811,7 +12810,7 @@ msgstr ""
 msgid "Choose a teleport destination."
 msgstr ""
 
-#: src/debug_menu.cpp:1864 src/overmap_ui.cpp:2292
+#: src/debug_menu.cpp:1864 src/overmap_ui.cpp:2351
 #, c-format
 msgid "You teleport to submap %s."
 msgstr ""
@@ -16291,7 +16290,7 @@ msgstr ""
 msgid "Direction: to the "
 msgstr ""
 
-#: src/faction.cpp:624 src/faction.cpp:728 src/inventory_ui.cpp:3572
+#: src/faction.cpp:624 src/faction.cpp:728 src/inventory_ui.cpp:3576
 #: src/item_info.cpp:1513
 #, c-format
 msgid "Location: %s"
@@ -18744,7 +18743,7 @@ msgid "< <color_green>Look around</color> >"
 msgstr ""
 
 #: src/game.cpp:5984 src/game.cpp:5990 src/game.cpp:5995 src/game.cpp:6002
-#: src/overmap_ui.cpp:1171
+#: src/overmap_ui.cpp:190
 #, c-format
 msgid "%s - %s"
 msgstr ""
@@ -18762,7 +18761,7 @@ msgstr ""
 msgid "An error occurred while trying to save the screenshot."
 msgstr ""
 
-#: src/game.cpp:6518 src/init.cpp:834 src/init.cpp:958 src/options.cpp:1727
+#: src/game.cpp:6518 src/init.cpp:832 src/init.cpp:955 src/options.cpp:1727
 msgid "Items"
 msgstr ""
 
@@ -18810,22 +18809,22 @@ msgstr ""
 msgid "You don't see any items or monsters around you!"
 msgstr ""
 
-#: src/game.cpp:6650 src/overmap_ui.cpp:1419
+#: src/game.cpp:6650 src/overmap_ui.cpp:1474
 msgctxt "string input"
 msgid "History"
 msgstr ""
 
-#: src/game.cpp:6651 src/overmap_ui.cpp:1420
+#: src/game.cpp:6651 src/overmap_ui.cpp:1475
 msgctxt "string input"
 msgid "Clear text"
 msgstr ""
 
-#: src/game.cpp:6652 src/overmap_ui.cpp:1421
+#: src/game.cpp:6652 src/overmap_ui.cpp:1476
 msgctxt "string input"
 msgid "Abort"
 msgstr ""
 
-#: src/game.cpp:6653 src/overmap_ui.cpp:1422
+#: src/game.cpp:6653 src/overmap_ui.cpp:1477
 msgctxt "string input"
 msgid "Save"
 msgstr ""
@@ -18841,25 +18840,25 @@ msgstr ""
 
 #. ~ Key binding name
 #: src/game.cpp:6923 src/input_context.cpp:523 src/input_context.cpp:525
-#: src/inventory_ui.cpp:2913 src/mission_companion.cpp:931
+#: src/inventory_ui.cpp:2917 src/mission_companion.cpp:931
 #: data/raw/keybindings.json
 msgid "Move cursor up"
 msgstr ""
 
 #. ~ Key binding name
 #: src/game.cpp:6924 src/input_context.cpp:524 src/input_context.cpp:526
-#: src/inventory_ui.cpp:2914 src/mission_companion.cpp:932
+#: src/inventory_ui.cpp:2918 src/mission_companion.cpp:932
 #: data/raw/keybindings.json
 msgid "Move cursor down"
 msgstr ""
 
 #. ~ Key binding name
-#: src/game.cpp:6925 src/inventory_ui.cpp:2912 data/raw/keybindings.json
+#: src/game.cpp:6925 src/inventory_ui.cpp:2916 data/raw/keybindings.json
 msgid "Previous item"
 msgstr ""
 
 #. ~ Key binding name
-#: src/game.cpp:6926 src/inventory_ui.cpp:2911 data/raw/keybindings.json
+#: src/game.cpp:6926 src/inventory_ui.cpp:2915 data/raw/keybindings.json
 msgid "Next item"
 msgstr ""
 
@@ -19070,7 +19069,7 @@ msgid "a survivor"
 msgstr ""
 
 #. ~ %d: Distance to all monsters ("7")
-#: src/game.cpp:8253 src/game.cpp:8290 src/overmap_ui.cpp:1145
+#: src/game.cpp:8253 src/game.cpp:8290
 #, c-format
 msgid "%d tiles"
 msgstr ""
@@ -19915,7 +19914,7 @@ msgid "Inventory of %s"
 msgstr ""
 
 #: src/game_inventory.cpp:354 src/game_inventory.cpp:2716
-#: src/inventory_ui.cpp:2829
+#: src/inventory_ui.cpp:2833
 msgid "Your inventory is empty."
 msgstr ""
 
@@ -21087,7 +21086,7 @@ msgstr ""
 msgid "Memorial"
 msgstr ""
 
-#: src/game_io.cpp:392 src/init.cpp:924
+#: src/game_io.cpp:392 src/init.cpp:921
 msgid "Finalizing"
 msgstr ""
 
@@ -25172,530 +25171,526 @@ msgstr ""
 msgid "ImGui Demo Screen"
 msgstr ""
 
-#: src/init.cpp:801 src/init.cpp:938
+#: src/init.cpp:799 src/init.cpp:935
 msgid "Flags"
 msgstr ""
 
-#: src/init.cpp:802 src/init.cpp:939
+#: src/init.cpp:800 src/init.cpp:936
 msgid "Option sliders"
 msgstr ""
 
-#: src/init.cpp:803
+#: src/init.cpp:801
 msgid "Addictions"
 msgstr ""
 
-#: src/init.cpp:804
+#: src/init.cpp:802
 msgid "ASCII Art"
 msgstr ""
 
-#: src/init.cpp:805 src/init.cpp:957
+#: src/init.cpp:803 src/init.cpp:954
 msgid "Bash damage profiles"
 msgstr ""
 
-#: src/init.cpp:806 src/init.cpp:1011
+#: src/init.cpp:804 src/init.cpp:1008
 msgid "Body parts"
 msgstr ""
 
-#: src/init.cpp:807
+#: src/init.cpp:805
 msgid "Sub body parts"
 msgstr ""
 
-#: src/init.cpp:808 src/init.cpp:1012
+#: src/init.cpp:806 src/init.cpp:1009
 msgid "Body graphs"
 msgstr ""
 
-#: src/init.cpp:810
+#: src/init.cpp:808
 msgid "Butchery Requirements"
 msgstr ""
 
-#: src/init.cpp:811
+#: src/init.cpp:809
 msgid "Character Modifiers"
 msgstr ""
 
-#: src/init.cpp:812
+#: src/init.cpp:810
 msgid "Clothing Mods"
 msgstr ""
 
-#: src/init.cpp:813
+#: src/init.cpp:811
 msgid "Construction Categories"
 msgstr ""
 
-#: src/init.cpp:814
+#: src/init.cpp:812
 msgid "Construction Groups"
 msgstr ""
 
-#: src/init.cpp:815
+#: src/init.cpp:813
 msgid "Crafting Categories"
 msgstr ""
 
-#: src/init.cpp:816
+#: src/init.cpp:814
 msgid "Damage Types"
 msgstr ""
 
-#: src/init.cpp:817
+#: src/init.cpp:815
 msgid "Damage info orders"
 msgstr ""
 
-#: src/init.cpp:818
+#: src/init.cpp:816
 msgid "Diseases"
 msgstr ""
 
-#: src/init.cpp:819 src/init.cpp:947
+#: src/init.cpp:817 src/init.cpp:944
 msgid "Weather types"
 msgstr ""
 
-#: src/init.cpp:820
+#: src/init.cpp:818
 msgid "Weather generators"
 msgstr ""
 
-#: src/init.cpp:821 src/init.cpp:949
+#: src/init.cpp:819 src/init.cpp:946
 msgid "Effect on conditions"
 msgstr ""
 
-#: src/init.cpp:822 src/init.cpp:950
+#: src/init.cpp:820 src/init.cpp:947
 msgid "Field types"
 msgstr ""
 
-#: src/init.cpp:823 src/init.cpp:952
+#: src/init.cpp:821 src/init.cpp:949
 msgid "Ammo effects"
 msgstr ""
 
-#: src/init.cpp:824 src/init.cpp:953
+#: src/init.cpp:822 src/init.cpp:950
 msgid "Emissions"
 msgstr ""
 
-#: src/init.cpp:826
+#: src/init.cpp:824
 msgid "Event Statistics"
 msgstr ""
 
-#: src/init.cpp:827
+#: src/init.cpp:825
 msgid "Event Transformations"
 msgstr ""
 
-#: src/init.cpp:828 src/init.cpp:960
+#: src/init.cpp:826 src/init.cpp:957
 msgid "Faults"
 msgstr ""
 
 #. ~ Construction category name
-#: src/init.cpp:829 src/init.cpp:846 data/json/construction_category.json
+#: src/init.cpp:827 src/init.cpp:844 data/json/construction_category.json
 msgid "Furniture"
 msgstr ""
 
-#: src/init.cpp:830 src/init.cpp:999
+#: src/init.cpp:828 src/init.cpp:996
 msgid "Gates"
 msgstr ""
 
-#: src/init.cpp:831
+#: src/init.cpp:829
 msgid "Harvest Drop Types"
 msgstr ""
 
-#: src/init.cpp:832
+#: src/init.cpp:830
 msgid "Item Categories"
 msgstr ""
 
-#: src/init.cpp:833 src/init.cpp:959
+#: src/init.cpp:831 src/init.cpp:956
 msgid "Materials"
 msgstr ""
 
-#: src/init.cpp:835
+#: src/init.cpp:833
 msgid "Limb Scores"
 msgstr ""
 
-#: src/init.cpp:837 src/init.cpp:941
+#: src/init.cpp:835 src/init.cpp:938
 msgid "Crafting requirements"
 msgstr ""
 
-#: src/init.cpp:842
+#: src/init.cpp:840
 msgid "Vehicle part categories"
 msgstr ""
 
 #. ~ Item category name used for headers
-#: src/init.cpp:843 src/init.cpp:961 data/json/item_category.json
+#: src/init.cpp:841 src/init.cpp:958 data/json/item_category.json
 msgid "Vehicle parts"
 msgstr ""
 
 #. ~ Help menu
 #. ~ Item category name used for headers
-#: src/init.cpp:844 src/init.cpp:996 data/core/help.json
+#: src/init.cpp:842 src/init.cpp:993 data/core/help.json
 #: data/json/item_category.json
 msgid "Traps"
 msgstr ""
 
-#: src/init.cpp:845 src/init.cpp:904
+#: src/init.cpp:843 src/init.cpp:901
 msgid "Terrain"
 msgstr ""
 
-#: src/init.cpp:847 src/init.cpp:984
+#: src/init.cpp:845 src/init.cpp:981
 msgid "Overmap land use codes"
 msgstr ""
 
-#: src/init.cpp:848 src/init.cpp:986
+#: src/init.cpp:846 src/init.cpp:983
 msgid "Overmap terrain"
 msgstr ""
 
-#: src/init.cpp:849 src/init.cpp:985
+#: src/init.cpp:847 src/init.cpp:982
 msgid "Overmap connections"
 msgstr ""
 
-#: src/init.cpp:850 src/init.cpp:990
+#: src/init.cpp:848 src/init.cpp:987
 msgid "Overmap specials"
 msgstr ""
 
-#: src/init.cpp:851 src/init.cpp:988
+#: src/init.cpp:849 src/init.cpp:985
 msgid "Overmap locations"
 msgstr ""
 
 #. ~ Name of an option slider
-#: src/init.cpp:852 src/init.cpp:989 data/core/world_option_sliders.json
+#: src/init.cpp:850 src/init.cpp:986 data/core/world_option_sliders.json
 msgid "Cities"
 msgstr "Πόλεις"
 
-#: src/init.cpp:853
+#: src/init.cpp:851
 msgid "Math functions"
 msgstr ""
 
-#: src/init.cpp:854 src/init.cpp:994
+#: src/init.cpp:852 src/init.cpp:991
 msgid "Start locations"
 msgstr ""
 
-#: src/init.cpp:855 src/init.cpp:962
+#: src/init.cpp:853 src/init.cpp:959
 msgid "Vehicle part locations"
 msgstr ""
 
-#: src/init.cpp:856 src/init.cpp:963
+#: src/init.cpp:854 src/init.cpp:960
 msgid "Vehicle part migrations"
 msgstr ""
 
-#: src/init.cpp:857
+#: src/init.cpp:855
 msgid "Vehicle prototypes"
 msgstr ""
 
-#: src/init.cpp:858
+#: src/init.cpp:856
 msgid "Map Extras"
 msgstr ""
 
-#: src/init.cpp:859
+#: src/init.cpp:857
 msgid "Magic Types"
 msgstr ""
 
-#: src/init.cpp:860
+#: src/init.cpp:858
 msgid "Martial Arts"
 msgstr ""
 
-#: src/init.cpp:861
+#: src/init.cpp:859
 msgid "Martial Art Techniques"
 msgstr ""
 
-#: src/init.cpp:862
+#: src/init.cpp:860
 msgid "Monster Flags"
 msgstr ""
 
-#: src/init.cpp:863
+#: src/init.cpp:861
 msgid "Mood Faces"
 msgstr ""
 
-#: src/init.cpp:864
+#: src/init.cpp:862
 msgid "Morale Types"
 msgstr ""
 
-#: src/init.cpp:865
+#: src/init.cpp:863
 msgid "Mapgen weights"
 msgstr ""
 
-#: src/init.cpp:866
+#: src/init.cpp:864
 msgid "Mapgen parameters"
 msgstr ""
 
-#: src/init.cpp:867 src/init.cpp:1001 src/npctalk_rules.cpp:194
+#: src/init.cpp:865 src/init.cpp:998 src/npctalk_rules.cpp:194
 msgid "Behaviors"
 msgstr ""
 
-#: src/init.cpp:869 src/init.cpp:967
+#: src/init.cpp:867 src/init.cpp:964
 msgid "Monster types"
 msgstr ""
 
-#: src/init.cpp:875 src/init.cpp:972
+#: src/init.cpp:873 src/init.cpp:969
 msgid "Monster groups"
 msgstr ""
 
-#: src/init.cpp:876
+#: src/init.cpp:874
 msgid "Monster factions"
 msgstr ""
 
-#: src/init.cpp:877 src/init.cpp:1021
+#: src/init.cpp:875 src/init.cpp:1018
 msgid "Factions"
 msgstr ""
 
-#: src/init.cpp:878
+#: src/init.cpp:876
 msgid "Move modes"
 msgstr ""
 
 #. ~ Construction category name
-#: src/init.cpp:879 src/init.cpp:975 data/json/construction_category.json
+#: src/init.cpp:877 src/init.cpp:972 data/json/construction_category.json
 msgid "Constructions"
 msgstr ""
 
-#: src/init.cpp:880 src/init.cpp:976
+#: src/init.cpp:878 src/init.cpp:973
 msgid "Crafting recipes"
 msgstr ""
 
-#: src/init.cpp:881
+#: src/init.cpp:879
 msgid "Recipe groups"
 msgstr ""
 
-#: src/init.cpp:882 src/init.cpp:979
+#: src/init.cpp:880 src/init.cpp:976
 msgid "Martial arts"
 msgstr ""
 
-#: src/init.cpp:883 src/init.cpp:992
+#: src/init.cpp:881 src/init.cpp:989
 msgid "Scenarios"
 msgstr ""
 
-#: src/init.cpp:884 src/init.cpp:1014
+#: src/init.cpp:882 src/init.cpp:1011
 msgid "Spells"
 msgstr ""
 
-#: src/init.cpp:885
+#: src/init.cpp:883
 msgid "Climbing aids"
 msgstr ""
 
-#: src/init.cpp:886 src/init.cpp:1000
+#: src/init.cpp:884 src/init.cpp:997
 msgid "NPC classes"
 msgstr ""
 
-#: src/init.cpp:887
+#: src/init.cpp:885
 msgid "Overmap Vision Levels"
 msgstr ""
 
-#: src/init.cpp:888
+#: src/init.cpp:886
 msgid "Overmap Special Migrations"
 msgstr ""
 
-#: src/init.cpp:889
+#: src/init.cpp:887
 msgid "Overmap placeholders"
 msgstr ""
 
-#: src/init.cpp:890 src/init.cpp:977
+#: src/init.cpp:888 src/init.cpp:974
 msgid "Professions"
 msgstr ""
 
-#: src/init.cpp:891 src/proficiency_ui.cpp:270
+#: src/init.cpp:889 src/proficiency_ui.cpp:270
 msgid "Proficiencies"
 msgstr ""
 
-#: src/init.cpp:892
+#: src/init.cpp:890
 msgid "Proficiency Categories"
 msgstr ""
 
-#: src/init.cpp:893
+#: src/init.cpp:891
 msgid "Qualities"
 msgstr ""
 
-#: src/init.cpp:894
+#: src/init.cpp:892
 msgid "Recipe Groups"
 msgstr ""
 
-#: src/init.cpp:895
-msgid "Region Overlays"
-msgstr ""
-
-#: src/init.cpp:896
+#: src/init.cpp:893
 msgid "Region Settings"
 msgstr ""
 
-#: src/init.cpp:897
+#: src/init.cpp:894
 msgid "Relic Procedural Generations"
 msgstr ""
 
-#: src/init.cpp:898
+#: src/init.cpp:895
 msgid "Speed Descriptions"
 msgstr ""
 
-#: src/init.cpp:899 src/mtype.cpp:612
+#: src/init.cpp:896 src/mtype.cpp:612
 msgid "Species"
 msgstr ""
 
-#: src/init.cpp:900
+#: src/init.cpp:897
 msgid "Scent Types"
 msgstr ""
 
-#: src/init.cpp:901 src/init.cpp:1018
+#: src/init.cpp:898 src/init.cpp:1015
 msgid "Scores"
 msgstr ""
 
-#: src/init.cpp:902
+#: src/init.cpp:899
 msgid "Shopkeeper Blacklists"
 msgstr ""
 
-#: src/init.cpp:903
+#: src/init.cpp:900
 msgid "Shopkeeper Consumption Rates"
 msgstr ""
 
-#: src/init.cpp:905
+#: src/init.cpp:902
 msgid "Terrain/Furniture Transforms"
 msgstr ""
 
-#: src/init.cpp:906 src/mission_ui.cpp:278
+#: src/init.cpp:903 src/mission_ui.cpp:278
 msgid "Missions"
 msgstr ""
 
-#: src/init.cpp:907 src/init.cpp:1009
+#: src/init.cpp:904 src/init.cpp:1006
 msgid "Harvest lists"
 msgstr ""
 
-#: src/init.cpp:908 src/init.cpp:1013
+#: src/init.cpp:905 src/init.cpp:1010
 msgid "Anatomies"
 msgstr ""
 
-#: src/init.cpp:909 src/init.cpp:981 src/mutation_ui.cpp:243
+#: src/init.cpp:906 src/init.cpp:978 src/mutation_ui.cpp:243
 msgid "Mutations"
 msgstr ""
 
-#: src/init.cpp:910 src/init.cpp:1019
+#: src/init.cpp:907 src/init.cpp:1016
 msgid "Achievements"
 msgstr ""
 
-#: src/init.cpp:911
+#: src/init.cpp:908
 msgid "Widgets"
 msgstr ""
 
-#: src/init.cpp:912
+#: src/init.cpp:909
 msgid "Weakpoint Families"
 msgstr ""
 
-#: src/init.cpp:913
+#: src/init.cpp:910
 msgid "Weapon Categories"
 msgstr ""
 
-#: src/init.cpp:914 src/init.cpp:1023
+#: src/init.cpp:911 src/init.cpp:1020
 msgid "Wounds"
 msgstr ""
 
-#: src/init.cpp:915
+#: src/init.cpp:912
 msgid "Zone Types"
 msgstr ""
 
-#: src/init.cpp:917
+#: src/init.cpp:914
 msgid "Tileset"
 msgstr ""
 
-#: src/init.cpp:919
+#: src/init.cpp:916
 msgid "Math expressions"
 msgstr ""
 
-#: src/init.cpp:946
+#: src/init.cpp:943
 msgid "Vitamins"
 msgstr ""
 
-#: src/init.cpp:948
+#: src/init.cpp:945
 msgid "Weapon categories"
 msgstr ""
 
-#: src/init.cpp:951
+#: src/init.cpp:948
 msgid "Field type migrations"
 msgstr ""
 
-#: src/init.cpp:954
+#: src/init.cpp:951
 msgid "Effect types"
 msgstr ""
 
-#: src/init.cpp:955
+#: src/init.cpp:952
 msgid "Activities"
 msgstr ""
 
-#: src/init.cpp:956
+#: src/init.cpp:953
 msgid "Addiction types"
 msgstr ""
 
-#: src/init.cpp:964
+#: src/init.cpp:961
 msgid "Mapgen definitions"
 msgstr ""
 
-#: src/init.cpp:965
+#: src/init.cpp:962
 msgid "Mapgen palettes"
 msgstr ""
 
-#: src/init.cpp:973
+#: src/init.cpp:970
 msgid "Furniture and terrain"
 msgstr ""
 
-#: src/init.cpp:974
+#: src/init.cpp:971
 msgid "Furniture and terrain migrations"
 msgstr ""
 
-#: src/init.cpp:978
+#: src/init.cpp:975
 msgid "Profession groups"
 msgstr ""
 
-#: src/init.cpp:980
+#: src/init.cpp:977
 msgid "Climbing aid"
 msgstr ""
 
-#: src/init.cpp:982
+#: src/init.cpp:979
 msgid "Mutation categories"
 msgstr ""
 
-#: src/init.cpp:983
+#: src/init.cpp:980
 msgid "Mod migrations"
 msgstr ""
 
-#: src/init.cpp:987
+#: src/init.cpp:984
 msgid "Overmap terrain vision"
 msgstr ""
 
-#: src/init.cpp:991
+#: src/init.cpp:988
 msgid "Map extras"
 msgstr ""
 
-#: src/init.cpp:993
+#: src/init.cpp:990
 msgid "Shop rates"
 msgstr ""
 
-#: src/init.cpp:995
+#: src/init.cpp:992
 msgid "Ammunition types"
 msgstr ""
 
-#: src/init.cpp:997
+#: src/init.cpp:994
 msgid "Trap migrations"
 msgstr ""
 
-#: src/init.cpp:1002
+#: src/init.cpp:999
 msgid "Mission types"
 msgstr ""
 
-#: src/init.cpp:1004
+#: src/init.cpp:1001
 msgid "Item actions"
 msgstr ""
 
-#: src/init.cpp:1010
+#: src/init.cpp:1007
 msgid "NPC templates"
 msgstr ""
 
-#: src/init.cpp:1015
+#: src/init.cpp:1012
 msgid "Transformations"
 msgstr ""
 
-#: src/init.cpp:1016
+#: src/init.cpp:1013
 msgid "Statistics"
 msgstr ""
 
-#: src/init.cpp:1017
+#: src/init.cpp:1014
 msgid "Scent types"
 msgstr ""
 
-#: src/init.cpp:1020
+#: src/init.cpp:1017
 msgid "Disease types"
 msgstr ""
 
-#: src/init.cpp:1022
+#: src/init.cpp:1019
 msgid "Damage types"
 msgstr ""
 
-#: src/init.cpp:1024
+#: src/init.cpp:1021
 msgid "Faction missions"
 msgstr ""
 
-#: src/init.cpp:1029
+#: src/init.cpp:1026
 msgid "Verifying"
 msgstr ""
 
@@ -26448,159 +26443,159 @@ msgctxt "count"
 msgid "%1$d of %2$d"
 msgstr ""
 
-#: src/inventory_ui.cpp:1823
+#: src/inventory_ui.cpp:1827
 #, c-format
 msgid "Page %d/%d"
 msgstr ""
 
-#: src/inventory_ui.cpp:2004
+#: src/inventory_ui.cpp:2008
 msgid "Destination has no pockets."
 msgstr ""
 
-#: src/inventory_ui.cpp:2014
+#: src/inventory_ui.cpp:2018
 msgid "Select pocket"
 msgstr ""
 
-#: src/inventory_ui.cpp:2018
+#: src/inventory_ui.cpp:2022
 #, c-format
 msgid "%s - %s/%s | %d moves"
 msgstr ""
 
-#: src/inventory_ui.cpp:2032
+#: src/inventory_ui.cpp:2036
 #, c-format
 msgid "%s contains no pockets that can contain item."
 msgstr ""
 
-#: src/inventory_ui.cpp:2044
+#: src/inventory_ui.cpp:2048
 #, c-format
 msgid "Cannot put item in pocket: %s"
 msgstr ""
 
-#: src/inventory_ui.cpp:2577
+#: src/inventory_ui.cpp:2581
 msgid "Numpad ON"
 msgstr ""
 
-#: src/inventory_ui.cpp:2596
+#: src/inventory_ui.cpp:2600
 #, c-format
 msgid "Longest Length (%s): %s Weight (%s):"
 msgstr ""
 
-#: src/inventory_ui.cpp:2607
+#: src/inventory_ui.cpp:2611
 #, c-format
 msgid "Free Volume (%s): %s Volume (%s):"
 msgstr ""
 
-#: src/inventory_ui.cpp:2620
+#: src/inventory_ui.cpp:2624
 #, c-format
 msgid "Free Holster Volume (%s): %s Used Holsters:"
 msgstr ""
 
-#: src/inventory_ui.cpp:2772
+#: src/inventory_ui.cpp:2776
 msgid "That is not an integer."
 msgstr ""
 
-#: src/inventory_ui.cpp:2850
+#: src/inventory_ui.cpp:2854
 msgid "There are no available choices"
 msgstr ""
 
-#: src/inventory_ui.cpp:2863 src/worldfactory.cpp:1244
+#: src/inventory_ui.cpp:2867 src/worldfactory.cpp:1244
 #, c-format
 msgid "[%s] Filter: "
 msgstr ""
 
 #. ~ Key binding name
-#: src/inventory_ui.cpp:2915 data/raw/keybindings.json
+#: src/inventory_ui.cpp:2919 data/raw/keybindings.json
 msgid "Page down"
 msgstr ""
 
 #. ~ Key binding name
-#: src/inventory_ui.cpp:2916 data/raw/keybindings.json
+#: src/inventory_ui.cpp:2920 data/raw/keybindings.json
 msgid "Page up"
 msgstr ""
 
 #. ~ Key binding name
-#: src/inventory_ui.cpp:2917 data/raw/keybindings.json
+#: src/inventory_ui.cpp:2921 data/raw/keybindings.json
 msgid "Next column"
 msgstr ""
 
 #. ~ Key binding name
-#: src/inventory_ui.cpp:2918 data/raw/keybindings.json
+#: src/inventory_ui.cpp:2922 data/raw/keybindings.json
 msgid "Previous column"
 msgstr ""
 
-#: src/inventory_ui.cpp:2919
+#: src/inventory_ui.cpp:2923
 msgid "Confirm your selection"
 msgstr ""
 
-#: src/inventory_ui.cpp:2921
+#: src/inventory_ui.cpp:2925
 msgid "Switch category selection mode"
 msgstr ""
 
-#: src/inventory_ui.cpp:2922
+#: src/inventory_ui.cpp:2926
 msgid "Toggle favorite"
 msgstr ""
 
 #. ~ Key binding name
-#: src/inventory_ui.cpp:2923 data/raw/keybindings.json
+#: src/inventory_ui.cpp:2927 data/raw/keybindings.json
 msgid "Home"
 msgstr ""
 
 #. ~ Key binding name
-#: src/inventory_ui.cpp:2924 data/raw/keybindings.json
+#: src/inventory_ui.cpp:2928 data/raw/keybindings.json
 msgid "End"
 msgstr ""
 
 #. ~ Key binding name
-#: src/inventory_ui.cpp:2934 data/raw/keybindings.json
+#: src/inventory_ui.cpp:2938 data/raw/keybindings.json
 msgid "Show/hide contents"
 msgstr ""
 
-#: src/inventory_ui.cpp:3373
+#: src/inventory_ui.cpp:3377
 msgid "Category selection mode"
 msgstr ""
 
-#: src/inventory_ui.cpp:3631
+#: src/inventory_ui.cpp:3635
 msgid "Mark/unmark selected item"
 msgstr ""
 
-#: src/inventory_ui.cpp:3633
+#: src/inventory_ui.cpp:3637
 msgid "Mark a specific amount of selected item"
 msgstr ""
 
-#: src/inventory_ui.cpp:3634
+#: src/inventory_ui.cpp:3638
 msgid "Mark/unmark non-favorite items"
 msgstr ""
 
-#: src/inventory_ui.cpp:3823 src/inventory_ui.cpp:4115
-#: src/inventory_ui.cpp:4305
+#: src/inventory_ui.cpp:3827 src/inventory_ui.cpp:4119
+#: src/inventory_ui.cpp:4309
 #, c-format
 msgid "No items were selected.  Use %s to select them."
 msgstr ""
 
-#: src/inventory_ui.cpp:3845
+#: src/inventory_ui.cpp:3849
 msgid "ITEMS TO COMPARE"
 msgstr ""
 
-#: src/inventory_ui.cpp:3879
+#: src/inventory_ui.cpp:3883
 #, c-format
 msgid "You need two items for comparison.  Use %s to select them."
 msgstr ""
 
-#: src/inventory_ui.cpp:4058
+#: src/inventory_ui.cpp:4062
 msgid "ITEMS TO HAUL"
 msgstr ""
 
-#: src/inventory_ui.cpp:4094
+#: src/inventory_ui.cpp:4098
 msgid "Cannot haul contents of containers"
 msgstr ""
 
-#: src/inventory_ui.cpp:4141
+#: src/inventory_ui.cpp:4145
 msgid ""
 "You are dropping liquid from its container.  You might not be able to pick "
 "it back up.  Really do so?"
 msgstr ""
 
-#: src/inventory_ui.cpp:4271
+#: src/inventory_ui.cpp:4275
 #, c-format
 msgid ""
 "%s wield %s wear\n"
@@ -26608,20 +26603,20 @@ msgid ""
 "%s examine %s/%s/%s quantity (or type number then %s)"
 msgstr ""
 
-#: src/inventory_ui.cpp:4373
+#: src/inventory_ui.cpp:4377
 #, c-format
 msgid "You can't wear the %s."
 msgstr ""
 
-#: src/inventory_ui.cpp:4557 src/options.cpp:2860
+#: src/inventory_ui.cpp:4561 src/options.cpp:2860
 msgid "Auto"
 msgstr ""
 
-#: src/inventory_ui.cpp:4557
+#: src/inventory_ui.cpp:4561
 msgid "Manual"
 msgstr ""
 
-#: src/inventory_ui.cpp:4559
+#: src/inventory_ui.cpp:4563
 #, c-format
 msgid ""
 "[<color_yellow>%s</color>] Confirm [<color_yellow>%s</color>] Cancel "
@@ -30285,7 +30280,7 @@ msgid ""
 "you convulse and collapse to the ground…"
 msgstr ""
 
-#: src/iuse.cpp:1397 src/monattack.cpp:1890
+#: src/iuse.cpp:1397 src/monattack.cpp:1888
 msgid ""
 "You wake up in a Marloss bush.  Almost *cradled* in it, actually, as though "
 "it grew there for you."
@@ -32307,7 +32302,7 @@ msgid ""
 "The %s crackle with electricity from your bionic, then come off your hands!"
 msgstr ""
 
-#: src/iuse.cpp:6840 src/monattack.cpp:3028
+#: src/iuse.cpp:6840 src/monattack.cpp:3026
 msgid "a police siren, whoop WHOOP"
 msgstr ""
 
@@ -32434,7 +32429,7 @@ msgstr ""
 #. ~ 'menu_text' action message of item 'infrared goggles (on)'
 #. ~ 'menu_text' action message of item 'survivor divemask (on)'
 #. ~ 'menu_text' action message of item 'thermal electric outfit (on)'
-#. ~ 'menu_text' action message of item 'shooter's earmuffs'
+#. ~ 'menu_text' action message of item 'shooter's earmuffs (on)'
 #. ~ 'menu_text' action message of item 'shooter's ear plugs (on)'
 #. ~ 'menu_text' action message of item 'military flight helmet (on)'
 #. ~ 'menu_text' action message of item 'battery powered utility exoskeleton
@@ -40645,33 +40640,33 @@ msgstr ""
 msgid "Unable to add %s.  It is incompatible with a currently active mod."
 msgstr ""
 
-#: src/monattack.cpp:270
+#: src/monattack.cpp:268
 #, c-format
 msgid "The %s shoots a dart but you dodge it."
 msgstr ""
 
-#: src/monattack.cpp:285
+#: src/monattack.cpp:283
 #, c-format
 msgid "The %s shoots a dart into you!"
 msgstr ""
 
-#: src/monattack.cpp:295
+#: src/monattack.cpp:293
 #, c-format
 msgid "The %s shoots a dart at you, but misses!"
 msgstr ""
 
-#: src/monattack.cpp:299
+#: src/monattack.cpp:297
 #, c-format
 msgid "The %s shoots a dart but it bounces off your armor."
 msgstr ""
 
-#: src/monattack.cpp:325 src/monattack.cpp:349 src/monattack.cpp:502
-#: src/monattack.cpp:565
+#: src/monattack.cpp:323 src/monattack.cpp:347 src/monattack.cpp:500
+#: src/monattack.cpp:563
 #, c-format
 msgid "The %1s eats the %2s."
 msgstr ""
 
-#: src/monattack.cpp:354 src/monattack.cpp:507
+#: src/monattack.cpp:352 src/monattack.cpp:505
 #, c-format
 msgid "The %1s gobbles up the %2s."
 msgstr ""
@@ -40683,773 +40678,773 @@ msgstr ""
 #. ~ Death message of monster 'brain slime'
 #. ~ Death message of monster 'big slime'
 #. ~ Death message of monster 'zombie hollow'
-#: src/monattack.cpp:376 data/json/monsters/insect_spider.json
+#: src/monattack.cpp:374 data/json/monsters/insect_spider.json
 #: data/json/monsters/slimes.json data/json/monsters/zed_misc.json
 #, c-format
 msgid "The %s splits in two!"
 msgstr ""
 
-#: src/monattack.cpp:446
+#: src/monattack.cpp:444
 #, c-format
 msgid "The %s flows around the %s and it is quickly dissolved!"
 msgstr ""
 
-#: src/monattack.cpp:537
+#: src/monattack.cpp:535
 #, c-format
 msgid "The %1s gnaws on the %2s."
 msgstr ""
 
-#: src/monattack.cpp:593
+#: src/monattack.cpp:591
 #, c-format
 msgid "The %1s eats from the %2s."
 msgstr ""
 
-#: src/monattack.cpp:617
+#: src/monattack.cpp:615
 msgid "a terrible shriek!"
 msgstr ""
 
-#: src/monattack.cpp:636
+#: src/monattack.cpp:634
 #, c-format
 msgid "The %s begins shrieking!"
 msgstr ""
 
-#: src/monattack.cpp:638 src/monattack.cpp:3428
+#: src/monattack.cpp:636 src/monattack.cpp:3426
 msgid "a piercing wail!"
 msgstr ""
 
-#: src/monattack.cpp:709
+#: src/monattack.cpp:707
 msgid "a sibilant rattling sound!"
 msgstr ""
 
-#: src/monattack.cpp:734
+#: src/monattack.cpp:732
 msgid "a spitting noise."
 msgstr ""
 
-#: src/monattack.cpp:749
+#: src/monattack.cpp:747
 #, c-format
 msgid "A glob of acid hits the %s!"
 msgstr ""
 
-#: src/monattack.cpp:795
+#: src/monattack.cpp:793
 #, c-format
 msgid "The %s barfs acid at you, but you dodge!"
 msgstr ""
 
-#: src/monattack.cpp:796
+#: src/monattack.cpp:794
 #, c-format
 msgid "The %s barfs acid at <npcname>, but they dodge!"
 msgstr ""
 
 #. ~ 1$s is monster name, 2$s bodypart in accusative
-#: src/monattack.cpp:813
+#: src/monattack.cpp:811
 #, c-format
 msgid "The %1$s barfs acid on your %2$s for %3$d damage!"
 msgstr ""
 
 #. ~ 1$s is monster name, 2$s bodypart in accusative
-#: src/monattack.cpp:815
+#: src/monattack.cpp:813
 #, c-format
 msgid "The %1$s barfs acid on <npcname>'s %2$s for %3$d damage!"
 msgstr ""
 
-#: src/monattack.cpp:825
+#: src/monattack.cpp:823
 #, c-format
 msgid "The %1$s barfs acid on your %2$s, but it washes off the armor!"
 msgstr ""
 
-#: src/monattack.cpp:826
+#: src/monattack.cpp:824
 #, c-format
 msgid "The %1$s barfs acid on <npcname>'s %2$s, but it washes off the armor!"
 msgstr ""
 
-#: src/monattack.cpp:877
+#: src/monattack.cpp:875
 #, c-format
 msgid "A bolt of electricity arcs towards %s!"
 msgstr ""
 
-#: src/monattack.cpp:909
+#: src/monattack.cpp:907
 #, c-format
 msgid "the %s obnoxiously yelling \"%s!!!\""
 msgstr ""
 
-#: src/monattack.cpp:982
+#: src/monattack.cpp:980
 #, c-format
 msgid "The %s is pulled away from your hands!"
 msgstr ""
 
-#: src/monattack.cpp:983
+#: src/monattack.cpp:981
 #, c-format
 msgid "The %s is pulled away from <npcname>'s hands!"
 msgstr ""
 
-#: src/monattack.cpp:990
+#: src/monattack.cpp:988
 #, c-format
 msgid "The %s unsuccessfully attempts to pull your weapon away."
 msgstr ""
 
-#: src/monattack.cpp:991
+#: src/monattack.cpp:989
 #, c-format
 msgid "The %s unsuccessfully attempts to pull <npcname>'s weapon away."
 msgstr ""
 
-#: src/monattack.cpp:1055
+#: src/monattack.cpp:1053
 #, c-format
 msgid "The %s throws its arms wide."
 msgstr ""
 
-#: src/monattack.cpp:1074
+#: src/monattack.cpp:1072
 #, c-format
 msgid "The %s gesticulates wildly."
 msgstr ""
 
-#: src/monattack.cpp:1126
+#: src/monattack.cpp:1124
 #, c-format
 msgid "You feel a strange pulse of energy from the %s."
 msgstr ""
 
-#: src/monattack.cpp:1143
+#: src/monattack.cpp:1141
 #, c-format
 msgid "A nearby %s rises from the dead!"
 msgstr ""
 
-#: src/monattack.cpp:1146
+#: src/monattack.cpp:1144
 msgid "But nothing seems to happen."
 msgstr ""
 
-#: src/monattack.cpp:1187
+#: src/monattack.cpp:1185
 #, c-format
 msgid "The %s takes a powerful swing at you, but you dodge it!"
 msgstr ""
 
-#: src/monattack.cpp:1188
+#: src/monattack.cpp:1186
 #, c-format
 msgid "The %s takes a powerful swing at <npcname>, who dodges it!"
 msgstr ""
 
-#: src/monattack.cpp:1194
+#: src/monattack.cpp:1192
 #, c-format
 msgid "A blow from the %1$s sends %2$s flying!"
 msgstr ""
 
-#: src/monattack.cpp:1195
+#: src/monattack.cpp:1193
 #, c-format
 msgid "A blow from the %s sends <npcname> flying!"
 msgstr ""
 
 #. ~ %s is bodypart name in accusative.
-#: src/monattack.cpp:1335
+#: src/monattack.cpp:1333
 #, c-format
 msgid "A tree bursts forth from the earth and pierces your %s!"
 msgstr ""
 
 #. ~ %s is bodypart name in accusative.
-#: src/monattack.cpp:1337
+#: src/monattack.cpp:1335
 #, c-format
 msgid "A tree bursts forth from the earth and pierces <npcname>'s %s!"
 msgstr ""
 
 #. ~ %s is bodypart name in accusative.
-#: src/monattack.cpp:1370
+#: src/monattack.cpp:1368
 #, c-format
 msgid "The underbrush beneath your feet grows and pierces your %s!"
 msgstr ""
 
 #. ~ %s is bodypart name in accusative.
-#: src/monattack.cpp:1372
+#: src/monattack.cpp:1370
 #, c-format
 msgid "Underbrush grows into a tree, and it pierces <npcname>'s %s!"
 msgstr ""
 
 #. ~ 1$s monster name(vine), 2$s bodypart in accusative
-#: src/monattack.cpp:1434
+#: src/monattack.cpp:1432
 #, c-format
 msgid "The %1$s lashes your %2$s!"
 msgstr ""
 
-#: src/monattack.cpp:1435
+#: src/monattack.cpp:1433
 #, c-format
 msgid "The %1$s lashes <npcname>'s %2$s!"
 msgstr ""
 
-#: src/monattack.cpp:1499
+#: src/monattack.cpp:1497
 msgid "thu-THUMP."
 msgstr ""
 
-#: src/monattack.cpp:1522
+#: src/monattack.cpp:1520
 msgid "The root walls creak around you."
 msgstr ""
 
-#: src/monattack.cpp:1574
+#: src/monattack.cpp:1572
 #, c-format
 msgid "Spores are released from the %s!"
 msgstr ""
 
-#: src/monattack.cpp:1624
+#: src/monattack.cpp:1622
 msgid "\"Buy SpOreos™ now!\""
 msgstr ""
 
-#: src/monattack.cpp:1626
+#: src/monattack.cpp:1624
 #, c-format
 msgid "Delicious snacks are released from the %s!"
 msgstr ""
 
-#: src/monattack.cpp:1639 src/monattack.cpp:1687
+#: src/monattack.cpp:1637 src/monattack.cpp:1685
 #, c-format
 msgid "The %s pulses, and fresh fungal material bursts forth!"
 msgstr ""
 
-#: src/monattack.cpp:1671
+#: src/monattack.cpp:1669
 #, c-format
 msgid "The %s suddenly inhales!"
 msgstr ""
 
 #. ~Sound of a giant fungal blossom inhaling
-#: src/monattack.cpp:1674
+#: src/monattack.cpp:1672
 msgid "WOOOSH!"
 msgstr ""
 
-#: src/monattack.cpp:1676
+#: src/monattack.cpp:1674
 #, c-format
 msgid "The %s discharges an immense flow of spores, smothering the flames!"
 msgstr ""
 
 #. ~Sound of a giant fungal blossom blowing out the dangerous fire!
-#: src/monattack.cpp:1680
+#: src/monattack.cpp:1678
 msgid "POUFF!"
 msgstr ""
 
 #. ~ That spore sound, much louder
-#: src/monattack.cpp:1685
+#: src/monattack.cpp:1683
 msgid "POUF."
 msgstr ""
 
-#: src/monattack.cpp:1716
+#: src/monattack.cpp:1714
 #, c-format
 msgid "The %s seems to wave you toward the tower…"
 msgstr ""
 
-#: src/monattack.cpp:1725
+#: src/monattack.cpp:1723
 #, c-format
 msgid "The %s jabs at you with a needlelike point!"
 msgstr ""
 
-#: src/monattack.cpp:1733 src/monattack.cpp:1790 src/monattack.cpp:1959
-#: src/monattack.cpp:3244 src/monattack.cpp:4082 src/monattack.cpp:4192
-#: src/monattack.cpp:4278
+#: src/monattack.cpp:1731 src/monattack.cpp:1788 src/monattack.cpp:1957
+#: src/monattack.cpp:3242 src/monattack.cpp:4030 src/monattack.cpp:4140
+#: src/monattack.cpp:4226
 msgid "You dodge it!"
 msgstr ""
 
-#: src/monattack.cpp:1734 src/monattack.cpp:1791 src/monattack.cpp:1960
-#: src/monattack.cpp:3245 src/monattack.cpp:4083 src/monattack.cpp:4193
-#: src/monattack.cpp:4279
+#: src/monattack.cpp:1732 src/monattack.cpp:1789 src/monattack.cpp:1958
+#: src/monattack.cpp:3243 src/monattack.cpp:4031 src/monattack.cpp:4141
+#: src/monattack.cpp:4227
 msgid "<npcname> dodges it!"
 msgstr ""
 
 #. ~ 1$s is monster name, 2$s bodypart in accusative
-#: src/monattack.cpp:1744 src/monattack.cpp:1971
+#: src/monattack.cpp:1742 src/monattack.cpp:1969
 #, c-format
 msgid "The %1$s sinks its point into your %2$s!"
 msgstr ""
 
-#: src/monattack.cpp:1749 src/monattack.cpp:1807
+#: src/monattack.cpp:1747 src/monattack.cpp:1805
 msgid "You feel thousands of live spores pumping into you…"
 msgstr ""
 
 #. ~ 1$s is monster name, 2$s bodypart in accusative
-#: src/monattack.cpp:1753 src/monattack.cpp:1977
+#: src/monattack.cpp:1751 src/monattack.cpp:1975
 #, c-format
 msgid "The %1$s strikes your %2$s, but your armor protects you."
 msgstr ""
 
-#: src/monattack.cpp:1781
+#: src/monattack.cpp:1779
 #, c-format
 msgid "The %1$s swipes at %2$s with a barbed tendril!"
 msgstr ""
 
 #. ~ 1$s is monster name, 2$s bodypart in accusative
-#: src/monattack.cpp:1801
+#: src/monattack.cpp:1799
 #, c-format
 msgid "The %1$s sinks several needlelike barbs into your %2$s!"
 msgstr "Ο %1$s βυθίζει πολλές κάτι σαν βελόνες μέσα στο %2$s!"
 
 #. ~ 1$s is monster name, 2$s bodypart in accusative
-#: src/monattack.cpp:1811
+#: src/monattack.cpp:1809
 #, c-format
 msgid "The %1$s slashes your %2$s, but your armor protects you."
 msgstr ""
 
-#: src/monattack.cpp:1822
+#: src/monattack.cpp:1820
 #, c-format
 msgid "The %s grows into an adult!"
 msgstr ""
 
-#: src/monattack.cpp:1844
+#: src/monattack.cpp:1842
 msgid "You're shoved away as a fungal wall grows!"
 msgstr ""
 
-#: src/monattack.cpp:1871
+#: src/monattack.cpp:1869
 #, c-format
 msgid "The %s spreads its tendrils.  It seems as though it's expecting you…"
 msgstr ""
 
-#: src/monattack.cpp:1874
+#: src/monattack.cpp:1872
 msgid ""
 "The tower extends and aims several tendrils from its depths.  Hold still?"
 msgstr ""
 
-#: src/monattack.cpp:1876
+#: src/monattack.cpp:1874
 #, c-format
 msgid ""
 "The %s works several tendrils into your arms, legs, torso, and even neck…"
 msgstr ""
 
-#: src/monattack.cpp:1880
+#: src/monattack.cpp:1878
 msgid ""
 "You see a clear golden liquid pump through the tendrils--and then lose "
 "consciousness."
 msgstr ""
 
-#: src/monattack.cpp:1887
+#: src/monattack.cpp:1885
 msgctxt "memorial_male"
 msgid "Was shown to the Marloss Gateway."
 msgstr ""
 
-#: src/monattack.cpp:1888
+#: src/monattack.cpp:1886
 msgctxt "memorial_female"
 msgid "Was shown to the Marloss Gateway."
 msgstr ""
 
 #. ~ Beginning to hear the Mycus while conscious: this is it speaking
-#: src/monattack.cpp:1893
+#: src/monattack.cpp:1891
 msgid ""
 "assistance, on an arduous quest.  unity.  together we have reached the door."
 "  now to pass through…"
 msgstr ""
 
-#: src/monattack.cpp:1915
+#: src/monattack.cpp:1913
 msgid "You're shoved away as a fungal hedgerow grows!"
 msgstr ""
 
 #. ~ %s is bodypart name in accusative.
-#: src/monattack.cpp:1938
+#: src/monattack.cpp:1936
 #, c-format
 msgid "A fungal tendril bursts forth from the earth and pierces your %s!"
 msgstr ""
 
-#: src/monattack.cpp:1944
+#: src/monattack.cpp:1942
 msgid "A fungal tendril bursts forth from the earth!"
 msgstr ""
 
-#: src/monattack.cpp:1950
+#: src/monattack.cpp:1948
 #, c-format
 msgid "The %s takes aim, and spears at you with a massive tendril!"
 msgstr ""
 
-#: src/monattack.cpp:1974
+#: src/monattack.cpp:1972
 msgid "You feel millions of live spores pumping into you…"
 msgstr ""
 
-#: src/monattack.cpp:2002
+#: src/monattack.cpp:2000
 #, c-format
 msgid "The %s takes seed and becomes a young fungaloid!"
 msgstr ""
 
-#: src/monattack.cpp:2009
+#: src/monattack.cpp:2007
 #, c-format
 msgid "The %s falls to the ground and bursts!"
 msgstr ""
 
-#: src/monattack.cpp:2027
+#: src/monattack.cpp:2025
 #, c-format
 msgid "The %s turns to a steady climb before departing."
 msgstr ""
 
-#: src/monattack.cpp:2030
+#: src/monattack.cpp:2028
 #, c-format
 msgid "The %s departs."
 msgstr ""
 
 #. ~ %1$s and %2$s - monster names
-#: src/monattack.cpp:2051
+#: src/monattack.cpp:2049
 #, c-format
 msgid "%1$s is engulfed by %2$s!"
 msgstr ""
 
-#: src/monattack.cpp:2263
+#: src/monattack.cpp:2261
 #, c-format
 msgid "The %s lets out a high-pitched cry!"
 msgstr ""
 
-#: src/monattack.cpp:2276
+#: src/monattack.cpp:2274
 #, c-format
 msgid "The %s swings its arms from side to side!"
 msgstr ""
 
-#: src/monattack.cpp:2279
+#: src/monattack.cpp:2277
 #, c-format
 msgid "The %s does some fancy footwork!"
 msgstr ""
 
-#: src/monattack.cpp:2282
+#: src/monattack.cpp:2280
 #, c-format
 msgid "The %s shrugs its shoulders!"
 msgstr ""
 
-#: src/monattack.cpp:2285
+#: src/monattack.cpp:2283
 #, c-format
 msgid "The %s spins in place!"
 msgstr ""
 
-#: src/monattack.cpp:2288
+#: src/monattack.cpp:2286
 #, c-format
 msgid "The %s crouches on the ground!"
 msgstr ""
 
-#: src/monattack.cpp:2291
+#: src/monattack.cpp:2289
 #, c-format
 msgid "The %s looks left and right!"
 msgstr ""
 
-#: src/monattack.cpp:2294
+#: src/monattack.cpp:2292
 #, c-format
 msgid "The %s jumps back and forth!"
 msgstr ""
 
-#: src/monattack.cpp:2297
+#: src/monattack.cpp:2295
 #, c-format
 msgid "The %s raises its arms in the air!"
 msgstr ""
 
-#: src/monattack.cpp:2300
+#: src/monattack.cpp:2298
 #, c-format
 msgid "The %s swings its hips!"
 msgstr ""
 
-#: src/monattack.cpp:2303
+#: src/monattack.cpp:2301
 #, c-format
 msgid "The %s claps!"
 msgstr ""
 
-#: src/monattack.cpp:2324
+#: src/monattack.cpp:2322
 #, c-format
 msgid "The %s's head explodes in a mass of roiling tentacles!"
 msgstr ""
 
-#: src/monattack.cpp:2349
+#: src/monattack.cpp:2347
 msgid "You feel poison enter your body!"
 msgstr ""
 
-#: src/monattack.cpp:2358
+#: src/monattack.cpp:2356
 #, c-format
 msgid "The %s young triffid grows into an adult!"
 msgstr ""
 
 #. ~ Speech from monsters: mon_nursebot_defective, mon_mi_go, mon_mi_go_slaver
-#: src/monattack.cpp:2389 data/json/speech.json
+#: src/monattack.cpp:2387 data/json/speech.json
 msgid ""
 "a soft robotic voice say, \"Come here and stand still for a few minutes, "
 "I'll give you a check-up.\""
 msgstr ""
 
 #. ~ Speech from monsters: mon_nursebot_defective, mon_mi_go, mon_mi_go_slaver
-#: src/monattack.cpp:2395 data/json/speech.json
+#: src/monattack.cpp:2393 data/json/speech.json
 msgid ""
 "a soft robotic voice say, \"Come on.  I don't bite, I promise it won't hurt "
 "one bit.\""
 msgstr ""
 
 #. ~ Speech from monsters: mon_nursebot_defective, mon_mi_go, mon_mi_go_slaver
-#: src/monattack.cpp:2399 data/json/speech.json
+#: src/monattack.cpp:2397 data/json/speech.json
 msgid "a soft robotic voice say, \"Here we go.  Just hold still.\""
 msgstr ""
 
-#: src/monattack.cpp:2401
+#: src/monattack.cpp:2399
 msgid "You get a medical check-up."
 msgstr ""
 
-#: src/monattack.cpp:2417 src/monattack.cpp:2460
+#: src/monattack.cpp:2415 src/monattack.cpp:2458
 #, c-format
 msgid "The %s is scanning its surroundings."
 msgstr ""
 
-#: src/monattack.cpp:2441
+#: src/monattack.cpp:2439
 msgid ""
 "a soft robotic voice say, \"Welcome doctor <male_full_name>.  I'll be your "
 "assistant today.\""
 msgstr ""
 
-#: src/monattack.cpp:2442
+#: src/monattack.cpp:2440
 msgid ""
 "a soft robotic voice say, \"Welcome doctor <female_full_name>.  I'll be your"
 " assistant today.\""
 msgstr ""
 
-#: src/monattack.cpp:2466
+#: src/monattack.cpp:2464
 #, c-format
 msgid "The %s doesn't seem to register you as a doctor."
 msgstr ""
 
-#: src/monattack.cpp:2471
+#: src/monattack.cpp:2469
 #, c-format
 msgid "The %s looks at its empty anesthesia kit with a dejected look."
 msgstr ""
 
-#: src/monattack.cpp:2500
+#: src/monattack.cpp:2498
 #, c-format
 msgid "The %1$s scans %2$s and seems to detect something."
 msgstr ""
 
-#: src/monattack.cpp:2512
+#: src/monattack.cpp:2510
 #, c-format
 msgid "The %s looks for something but doesn't seem to find it."
 msgstr ""
 
-#: src/monattack.cpp:2527
+#: src/monattack.cpp:2525
 msgid ""
 "a soft robotic voice say, \"Unhand this patient immediately!  If you keep "
 "interfering with the procedure I'll be forced to call law enforcement.\""
 msgstr ""
 
-#: src/monattack.cpp:2533
+#: src/monattack.cpp:2531
 msgid ""
 "a soft robotic voice say, \"Greetings kinbot.  Please take good care of this"
 " patient.\""
 msgstr ""
 
-#: src/monattack.cpp:2571
+#: src/monattack.cpp:2569
 #, c-format
 msgid ""
 "The %s dumps the contents of its bag on the ground and drops the bag on top "
 "of it."
 msgstr ""
 
-#: src/monattack.cpp:2617 src/monattack.cpp:2637
+#: src/monattack.cpp:2615 src/monattack.cpp:2635
 #, c-format
 msgid "The %s flashes a LED and departs.  Human officer on scene."
 msgstr ""
 
-#: src/monattack.cpp:2625 src/monattack.cpp:2645
+#: src/monattack.cpp:2623 src/monattack.cpp:2643
 #, c-format
 msgid ""
 "The %s acknowledges you as an officer responding, but hangs around to watch."
 msgstr ""
 
-#: src/monattack.cpp:2627 src/monattack.cpp:2664
+#: src/monattack.cpp:2625 src/monattack.cpp:2662
 msgid "Probably some now-obsolete Internal Affairs subroutine…"
 msgstr ""
 
-#: src/monattack.cpp:2647
+#: src/monattack.cpp:2645
 msgid "Ops used to do that in case you needed backup…"
 msgstr ""
 
-#: src/monattack.cpp:2655
+#: src/monattack.cpp:2653
 #, c-format
 msgid "The %s flashes a LED and departs.  SWAT's working the area."
 msgstr ""
 
-#: src/monattack.cpp:2662
+#: src/monattack.cpp:2660
 #, c-format
 msgid "The %s acknowledges you as SWAT onsite, but hangs around to watch."
 msgstr ""
 
-#: src/monattack.cpp:2673
+#: src/monattack.cpp:2671
 #, c-format
 msgid "The %s flashes a LED and departs.  The Feds got this."
 msgstr ""
 
-#: src/monattack.cpp:2687
+#: src/monattack.cpp:2685
 #, c-format
 msgid "The %s takes your picture!"
 msgstr ""
 
-#: src/monattack.cpp:2692
+#: src/monattack.cpp:2690
 msgid "a robotic voice boom, \"Citizen <male_full_name>!\""
 msgstr ""
 
-#: src/monattack.cpp:2694
+#: src/monattack.cpp:2692
 msgid "a robotic voice boom, \"Citizen <female_full_name>!\""
 msgstr ""
 
-#: src/monattack.cpp:2697
+#: src/monattack.cpp:2695
 #, c-format
 msgid "a robotic voice boom, \"Citizen %s!\""
 msgstr ""
 
-#: src/monattack.cpp:2699
+#: src/monattack.cpp:2697
 msgid "a robotic voice boom, \"Citizen… database connection lost!\""
 msgstr ""
 
-#: src/monattack.cpp:2704
+#: src/monattack.cpp:2702
 #, c-format
 msgid "\"Drop your %s!  Now!\""
 msgstr ""
 
 #. ~ Name of tool quality
-#: src/monattack.cpp:2705 data/json/tool_qualities.json
+#: src/monattack.cpp:2703 data/json/tool_qualities.json
 msgid "gun"
 msgstr ""
 
 #. ~ Skill name
-#: src/monattack.cpp:2705 data/json/skills.json
+#: src/monattack.cpp:2703 data/json/skills.json
 msgid "weapon"
 msgstr ""
 
-#: src/monattack.cpp:2759
+#: src/monattack.cpp:2757
 #, c-format
 msgid "The %s attempts to shock you but you dodge."
 msgstr ""
 
-#: src/monattack.cpp:2765 src/monattack.cpp:2773
+#: src/monattack.cpp:2763 src/monattack.cpp:2771
 #, c-format
 msgid "The %s unsuccessfully attempts to shock you."
 msgstr ""
 
-#: src/monattack.cpp:2774
+#: src/monattack.cpp:2772
 #, c-format
 msgid "The %s unsuccessfully attempts to shock <npcname>."
 msgstr ""
 
-#: src/monattack.cpp:2783
+#: src/monattack.cpp:2781
 #, c-format
 msgid "The %s shocks you!"
 msgstr ""
 
-#: src/monattack.cpp:2784
+#: src/monattack.cpp:2782
 #, c-format
 msgid "The %s shocks <npcname>!"
 msgstr ""
 
-#: src/monattack.cpp:3017
+#: src/monattack.cpp:3015
 msgid "a robotic voice boom, \"Citizen, Halt!\""
 msgstr ""
 
-#: src/monattack.cpp:3020
+#: src/monattack.cpp:3018
 msgid "a robotic voice boom, \"Please put down your weapon.\""
 msgstr ""
 
-#: src/monattack.cpp:3024
+#: src/monattack.cpp:3022
 msgid "a robotic voice boom, \"Come out with your hands up!\""
 msgstr ""
 
-#: src/monattack.cpp:3059
+#: src/monattack.cpp:3057
 msgid "\"YOU… ARE FILTH…\""
 msgstr ""
 
-#: src/monattack.cpp:3062
+#: src/monattack.cpp:3060
 msgid "\"VERMIN… YOU ARE VERMIN…\""
 msgstr ""
 
-#: src/monattack.cpp:3065
+#: src/monattack.cpp:3063
 msgid "\"LEAVE NOW…\""
 msgstr ""
 
-#: src/monattack.cpp:3068
+#: src/monattack.cpp:3066
 msgid "\"WE… WILL FEAST… UPON YOU…\""
 msgstr ""
 
-#: src/monattack.cpp:3071
+#: src/monattack.cpp:3069
 msgid "\"FOUL INTERLOPER…\""
 msgstr ""
 
 #. ~ %1$s is the name of the zombie upgrading the other, %2$s is the zombie
 #. being upgraded.
-#: src/monattack.cpp:3130
+#: src/monattack.cpp:3128
 #, c-format
 msgid ""
 "You feel a sudden, intense burst of energy in the air between the %1$s and "
 "the %2$s."
 msgstr ""
 
-#: src/monattack.cpp:3133
+#: src/monattack.cpp:3131
 #, c-format
 msgid "You feel a sudden, intense burst of energy from the %s."
 msgstr ""
 
 #. ~ %1$s is the pre-upgrade monster, %2$s is the post-upgrade monster.
-#: src/monattack.cpp:3139
+#: src/monattack.cpp:3137
 #, c-format
 msgid "The %1$s becomes a %2$s!"
 msgstr ""
 
-#: src/monattack.cpp:3142
+#: src/monattack.cpp:3140
 #, c-format
 msgid "The %s vanishes!"
 msgstr ""
 
-#: src/monattack.cpp:3144
+#: src/monattack.cpp:3142
 #, c-format
 msgid "A %s appears!"
 msgstr ""
 
-#: src/monattack.cpp:3195
+#: src/monattack.cpp:3193
 msgid "He's brandishing a knife!"
 msgstr ""
 
-#: src/monattack.cpp:3196
+#: src/monattack.cpp:3194
 msgid "Quiet, quiet"
 msgstr ""
 
-#: src/monattack.cpp:3224
+#: src/monattack.cpp:3222
 msgid "a terrifying roar!"
 msgstr ""
 
-#: src/monattack.cpp:3235
+#: src/monattack.cpp:3233
 #, c-format
 msgid "The %1$s swings a massive claw at %2$s!"
 msgstr ""
 
 #. ~ 1$s is bodypart name, 2$d is damage value.
-#: src/monattack.cpp:3258
+#: src/monattack.cpp:3256
 #, c-format
 msgid "Your %1$s is battered for %2$d damage!"
 msgstr ""
 
-#: src/monattack.cpp:3289
+#: src/monattack.cpp:3287
 #, c-format
 msgid "The %1$s quivers hungrily in the direction of the %2$s."
 msgstr ""
 
-#: src/monattack.cpp:3307
+#: src/monattack.cpp:3305
 #, c-format
 msgid "The %1$s absorbs the %2$s, growing larger."
 msgstr ""
 
-#: src/monattack.cpp:3348
+#: src/monattack.cpp:3346
 #, c-format
 msgid "The %1$s lunges for %2$s!"
 msgstr ""
 
-#: src/monattack.cpp:3368
+#: src/monattack.cpp:3366
 #, c-format
 msgid "The %1$s lunges at you, but you sidestep it!"
 msgstr ""
 
-#: src/monattack.cpp:3369
+#: src/monattack.cpp:3367
 #, c-format
 msgid "The %1$s lunges at <npcname>, but they sidestep it!"
 msgstr ""
 
-#: src/monattack.cpp:3380
+#: src/monattack.cpp:3378
 #, c-format
 msgid "The %1$s lunges at your %2$s, battering it for %3$d damage!"
 msgstr ""
 
-#: src/monattack.cpp:3381
+#: src/monattack.cpp:3379
 #, c-format
 msgid "The %1$s lunges at <npcname>'s %2$s, battering it for %3$d damage!"
 msgstr ""
 
-#: src/monattack.cpp:3384
+#: src/monattack.cpp:3382
 #, c-format
 msgid "The %1$s lunges at your %2$s, but your armor prevents injury!"
 msgstr ""
 
-#: src/monattack.cpp:3385
+#: src/monattack.cpp:3383
 #, c-format
 msgid "The %1$s lunges at <npcname>'s %2$s, but their armor prevents injury!"
 msgstr ""
 
-#: src/monattack.cpp:3409
+#: src/monattack.cpp:3407
 #, c-format
 msgid "The %1$s loudly blows their whistle!"
 msgstr ""
@@ -41457,135 +41452,102 @@ msgstr ""
 #. ~ 'noise_message' action message of item 'whistle'
 #. ~ 'noise_message' action message of item 'whistle multitool'
 #. ~ 'noise_message' action message of item 'camping multitool'
-#: src/monattack.cpp:3410 data/json/items/tool/misc.json
+#: src/monattack.cpp:3408 data/json/items/tool/misc.json
 #: data/json/items/tool/workshop.json data/json/items/tool_armor.json
 msgid "FWEEEET!"
 msgstr ""
 
-#: src/monattack.cpp:3485
-#, c-format
-msgid "A shadow splits from the %s!"
-msgstr ""
-
-#: src/monattack.cpp:3494
-msgid "\"Stop it please.\""
-msgstr ""
-
-#: src/monattack.cpp:3497
-msgid "\"Let us help you.\""
-msgstr ""
-
-#: src/monattack.cpp:3500
-msgid "\"We wish you no harm.\""
-msgstr ""
-
-#: src/monattack.cpp:3503
-msgid "\"Do not fear.\""
-msgstr ""
-
-#: src/monattack.cpp:3506
-msgid "\"We can help you.\""
-msgstr ""
-
-#: src/monattack.cpp:3509
-msgid "\"We are friendly.\""
-msgstr ""
-
-#: src/monattack.cpp:3512
-msgid "\"Please don't.\""
-msgstr ""
-
 #. ~ Lowercase is intended: they're small voices.
-#: src/monattack.cpp:3544
+#: src/monattack.cpp:3492
 msgid "\"let me help!\""
 msgstr ""
 
-#: src/monattack.cpp:3551
+#: src/monattack.cpp:3499
 msgid "The slime cleans you out!"
 msgstr ""
 
-#: src/monattack.cpp:3553
+#: src/monattack.cpp:3501
 msgid "The slime flows over you, but your gouges still ache."
 msgstr ""
 
-#: src/monattack.cpp:3560
+#: src/monattack.cpp:3508
 msgid "The slime seals up your leaks!"
 msgstr ""
 
-#: src/monattack.cpp:3562
+#: src/monattack.cpp:3510
 msgid "The slime flows over you, but your fluids are still leaking."
 msgstr ""
 
-#: src/monattack.cpp:3603
+#: src/monattack.cpp:3551
 msgid ""
 "Halt and submit to arrest, citizen!  The police will be here any moment."
 msgstr ""
 
-#: src/monattack.cpp:3622
+#: src/monattack.cpp:3570
 msgid "Please stay in place, citizen, do not make any movements!"
 msgstr ""
 
-#: src/monattack.cpp:3632
+#: src/monattack.cpp:3580
 msgid "The robot carefully scans you."
 msgstr ""
 
-#: src/monattack.cpp:3633
+#: src/monattack.cpp:3581
 msgid "The robot carefully scans <npcname>."
 msgstr ""
 
-#: src/monattack.cpp:3642
+#: src/monattack.cpp:3590
 msgid "The robot orders you to present your hands and be cuffed."
 msgstr ""
 
-#: src/monattack.cpp:3644
+#: src/monattack.cpp:3592
 msgid "Allow yourself to be arrested."
 msgstr ""
 
-#: src/monattack.cpp:3645
+#: src/monattack.cpp:3593
 msgid "Resist arrest!"
 msgstr ""
 
-#: src/monattack.cpp:3648
+#: src/monattack.cpp:3596
 msgid "Feign death."
 msgstr ""
 
-#: src/monattack.cpp:3678
+#: src/monattack.cpp:3626
 msgid ""
 "You deftly slip out of the handcuffs just as the robot closes them.  The "
 "robot didn't seem to notice!"
 msgstr ""
 
-#: src/monattack.cpp:3687
+#: src/monattack.cpp:3635
 msgid "The robot puts handcuffs on you."
 msgstr ""
 
-#: src/monattack.cpp:3691
+#: src/monattack.cpp:3639
 msgid ""
 "You are under arrest, citizen.  You have the right to remain silent.  If you"
 " do not remain silent, anything you say may be used against you in a court "
 "of law."
 msgstr ""
 
-#: src/monattack.cpp:3694
+#: src/monattack.cpp:3642
 msgid ""
 "You have the right to an attorney.  If you cannot afford an attorney, one "
 "will be provided at no cost to you.  You may have your attorney present "
 "during any questioning."
 msgstr ""
 
-#: src/monattack.cpp:3696
+#: src/monattack.cpp:3644
 msgid ""
 "If you do not understand these rights, an officer will explain them in "
 "greater detail when taking you into custody."
 msgstr ""
 
-#: src/monattack.cpp:3698
+#: src/monattack.cpp:3646
 msgid ""
 "Do not attempt to flee or to remove the handcuffs, citizen.  That can be "
 "dangerous to your health."
 msgstr ""
 
-#: src/monattack.cpp:3713
+#: src/monattack.cpp:3661
 msgid ""
 "You fall to the ground and feign a sudden convulsive attack.  Though you're "
 "obviously still alive, the robot cannot tell the difference between your "
@@ -41593,250 +41555,250 @@ msgid ""
 " for medical help."
 msgstr ""
 
-#: src/monattack.cpp:3719
+#: src/monattack.cpp:3667
 msgid "Your awkward movements do not fool the robot."
 msgstr ""
 
-#: src/monattack.cpp:3727
+#: src/monattack.cpp:3675
 msgid "The robot sprays tear gas!"
 msgstr ""
 
-#: src/monattack.cpp:3745
+#: src/monattack.cpp:3693
 msgid "Empty your hands and hold your position, citizen!"
 msgstr ""
 
 #. ~ Sound of a riot control bot using its blinding flash
-#: src/monattack.cpp:3764
+#: src/monattack.cpp:3712
 msgid "fzzzzzt"
 msgstr ""
 
-#: src/monattack.cpp:3803 src/monattack.cpp:3808
+#: src/monattack.cpp:3751 src/monattack.cpp:3756
 #, c-format
 msgid "The %s lunges at you, but you dodge!"
 msgstr ""
 
-#: src/monattack.cpp:3804 src/monattack.cpp:3809
+#: src/monattack.cpp:3752 src/monattack.cpp:3757
 #, c-format
 msgid "The %s lunges at <npcname>, but they dodge!"
 msgstr ""
 
-#: src/monattack.cpp:3820
+#: src/monattack.cpp:3768
 #, c-format
 msgid "The %1$s impales your chest for %2$d damage!"
 msgstr ""
 
-#: src/monattack.cpp:3821
+#: src/monattack.cpp:3769
 #, c-format
 msgid "The %1$s impales <npcname>'s chest for %2$d damage!"
 msgstr ""
 
-#: src/monattack.cpp:3825
+#: src/monattack.cpp:3773
 #, c-format
 msgid ""
 "The %1$s attempts to burrow itself into you, but is stopped by your armor!"
 msgstr ""
 
-#: src/monattack.cpp:3826
+#: src/monattack.cpp:3774
 #, c-format
 msgid "The %1$s slashes at <npcname>'s torso, but is stopped by their armor!"
 msgstr ""
 
-#: src/monattack.cpp:3841
+#: src/monattack.cpp:3789
 #, c-format
 msgid ""
 "The %1$s burrows within %2$s corpse and a %3$s emerges from the remains!"
 msgstr ""
 
-#: src/monattack.cpp:3845
+#: src/monattack.cpp:3793
 #, c-format
 msgid "The %1$s burrows within %2$s corpse!"
 msgstr ""
 
-#: src/monattack.cpp:3847
+#: src/monattack.cpp:3795
 #, c-format
 msgid "A %1$s emerges from %2$s corpse!"
 msgstr ""
 
-#: src/monattack.cpp:3874
+#: src/monattack.cpp:3822
 #, c-format
 msgid "An egg pod ruptures and a %s crawls out from the remains!"
 msgstr ""
 
-#: src/monattack.cpp:3880
+#: src/monattack.cpp:3828
 msgid "Resplendent fronds emerge from the still intact pods!"
 msgstr ""
 
-#: src/monattack.cpp:3902
+#: src/monattack.cpp:3850
 #, c-format
 msgid "The %s blooms into flowers!"
 msgstr ""
 
-#: src/monattack.cpp:3924
+#: src/monattack.cpp:3872
 msgid ""
 "The hound's movements chaotically rewind as a living afterimage splits from "
 "it!"
 msgstr ""
 
-#: src/monattack.cpp:3939
+#: src/monattack.cpp:3887
 #, c-format
 msgid "The %s dissipates and reforms itself from the angles in the corner."
 msgstr ""
 
-#: src/monattack.cpp:3960
+#: src/monattack.cpp:3908
 msgid "The floor trembles underneath your feet."
 msgstr ""
 
-#: src/monattack.cpp:3962 src/monattack.cpp:3991
+#: src/monattack.cpp:3910 src/monattack.cpp:3939
 msgid "a deafening roar!"
 msgstr ""
 
-#: src/monattack.cpp:3981
+#: src/monattack.cpp:3929
 #, c-format
 msgid "A %s struggles to pull itself free from the %s!"
 msgstr ""
 
-#: src/monattack.cpp:4075
+#: src/monattack.cpp:4023
 #, c-format
 msgid "The %1$s mechanically grabs at %2$s!"
 msgstr ""
 
-#: src/monattack.cpp:4097
+#: src/monattack.cpp:4045
 #, c-format
 msgid "%1$s slams %2$s to the ground!"
 msgstr ""
 
 #. ~ 1$s is monster name, 2$s is bodypart name in accusative, 3$d is damage
 #. value.
-#: src/monattack.cpp:4112
+#: src/monattack.cpp:4060
 #, c-format
 msgid "The %1$s kicks your %2$s for %3$d damage…"
 msgstr ""
 
-#: src/monattack.cpp:4143
+#: src/monattack.cpp:4091
 #, c-format
 msgid "and slams you, face first, to the ground for %d damage!"
 msgstr ""
 
-#: src/monattack.cpp:4149
+#: src/monattack.cpp:4097
 #, c-format
 msgid "and slams you to the ground for %d damage!"
 msgstr ""
 
-#: src/monattack.cpp:4158
+#: src/monattack.cpp:4106
 #, c-format
 msgid "and slams you for %d damage!"
 msgstr ""
 
-#: src/monattack.cpp:4185
+#: src/monattack.cpp:4133
 #, c-format
 msgid "The %1$s mechanically lunges at %2$s!"
 msgstr ""
 
-#: src/monattack.cpp:4216
+#: src/monattack.cpp:4164
 #, c-format
 msgid "The %1$s impales %2$s!"
 msgstr ""
 
-#: src/monattack.cpp:4226
+#: src/monattack.cpp:4174
 #, c-format
 msgid "The %1$s tries to impale your %2$s…"
 msgstr ""
 
-#: src/monattack.cpp:4227
+#: src/monattack.cpp:4175
 #, c-format
 msgid "The %1$s tries to impale <npcname>'s %2$s…"
 msgstr ""
 
-#: src/monattack.cpp:4231
+#: src/monattack.cpp:4179
 #, c-format
 msgid "and deals %d damage!"
 msgstr ""
 
-#: src/monattack.cpp:4237
+#: src/monattack.cpp:4185
 msgid "but fails to penetrate your armor!"
 msgstr ""
 
-#: src/monattack.cpp:4238
+#: src/monattack.cpp:4186
 msgid "but fails to penetrate <npcname>'s armor!"
 msgstr ""
 
-#: src/monattack.cpp:4271
+#: src/monattack.cpp:4219
 #, c-format
 msgid "The %1$s mechanically reaches for %2$s!"
 msgstr ""
 
-#: src/monattack.cpp:4299
+#: src/monattack.cpp:4247
 #, c-format
 msgid "The zombie grabs your %s…"
 msgstr ""
 
-#: src/monattack.cpp:4302
+#: src/monattack.cpp:4250
 msgid "and throws it to the ground!"
 msgstr ""
 
-#: src/monattack.cpp:4309
+#: src/monattack.cpp:4257
 msgid "but you break its grip!"
 msgstr ""
 
-#: src/monattack.cpp:4464
+#: src/monattack.cpp:4412
 #, c-format
 msgid "The %s lights up menacingly."
 msgstr ""
 
-#: src/monattack.cpp:4558
+#: src/monattack.cpp:4506
 #, c-format
 msgid "The %s deploys a pacification hack!"
 msgstr ""
 
-#: src/monattack.cpp:4561 src/monattack.cpp:4591
+#: src/monattack.cpp:4509 src/monattack.cpp:4539
 #, c-format
 msgid "The %s deploys a flashbang hack!"
 msgstr ""
 
-#: src/monattack.cpp:4564 src/monattack.cpp:4593
+#: src/monattack.cpp:4512 src/monattack.cpp:4541
 #, c-format
 msgid "The %s deploys a tear gas hack!"
 msgstr ""
 
-#: src/monattack.cpp:4566 src/monattack.cpp:4595
+#: src/monattack.cpp:4514 src/monattack.cpp:4543
 #, c-format
 msgid "The %s buzzes and deploys a C-4 hack!"
 msgstr ""
 
-#: src/monattack.cpp:4588
+#: src/monattack.cpp:4536
 #, c-format
 msgid "The %s deploys a grenade hack!"
 msgstr ""
 
-#: src/monattack.cpp:4599
+#: src/monattack.cpp:4547
 #, c-format
 msgid "A klaxon blares from %s as it deploys a mininuke hack!"
 msgstr ""
 
-#: src/monattack.cpp:4637
+#: src/monattack.cpp:4585
 #, c-format
 msgid "The %1$s fuses with the %2$s."
 msgstr ""
 
-#: src/monattack.cpp:4652
+#: src/monattack.cpp:4600
 #, c-format
 msgid "%1$s still seems to be moving inside %2$s…"
 msgstr ""
 
-#: src/monattack.cpp:4664
+#: src/monattack.cpp:4612
 #, c-format
 msgid "The %s doots its trumpet!"
 msgstr ""
 
-#: src/monattack.cpp:4672
+#: src/monattack.cpp:4620
 msgid "A spooky skeleton rises from the ground!"
 msgstr ""
 
-#: src/monattack.cpp:4678
+#: src/monattack.cpp:4626
 msgid "DOOT."
 msgstr ""
 
-#: src/mondeath.cpp:56 src/monstergenerator.cpp:1579
+#: src/mondeath.cpp:56 src/monstergenerator.cpp:1578
 #, c-format
 msgid "The %s dies!"
 msgstr ""
@@ -43012,7 +42974,7 @@ msgstr ""
 msgid "The spores transform %1$s into a %2$s!"
 msgstr ""
 
-#: src/monstergenerator.cpp:1206 src/mtype.cpp:546
+#: src/monstergenerator.cpp:1205 src/mtype.cpp:546
 msgid "footsteps."
 msgstr ""
 
@@ -49282,343 +49244,364 @@ msgstr ""
 msgid "Exported noise to %s (raw) and %s."
 msgstr ""
 
-#: src/overmap_ui.cpp:214
+#: src/overmap_ui.cpp:137
+msgid "OVERMAP_SIDEBAR"
+msgstr ""
+
+#: src/overmap_ui.cpp:227
+msgid "You can only make out vague details of what's here."
+msgstr ""
+
+#: src/overmap_ui.cpp:230
+msgid "You can only make out outlines of what's here."
+msgstr ""
+
+#: src/overmap_ui.cpp:233
+msgid "You can make out some details of what's here."
+msgstr ""
+
+#: src/overmap_ui.cpp:236
+msgid "This is a bug!"
+msgstr ""
+
+#: src/overmap_ui.cpp:256
+msgid "Weather: "
+msgstr ""
+
+#: src/overmap_ui.cpp:261
+msgid "# Weather unknown"
+msgstr ""
+
+#: src/overmap_ui.cpp:280
+msgid "Use movement keys to pan."
+msgstr ""
+
+#: src/overmap_ui.cpp:281
+#, c-format
+msgid "Press %s to preview route."
+msgstr ""
+
+#: src/overmap_ui.cpp:283
+msgid "Press again to confirm."
+msgstr ""
+
+#: src/overmap_ui.cpp:425
+msgid "Current mission:"
+msgstr ""
+
+#: src/overmap_ui.cpp:429
+msgid "Current Point of Interest:"
+msgstr ""
+
+#: src/overmap_ui.cpp:435
+msgid "Above us"
+msgstr ""
+
+#: src/overmap_ui.cpp:437
+msgid "Below us"
+msgstr ""
+
+#: src/overmap_ui.cpp:440
+#, c-format
+msgid "Distance: %d tiles | %s"
+msgstr ""
+
+#: src/overmap_ui.cpp:446
+msgid "No mission selected."
+msgstr ""
+
+#: src/overmap_ui.cpp:562
 msgid "Note preview"
 msgstr ""
 
-#: src/overmap_ui.cpp:421 src/overmap_ui.cpp:1342 src/overmap_ui.cpp:2174
+#: src/overmap_ui.cpp:769 src/overmap_ui.cpp:1397 src/overmap_ui.cpp:2233
 msgid "Really delete note?"
 msgstr ""
 
-#: src/overmap_ui.cpp:436 src/overmap_ui.cpp:2180
+#: src/overmap_ui.cpp:784 src/overmap_ui.cpp:2239
 msgid "Remove dangerous mark?"
 msgstr ""
 
-#: src/overmap_ui.cpp:443 src/overmap_ui.cpp:2185
+#: src/overmap_ui.cpp:791 src/overmap_ui.cpp:2244
 msgid "Create a danger note."
 msgstr ""
 
-#: src/overmap_ui.cpp:451 src/overmap_ui.cpp:2191
+#: src/overmap_ui.cpp:799 src/overmap_ui.cpp:2250
 #, c-format
 msgid "Danger radius in overmap squares? (0-%d)"
 msgstr ""
 
-#: src/overmap_ui.cpp:488
+#: src/overmap_ui.cpp:836
 #, c-format
 msgid ""
 "<%s> - center on note, <%s> - edit note, <%s> - mark as dangerous, <%s> - "
 "delete note, <%s> - close window"
 msgstr ""
 
-#: src/overmap_ui.cpp:497
+#: src/overmap_ui.cpp:845
 #, c-format
 msgid "Map notes (%d)"
 msgstr ""
 
-#: src/overmap_ui.cpp:521
+#: src/overmap_ui.cpp:869
 #, c-format
 msgid "DANGEROUS AREA!  (R=%d)"
 msgstr ""
 
-#: src/overmap_ui.cpp:522
+#: src/overmap_ui.cpp:870
 msgid "IN DANGEROUS AREA!"
 msgstr ""
 
-#: src/overmap_ui.cpp:524
+#: src/overmap_ui.cpp:872
 #, c-format
 msgid "[%s] %s"
 msgstr ""
 
-#: src/overmap_ui.cpp:527
+#: src/overmap_ui.cpp:875
 #, c-format
 msgid ""
 "<color_red>LEVEL %i, %d'%d, %d'%d</color>: %s (Distance: "
 "<color_white>%d</color>) <color_red>%s</color>"
 msgstr ""
 
-#: src/overmap_ui.cpp:532
+#: src/overmap_ui.cpp:880
 #, c-format
 msgid "<color_light_gray>Distance: </color><color_white>%d</color>"
 msgstr ""
 
-#: src/overmap_ui.cpp:619 src/sdltiles.cpp:1126
+#: src/overmap_ui.cpp:967 src/sdltiles.cpp:1126
 msgid "FAST TRAVELING"
 msgstr ""
 
-#: src/overmap_ui.cpp:864 src/sdltiles.cpp:1131
+#: src/overmap_ui.cpp:1212 src/sdltiles.cpp:1131
 msgid "WEATHER MODE"
 msgstr ""
 
-#: src/overmap_ui.cpp:877 src/sdltiles.cpp:1144
+#: src/overmap_ui.cpp:1225 src/sdltiles.cpp:1144
 msgid "DANGEROUS AREA!"
 msgstr ""
 
-#: src/overmap_ui.cpp:920
+#: src/overmap_ui.cpp:1268
 msgid "Zone:"
 msgstr ""
 
-#: src/overmap_ui.cpp:1027
-msgid "You can only make out vague details of what's here."
-msgstr ""
-
-#: src/overmap_ui.cpp:1030
-msgid "You can only make out outlines of what's here."
-msgstr ""
-
-#: src/overmap_ui.cpp:1033
-msgid "You can make out some details of what's here."
-msgstr ""
-
-#: src/overmap_ui.cpp:1036
-msgid "This is a bug!"
-msgstr ""
-
-#: src/overmap_ui.cpp:1066
-msgid "# Weather unknown"
-msgstr ""
-
-#: src/overmap_ui.cpp:1144
-msgid "Distance to current objective:"
-msgstr ""
-
-#: src/overmap_ui.cpp:1152
-msgid "Above us"
-msgstr ""
-
-#: src/overmap_ui.cpp:1154
-msgid "Below us"
-msgstr ""
-
-#: src/overmap_ui.cpp:1189
-msgid "Use movement keys to pan."
-msgstr ""
-
-#: src/overmap_ui.cpp:1190
-#, c-format
-msgid "Press %s to preview route."
-msgstr ""
-
-#: src/overmap_ui.cpp:1192
-msgid "Press again to confirm."
-msgstr ""
-
-#: src/overmap_ui.cpp:1262
+#: src/overmap_ui.cpp:1317
 msgid "Add a note to the map."
 msgstr ""
 
-#: src/overmap_ui.cpp:1264
+#: src/overmap_ui.cpp:1319
 msgid "Edit an existing note."
 msgstr ""
 
-#: src/overmap_ui.cpp:1269
+#: src/overmap_ui.cpp:1324
 msgid ""
 "For a custom GLYPH or COLOR follow the examples below.  Default GLYPH and "
 "COLOR looks like this: <color_yellow>N</color>"
 msgstr ""
 
-#: src/overmap_ui.cpp:1273
+#: src/overmap_ui.cpp:1328
 msgid "Color codes: "
 msgstr ""
 
-#: src/overmap_ui.cpp:1282
+#: src/overmap_ui.cpp:1337
 msgid "Type GLYPH<color_yellow>:</color>TEXT to set a custom glyph."
 msgstr ""
 
-#: src/overmap_ui.cpp:1283
+#: src/overmap_ui.cpp:1338
 msgid "Type COLOR<color_yellow>;</color>TEXT to set a custom color."
 msgstr ""
 
-#: src/overmap_ui.cpp:1285
+#: src/overmap_ui.cpp:1340
 msgid "Examples: B:Base | g;Loot | !:R;Minefield"
 msgstr ""
 
-#: src/overmap_ui.cpp:1288
+#: src/overmap_ui.cpp:1343
 msgid "Note:"
 msgstr ""
 
-#: src/overmap_ui.cpp:1355
+#: src/overmap_ui.cpp:1410
 msgid "Add a Point of Interest entry to the Mission UI"
 msgstr ""
 
-#: src/overmap_ui.cpp:1356
+#: src/overmap_ui.cpp:1411
 msgid "Description:"
 msgstr ""
 
-#: src/overmap_ui.cpp:1424
+#: src/overmap_ui.cpp:1479
 msgid "Search term:"
 msgstr "Όρος αναζήτησης:"
 
-#: src/overmap_ui.cpp:1426
+#: src/overmap_ui.cpp:1481
 msgid ""
 "Multiple entries separated with comma (,). Excludes starting with hyphen "
 "(-)."
 msgstr ""
 
-#: src/overmap_ui.cpp:1463
+#: src/overmap_ui.cpp:1518
 #, c-format
 msgid "No results found within %d tiles."
 msgstr ""
 
-#: src/overmap_ui.cpp:1488
+#: src/overmap_ui.cpp:1543
 msgid "Next result"
 msgstr ""
 
-#: src/overmap_ui.cpp:1489
+#: src/overmap_ui.cpp:1544
 msgid "Previous result"
 msgstr ""
 
-#: src/overmap_ui.cpp:1499 src/overmap_ui.cpp:1515
+#: src/overmap_ui.cpp:1554 src/overmap_ui.cpp:1570
 msgid "Result:"
 msgstr ""
 
-#: src/overmap_ui.cpp:1500 src/overmap_ui.cpp:1515
+#: src/overmap_ui.cpp:1555 src/overmap_ui.cpp:1570
 msgid "Results:"
 msgstr ""
 
-#: src/overmap_ui.cpp:1501 src/overmap_ui.cpp:1519
+#: src/overmap_ui.cpp:1556 src/overmap_ui.cpp:1574
 msgid "Direction:"
 msgstr ""
 
-#: src/overmap_ui.cpp:1526
+#: src/overmap_ui.cpp:1581
 #, c-format
 msgid ""
 "Press [<color_yellow>%s</color>] or [<color_yellow>%s</color>] to cycle "
 "through search results."
 msgstr ""
 
-#: src/overmap_ui.cpp:1531
+#: src/overmap_ui.cpp:1586
 #, c-format
 msgid "Press [<color_yellow>%s</color>] to confirm."
 msgstr ""
 
-#: src/overmap_ui.cpp:1533
+#: src/overmap_ui.cpp:1588
 #, c-format
 msgid "Press [<color_yellow>%s</color>] to quit."
 msgstr ""
 
-#: src/overmap_ui.cpp:1569
+#: src/overmap_ui.cpp:1624
 msgid "Select terrain to place:"
 msgstr ""
 
-#: src/overmap_ui.cpp:1573
+#: src/overmap_ui.cpp:1628
 #, c-format
 msgid "sym: [ %s %s ], color: [ %s %s], name: [ %s ], id: [ %s ]"
 msgstr ""
 
-#: src/overmap_ui.cpp:1588
+#: src/overmap_ui.cpp:1643
 msgid "Select special to place:"
 msgstr ""
 
-#: src/overmap_ui.cpp:1647
+#: src/overmap_ui.cpp:1702
 msgid "Place overmap terrain:"
 msgstr ""
 
-#: src/overmap_ui.cpp:1651
+#: src/overmap_ui.cpp:1706
 msgid "Place overmap special:"
 msgstr ""
 
-#: src/overmap_ui.cpp:1658
+#: src/overmap_ui.cpp:1713
 #, c-format
 msgid "Rotation: %s %s"
 msgstr ""
 
-#: src/overmap_ui.cpp:1659
+#: src/overmap_ui.cpp:1714
 msgid "(fixed)"
 msgstr ""
 
-#: src/overmap_ui.cpp:1661
+#: src/overmap_ui.cpp:1716
 msgid ""
 "Highlighted regions already have map content generated.  Their overmap id "
 "will change, but not their contents."
 msgstr ""
 
-#: src/overmap_ui.cpp:1664
+#: src/overmap_ui.cpp:1719
 #, c-format
 msgid "[%s] Rotate"
 msgstr ""
 
-#: src/overmap_ui.cpp:1667
+#: src/overmap_ui.cpp:1722
 #, c-format
 msgid "[%s] Place"
 msgstr ""
 
-#: src/overmap_ui.cpp:1669
+#: src/overmap_ui.cpp:1724
 #, c-format
 msgid "[%s] Place and close"
 msgstr ""
 
-#: src/overmap_ui.cpp:1671
+#: src/overmap_ui.cpp:1726
 msgid "[ESCAPE/Q] Cancel"
 msgstr ""
 
-#: src/overmap_ui.cpp:1732
+#: src/overmap_ui.cpp:1787
 msgid "No overmap special args at this location."
 msgstr ""
 
-#: src/overmap_ui.cpp:1736
+#: src/overmap_ui.cpp:1791
 msgid "Overmap special args at this location have already been set."
 msgstr ""
 
-#: src/overmap_ui.cpp:1741
+#: src/overmap_ui.cpp:1796
 msgid "No overmap special at this location from which to fetch parameters."
 msgstr ""
 
-#: src/overmap_ui.cpp:1752
+#: src/overmap_ui.cpp:1807
 #, c-format
 msgid "Select value for mapgen argument %s: "
 msgstr ""
 
-#: src/overmap_ui.cpp:1774
+#: src/overmap_ui.cpp:1829
 msgid "No hordes there.  Would you like to make a new horde?"
 msgstr ""
 
-#: src/overmap_ui.cpp:1788
+#: src/overmap_ui.cpp:1843
 #, c-format
 msgid "group(type: %s) with %d monsters"
 msgstr ""
 
-#: src/overmap_ui.cpp:1800
+#: src/overmap_ui.cpp:1855
 #, c-format
 msgid "Set horde's interest (in %%)"
 msgstr ""
 
-#: src/overmap_ui.cpp:1801
+#: src/overmap_ui.cpp:1856
 msgid "Set horde's destination"
 msgstr ""
 
-#: src/overmap_ui.cpp:1802
+#: src/overmap_ui.cpp:1857
 msgid "Modify horde's population"
 msgstr ""
 
-#: src/overmap_ui.cpp:1803
+#: src/overmap_ui.cpp:1858
 msgid "Add a new monster to the horde"
 msgstr ""
 
-#: src/overmap_ui.cpp:1804
+#: src/overmap_ui.cpp:1859
 msgid "Set horde behavior"
 msgstr ""
 
-#: src/overmap_ui.cpp:1805
+#: src/overmap_ui.cpp:1860
 msgid "Set horde's boolean values"
 msgstr ""
 
-#: src/overmap_ui.cpp:1806
+#: src/overmap_ui.cpp:1861
 msgid "Add another horde to this location"
 msgstr ""
 
-#: src/overmap_ui.cpp:1813
+#: src/overmap_ui.cpp:1868
 msgid "Set interest to what value?"
 msgstr ""
 
-#: src/overmap_ui.cpp:1818
+#: src/overmap_ui.cpp:1873
 msgid "Select a target destination for the horde."
 msgstr ""
 
-#: src/overmap_ui.cpp:1827 src/wish.cpp:789
+#: src/overmap_ui.cpp:1882 src/wish.cpp:789
 msgid "Set population to what value?"
 msgstr ""
 
-#: src/overmap_ui.cpp:1838
+#: src/overmap_ui.cpp:1893
 msgid ""
 "Set behavior to which enum value?\n"
 "Accepted values:\n"
@@ -49628,97 +49611,97 @@ msgid ""
 "3=nemesis"
 msgstr ""
 
-#: src/overmap_ui.cpp:1844
+#: src/overmap_ui.cpp:1899
 #, c-format
 msgid ""
 "Set group's \"horde\" value to true?  (Select no to set to false)  \n"
 "Currently %s"
 msgstr ""
 
-#: src/overmap_ui.cpp:1845 src/overmap_ui.cpp:1848
+#: src/overmap_ui.cpp:1900 src/overmap_ui.cpp:1903
 msgid "false"
 msgstr ""
 
-#: src/overmap_ui.cpp:1845 src/overmap_ui.cpp:1848
+#: src/overmap_ui.cpp:1900 src/overmap_ui.cpp:1903
 msgid "true"
 msgstr ""
 
-#: src/overmap_ui.cpp:1847
+#: src/overmap_ui.cpp:1902
 #, c-format
 msgid ""
 "Set group's \"dying\" value to true?  (Select no to set to false)  \n"
 "Currently %s"
 msgstr ""
 
-#: src/overmap_ui.cpp:1924
+#: src/overmap_ui.cpp:1979
 msgid "Unable to find a path from the current location:"
 msgstr ""
 
-#: src/overmap_ui.cpp:1926
+#: src/overmap_ui.cpp:1981
 msgid "Auto travel requires source and destination on same Z level:"
 msgstr ""
 
-#: src/overmap_ui.cpp:1949
+#: src/overmap_ui.cpp:2004
 msgid ""
 "You are overburdened, are you sure you want to travel (it may be painful)?"
 msgstr ""
 
-#: src/overmap_ui.cpp:1951
+#: src/overmap_ui.cpp:2006
 msgid "You are in a vehicle but not driving.  Are you sure you want to walk?"
 msgstr ""
 
-#: src/overmap_ui.cpp:1954
+#: src/overmap_ui.cpp:2009
 msgid "Drive to this point?"
 msgstr ""
 
-#: src/overmap_ui.cpp:1956
+#: src/overmap_ui.cpp:2011
 msgid "Drive to your destination?"
 msgstr ""
 
-#: src/overmap_ui.cpp:1960
+#: src/overmap_ui.cpp:2015
 msgid "Travel to this point?"
 msgstr ""
 
-#: src/overmap_ui.cpp:1962
+#: src/overmap_ui.cpp:2017
 msgid "Travel to your destination?"
 msgstr ""
 
-#: src/overmap_ui.cpp:2683
+#: src/overmap_ui.cpp:2746
 msgid "<color_red>* Random city *</color>"
 msgstr ""
 
-#: src/overmap_ui.cpp:2684
+#: src/overmap_ui.cpp:2747
 msgid "Location: <color_white>(?,?)</color>:<color_white>(?,?)</color>"
 msgstr ""
 
 #. ~ "pop" refers to population count
-#: src/overmap_ui.cpp:2686
+#: src/overmap_ui.cpp:2749
 msgid "(pop <color_white>?</color>)"
 msgstr ""
 
-#: src/overmap_ui.cpp:2690
+#: src/overmap_ui.cpp:2753
 msgid "Select a starting city"
 msgstr ""
 
-#: src/overmap_ui.cpp:2692
+#: src/overmap_ui.cpp:2755
 #, c-format
 msgid "%s (size: %d)"
 msgstr ""
 
-#: src/overmap_ui.cpp:2694
+#: src/overmap_ui.cpp:2757
 #, c-format
 msgid "Location: <color_white>%s</color>:<color_white>%s</color>"
 msgstr ""
 
 #. ~ "pop" refers to population count
-#: src/overmap_ui.cpp:2697
+#: src/overmap_ui.cpp:2760
 #, c-format
 msgid "(pop <color_white>%s</color>)"
 msgstr ""
 
 #. ~ First parameter is a terrain name, second parameter is a direction, and
 #. third parameter is a city name.
-#: src/overmapbuffer.cpp:1942
+#: src/overmapbuffer.cpp:1948 src/overmapbuffer.cpp:2024
 #, c-format
 msgctxt "terrain description"
 msgid "%1$s %2$s from %3$s"
@@ -49726,14 +49709,14 @@ msgstr ""
 
 #. ~ First parameter is a terrain name, second parameter is a direction, and
 #. third parameter is a city name.
-#: src/overmapbuffer.cpp:1948
+#: src/overmapbuffer.cpp:1954 src/overmapbuffer.cpp:2030
 msgctxt "terrain description"
 msgid "%1$s in central %3$s"
 msgstr ""
 
 #. ~ First parameter is a terrain name, second parameter is a direction, and
 #. third parameter is a city name.
-#: src/overmapbuffer.cpp:1951
+#: src/overmapbuffer.cpp:1957 src/overmapbuffer.cpp:2033
 #, c-format
 msgctxt "terrain description"
 msgid "%1$s in %2$s %3$s"
@@ -49741,14 +49724,15 @@ msgstr ""
 
 #. ~ First parameter is a terrain name, second parameter is a direction, and
 #. third parameter is a city name.
-#: src/overmapbuffer.cpp:1955 src/overmapbuffer.cpp:1964
+#: src/overmapbuffer.cpp:1961 src/overmapbuffer.cpp:1970
+#: src/overmapbuffer.cpp:2037 src/overmapbuffer.cpp:2046
 msgctxt "terrain description"
 msgid "%1$s in %3$s"
 msgstr ""
 
 #. ~ First parameter is a terrain name, second parameter is a direction, and
 #. third parameter is a city name.
-#: src/overmapbuffer.cpp:1961
+#: src/overmapbuffer.cpp:1967 src/overmapbuffer.cpp:2043
 #, c-format
 msgctxt "terrain description"
 msgid "%1$s on the %2$s outskirts of %3$s"
@@ -61241,6 +61225,16 @@ msgstr ""
 #. ~ Key binding name
 #: data/raw/keybindings.json
 msgid "Toggle fast travel"
+msgstr ""
+
+#. ~ Key binding name
+#: data/raw/keybindings.json
+msgid "Collapse all overmap sidebar headers"
+msgstr ""
+
+#. ~ Key binding name
+#: data/raw/keybindings.json
+msgid "Expand all overmap sidebar headers"
 msgstr ""
 
 #. ~ Key binding name
@@ -78909,6 +78903,21 @@ msgstr ""
 #. ~ Remove message of effect 'Sunscreen'
 #: data/json/effects.json
 msgid "Your sunscreen has worn off."
+msgstr ""
+
+#. ~ Name of effect 'effect_nether_shadow_unnatural_chill'
+#: data/json/effects.json
+msgid "Unnatural Chill"
+msgstr ""
+
+#. ~ Description of effect 'Unnatural Chill'
+#: data/json/effects.json
+msgid "You are chilled to the bone."
+msgstr ""
+
+#. ~ Remove message of effect 'Unnatural Chill'
+#: data/json/effects.json
+msgid "The chill in your bones finally fades away."
 msgstr ""
 
 #. ~ Description of creature revealed by special vision
@@ -142793,25 +142802,20 @@ msgid ""
 "one month."
 msgstr ""
 
-#. ~ Comestible name
+#. ~ Comestible/tool name
 #: data/json/items/chemicals_and_resources.json
 msgid "fermentable fish mixture"
 msgid_plural "fermentable fish mixture"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Description of comestible 'fermentable fish mixture'
+#. ~ Description of comestible/tool 'fermentable fish mixture'
+#. ~ Description of comestible 'fermentable fish mixture (obsolete)'
 #: data/json/items/chemicals_and_resources.json
+#: data/json/obsoletion_and_migration_0.J/chemicals_and_resources.json
 msgid ""
 "A mixture of fish, sugars, and water.  Wait about two months for them to be "
 "fermented in an open tank."
-msgstr ""
-
-#. ~ 'not_ready_msg' action message of item 'fermentable fish mixture'
-#: data/json/items/chemicals_and_resources.json
-msgid ""
-"The overpowering smell of the fermenting fish liquid makes it clear that it "
-"is not ready for use."
 msgstr ""
 
 #. ~ Comestible name
@@ -153829,7 +153833,7 @@ msgstr ""
 
 #. ~ 'msg' action message of item 'headlamp (on)'
 #. ~ 'msg' action message of item 'heavy-duty headlamp (on)'
-#. ~ 'msg' action message of item 'shooter's earmuffs'
+#. ~ 'msg' action message of item 'shooter's earmuffs (on)'
 #. ~ 'msg' action message of item 'shooter's ear plugs (on)'
 #. ~ 'msg' action message of item 'military flight helmet (on)'
 #: data/json/items/tool_armor.json
@@ -154736,7 +154740,14 @@ msgstr ""
 msgid "The earmuff's batteries are dead."
 msgstr ""
 
-#. ~ Description of armor/tool 'shooter's earmuffs'
+#. ~ Armor/tool name
+#: data/json/items/tool_armor.json
+msgid "shooter's earmuffs (on)"
+msgid_plural "shooter's earmuffs (on)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of armor/tool 'shooter's earmuffs (on)'
 #: data/json/items/tool_armor.json
 msgid ""
 "A pair of earmuffs favored by shooters.  The earmuffs are turned on, and "
@@ -161929,21 +161940,6 @@ msgstr[1] ""
 #. ~ Description of armor 'leather arm guards (pair)'
 #: data/json/items/armor/arms_armor.json
 msgid "A pair of tough leather arm guards.  Light and comfortable."
-msgstr ""
-
-#. ~ Armor name
-#: data/json/items/armor/arms_armor.json
-msgid "steel arm guards (pair)"
-msgid_plural "steel arm guards (pair)"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description of armor 'steel arm guards (pair)'
-#: data/json/items/armor/arms_armor.json
-msgid ""
-"A full assembly of medieval arm protection.  Rerebraces, couters, and "
-"vambraces, with leather straps to secure each piece and connect it as part "
-"of a set."
 msgstr ""
 
 #. ~ Armor name
@@ -175046,14 +175042,8 @@ msgstr[1] ""
 #. ~ Description of variant 'black bikini top' of armor 'bikini top'
 #. ~ Description of variant 'black swimsuit' of armor 'swimsuit'
 #. ~ Description of variant 'black rashguard shirt' of armor 'rashguard shirt'
-#. ~ Description of variant 'black witch dress' of armor 'witch dress'
-#. ~ Description of variant 'long black witch dress' of armor 'long witch
-#. dress'
-#. ~ Description of variant 'short black witch dress' of armor 'short witch
-#. dress'
 #: data/json/items/armor/hats.json data/json/items/armor/masks.json
 #: data/json/items/armor/swimming.json
-#: data/json/items/armor/torso_clothes.json
 msgid "It's colored black."
 msgstr ""
 
@@ -175862,12 +175852,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. ~ Description of variant 'green pointed hat' of armor 'pointed hat'
-#. ~ Description of variant 'green witch dress' of armor 'witch dress'
-#. ~ Description of variant 'long green witch dress' of armor 'long witch
-#. dress'
-#. ~ Description of variant 'short green witch dress' of armor 'short witch
-#. dress'
-#: data/json/items/armor/hats.json data/json/items/armor/torso_clothes.json
+#: data/json/items/armor/hats.json
 msgid "It's colored dark green."
 msgstr ""
 
@@ -175879,11 +175864,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. ~ Description of variant 'red pointed hat' of armor 'pointed hat'
-#. ~ Description of variant 'red witch dress' of armor 'witch dress'
-#. ~ Description of variant 'long red witch dress' of armor 'long witch dress'
-#. ~ Description of variant 'short red witch dress' of armor 'short witch
-#. dress'
-#: data/json/items/armor/hats.json data/json/items/armor/torso_clothes.json
+#: data/json/items/armor/hats.json
 msgid "It's colored dark red."
 msgstr ""
 
@@ -175895,12 +175876,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. ~ Description of variant 'purple pointed hat' of armor 'pointed hat'
-#. ~ Description of variant 'purple witch dress' of armor 'witch dress'
-#. ~ Description of variant 'long purple witch dress' of armor 'long witch
-#. dress'
-#. ~ Description of variant 'short purple witch dress' of armor 'short witch
-#. dress'
-#: data/json/items/armor/hats.json data/json/items/armor/torso_clothes.json
+#: data/json/items/armor/hats.json
 msgid "It's colored dark purple."
 msgstr ""
 
@@ -185045,20 +185021,6 @@ msgstr ""
 
 #. ~ Armor name
 #: data/json/items/armor/legs_armor.json
-msgid "steel leg guards (pair)"
-msgid_plural "steel leg guards (pair)"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description of armor 'steel leg guards (pair)'
-#: data/json/items/armor/legs_armor.json
-msgid ""
-"A full assembly of medieval leg protection.  Cuisses, poleyns, and greaves, "
-"with leather straps to secure each piece and connect it as part of a set."
-msgstr ""
-
-#. ~ Armor name
-#: data/json/items/armor/legs_armor.json
 msgid "iron greaves (pair)"
 msgid_plural "iron greaves (pair)"
 msgstr[0] ""
@@ -186058,22 +186020,22 @@ msgstr[1] ""
 
 #. ~ Description of armor 'skinny jeans'
 #: data/json/items/armor/legs_clothes.json
-msgid "A pair of skinny jeans with two pockets."
+msgid "A pair of skinny jeans with four pockets."
 msgstr ""
 
 #. ~ Snippet of item 'skinny jeans'
 #: data/json/items/armor/legs_clothes.json
-msgid "A pair of blue skinny jeans with two pockets."
+msgid "A pair of blue skinny jeans with four pockets."
 msgstr ""
 
 #. ~ Snippet of item 'skinny jeans'
 #: data/json/items/armor/legs_clothes.json
-msgid "A pair of black skinny jeans with two pockets."
+msgid "A pair of black skinny jeans with four pockets."
 msgstr ""
 
 #. ~ Snippet of item 'skinny jeans'
 #: data/json/items/armor/legs_clothes.json
-msgid "A pair of red skinny jeans with two pockets."
+msgid "A pair of red skinny jeans with four pockets."
 msgstr ""
 
 #. ~ Armor name
@@ -187364,7 +187326,16 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. ~ Description of variant 'black balaclava' of armor 'balaclava'
+#. ~ Description of variant 'black dress' of armor 'dress'
 #. ~ Description of variant 'long black dress' of armor 'long dress'
+#. ~ Description of variant 'short black dress' of armor 'short dress'
+#. ~ Description of variant 'black dress with sleeves' of armor 'dress with
+#. sleeves'
+#. ~ Description of variant 'long black dress with sleeves' of armor 'long
+#. dress with sleeves'
+#. ~ Description of variant 'short black dress with sleeves' of armor 'short
+#. dress with sleeves'
+#. ~ Description of variant 'black gown' of armor 'evening gown with sleeves'
 #. ~ Description of variant 'black binder' of armor 'binder'
 #: data/json/items/armor/masks.json data/json/items/armor/torso_clothes.json
 #: data/json/items/armor/undergarment.json
@@ -191970,7 +191941,15 @@ msgstr[1] ""
 
 #. ~ Description of variant 'white jumpsuit' of armor 'pocketless jumpsuit'
 #. ~ Description of variant 'white jumpsuit' of armor 'jumpsuit'
+#. ~ Description of variant 'white dress' of armor 'dress'
 #. ~ Description of variant 'long white dress' of armor 'long dress'
+#. ~ Description of variant 'short white dress' of armor 'short dress'
+#. ~ Description of variant 'white dress with sleeves' of armor 'dress with
+#. sleeves'
+#. ~ Description of variant 'long white dress with sleeves' of armor 'long
+#. dress with sleeves'
+#. ~ Description of variant 'short white dress with sleeves' of armor 'short
+#. dress with sleeves'
 #. ~ Description of variant 'white button shirt' of armor 'button shirt'
 #. ~ Description of variant 'white binder' of armor 'binder'
 #: data/json/items/armor/suits_clothes.json
@@ -195974,6 +195953,32 @@ msgstr ""
 
 #. ~ Armor name
 #: data/json/items/armor/torso_clothes.json
+msgid "dress"
+msgid_plural "dresses"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of armor 'dress'
+#: data/json/items/armor/torso_clothes.json
+msgid "A cotton dress."
+msgstr ""
+
+#. ~ Variant name of armor 'dress'
+#: data/json/items/armor/torso_clothes.json
+msgid "white dress"
+msgid_plural "white dresses"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Variant name of armor 'dress'
+#: data/json/items/armor/torso_clothes.json
+msgid "black dress"
+msgid_plural "black dresses"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Armor name
+#: data/json/items/armor/torso_clothes.json
 msgid "long dress"
 msgid_plural "long dresses"
 msgstr[0] ""
@@ -195998,17 +196003,297 @@ msgid_plural "long black dresses"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Variant name of armor 'long dress'
+#. ~ Armor name
 #: data/json/items/armor/torso_clothes.json
-msgid "evening gown"
-msgid_plural "evening gowns"
+msgid "short dress"
+msgid_plural "short dresses"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Description of variant 'evening gown' of armor 'long dress'
+#. ~ Description of armor 'short dress'
+#: data/json/items/armor/torso_clothes.json
+msgid "A short cotton dress."
+msgstr ""
+
+#. ~ Variant name of armor 'short dress'
+#: data/json/items/armor/torso_clothes.json
+msgid "short white dress"
+msgid_plural "short white dresses"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Variant name of armor 'short dress'
+#: data/json/items/armor/torso_clothes.json
+msgid "short black dress"
+msgid_plural "short black dresses"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Variant name of armor 'short dress'
+#: data/json/items/armor/torso_clothes.json
+msgid "short sinister dress"
+msgid_plural "short sinister dresses"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of variant 'short sinister dress' of armor 'short dress'
+#: data/json/items/armor/torso_clothes.json
+msgid "A short red dress made in gothic lolita fashion."
+msgstr ""
+
+#. ~ Armor name
+#: data/json/items/armor/torso_clothes.json
+msgid "dress with sleeves"
+msgid_plural "dresses with sleeves"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of armor 'dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "A cotton dress with sleeves."
+msgstr ""
+
+#. ~ Variant name of armor 'dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "white dress with sleeves"
+msgid_plural "white dresses with sleeves"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Variant name of armor 'dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "black dress with sleeves"
+msgid_plural "black dresses with sleeves"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Variant name of armor 'dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "black witch dress"
+msgid_plural "black witch dresses"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of variant 'black witch dress' of armor 'dress with sleeves'
 #: data/json/items/armor/torso_clothes.json
 msgid ""
-"A luxurious evening gown.  It accentuates your curves, or lack thereof."
+"A dress with full sleeves and pointed cuts at the edges.  Perfect for "
+"Halloween.  It's colored black."
+msgstr ""
+
+#. ~ Variant name of armor 'dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "green witch dress"
+msgid_plural "green witch dresses"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of variant 'green witch dress' of armor 'dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid ""
+"A dress with full sleeves and pointed cuts at the edges.  Perfect for "
+"Halloween.  It's colored dark green."
+msgstr ""
+
+#. ~ Variant name of armor 'dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "red witch dress"
+msgid_plural "red witch dresses"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of variant 'red witch dress' of armor 'dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid ""
+"A dress with full sleeves and pointed cuts at the edges.  Perfect for "
+"Halloween.  It's colored dark red."
+msgstr ""
+
+#. ~ Variant name of armor 'dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "purple witch dress"
+msgid_plural "purple witch dresses"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of variant 'purple witch dress' of armor 'dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid ""
+"A dress with full sleeves and pointed cuts at the edges.  Perfect for "
+"Halloween.  It's colored dark purple."
+msgstr ""
+
+#. ~ Armor name
+#: data/json/items/armor/torso_clothes.json
+msgid "long dress with sleeves"
+msgid_plural "long dresses with sleeves"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of armor 'long dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "A long cotton dress with sleeves."
+msgstr ""
+
+#. ~ Variant name of armor 'long dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "long white dress with sleeves"
+msgid_plural "long white dresses with sleeves"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Variant name of armor 'long dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "long black dress with sleeves"
+msgid_plural "long black dresses with sleeves"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Variant name of armor 'long dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "long black witch dress"
+msgid_plural "long black witch dresses"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of variant 'long black witch dress' of armor 'long dress with
+#. sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "A long dress with sleeves, typical of a witch.  It's colored black."
+msgstr ""
+
+#. ~ Variant name of armor 'long dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "long green witch dress"
+msgid_plural "long green witch dresses"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of variant 'long green witch dress' of armor 'long dress with
+#. sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid ""
+"A long dress with sleeves, typical of a witch.  It's colored dark green."
+msgstr ""
+
+#. ~ Variant name of armor 'long dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "long red witch dress"
+msgid_plural "long red witch dresses"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of variant 'long red witch dress' of armor 'long dress with
+#. sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "A long dress with sleeves, typical of a witch.  It's colored dark red."
+msgstr ""
+
+#. ~ Variant name of armor 'long dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "long purple witch dress"
+msgid_plural "long purple witch dresses"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of variant 'long purple witch dress' of armor 'long dress
+#. with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid ""
+"A long dress with sleeves, typical of a witch.  It's colored dark purple."
+msgstr ""
+
+#. ~ Variant name of armor 'long dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "sinister dress"
+msgid_plural "sinister dresses"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of variant 'sinister dress' of armor 'long dress with
+#. sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid ""
+"A long black and red dress with full sleeves, a collar, and embroidery "
+"reminiscent of a vampire duchess."
+msgstr ""
+
+#. ~ Armor name
+#: data/json/items/armor/torso_clothes.json
+msgid "short dress with sleeves"
+msgid_plural "short dresses with sleeves"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of armor 'short dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "A short cotton dress with sleeves."
+msgstr ""
+
+#. ~ Variant name of armor 'short dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "short white dress with sleeves"
+msgid_plural "short white dresses with sleeves"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Variant name of armor 'short dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "short black dress with sleeves"
+msgid_plural "short black dresses with sleeves"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Variant name of armor 'short dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "short black witch dress"
+msgid_plural "short black witch dresses"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of variant 'short black witch dress' of armor 'short dress
+#. with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "A short dress typically used by witches.  It's colored black."
+msgstr ""
+
+#. ~ Variant name of armor 'short dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "short green witch dress"
+msgid_plural "short green witch dresses"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of variant 'short green witch dress' of armor 'short dress
+#. with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "A short dress typically used by witches.  It's colored dark green."
+msgstr ""
+
+#. ~ Variant name of armor 'short dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "short red witch dress"
+msgid_plural "short red witch dresses"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of variant 'short red witch dress' of armor 'short dress with
+#. sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "A short dress typically used by witches.  It's colored dark red."
+msgstr ""
+
+#. ~ Variant name of armor 'short dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "short purple witch dress"
+msgid_plural "short purple witch dresses"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of variant 'short purple witch dress' of armor 'short dress
+#. with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "A short dress typically used by witches.  It's colored dark purple."
 msgstr ""
 
 #. ~ Armor name
@@ -196120,6 +196405,55 @@ msgstr[1] ""
 #. ~ Description of armor 'makeshift flotation vest'
 #: data/json/items/armor/torso_clothes.json
 msgid "A flotation vest made of inflated animal skins."
+msgstr ""
+
+#. ~ Armor name
+#: data/json/items/armor/torso_clothes.json
+msgid "evening gown"
+msgid_plural "evening gowns"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of armor 'evening gown'
+#: data/json/items/armor/torso_clothes.json
+msgid ""
+"A luxurious evening gown.  It accentuates your curves, or lack thereof."
+msgstr ""
+
+#. ~ Armor name
+#: data/json/items/armor/torso_clothes.json
+msgid "evening gown with sleeves"
+msgid_plural "evening gowns with sleeves"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of armor 'evening gown with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid ""
+"A luxurious evening gown with full sleeves.  It accentuates your curves, or "
+"lack thereof."
+msgstr ""
+
+#. ~ Variant name of armor 'evening gown with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "black gown"
+msgid_plural "black gowns"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Variant name of armor 'evening gown with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "sinister gown"
+msgid_plural "sinister gowns"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of variant 'sinister gown' of armor 'evening gown with
+#. sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid ""
+"A red and black gown with full sleeves.  It has a gothic style and looks "
+"pretty luxurious."
 msgstr ""
 
 #. ~ Armor name
@@ -196713,46 +197047,6 @@ msgstr ""
 
 #. ~ Armor name
 #: data/json/items/armor/torso_clothes.json
-msgid "sinister dress"
-msgid_plural "sinister dresses"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description of armor 'sinister dress'
-#: data/json/items/armor/torso_clothes.json
-msgid ""
-"A long black and red dress with full sleeves, a collar, and embroidery "
-"reminiscent of a vampire duchess."
-msgstr ""
-
-#. ~ Armor name
-#: data/json/items/armor/torso_clothes.json
-msgid "short sinister dress"
-msgid_plural "short sinister dresses"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description of armor 'short sinister dress'
-#: data/json/items/armor/torso_clothes.json
-msgid "A short red dress made in gothic lolita fashion."
-msgstr ""
-
-#. ~ Armor name
-#: data/json/items/armor/torso_clothes.json
-msgid "sinister gown"
-msgid_plural "sinister gowns"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description of armor 'sinister gown'
-#: data/json/items/armor/torso_clothes.json
-msgid ""
-"A red and black gown with full sleeves.  It has a gothic style and looks "
-"pretty luxurious."
-msgstr ""
-
-#. ~ Armor name
-#: data/json/items/armor/torso_clothes.json
 msgid "sundress"
 msgid_plural "sundresses"
 msgstr[0] ""
@@ -197105,130 +197399,6 @@ msgstr[1] ""
 #: data/json/items/armor/torso_clothes.json
 msgid "A vest made from thick leather."
 msgstr ""
-
-#. ~ Armor name
-#: data/json/items/armor/torso_clothes.json
-msgid "witch dress"
-msgid_plural "witch dresses"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description of armor 'witch dress'
-#: data/json/items/armor/torso_clothes.json
-msgid ""
-"A dress with full sleeves and pointed cuts at the edges.  Perfect for "
-"Halloween."
-msgstr ""
-
-#. ~ Variant name of armor 'witch dress'
-#: data/json/items/armor/torso_clothes.json
-msgid "black witch dress"
-msgid_plural "black witch dresses"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Variant name of armor 'witch dress'
-#: data/json/items/armor/torso_clothes.json
-msgid "green witch dress"
-msgid_plural "green witch dresses"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Variant name of armor 'witch dress'
-#: data/json/items/armor/torso_clothes.json
-msgid "red witch dress"
-msgid_plural "red witch dresses"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Variant name of armor 'witch dress'
-#: data/json/items/armor/torso_clothes.json
-msgid "purple witch dress"
-msgid_plural "purple witch dresses"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Armor name
-#: data/json/items/armor/torso_clothes.json
-msgid "long witch dress"
-msgid_plural "long witch dresses"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description of armor 'long witch dress'
-#: data/json/items/armor/torso_clothes.json
-msgid ""
-"A long dress with sleeves, typical of a witch.  It includes a pouch for "
-"storing potions and other magical items."
-msgstr ""
-
-#. ~ Variant name of armor 'long witch dress'
-#: data/json/items/armor/torso_clothes.json
-msgid "long black witch dress"
-msgid_plural "long black witch dresses"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Variant name of armor 'long witch dress'
-#: data/json/items/armor/torso_clothes.json
-msgid "long green witch dress"
-msgid_plural "long green witch dresses"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Variant name of armor 'long witch dress'
-#: data/json/items/armor/torso_clothes.json
-msgid "long red witch dress"
-msgid_plural "long red witch dresses"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Variant name of armor 'long witch dress'
-#: data/json/items/armor/torso_clothes.json
-msgid "long purple witch dress"
-msgid_plural "long purple witch dresses"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Armor name
-#: data/json/items/armor/torso_clothes.json
-msgid "short witch dress"
-msgid_plural "short witch dresses"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description of armor 'short witch dress'
-#: data/json/items/armor/torso_clothes.json
-msgid "A short dress typically used by witches."
-msgstr ""
-
-#. ~ Variant name of armor 'short witch dress'
-#: data/json/items/armor/torso_clothes.json
-msgid "short black witch dress"
-msgid_plural "short black witch dresses"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Variant name of armor 'short witch dress'
-#: data/json/items/armor/torso_clothes.json
-msgid "short green witch dress"
-msgid_plural "short green witch dresses"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Variant name of armor 'short witch dress'
-#: data/json/items/armor/torso_clothes.json
-msgid "short red witch dress"
-msgid_plural "short red witch dresses"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Variant name of armor 'short witch dress'
-#: data/json/items/armor/torso_clothes.json
-msgid "short purple witch dress"
-msgid_plural "short purple witch dresses"
-msgstr[0] ""
-msgstr[1] ""
 
 #. ~ Armor name
 #: data/json/items/armor/torso_clothes.json
@@ -216641,13 +216811,14 @@ msgstr ""
 #: data/json/items/gun/40.json data/json/items/gun/40x46mm.json
 #: data/json/items/gun/40x53mm.json data/json/items/gun/44.json
 #: data/json/items/gun/45.json data/json/items/gun/450bushmaster.json
-#: data/json/items/gun/4570.json data/json/items/gun/50.json
-#: data/json/items/gun/545x39.json data/json/items/gun/57.json
-#: data/json/items/gun/66mm.json data/json/items/gun/762.json
-#: data/json/items/gun/762R.json data/json/items/gun/77mm_arisaka.json
-#: data/json/items/gun/84x246mm.json data/json/items/gun/8x40mm.json
-#: data/json/items/gun/9mm.json data/json/items/gun/artisan_guns.json
-#: data/json/items/gun/atgm.json data/json/items/gun/blunderbuss.json
+#: data/json/items/gun/4570.json data/json/items/gun/45colt.json
+#: data/json/items/gun/50.json data/json/items/gun/545x39.json
+#: data/json/items/gun/57.json data/json/items/gun/66mm.json
+#: data/json/items/gun/762.json data/json/items/gun/762R.json
+#: data/json/items/gun/77mm_arisaka.json data/json/items/gun/84x246mm.json
+#: data/json/items/gun/8x40mm.json data/json/items/gun/9mm.json
+#: data/json/items/gun/artisan_guns.json data/json/items/gun/atgm.json
+#: data/json/items/gun/blunderbuss.json
 #: data/json/items/gun/chemical_spray.json
 #: data/json/items/gun/combination.json data/json/items/gun/exodii.json
 #: data/json/items/gun/flintlock.json data/json/items/gun/nail.json
@@ -217913,55 +218084,35 @@ msgid ""
 "cooked to a crisp.  A staple of fairgrounds everywhere."
 msgstr ""
 
-#. ~ Comestible name
+#. ~ Comestible/tool name
 #: data/json/items/comestibles/bread.json
 msgid "juvenile sourdough starter"
 msgid_plural "juvenile sourdough starter"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Description of comestible 'juvenile sourdough starter'
+#. ~ Description of comestible/tool 'juvenile sourdough starter'
+#. ~ Description of comestible 'juvenile sourdough starter (obsolete)'
 #: data/json/items/comestibles/bread.json
+#: data/json/obsoletion_and_migration_0.J/bread.json
 msgid ""
 "A floury paste that is slowly going bad.  Someday it will be sourdough."
 msgstr ""
 
-#. ~ 'msg' action message of item 'juvenile sourdough starter'
-#: data/json/items/comestibles/bread.json
-msgid ""
-"After feeding it and caring for it for a week, your sourdough starter is "
-"finally ready for the big leagues."
-msgstr ""
-
-#. ~ 'not_ready_msg' action message of item 'juvenile sourdough starter'
-#: data/json/items/comestibles/bread.json
-msgid ""
-"You've been caring for your starter for a while, but it's going to need "
-"longer before you can do anything tasty with it."
-msgstr ""
-
-#. ~ Comestible name
+#. ~ Comestible/tool name
 #: data/json/items/comestibles/bread.json
 msgid "freshly fed sourdough starter"
 msgid_plural "freshly fed sourdough starter"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Description of comestible 'freshly fed sourdough starter'
+#. ~ Description of comestible/tool 'freshly fed sourdough starter'
+#. ~ Description of comestible 'freshly fed sourdough starter (obsolete)'
 #: data/json/items/comestibles/bread.json
+#: data/json/obsoletion_and_migration_0.J/bread.json
 msgid ""
 "A floury paste with sourdough starter mixed in.  It needs a day to recover "
 "its strength before it can be used again."
-msgstr ""
-
-#. ~ 'msg' action message of item 'freshly fed sourdough starter'
-#: data/json/items/comestibles/bread.json
-msgid "The starter is now stinky and bubbly, and looks ready for cooking."
-msgstr ""
-
-#. ~ 'not_ready_msg' action message of item 'freshly fed sourdough starter'
-#: data/json/items/comestibles/bread.json
-msgid "The starter isn't quite ready to go."
 msgstr ""
 
 #. ~ Comestible name
@@ -218663,26 +218814,18 @@ msgid ""
 "yeast culture."
 msgstr ""
 
-#. ~ Comestible name
+#. ~ Comestible/tool name
 #: data/json/items/comestibles/brewing.json
 msgid "malting grain"
 msgid_plural "malting grain"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Description of comestible 'malting grain'
+#. ~ Description of comestible/tool 'malting grain'
+#. ~ Description of comestible 'malting grain (obsolete)'
 #: data/json/items/comestibles/brewing.json
+#: data/json/obsoletion_and_migration_0.J/brewing.json
 msgid "Malting grain that can be used for brewing."
-msgstr ""
-
-#. ~ 'msg' action message of item 'malting grain'
-#: data/json/items/comestibles/brewing.json
-msgid "After soaking the grain and waiting, it has finished malting."
-msgstr ""
-
-#. ~ 'not_ready_msg' action message of item 'malting grain'
-#: data/json/items/comestibles/brewing.json
-msgid "The grain has not malted yet."
 msgstr ""
 
 #. ~ Comestible name
@@ -218699,28 +218842,18 @@ msgid ""
 "also be ground into flour."
 msgstr ""
 
-#. ~ Comestible name
+#. ~ Comestible/tool name
 #: data/json/items/comestibles/brewing.json
 msgid "soaking dandelion"
 msgid_plural "soaking dandelion"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Description of comestible 'soaking dandelion'
+#. ~ Description of comestible/tool 'soaking dandelion'
+#. ~ Description of comestible 'soaking dandelion (obsolete)'
 #: data/json/items/comestibles/brewing.json
+#: data/json/obsoletion_and_migration_0.J/brewing.json
 msgid "Soaked dandelions that can be used for brewing."
-msgstr ""
-
-#. ~ 'msg' action message of item 'soaking dandelion'
-#: data/json/items/comestibles/brewing.json
-msgid ""
-"After soaking the dandelions in boiling water, the juice can be used for "
-"making wine."
-msgstr ""
-
-#. ~ 'not_ready_msg' action message of item 'soaking dandelion'
-#: data/json/items/comestibles/brewing.json
-msgid "The dandelions need more time."
 msgstr ""
 
 #. ~ Comestible name
@@ -218735,29 +218868,20 @@ msgstr[1] ""
 msgid "Dandelions soaked in hot water, used for making dandelion wine."
 msgstr ""
 
-#. ~ Comestible name
+#. ~ Comestible/tool name
 #: data/json/items/comestibles/brewing.json
 msgid "fermenting yogurt"
 msgid_plural "fermenting yogurt"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Description of comestible 'fermenting yogurt'
+#. ~ Description of comestible/tool 'fermenting yogurt'
+#. ~ Description of comestible 'fermenting yogurt (obsolete)'
 #: data/json/items/comestibles/brewing.json
+#: data/json/obsoletion_and_migration_0.J/brewing.json
 msgid ""
 "Milk inoculated with lactobacillus.  It requires some time fermenting to "
 "hopefully end up as delicious yogurt."
-msgstr ""
-
-#. ~ 'msg' action message of item 'fermenting yogurt'
-#: data/json/items/comestibles/brewing.json
-msgid ""
-"The milk has finished fermenting and turned into a slightly clumpy yogurt."
-msgstr ""
-
-#. ~ 'not_ready_msg' action message of item 'fermenting yogurt'
-#: data/json/items/comestibles/brewing.json
-msgid "The yogurt is still fermenting."
 msgstr ""
 
 #. ~ Comestible name
@@ -219493,6 +219617,13 @@ msgstr[1] ""
 msgid ""
 "An unidentifiable selection of rotted innards that barely hold their form.  "
 "It is revolting and certainly no longer healthy to eat."
+msgstr ""
+
+#. ~ Description of comestible 'tainted innards'
+#: data/json/items/comestibles/carnivore.json
+msgid ""
+"An unidentifiable selection of rotted human innards that barely hold their "
+"form.  It is revolting and certainly no longer healthy to eat."
 msgstr ""
 
 #. ~ Comestible name
@@ -220334,6 +220465,21 @@ msgstr ""
 
 #. ~ Comestible name
 #: data/json/items/comestibles/carnivore.json
+msgid "chunk of tainted human meat"
+msgid_plural "chunks of tainted human meat"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of comestible 'chunk of tainted human meat'
+#: data/json/items/comestibles/carnivore.json
+msgid ""
+"A piece of rotted meat that has been harvested from something human, or at "
+"the very least something once human, as if cannibalism wasn't abhorrent "
+"enough."
+msgstr ""
+
+#. ~ Comestible name
+#: data/json/items/comestibles/carnivore.json
 msgid "tainted limb"
 msgid_plural "tainted limbs"
 msgstr[0] ""
@@ -220375,6 +220521,20 @@ msgstr ""
 
 #. ~ Comestible name
 #: data/json/items/comestibles/carnivore.json
+msgid "tainted human blood"
+msgid_plural "tainted human blood"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of comestible 'tainted human blood'
+#: data/json/items/comestibles/carnivore.json
+msgid ""
+"Blood that's obviously unhealthy, and from a human to boot.  You could drink"
+" it, but it will poison you."
+msgstr ""
+
+#. ~ Comestible name
+#: data/json/items/comestibles/carnivore.json
 msgid "portion of tainted bone marrow"
 msgid_plural "portions of tainted bone marrow"
 msgstr[0] ""
@@ -220389,6 +220549,20 @@ msgstr ""
 
 #. ~ Comestible name
 #: data/json/items/comestibles/carnivore.json
+msgid "portion of tainted human bone marrow"
+msgid_plural "portions of tainted human bone marrow"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of comestible 'portion of tainted human bone marrow'
+#: data/json/items/comestibles/carnivore.json
+msgid ""
+"A wet, green chunk of spongy goop extracted from a rotten human bone.  You "
+"could eat it, but it will poison you."
+msgstr ""
+
+#. ~ Comestible name
+#: data/json/items/comestibles/carnivore.json
 msgid "chunk of tainted fat"
 msgid_plural "chunks of tainted fat"
 msgstr[0] ""
@@ -220399,6 +220573,20 @@ msgstr[1] ""
 msgid ""
 "A watery yellow glob of fat from some unnatural creature or other.  You "
 "could eat it, but it will poison you."
+msgstr ""
+
+#. ~ Comestible name
+#: data/json/items/comestibles/carnivore.json
+msgid "chunk of tainted human fat"
+msgid_plural "chunks of tainted human fat"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of comestible 'chunk of tainted human fat'
+#: data/json/items/comestibles/carnivore.json
+msgid ""
+"A watery yellow glob of fat from some zombified human.  You could eat it, "
+"but it will poison you."
 msgstr ""
 
 #. ~ Comestible name
@@ -246648,6 +246836,33 @@ msgid ""
 "one is for birth control, with 28 sections for pills in it."
 msgstr ""
 
+#. ~ Variant name of item 'drug blister pack'
+#: data/json/items/containers/generic.json
+msgid "pack of chewing gum"
+msgid_plural "pack of chewing gums"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of variant 'pack of chewing gum' of item 'drug blister pack'
+#: data/json/items/containers/generic.json
+msgid ""
+"A thin piece of plastic and foil, with tiny bubbles meant for chewing gum."
+msgstr ""
+
+#. ~ Item name
+#: data/json/items/containers/generic.json
+msgid "primer tray"
+msgid_plural "primer trays"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of item 'primer tray'
+#: data/json/items/containers/generic.json
+msgid ""
+"A small, flat plastic tray meant to hold primers encased in a cardboard "
+"sleeve."
+msgstr ""
+
 #. ~ Item name
 #: data/json/items/containers/lab.json
 msgid "secured plastic box"
@@ -250190,30 +250405,6 @@ msgstr[1] ""
 #. ~ Description of item 'primerless .450 Bushmaster casing'
 #: data/json/items/generic/casing.json
 msgid "An empty casing from a .450 Bushmaster round, with its primer removed."
-msgstr ""
-
-#. ~ Item name
-#: data/json/items/generic/casing.json
-msgid "4.6x30mm casing"
-msgid_plural "4.6x30mm casings"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description of item '4.6x30mm casing'
-#: data/json/items/generic/casing.json
-msgid "An empty casing from a 4.6x30mm round."
-msgstr "Άδειος κάλυκας από 4.6x30mm σφαίρα."
-
-#. ~ Item name
-#: data/json/items/generic/casing.json
-msgid "primerless 4.6x30mm casing"
-msgid_plural "primerless 4.6x30mm casings"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description of item 'primerless 4.6x30mm casing'
-#: data/json/items/generic/casing.json
-msgid "An empty casing from a 4.6x30mm round, with its primer removed."
 msgstr ""
 
 #. ~ Item name
@@ -253828,19 +254019,19 @@ msgstr ""
 #: data/json/items/gun/300.json data/json/items/gun/3006.json
 #: data/json/items/gun/303.json data/json/items/gun/3030.json
 #: data/json/items/gun/308.json data/json/items/gun/30carbine.json
-#: data/json/items/gun/32.json data/json/items/gun/338lapua.json
-#: data/json/items/gun/357sig.json data/json/items/gun/38.json
-#: data/json/items/gun/380.json data/json/items/gun/38super.json
-#: data/json/items/gun/40.json data/json/items/gun/44.json
-#: data/json/items/gun/45.json data/json/items/gun/454.json
-#: data/json/items/gun/4570.json data/json/items/gun/45colt.json
-#: data/json/items/gun/460sw.json data/json/items/gun/50.json
-#: data/json/items/gun/500.json data/json/items/gun/545x39.json
-#: data/json/items/gun/57.json data/json/items/gun/762.json
-#: data/json/items/gun/762R.json data/json/items/gun/762x25.json
-#: data/json/items/gun/77mm_arisaka.json data/json/items/gun/84x246mm.json
-#: data/json/items/gun/9mm.json data/json/items/gun/9x18.json
-#: data/json/items/gun/atgm.json data/json/items/gun/blunderbuss.json
+#: data/json/items/gun/32.json data/json/items/gun/357sig.json
+#: data/json/items/gun/38.json data/json/items/gun/380.json
+#: data/json/items/gun/38super.json data/json/items/gun/40.json
+#: data/json/items/gun/44.json data/json/items/gun/45.json
+#: data/json/items/gun/454.json data/json/items/gun/4570.json
+#: data/json/items/gun/45colt.json data/json/items/gun/460sw.json
+#: data/json/items/gun/50.json data/json/items/gun/500.json
+#: data/json/items/gun/545x39.json data/json/items/gun/57.json
+#: data/json/items/gun/762.json data/json/items/gun/762R.json
+#: data/json/items/gun/762x25.json data/json/items/gun/77mm_arisaka.json
+#: data/json/items/gun/84x246mm.json data/json/items/gun/9mm.json
+#: data/json/items/gun/9x18.json data/json/items/gun/atgm.json
+#: data/json/items/gun/blunderbuss.json
 #: data/json/items/gun/chemical_spray.json data/json/items/gun/exodii.json
 #: data/json/items/gun/flammable.json data/json/items/gun/flintlock.json
 #: data/json/items/gun/nail.json data/json/items/gun/paintball.json
@@ -254530,8 +254721,9 @@ msgstr[1] ""
 #. ~ Description of gun '.22 pipe rifle'
 #. ~ Description of gun 'pipe rifle: .38 Special'
 #. ~ Description of gun '.44 Magnum pipe rifle'
+#. ~ Description of gun '.45 Colt/410 pipe rifle'
 #: data/json/items/gun/22.json data/json/items/gun/38.json
-#: data/json/items/gun/44.json
+#: data/json/items/gun/44.json data/json/items/gun/45colt.json
 msgid ""
 "A home-made rifle.  It is simply a pipe attached to a stock, with a hammer "
 "to strike the single round it holds."
@@ -255139,14 +255331,6 @@ msgstr ""
 #: data/json/items/gun/45.json data/json/items/gun/robofac_gun.json
 #: data/json/items/gunmod/conversions.json data/json/items/ranged/slings.json
 msgid "bore"
-msgstr ""
-
-#. ~ Location of gun mod
-#: data/json/items/gun/223.json data/json/items/gun/3006.json
-#: data/json/items/gun/338lapua.json data/json/items/gun/9mm.json
-#: data/json/items/gun/shot.json data/json/items/gunmod/loading_port.json
-#: data/mods/Generic_Guns/gunmods/gunmods.json
-msgid "loading port"
 msgstr ""
 
 #. ~ Gun name
@@ -257688,6 +257872,20 @@ msgid ""
 msgstr ""
 
 #. ~ Gun name
+#: data/json/items/gun/40x46mm.json
+msgid "crude 40mm launcher"
+msgid_plural "crude 40mm launchers"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of gun 'crude 40mm launcher'
+#: data/json/items/gun/40x46mm.json
+msgid ""
+"A 40mm launcher, made by attaching an underbarrel grenade launcher to a "
+"stock."
+msgstr ""
+
+#. ~ Gun name
 #: data/json/items/gun/40x53mm.json
 msgid "Mark 19 grenade launcher"
 msgid_plural "Mark 19 grenade launchers"
@@ -258674,6 +258872,13 @@ msgid ""
 " a full length revolver, it's still a handy handgun against the undead and "
 "soon to be."
 msgstr ""
+
+#. ~ Gun name
+#: data/json/items/gun/45colt.json
+msgid ".45 Colt/410 pipe rifle"
+msgid_plural ".45 Colt/410 pipe rifles"
+msgstr[0] ""
+msgstr[1] ""
 
 #. ~ Gun name
 #: data/json/items/gun/460sw.json
@@ -262054,6 +262259,12 @@ msgid ""
 " to increase its capacity."
 msgstr ""
 
+#. ~ Location of gun mod
+#: data/json/items/gun/shot.json data/json/items/gunmod/loading_port.json
+#: data/mods/Generic_Guns/gunmods/gunmods.json
+msgid "loading port"
+msgstr ""
+
 #. ~ Gun name
 #: data/json/items/gun/shot.json
 msgid "6-round combat shotgun"
@@ -262953,7 +263164,7 @@ msgstr[1] ""
 #. ~ Description of variant 'VR 80' of gun 'rifle shotgun'
 #: data/json/items/gun/shot.json
 msgid ""
-"The work of Rock Island Armoury, this AR-12-style shotgun affords both the "
+"The work of Rock Island Armory, this AR-12-style shotgun affords both the "
 "comfort of being similar to a rifle and the ability to use MKA 1919 shotgun "
 "magazines."
 msgstr ""
@@ -272219,6 +272430,20 @@ msgstr ""
 
 #. ~ Item name
 #: data/json/items/melee/bludgeons.json
+msgid "homewrecker"
+msgid_plural "homewreckers"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of item 'homewrecker'
+#: data/json/items/melee/bludgeons.json
+msgid ""
+"Chunks of steel welded together affixed to a wooden handle.  Not the most "
+"elegant and ugly as all hell, but still mostly works."
+msgstr ""
+
+#. ~ Item name
+#: data/json/items/melee/bludgeons.json
 #: data/mods/Xedra_Evolved/items/weapon_copy_extensions.json
 msgid "hockey stick"
 msgid_plural "hockey sticks"
@@ -272230,20 +272455,6 @@ msgstr[1] ""
 msgid ""
 "A curved wooden stick with a wide and flat end.  Commonly used by hockey "
 "players."
-msgstr ""
-
-#. ~ Item name
-#: data/json/items/melee/bludgeons.json
-msgid "homewrecker"
-msgid_plural "homewreckers"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description of item 'homewrecker'
-#: data/json/items/melee/bludgeons.json
-msgid ""
-"A long piece of wood with several chunks of steel firmly tied to it.  The "
-"resulting weapon is unwieldy and slow but very heavy hitting."
 msgstr ""
 
 #. ~ Item name
@@ -283959,7 +284170,7 @@ msgid ""
 msgstr ""
 
 #. ~ 'menu_text' action message of item 'home snow machine'
-#. ~ 'menu_text' action message of item 'high-power mini diving flashlight
+#. ~ 'menu_text' action message of item 'variable power diving flashlight
 #. (off)'
 #. ~ 'menu_text' action message of item 'variable power diving flashlight (on,
 #. high)'
@@ -288123,6 +288334,7 @@ msgstr ""
 #. ~ 'msg' action message of item 'flashlight (off)'
 #. ~ 'msg' action message of item 'mini diving flashlight (off)'
 #. ~ 'msg' action message of item 'high-power mini diving flashlight (off)'
+#. ~ 'msg' action message of item 'variable power diving flashlight (off)'
 #. ~ 'msg' action message of item 'everglow matrix flashlight (off)'
 #: data/json/items/tool/lighting.json
 #: data/mods/MindOverMatter/items/tools/lighting.json
@@ -288132,6 +288344,8 @@ msgstr "Ανάβετε τον φακό σας."
 #. ~ 'need_charges_msg' action message of item 'flashlight (off)'
 #. ~ 'need_charges_msg' action message of item 'mini diving flashlight (off)'
 #. ~ 'need_charges_msg' action message of item 'high-power mini diving
+#. flashlight (off)'
+#. ~ 'need_charges_msg' action message of item 'variable power diving
 #. flashlight (off)'
 #. ~ 'need_charges_msg' action message of item 'everglow matrix flashlight
 #. (off)'
@@ -288199,7 +288413,14 @@ msgid_plural "high-power mini diving flashlights (on)"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Description of tool 'high-power mini diving flashlight (off)'
+#. ~ Tool name
+#: data/json/items/tool/lighting.json
+msgid "variable power diving flashlight (off)"
+msgid_plural "variable power diving flashlights (off)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of tool 'variable power diving flashlight (off)'
 #: data/json/items/tool/lighting.json
 msgid ""
 "A waterproof variable power flashlight with a plastic handle, powered by "
@@ -292961,21 +293182,13 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. ~ Description of tool 'tanning leather hide'
+#. ~ Description of tool 'tanning leather hide (obsolete)'
 #: data/json/items/tool/tailoring.json
+#: data/json/obsoletion_and_migration_0.J/tailoring.json
 msgid ""
 "A treated animal hide that is undergoing the chemical processes required to "
 "become leather.  You will be able to activate it to unroll and make use of "
 "it when it is done."
-msgstr ""
-
-#. ~ 'msg' action message of item 'tanning leather hide'
-#: data/json/items/tool/tailoring.json
-msgid "You carefully unfold the tanning leather hide and shake it clean."
-msgstr ""
-
-#. ~ 'not_ready_msg' action message of item 'tanning leather hide'
-#: data/json/items/tool/tailoring.json
-msgid "The tanning leather hide isn't done yet."
 msgstr ""
 
 #. ~ Tool name
@@ -303070,7 +303283,6 @@ msgstr ""
 #. ~ Effect of hitting 'a tear in its turnout gear' weakpoint
 #. ~ Effect of hitting 'the frond' weakpoint
 #. ~ Effect of hitting 'the leg' weakpoint
-#. ~ Effect of hitting 'the body' weakpoint
 #. ~ Effect of hitting 'the branch' weakpoint
 #. ~ Effect of hitting 'the head' weakpoint
 #: data/json/monster_weakpoints/abomination_weakpoints.json
@@ -303082,7 +303294,6 @@ msgstr ""
 #: data/json/monster_weakpoints/migo_weakpoints.json
 #: data/json/monster_weakpoints/power_leech_weakpoints.json
 #: data/json/monster_weakpoints/quadruped_weakpoints_animal.json
-#: data/json/monster_weakpoints/slime_weakpoints.json
 #: data/json/monster_weakpoints/triffid_weakpoints.json
 #: data/mods/Xedra_Evolved/weakpoints/wp_alien_being.json
 #: data/mods/Xedra_Evolved/weakpoints/wp_combat_cyborg.json
@@ -303359,8 +303570,6 @@ msgstr ""
 #. ~ Effect of hitting 'the face' weakpoint
 #. ~ Effect of hitting 'the face shield' weakpoint
 #. ~ Effect of hitting 'the crown' weakpoint
-#. ~ Effect of hitting 'an organ inside the slime, causing the slime to freeze
-#. up briefly as it reconstitutes it' weakpoint
 #. ~ Effect of hitting 'the flower' weakpoint
 #. ~ Effect of hitting 'the downed %s head' weakpoint
 #: data/json/monster_weakpoints/amphibian_weakpoints.json
@@ -303372,7 +303581,6 @@ msgstr ""
 #: data/json/monster_weakpoints/migo_weakpoints.json
 #: data/json/monster_weakpoints/power_leech_weakpoints.json
 #: data/json/monster_weakpoints/quadruped_weakpoints_animal.json
-#: data/json/monster_weakpoints/slime_weakpoints.json
 #: data/json/monster_weakpoints/triffid_weakpoints.json
 #: data/mods/DinoMod/dinosaur_weakpoints.json
 #: data/mods/Megafauna/mf_weakpoint_sets.json
@@ -304004,22 +304212,6 @@ msgstr ""
 #. ~ ex. '[You hit the zombie in] a crack in the armor!'
 #: data/json/monster_weakpoints/slime_weakpoints.json
 msgid "a spot with virtually nothing to damage"
-msgstr ""
-
-#. ~ Description of weakpoint
-#. ~ ex. '[You hit the zombie in] a crack in the armor!'
-#: data/json/monster_weakpoints/slime_weakpoints.json
-msgid ""
-"an organ inside the slime, causing the slime to freeze up briefly as it "
-"reconstitutes it"
-msgstr ""
-
-#. ~ Description of weakpoint
-#. ~ ex. '[You hit the zombie in] a crack in the armor!'
-#: data/json/monster_weakpoints/slime_weakpoints.json
-msgid ""
-"the body, separating a fragment that you manage to keep from rejoining the "
-"slime until the fragment melts away"
 msgstr ""
 
 #. ~ Description of weakpoint
@@ -313433,6 +313625,42 @@ msgstr[1] ""
 msgid ""
 "A gigantic shadow, chaotically changing in shape and volume.  Two piercing "
 "orbs of light dominate what can only be described as its head."
+msgstr ""
+
+#. ~ Monster attack message
+#: data/json/monsters/nether.json
+#, c-format
+msgid "%1$s touches your %2$s with a freezing-cold appendage!"
+msgstr ""
+
+#. ~ Monster attack message
+#: data/json/monsters/nether.json
+#, c-format
+msgid "%1$s touches <npcname>'s %2$s!"
+msgstr ""
+
+#. ~ Monster attack message
+#: data/json/monsters/nether.json
+#, c-format
+msgid "%1$s reaches for you, but you dodge!"
+msgstr ""
+
+#. ~ Monster attack message
+#: data/json/monsters/nether.json
+#, c-format
+msgid "%1$s reaches for <npcname>, but they dodge!"
+msgstr ""
+
+#. ~ Monster attack message
+#: data/json/monsters/nether.json
+#, c-format
+msgid "%1$s touches your %2$s, but can't penetrate your armor."
+msgstr ""
+
+#. ~ Monster attack message
+#: data/json/monsters/nether.json
+#, c-format
+msgid "%1$s touches <npcname>'s %2$s, but can't penetrate their armor."
 msgstr ""
 
 #. ~ Monster name
@@ -438129,6 +438357,146 @@ msgstr ""
 #. ~ [DEPRECATED] Don't translate this line.
 #. ~ This string is from an obsolete source and will no longer be used in the
 #. game.
+#: data/json/obsoletion_and_migration_0.J/bread.json
+msgid "juvenile sourdough starter (obsolete)"
+msgid_plural "juvenile sourdough starter (obsolete)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ [DEPRECATED] Don't translate this line.
+#. ~ This string is from an obsolete source and will no longer be used in the
+#. game.
+#: data/json/obsoletion_and_migration_0.J/bread.json
+msgid ""
+"After feeding it and caring for it for a week, your sourdough starter is "
+"finally ready for the big leagues."
+msgstr ""
+
+#. ~ [DEPRECATED] Don't translate this line.
+#. ~ This string is from an obsolete source and will no longer be used in the
+#. game.
+#: data/json/obsoletion_and_migration_0.J/bread.json
+msgid ""
+"You've been caring for your starter for a while, but it's going to need "
+"longer before you can do anything tasty with it."
+msgstr ""
+
+#. ~ [DEPRECATED] Don't translate this line.
+#. ~ This string is from an obsolete source and will no longer be used in the
+#. game.
+#: data/json/obsoletion_and_migration_0.J/bread.json
+msgid "freshly fed sourdough starter (obsolete)"
+msgid_plural "freshly fed sourdough starter (obsolete)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ [DEPRECATED] Don't translate this line.
+#. ~ This string is from an obsolete source and will no longer be used in the
+#. game.
+#: data/json/obsoletion_and_migration_0.J/bread.json
+msgid "The starter is now stinky and bubbly, and looks ready for cooking."
+msgstr ""
+
+#. ~ [DEPRECATED] Don't translate this line.
+#. ~ This string is from an obsolete source and will no longer be used in the
+#. game.
+#: data/json/obsoletion_and_migration_0.J/bread.json
+msgid "The starter isn't quite ready to go."
+msgstr ""
+
+#. ~ [DEPRECATED] Don't translate this line.
+#. ~ This string is from an obsolete source and will no longer be used in the
+#. game.
+#: data/json/obsoletion_and_migration_0.J/brewing.json
+msgid "malting grain (obsolete)"
+msgid_plural "malting grain (obsolete)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ [DEPRECATED] Don't translate this line.
+#. ~ This string is from an obsolete source and will no longer be used in the
+#. game.
+#: data/json/obsoletion_and_migration_0.J/brewing.json
+msgid "After soaking the grain and waiting, it has finished malting."
+msgstr ""
+
+#. ~ [DEPRECATED] Don't translate this line.
+#. ~ This string is from an obsolete source and will no longer be used in the
+#. game.
+#: data/json/obsoletion_and_migration_0.J/brewing.json
+msgid "The grain has not malted yet."
+msgstr ""
+
+#. ~ [DEPRECATED] Don't translate this line.
+#. ~ This string is from an obsolete source and will no longer be used in the
+#. game.
+#: data/json/obsoletion_and_migration_0.J/brewing.json
+msgid "soaking dandelion (obsolete)"
+msgid_plural "soaking dandelion (obsolete)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ [DEPRECATED] Don't translate this line.
+#. ~ This string is from an obsolete source and will no longer be used in the
+#. game.
+#: data/json/obsoletion_and_migration_0.J/brewing.json
+msgid ""
+"After soaking the dandelions in boiling water, the juice can be used for "
+"making wine."
+msgstr ""
+
+#. ~ [DEPRECATED] Don't translate this line.
+#. ~ This string is from an obsolete source and will no longer be used in the
+#. game.
+#: data/json/obsoletion_and_migration_0.J/brewing.json
+msgid "The dandelions need more time."
+msgstr ""
+
+#. ~ [DEPRECATED] Don't translate this line.
+#. ~ This string is from an obsolete source and will no longer be used in the
+#. game.
+#: data/json/obsoletion_and_migration_0.J/brewing.json
+msgid "fermenting yogurt (obsolete)"
+msgid_plural "fermenting yogurt (obsolete)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ [DEPRECATED] Don't translate this line.
+#. ~ This string is from an obsolete source and will no longer be used in the
+#. game.
+#: data/json/obsoletion_and_migration_0.J/brewing.json
+msgid ""
+"The milk has finished fermenting and turned into a slightly clumpy yogurt."
+msgstr ""
+
+#. ~ [DEPRECATED] Don't translate this line.
+#. ~ This string is from an obsolete source and will no longer be used in the
+#. game.
+#: data/json/obsoletion_and_migration_0.J/brewing.json
+msgid "The yogurt is still fermenting."
+msgstr ""
+
+#. ~ [DEPRECATED] Don't translate this line.
+#. ~ This string is from an obsolete source and will no longer be used in the
+#. game.
+#: data/json/obsoletion_and_migration_0.J/chemicals_and_resources.json
+msgid "fermentable fish mixture (obsolete)"
+msgid_plural "fermentable fish mixture (obsolete)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ [DEPRECATED] Don't translate this line.
+#. ~ This string is from an obsolete source and will no longer be used in the
+#. game.
+#: data/json/obsoletion_and_migration_0.J/chemicals_and_resources.json
+msgid ""
+"The overpowering smell of the fermenting fish liquid makes it clear that it "
+"is not ready for use."
+msgstr ""
+
+#. ~ [DEPRECATED] Don't translate this line.
+#. ~ This string is from an obsolete source and will no longer be used in the
+#. game.
 #: data/json/obsoletion_and_migration_0.J/stowed_parts.json
 msgid "tied-down household fridge"
 msgstr ""
@@ -438611,6 +438979,29 @@ msgstr ""
 msgid ""
 "An alien construct, secured to the roof for transportation.  Hopefully it "
 "won't reanimate on next road bump."
+msgstr ""
+
+#. ~ [DEPRECATED] Don't translate this line.
+#. ~ This string is from an obsolete source and will no longer be used in the
+#. game.
+#: data/json/obsoletion_and_migration_0.J/tailoring.json
+msgid "tanning leather hide (obsolete)"
+msgid_plural "tanning leather hides (obsolete)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ [DEPRECATED] Don't translate this line.
+#. ~ This string is from an obsolete source and will no longer be used in the
+#. game.
+#: data/json/obsoletion_and_migration_0.J/tailoring.json
+msgid "You carefully unfold the tanning leather hide and shake it clean."
+msgstr ""
+
+#. ~ [DEPRECATED] Don't translate this line.
+#. ~ This string is from an obsolete source and will no longer be used in the
+#. game.
+#: data/json/obsoletion_and_migration_0.J/tailoring.json
+msgid "The tanning leather hide isn't done yet."
 msgstr ""
 
 #. ~ Vehicle part name
@@ -447055,31 +447446,6 @@ msgstr ""
 
 #. ~ Proficiency name
 #: data/json/proficiencies/weakpoints.json
-msgid "Slime basic weaknesses"
-msgstr ""
-
-#. ~ Description of proficiency 'Slime basic weaknesses'
-#: data/json/proficiencies/weakpoints.json
-msgid ""
-"After having engaged slimes to a significant extent you have started to get "
-"better at exploiting weaknesses in their behavior and, for lack of better "
-"terms, \"physiology\"."
-msgstr ""
-
-#. ~ Proficiency name
-#: data/json/proficiencies/weakpoints.json
-msgid "Slime detailed weaknesses"
-msgstr ""
-
-#. ~ Description of proficiency 'Slime detailed weaknesses'
-#: data/json/proficiencies/weakpoints.json
-msgid ""
-"You've probably reached the pinnacle of slime weakness exploitation, but it "
-"has taken an enormous amount of combat to acquire it."
-msgstr ""
-
-#. ~ Proficiency name
-#: data/json/proficiencies/weakpoints.json
 msgid "Triffid basic anatomy"
 msgstr ""
 
@@ -447450,7 +447816,12 @@ msgstr ""
 msgid "Recipes related to tailoring long coats, known as dusters."
 msgstr ""
 
-#. ~ Description of the category 'canvas dusters'
+#. ~ Name of the nested group
+#: data/json/recipes/nested.json
+msgid "canvas trenchcoats"
+msgstr ""
+
+#. ~ Description of the category 'canvas trenchcoats'
 #. ~ Description of the category 'faux fur trenchcoats'
 #: data/json/recipes/nested.json
 msgid ""
@@ -452884,7 +453255,7 @@ msgstr ""
 msgid "%s by scraping pelt"
 msgstr ""
 
-#. ~ Custom name for recipe crafting 'tanning_hide'
+#. ~ Custom name for recipe crafting 'tanning_hide_active'
 #. ~ Custom name for recipe crafting 'tanning_pelt'
 #: data/json/recipes/recipe_others.json
 #, c-format
@@ -460395,6 +460766,12 @@ msgid ""
 "Recipes related to the production of microscope slides of various samples."
 msgstr ""
 
+#. ~ Custom name for recipe crafting 'scrap_brass'
+#: data/json/recipes/other/materials.json
+#, c-format
+msgid "%s from casings"
+msgstr ""
+
 #. ~ Practice name
 #: data/json/recipes/practice/applied_science.json
 msgid "biochemistry"
@@ -461813,6 +462190,12 @@ msgid ""
 "Practice the making of articulated joints in clothing by sewing some gloves "
 "and other basic cloth joints with several layers of cotton patches for "
 "rigidity."
+msgstr ""
+
+#. ~ Custom name for recipe crafting 'ashot'
+#: data/json/recipes/weapon/ranged.json
+#, c-format
+msgid "%s from shotgun"
 msgstr ""
 
 #. ~ Snippet in category 'LIXA_lab_files'
@@ -506298,6 +506681,16 @@ msgstr ""
 
 #. ~ Response to NPC dialogue
 #: data/mods/BombasticPerks/perkmenu.json
+msgid "Gain [<trait_name:perk_thick_skin>]"
+msgstr ""
+
+#. ~ Text variable value in an effect
+#: data/mods/BombasticPerks/perkmenu.json
+msgid "Must have <trait_name:perk_built_tough>."
+msgstr ""
+
+#. ~ Response to NPC dialogue
+#: data/mods/BombasticPerks/perkmenu.json
 msgid "Gain [<trait_name:perk_hauler>]"
 msgstr ""
 
@@ -506493,6 +506886,18 @@ msgstr ""
 
 #. ~ Response to NPC dialogue
 #: data/mods/BombasticPerks/perkmenu.json
+msgid "Gain [<trait_name:perk_reduced_falling_damage>]"
+msgstr ""
+
+#. ~ Text variable value in an effect
+#: data/mods/BombasticPerks/perkmenu.json
+msgid ""
+"Must have <trait_name:perk_tuck_and_roll>, the Parkour Expert proficiency, "
+"or dexterity 13."
+msgstr ""
+
+#. ~ Response to NPC dialogue
+#: data/mods/BombasticPerks/perkmenu.json
 msgid "Gain [<trait_name:perk_grit_your_teeth>]"
 msgstr ""
 
@@ -506664,6 +507069,16 @@ msgstr ""
 #. ~ Response to NPC dialogue
 #: data/mods/BombasticPerks/perkmenu.json
 msgid "Gain [<trait_name:perk_all_terrain>]"
+msgstr ""
+
+#. ~ Response to NPC dialogue
+#: data/mods/BombasticPerks/perkmenu.json
+msgid "Gain [<trait_name:perk_situational_uncanny_dodge>]"
+msgstr ""
+
+#. ~ Text variable value in an effect
+#: data/mods/BombasticPerks/perkmenu.json
+msgid "Requires Dodging 8 and the Lucky Dodge perk."
 msgstr ""
 
 #. ~ Response to NPC dialogue
@@ -506840,6 +507255,11 @@ msgstr ""
 #. ~ Response to NPC dialogue
 #: data/mods/BombasticPerks/perkmenu.json
 msgid "Gain [<trait_name:perk_rage_against_unnatural>]"
+msgstr ""
+
+#. ~ Response to NPC dialogue
+#: data/mods/BombasticPerks/perkmenu.json
+msgid "Gain [<trait_name:perk_soup_healing>]"
 msgstr ""
 
 #. ~ Response to NPC dialogue
@@ -507249,6 +507669,19 @@ msgstr ""
 
 #. ~ Mutation name
 #: data/mods/BombasticPerks/perks.json
+msgid "Thick Skin"
+msgstr ""
+
+#. ~ Description of mutation 'Thick Skin'
+#: data/mods/BombasticPerks/perks.json
+msgid ""
+"All the beatings you've taken have toughened you up.  You can walk barefoot "
+"with no penalty, develop blisters in heat much more slowly, and take "
+"slightly less bash damage."
+msgstr ""
+
+#. ~ Mutation name
+#: data/mods/BombasticPerks/perks.json
 #: data/mods/aftershock_exoplanet/mutations/mutations.json
 msgid "Hauler"
 msgstr ""
@@ -507453,6 +507886,18 @@ msgstr ""
 
 #. ~ Mutation name
 #: data/mods/BombasticPerks/perks.json
+msgid "Catfall"
+msgstr ""
+
+#. ~ Description of mutation 'Catfall'
+#: data/mods/BombasticPerks/perks.json
+msgid ""
+"You always land on your feet and look graceful when doing it.  Reduce the "
+"number of stories by 1 when calculating fall damage."
+msgstr ""
+
+#. ~ Mutation name
+#: data/mods/BombasticPerks/perks.json
 msgid "Grit Your Teeth"
 msgstr ""
 
@@ -507526,6 +507971,19 @@ msgid ""
 "You have a persistent sense of how to move around in sharp and rough "
 "terrain.  You'll never accidently snag or cut yourself on protrusions from "
 "the ground."
+msgstr ""
+
+#. ~ Mutation name
+#: data/mods/BombasticPerks/perks.json
+msgid "Evasion"
+msgstr ""
+
+#. ~ Description of mutation 'Evasion'
+#: data/mods/BombasticPerks/perks.json
+msgid ""
+"You're so good at dodging that almost nothing can touch you as long as "
+"you're on your game.  You have passive Uncanny Dodge until you take damage, "
+"after which it takes a few minutes for you to recover your poise."
 msgstr ""
 
 #. ~ Mutation name
@@ -507675,9 +508133,9 @@ msgstr ""
 #: data/mods/BombasticPerks/perks.json
 msgid ""
 "As if the apocalypse itself wasn't enough, you are constantly looking for "
-"some trouble.  Zombies will sometimes appear out of nowhere to attack you.  "
-"Fortunately, they always appear at a good distance from you.  Activate to "
-"toggle."
+"some trouble.  Zombies somehow sometimes sense your presence and approach "
+"you.  Fortunately, they always appear at a good distance from you.  Activate"
+" to toggle."
 msgstr ""
 
 #. ~ Mutation name
@@ -507745,10 +508203,10 @@ msgstr ""
 
 #. ~ Mutation name
 #: data/mods/BombasticPerks/perks.json
-msgid "Lucky dodge"
+msgid "Lucky Dodge"
 msgstr ""
 
-#. ~ Description of mutation 'Lucky dodge'
+#. ~ Description of mutation 'Lucky Dodge'
 #: data/mods/BombasticPerks/perks.json
 msgid ""
 "You have a habit of always ducking at the right time.  You have a 5% chance "
@@ -508070,6 +508528,19 @@ msgid ""
 "damage when in melee combat with Nether beings and take 15% less damage from"
 " all sources, but if you attack any other target when there is a Nether-"
 "beast to slay, you suffer a large penalty to your accuracy."
+msgstr ""
+
+#. ~ Mutation name
+#: data/mods/BombasticPerks/perks.json
+msgid "Soup for the Soul"
+msgstr ""
+
+#. ~ Description of mutation 'Soup for the Soul'
+#: data/mods/BombasticPerks/perks.json
+msgid ""
+"Just like mama used to make and it tastes just as good too.  When you eat "
+"chicken noodle soup, you heal a small amount of HP on all limbs and cure any"
+" cold, flu, and poisoning you're suffering from."
 msgstr ""
 
 #. ~ Mutation name
@@ -509303,14 +509774,9 @@ msgid ""
 "You've taken so many hits to the head that your skull's gotten thicker."
 msgstr ""
 
-#. ~ Player sees monster spawns in EoC 'EOC_troubleseeking'
+#. ~ Player message in EoC 'EOC_troubleseeking'
 #: data/mods/BombasticPerks/perkdata/troubleseeker.json
 msgid "You suddenly feel that you have found some trouble."
-msgstr ""
-
-#. ~ Player sees monsters spawn in EoC 'EOC_troubleseeking'
-#: data/mods/BombasticPerks/perkdata/troubleseeker.json
-msgid "You suddenly feel that you have found a lot of trouble."
 msgstr ""
 
 #. ~ Player message in EoC 'EOC_troubleseek_on'
@@ -619228,6 +619694,26 @@ msgstr[1] ""
 msgid "Some raw kiwi seeds."
 msgstr ""
 
+#. ~ Name of a spell
+#: data/mods/TropiCataclysm/monster_special_attacks/monster_deaths.json
+msgid "Death Sap"
+msgstr ""
+
+#. ~ Description of spell 'Death Sap'
+#: data/mods/TropiCataclysm/monster_special_attacks/monster_deaths.json
+msgid "Sap Explosion"
+msgstr ""
+
+#. ~ Name of a spell
+#: data/mods/TropiCataclysm/monster_special_attacks/monster_deaths.json
+msgid "Triffid Pollen Explosion"
+msgstr ""
+
+#. ~ Description of spell 'Triffid Pollen Explosion'
+#: data/mods/TropiCataclysm/monster_special_attacks/monster_deaths.json
+msgid "Causes a small explosion of alien pollen."
+msgstr ""
+
 #. ~ Monster name
 #: data/mods/TropiCataclysm/monsters/tropical_bird.json
 msgid "greater rhea"
@@ -671301,7 +671787,7 @@ msgstr ""
 
 #. ~ Requirement of achievement 'Discontinous'
 #: data/mods/aftershock_exoplanet/achievements/achievements.json
-msgid "Recieve 2500 damage in a single attack and survive (optional)."
+msgid "Receive 2500 damage in a single attack and survive (optional)."
 msgstr ""
 
 #. ~ Description of achievement 'Chimera'

@@ -122,18 +122,20 @@
 # BTSU_Edelweiss, 2025
 # canglan753, 2025
 # 陈睿, 2025
-# Brett Dong <brett.browning.dong@gmail.com>, 2025
 # cainiao <cainiaowu@hotmail.com>, 2025
 # 孟远卓, 2025
-# Schrodinger_Sig, 2025
 # Yuan Yu <peterpen4370@gmail.com>, 2025
 # Jianxiang Wang <qrox@sina.com>, 2025
+# thing some, 2025
+# Brett Dong <brett.browning.dong@gmail.com>, 2025
+# laowang.x2, 2025
+# Schrodinger_Sig, 2025
 # Lingkun Kong, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: cataclysm-dda 0.J\n"
-"POT-Creation-Date: 2025-10-31 18:30+0000\n"
+"POT-Creation-Date: 2025-11-07 14:48+0000\n"
 "PO-Revision-Date: 2018-04-26 14:47+0000\n"
 "Last-Translator: Lingkun Kong, 2025\n"
 "Language-Team: Chinese (Taiwan) (https://app.transifex.com/cataclysm-dda-translators/teams/2217/zh_TW/)\n"
@@ -2728,7 +2730,7 @@ msgstr "[<] 頁面 %1$d／%2$d [>]"
 msgid "< [%s] Sort: %s >"
 msgstr "＜［%s］排序： %s ＞"
 
-#: src/advanced_inv.cpp:883 src/inventory_ui.cpp:2863
+#: src/advanced_inv.cpp:883 src/inventory_ui.cpp:2867
 #: src/worldfactory.cpp:1244
 #, c-format
 msgid "[%s] Filter"
@@ -3462,7 +3464,7 @@ msgid "Pick a color:"
 msgstr "選擇顏色："
 
 #. ~ %1$s: note color abbreviation, %2$s: note color name
-#: src/auto_note.cpp:515 src/help.cpp:156 src/overmap_ui.cpp:1277
+#: src/auto_note.cpp:515 src/help.cpp:156 src/overmap_ui.cpp:1332
 #, c-format
 msgctxt "note color"
 msgid "%1$s:%2$s, "
@@ -5251,7 +5253,7 @@ msgstr "生化能量：<color_light_blue>%s</color>／<color_light_blue>%i千焦
 
 #. ~ Help menu
 #. ~ Item category name used for headers
-#: src/bionics_ui.cpp:285 src/init.cpp:809 src/init.cpp:998
+#: src/bionics_ui.cpp:285 src/init.cpp:807 src/init.cpp:995
 #: data/core/help.json data/json/item_category.json
 msgid "Bionics"
 msgstr "生化插件"
@@ -6526,7 +6528,7 @@ msgstr "選擇時間點"
 #. ~ EOC option name
 #: src/cata_imgui.cpp:1026 src/character_body.cpp:1337
 #: src/crafting_gui.cpp:1678 src/handle_action.cpp:882
-#: src/inventory_ui.cpp:2920 src/monexamine.cpp:426 src/monexamine.cpp:622
+#: src/inventory_ui.cpp:2924 src/monexamine.cpp:426 src/monexamine.cpp:622
 #: src/npctalk_funcs.cpp:387 src/player_display.cpp:1171
 #: src/vehicle_use.cpp:1492 data/json/effects_on_condition/item_eocs.json
 #: data/mods/Sky_Island/obelisk_selector.json
@@ -6537,7 +6539,7 @@ msgstr "取消"
 
 #. ~ Response to NPC dialogue
 #. ~ Clause text of UI widget 'health_desc_template'
-#: src/cata_imgui.cpp:1028 src/overmap_ui.cpp:1929
+#: src/cata_imgui.cpp:1028 src/overmap_ui.cpp:1984
 #: data/json/npcs/computers/TALK_PREPPER_1_COMPUTER.json
 #: data/json/ui/health.json
 msgid "OK"
@@ -7246,7 +7248,7 @@ msgstr "右邊赤足"
 msgid "Roots"
 msgstr "根部系統"
 
-#: src/character.cpp:6025 src/character.cpp:6028 src/init.cpp:825
+#: src/character.cpp:6025 src/character.cpp:6028 src/init.cpp:823
 msgid "Enchantments"
 msgstr "效果"
 
@@ -8594,7 +8596,7 @@ msgstr "你受傷了!"
 #. ~ That spore sound again
 #. ~ Message of spell 'Death Pouf Sound'
 #: src/character_health.cpp:2839 src/character_health.cpp:2851
-#: src/monattack.cpp:1573 src/monattack.cpp:1638
+#: src/monattack.cpp:1571 src/monattack.cpp:1636
 #: data/json/monster_special_attacks/monster_deaths.json
 msgid "Pouf!"
 msgstr "噗!"
@@ -9444,8 +9446,7 @@ msgid "Changes to:"
 msgstr "變為："
 
 #: src/computer_session.cpp:878 src/computer_session.cpp:886
-#: src/iuse_actor.cpp:543 src/overmap_ui.cpp:1147 src/overmap_ui.cpp:1157
-#: src/wish.cpp:1429
+#: src/iuse_actor.cpp:543 src/wish.cpp:1429
 #, c-format
 msgid "%s"
 msgstr "%s"
@@ -11636,7 +11637,7 @@ msgstr ""
 
 #: src/crafting_gui.cpp:1282 src/newcharacter.cpp:2217
 #: src/newcharacter.cpp:2752 src/newcharacter.cpp:3138
-#: src/newcharacter.cpp:3820 src/overmap_ui.cpp:1498 src/overmap_ui.cpp:1511
+#: src/newcharacter.cpp:3820 src/overmap_ui.cpp:1553 src/overmap_ui.cpp:1566
 #: src/proficiency_ui.cpp:391
 msgid "Search:"
 msgstr "搜尋: "
@@ -13007,7 +13008,7 @@ msgstr "你传送到位置 %s。"
 msgid "Choose a teleport destination."
 msgstr "选择传送目的地。"
 
-#: src/debug_menu.cpp:1864 src/overmap_ui.cpp:2292
+#: src/debug_menu.cpp:1864 src/overmap_ui.cpp:2351
 #, c-format
 msgid "You teleport to submap %s."
 msgstr "你传送到子地图 %s。"
@@ -16503,7 +16504,7 @@ msgstr "按 Enter 鍵重新命名此營寨"
 msgid "Direction: to the "
 msgstr "方向：在 "
 
-#: src/faction.cpp:624 src/faction.cpp:728 src/inventory_ui.cpp:3572
+#: src/faction.cpp:624 src/faction.cpp:728 src/inventory_ui.cpp:3576
 #: src/item_info.cpp:1513
 #, c-format
 msgid "Location: %s"
@@ -19063,7 +19064,7 @@ msgid "< <color_green>Look around</color> >"
 msgstr "< <color_green>觀察四周</color> >"
 
 #: src/game.cpp:5984 src/game.cpp:5990 src/game.cpp:5995 src/game.cpp:6002
-#: src/overmap_ui.cpp:1171
+#: src/overmap_ui.cpp:190
 #, c-format
 msgid "%s - %s"
 msgstr "[%s] %s"
@@ -19081,7 +19082,7 @@ msgstr "成功儲存螢幕擷取畫面到： %s"
 msgid "An error occurred while trying to save the screenshot."
 msgstr "儲存螢幕擷取畫面時發生錯誤。"
 
-#: src/game.cpp:6518 src/init.cpp:834 src/init.cpp:958 src/options.cpp:1727
+#: src/game.cpp:6518 src/init.cpp:832 src/init.cpp:955 src/options.cpp:1727
 msgid "Items"
 msgstr "物品"
 
@@ -19129,22 +19130,22 @@ msgstr "<T> 旅行至"
 msgid "You don't see any items or monsters around you!"
 msgstr "在你附近沒有發現任何的物品或怪物!"
 
-#: src/game.cpp:6650 src/overmap_ui.cpp:1419
+#: src/game.cpp:6650 src/overmap_ui.cpp:1474
 msgctxt "string input"
 msgid "History"
 msgstr "历史记录"
 
-#: src/game.cpp:6651 src/overmap_ui.cpp:1420
+#: src/game.cpp:6651 src/overmap_ui.cpp:1475
 msgctxt "string input"
 msgid "Clear text"
 msgstr "清除輸入"
 
-#: src/game.cpp:6652 src/overmap_ui.cpp:1421
+#: src/game.cpp:6652 src/overmap_ui.cpp:1476
 msgctxt "string input"
 msgid "Abort"
 msgstr "中止"
 
-#: src/game.cpp:6653 src/overmap_ui.cpp:1422
+#: src/game.cpp:6653 src/overmap_ui.cpp:1477
 msgctxt "string input"
 msgid "Save"
 msgstr "保存"
@@ -19160,25 +19161,25 @@ msgstr "在你附近沒有發現任何物品!"
 
 #. ~ Key binding name
 #: src/game.cpp:6923 src/input_context.cpp:523 src/input_context.cpp:525
-#: src/inventory_ui.cpp:2913 src/mission_companion.cpp:931
+#: src/inventory_ui.cpp:2917 src/mission_companion.cpp:931
 #: data/raw/keybindings.json
 msgid "Move cursor up"
 msgstr "向上移動游標"
 
 #. ~ Key binding name
 #: src/game.cpp:6924 src/input_context.cpp:524 src/input_context.cpp:526
-#: src/inventory_ui.cpp:2914 src/mission_companion.cpp:932
+#: src/inventory_ui.cpp:2918 src/mission_companion.cpp:932
 #: data/raw/keybindings.json
 msgid "Move cursor down"
 msgstr "向下移動游標"
 
 #. ~ Key binding name
-#: src/game.cpp:6925 src/inventory_ui.cpp:2912 data/raw/keybindings.json
+#: src/game.cpp:6925 src/inventory_ui.cpp:2916 data/raw/keybindings.json
 msgid "Previous item"
 msgstr "上個物品"
 
 #. ~ Key binding name
-#: src/game.cpp:6926 src/inventory_ui.cpp:2911 data/raw/keybindings.json
+#: src/game.cpp:6926 src/inventory_ui.cpp:2915 data/raw/keybindings.json
 msgid "Next item"
 msgstr "下個物品"
 
@@ -19389,7 +19390,7 @@ msgid "a survivor"
 msgstr "一位倖存者"
 
 #. ~ %d: Distance to all monsters ("7")
-#: src/game.cpp:8253 src/game.cpp:8290 src/overmap_ui.cpp:1145
+#: src/game.cpp:8253 src/game.cpp:8290
 #, c-format
 msgid "%d tiles"
 msgstr "%d 格"
@@ -20234,7 +20235,7 @@ msgid "Inventory of %s"
 msgstr "%s的物品欄"
 
 #: src/game_inventory.cpp:354 src/game_inventory.cpp:2716
-#: src/inventory_ui.cpp:2829
+#: src/inventory_ui.cpp:2833
 msgid "Your inventory is empty."
 msgstr "你的物品欄是空的。"
 
@@ -21414,7 +21415,7 @@ msgstr "日記"
 msgid "Memorial"
 msgstr "墓誌銘"
 
-#: src/game_io.cpp:392 src/init.cpp:924
+#: src/game_io.cpp:392 src/init.cpp:921
 msgid "Finalizing"
 msgstr "最終處理"
 
@@ -25522,530 +25523,526 @@ msgstr "这个迫击炮已经无法让你使用了。"
 msgid "ImGui Demo Screen"
 msgstr "ImGui 示例窗口"
 
-#: src/init.cpp:801 src/init.cpp:938
+#: src/init.cpp:799 src/init.cpp:935
 msgid "Flags"
 msgstr "標記"
 
-#: src/init.cpp:802 src/init.cpp:939
+#: src/init.cpp:800 src/init.cpp:936
 msgid "Option sliders"
 msgstr "滑動選項"
 
-#: src/init.cpp:803
+#: src/init.cpp:801
 msgid "Addictions"
 msgstr "瘾症"
 
-#: src/init.cpp:804
+#: src/init.cpp:802
 msgid "ASCII Art"
 msgstr "ASCII艺术"
 
-#: src/init.cpp:805 src/init.cpp:957
+#: src/init.cpp:803 src/init.cpp:954
 msgid "Bash damage profiles"
 msgstr "钝击伤害概述"
 
-#: src/init.cpp:806 src/init.cpp:1011
+#: src/init.cpp:804 src/init.cpp:1008
 msgid "Body parts"
 msgstr "身體部位"
 
-#: src/init.cpp:807
+#: src/init.cpp:805
 msgid "Sub body parts"
 msgstr "次級身體部位"
 
-#: src/init.cpp:808 src/init.cpp:1012
+#: src/init.cpp:806 src/init.cpp:1009
 msgid "Body graphs"
 msgstr "身體狀態"
 
-#: src/init.cpp:810
+#: src/init.cpp:808
 msgid "Butchery Requirements"
 msgstr "屠宰需求"
 
-#: src/init.cpp:811
+#: src/init.cpp:809
 msgid "Character Modifiers"
 msgstr "角色修正"
 
-#: src/init.cpp:812
+#: src/init.cpp:810
 msgid "Clothing Mods"
 msgstr "衣物改装"
 
-#: src/init.cpp:813
+#: src/init.cpp:811
 msgid "Construction Categories"
 msgstr "建筑分类"
 
-#: src/init.cpp:814
+#: src/init.cpp:812
 msgid "Construction Groups"
 msgstr "建筑组"
 
-#: src/init.cpp:815
+#: src/init.cpp:813
 msgid "Crafting Categories"
 msgstr "制作分类"
 
-#: src/init.cpp:816
+#: src/init.cpp:814
 msgid "Damage Types"
 msgstr "伤害类型"
 
-#: src/init.cpp:817
+#: src/init.cpp:815
 msgid "Damage info orders"
 msgstr "伤害信息设置"
 
-#: src/init.cpp:818
+#: src/init.cpp:816
 msgid "Diseases"
 msgstr "疾病"
 
-#: src/init.cpp:819 src/init.cpp:947
+#: src/init.cpp:817 src/init.cpp:944
 msgid "Weather types"
 msgstr "天氣類型"
 
-#: src/init.cpp:820
+#: src/init.cpp:818
 msgid "Weather generators"
 msgstr "天氣發電機"
 
-#: src/init.cpp:821 src/init.cpp:949
+#: src/init.cpp:819 src/init.cpp:946
 msgid "Effect on conditions"
 msgstr "條件效果"
 
-#: src/init.cpp:822 src/init.cpp:950
+#: src/init.cpp:820 src/init.cpp:947
 msgid "Field types"
 msgstr "地形類別"
 
-#: src/init.cpp:823 src/init.cpp:952
+#: src/init.cpp:821 src/init.cpp:949
 msgid "Ammo effects"
 msgstr "彈藥效果"
 
-#: src/init.cpp:824 src/init.cpp:953
+#: src/init.cpp:822 src/init.cpp:950
 msgid "Emissions"
 msgstr "排放"
 
-#: src/init.cpp:826
+#: src/init.cpp:824
 msgid "Event Statistics"
 msgstr "事件统计"
 
-#: src/init.cpp:827
+#: src/init.cpp:825
 msgid "Event Transformations"
 msgstr "事件转变"
 
-#: src/init.cpp:828 src/init.cpp:960
+#: src/init.cpp:826 src/init.cpp:957
 msgid "Faults"
 msgstr "故障"
 
 #. ~ Construction category name
-#: src/init.cpp:829 src/init.cpp:846 data/json/construction_category.json
+#: src/init.cpp:827 src/init.cpp:844 data/json/construction_category.json
 msgid "Furniture"
 msgstr "家具"
 
-#: src/init.cpp:830 src/init.cpp:999
+#: src/init.cpp:828 src/init.cpp:996
 msgid "Gates"
 msgstr "門"
 
-#: src/init.cpp:831
+#: src/init.cpp:829
 msgid "Harvest Drop Types"
 msgstr "采集掉落类型"
 
-#: src/init.cpp:832
+#: src/init.cpp:830
 msgid "Item Categories"
 msgstr "物品分类"
 
-#: src/init.cpp:833 src/init.cpp:959
+#: src/init.cpp:831 src/init.cpp:956
 msgid "Materials"
 msgstr "材質"
 
-#: src/init.cpp:835
+#: src/init.cpp:833
 msgid "Limb Scores"
 msgstr "肢体评分"
 
-#: src/init.cpp:837 src/init.cpp:941
+#: src/init.cpp:835 src/init.cpp:938
 msgid "Crafting requirements"
 msgstr "製作需求"
 
-#: src/init.cpp:842
+#: src/init.cpp:840
 msgid "Vehicle part categories"
 msgstr "車輛零件類別"
 
 #. ~ Item category name used for headers
-#: src/init.cpp:843 src/init.cpp:961 data/json/item_category.json
+#: src/init.cpp:841 src/init.cpp:958 data/json/item_category.json
 msgid "Vehicle parts"
 msgstr "載具零件"
 
 #. ~ Help menu
 #. ~ Item category name used for headers
-#: src/init.cpp:844 src/init.cpp:996 data/core/help.json
+#: src/init.cpp:842 src/init.cpp:993 data/core/help.json
 #: data/json/item_category.json
 msgid "Traps"
 msgstr "陷阱"
 
-#: src/init.cpp:845 src/init.cpp:904
+#: src/init.cpp:843 src/init.cpp:901
 msgid "Terrain"
 msgstr "地形"
 
-#: src/init.cpp:847 src/init.cpp:984
+#: src/init.cpp:845 src/init.cpp:981
 msgid "Overmap land use codes"
 msgstr "大地圖地形代碼"
 
-#: src/init.cpp:848 src/init.cpp:986
+#: src/init.cpp:846 src/init.cpp:983
 msgid "Overmap terrain"
 msgstr "大地圖地形"
 
-#: src/init.cpp:849 src/init.cpp:985
+#: src/init.cpp:847 src/init.cpp:982
 msgid "Overmap connections"
 msgstr "大地圖連結"
 
-#: src/init.cpp:850 src/init.cpp:990
+#: src/init.cpp:848 src/init.cpp:987
 msgid "Overmap specials"
 msgstr "大地圖特殊"
 
-#: src/init.cpp:851 src/init.cpp:988
+#: src/init.cpp:849 src/init.cpp:985
 msgid "Overmap locations"
 msgstr "大地圖地點"
 
 #. ~ Name of an option slider
-#: src/init.cpp:852 src/init.cpp:989 data/core/world_option_sliders.json
+#: src/init.cpp:850 src/init.cpp:986 data/core/world_option_sliders.json
 msgid "Cities"
 msgstr "城市"
 
-#: src/init.cpp:853
+#: src/init.cpp:851
 msgid "Math functions"
 msgstr "数学函数"
 
-#: src/init.cpp:854 src/init.cpp:994
+#: src/init.cpp:852 src/init.cpp:991
 msgid "Start locations"
 msgstr "起始地點"
 
-#: src/init.cpp:855 src/init.cpp:962
+#: src/init.cpp:853 src/init.cpp:959
 msgid "Vehicle part locations"
 msgstr "载具部件位置"
 
-#: src/init.cpp:856 src/init.cpp:963
+#: src/init.cpp:854 src/init.cpp:960
 msgid "Vehicle part migrations"
 msgstr "車輛零件轉移"
 
-#: src/init.cpp:857
+#: src/init.cpp:855
 msgid "Vehicle prototypes"
 msgstr "車輛樣板"
 
-#: src/init.cpp:858
+#: src/init.cpp:856
 msgid "Map Extras"
 msgstr "地图附加物"
 
-#: src/init.cpp:859
+#: src/init.cpp:857
 msgid "Magic Types"
 msgstr "魔法类型"
 
-#: src/init.cpp:860
+#: src/init.cpp:858
 msgid "Martial Arts"
 msgstr "武术"
 
-#: src/init.cpp:861
+#: src/init.cpp:859
 msgid "Martial Art Techniques"
 msgstr "武术技巧"
 
-#: src/init.cpp:862
+#: src/init.cpp:860
 msgid "Monster Flags"
 msgstr "怪物标记"
 
-#: src/init.cpp:863
+#: src/init.cpp:861
 msgid "Mood Faces"
 msgstr "心情表情"
 
-#: src/init.cpp:864
+#: src/init.cpp:862
 msgid "Morale Types"
 msgstr "士气类型"
 
-#: src/init.cpp:865
+#: src/init.cpp:863
 msgid "Mapgen weights"
 msgstr "地圖權重"
 
-#: src/init.cpp:866
+#: src/init.cpp:864
 msgid "Mapgen parameters"
 msgstr "地圖生成參數"
 
-#: src/init.cpp:867 src/init.cpp:1001 src/npctalk_rules.cpp:194
+#: src/init.cpp:865 src/init.cpp:998 src/npctalk_rules.cpp:194
 msgid "Behaviors"
 msgstr "行為"
 
-#: src/init.cpp:869 src/init.cpp:967
+#: src/init.cpp:867 src/init.cpp:964
 msgid "Monster types"
 msgstr "怪物類別"
 
-#: src/init.cpp:875 src/init.cpp:972
+#: src/init.cpp:873 src/init.cpp:969
 msgid "Monster groups"
 msgstr "怪物群組"
 
-#: src/init.cpp:876
+#: src/init.cpp:874
 msgid "Monster factions"
 msgstr "怪物派系"
 
-#: src/init.cpp:877 src/init.cpp:1021
+#: src/init.cpp:875 src/init.cpp:1018
 msgid "Factions"
 msgstr "陣營"
 
-#: src/init.cpp:878
+#: src/init.cpp:876
 msgid "Move modes"
 msgstr "移動模式"
 
 #. ~ Construction category name
-#: src/init.cpp:879 src/init.cpp:975 data/json/construction_category.json
+#: src/init.cpp:877 src/init.cpp:972 data/json/construction_category.json
 msgid "Constructions"
 msgstr "建造"
 
-#: src/init.cpp:880 src/init.cpp:976
+#: src/init.cpp:878 src/init.cpp:973
 msgid "Crafting recipes"
 msgstr "製作配方"
 
-#: src/init.cpp:881
+#: src/init.cpp:879
 msgid "Recipe groups"
 msgstr "配方群組"
 
-#: src/init.cpp:882 src/init.cpp:979
+#: src/init.cpp:880 src/init.cpp:976
 msgid "Martial arts"
 msgstr "武術"
 
-#: src/init.cpp:883 src/init.cpp:992
+#: src/init.cpp:881 src/init.cpp:989
 msgid "Scenarios"
 msgstr "劇情"
 
-#: src/init.cpp:884 src/init.cpp:1014
+#: src/init.cpp:882 src/init.cpp:1011
 msgid "Spells"
 msgstr "法術"
 
-#: src/init.cpp:885
+#: src/init.cpp:883
 msgid "Climbing aids"
 msgstr "攀登辅助"
 
-#: src/init.cpp:886 src/init.cpp:1000
+#: src/init.cpp:884 src/init.cpp:997
 msgid "NPC classes"
 msgstr "NPC 類別"
 
-#: src/init.cpp:887
+#: src/init.cpp:885
 msgid "Overmap Vision Levels"
 msgstr "大地图视野等级"
 
-#: src/init.cpp:888
+#: src/init.cpp:886
 msgid "Overmap Special Migrations"
 msgstr "大地图特殊迁徙"
 
-#: src/init.cpp:889
+#: src/init.cpp:887
 msgid "Overmap placeholders"
 msgstr "大地图占位符"
 
-#: src/init.cpp:890 src/init.cpp:977
+#: src/init.cpp:888 src/init.cpp:974
 msgid "Professions"
 msgstr "職業"
 
-#: src/init.cpp:891 src/proficiency_ui.cpp:270
+#: src/init.cpp:889 src/proficiency_ui.cpp:270
 msgid "Proficiencies"
 msgstr "專精熟練度"
 
-#: src/init.cpp:892
+#: src/init.cpp:890
 msgid "Proficiency Categories"
 msgstr "专长分类"
 
-#: src/init.cpp:893
+#: src/init.cpp:891
 msgid "Qualities"
 msgstr "品质"
 
-#: src/init.cpp:894
+#: src/init.cpp:892
 msgid "Recipe Groups"
 msgstr "配方组"
 
-#: src/init.cpp:895
-msgid "Region Overlays"
-msgstr "区域覆盖"
-
-#: src/init.cpp:896
+#: src/init.cpp:893
 msgid "Region Settings"
 msgstr "区域设置"
 
-#: src/init.cpp:897
+#: src/init.cpp:894
 msgid "Relic Procedural Generations"
 msgstr "遗物程序生成"
 
-#: src/init.cpp:898
+#: src/init.cpp:895
 msgid "Speed Descriptions"
 msgstr "速度描述"
 
-#: src/init.cpp:899 src/mtype.cpp:612
+#: src/init.cpp:896 src/mtype.cpp:612
 msgid "Species"
 msgstr "物種"
 
-#: src/init.cpp:900
+#: src/init.cpp:897
 msgid "Scent Types"
 msgstr "气味类型"
 
-#: src/init.cpp:901 src/init.cpp:1018
+#: src/init.cpp:898 src/init.cpp:1015
 msgid "Scores"
 msgstr "評分"
 
-#: src/init.cpp:902
+#: src/init.cpp:899
 msgid "Shopkeeper Blacklists"
 msgstr "店主黑名单"
 
-#: src/init.cpp:903
+#: src/init.cpp:900
 msgid "Shopkeeper Consumption Rates"
 msgstr "店主消耗速率"
 
-#: src/init.cpp:905
+#: src/init.cpp:902
 msgid "Terrain/Furniture Transforms"
 msgstr "地形/家具转变"
 
-#: src/init.cpp:906 src/mission_ui.cpp:278
+#: src/init.cpp:903 src/mission_ui.cpp:278
 msgid "Missions"
 msgstr "任務"
 
-#: src/init.cpp:907 src/init.cpp:1009
+#: src/init.cpp:904 src/init.cpp:1006
 msgid "Harvest lists"
 msgstr "收穫列表"
 
-#: src/init.cpp:908 src/init.cpp:1013
+#: src/init.cpp:905 src/init.cpp:1010
 msgid "Anatomies"
 msgstr "解剖"
 
-#: src/init.cpp:909 src/init.cpp:981 src/mutation_ui.cpp:243
+#: src/init.cpp:906 src/init.cpp:978 src/mutation_ui.cpp:243
 msgid "Mutations"
 msgstr "突變"
 
-#: src/init.cpp:910 src/init.cpp:1019
+#: src/init.cpp:907 src/init.cpp:1016
 msgid "Achievements"
 msgstr "成就"
 
-#: src/init.cpp:911
+#: src/init.cpp:908
 msgid "Widgets"
 msgstr "側邊欄部件"
 
-#: src/init.cpp:912
+#: src/init.cpp:909
 msgid "Weakpoint Families"
 msgstr "弱点系"
 
-#: src/init.cpp:913
+#: src/init.cpp:910
 msgid "Weapon Categories"
 msgstr "武器类别"
 
-#: src/init.cpp:914 src/init.cpp:1023
+#: src/init.cpp:911 src/init.cpp:1020
 msgid "Wounds"
 msgstr "伤口"
 
-#: src/init.cpp:915
+#: src/init.cpp:912
 msgid "Zone Types"
 msgstr "区域类型"
 
-#: src/init.cpp:917
+#: src/init.cpp:914
 msgid "Tileset"
 msgstr "圖像包"
 
-#: src/init.cpp:919
+#: src/init.cpp:916
 msgid "Math expressions"
 msgstr "数学表达式"
 
-#: src/init.cpp:946
+#: src/init.cpp:943
 msgid "Vitamins"
 msgstr "維他命"
 
-#: src/init.cpp:948
+#: src/init.cpp:945
 msgid "Weapon categories"
 msgstr "武器类别"
 
-#: src/init.cpp:951
+#: src/init.cpp:948
 msgid "Field type migrations"
 msgstr "场地类型迁移"
 
-#: src/init.cpp:954
+#: src/init.cpp:951
 msgid "Effect types"
 msgstr "效果類型"
 
-#: src/init.cpp:955
+#: src/init.cpp:952
 msgid "Activities"
 msgstr "活動"
 
-#: src/init.cpp:956
+#: src/init.cpp:953
 msgid "Addiction types"
 msgstr "上癮類型"
 
-#: src/init.cpp:964
+#: src/init.cpp:961
 msgid "Mapgen definitions"
 msgstr "地圖定義"
 
-#: src/init.cpp:965
+#: src/init.cpp:962
 msgid "Mapgen palettes"
 msgstr "地圖生成調色盤"
 
-#: src/init.cpp:973
+#: src/init.cpp:970
 msgid "Furniture and terrain"
 msgstr "家具與地形"
 
-#: src/init.cpp:974
+#: src/init.cpp:971
 msgid "Furniture and terrain migrations"
 msgstr "家具&地形迁移"
 
-#: src/init.cpp:978
+#: src/init.cpp:975
 msgid "Profession groups"
 msgstr "职业分组"
 
-#: src/init.cpp:980
+#: src/init.cpp:977
 msgid "Climbing aid"
 msgstr "攀登辅助"
 
-#: src/init.cpp:982
+#: src/init.cpp:979
 msgid "Mutation categories"
 msgstr "突變類別"
 
-#: src/init.cpp:983
+#: src/init.cpp:980
 msgid "Mod migrations"
 msgstr "Mod migrations"
 
-#: src/init.cpp:987
+#: src/init.cpp:984
 msgid "Overmap terrain vision"
 msgstr "大地图地形视角"
 
-#: src/init.cpp:991
+#: src/init.cpp:988
 msgid "Map extras"
 msgstr "地圖特殊區域"
 
-#: src/init.cpp:993
+#: src/init.cpp:990
 msgid "Shop rates"
 msgstr "商店比率"
 
-#: src/init.cpp:995
+#: src/init.cpp:992
 msgid "Ammunition types"
 msgstr "彈藥類型"
 
-#: src/init.cpp:997
+#: src/init.cpp:994
 msgid "Trap migrations"
 msgstr "陷阱迁移"
 
-#: src/init.cpp:1002
+#: src/init.cpp:999
 msgid "Mission types"
 msgstr "任務類型"
 
-#: src/init.cpp:1004
+#: src/init.cpp:1001
 msgid "Item actions"
 msgstr "物品動作"
 
-#: src/init.cpp:1010
+#: src/init.cpp:1007
 msgid "NPC templates"
 msgstr "NPC 樣本"
 
-#: src/init.cpp:1015
+#: src/init.cpp:1012
 msgid "Transformations"
 msgstr "轉換"
 
-#: src/init.cpp:1016
+#: src/init.cpp:1013
 msgid "Statistics"
 msgstr "統計"
 
-#: src/init.cpp:1017
+#: src/init.cpp:1014
 msgid "Scent types"
 msgstr "氣味類型"
 
-#: src/init.cpp:1020
+#: src/init.cpp:1017
 msgid "Disease types"
 msgstr "疾病類型"
 
-#: src/init.cpp:1022
+#: src/init.cpp:1019
 msgid "Damage types"
 msgstr "伤害类型"
 
-#: src/init.cpp:1024
+#: src/init.cpp:1021
 msgid "Faction missions"
 msgstr "派系任务"
 
-#: src/init.cpp:1029
+#: src/init.cpp:1026
 msgid "Verifying"
 msgstr "驗證"
 
@@ -26798,159 +26795,159 @@ msgctxt "count"
 msgid "%1$d of %2$d"
 msgstr "%1$d 個從 %2$d 個"
 
-#: src/inventory_ui.cpp:1823
+#: src/inventory_ui.cpp:1827
 #, c-format
 msgid "Page %d/%d"
 msgstr "頁面 %d/%d"
 
-#: src/inventory_ui.cpp:2004
+#: src/inventory_ui.cpp:2008
 msgid "Destination has no pockets."
 msgstr "目的地没有口袋。"
 
-#: src/inventory_ui.cpp:2014
+#: src/inventory_ui.cpp:2018
 msgid "Select pocket"
 msgstr "选择口袋"
 
-#: src/inventory_ui.cpp:2018
+#: src/inventory_ui.cpp:2022
 #, c-format
 msgid "%s - %s/%s | %d moves"
 msgstr "%s - %s/%s | %d行动消耗"
 
-#: src/inventory_ui.cpp:2032
+#: src/inventory_ui.cpp:2036
 #, c-format
 msgid "%s contains no pockets that can contain item."
 msgstr "%s没有可以容纳物品的口袋。"
 
-#: src/inventory_ui.cpp:2044
+#: src/inventory_ui.cpp:2048
 #, c-format
 msgid "Cannot put item in pocket: %s"
 msgstr "无法将物品放入口袋：%s"
 
-#: src/inventory_ui.cpp:2577
+#: src/inventory_ui.cpp:2581
 msgid "Numpad ON"
 msgstr "数字键盘 开"
 
-#: src/inventory_ui.cpp:2596
+#: src/inventory_ui.cpp:2600
 #, c-format
 msgid "Longest Length (%s): %s Weight (%s):"
 msgstr "最大長度 (%s): %s 攜帶重量 (%s):"
 
-#: src/inventory_ui.cpp:2607
+#: src/inventory_ui.cpp:2611
 #, c-format
 msgid "Free Volume (%s): %s Volume (%s):"
 msgstr "剩餘容量 (%s): %s 攜帶容量 (%s):"
 
-#: src/inventory_ui.cpp:2620
+#: src/inventory_ui.cpp:2624
 #, c-format
 msgid "Free Holster Volume (%s): %s Used Holsters:"
 msgstr "可用槍套容量（%s）：%s個已使用槍套："
 
-#: src/inventory_ui.cpp:2772
+#: src/inventory_ui.cpp:2776
 msgid "That is not an integer."
 msgstr "这不是一个整数。"
 
-#: src/inventory_ui.cpp:2850
+#: src/inventory_ui.cpp:2854
 msgid "There are no available choices"
 msgstr "沒有可用的選擇"
 
-#: src/inventory_ui.cpp:2863 src/worldfactory.cpp:1244
+#: src/inventory_ui.cpp:2867 src/worldfactory.cpp:1244
 #, c-format
 msgid "[%s] Filter: "
 msgstr "[%s] 篩選："
 
 #. ~ Key binding name
-#: src/inventory_ui.cpp:2915 data/raw/keybindings.json
+#: src/inventory_ui.cpp:2919 data/raw/keybindings.json
 msgid "Page down"
 msgstr "下一頁"
 
 #. ~ Key binding name
-#: src/inventory_ui.cpp:2916 data/raw/keybindings.json
+#: src/inventory_ui.cpp:2920 data/raw/keybindings.json
 msgid "Page up"
 msgstr "上一頁"
 
 #. ~ Key binding name
-#: src/inventory_ui.cpp:2917 data/raw/keybindings.json
+#: src/inventory_ui.cpp:2921 data/raw/keybindings.json
 msgid "Next column"
 msgstr "下一列"
 
 #. ~ Key binding name
-#: src/inventory_ui.cpp:2918 data/raw/keybindings.json
+#: src/inventory_ui.cpp:2922 data/raw/keybindings.json
 msgid "Previous column"
 msgstr "上一列"
 
-#: src/inventory_ui.cpp:2919
+#: src/inventory_ui.cpp:2923
 msgid "Confirm your selection"
 msgstr "確認選擇"
 
-#: src/inventory_ui.cpp:2921
+#: src/inventory_ui.cpp:2925
 msgid "Switch category selection mode"
 msgstr "切換分類選擇模式"
 
-#: src/inventory_ui.cpp:2922
+#: src/inventory_ui.cpp:2926
 msgid "Toggle favorite"
 msgstr "切換最愛"
 
 #. ~ Key binding name
-#: src/inventory_ui.cpp:2923 data/raw/keybindings.json
+#: src/inventory_ui.cpp:2927 data/raw/keybindings.json
 msgid "Home"
 msgstr "首頁"
 
 #. ~ Key binding name
-#: src/inventory_ui.cpp:2924 data/raw/keybindings.json
+#: src/inventory_ui.cpp:2928 data/raw/keybindings.json
 msgid "End"
 msgstr "末頁"
 
 #. ~ Key binding name
-#: src/inventory_ui.cpp:2934 data/raw/keybindings.json
+#: src/inventory_ui.cpp:2938 data/raw/keybindings.json
 msgid "Show/hide contents"
 msgstr "顯示/隱藏內容物"
 
-#: src/inventory_ui.cpp:3373
+#: src/inventory_ui.cpp:3377
 msgid "Category selection mode"
 msgstr "分類選擇模式"
 
-#: src/inventory_ui.cpp:3631
+#: src/inventory_ui.cpp:3635
 msgid "Mark/unmark selected item"
 msgstr "標記/取消標記選中的物品"
 
-#: src/inventory_ui.cpp:3633
+#: src/inventory_ui.cpp:3637
 msgid "Mark a specific amount of selected item"
 msgstr "標記特定數量物品"
 
-#: src/inventory_ui.cpp:3634
+#: src/inventory_ui.cpp:3638
 msgid "Mark/unmark non-favorite items"
 msgstr "標記／去除標記 非最愛物品"
 
-#: src/inventory_ui.cpp:3823 src/inventory_ui.cpp:4115
-#: src/inventory_ui.cpp:4305
+#: src/inventory_ui.cpp:3827 src/inventory_ui.cpp:4119
+#: src/inventory_ui.cpp:4309
 #, c-format
 msgid "No items were selected.  Use %s to select them."
 msgstr "沒有選中任何物品。使用 %s 選擇它們。"
 
-#: src/inventory_ui.cpp:3845
+#: src/inventory_ui.cpp:3849
 msgid "ITEMS TO COMPARE"
 msgstr "要比較的物品"
 
-#: src/inventory_ui.cpp:3879
+#: src/inventory_ui.cpp:3883
 #, c-format
 msgid "You need two items for comparison.  Use %s to select them."
 msgstr "你需要選擇兩個要比較的物品。使用 %s 以標記它們。"
 
-#: src/inventory_ui.cpp:4058
+#: src/inventory_ui.cpp:4062
 msgid "ITEMS TO HAUL"
 msgstr "搬运物品"
 
-#: src/inventory_ui.cpp:4094
+#: src/inventory_ui.cpp:4098
 msgid "Cannot haul contents of containers"
 msgstr "无法搬运容器里的物品"
 
-#: src/inventory_ui.cpp:4141
+#: src/inventory_ui.cpp:4145
 msgid ""
 "You are dropping liquid from its container.  You might not be able to pick "
 "it back up.  Really do so?"
 msgstr "你正在從容器中直接丟棄液體。你可能無法撿回來。確認要這麼做？"
 
-#: src/inventory_ui.cpp:4271
+#: src/inventory_ui.cpp:4275
 #, c-format
 msgid ""
 "%s wield %s wear\n"
@@ -26961,20 +26958,20 @@ msgstr ""
 "%s展开 %s展开所有\n"
 "%s查看 %s/%s/%s指定数量（或者直接输入数字后按%s）"
 
-#: src/inventory_ui.cpp:4373
+#: src/inventory_ui.cpp:4377
 #, c-format
 msgid "You can't wear the %s."
 msgstr "你無法穿戴 %s。 "
 
-#: src/inventory_ui.cpp:4557 src/options.cpp:2860
+#: src/inventory_ui.cpp:4561 src/options.cpp:2860
 msgid "Auto"
 msgstr "自動"
 
-#: src/inventory_ui.cpp:4557
+#: src/inventory_ui.cpp:4561
 msgid "Manual"
 msgstr "手动"
 
-#: src/inventory_ui.cpp:4559
+#: src/inventory_ui.cpp:4563
 #, c-format
 msgid ""
 "[<color_yellow>%s</color>] Confirm [<color_yellow>%s</color>] Cancel "
@@ -30634,7 +30631,7 @@ msgid ""
 "you convulse and collapse to the ground…"
 msgstr "你感覺到一個熟悉的溫度，但它突然激增成燃燒的劇痛，你痙攣並癱在地上了…"
 
-#: src/iuse.cpp:1397 src/monattack.cpp:1890
+#: src/iuse.cpp:1397 src/monattack.cpp:1888
 msgid ""
 "You wake up in a Marloss bush.  Almost *cradled* in it, actually, as though "
 "it grew there for you."
@@ -32661,7 +32658,7 @@ msgid ""
 "The %s crackle with electricity from your bionic, then come off your hands!"
 msgstr "你身上生化插件的 %s 發出劈啪聲, 並且開始漏電。"
 
-#: src/iuse.cpp:6840 src/monattack.cpp:3028
+#: src/iuse.cpp:6840 src/monattack.cpp:3026
 msgid "a police siren, whoop WHOOP"
 msgstr "警用鳴笛聲, 嗚嗚嗚嗚"
 
@@ -32788,7 +32785,7 @@ msgstr "要對啟動的遙控車做什麼："
 #. ~ 'menu_text' action message of item 'infrared goggles (on)'
 #. ~ 'menu_text' action message of item 'survivor divemask (on)'
 #. ~ 'menu_text' action message of item 'thermal electric outfit (on)'
-#. ~ 'menu_text' action message of item 'shooter's earmuffs'
+#. ~ 'menu_text' action message of item 'shooter's earmuffs (on)'
 #. ~ 'menu_text' action message of item 'shooter's ear plugs (on)'
 #. ~ 'menu_text' action message of item 'military flight helmet (on)'
 #. ~ 'menu_text' action message of item 'battery powered utility exoskeleton
@@ -41112,33 +41109,33 @@ msgstr "模組版本"
 msgid "Unable to add %s.  It is incompatible with a currently active mod."
 msgstr "无法加载%s。这与当前启用的模组不兼容。"
 
-#: src/monattack.cpp:270
+#: src/monattack.cpp:268
 #, c-format
 msgid "The %s shoots a dart but you dodge it."
 msgstr "%s 射了一支鏢，但你躲開了。"
 
-#: src/monattack.cpp:285
+#: src/monattack.cpp:283
 #, c-format
 msgid "The %s shoots a dart into you!"
 msgstr "%s 的鏢射中你了!"
 
-#: src/monattack.cpp:295
+#: src/monattack.cpp:293
 #, c-format
 msgid "The %s shoots a dart at you, but misses!"
 msgstr "%s 向你射了一隻鏢，但失誤了！"
 
-#: src/monattack.cpp:299
+#: src/monattack.cpp:297
 #, c-format
 msgid "The %s shoots a dart but it bounces off your armor."
 msgstr "%s 射了一支鏢，但被你的護具彈開了。"
 
-#: src/monattack.cpp:325 src/monattack.cpp:349 src/monattack.cpp:502
-#: src/monattack.cpp:565
+#: src/monattack.cpp:323 src/monattack.cpp:347 src/monattack.cpp:500
+#: src/monattack.cpp:563
 #, c-format
 msgid "The %1s eats the %2s."
 msgstr "%1s吃下了%2s。"
 
-#: src/monattack.cpp:354 src/monattack.cpp:507
+#: src/monattack.cpp:352 src/monattack.cpp:505
 #, c-format
 msgid "The %1s gobbles up the %2s."
 msgstr "%1s吞噬了%2s。"
@@ -41150,773 +41147,773 @@ msgstr "%1s吞噬了%2s。"
 #. ~ Death message of monster 'brain slime'
 #. ~ Death message of monster 'big slime'
 #. ~ Death message of monster 'zombie hollow'
-#: src/monattack.cpp:376 data/json/monsters/insect_spider.json
+#: src/monattack.cpp:374 data/json/monsters/insect_spider.json
 #: data/json/monsters/slimes.json data/json/monsters/zed_misc.json
 #, c-format
 msgid "The %s splits in two!"
 msgstr "%s 分裂成兩個了!"
 
-#: src/monattack.cpp:446
+#: src/monattack.cpp:444
 #, c-format
 msgid "The %s flows around the %s and it is quickly dissolved!"
 msgstr "%s 流向 %s 周圍並將它迅速溶解！"
 
-#: src/monattack.cpp:537
+#: src/monattack.cpp:535
 #, c-format
 msgid "The %1s gnaws on the %2s."
 msgstr "%1s啃咬了%2s。"
 
-#: src/monattack.cpp:593
+#: src/monattack.cpp:591
 #, c-format
 msgid "The %1s eats from the %2s."
 msgstr "%1s从%2s里吃东西。"
 
-#: src/monattack.cpp:617
+#: src/monattack.cpp:615
 msgid "a terrible shriek!"
 msgstr "一聲恐怖的尖叫!"
 
-#: src/monattack.cpp:636
+#: src/monattack.cpp:634
 #, c-format
 msgid "The %s begins shrieking!"
 msgstr "%s 開始尖叫了起來!"
 
-#: src/monattack.cpp:638 src/monattack.cpp:3428
+#: src/monattack.cpp:636 src/monattack.cpp:3426
 msgid "a piercing wail!"
 msgstr "一聲刺耳的哀號!"
 
-#: src/monattack.cpp:709
+#: src/monattack.cpp:707
 msgid "a sibilant rattling sound!"
 msgstr "一陣嘶嘶作響的咯咯聲!"
 
-#: src/monattack.cpp:734
+#: src/monattack.cpp:732
 msgid "a spitting noise."
 msgstr "一聲噴吐的聲響。"
 
-#: src/monattack.cpp:749
+#: src/monattack.cpp:747
 #, c-format
 msgid "A glob of acid hits the %s!"
 msgstr "一團酸液擊中了 %s!"
 
-#: src/monattack.cpp:795
+#: src/monattack.cpp:793
 #, c-format
 msgid "The %s barfs acid at you, but you dodge!"
 msgstr "%s 向你吐出了酸液, 但是你躲開了!"
 
-#: src/monattack.cpp:796
+#: src/monattack.cpp:794
 #, c-format
 msgid "The %s barfs acid at <npcname>, but they dodge!"
 msgstr "%s 向 <npcname> 吐出了酸液 , 但是他躲開了!"
 
 #. ~ 1$s is monster name, 2$s bodypart in accusative
-#: src/monattack.cpp:813
+#: src/monattack.cpp:811
 #, c-format
 msgid "The %1$s barfs acid on your %2$s for %3$d damage!"
 msgstr "%1$s 吐出的酸液射中了你的 %2$s, 造成 %3$d 傷害!"
 
 #. ~ 1$s is monster name, 2$s bodypart in accusative
-#: src/monattack.cpp:815
+#: src/monattack.cpp:813
 #, c-format
 msgid "The %1$s barfs acid on <npcname>'s %2$s for %3$d damage!"
 msgstr "%1$s 吐出的酸液射中了 <npcname> 的 %2$s, 造成 %3$d 傷害!"
 
-#: src/monattack.cpp:825
+#: src/monattack.cpp:823
 #, c-format
 msgid "The %1$s barfs acid on your %2$s, but it washes off the armor!"
 msgstr "%1$s 吐出的酸液射中了你的 %2$s, 但是它順著護甲流掉了!"
 
-#: src/monattack.cpp:826
+#: src/monattack.cpp:824
 #, c-format
 msgid "The %1$s barfs acid on <npcname>'s %2$s, but it washes off the armor!"
 msgstr "%1$s 吐出的酸液射中了 <npcname> 的 %2$s, 但是它順著護甲流掉了!"
 
-#: src/monattack.cpp:877
+#: src/monattack.cpp:875
 #, c-format
 msgid "A bolt of electricity arcs towards %s!"
 msgstr "一道電弧射向了 %s!"
 
-#: src/monattack.cpp:909
+#: src/monattack.cpp:907
 #, c-format
 msgid "the %s obnoxiously yelling \"%s!!!\""
 msgstr "%s 發出了令人厭惡的吶喊: \"%s!!!\""
 
-#: src/monattack.cpp:982
+#: src/monattack.cpp:980
 #, c-format
 msgid "The %s is pulled away from your hands!"
 msgstr "%s 從你的手中被吸走了！"
 
-#: src/monattack.cpp:983
+#: src/monattack.cpp:981
 #, c-format
 msgid "The %s is pulled away from <npcname>'s hands!"
 msgstr "%s 從 <npcname> 的手中被吸走了！"
 
-#: src/monattack.cpp:990
+#: src/monattack.cpp:988
 #, c-format
 msgid "The %s unsuccessfully attempts to pull your weapon away."
 msgstr "%s 嘗試吸走你的武器, 但是未能成功。"
 
-#: src/monattack.cpp:991
+#: src/monattack.cpp:989
 #, c-format
 msgid "The %s unsuccessfully attempts to pull <npcname>'s weapon away."
 msgstr "%s 嘗試吸走 <npcname> 的武器, 但是未能成功。"
 
-#: src/monattack.cpp:1055
+#: src/monattack.cpp:1053
 #, c-format
 msgid "The %s throws its arms wide."
 msgstr "%s 張開了雙臂。"
 
-#: src/monattack.cpp:1074
+#: src/monattack.cpp:1072
 #, c-format
 msgid "The %s gesticulates wildly."
 msgstr "%s 瘋狂地比劃著手勢。"
 
-#: src/monattack.cpp:1126
+#: src/monattack.cpp:1124
 #, c-format
 msgid "You feel a strange pulse of energy from the %s."
 msgstr "你感覺到%s釋放出一種奇怪的能量脈衝。"
 
-#: src/monattack.cpp:1143
+#: src/monattack.cpp:1141
 #, c-format
 msgid "A nearby %s rises from the dead!"
 msgstr "附近的一具 %s 復活了!"
 
-#: src/monattack.cpp:1146
+#: src/monattack.cpp:1144
 msgid "But nothing seems to happen."
 msgstr "… 但是似乎沒有任何事情發生。"
 
-#: src/monattack.cpp:1187
+#: src/monattack.cpp:1185
 #, c-format
 msgid "The %s takes a powerful swing at you, but you dodge it!"
 msgstr "%s 向你揮出了強勁的一擊, 但是你躲開了!"
 
-#: src/monattack.cpp:1188
+#: src/monattack.cpp:1186
 #, c-format
 msgid "The %s takes a powerful swing at <npcname>, who dodges it!"
 msgstr "%s 向 <npcname> 揮出了強勁的一擊 , 但是他躲開了!"
 
-#: src/monattack.cpp:1194
+#: src/monattack.cpp:1192
 #, c-format
 msgid "A blow from the %1$s sends %2$s flying!"
 msgstr "%1$s 的一擊將 %2$s 擊飛了!"
 
-#: src/monattack.cpp:1195
+#: src/monattack.cpp:1193
 #, c-format
 msgid "A blow from the %s sends <npcname> flying!"
 msgstr "%s 的一擊將 <npcname> 擊飛了!"
 
 #. ~ %s is bodypart name in accusative.
-#: src/monattack.cpp:1335
+#: src/monattack.cpp:1333
 #, c-format
 msgid "A tree bursts forth from the earth and pierces your %s!"
 msgstr "有樹枝從地表竄出並刺中了你的 %s!"
 
 #. ~ %s is bodypart name in accusative.
-#: src/monattack.cpp:1337
+#: src/monattack.cpp:1335
 #, c-format
 msgid "A tree bursts forth from the earth and pierces <npcname>'s %s!"
 msgstr "有樹枝從地表竄出並刺中了 <npcname> 的 %s!"
 
 #. ~ %s is bodypart name in accusative.
-#: src/monattack.cpp:1370
+#: src/monattack.cpp:1368
 #, c-format
 msgid "The underbrush beneath your feet grows and pierces your %s!"
 msgstr "草叢從你的腳底竄出並刺中了你的 %s!"
 
 #. ~ %s is bodypart name in accusative.
-#: src/monattack.cpp:1372
+#: src/monattack.cpp:1370
 #, c-format
 msgid "Underbrush grows into a tree, and it pierces <npcname>'s %s!"
 msgstr "草叢長成了樹, 並刺中了 <npcname> 的 %s!"
 
 #. ~ 1$s monster name(vine), 2$s bodypart in accusative
-#: src/monattack.cpp:1434
+#: src/monattack.cpp:1432
 #, c-format
 msgid "The %1$s lashes your %2$s!"
 msgstr "%1$s 鞭打你的 %2$s!"
 
-#: src/monattack.cpp:1435
+#: src/monattack.cpp:1433
 #, c-format
 msgid "The %1$s lashes <npcname>'s %2$s!"
 msgstr "%1$s 鞭打 <npcname> 的 %2$s!"
 
-#: src/monattack.cpp:1499
+#: src/monattack.cpp:1497
 msgid "thu-THUMP."
 msgstr "咻-咚。"
 
-#: src/monattack.cpp:1522
+#: src/monattack.cpp:1520
 msgid "The root walls creak around you."
 msgstr "植根牆在你周圍碎裂。"
 
-#: src/monattack.cpp:1574
+#: src/monattack.cpp:1572
 #, c-format
 msgid "Spores are released from the %s!"
 msgstr "%s 釋放出了孢子!"
 
-#: src/monattack.cpp:1624
+#: src/monattack.cpp:1622
 msgid "\"Buy SpOreos™ now!\""
 msgstr "「立即購買孢子奧力奧（SpOreos）！」"
 
-#: src/monattack.cpp:1626
+#: src/monattack.cpp:1624
 #, c-format
 msgid "Delicious snacks are released from the %s!"
 msgstr "%s 釋放出了美味的點心！"
 
-#: src/monattack.cpp:1639 src/monattack.cpp:1687
+#: src/monattack.cpp:1637 src/monattack.cpp:1685
 #, c-format
 msgid "The %s pulses, and fresh fungal material bursts forth!"
 msgstr "%s 一邊鼓動, 並釋放出新鮮的真菌孢子!"
 
-#: src/monattack.cpp:1671
+#: src/monattack.cpp:1669
 #, c-format
 msgid "The %s suddenly inhales!"
 msgstr "%s 突然吸入了大量氣體!"
 
 #. ~Sound of a giant fungal blossom inhaling
-#: src/monattack.cpp:1674
+#: src/monattack.cpp:1672
 msgid "WOOOSH!"
 msgstr "嗚咻!"
 
-#: src/monattack.cpp:1676
+#: src/monattack.cpp:1674
 #, c-format
 msgid "The %s discharges an immense flow of spores, smothering the flames!"
 msgstr "%s 排放巨量的孢子, 悶熄了火焰!"
 
 #. ~Sound of a giant fungal blossom blowing out the dangerous fire!
-#: src/monattack.cpp:1680
+#: src/monattack.cpp:1678
 msgid "POUFF!"
 msgstr "噗呼!"
 
 #. ~ That spore sound, much louder
-#: src/monattack.cpp:1685
+#: src/monattack.cpp:1683
 msgid "POUF."
 msgstr "噗呼。"
 
-#: src/monattack.cpp:1716
+#: src/monattack.cpp:1714
 #, c-format
 msgid "The %s seems to wave you toward the tower…"
 msgstr "%s 似乎朝著塔對你揮手示意…"
 
-#: src/monattack.cpp:1725
+#: src/monattack.cpp:1723
 #, c-format
 msgid "The %s jabs at you with a needlelike point!"
 msgstr "%s 用針狀的刺朝著你戳!"
 
-#: src/monattack.cpp:1733 src/monattack.cpp:1790 src/monattack.cpp:1959
-#: src/monattack.cpp:3244 src/monattack.cpp:4082 src/monattack.cpp:4192
-#: src/monattack.cpp:4278
+#: src/monattack.cpp:1731 src/monattack.cpp:1788 src/monattack.cpp:1957
+#: src/monattack.cpp:3242 src/monattack.cpp:4030 src/monattack.cpp:4140
+#: src/monattack.cpp:4226
 msgid "You dodge it!"
 msgstr "你躲開了!"
 
-#: src/monattack.cpp:1734 src/monattack.cpp:1791 src/monattack.cpp:1960
-#: src/monattack.cpp:3245 src/monattack.cpp:4083 src/monattack.cpp:4193
-#: src/monattack.cpp:4279
+#: src/monattack.cpp:1732 src/monattack.cpp:1789 src/monattack.cpp:1958
+#: src/monattack.cpp:3243 src/monattack.cpp:4031 src/monattack.cpp:4141
+#: src/monattack.cpp:4227
 msgid "<npcname> dodges it!"
 msgstr "<npcname> 躲開了!"
 
 #. ~ 1$s is monster name, 2$s bodypart in accusative
-#: src/monattack.cpp:1744 src/monattack.cpp:1971
+#: src/monattack.cpp:1742 src/monattack.cpp:1969
 #, c-format
 msgid "The %1$s sinks its point into your %2$s!"
 msgstr "%1$s 的針刺插進了你的  %2$s!"
 
-#: src/monattack.cpp:1749 src/monattack.cpp:1807
+#: src/monattack.cpp:1747 src/monattack.cpp:1805
 msgid "You feel thousands of live spores pumping into you…"
 msgstr "你感覺有成千的活孢子注入進你的身體..."
 
 #. ~ 1$s is monster name, 2$s bodypart in accusative
-#: src/monattack.cpp:1753 src/monattack.cpp:1977
+#: src/monattack.cpp:1751 src/monattack.cpp:1975
 #, c-format
 msgid "The %1$s strikes your %2$s, but your armor protects you."
 msgstr "%1$s 打到你的 %2$s, 但你的護具保護了你。"
 
-#: src/monattack.cpp:1781
+#: src/monattack.cpp:1779
 #, c-format
 msgid "The %1$s swipes at %2$s with a barbed tendril!"
 msgstr "%1$s 用帶刺的卷鬚揮打 %2$s !"
 
 #. ~ 1$s is monster name, 2$s bodypart in accusative
-#: src/monattack.cpp:1801
+#: src/monattack.cpp:1799
 #, c-format
 msgid "The %1$s sinks several needlelike barbs into your %2$s!"
 msgstr "%1$s 許多針狀的刺插進你的 %2$s !"
 
 #. ~ 1$s is monster name, 2$s bodypart in accusative
-#: src/monattack.cpp:1811
+#: src/monattack.cpp:1809
 #, c-format
 msgid "The %1$s slashes your %2$s, but your armor protects you."
 msgstr "%1$s 斬擊你的 %2$s, 但你的護具保護了你。"
 
-#: src/monattack.cpp:1822
+#: src/monattack.cpp:1820
 #, c-format
 msgid "The %s grows into an adult!"
 msgstr "%s 成長了!"
 
-#: src/monattack.cpp:1844
+#: src/monattack.cpp:1842
 msgid "You're shoved away as a fungal wall grows!"
 msgstr "你被真菌牆的成長推開了!"
 
-#: src/monattack.cpp:1871
+#: src/monattack.cpp:1869
 #, c-format
 msgid "The %s spreads its tendrils.  It seems as though it's expecting you…"
 msgstr "%s 展開了它的卷鬚。彷彿在等待你…"
 
-#: src/monattack.cpp:1874
+#: src/monattack.cpp:1872
 msgid ""
 "The tower extends and aims several tendrils from its depths.  Hold still?"
 msgstr "塔中延伸出數個卷鬚。靜止不動?"
 
-#: src/monattack.cpp:1876
+#: src/monattack.cpp:1874
 #, c-format
 msgid ""
 "The %s works several tendrils into your arms, legs, torso, and even neck…"
 msgstr "%s 伸出數個卷鬚纏繞到你的手臂、腿部、軀幹，甚至是頸部…"
 
-#: src/monattack.cpp:1880
+#: src/monattack.cpp:1878
 msgid ""
 "You see a clear golden liquid pump through the tendrils--and then lose "
 "consciousness."
 msgstr "你看見清澈的金色液體透過卷鬚抽上來--接著你就失去意識了。"
 
-#: src/monattack.cpp:1887
+#: src/monattack.cpp:1885
 msgctxt "memorial_male"
 msgid "Was shown to the Marloss Gateway."
 msgstr "被引見至馬洛斯之門。"
 
-#: src/monattack.cpp:1888
+#: src/monattack.cpp:1886
 msgctxt "memorial_female"
 msgid "Was shown to the Marloss Gateway."
 msgstr "被引見至馬洛斯之門。"
 
 #. ~ Beginning to hear the Mycus while conscious: this is it speaking
-#: src/monattack.cpp:1893
+#: src/monattack.cpp:1891
 msgid ""
 "assistance, on an arduous quest.  unity.  together we have reached the door."
 "  now to pass through…"
 msgstr "協助，一個艱鉅的任務。同心協力。我們一起到達了門口。我們有最後的鑰匙。現在，走過去吧.."
 
-#: src/monattack.cpp:1915
+#: src/monattack.cpp:1913
 msgid "You're shoved away as a fungal hedgerow grows!"
 msgstr "你被真菌灌木的成長推開了!"
 
 #. ~ %s is bodypart name in accusative.
-#: src/monattack.cpp:1938
+#: src/monattack.cpp:1936
 #, c-format
 msgid "A fungal tendril bursts forth from the earth and pierces your %s!"
 msgstr "一個真菌鬚破土而出並刺到了你的 %s!"
 
-#: src/monattack.cpp:1944
+#: src/monattack.cpp:1942
 msgid "A fungal tendril bursts forth from the earth!"
 msgstr "一個真菌鬚破土而出!"
 
-#: src/monattack.cpp:1950
+#: src/monattack.cpp:1948
 #, c-format
 msgid "The %s takes aim, and spears at you with a massive tendril!"
 msgstr "%s 瞄準了你, 用巨大的卷鬚向你刺過來!"
 
-#: src/monattack.cpp:1974
+#: src/monattack.cpp:1972
 msgid "You feel millions of live spores pumping into you…"
 msgstr "你感覺有上百萬的活孢子注入進你的身體。"
 
-#: src/monattack.cpp:2002
+#: src/monattack.cpp:2000
 #, c-format
 msgid "The %s takes seed and becomes a young fungaloid!"
 msgstr "%s 孵化並且變成了小食人蕈!"
 
-#: src/monattack.cpp:2009
+#: src/monattack.cpp:2007
 #, c-format
 msgid "The %s falls to the ground and bursts!"
 msgstr "%s 掉落到地上並爆開!"
 
-#: src/monattack.cpp:2027
+#: src/monattack.cpp:2025
 #, c-format
 msgid "The %s turns to a steady climb before departing."
 msgstr "%s 分離前飛了起來。"
 
-#: src/monattack.cpp:2030
+#: src/monattack.cpp:2028
 #, c-format
 msgid "The %s departs."
 msgstr "%s 被釋放出來了。"
 
 #. ~ %1$s and %2$s - monster names
-#: src/monattack.cpp:2051
+#: src/monattack.cpp:2049
 #, c-format
 msgid "%1$s is engulfed by %2$s!"
 msgstr "%1$s被%2$s吞噬了！"
 
-#: src/monattack.cpp:2263
+#: src/monattack.cpp:2261
 #, c-format
 msgid "The %s lets out a high-pitched cry!"
 msgstr "%s 發出尖銳的叫聲!"
 
-#: src/monattack.cpp:2276
+#: src/monattack.cpp:2274
 #, c-format
 msgid "The %s swings its arms from side to side!"
 msgstr "%s 大幅度的揮動它的手臂!"
 
-#: src/monattack.cpp:2279
+#: src/monattack.cpp:2277
 #, c-format
 msgid "The %s does some fancy footwork!"
 msgstr "%s 做了一些花俏的走位!"
 
-#: src/monattack.cpp:2282
+#: src/monattack.cpp:2280
 #, c-format
 msgid "The %s shrugs its shoulders!"
 msgstr "%s 聳聳它的肩膀!"
 
-#: src/monattack.cpp:2285
+#: src/monattack.cpp:2283
 #, c-format
 msgid "The %s spins in place!"
 msgstr "%s 原地旋轉!"
 
-#: src/monattack.cpp:2288
+#: src/monattack.cpp:2286
 #, c-format
 msgid "The %s crouches on the ground!"
 msgstr "%s 蹲在地上!"
 
-#: src/monattack.cpp:2291
+#: src/monattack.cpp:2289
 #, c-format
 msgid "The %s looks left and right!"
 msgstr "%s 左右查看!"
 
-#: src/monattack.cpp:2294
+#: src/monattack.cpp:2292
 #, c-format
 msgid "The %s jumps back and forth!"
 msgstr "%s 跳來跳去!"
 
-#: src/monattack.cpp:2297
+#: src/monattack.cpp:2295
 #, c-format
 msgid "The %s raises its arms in the air!"
 msgstr "%s 把手放在空中甩!"
 
-#: src/monattack.cpp:2300
+#: src/monattack.cpp:2298
 #, c-format
 msgid "The %s swings its hips!"
 msgstr "%s 擺動臀部!"
 
-#: src/monattack.cpp:2303
+#: src/monattack.cpp:2301
 #, c-format
 msgid "The %s claps!"
 msgstr "%s 拍手!"
 
-#: src/monattack.cpp:2324
+#: src/monattack.cpp:2322
 #, c-format
 msgid "The %s's head explodes in a mass of roiling tentacles!"
 msgstr "%s 的頭部炸開成了翻攪的觸手!"
 
-#: src/monattack.cpp:2349
+#: src/monattack.cpp:2347
 msgid "You feel poison enter your body!"
 msgstr "你感覺到毒素進入你的身體!"
 
-#: src/monattack.cpp:2358
+#: src/monattack.cpp:2356
 #, c-format
 msgid "The %s young triffid grows into an adult!"
 msgstr "%s 小食人樹成長了!"
 
 #. ~ Speech from monsters: mon_nursebot_defective, mon_mi_go, mon_mi_go_slaver
-#: src/monattack.cpp:2389 data/json/speech.json
+#: src/monattack.cpp:2387 data/json/speech.json
 msgid ""
 "a soft robotic voice say, \"Come here and stand still for a few minutes, "
 "I'll give you a check-up.\""
 msgstr "柔和的機器人聲音說：“過來，站幾分鐘就好。我會給你做個檢查吧。”"
 
 #. ~ Speech from monsters: mon_nursebot_defective, mon_mi_go, mon_mi_go_slaver
-#: src/monattack.cpp:2395 data/json/speech.json
+#: src/monattack.cpp:2393 data/json/speech.json
 msgid ""
 "a soft robotic voice say, \"Come on.  I don't bite, I promise it won't hurt "
 "one bit.\""
 msgstr "柔和的機器人聲音說：“快點。我不會咬人，我保證這一點都不痛。”"
 
 #. ~ Speech from monsters: mon_nursebot_defective, mon_mi_go, mon_mi_go_slaver
-#: src/monattack.cpp:2399 data/json/speech.json
+#: src/monattack.cpp:2397 data/json/speech.json
 msgid "a soft robotic voice say, \"Here we go.  Just hold still.\""
 msgstr "柔和的機器人聲音說：“我們開始吧。保持別動。”"
 
-#: src/monattack.cpp:2401
+#: src/monattack.cpp:2399
 msgid "You get a medical check-up."
 msgstr "你進行了醫療檢查。"
 
-#: src/monattack.cpp:2417 src/monattack.cpp:2460
+#: src/monattack.cpp:2415 src/monattack.cpp:2458
 #, c-format
 msgid "The %s is scanning its surroundings."
 msgstr "%s 正在掃描周圍的環境。"
 
-#: src/monattack.cpp:2441
+#: src/monattack.cpp:2439
 msgid ""
 "a soft robotic voice say, \"Welcome doctor <male_full_name>.  I'll be your "
 "assistant today.\""
 msgstr "柔和的機器人聲音說：“歡迎你好，<male_full_name>醫生。今天我將作爲你的助手。”"
 
-#: src/monattack.cpp:2442
+#: src/monattack.cpp:2440
 msgid ""
 "a soft robotic voice say, \"Welcome doctor <female_full_name>.  I'll be your"
 " assistant today.\""
 msgstr "柔和的機器人聲音說：“歡迎你好，<female_full_name>醫生。今天我將作爲你的助手。”"
 
-#: src/monattack.cpp:2466
+#: src/monattack.cpp:2464
 #, c-format
 msgid "The %s doesn't seem to register you as a doctor."
 msgstr "%s 似乎沒有將你登錄為醫生。"
 
-#: src/monattack.cpp:2471
+#: src/monattack.cpp:2469
 #, c-format
 msgid "The %s looks at its empty anesthesia kit with a dejected look."
 msgstr "%s 沮喪地看著空的麻醉工具。"
 
-#: src/monattack.cpp:2500
+#: src/monattack.cpp:2498
 #, c-format
 msgid "The %1$s scans %2$s and seems to detect something."
 msgstr "%1$s 掃描了 %2$s，似乎檢測到某些東西。"
 
-#: src/monattack.cpp:2512
+#: src/monattack.cpp:2510
 #, c-format
 msgid "The %s looks for something but doesn't seem to find it."
 msgstr "%s 尋找某樣東西，但似乎沒找到。"
 
-#: src/monattack.cpp:2527
+#: src/monattack.cpp:2525
 msgid ""
 "a soft robotic voice say, \"Unhand this patient immediately!  If you keep "
 "interfering with the procedure I'll be forced to call law enforcement.\""
 msgstr "柔和的機器人聲音說：“立即讓該患者接受治療！如果你繼續干涉該程序，我將被迫聯繫執法部門。”"
 
-#: src/monattack.cpp:2533
+#: src/monattack.cpp:2531
 msgid ""
 "a soft robotic voice say, \"Greetings kinbot.  Please take good care of this"
 " patient.\""
 msgstr "柔和的機器人聲音說：“你好 kinbot。請照顧好這個病人。”"
 
-#: src/monattack.cpp:2571
+#: src/monattack.cpp:2569
 #, c-format
 msgid ""
 "The %s dumps the contents of its bag on the ground and drops the bag on top "
 "of it."
 msgstr "%s 把背包裡所有東西丟到地上，然後把背包放在上面。"
 
-#: src/monattack.cpp:2617 src/monattack.cpp:2637
+#: src/monattack.cpp:2615 src/monattack.cpp:2635
 #, c-format
 msgid "The %s flashes a LED and departs.  Human officer on scene."
 msgstr "%s 閃爍LED燈接著離開。人類警官準備上場。"
 
-#: src/monattack.cpp:2625 src/monattack.cpp:2645
+#: src/monattack.cpp:2623 src/monattack.cpp:2643
 #, c-format
 msgid ""
 "The %s acknowledges you as an officer responding, but hangs around to watch."
 msgstr "%s 將你認為是警官。並環顧在旁觀看。"
 
-#: src/monattack.cpp:2627 src/monattack.cpp:2664
+#: src/monattack.cpp:2625 src/monattack.cpp:2662
 msgid "Probably some now-obsolete Internal Affairs subroutine…"
 msgstr "也許是一些過時的內部例行流程…"
 
-#: src/monattack.cpp:2647
+#: src/monattack.cpp:2645
 msgid "Ops used to do that in case you needed backup…"
 msgstr "隊員經常這樣做以防你需要支援…"
 
-#: src/monattack.cpp:2655
+#: src/monattack.cpp:2653
 #, c-format
 msgid "The %s flashes a LED and departs.  SWAT's working the area."
 msgstr "%s 閃爍LED燈接著離開。特戰警隊在這工作。"
 
-#: src/monattack.cpp:2662
+#: src/monattack.cpp:2660
 #, c-format
 msgid "The %s acknowledges you as SWAT onsite, but hangs around to watch."
 msgstr "%s 認為你是特戰警員，並在附近看守。"
 
-#: src/monattack.cpp:2673
+#: src/monattack.cpp:2671
 #, c-format
 msgid "The %s flashes a LED and departs.  The Feds got this."
 msgstr "%s 閃爍LED燈接著離開。聯邦探員接手。"
 
-#: src/monattack.cpp:2687
+#: src/monattack.cpp:2685
 #, c-format
 msgid "The %s takes your picture!"
 msgstr "%s 照了你的相!"
 
-#: src/monattack.cpp:2692
+#: src/monattack.cpp:2690
 msgid "a robotic voice boom, \"Citizen <male_full_name>!\""
 msgstr "机器人发出低沉的声音，\"市民，<male_full_name>！\""
 
-#: src/monattack.cpp:2694
+#: src/monattack.cpp:2692
 msgid "a robotic voice boom, \"Citizen <female_full_name>!\""
 msgstr "机器人发出低沉的声音，\"市民，<female_full_name>！\""
 
-#: src/monattack.cpp:2697
+#: src/monattack.cpp:2695
 #, c-format
 msgid "a robotic voice boom, \"Citizen %s!\""
 msgstr "一個響亮的機械語音：\"公民，%s！\""
 
-#: src/monattack.cpp:2699
+#: src/monattack.cpp:2697
 msgid "a robotic voice boom, \"Citizen… database connection lost!\""
 msgstr "机器人发出低沉的声音，\"市民……无法连接数据库！\""
 
-#: src/monattack.cpp:2704
+#: src/monattack.cpp:2702
 #, c-format
 msgid "\"Drop your %s!  Now!\""
 msgstr "「丟掉你的 %s！立刻！」"
 
 #. ~ Name of tool quality
-#: src/monattack.cpp:2705 data/json/tool_qualities.json
+#: src/monattack.cpp:2703 data/json/tool_qualities.json
 msgid "gun"
 msgstr "槍械"
 
 #. ~ Skill name
-#: src/monattack.cpp:2705 data/json/skills.json
+#: src/monattack.cpp:2703 data/json/skills.json
 msgid "weapon"
 msgstr "武器"
 
-#: src/monattack.cpp:2759
+#: src/monattack.cpp:2757
 #, c-format
 msgid "The %s attempts to shock you but you dodge."
 msgstr "%s嘗試電擊你，但你躲開了。"
 
-#: src/monattack.cpp:2765 src/monattack.cpp:2773
+#: src/monattack.cpp:2763 src/monattack.cpp:2771
 #, c-format
 msgid "The %s unsuccessfully attempts to shock you."
 msgstr "%s 沒有電到你。"
 
-#: src/monattack.cpp:2774
+#: src/monattack.cpp:2772
 #, c-format
 msgid "The %s unsuccessfully attempts to shock <npcname>."
 msgstr "%s 無法成功電擊 <npcname>。"
 
-#: src/monattack.cpp:2783
+#: src/monattack.cpp:2781
 #, c-format
 msgid "The %s shocks you!"
 msgstr "%s 電擊你!"
 
-#: src/monattack.cpp:2784
+#: src/monattack.cpp:2782
 #, c-format
 msgid "The %s shocks <npcname>!"
 msgstr "%s 電到了 <npcname>!"
 
-#: src/monattack.cpp:3017
+#: src/monattack.cpp:3015
 msgid "a robotic voice boom, \"Citizen, Halt!\""
 msgstr "一個機械語音, \"站住! 公民。\""
 
-#: src/monattack.cpp:3020
+#: src/monattack.cpp:3018
 msgid "a robotic voice boom, \"Please put down your weapon.\""
 msgstr "一個機械語音, \"請放下你的武器。\""
 
-#: src/monattack.cpp:3024
+#: src/monattack.cpp:3022
 msgid "a robotic voice boom, \"Come out with your hands up!\""
 msgstr "一個機械語音, \"舉起手出來。\""
 
-#: src/monattack.cpp:3059
+#: src/monattack.cpp:3057
 msgid "\"YOU… ARE FILTH…\""
 msgstr "\"你… 被污染… \""
 
-#: src/monattack.cpp:3062
+#: src/monattack.cpp:3060
 msgid "\"VERMIN… YOU ARE VERMIN…\""
 msgstr "\"害蟲… 你是害蟲… \""
 
-#: src/monattack.cpp:3065
+#: src/monattack.cpp:3063
 msgid "\"LEAVE NOW…\""
 msgstr "\"快走開...\""
 
-#: src/monattack.cpp:3068
+#: src/monattack.cpp:3066
 msgid "\"WE… WILL FEAST… UPON YOU…\""
 msgstr "\"我們… 會在你的屍體上… 慶祝… \""
 
-#: src/monattack.cpp:3071
+#: src/monattack.cpp:3069
 msgid "\"FOUL INTERLOPER…\""
 msgstr "\"違法闖入者… \""
 
 #. ~ %1$s is the name of the zombie upgrading the other, %2$s is the zombie
 #. being upgraded.
-#: src/monattack.cpp:3130
+#: src/monattack.cpp:3128
 #, c-format
 msgid ""
 "You feel a sudden, intense burst of energy in the air between the %1$s and "
 "the %2$s."
 msgstr "你感覺到一股強烈的能量在 %1$s 和 %2$s 之間的空氣中爆發。"
 
-#: src/monattack.cpp:3133
+#: src/monattack.cpp:3131
 #, c-format
 msgid "You feel a sudden, intense burst of energy from the %s."
 msgstr "你感覺到一股強烈的能量從 %s 爆發。"
 
 #. ~ %1$s is the pre-upgrade monster, %2$s is the post-upgrade monster.
-#: src/monattack.cpp:3139
+#: src/monattack.cpp:3137
 #, c-format
 msgid "The %1$s becomes a %2$s!"
 msgstr " %1$s 變成了一個 %2$s!"
 
-#: src/monattack.cpp:3142
+#: src/monattack.cpp:3140
 #, c-format
 msgid "The %s vanishes!"
 msgstr "%s 消失了!"
 
-#: src/monattack.cpp:3144
+#: src/monattack.cpp:3142
 #, c-format
 msgid "A %s appears!"
 msgstr "%s 出現了!"
 
-#: src/monattack.cpp:3195
+#: src/monattack.cpp:3193
 msgid "He's brandishing a knife!"
 msgstr "他揮舞著刀!"
 
-#: src/monattack.cpp:3196
+#: src/monattack.cpp:3194
 msgid "Quiet, quiet"
 msgstr "安靜, 安靜"
 
-#: src/monattack.cpp:3224
+#: src/monattack.cpp:3222
 msgid "a terrifying roar!"
 msgstr "一聲可怕的吼叫!"
 
-#: src/monattack.cpp:3235
+#: src/monattack.cpp:3233
 #, c-format
 msgid "The %1$s swings a massive claw at %2$s!"
 msgstr "%1$s 朝著 %2$s 揮動巨大的爪子!"
 
 #. ~ 1$s is bodypart name, 2$d is damage value.
-#: src/monattack.cpp:3258
+#: src/monattack.cpp:3256
 #, c-format
 msgid "Your %1$s is battered for %2$d damage!"
 msgstr "你的 %1$s 被敲中造成 %2$d 傷害!"
 
-#: src/monattack.cpp:3289
+#: src/monattack.cpp:3287
 #, c-format
 msgid "The %1$s quivers hungrily in the direction of the %2$s."
 msgstr "%1$s 飢腸轆轆地朝 %2$s 的方向蠕動。"
 
-#: src/monattack.cpp:3307
+#: src/monattack.cpp:3305
 #, c-format
 msgid "The %1$s absorbs the %2$s, growing larger."
 msgstr "%1$s 吸收了 %2$s 之後長得更大了。"
 
-#: src/monattack.cpp:3348
+#: src/monattack.cpp:3346
 #, c-format
 msgid "The %1$s lunges for %2$s!"
 msgstr "%1$s 衝向 %2$s!"
 
-#: src/monattack.cpp:3368
+#: src/monattack.cpp:3366
 #, c-format
 msgid "The %1$s lunges at you, but you sidestep it!"
 msgstr "%1$s 衝向你, 但你迴避了!"
 
-#: src/monattack.cpp:3369
+#: src/monattack.cpp:3367
 #, c-format
 msgid "The %1$s lunges at <npcname>, but they sidestep it!"
 msgstr "%1$s 衝向 <npcname>, 但他迴避了!"
 
-#: src/monattack.cpp:3380
+#: src/monattack.cpp:3378
 #, c-format
 msgid "The %1$s lunges at your %2$s, battering it for %3$d damage!"
 msgstr "%1$s 衝撞你的 %2$s, 造成 %3$d 傷害!"
 
-#: src/monattack.cpp:3381
+#: src/monattack.cpp:3379
 #, c-format
 msgid "The %1$s lunges at <npcname>'s %2$s, battering it for %3$d damage!"
 msgstr "%1$s 衝撞 <npcname> 的 %2$s, 造成 %3$d 傷害!"
 
-#: src/monattack.cpp:3384
+#: src/monattack.cpp:3382
 #, c-format
 msgid "The %1$s lunges at your %2$s, but your armor prevents injury!"
 msgstr "%1$s 衝撞你的 %2$s, 但你的護甲避免了傷害!"
 
-#: src/monattack.cpp:3385
+#: src/monattack.cpp:3383
 #, c-format
 msgid "The %1$s lunges at <npcname>'s %2$s, but their armor prevents injury!"
 msgstr "%1$s 衝撞 <npcname> 的 %2$s, 但他的護甲避免了傷害!"
 
-#: src/monattack.cpp:3409
+#: src/monattack.cpp:3407
 #, c-format
 msgid "The %1$s loudly blows their whistle!"
 msgstr "%1$s吹响了口哨！"
@@ -41924,135 +41921,102 @@ msgstr "%1$s吹响了口哨！"
 #. ~ 'noise_message' action message of item 'whistle'
 #. ~ 'noise_message' action message of item 'whistle multitool'
 #. ~ 'noise_message' action message of item 'camping multitool'
-#: src/monattack.cpp:3410 data/json/items/tool/misc.json
+#: src/monattack.cpp:3408 data/json/items/tool/misc.json
 #: data/json/items/tool/workshop.json data/json/items/tool_armor.json
 msgid "FWEEEET!"
 msgstr "咻~!"
 
-#: src/monattack.cpp:3485
-#, c-format
-msgid "A shadow splits from the %s!"
-msgstr "一個黑影從 %s 分裂出來!"
-
-#: src/monattack.cpp:3494
-msgid "\"Stop it please.\""
-msgstr "\"请停下来。\""
-
-#: src/monattack.cpp:3497
-msgid "\"Let us help you.\""
-msgstr "\"让我们帮你吧。\""
-
-#: src/monattack.cpp:3500
-msgid "\"We wish you no harm.\""
-msgstr "\"希望你没有恶意。\""
-
-#: src/monattack.cpp:3503
-msgid "\"Do not fear.\""
-msgstr "\"别害怕。\""
-
-#: src/monattack.cpp:3506
-msgid "\"We can help you.\""
-msgstr "\"我们能帮你。\""
-
-#: src/monattack.cpp:3509
-msgid "\"We are friendly.\""
-msgstr "\"让我们友好相处。\""
-
-#: src/monattack.cpp:3512
-msgid "\"Please don't.\""
-msgstr "\"请别这样。\""
-
 #. ~ Lowercase is intended: they're small voices.
-#: src/monattack.cpp:3544
+#: src/monattack.cpp:3492
 msgid "\"let me help!\""
 msgstr "\"讓我幫忙! \""
 
-#: src/monattack.cpp:3551
+#: src/monattack.cpp:3499
 msgid "The slime cleans you out!"
 msgstr "黏液清理了你!"
 
-#: src/monattack.cpp:3553
+#: src/monattack.cpp:3501
 msgid "The slime flows over you, but your gouges still ache."
 msgstr "黏液流過了你, 但你的傷口還是疼。"
 
-#: src/monattack.cpp:3560
+#: src/monattack.cpp:3508
 msgid "The slime seals up your leaks!"
 msgstr "黏液封住了你的傷口!"
 
-#: src/monattack.cpp:3562
+#: src/monattack.cpp:3510
 msgid "The slime flows over you, but your fluids are still leaking."
 msgstr "黏液流過了你, 但你的體液仍在流失。"
 
-#: src/monattack.cpp:3603
+#: src/monattack.cpp:3551
 msgid ""
 "Halt and submit to arrest, citizen!  The police will be here any moment."
 msgstr "停下來束手就擒，公民！警方將會很快到達現場。"
 
-#: src/monattack.cpp:3622
+#: src/monattack.cpp:3570
 msgid "Please stay in place, citizen, do not make any movements!"
 msgstr "請留在原地, 公民, 不作任何動作!"
 
-#: src/monattack.cpp:3632
+#: src/monattack.cpp:3580
 msgid "The robot carefully scans you."
 msgstr "機器人小心的掃描你。"
 
-#: src/monattack.cpp:3633
+#: src/monattack.cpp:3581
 msgid "The robot carefully scans <npcname>."
 msgstr "機器人小心的掃描 <npcname>。"
 
-#: src/monattack.cpp:3642
+#: src/monattack.cpp:3590
 msgid "The robot orders you to present your hands and be cuffed."
 msgstr "機器人命令你伸出雙手準備上銬。"
 
-#: src/monattack.cpp:3644
+#: src/monattack.cpp:3592
 msgid "Allow yourself to be arrested."
 msgstr "允許自己被逮捕。"
 
-#: src/monattack.cpp:3645
+#: src/monattack.cpp:3593
 msgid "Resist arrest!"
 msgstr "拒捕!"
 
-#: src/monattack.cpp:3648
+#: src/monattack.cpp:3596
 msgid "Feign death."
 msgstr "裝死。"
 
-#: src/monattack.cpp:3678
+#: src/monattack.cpp:3626
 msgid ""
 "You deftly slip out of the handcuffs just as the robot closes them.  The "
 "robot didn't seem to notice!"
 msgstr "你在機器人正要上銬的時候巧妙的滑開手銬。機器人似乎沒有發現!"
 
-#: src/monattack.cpp:3687
+#: src/monattack.cpp:3635
 msgid "The robot puts handcuffs on you."
 msgstr "機器人把你上銬了。"
 
-#: src/monattack.cpp:3691
+#: src/monattack.cpp:3639
 msgid ""
 "You are under arrest, citizen.  You have the right to remain silent.  If you"
 " do not remain silent, anything you say may be used against you in a court "
 "of law."
 msgstr "你被逮捕了, 公民。你有權保持沉默。如果你開口說話, 那麼你所說的每一句話都將作為呈堂證供。"
 
-#: src/monattack.cpp:3694
+#: src/monattack.cpp:3642
 msgid ""
 "You have the right to an attorney.  If you cannot afford an attorney, one "
 "will be provided at no cost to you.  You may have your attorney present "
 "during any questioning."
 msgstr "你有權請律師。如果你請不起律師, 我們將免費為你提供一位律師。在訊問的過程中, 可要求有律師在場。"
 
-#: src/monattack.cpp:3696
+#: src/monattack.cpp:3644
 msgid ""
 "If you do not understand these rights, an officer will explain them in "
 "greater detail when taking you into custody."
 msgstr "假如你不了解這些權利, 警官將會在拘捕你時向你解說更多的細節。"
 
-#: src/monattack.cpp:3698
+#: src/monattack.cpp:3646
 msgid ""
 "Do not attempt to flee or to remove the handcuffs, citizen.  That can be "
 "dangerous to your health."
 msgstr "請勿嘗試逃脫或是移除手銬, 公民。此行為會為危害到你的健康。"
 
-#: src/monattack.cpp:3713
+#: src/monattack.cpp:3661
 msgid ""
 "You fall to the ground and feign a sudden convulsive attack.  Though you're "
 "obviously still alive, the robot cannot tell the difference between your "
@@ -42060,250 +42024,250 @@ msgid ""
 " for medical help."
 msgstr "你摔倒在地上假裝癲癇發作。其實你還活著，但機器人無法判斷你有沒有生命危險。它後退並呼叫醫療救助。"
 
-#: src/monattack.cpp:3719
+#: src/monattack.cpp:3667
 msgid "Your awkward movements do not fool the robot."
 msgstr "你笨拙的動作騙不了機器人。"
 
-#: src/monattack.cpp:3727
+#: src/monattack.cpp:3675
 msgid "The robot sprays tear gas!"
 msgstr "機器人噴出催淚瓦斯!"
 
-#: src/monattack.cpp:3745
+#: src/monattack.cpp:3693
 msgid "Empty your hands and hold your position, citizen!"
 msgstr "空出雙手並站在原地, 公民!"
 
 #. ~ Sound of a riot control bot using its blinding flash
-#: src/monattack.cpp:3764
+#: src/monattack.cpp:3712
 msgid "fzzzzzt"
 msgstr "滋滋滋"
 
-#: src/monattack.cpp:3803 src/monattack.cpp:3808
+#: src/monattack.cpp:3751 src/monattack.cpp:3756
 #, c-format
 msgid "The %s lunges at you, but you dodge!"
 msgstr "%s 撲向了你, 但是你躲開了!"
 
-#: src/monattack.cpp:3804 src/monattack.cpp:3809
+#: src/monattack.cpp:3752 src/monattack.cpp:3757
 #, c-format
 msgid "The %s lunges at <npcname>, but they dodge!"
 msgstr "%s 撲向了 <npcname>, 但是他躲開了!"
 
-#: src/monattack.cpp:3820
+#: src/monattack.cpp:3768
 #, c-format
 msgid "The %1$s impales your chest for %2$d damage!"
 msgstr "%1$s刺穿了你的軀體，造成%2$d點傷害！"
 
-#: src/monattack.cpp:3821
+#: src/monattack.cpp:3769
 #, c-format
 msgid "The %1$s impales <npcname>'s chest for %2$d damage!"
 msgstr "%1$s穿刺<npcname>的胸口造成%2$d傷害！"
 
-#: src/monattack.cpp:3825
+#: src/monattack.cpp:3773
 #, c-format
 msgid ""
 "The %1$s attempts to burrow itself into you, but is stopped by your armor!"
 msgstr "%1$s嘗試挖洞突襲你，但貝你的護甲擋住了！"
 
-#: src/monattack.cpp:3826
+#: src/monattack.cpp:3774
 #, c-format
 msgid "The %1$s slashes at <npcname>'s torso, but is stopped by their armor!"
 msgstr "%1$s劈砍<npcname>的軀幹，但被他的護甲擋住了！"
 
-#: src/monattack.cpp:3841
+#: src/monattack.cpp:3789
 #, c-format
 msgid ""
 "The %1$s burrows within %2$s corpse and a %3$s emerges from the remains!"
 msgstr "%1$s從%2$s屍體中挖出口來，%3$s從屍體中出現了。"
 
-#: src/monattack.cpp:3845
+#: src/monattack.cpp:3793
 #, c-format
 msgid "The %1$s burrows within %2$s corpse!"
 msgstr "%1$s 鑽進 %2$s 的屍體！"
 
-#: src/monattack.cpp:3847
+#: src/monattack.cpp:3795
 #, c-format
 msgid "A %1$s emerges from %2$s corpse!"
 msgstr "%1$s 從 %2$s 的屍體中鑽出來！"
 
-#: src/monattack.cpp:3874
+#: src/monattack.cpp:3822
 #, c-format
 msgid "An egg pod ruptures and a %s crawls out from the remains!"
 msgstr "一個蛋囊破裂開，一隻%s從屍體中爬出！"
 
-#: src/monattack.cpp:3880
+#: src/monattack.cpp:3828
 msgid "Resplendent fronds emerge from the still intact pods!"
 msgstr "燦爛的複葉從完整無缺的莢囊中冒出！"
 
-#: src/monattack.cpp:3902
+#: src/monattack.cpp:3850
 #, c-format
 msgid "The %s blooms into flowers!"
 msgstr "%s盛開成花！"
 
-#: src/monattack.cpp:3924
+#: src/monattack.cpp:3872
 msgid ""
 "The hound's movements chaotically rewind as a living afterimage splits from "
 "it!"
 msgstr "隨著生動的殘影分裂，獵犬的動作混亂地倒轉！"
 
-#: src/monattack.cpp:3939
+#: src/monattack.cpp:3887
 #, c-format
 msgid "The %s dissipates and reforms itself from the angles in the corner."
 msgstr "%s消散了，但又从某个角落重新组合成了刚才的形态。"
 
-#: src/monattack.cpp:3960
+#: src/monattack.cpp:3908
 msgid "The floor trembles underneath your feet."
 msgstr "地板在腳下抖動著。"
 
-#: src/monattack.cpp:3962 src/monattack.cpp:3991
+#: src/monattack.cpp:3910 src/monattack.cpp:3939
 msgid "a deafening roar!"
 msgstr "震耳欲聾的吼聲！"
 
-#: src/monattack.cpp:3981
+#: src/monattack.cpp:3929
 #, c-format
 msgid "A %s struggles to pull itself free from the %s!"
 msgstr "%s 掙扎著從 %s 掙脫出來！"
 
-#: src/monattack.cpp:4075
+#: src/monattack.cpp:4023
 #, c-format
 msgid "The %1$s mechanically grabs at %2$s!"
 msgstr "%1$s 的機械裝置抓住了 %2$s!"
 
-#: src/monattack.cpp:4097
+#: src/monattack.cpp:4045
 #, c-format
 msgid "%1$s slams %2$s to the ground!"
 msgstr "%1$s 把 %2$s 摔在地上!"
 
 #. ~ 1$s is monster name, 2$s is bodypart name in accusative, 3$d is damage
 #. value.
-#: src/monattack.cpp:4112
+#: src/monattack.cpp:4060
 #, c-format
 msgid "The %1$s kicks your %2$s for %3$d damage…"
 msgstr "%1$s踢中你的%2$s並造成%3$d點傷害..."
 
-#: src/monattack.cpp:4143
+#: src/monattack.cpp:4091
 #, c-format
 msgid "and slams you, face first, to the ground for %d damage!"
 msgstr "並抓著你的臉摔到地上造成 %d 傷害!"
 
-#: src/monattack.cpp:4149
+#: src/monattack.cpp:4097
 #, c-format
 msgid "and slams you to the ground for %d damage!"
 msgstr "並把你摔在地上造成 %d 傷害!"
 
-#: src/monattack.cpp:4158
+#: src/monattack.cpp:4106
 #, c-format
 msgid "and slams you for %d damage!"
 msgstr "並揮打你造成 %d 傷害!"
 
-#: src/monattack.cpp:4185
+#: src/monattack.cpp:4133
 #, c-format
 msgid "The %1$s mechanically lunges at %2$s!"
 msgstr "%1$s 機械的衝向 %2$s！"
 
-#: src/monattack.cpp:4216
+#: src/monattack.cpp:4164
 #, c-format
 msgid "The %1$s impales %2$s!"
 msgstr "%1$s穿刺了%2$s！"
 
-#: src/monattack.cpp:4226
+#: src/monattack.cpp:4174
 #, c-format
 msgid "The %1$s tries to impale your %2$s…"
 msgstr "%1$s嘗試穿刺你的%2$s..."
 
-#: src/monattack.cpp:4227
+#: src/monattack.cpp:4175
 #, c-format
 msgid "The %1$s tries to impale <npcname>'s %2$s…"
 msgstr "%1$s嘗試穿刺<npcname>的%2$s..."
 
-#: src/monattack.cpp:4231
+#: src/monattack.cpp:4179
 #, c-format
 msgid "and deals %d damage!"
 msgstr "且造成%d傷害！"
 
-#: src/monattack.cpp:4237
+#: src/monattack.cpp:4185
 msgid "but fails to penetrate your armor!"
 msgstr "但無法穿透你的護甲！"
 
-#: src/monattack.cpp:4238
+#: src/monattack.cpp:4186
 msgid "but fails to penetrate <npcname>'s armor!"
 msgstr "但無法穿透<npcname>的護甲。"
 
-#: src/monattack.cpp:4271
+#: src/monattack.cpp:4219
 #, c-format
 msgid "The %1$s mechanically reaches for %2$s!"
 msgstr "%1$s 機械的抓向了 %2$s！"
 
-#: src/monattack.cpp:4299
+#: src/monattack.cpp:4247
 #, c-format
 msgid "The zombie grabs your %s…"
 msgstr "殭屍抓住了你的%s..."
 
-#: src/monattack.cpp:4302
+#: src/monattack.cpp:4250
 msgid "and throws it to the ground!"
 msgstr "且將它丟到地上！"
 
-#: src/monattack.cpp:4309
+#: src/monattack.cpp:4257
 msgid "but you break its grip!"
 msgstr "但你掙脫了控制！"
 
-#: src/monattack.cpp:4464
+#: src/monattack.cpp:4412
 #, c-format
 msgid "The %s lights up menacingly."
 msgstr "%s 亮起危險的強光。"
 
-#: src/monattack.cpp:4558
+#: src/monattack.cpp:4506
 #, c-format
 msgid "The %s deploys a pacification hack!"
 msgstr "%s 部署了維和無人機！"
 
-#: src/monattack.cpp:4561 src/monattack.cpp:4591
+#: src/monattack.cpp:4509 src/monattack.cpp:4539
 #, c-format
 msgid "The %s deploys a flashbang hack!"
 msgstr "%s 部署了閃光彈無人機！"
 
-#: src/monattack.cpp:4564 src/monattack.cpp:4593
+#: src/monattack.cpp:4512 src/monattack.cpp:4541
 #, c-format
 msgid "The %s deploys a tear gas hack!"
 msgstr "%s 部署了催涙彈無人機！"
 
-#: src/monattack.cpp:4566 src/monattack.cpp:4595
+#: src/monattack.cpp:4514 src/monattack.cpp:4543
 #, c-format
 msgid "The %s buzzes and deploys a C-4 hack!"
 msgstr "%s 嗡嗡響並部署了 C-4 無人機！"
 
-#: src/monattack.cpp:4588
+#: src/monattack.cpp:4536
 #, c-format
 msgid "The %s deploys a grenade hack!"
 msgstr "%s 部署了手榴彈無人機！"
 
-#: src/monattack.cpp:4599
+#: src/monattack.cpp:4547
 #, c-format
 msgid "A klaxon blares from %s as it deploys a mininuke hack!"
 msgstr "%s 響起了高頻的喇叭聲，同時部署了迷你核彈無人機！"
 
-#: src/monattack.cpp:4637
+#: src/monattack.cpp:4585
 #, c-format
 msgid "The %1$s fuses with the %2$s."
 msgstr "%1$s被%2$s融合在一起了。"
 
-#: src/monattack.cpp:4652
+#: src/monattack.cpp:4600
 #, c-format
 msgid "%1$s still seems to be moving inside %2$s…"
 msgstr "%1$s看起來仍在%2$s體內移動..."
 
-#: src/monattack.cpp:4664
+#: src/monattack.cpp:4612
 #, c-format
 msgid "The %s doots its trumpet!"
 msgstr "%s 吹響了喇叭！"
 
-#: src/monattack.cpp:4672
+#: src/monattack.cpp:4620
 msgid "A spooky skeleton rises from the ground!"
 msgstr "一副可怕的骨架從地面上站了起來!"
 
-#: src/monattack.cpp:4678
+#: src/monattack.cpp:4626
 msgid "DOOT."
 msgstr "咑。"
 
-#: src/mondeath.cpp:56 src/monstergenerator.cpp:1579
+#: src/mondeath.cpp:56 src/monstergenerator.cpp:1578
 #, c-format
 msgid "The %s dies!"
 msgstr "%s 死亡了!"
@@ -43484,7 +43448,7 @@ msgstr "%s 在陽光下劇烈燃燒!"
 msgid "The spores transform %1$s into a %2$s!"
 msgstr "孢子把 %1$s 轉化成 %2$s!"
 
-#: src/monstergenerator.cpp:1206 src/mtype.cpp:546
+#: src/monstergenerator.cpp:1205 src/mtype.cpp:546
 msgid "footsteps."
 msgstr "腳步聲。"
 
@@ -49906,61 +49870,127 @@ msgstr "海洋"
 
 #: src/overmap_debug.cpp:41
 msgid "Which noise map?  (Centered at the cursor)"
-msgstr ""
+msgstr "哪张噪音地图？（以光标为中心）"
 
 #: src/overmap_debug.cpp:72
 #, c-format
 msgid "Exported noise to %s (raw) and %s."
 msgstr " 把噪音导出到%s （概略）和 %s."
 
-#: src/overmap_ui.cpp:214
+#: src/overmap_ui.cpp:137
+msgid "OVERMAP_SIDEBAR"
+msgstr "全局地图侧边栏"
+
+#: src/overmap_ui.cpp:227
+msgid "You can only make out vague details of what's here."
+msgstr "你只能看清这里的模糊细节。"
+
+#: src/overmap_ui.cpp:230
+msgid "You can only make out outlines of what's here."
+msgstr "你只能看清这里的轮廓。"
+
+#: src/overmap_ui.cpp:233
+msgid "You can make out some details of what's here."
+msgstr "你能看清这里的一些细节。"
+
+#: src/overmap_ui.cpp:236
+msgid "This is a bug!"
+msgstr "這是一個程式錯誤！"
+
+#: src/overmap_ui.cpp:256
+msgid "Weather: "
+msgstr "天气："
+
+#: src/overmap_ui.cpp:261
+msgid "# Weather unknown"
+msgstr "#未知天氣"
+
+#: src/overmap_ui.cpp:280
+msgid "Use movement keys to pan."
+msgstr "[移動鍵] 平移地圖"
+
+#: src/overmap_ui.cpp:281
+#, c-format
+msgid "Press %s to preview route."
+msgstr "按%s预览路线。"
+
+#: src/overmap_ui.cpp:283
+msgid "Press again to confirm."
+msgstr "再按一次確定路線"
+
+#: src/overmap_ui.cpp:425
+msgid "Current mission:"
+msgstr "当前任务："
+
+#: src/overmap_ui.cpp:429
+msgid "Current Point of Interest:"
+msgstr "当前兴趣点："
+
+#: src/overmap_ui.cpp:435
+msgid "Above us"
+msgstr "在我們上面"
+
+#: src/overmap_ui.cpp:437
+msgid "Below us"
+msgstr "在我們下面"
+
+#: src/overmap_ui.cpp:440
+#, c-format
+msgid "Distance: %d tiles | %s"
+msgstr "距离：%d格 | %s"
+
+#: src/overmap_ui.cpp:446
+msgid "No mission selected."
+msgstr "未选择任务！"
+
+#: src/overmap_ui.cpp:562
 msgid "Note preview"
 msgstr "預覽註記"
 
-#: src/overmap_ui.cpp:421 src/overmap_ui.cpp:1342 src/overmap_ui.cpp:2174
+#: src/overmap_ui.cpp:769 src/overmap_ui.cpp:1397 src/overmap_ui.cpp:2233
 msgid "Really delete note?"
 msgstr "確定刪除註記?"
 
-#: src/overmap_ui.cpp:436 src/overmap_ui.cpp:2180
+#: src/overmap_ui.cpp:784 src/overmap_ui.cpp:2239
 msgid "Remove dangerous mark?"
 msgstr "移除危險標示？"
 
-#: src/overmap_ui.cpp:443 src/overmap_ui.cpp:2185
+#: src/overmap_ui.cpp:791 src/overmap_ui.cpp:2244
 msgid "Create a danger note."
 msgstr "创建危险备注"
 
-#: src/overmap_ui.cpp:451 src/overmap_ui.cpp:2191
+#: src/overmap_ui.cpp:799 src/overmap_ui.cpp:2250
 #, c-format
 msgid "Danger radius in overmap squares? (0-%d)"
 msgstr "大地图中的危险区域半径？（0-%d）"
 
-#: src/overmap_ui.cpp:488
+#: src/overmap_ui.cpp:836
 #, c-format
 msgid ""
 "<%s> - center on note, <%s> - edit note, <%s> - mark as dangerous, <%s> - "
 "delete note, <%s> - close window"
 msgstr "<%s> - 置中註記， <%s> - 編輯註記，<%s> - 標記危險區， <%s> - 刪除註記， <%s> - 關閉視窗"
 
-#: src/overmap_ui.cpp:497
+#: src/overmap_ui.cpp:845
 #, c-format
 msgid "Map notes (%d)"
 msgstr "地圖註記（%d）"
 
-#: src/overmap_ui.cpp:521
+#: src/overmap_ui.cpp:869
 #, c-format
 msgid "DANGEROUS AREA!  (R=%d)"
 msgstr "危险区域！（半径 %d）"
 
-#: src/overmap_ui.cpp:522
+#: src/overmap_ui.cpp:870
 msgid "IN DANGEROUS AREA!"
 msgstr "位于危险区域！"
 
-#: src/overmap_ui.cpp:524
+#: src/overmap_ui.cpp:872
 #, c-format
 msgid "[%s] %s"
 msgstr "[%s] %s"
 
-#: src/overmap_ui.cpp:527
+#: src/overmap_ui.cpp:875
 #, c-format
 msgid ""
 "<color_red>LEVEL %i, %d'%d, %d'%d</color>: %s (Distance: "
@@ -49969,291 +49999,246 @@ msgstr ""
 "<color_red>等級 %i, %d'%d, %d'%d</color> : %s "
 "（距離：<color_white>%d</color>）<color_red>%s</color>"
 
-#: src/overmap_ui.cpp:532
+#: src/overmap_ui.cpp:880
 #, c-format
 msgid "<color_light_gray>Distance: </color><color_white>%d</color>"
 msgstr "<color_light_gray>距離： </color><color_white>%d</color>"
 
-#: src/overmap_ui.cpp:619 src/sdltiles.cpp:1126
+#: src/overmap_ui.cpp:967 src/sdltiles.cpp:1126
 msgid "FAST TRAVELING"
 msgstr "FAST TRAVELING"
 
-#: src/overmap_ui.cpp:864 src/sdltiles.cpp:1131
+#: src/overmap_ui.cpp:1212 src/sdltiles.cpp:1131
 msgid "WEATHER MODE"
 msgstr "天气模组"
 
-#: src/overmap_ui.cpp:877 src/sdltiles.cpp:1144
+#: src/overmap_ui.cpp:1225 src/sdltiles.cpp:1144
 msgid "DANGEROUS AREA!"
 msgstr "危險區域！"
 
-#: src/overmap_ui.cpp:920
+#: src/overmap_ui.cpp:1268
 msgid "Zone:"
 msgstr "區域:"
 
-#: src/overmap_ui.cpp:1027
-msgid "You can only make out vague details of what's here."
-msgstr "你只能看清这里的模糊细节。"
-
-#: src/overmap_ui.cpp:1030
-msgid "You can only make out outlines of what's here."
-msgstr "你只能看清这里的轮廓。"
-
-#: src/overmap_ui.cpp:1033
-msgid "You can make out some details of what's here."
-msgstr "你能看清这里的一些细节。"
-
-#: src/overmap_ui.cpp:1036
-msgid "This is a bug!"
-msgstr "這是一個程式錯誤！"
-
-#: src/overmap_ui.cpp:1066
-msgid "# Weather unknown"
-msgstr "#未知天氣"
-
-#: src/overmap_ui.cpp:1144
-msgid "Distance to current objective:"
-msgstr "距離目前的目標："
-
-#: src/overmap_ui.cpp:1152
-msgid "Above us"
-msgstr "在我們上面"
-
-#: src/overmap_ui.cpp:1154
-msgid "Below us"
-msgstr "在我們下面"
-
-#: src/overmap_ui.cpp:1189
-msgid "Use movement keys to pan."
-msgstr "[移動鍵] 平移地圖"
-
-#: src/overmap_ui.cpp:1190
-#, c-format
-msgid "Press %s to preview route."
-msgstr "按%s预览路线。"
-
-#: src/overmap_ui.cpp:1192
-msgid "Press again to confirm."
-msgstr "再按一次確定路線"
-
-#: src/overmap_ui.cpp:1262
+#: src/overmap_ui.cpp:1317
 msgid "Add a note to the map."
 msgstr "在地圖上新增註釋。"
 
-#: src/overmap_ui.cpp:1264
+#: src/overmap_ui.cpp:1319
 msgid "Edit an existing note."
 msgstr "編輯現有註釋。"
 
-#: src/overmap_ui.cpp:1269
+#: src/overmap_ui.cpp:1324
 msgid ""
 "For a custom GLYPH or COLOR follow the examples below.  Default GLYPH and "
 "COLOR looks like this: <color_yellow>N</color>"
 msgstr "自訂符號和顏色遵循下面範例。預設的符號和文字看起來像：<color_yellow>N</color>"
 
-#: src/overmap_ui.cpp:1273
+#: src/overmap_ui.cpp:1328
 msgid "Color codes: "
 msgstr "顏色代碼："
 
-#: src/overmap_ui.cpp:1282
+#: src/overmap_ui.cpp:1337
 msgid "Type GLYPH<color_yellow>:</color>TEXT to set a custom glyph."
 msgstr "輸入 符號 <color_yellow>:</color>文字來設定一個自訂符號。"
 
-#: src/overmap_ui.cpp:1283
+#: src/overmap_ui.cpp:1338
 msgid "Type COLOR<color_yellow>;</color>TEXT to set a custom color."
 msgstr "輸入 顏色<color_yellow>;</color>文字來設定一個自訂顏色。"
 
-#: src/overmap_ui.cpp:1285
+#: src/overmap_ui.cpp:1340
 msgid "Examples: B:Base | g;Loot | !:R;Minefield"
 msgstr ""
 "範例: <color_white>B:基地</color> | <color_white>g;物資</color> | "
 "<color_white>!:R;地雷區</color>"
 
-#: src/overmap_ui.cpp:1288
+#: src/overmap_ui.cpp:1343
 msgid "Note:"
 msgstr "註記："
 
-#: src/overmap_ui.cpp:1355
+#: src/overmap_ui.cpp:1410
 msgid "Add a Point of Interest entry to the Mission UI"
 msgstr "在任务UI中添加兴趣点条目"
 
-#: src/overmap_ui.cpp:1356
+#: src/overmap_ui.cpp:1411
 msgid "Description:"
 msgstr "描述："
 
-#: src/overmap_ui.cpp:1424
+#: src/overmap_ui.cpp:1479
 msgid "Search term:"
 msgstr "搜尋："
 
-#: src/overmap_ui.cpp:1426
+#: src/overmap_ui.cpp:1481
 msgid ""
 "Multiple entries separated with comma (,). Excludes starting with hyphen "
 "(-)."
 msgstr "多個項目以 非全形(,) 符號隔開。排除項目以連字號 (-) 符號起始。"
 
-#: src/overmap_ui.cpp:1463
+#: src/overmap_ui.cpp:1518
 #, c-format
 msgid "No results found within %d tiles."
 msgstr "在%d格内未找到结果。"
 
-#: src/overmap_ui.cpp:1488
+#: src/overmap_ui.cpp:1543
 msgid "Next result"
 msgstr "下一個結果"
 
-#: src/overmap_ui.cpp:1489
+#: src/overmap_ui.cpp:1544
 msgid "Previous result"
 msgstr "上一個結果"
 
-#: src/overmap_ui.cpp:1499 src/overmap_ui.cpp:1515
+#: src/overmap_ui.cpp:1554 src/overmap_ui.cpp:1570
 msgid "Result:"
 msgstr "結果："
 
-#: src/overmap_ui.cpp:1500 src/overmap_ui.cpp:1515
+#: src/overmap_ui.cpp:1555 src/overmap_ui.cpp:1570
 msgid "Results:"
 msgstr "結果："
 
-#: src/overmap_ui.cpp:1501 src/overmap_ui.cpp:1519
+#: src/overmap_ui.cpp:1556 src/overmap_ui.cpp:1574
 msgid "Direction:"
 msgstr "方位："
 
-#: src/overmap_ui.cpp:1526
+#: src/overmap_ui.cpp:1581
 #, c-format
 msgid ""
 "Press [<color_yellow>%s</color>] or [<color_yellow>%s</color>] to cycle "
 "through search results."
 msgstr "按［<color_yellow>%s</color>］或［<color_yellow>%s</color>］來循環顯示搜尋結果。"
 
-#: src/overmap_ui.cpp:1531
+#: src/overmap_ui.cpp:1586
 #, c-format
 msgid "Press [<color_yellow>%s</color>] to confirm."
 msgstr "按［<color_yellow>%s</color>］進行確認。"
 
-#: src/overmap_ui.cpp:1533
+#: src/overmap_ui.cpp:1588
 #, c-format
 msgid "Press [<color_yellow>%s</color>] to quit."
 msgstr "按［<color_yellow>%s</color>］離開。"
 
-#: src/overmap_ui.cpp:1569
+#: src/overmap_ui.cpp:1624
 msgid "Select terrain to place:"
 msgstr "選擇要放置的地形:"
 
-#: src/overmap_ui.cpp:1573
+#: src/overmap_ui.cpp:1628
 #, c-format
 msgid "sym: [ %s %s ], color: [ %s %s], name: [ %s ], id: [ %s ]"
 msgstr "象徵符號：［%s%s］，顏色：［%s%s］，名稱：［%s］，id：［%s］"
 
-#: src/overmap_ui.cpp:1588
+#: src/overmap_ui.cpp:1643
 msgid "Select special to place:"
 msgstr "選擇要放置的特殊地點:"
 
-#: src/overmap_ui.cpp:1647
+#: src/overmap_ui.cpp:1702
 msgid "Place overmap terrain:"
 msgstr "放置大地圖地形:"
 
-#: src/overmap_ui.cpp:1651
+#: src/overmap_ui.cpp:1706
 msgid "Place overmap special:"
 msgstr "放置大地圖特殊地點:"
 
-#: src/overmap_ui.cpp:1658
+#: src/overmap_ui.cpp:1713
 #, c-format
 msgid "Rotation: %s %s"
 msgstr "朝向: %s %s"
 
-#: src/overmap_ui.cpp:1659
+#: src/overmap_ui.cpp:1714
 msgid "(fixed)"
 msgstr "(固定)"
 
-#: src/overmap_ui.cpp:1661
+#: src/overmap_ui.cpp:1716
 msgid ""
 "Highlighted regions already have map content generated.  Their overmap id "
 "will change, but not their contents."
 msgstr "高亮显示的区域已生成地图内容。它们的大地图标识会改变，但其内容不会改变。"
 
-#: src/overmap_ui.cpp:1664
+#: src/overmap_ui.cpp:1719
 #, c-format
 msgid "[%s] Rotate"
 msgstr "[%s] 旋轉"
 
-#: src/overmap_ui.cpp:1667
+#: src/overmap_ui.cpp:1722
 #, c-format
 msgid "[%s] Place"
 msgstr "[%s]放置"
 
-#: src/overmap_ui.cpp:1669
+#: src/overmap_ui.cpp:1724
 #, c-format
 msgid "[%s] Place and close"
 msgstr "[%s]放置并关闭"
 
-#: src/overmap_ui.cpp:1671
+#: src/overmap_ui.cpp:1726
 msgid "[ESCAPE/Q] Cancel"
 msgstr "[Esc 或 Q] 取消"
 
-#: src/overmap_ui.cpp:1732
+#: src/overmap_ui.cpp:1787
 msgid "No overmap special args at this location."
 msgstr "該位置沒有大地圖特殊地形參數。"
 
-#: src/overmap_ui.cpp:1736
+#: src/overmap_ui.cpp:1791
 msgid "Overmap special args at this location have already been set."
 msgstr "此位置的大地图特殊地形参数已设置。"
 
-#: src/overmap_ui.cpp:1741
+#: src/overmap_ui.cpp:1796
 msgid "No overmap special at this location from which to fetch parameters."
 msgstr "此位置缺少可用于获取参数的大地图特殊地形。"
 
-#: src/overmap_ui.cpp:1752
+#: src/overmap_ui.cpp:1807
 #, c-format
 msgid "Select value for mapgen argument %s: "
 msgstr "设置地形生成参数 %s 为："
 
-#: src/overmap_ui.cpp:1774
+#: src/overmap_ui.cpp:1829
 msgid "No hordes there.  Would you like to make a new horde?"
 msgstr "这里没有种群。你想建立一个新的种群吗？"
 
-#: src/overmap_ui.cpp:1788
+#: src/overmap_ui.cpp:1843
 #, c-format
 msgid "group(type: %s) with %d monsters"
 msgstr "组（类型：%s） 包括%d怪物"
 
-#: src/overmap_ui.cpp:1800
+#: src/overmap_ui.cpp:1855
 #, c-format
 msgid "Set horde's interest (in %%)"
 msgstr "设置种群的兴趣（以%%表示）"
 
-#: src/overmap_ui.cpp:1801
+#: src/overmap_ui.cpp:1856
 msgid "Set horde's destination"
 msgstr "选择种群的目标"
 
-#: src/overmap_ui.cpp:1802
+#: src/overmap_ui.cpp:1857
 msgid "Modify horde's population"
 msgstr "修改种群的人口"
 
-#: src/overmap_ui.cpp:1803
+#: src/overmap_ui.cpp:1858
 msgid "Add a new monster to the horde"
 msgstr "为种群添加新怪物"
 
-#: src/overmap_ui.cpp:1804
+#: src/overmap_ui.cpp:1859
 msgid "Set horde behavior"
 msgstr "设置种群习性"
 
-#: src/overmap_ui.cpp:1805
+#: src/overmap_ui.cpp:1860
 msgid "Set horde's boolean values"
 msgstr "设置种群的布尔值"
 
-#: src/overmap_ui.cpp:1806
+#: src/overmap_ui.cpp:1861
 msgid "Add another horde to this location"
 msgstr "在此位置再添加一个种群"
 
-#: src/overmap_ui.cpp:1813
+#: src/overmap_ui.cpp:1868
 msgid "Set interest to what value?"
 msgstr "将兴趣值设为多少？"
 
-#: src/overmap_ui.cpp:1818
+#: src/overmap_ui.cpp:1873
 msgid "Select a target destination for the horde."
 msgstr "为群落选择一个目标目的地。"
 
-#: src/overmap_ui.cpp:1827 src/wish.cpp:789
+#: src/overmap_ui.cpp:1882 src/wish.cpp:789
 msgid "Set population to what value?"
 msgstr "将人口数量设为多少？"
 
-#: src/overmap_ui.cpp:1838
+#: src/overmap_ui.cpp:1893
 msgid ""
 "Set behavior to which enum value?\n"
 "Accepted values:\n"
@@ -50269,7 +50254,7 @@ msgstr ""
 "2 = 漫游\n"
 "3 = 宿敌"
 
-#: src/overmap_ui.cpp:1844
+#: src/overmap_ui.cpp:1899
 #, c-format
 msgid ""
 "Set group's \"horde\" value to true?  (Select no to set to false)  \n"
@@ -50278,15 +50263,15 @@ msgstr ""
 "将组的“群落”值设置为是？（选择否来设置为否）\n"
 "当前为%s"
 
-#: src/overmap_ui.cpp:1845 src/overmap_ui.cpp:1848
+#: src/overmap_ui.cpp:1900 src/overmap_ui.cpp:1903
 msgid "false"
 msgstr "否"
 
-#: src/overmap_ui.cpp:1845 src/overmap_ui.cpp:1848
+#: src/overmap_ui.cpp:1900 src/overmap_ui.cpp:1903
 msgid "true"
 msgstr "是"
 
-#: src/overmap_ui.cpp:1847
+#: src/overmap_ui.cpp:1902
 #, c-format
 msgid ""
 "Set group's \"dying\" value to true?  (Select no to set to false)  \n"
@@ -50295,75 +50280,75 @@ msgstr ""
 "将组的“消亡”值设置为是？（选择否来设置为否）\n"
 "当前为%s"
 
-#: src/overmap_ui.cpp:1924
+#: src/overmap_ui.cpp:1979
 msgid "Unable to find a path from the current location:"
 msgstr "无法从当前位置找到路径："
 
-#: src/overmap_ui.cpp:1926
+#: src/overmap_ui.cpp:1981
 msgid "Auto travel requires source and destination on same Z level:"
 msgstr "自动旅行要求目标和出发点位于同一Z坐标下。"
 
-#: src/overmap_ui.cpp:1949
+#: src/overmap_ui.cpp:2004
 msgid ""
 "You are overburdened, are you sure you want to travel (it may be painful)?"
 msgstr "你已經超載了，真的要旅行嗎？（可能造成疼痛）"
 
-#: src/overmap_ui.cpp:1951
+#: src/overmap_ui.cpp:2006
 msgid "You are in a vehicle but not driving.  Are you sure you want to walk?"
 msgstr "你在一輛載具上但是並未駕駛。你確定你要走過去？"
 
-#: src/overmap_ui.cpp:1954
+#: src/overmap_ui.cpp:2009
 msgid "Drive to this point?"
 msgstr "駕駛到此點?"
 
-#: src/overmap_ui.cpp:1956
+#: src/overmap_ui.cpp:2011
 msgid "Drive to your destination?"
 msgstr "驾驶前往目的地？"
 
-#: src/overmap_ui.cpp:1960
+#: src/overmap_ui.cpp:2015
 msgid "Travel to this point?"
 msgstr "移動至此？"
 
-#: src/overmap_ui.cpp:1962
+#: src/overmap_ui.cpp:2017
 msgid "Travel to your destination?"
 msgstr "步行前往目的地？"
 
-#: src/overmap_ui.cpp:2683
+#: src/overmap_ui.cpp:2746
 msgid "<color_red>* Random city *</color>"
 msgstr "<color_red>*隨機城市*</color>"
 
-#: src/overmap_ui.cpp:2684
+#: src/overmap_ui.cpp:2747
 msgid "Location: <color_white>(?,?)</color>:<color_white>(?,?)</color>"
 msgstr "地點： <color_white>(?,?)</color>：<color_white>(?,?)</color>"
 
 #. ~ "pop" refers to population count
-#: src/overmap_ui.cpp:2686
+#: src/overmap_ui.cpp:2749
 msgid "(pop <color_white>?</color>)"
 msgstr "（人口<color_white>？</color>）"
 
-#: src/overmap_ui.cpp:2690
+#: src/overmap_ui.cpp:2753
 msgid "Select a starting city"
 msgstr "選擇一個開始城市"
 
-#: src/overmap_ui.cpp:2692
+#: src/overmap_ui.cpp:2755
 #, c-format
 msgid "%s (size: %d)"
 msgstr "%s（大小：%d）"
 
-#: src/overmap_ui.cpp:2694
+#: src/overmap_ui.cpp:2757
 #, c-format
 msgid "Location: <color_white>%s</color>:<color_white>%s</color>"
 msgstr "位置： <color_white>%s</color>：<color_white>%s</color>"
 
 #. ~ "pop" refers to population count
-#: src/overmap_ui.cpp:2697
+#: src/overmap_ui.cpp:2760
 #, c-format
 msgid "(pop <color_white>%s</color>)"
 msgstr "（人口：<color_white>%s</color>）"
 
 #. ~ First parameter is a terrain name, second parameter is a direction, and
 #. third parameter is a city name.
-#: src/overmapbuffer.cpp:1942
+#: src/overmapbuffer.cpp:1948 src/overmapbuffer.cpp:2024
 #, c-format
 msgctxt "terrain description"
 msgid "%1$s %2$s from %3$s"
@@ -50371,14 +50356,14 @@ msgstr "%1$s 遠離於 %3$s %2$s"
 
 #. ~ First parameter is a terrain name, second parameter is a direction, and
 #. third parameter is a city name.
-#: src/overmapbuffer.cpp:1948
+#: src/overmapbuffer.cpp:1954 src/overmapbuffer.cpp:2030
 msgctxt "terrain description"
 msgid "%1$s in central %3$s"
 msgstr "%1$s 位於 %3$s 中央"
 
 #. ~ First parameter is a terrain name, second parameter is a direction, and
 #. third parameter is a city name.
-#: src/overmapbuffer.cpp:1951
+#: src/overmapbuffer.cpp:1957 src/overmapbuffer.cpp:2033
 #, c-format
 msgctxt "terrain description"
 msgid "%1$s in %2$s %3$s"
@@ -50386,14 +50371,15 @@ msgstr "%1$s 位於 %3$s %2$s"
 
 #. ~ First parameter is a terrain name, second parameter is a direction, and
 #. third parameter is a city name.
-#: src/overmapbuffer.cpp:1955 src/overmapbuffer.cpp:1964
+#: src/overmapbuffer.cpp:1961 src/overmapbuffer.cpp:1970
+#: src/overmapbuffer.cpp:2037 src/overmapbuffer.cpp:2046
 msgctxt "terrain description"
 msgid "%1$s in %3$s"
 msgstr "%1$s 位於 %3$s"
 
 #. ~ First parameter is a terrain name, second parameter is a direction, and
 #. third parameter is a city name.
-#: src/overmapbuffer.cpp:1961
+#: src/overmapbuffer.cpp:1967 src/overmapbuffer.cpp:2043
 #, c-format
 msgctxt "terrain description"
 msgid "%1$s on the %2$s outskirts of %3$s"
@@ -62115,6 +62101,16 @@ msgstr "切換快速旅行"
 
 #. ~ Key binding name
 #: data/raw/keybindings.json
+msgid "Collapse all overmap sidebar headers"
+msgstr "折叠所有全局地图侧边栏的标题栏"
+
+#. ~ Key binding name
+#: data/raw/keybindings.json
+msgid "Expand all overmap sidebar headers"
+msgstr "展开所有大地图侧边栏的标题栏"
+
+#. ~ Key binding name
+#: data/raw/keybindings.json
 msgid "Toggle explored"
 msgstr "切換探索標記"
 
@@ -66538,7 +66534,7 @@ msgstr "抵達研究實驗室"
 #. ~ Name of achievement
 #: data/json/achievements.json
 msgid "Things betwixt"
-msgstr ""
+msgstr "夹缝之物"
 
 #. ~ Description of achievement 'Things betwixt'
 #: data/json/achievements.json
@@ -66548,6 +66544,10 @@ msgid ""
 "The shadows lengthen\n"
 "                       In Carcosa."
 msgstr ""
+"云涛拍岸碎溅， \n"
+"双日沉落湖间， \n"
+"暮色渐浓影拉长， \n"
+"尽在卡寇萨之地。"
 
 #. ~ Name of achievement
 #: data/json/achievements.json
@@ -79843,6 +79843,21 @@ msgstr "你涂了防晒霜，大概可以防晒两小时。"
 msgid "Your sunscreen has worn off."
 msgstr "你涂的防晒霜已经失效了。"
 
+#. ~ Name of effect 'effect_nether_shadow_unnatural_chill'
+#: data/json/effects.json
+msgid "Unnatural Chill"
+msgstr "诡异寒意"
+
+#. ~ Description of effect 'Unnatural Chill'
+#: data/json/effects.json
+msgid "You are chilled to the bone."
+msgstr "你刺骨冰寒，寒意彻骨"
+
+#. ~ Remove message of effect 'Unnatural Chill'
+#: data/json/effects.json
+msgid "The chill in your bones finally fades away."
+msgstr "骨子中的寒意终于消散。"
+
 #. ~ Description of creature revealed by special vision
 #. 'infrared_creature_tiny'
 #: data/json/enchantments.json
@@ -80525,12 +80540,12 @@ msgstr "将已经变回泥土地或草地的农田重新犁成可供种植的土
 #. ~ Duration of faction mission 'Plowing'
 #: data/json/faction_missions.json
 msgid "5 Min / Plot"
-msgstr ""
+msgstr "5 分钟 / 单段情节"
 
 #. ~ Effect of faction mission 'Plowing'
 #: data/json/faction_missions.json
 msgid "Restores farm plots created in previous expansion upgrades."
-msgstr ""
+msgstr "恢复此前拓展区升级中创建的农田。"
 
 #. ~ Effect of faction mission 'Plowing'
 #: data/json/faction_missions.json
@@ -80550,7 +80565,7 @@ msgstr "在已经犁好的地上播种下所选择的种子。"
 #. ~ Duration of faction mission 'Planting'
 #: data/json/faction_missions.json
 msgid "1 Min / Plot"
-msgstr ""
+msgstr "1 分钟 / 单段情节"
 
 #. ~ Effect of faction mission 'Planting'
 #: data/json/faction_missions.json
@@ -80580,7 +80595,7 @@ msgstr "收获所有成熟的植物，并将产物带回。"
 #. ~ Duration of faction mission 'Harvest'
 #: data/json/faction_missions.json
 msgid "3 Min / Plot"
-msgstr ""
+msgstr "3 分钟 / 单段情节"
 
 #. ~ Effect of faction mission 'Harvest'
 #: data/json/faction_missions.json
@@ -80614,6 +80629,8 @@ msgid ""
 "laborious, and may still fail to get rid of everything if e.g. a basement or"
 " an opening to underground areas (such as a manhole) remains."
 msgstr ""
+"若选中的扩展区方向符合地块改造条件，本任务将执行改造操作；若不符合，则会提示无法改造，此时你需清除所有非草地或土壤的物体，使其满足改造要求。例如，采矿区可用于清除路面。需注意，拆除建筑不仅危险费力，且可能无法彻底清理"
+" —— 比如残留的地下室或通往地下区域的通道（如检修孔）。"
 
 #. ~ Faction mission name
 #: data/json/faction_missions.json
@@ -80625,7 +80642,7 @@ msgstr "调查扩展区"
 msgid ""
 "Expansions open up new opportunities but can be expensive and time-"
 "consuming.  Pick them carefully, at most 8 can be built at each camp."
-msgstr ""
+msgstr "领地扩展能带来新机遇，但耗费高昂且耗时费力。请谨慎选择 —— 每个营地最多可建造 8 处拓展设施。"
 
 #. ~ Effect of faction mission 'Survey Expansion'
 #: data/json/faction_missions.json
@@ -80636,6 +80653,8 @@ msgid ""
 "allowing you to refine resources for subsequent expansions, craft better "
 "gear and make charcoal."
 msgstr ""
+"从可用的扩展设施中任选其一。开局先建农场永远是稳妥之选 —— "
+"食物可用于支持同伴任务，且启动所需投入极低；锻造炉也是绝佳选择，能为后续拓展提纯资源、打造更优质装备，还可制作木炭。"
 
 #. ~ Field intensity level
 #: data/json/field_type.json
@@ -114751,7 +114770,7 @@ msgstr "你周围的环境开始闪烁。"
 #: data/json/artifact/altered_object_active.json
 msgid ""
 "You reel as your sense of balance falters, but you didn't fall anywhere."
-msgstr ""
+msgstr "你平衡感骤失、一阵眩晕，但终究没有摔倒。"
 
 #. ~ Message of spell 'Grimoire Snap'
 #: data/json/artifact/altered_object_active.json
@@ -114862,7 +114881,7 @@ msgstr[0] "古老的法典"
 msgid ""
 "Vellum pages bound in bark.  The strange symbols within seems to have been "
 "overwritten hundreds of times."
-msgstr ""
+msgstr "树皮装订的羊皮纸书页。里面的奇怪符号似乎被反复书写过数百次。"
 
 #. ~ Variant name of item 'ancient codex'
 #: data/json/artifact/artifact_item_types.json
@@ -115805,7 +115824,7 @@ msgstr "預設值"
 #. ~ Vehicle name
 #: data/json/debug/teleportation.json
 msgid "Sir Pemberton Smythe's Dimensional Bathyscape"
-msgstr ""
+msgstr "彭伯顿・斯迈思爵士的次元深海潜水器"
 
 #. ~ Player message in EoC 'EOC_CAFFEINE_ADDICTION'
 #: data/json/effects_on_condition/addictions_eocs.json
@@ -121437,7 +121456,7 @@ msgstr "浮木"
 msgid ""
 "A hollow and twisted piece of a root or a branch, bleached white by sun and "
 "salt."
-msgstr ""
+msgstr "一截中空扭曲的根茎或枝桠，经日晒盐蚀已泛白如骨。"
 
 #. ~ Furniture name
 #. ~ Item name
@@ -121547,7 +121566,7 @@ msgstr "咚。"
 msgid ""
 "All fine details have been eroded away by the passing of time, leaving only "
 "a rough humanoid shape carved from dark stone."
-msgstr ""
+msgstr "时光流逝冲刷掉所有细微纹路，仅留下一尊深色岩石雕琢的粗陋人形轮廓。"
 
 #. ~ Furniture name
 #. ~ Item name
@@ -129950,13 +129969,13 @@ msgstr "一段接合的混凝土栏杆。"
 #. ~ Terrain name
 #: data/json/furniture_and_terrain/terrain-fences-gates.json
 msgid "cyclopean low wall"
-msgstr ""
+msgstr "巨石矮墙"
 
 #. ~ Description of terrain 'cyclopean low wall'
 #: data/json/furniture_and_terrain/terrain-fences-gates.json
 msgid ""
 "A low wall made of large, roughly hewn stone blocks stacked without mortar."
-msgstr ""
+msgstr "一道矮墙，由大块粗凿石垒砌而成，未用任何灰浆黏合。"
 
 #. ~ Terrain name
 #: data/json/furniture_and_terrain/terrain-fences-gates.json
@@ -130044,7 +130063,7 @@ msgstr "堆滿屍體的坑"
 msgid ""
 "A giant trench full of corpses, maybe even a mass graveyard.  The bodies "
 "seem to be fused together in some grotesque fashion."
-msgstr ""
+msgstr "一道堆满尸体的巨大壕沟，或许称得上一片乱葬岗。尸体以某种诡异方式粘连融合，扭曲可怖。"
 
 #. ~ Bashing sound
 #. ~ Bashing failed sound
@@ -130309,13 +130328,13 @@ msgstr "粗糙的石頭地板。它的紋路不斷地變化，就好像你的大
 #. ~ Terrain name
 #: data/json/furniture_and_terrain/terrain-floors-indoor.json
 msgid "mosaic floor"
-msgstr ""
+msgstr "马赛克地板"
 
 #. ~ Description of terrain 'mosaic floor'
 #: data/json/furniture_and_terrain/terrain-floors-indoor.json
 msgid ""
 "A mosaic floor made from colored stones arranged into fanciful patterns."
-msgstr ""
+msgstr "彩色石块拼嵌的马赛克地板，构成奇幻绚丽的图案。"
 
 #. ~ Terrain name
 #: data/json/furniture_and_terrain/terrain-floors-indoor.json
@@ -131337,14 +131356,14 @@ msgstr "精心切割并铺设的石块地板，被灰浆连接在一起。"
 #: data/json/furniture_and_terrain/terrain-floors-outdoors.json
 #: data/json/overmap/overmap_terrain/overmap_terrain_transportation.json
 msgid "cobblestone road"
-msgstr ""
+msgstr "鹅卵石路"
 
 #. ~ Description of terrain 'cobblestone road'
 #: data/json/furniture_and_terrain/terrain-floors-outdoors.json
 msgid ""
 "Stone blocks carefully laid to create a durable road surface.  Moss and "
 "grass grow in the gaps between the stones."
-msgstr ""
+msgstr "精心铺就的石块筑成坚实路面，石缝间已长满苔藓与杂草。"
 
 #. ~ Description of terrain 'metal grate'
 #: data/json/furniture_and_terrain/terrain-floors-outdoors.json
@@ -131612,26 +131631,26 @@ msgstr "这棵落叶树的树枝被某种力量扭曲成螺旋状，而且让它
 #. ~ Terrain name
 #: data/json/furniture_and_terrain/terrain-flora.json
 msgid " dead holy tree"
-msgstr ""
+msgstr "枯萎的圣树"
 
 #. ~ Description of terrain ' dead holy tree'
 #: data/json/furniture_and_terrain/terrain-flora.json
 msgid ""
 "Censers and candlelamps hang from the twisted branches of this tree, which "
 "seems to have been revered in the past.  A sword is embedded in its trunk."
-msgstr ""
+msgstr "虬结的树枝间悬着香炉与烛灯，这棵树显然曾受人敬仰 —— 一柄长剑嵌在树干之中。"
 
 #. ~ Terrain name
 #: data/json/furniture_and_terrain/terrain-flora.json
 msgid "flower bed"
-msgstr ""
+msgstr "花坛"
 
 #. ~ Description of terrain 'flower bed'
 #: data/json/furniture_and_terrain/terrain-flora.json
 msgid ""
 "Dozens of large blue flowers grow nearly parallel to the ground .  They "
 "retain a neat arrangement even when growing wild."
-msgstr ""
+msgstr "数十朵硕大的蓝色花朵近乎贴着地面生长，即便在野外肆意绽放，仍保持着整齐的排布。"
 
 #. ~ Terrain name
 #: data/json/furniture_and_terrain/terrain-flora.json
@@ -144027,25 +144046,20 @@ msgid ""
 "one month."
 msgstr "各种有机废物和水的混合物。液体在罐中发酵需要大约两个月时间。此外，装罐一个月后，罐内开始产生沼气。"
 
-#. ~ Comestible name
+#. ~ Comestible/tool name
 #: data/json/items/chemicals_and_resources.json
 msgid "fermentable fish mixture"
 msgid_plural "fermentable fish mixture"
 msgstr[0] "可发酵混合鱼类"
 
-#. ~ Description of comestible 'fermentable fish mixture'
+#. ~ Description of comestible/tool 'fermentable fish mixture'
+#. ~ Description of comestible 'fermentable fish mixture (obsolete)'
 #: data/json/items/chemicals_and_resources.json
+#: data/json/obsoletion_and_migration_0.J/chemicals_and_resources.json
 msgid ""
 "A mixture of fish, sugars, and water.  Wait about two months for them to be "
 "fermented in an open tank."
 msgstr "鱼，糖和水的混合液体。装进开放的发酵容器中并等待两个月可以将其发酵。"
-
-#. ~ 'not_ready_msg' action message of item 'fermentable fish mixture'
-#: data/json/items/chemicals_and_resources.json
-msgid ""
-"The overpowering smell of the fermenting fish liquid makes it clear that it "
-"is not ready for use."
-msgstr "发酵的鱼类混合液散发出的强烈气味表明它还不能被使用。"
 
 #. ~ Comestible name
 #: data/json/items/chemicals_and_resources.json
@@ -145634,14 +145648,14 @@ msgstr[0] "混凝土攪拌機"
 #: data/json/items/farrier.json
 msgid "hoof pick"
 msgid_plural "hoof picks"
-msgstr[0] ""
+msgstr[0] "蹄铁钩"
 
 #. ~ Description of tool 'hoof pick'
 #: data/json/items/farrier.json
 msgid ""
 "A simple brush and pick combination tool for a farrier to clean up the "
 "horse's hoof before working on it."
-msgstr ""
+msgstr "这是蹄铁匠的专用工具，集刷子与铁钩于一体，用于给马匹处理蹄部前清理污物。"
 
 #. ~ Tool name
 #: data/json/items/farrier.json
@@ -145673,7 +145687,7 @@ msgstr "用来把钉子从表面拔出的工具。既可以被蹄铁工用来把
 #: data/json/items/farrier.json
 msgid "hoof tester"
 msgid_plural "hoof testers"
-msgstr[0] ""
+msgstr[0] "检蹄器"
 
 #. ~ Description of tool 'hoof tester'
 #: data/json/items/farrier.json
@@ -145681,93 +145695,93 @@ msgid ""
 "A two-pronged tool used by farriers to check if a horse's foot is sore.  It "
 "is used by putting some pressure on the horse's sole or heel and see how the"
 " horse react."
-msgstr ""
+msgstr "这是蹄铁匠用的双叉工具，用于检查马蹄是否疼痛。使用时需在马蹄底或脚跟施加一定压力，观察马匹的反应。"
 
 #. ~ Tool name
 #: data/json/items/farrier.json
 msgid "pair of nippers"
 msgid_plural "pairs of nippers"
-msgstr[0] ""
+msgstr[0] "修蹄钳"
 
 #. ~ Description of tool 'pair of nippers'
 #: data/json/items/farrier.json
 msgid ""
 "A tool used for trimming around the hoof wall until the foot is in the right"
 " height, like a giant pair of nail clippers."
-msgstr ""
+msgstr "这是一种用于修剪蹄壁边缘的工具，能将马蹄修整到合适高度，模样如同巨型指甲钳。"
 
 #. ~ Tool name
 #: data/json/items/farrier.json
 msgid "rasp"
 msgid_plural "rasps"
-msgstr[0] ""
+msgstr[0] "修蹄锉"
 
 #. ~ Description of tool 'rasp'
 #: data/json/items/farrier.json
 msgid "A large nail file used to trim and smoothen horse hoof edges."
-msgstr ""
+msgstr "这是一种大型锉刀，用于修整并磨平马蹄边缘。"
 
 #. ~ Tool name
 #: data/json/items/farrier.json
 msgid "pritchel"
 msgid_plural "pritchels"
-msgstr[0] ""
+msgstr[0] "蹄钉冲"
 
 #. ~ Description of tool 'pritchel'
 #: data/json/items/farrier.json
 msgid "A punch used in creating nail holes for horseshoes."
-msgstr ""
+msgstr "这是一种冲头，用于在蹄铁上冲出钉孔。"
 
 #. ~ Tool name
 #: data/json/items/farrier.json
 msgid "clinch block"
 msgid_plural "clinch blocks"
-msgstr[0] ""
+msgstr[0] "蹄钉压紧块"
 
 #. ~ Description of tool 'clinch block'
 #: data/json/items/farrier.json
 msgid ""
 "A simple metal block with angled edge used to help with clinching the nails."
-msgstr ""
+msgstr "这是一块带斜角边缘的简易金属块，用于辅助压紧蹄钉。"
 
 #. ~ Tool name
 #: data/json/items/farrier.json
 msgid "pair of clinchers"
 msgid_plural "pairs of clinchers"
-msgstr[0] ""
+msgstr[0] "蹄钉钳"
 
 #. ~ Description of tool 'pair of clinchers'
 #: data/json/items/farrier.json
 msgid ""
 "A plier-like tool used to lightly bend and flatten the nail down against the"
 " hoof wall to keep it in place."
-msgstr ""
+msgstr "这是一种类似钳子的工具，用于将蹄钉轻轻弯折并压平，使其贴紧蹄壁以固定蹄铁。"
 
 #. ~ Tool name
 #: data/json/items/farrier.json
 msgid "clinch cutter"
 msgid_plural "clinch cutters"
-msgstr[0] ""
+msgstr[0] "蹄钉切断钳"
 
 #. ~ Description of tool 'clinch cutter'
 #: data/json/items/farrier.json
 msgid ""
 "A small hatchet looking tool used for cutting excess nail points once the "
 "nail has been clinched."
-msgstr ""
+msgstr "一把外形似小斧头的工具，用于在钉子钉入并敲弯后斩断多余的钉尖。"
 
 #. ~ Tool name
 #: data/json/items/farrier.json
 msgid "hoof stand"
 msgid_plural "hoof stands"
-msgstr[0] ""
+msgstr[0] "蹄架"
 
 #. ~ Description of tool 'hoof stand'
 #: data/json/items/farrier.json
 msgid ""
 "A small stand for supporting the horse's foot in the final stages of the "
 "shoe job."
-msgstr ""
+msgstr "用于在钉蹄铁作业最终阶段支撑马匹蹄部的小型支架。"
 
 #. ~ Tool name
 #: data/json/items/farrier.json
@@ -151283,14 +151297,14 @@ msgstr "一块钢制装甲板，专为防弹背心而设计。"
 #: data/json/items/generic.json
 msgid "censer"
 msgid_plural "censers"
-msgstr[0] ""
+msgstr[0] "香炉"
 
 #. ~ Description of item 'censer'
 #: data/json/items/generic.json
 msgid ""
 "A small bronze vessel used to burn incense and other aromatic substances.  "
 "Its adorned with a variety of natural and knotwork designs."
-msgstr ""
+msgstr "一件用于燃烧熏香及其他芳香物质的小型青铜容器，器身装饰着各类自然纹样与绳结纹图案。"
 
 #. ~ Item name
 #: data/json/items/generic.json
@@ -152589,7 +152603,7 @@ msgstr "一个暗褐色球体。表面有干土的纹路。"
 #. ~ 'description' action message of item 'dull brown orb'
 #: data/json/items/nether.json
 msgid "Squeeze the orb."
-msgstr ""
+msgstr "挤压球体"
 
 #. ~ Tool name
 #: data/json/items/nether.json
@@ -154071,20 +154085,20 @@ msgstr "你戴上了耳機並且開始聽音樂。"
 #: data/json/items/tool_armor.json
 msgid "smart watch - music"
 msgid_plural "smart watches - music"
-msgstr[0] ""
+msgstr[0] "智能手表（音乐）"
 
 #. ~ Description of tool 'smart watch - music'
 #: data/json/items/tool_armor.json
 msgid ""
 "This smart watch is playing music, steadily raising your morale.  You can't "
 "hear anything else while you're listening."
-msgstr ""
+msgstr "这款智能手表正在播放音乐，稳步提升你的士气。你在听音乐的时候，听不到其他的声音。"
 
 #. ~ 'message' action message of item 'smart watch - music'
 #. ~ 'message' action message of item 'advanced smart watch - music'
 #: data/json/items/tool_armor.json
 msgid "The smart watch turns off."
-msgstr ""
+msgstr "智能手表关闭了。"
 
 #. ~ Armor/tool name
 #: data/json/items/tool_armor.json
@@ -154126,14 +154140,14 @@ msgstr[0] "相機"
 #: data/json/items/tool_armor.json
 msgid "advanced smart watch - music"
 msgid_plural "advanced smart watches - music"
-msgstr[0] ""
+msgstr[0] "高级智能手表（音乐）"
 
 #. ~ Description of tool 'advanced smart watch - music'
 #: data/json/items/tool_armor.json
 msgid ""
 "This advanced smart watch is playing music, steadily raising your morale.  "
 "You can't hear anything else while you're listening."
-msgstr ""
+msgstr "这款高级智能手表正在播放音乐，稳步提升你的士气。你在听音乐的时候，听不到其他的声音。"
 
 #. ~ Armor/tool name
 #: data/json/items/tool_armor.json
@@ -154427,7 +154441,7 @@ msgstr "LED 頭燈配有可調式帶子，可舒適地戴在頭上或固定在�
 
 #. ~ 'msg' action message of item 'headlamp (on)'
 #. ~ 'msg' action message of item 'heavy-duty headlamp (on)'
-#. ~ 'msg' action message of item 'shooter's earmuffs'
+#. ~ 'msg' action message of item 'shooter's earmuffs (on)'
 #. ~ 'msg' action message of item 'shooter's ear plugs (on)'
 #. ~ 'msg' action message of item 'military flight helmet (on)'
 #: data/json/items/tool_armor.json
@@ -155318,7 +155332,13 @@ msgstr "你啟動了射擊耳罩。"
 msgid "The earmuff's batteries are dead."
 msgstr "射擊耳罩的電池沒電了。"
 
-#. ~ Description of armor/tool 'shooter's earmuffs'
+#. ~ Armor/tool name
+#: data/json/items/tool_armor.json
+msgid "shooter's earmuffs (on)"
+msgid_plural "shooter's earmuffs (on)"
+msgstr[0] "射击护耳（开）"
+
+#. ~ Description of armor/tool 'shooter's earmuffs (on)'
 #: data/json/items/tool_armor.json
 msgid ""
 "A pair of earmuffs favored by shooters.  The earmuffs are turned on, and "
@@ -157999,6 +158019,7 @@ msgid ""
 "munitions and anti-materiel rounds, although its potential utility as a "
 "hunting cartridge was somewhat diminished due to its high cost."
 msgstr ""
+"338拉普阿弹，装配300格令空尖船尾形弹头。该弹药由精密国际公司、萨克公司及拉普阿公司联合研发，作为一种远距离狙击弹药，以其卓越的精准度和强大的终端弹道效能著称。在大灾变前夕，该弹种因其在轻量化步兵弹药与反器材弹药之间形成的火力空白地带，受到军方、执法部门及民间射击爱好者日益增长的关注，尽管其高昂的成本在一定程度上限制了作为狩猎弹药的普及度。"
 
 #. ~ Ammunition name
 #: data/json/items/ammo/338lapua.json
@@ -161607,6 +161628,7 @@ msgid ""
 "  Historically used by horse archers, rather than foot archers, but neither "
 "of THEM had to fight zombies.  Use insert to store arrows or bolts."
 msgstr ""
+"一个大型皮革箭袋，背戴式，可容纳60支箭或弩箭。历史上为骑兵弓箭手而非步兵弓箭手所用——当然，他们都无需与丧尸作战。使用插入物存放箭矢或弩箭。"
 
 #. ~ Armor name
 #: data/json/items/armor/ammo_pouch.json data/mods/Magiclysm/items/armor.json
@@ -162168,20 +162190,6 @@ msgstr "一雙強韌的皮革護臂。輕巧且舒適。"
 
 #. ~ Armor name
 #: data/json/items/armor/arms_armor.json
-msgid "steel arm guards (pair)"
-msgid_plural "steel arm guards (pair)"
-msgstr[0] "钢制护臂 (一对)"
-
-#. ~ Description of armor 'steel arm guards (pair)'
-#: data/json/items/armor/arms_armor.json
-msgid ""
-"A full assembly of medieval arm protection.  Rerebraces, couters, and "
-"vambraces, with leather straps to secure each piece and connect it as part "
-"of a set."
-msgstr "一副完整組裝的中世紀護臂。以皮革綁帶固定並連結著上臂護甲、護肘以及前臂護甲。"
-
-#. ~ Armor name
-#: data/json/items/armor/arms_armor.json
 msgid "sheet metal arm guards (pair)"
 msgid_plural "sheet metal arm guards (pair)"
 msgstr[0] "金属板护臂 (一对)"
@@ -162317,7 +162325,7 @@ msgstr[0] "废料护臂 (一对)"
 msgid ""
 "Jagged metal scraps crudely strapped to lower arms.  Gaps expose skin and "
 "swinging feels like lifting weights."
-msgstr ""
+msgstr "参差不齐的金属碎片被粗糙地捆缚在前臂上。缝隙间暴露着皮肤，挥舞起来仿佛举重。"
 
 #. ~ Armor name
 #: data/json/items/armor/arms_armor.json
@@ -164405,7 +164413,7 @@ msgstr[0] "scrap boots (pair)"
 msgid ""
 "Boots made of random metal scraps attached to simple cloth wraps.  They're "
 "very uncomfortable, but provide some level of protection."
-msgstr ""
+msgstr "由杂乱的金属碎片与简易布条缠制而成的靴子。穿着极不舒适，但能提供一定程度的防护。"
 
 #. ~ Armor name
 #: data/json/items/armor/boots.json
@@ -166434,6 +166442,7 @@ msgid ""
 "\"the arrow points to the right to show forward movement, while being along "
 "the left edge shows that progress still needs to be made\"."
 msgstr ""
+"左侧可见一个饰有黑、棕、浅蓝、粉与白色条纹的V形箭标，旨在彰显这些社群的存在；\"箭头向右象征前进动向，而标志居于左缘则意味着进步之路尚待努力\"。"
 
 #. ~ Variant name of armor 'pride flag'
 #: data/json/items/armor/cloaks.json
@@ -171706,7 +171715,7 @@ msgid ""
 "Put the tank in tank suit with this 6mm thick exoskeleton armor, it even "
 "feels like wearing a real tank, you should stay wary of anti-materiel rounds"
 " though."
-msgstr ""
+msgstr "穿上6毫米厚外骨骼装甲的坦克服，甚至让你感觉就像穿着一辆真正的坦克，不过你应该警惕反器材子弹。"
 
 #. ~ Description of a pocket in 'heavy combat exoskeleton head armor'
 #. ~ Description of a pocket in 'hard hat'
@@ -171826,7 +171835,7 @@ msgid ""
 "Put the tank in tank suit with this 6mm thick exoskeleton armor, it even "
 "feels like wearing a real tank, you should stay wary of anti-materiel rounds"
 " though.  This armor has been reinforced with chainmail to fill its gaps."
-msgstr ""
+msgstr "穿上6毫米厚外骨骼装甲的坦克服，甚至让你感觉就像穿着一辆真正的坦克，不过你应该警惕反器材子弹。这块护甲已经用链甲强化过，以填补缺口。"
 
 #. ~ Armor name
 #: data/json/items/armor/combat_exoskeleton_armor.json
@@ -174479,14 +174488,8 @@ msgstr[0] "黑色廚師帽"
 #. ~ Description of variant 'black bikini top' of armor 'bikini top'
 #. ~ Description of variant 'black swimsuit' of armor 'swimsuit'
 #. ~ Description of variant 'black rashguard shirt' of armor 'rashguard shirt'
-#. ~ Description of variant 'black witch dress' of armor 'witch dress'
-#. ~ Description of variant 'long black witch dress' of armor 'long witch
-#. dress'
-#. ~ Description of variant 'short black witch dress' of armor 'short witch
-#. dress'
 #: data/json/items/armor/hats.json data/json/items/armor/masks.json
 #: data/json/items/armor/swimming.json
-#: data/json/items/armor/torso_clothes.json
 msgid "It's colored black."
 msgstr "黑色的。"
 
@@ -175228,12 +175231,7 @@ msgid_plural "green pointed hats"
 msgstr[0] "尖顶帽（绿色）"
 
 #. ~ Description of variant 'green pointed hat' of armor 'pointed hat'
-#. ~ Description of variant 'green witch dress' of armor 'witch dress'
-#. ~ Description of variant 'long green witch dress' of armor 'long witch
-#. dress'
-#. ~ Description of variant 'short green witch dress' of armor 'short witch
-#. dress'
-#: data/json/items/armor/hats.json data/json/items/armor/torso_clothes.json
+#: data/json/items/armor/hats.json
 msgid "It's colored dark green."
 msgstr "它是深绿色的。"
 
@@ -175244,11 +175242,7 @@ msgid_plural "red pointed hats"
 msgstr[0] "尖顶帽（红色）"
 
 #. ~ Description of variant 'red pointed hat' of armor 'pointed hat'
-#. ~ Description of variant 'red witch dress' of armor 'witch dress'
-#. ~ Description of variant 'long red witch dress' of armor 'long witch dress'
-#. ~ Description of variant 'short red witch dress' of armor 'short witch
-#. dress'
-#: data/json/items/armor/hats.json data/json/items/armor/torso_clothes.json
+#: data/json/items/armor/hats.json
 msgid "It's colored dark red."
 msgstr "它是深红色的。"
 
@@ -175259,12 +175253,7 @@ msgid_plural "purple pointed hats"
 msgstr[0] "尖顶帽（紫色）"
 
 #. ~ Description of variant 'purple pointed hat' of armor 'pointed hat'
-#. ~ Description of variant 'purple witch dress' of armor 'witch dress'
-#. ~ Description of variant 'long purple witch dress' of armor 'long witch
-#. dress'
-#. ~ Description of variant 'short purple witch dress' of armor 'short witch
-#. dress'
-#: data/json/items/armor/hats.json data/json/items/armor/torso_clothes.json
+#: data/json/items/armor/hats.json
 msgid "It's colored dark purple."
 msgstr "它是深紫色的。"
 
@@ -183711,19 +183700,6 @@ msgstr "一個硬塑膠製的護腿， 有泡綿緩衝內襯。"
 
 #. ~ Armor name
 #: data/json/items/armor/legs_armor.json
-msgid "steel leg guards (pair)"
-msgid_plural "steel leg guards (pair)"
-msgstr[0] "钢制护腿（一对）"
-
-#. ~ Description of armor 'steel leg guards (pair)'
-#: data/json/items/armor/legs_armor.json
-msgid ""
-"A full assembly of medieval leg protection.  Cuisses, poleyns, and greaves, "
-"with leather straps to secure each piece and connect it as part of a set."
-msgstr "一副完整組裝的中世紀護腿。以皮革綁帶固定並連結著護腿、護膝以及護脛。 "
-
-#. ~ Armor name
-#: data/json/items/armor/legs_armor.json
 msgid "iron greaves (pair)"
 msgid_plural "iron greaves (pair)"
 msgstr[0] "铁护胫（一对）"
@@ -184657,23 +184633,23 @@ msgstr[0] "窄脚裤"
 
 #. ~ Description of armor 'skinny jeans'
 #: data/json/items/armor/legs_clothes.json
-msgid "A pair of skinny jeans with two pockets."
-msgstr "一条有两个口袋的窄脚裤。"
+msgid "A pair of skinny jeans with four pockets."
+msgstr ""
 
 #. ~ Snippet of item 'skinny jeans'
 #: data/json/items/armor/legs_clothes.json
-msgid "A pair of blue skinny jeans with two pockets."
-msgstr "一条有两个口袋的蓝色窄脚裤。"
+msgid "A pair of blue skinny jeans with four pockets."
+msgstr ""
 
 #. ~ Snippet of item 'skinny jeans'
 #: data/json/items/armor/legs_clothes.json
-msgid "A pair of black skinny jeans with two pockets."
-msgstr "一条有两个口袋的黑色窄脚裤。"
+msgid "A pair of black skinny jeans with four pockets."
+msgstr ""
 
 #. ~ Snippet of item 'skinny jeans'
 #: data/json/items/armor/legs_clothes.json
-msgid "A pair of red skinny jeans with two pockets."
-msgstr "一条有两个口袋的红色窄脚裤。"
+msgid "A pair of red skinny jeans with four pockets."
+msgstr ""
 
 #. ~ Armor name
 #: data/json/items/armor/legs_clothes.json
@@ -185868,7 +185844,16 @@ msgid_plural "black balaclavas"
 msgstr[0] "黑色巴拉克拉瓦头套"
 
 #. ~ Description of variant 'black balaclava' of armor 'balaclava'
+#. ~ Description of variant 'black dress' of armor 'dress'
 #. ~ Description of variant 'long black dress' of armor 'long dress'
+#. ~ Description of variant 'short black dress' of armor 'short dress'
+#. ~ Description of variant 'black dress with sleeves' of armor 'dress with
+#. sleeves'
+#. ~ Description of variant 'long black dress with sleeves' of armor 'long
+#. dress with sleeves'
+#. ~ Description of variant 'short black dress with sleeves' of armor 'short
+#. dress with sleeves'
+#. ~ Description of variant 'black gown' of armor 'evening gown with sleeves'
 #. ~ Description of variant 'black binder' of armor 'binder'
 #: data/json/items/armor/masks.json data/json/items/armor/torso_clothes.json
 #: data/json/items/armor/undergarment.json
@@ -190247,7 +190232,15 @@ msgstr[0] "白色连身衣"
 
 #. ~ Description of variant 'white jumpsuit' of armor 'pocketless jumpsuit'
 #. ~ Description of variant 'white jumpsuit' of armor 'jumpsuit'
+#. ~ Description of variant 'white dress' of armor 'dress'
 #. ~ Description of variant 'long white dress' of armor 'long dress'
+#. ~ Description of variant 'short white dress' of armor 'short dress'
+#. ~ Description of variant 'white dress with sleeves' of armor 'dress with
+#. sleeves'
+#. ~ Description of variant 'long white dress with sleeves' of armor 'long
+#. dress with sleeves'
+#. ~ Description of variant 'short white dress with sleeves' of armor 'short
+#. dress with sleeves'
 #. ~ Description of variant 'white button shirt' of armor 'button shirt'
 #. ~ Description of variant 'white binder' of armor 'binder'
 #: data/json/items/armor/suits_clothes.json
@@ -193987,6 +193980,29 @@ msgstr ""
 
 #. ~ Armor name
 #: data/json/items/armor/torso_clothes.json
+msgid "dress"
+msgid_plural "dresses"
+msgstr[0] "洋裝"
+
+#. ~ Description of armor 'dress'
+#: data/json/items/armor/torso_clothes.json
+msgid "A cotton dress."
+msgstr "一件棉制连衣裙"
+
+#. ~ Variant name of armor 'dress'
+#: data/json/items/armor/torso_clothes.json
+msgid "white dress"
+msgid_plural "white dresses"
+msgstr[0] "白色连衣裙"
+
+#. ~ Variant name of armor 'dress'
+#: data/json/items/armor/torso_clothes.json
+msgid "black dress"
+msgid_plural "black dresses"
+msgstr[0] "黑色连衣裙"
+
+#. ~ Armor name
+#: data/json/items/armor/torso_clothes.json
 msgid "long dress"
 msgid_plural "long dresses"
 msgstr[0] "长连衣裙"
@@ -194008,17 +194024,272 @@ msgid "long black dress"
 msgid_plural "long black dresses"
 msgstr[0] "黑色长连衣裙"
 
-#. ~ Variant name of armor 'long dress'
+#. ~ Armor name
 #: data/json/items/armor/torso_clothes.json
-msgid "evening gown"
-msgid_plural "evening gowns"
-msgstr[0] "晚禮服"
+msgid "short dress"
+msgid_plural "short dresses"
+msgstr[0] "短连衣裙"
 
-#. ~ Description of variant 'evening gown' of armor 'long dress'
+#. ~ Description of armor 'short dress'
+#: data/json/items/armor/torso_clothes.json
+msgid "A short cotton dress."
+msgstr "一件短棉制连衣裙。"
+
+#. ~ Variant name of armor 'short dress'
+#: data/json/items/armor/torso_clothes.json
+msgid "short white dress"
+msgid_plural "short white dresses"
+msgstr[0] "短白色连衣裙"
+
+#. ~ Variant name of armor 'short dress'
+#: data/json/items/armor/torso_clothes.json
+msgid "short black dress"
+msgid_plural "short black dresses"
+msgstr[0] "短黑色连衣裙"
+
+#. ~ Variant name of armor 'short dress'
+#: data/json/items/armor/torso_clothes.json
+msgid "short sinister dress"
+msgid_plural "short sinister dresses"
+msgstr[0] "邪惡短裙"
+
+#. ~ Description of variant 'short sinister dress' of armor 'short dress'
+#: data/json/items/armor/torso_clothes.json
+msgid "A short red dress made in gothic lolita fashion."
+msgstr "哥德蘿莉塔風格的紅色短裙。"
+
+#. ~ Armor name
+#: data/json/items/armor/torso_clothes.json
+msgid "dress with sleeves"
+msgid_plural "dresses with sleeves"
+msgstr[0] "有袖连衣裙"
+
+#. ~ Description of armor 'dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "A cotton dress with sleeves."
+msgstr "一件棉制有袖连衣裙"
+
+#. ~ Variant name of armor 'dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "white dress with sleeves"
+msgid_plural "white dresses with sleeves"
+msgstr[0] "白色有袖连衣裙"
+
+#. ~ Variant name of armor 'dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "black dress with sleeves"
+msgid_plural "black dresses with sleeves"
+msgstr[0] "黑色有袖连衣裙"
+
+#. ~ Variant name of armor 'dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "black witch dress"
+msgid_plural "black witch dresses"
+msgstr[0] "黑色女巫连衣裙"
+
+#. ~ Description of variant 'black witch dress' of armor 'dress with sleeves'
 #: data/json/items/armor/torso_clothes.json
 msgid ""
-"A luxurious evening gown.  It accentuates your curves, or lack thereof."
-msgstr "一件華麗的晚禮服。它突出了你的曲線 (或缺乏曲線)。"
+"A dress with full sleeves and pointed cuts at the edges.  Perfect for "
+"Halloween.  It's colored black."
+msgstr "一条边缘有尖锐切口的长袖连衣裙。非常适合万圣节之夜。这件是黑色的。"
+
+#. ~ Variant name of armor 'dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "green witch dress"
+msgid_plural "green witch dresses"
+msgstr[0] "绿色女巫连衣裙"
+
+#. ~ Description of variant 'green witch dress' of armor 'dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid ""
+"A dress with full sleeves and pointed cuts at the edges.  Perfect for "
+"Halloween.  It's colored dark green."
+msgstr "一条边缘有尖锐切口的长袖连衣裙。非常适合万圣节之夜。这件是绿色的。"
+
+#. ~ Variant name of armor 'dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "red witch dress"
+msgid_plural "red witch dresses"
+msgstr[0] "红色女巫连衣裙"
+
+#. ~ Description of variant 'red witch dress' of armor 'dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid ""
+"A dress with full sleeves and pointed cuts at the edges.  Perfect for "
+"Halloween.  It's colored dark red."
+msgstr "一条边缘有尖锐切口的长袖连衣裙。非常适合万圣节之夜。这件是深红色的。"
+
+#. ~ Variant name of armor 'dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "purple witch dress"
+msgid_plural "purple witch dresses"
+msgstr[0] "紫色女巫连衣裙"
+
+#. ~ Description of variant 'purple witch dress' of armor 'dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid ""
+"A dress with full sleeves and pointed cuts at the edges.  Perfect for "
+"Halloween.  It's colored dark purple."
+msgstr "一条边缘有尖锐切口的长袖连衣裙。非常适合万圣节之夜。这件是深紫色的。"
+
+#. ~ Armor name
+#: data/json/items/armor/torso_clothes.json
+msgid "long dress with sleeves"
+msgid_plural "long dresses with sleeves"
+msgstr[0] "长款有袖连衣裙"
+
+#. ~ Description of armor 'long dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "A long cotton dress with sleeves."
+msgstr "一件长款棉制有袖连衣裙。"
+
+#. ~ Variant name of armor 'long dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "long white dress with sleeves"
+msgid_plural "long white dresses with sleeves"
+msgstr[0] "长款白色有袖连衣裙"
+
+#. ~ Variant name of armor 'long dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "long black dress with sleeves"
+msgid_plural "long black dresses with sleeves"
+msgstr[0] "长款黑色有袖连衣裙"
+
+#. ~ Variant name of armor 'long dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "long black witch dress"
+msgid_plural "long black witch dresses"
+msgstr[0] "黑色女巫长裙"
+
+#. ~ Description of variant 'long black witch dress' of armor 'long dress with
+#. sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "A long dress with sleeves, typical of a witch.  It's colored black."
+msgstr ""
+
+#. ~ Variant name of armor 'long dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "long green witch dress"
+msgid_plural "long green witch dresses"
+msgstr[0] "绿色女巫长裙"
+
+#. ~ Description of variant 'long green witch dress' of armor 'long dress with
+#. sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid ""
+"A long dress with sleeves, typical of a witch.  It's colored dark green."
+msgstr ""
+
+#. ~ Variant name of armor 'long dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "long red witch dress"
+msgid_plural "long red witch dresses"
+msgstr[0] "红色女巫长裙"
+
+#. ~ Description of variant 'long red witch dress' of armor 'long dress with
+#. sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "A long dress with sleeves, typical of a witch.  It's colored dark red."
+msgstr ""
+
+#. ~ Variant name of armor 'long dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "long purple witch dress"
+msgid_plural "long purple witch dresses"
+msgstr[0] "紫色女巫长裙"
+
+#. ~ Description of variant 'long purple witch dress' of armor 'long dress
+#. with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid ""
+"A long dress with sleeves, typical of a witch.  It's colored dark purple."
+msgstr ""
+
+#. ~ Variant name of armor 'long dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "sinister dress"
+msgid_plural "sinister dresses"
+msgstr[0] "邪惡連衣裙"
+
+#. ~ Description of variant 'sinister dress' of armor 'long dress with
+#. sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid ""
+"A long black and red dress with full sleeves, a collar, and embroidery "
+"reminiscent of a vampire duchess."
+msgstr "黑色和紅色的長袖連身裙，有領子和刺繡，讓人聯想到吸血鬼公爵夫人。"
+
+#. ~ Armor name
+#: data/json/items/armor/torso_clothes.json
+msgid "short dress with sleeves"
+msgid_plural "short dresses with sleeves"
+msgstr[0] ""
+
+#. ~ Description of armor 'short dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "A short cotton dress with sleeves."
+msgstr ""
+
+#. ~ Variant name of armor 'short dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "short white dress with sleeves"
+msgid_plural "short white dresses with sleeves"
+msgstr[0] ""
+
+#. ~ Variant name of armor 'short dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "short black dress with sleeves"
+msgid_plural "short black dresses with sleeves"
+msgstr[0] ""
+
+#. ~ Variant name of armor 'short dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "short black witch dress"
+msgid_plural "short black witch dresses"
+msgstr[0] "黑色女巫连衣短裙"
+
+#. ~ Description of variant 'short black witch dress' of armor 'short dress
+#. with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "A short dress typically used by witches.  It's colored black."
+msgstr ""
+
+#. ~ Variant name of armor 'short dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "short green witch dress"
+msgid_plural "short green witch dresses"
+msgstr[0] "绿色女巫连衣短裙"
+
+#. ~ Description of variant 'short green witch dress' of armor 'short dress
+#. with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "A short dress typically used by witches.  It's colored dark green."
+msgstr ""
+
+#. ~ Variant name of armor 'short dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "short red witch dress"
+msgid_plural "short red witch dresses"
+msgstr[0] "红色女巫连衣短裙"
+
+#. ~ Description of variant 'short red witch dress' of armor 'short dress with
+#. sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "A short dress typically used by witches.  It's colored dark red."
+msgstr ""
+
+#. ~ Variant name of armor 'short dress with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "short purple witch dress"
+msgid_plural "short purple witch dresses"
+msgstr[0] "紫色女巫连衣短裙"
+
+#. ~ Description of variant 'short purple witch dress' of armor 'short dress
+#. with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "A short dress typically used by witches.  It's colored dark purple."
+msgstr ""
 
 #. ~ Armor name
 #: data/json/items/armor/torso_clothes.json
@@ -194120,6 +194391,51 @@ msgstr[0] "粗製救生背心"
 #: data/json/items/armor/torso_clothes.json
 msgid "A flotation vest made of inflated animal skins."
 msgstr "一件以充氣動物毛皮製作的救生衣。"
+
+#. ~ Armor name
+#: data/json/items/armor/torso_clothes.json
+msgid "evening gown"
+msgid_plural "evening gowns"
+msgstr[0] "晚禮服"
+
+#. ~ Description of armor 'evening gown'
+#: data/json/items/armor/torso_clothes.json
+msgid ""
+"A luxurious evening gown.  It accentuates your curves, or lack thereof."
+msgstr "一件華麗的晚禮服。它突出了你的曲線 (或缺乏曲線)。"
+
+#. ~ Armor name
+#: data/json/items/armor/torso_clothes.json
+msgid "evening gown with sleeves"
+msgid_plural "evening gowns with sleeves"
+msgstr[0] ""
+
+#. ~ Description of armor 'evening gown with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid ""
+"A luxurious evening gown with full sleeves.  It accentuates your curves, or "
+"lack thereof."
+msgstr ""
+
+#. ~ Variant name of armor 'evening gown with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "black gown"
+msgid_plural "black gowns"
+msgstr[0] ""
+
+#. ~ Variant name of armor 'evening gown with sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid "sinister gown"
+msgid_plural "sinister gowns"
+msgstr[0] "邪惡禮服"
+
+#. ~ Description of variant 'sinister gown' of armor 'evening gown with
+#. sleeves'
+#: data/json/items/armor/torso_clothes.json
+msgid ""
+"A red and black gown with full sleeves.  It has a gothic style and looks "
+"pretty luxurious."
+msgstr "一件红黑色长袖礼服。哥特风，看起来很奢华。"
 
 #. ~ Armor name
 #: data/json/items/armor/torso_clothes.json
@@ -194652,43 +194968,6 @@ msgstr "用草編織而成的粗獷笨重的短袖襯衫。絕對不是最舒服
 
 #. ~ Armor name
 #: data/json/items/armor/torso_clothes.json
-msgid "sinister dress"
-msgid_plural "sinister dresses"
-msgstr[0] "邪惡連衣裙"
-
-#. ~ Description of armor 'sinister dress'
-#: data/json/items/armor/torso_clothes.json
-msgid ""
-"A long black and red dress with full sleeves, a collar, and embroidery "
-"reminiscent of a vampire duchess."
-msgstr "黑色和紅色的長袖連身裙，有領子和刺繡，讓人聯想到吸血鬼公爵夫人。"
-
-#. ~ Armor name
-#: data/json/items/armor/torso_clothes.json
-msgid "short sinister dress"
-msgid_plural "short sinister dresses"
-msgstr[0] "邪惡短裙"
-
-#. ~ Description of armor 'short sinister dress'
-#: data/json/items/armor/torso_clothes.json
-msgid "A short red dress made in gothic lolita fashion."
-msgstr "哥德蘿莉塔風格的紅色短裙。"
-
-#. ~ Armor name
-#: data/json/items/armor/torso_clothes.json
-msgid "sinister gown"
-msgid_plural "sinister gowns"
-msgstr[0] "邪惡禮服"
-
-#. ~ Description of armor 'sinister gown'
-#: data/json/items/armor/torso_clothes.json
-msgid ""
-"A red and black gown with full sleeves.  It has a gothic style and looks "
-"pretty luxurious."
-msgstr "一件红黑色长袖礼服。哥特风，看起来很奢华。"
-
-#. ~ Armor name
-#: data/json/items/armor/torso_clothes.json
 msgid "sundress"
 msgid_plural "sundresses"
 msgstr[0] "夏日洋裝"
@@ -195006,115 +195285,6 @@ msgstr[0] "皮革背心"
 #: data/json/items/armor/torso_clothes.json
 msgid "A vest made from thick leather."
 msgstr "由厚皮革製成的背心。"
-
-#. ~ Armor name
-#: data/json/items/armor/torso_clothes.json
-msgid "witch dress"
-msgid_plural "witch dresses"
-msgstr[0] "女巫連衣裙"
-
-#. ~ Description of armor 'witch dress'
-#: data/json/items/armor/torso_clothes.json
-msgid ""
-"A dress with full sleeves and pointed cuts at the edges.  Perfect for "
-"Halloween."
-msgstr "一件具有长袖和尖形剪裁边缘的连衣裙。非常适合万圣节之夜。"
-
-#. ~ Variant name of armor 'witch dress'
-#: data/json/items/armor/torso_clothes.json
-msgid "black witch dress"
-msgid_plural "black witch dresses"
-msgstr[0] "黑色女巫连衣裙"
-
-#. ~ Variant name of armor 'witch dress'
-#: data/json/items/armor/torso_clothes.json
-msgid "green witch dress"
-msgid_plural "green witch dresses"
-msgstr[0] "绿色女巫连衣裙"
-
-#. ~ Variant name of armor 'witch dress'
-#: data/json/items/armor/torso_clothes.json
-msgid "red witch dress"
-msgid_plural "red witch dresses"
-msgstr[0] "红色女巫连衣裙"
-
-#. ~ Variant name of armor 'witch dress'
-#: data/json/items/armor/torso_clothes.json
-msgid "purple witch dress"
-msgid_plural "purple witch dresses"
-msgstr[0] "紫色女巫连衣裙"
-
-#. ~ Armor name
-#: data/json/items/armor/torso_clothes.json
-msgid "long witch dress"
-msgid_plural "long witch dresses"
-msgstr[0] "女巫連衣長裙"
-
-#. ~ Description of armor 'long witch dress'
-#: data/json/items/armor/torso_clothes.json
-msgid ""
-"A long dress with sleeves, typical of a witch.  It includes a pouch for "
-"storing potions and other magical items."
-msgstr "一条女巫常穿的长袖连衣裙。它包括一个用来存放药剂和其他魔法物品的袋子。"
-
-#. ~ Variant name of armor 'long witch dress'
-#: data/json/items/armor/torso_clothes.json
-msgid "long black witch dress"
-msgid_plural "long black witch dresses"
-msgstr[0] "黑色女巫长裙"
-
-#. ~ Variant name of armor 'long witch dress'
-#: data/json/items/armor/torso_clothes.json
-msgid "long green witch dress"
-msgid_plural "long green witch dresses"
-msgstr[0] "绿色女巫长裙"
-
-#. ~ Variant name of armor 'long witch dress'
-#: data/json/items/armor/torso_clothes.json
-msgid "long red witch dress"
-msgid_plural "long red witch dresses"
-msgstr[0] "红色女巫长裙"
-
-#. ~ Variant name of armor 'long witch dress'
-#: data/json/items/armor/torso_clothes.json
-msgid "long purple witch dress"
-msgid_plural "long purple witch dresses"
-msgstr[0] "紫色女巫长裙"
-
-#. ~ Armor name
-#: data/json/items/armor/torso_clothes.json
-msgid "short witch dress"
-msgid_plural "short witch dresses"
-msgstr[0] "女巫連衣短裙"
-
-#. ~ Description of armor 'short witch dress'
-#: data/json/items/armor/torso_clothes.json
-msgid "A short dress typically used by witches."
-msgstr "一条通常由女巫穿着的连衣短裙。"
-
-#. ~ Variant name of armor 'short witch dress'
-#: data/json/items/armor/torso_clothes.json
-msgid "short black witch dress"
-msgid_plural "short black witch dresses"
-msgstr[0] "黑色女巫连衣短裙"
-
-#. ~ Variant name of armor 'short witch dress'
-#: data/json/items/armor/torso_clothes.json
-msgid "short green witch dress"
-msgid_plural "short green witch dresses"
-msgstr[0] "绿色女巫连衣短裙"
-
-#. ~ Variant name of armor 'short witch dress'
-#: data/json/items/armor/torso_clothes.json
-msgid "short red witch dress"
-msgid_plural "short red witch dresses"
-msgstr[0] "红色女巫连衣短裙"
-
-#. ~ Variant name of armor 'short witch dress'
-#: data/json/items/armor/torso_clothes.json
-msgid "short purple witch dress"
-msgid_plural "short purple witch dresses"
-msgstr[0] "紫色女巫连衣短裙"
 
 #. ~ Armor name
 #: data/json/items/armor/torso_clothes.json
@@ -213658,13 +213828,14 @@ msgstr "瞄準具"
 #: data/json/items/gun/40.json data/json/items/gun/40x46mm.json
 #: data/json/items/gun/40x53mm.json data/json/items/gun/44.json
 #: data/json/items/gun/45.json data/json/items/gun/450bushmaster.json
-#: data/json/items/gun/4570.json data/json/items/gun/50.json
-#: data/json/items/gun/545x39.json data/json/items/gun/57.json
-#: data/json/items/gun/66mm.json data/json/items/gun/762.json
-#: data/json/items/gun/762R.json data/json/items/gun/77mm_arisaka.json
-#: data/json/items/gun/84x246mm.json data/json/items/gun/8x40mm.json
-#: data/json/items/gun/9mm.json data/json/items/gun/artisan_guns.json
-#: data/json/items/gun/atgm.json data/json/items/gun/blunderbuss.json
+#: data/json/items/gun/4570.json data/json/items/gun/45colt.json
+#: data/json/items/gun/50.json data/json/items/gun/545x39.json
+#: data/json/items/gun/57.json data/json/items/gun/66mm.json
+#: data/json/items/gun/762.json data/json/items/gun/762R.json
+#: data/json/items/gun/77mm_arisaka.json data/json/items/gun/84x246mm.json
+#: data/json/items/gun/8x40mm.json data/json/items/gun/9mm.json
+#: data/json/items/gun/artisan_guns.json data/json/items/gun/atgm.json
+#: data/json/items/gun/blunderbuss.json
 #: data/json/items/gun/chemical_spray.json
 #: data/json/items/gun/combination.json data/json/items/gun/exodii.json
 #: data/json/items/gun/flintlock.json data/json/items/gun/nail.json
@@ -214843,54 +215014,34 @@ msgid ""
 "cooked to a crisp.  A staple of fairgrounds everywhere."
 msgstr "麵團球切成小塊，撒上糖，油炸。香脆可口的夜市美食。"
 
-#. ~ Comestible name
+#. ~ Comestible/tool name
 #: data/json/items/comestibles/bread.json
 msgid "juvenile sourdough starter"
 msgid_plural "juvenile sourdough starter"
 msgstr[0] "幼年老麵種"
 
-#. ~ Description of comestible 'juvenile sourdough starter'
+#. ~ Description of comestible/tool 'juvenile sourdough starter'
+#. ~ Description of comestible 'juvenile sourdough starter (obsolete)'
 #: data/json/items/comestibles/bread.json
+#: data/json/obsoletion_and_migration_0.J/bread.json
 msgid ""
 "A floury paste that is slowly going bad.  Someday it will be sourdough."
 msgstr "一種慢慢發酵的粉狀糊狀物。總有一天它會成為酸麵糰。"
 
-#. ~ 'msg' action message of item 'juvenile sourdough starter'
-#: data/json/items/comestibles/bread.json
-msgid ""
-"After feeding it and caring for it for a week, your sourdough starter is "
-"finally ready for the big leagues."
-msgstr "餵養牠並照顧它數週之後，你的老麵種終於準備大展身手了。"
-
-#. ~ 'not_ready_msg' action message of item 'juvenile sourdough starter'
-#: data/json/items/comestibles/bread.json
-msgid ""
-"You've been caring for your starter for a while, but it's going to need "
-"longer before you can do anything tasty with it."
-msgstr "你一直在照顧你的老麵，但是你需要更長的時間才可以拿它做些美味的東西。"
-
-#. ~ Comestible name
+#. ~ Comestible/tool name
 #: data/json/items/comestibles/bread.json
 msgid "freshly fed sourdough starter"
 msgid_plural "freshly fed sourdough starter"
 msgstr[0] "餵養得宜的老麵種"
 
-#. ~ Description of comestible 'freshly fed sourdough starter'
+#. ~ Description of comestible/tool 'freshly fed sourdough starter'
+#. ~ Description of comestible 'freshly fed sourdough starter (obsolete)'
 #: data/json/items/comestibles/bread.json
+#: data/json/obsoletion_and_migration_0.J/bread.json
 msgid ""
 "A floury paste with sourdough starter mixed in.  It needs a day to recover "
 "its strength before it can be used again."
 msgstr "一種混合著酸麵種的粉狀糊狀物。需要一天恢復它的強度才能再次使用。"
-
-#. ~ 'msg' action message of item 'freshly fed sourdough starter'
-#: data/json/items/comestibles/bread.json
-msgid "The starter is now stinky and bubbly, and looks ready for cooking."
-msgstr "老麵種現在發臭，起泡，看起來可以拿來製作了。"
-
-#. ~ 'not_ready_msg' action message of item 'freshly fed sourdough starter'
-#: data/json/items/comestibles/bread.json
-msgid "The starter isn't quite ready to go."
-msgstr "麵種還沒準備好。"
 
 #. ~ Comestible name
 #: data/json/items/comestibles/bread.json
@@ -215542,26 +215693,18 @@ msgid ""
 "yeast culture."
 msgstr "一份含有天然酵母的含糖溶液。如果将其放入发酵桶中并给一点时间，总有一天会变成能用的酵母。"
 
-#. ~ Comestible name
+#. ~ Comestible/tool name
 #: data/json/items/comestibles/brewing.json
 msgid "malting grain"
 msgid_plural "malting grain"
 msgstr[0] "浸泡麥芽"
 
-#. ~ Description of comestible 'malting grain'
+#. ~ Description of comestible/tool 'malting grain'
+#. ~ Description of comestible 'malting grain (obsolete)'
 #: data/json/items/comestibles/brewing.json
+#: data/json/obsoletion_and_migration_0.J/brewing.json
 msgid "Malting grain that can be used for brewing."
 msgstr "將穀物浸泡在水中使其發芽，可用於釀酒。"
-
-#. ~ 'msg' action message of item 'malting grain'
-#: data/json/items/comestibles/brewing.json
-msgid "After soaking the grain and waiting, it has finished malting."
-msgstr "穀物經過了浸泡和等待，它已經完成了麥芽過程。"
-
-#. ~ 'not_ready_msg' action message of item 'malting grain'
-#: data/json/items/comestibles/brewing.json
-msgid "The grain has not malted yet."
-msgstr "穀物還没完成麥芽。"
 
 #. ~ Comestible name
 #: data/json/items/comestibles/brewing.json
@@ -215576,28 +215719,18 @@ msgid ""
 "also be ground into flour."
 msgstr "顆粒狀的穀物。常用做為釀酒的原料。它也可以被磨成麵粉。"
 
-#. ~ Comestible name
+#. ~ Comestible/tool name
 #: data/json/items/comestibles/brewing.json
 msgid "soaking dandelion"
 msgid_plural "soaking dandelion"
 msgstr[0] "泡水蒲公英"
 
-#. ~ Description of comestible 'soaking dandelion'
+#. ~ Description of comestible/tool 'soaking dandelion'
+#. ~ Description of comestible 'soaking dandelion (obsolete)'
 #: data/json/items/comestibles/brewing.json
+#: data/json/obsoletion_and_migration_0.J/brewing.json
 msgid "Soaked dandelions that can be used for brewing."
 msgstr "浸透的蒲公英，可用于酿酒。"
-
-#. ~ 'msg' action message of item 'soaking dandelion'
-#: data/json/items/comestibles/brewing.json
-msgid ""
-"After soaking the dandelions in boiling water, the juice can be used for "
-"making wine."
-msgstr "蒲公英在沸水中浸泡後，汁液可以用來釀酒。"
-
-#. ~ 'not_ready_msg' action message of item 'soaking dandelion'
-#: data/json/items/comestibles/brewing.json
-msgid "The dandelions need more time."
-msgstr "蒲公英需要浸泡多些时间。"
 
 #. ~ Comestible name
 #: data/json/items/comestibles/brewing.json
@@ -215610,29 +215743,20 @@ msgstr[0] "蒲公英汁"
 msgid "Dandelions soaked in hot water, used for making dandelion wine."
 msgstr "用沸水浸泡過的蒲公英，用於釀造蒲公英酒。"
 
-#. ~ Comestible name
+#. ~ Comestible/tool name
 #: data/json/items/comestibles/brewing.json
 msgid "fermenting yogurt"
 msgid_plural "fermenting yogurt"
 msgstr[0] "優格（發酵中）"
 
-#. ~ Description of comestible 'fermenting yogurt'
+#. ~ Description of comestible/tool 'fermenting yogurt'
+#. ~ Description of comestible 'fermenting yogurt (obsolete)'
 #: data/json/items/comestibles/brewing.json
+#: data/json/obsoletion_and_migration_0.J/brewing.json
 msgid ""
 "Milk inoculated with lactobacillus.  It requires some time fermenting to "
 "hopefully end up as delicious yogurt."
 msgstr "加了乳酸杆菌的原奶。它需要一些时间发酵，希望能最终成为美味的酸奶。"
-
-#. ~ 'msg' action message of item 'fermenting yogurt'
-#: data/json/items/comestibles/brewing.json
-msgid ""
-"The milk has finished fermenting and turned into a slightly clumpy yogurt."
-msgstr "原奶发酵完毕，变成了略带凝块的酸奶。"
-
-#. ~ 'not_ready_msg' action message of item 'fermenting yogurt'
-#: data/json/items/comestibles/brewing.json
-msgid "The yogurt is still fermenting."
-msgstr "這個優格還在發酵中。"
 
 #. ~ Comestible name
 #: data/json/items/comestibles/brewing.json
@@ -216311,6 +216435,13 @@ msgid ""
 "An unidentifiable selection of rotted innards that barely hold their form.  "
 "It is revolting and certainly no longer healthy to eat."
 msgstr "各種爛到無法的辨識的腐爛內臟。令人反胃，別指望它能滋補了。"
+
+#. ~ Description of comestible 'tainted innards'
+#: data/json/items/comestibles/carnivore.json
+msgid ""
+"An unidentifiable selection of rotted human innards that barely hold their "
+"form.  It is revolting and certainly no longer healthy to eat."
+msgstr ""
 
 #. ~ Comestible name
 #: data/json/items/comestibles/carnivore.json
@@ -217084,6 +217215,20 @@ msgstr "很明顯就能看出是有問題的肉。還是能吃，但是會讓你
 
 #. ~ Comestible name
 #: data/json/items/comestibles/carnivore.json
+msgid "chunk of tainted human meat"
+msgid_plural "chunks of tainted human meat"
+msgstr[0] ""
+
+#. ~ Description of comestible 'chunk of tainted human meat'
+#: data/json/items/comestibles/carnivore.json
+msgid ""
+"A piece of rotted meat that has been harvested from something human, or at "
+"the very least something once human, as if cannibalism wasn't abhorrent "
+"enough."
+msgstr ""
+
+#. ~ Comestible name
+#: data/json/items/comestibles/carnivore.json
 msgid "tainted limb"
 msgid_plural "tainted limbs"
 msgstr[0] "污染的肢體"
@@ -217123,6 +217268,19 @@ msgstr "很明顯就能看出是有問題的血。還是能喝，但會讓你中
 
 #. ~ Comestible name
 #: data/json/items/comestibles/carnivore.json
+msgid "tainted human blood"
+msgid_plural "tainted human blood"
+msgstr[0] ""
+
+#. ~ Description of comestible 'tainted human blood'
+#: data/json/items/comestibles/carnivore.json
+msgid ""
+"Blood that's obviously unhealthy, and from a human to boot.  You could drink"
+" it, but it will poison you."
+msgstr ""
+
+#. ~ Comestible name
+#: data/json/items/comestibles/carnivore.json
 msgid "portion of tainted bone marrow"
 msgid_plural "portions of tainted bone marrow"
 msgstr[0] "污染的骨髓"
@@ -217136,6 +217294,19 @@ msgstr "從腐爛的骨頭中挖出來又濕又綠的海綿狀黏液。還是可
 
 #. ~ Comestible name
 #: data/json/items/comestibles/carnivore.json
+msgid "portion of tainted human bone marrow"
+msgid_plural "portions of tainted human bone marrow"
+msgstr[0] ""
+
+#. ~ Description of comestible 'portion of tainted human bone marrow'
+#: data/json/items/comestibles/carnivore.json
+msgid ""
+"A wet, green chunk of spongy goop extracted from a rotten human bone.  You "
+"could eat it, but it will poison you."
+msgstr ""
+
+#. ~ Comestible name
+#: data/json/items/comestibles/carnivore.json
 msgid "chunk of tainted fat"
 msgid_plural "chunks of tainted fat"
 msgstr[0] "污染的脂肪塊"
@@ -217146,6 +217317,19 @@ msgid ""
 "A watery yellow glob of fat from some unnatural creature or other.  You "
 "could eat it, but it will poison you."
 msgstr "一團由變異生物取下的黃色水狀脂肪。你可以吃了它， 但吃了之後保證中毒。"
+
+#. ~ Comestible name
+#: data/json/items/comestibles/carnivore.json
+msgid "chunk of tainted human fat"
+msgid_plural "chunks of tainted human fat"
+msgstr[0] ""
+
+#. ~ Description of comestible 'chunk of tainted human fat'
+#: data/json/items/comestibles/carnivore.json
+msgid ""
+"A watery yellow glob of fat from some zombified human.  You could eat it, "
+"but it will poison you."
+msgstr ""
 
 #. ~ Comestible name
 #: data/json/items/comestibles/carnivore.json
@@ -241588,6 +241772,31 @@ msgid ""
 "one is for birth control, with 28 sections for pills in it."
 msgstr "一片薄薄的塑料铝箔，带有用于盛放药片的微小泡罩。这一板是避孕药，内有28个药格。"
 
+#. ~ Variant name of item 'drug blister pack'
+#: data/json/items/containers/generic.json
+msgid "pack of chewing gum"
+msgid_plural "pack of chewing gums"
+msgstr[0] ""
+
+#. ~ Description of variant 'pack of chewing gum' of item 'drug blister pack'
+#: data/json/items/containers/generic.json
+msgid ""
+"A thin piece of plastic and foil, with tiny bubbles meant for chewing gum."
+msgstr ""
+
+#. ~ Item name
+#: data/json/items/containers/generic.json
+msgid "primer tray"
+msgid_plural "primer trays"
+msgstr[0] ""
+
+#. ~ Description of item 'primer tray'
+#: data/json/items/containers/generic.json
+msgid ""
+"A small, flat plastic tray meant to hold primers encased in a cardboard "
+"sleeve."
+msgstr ""
+
 #. ~ Item name
 #: data/json/items/containers/lab.json
 msgid "secured plastic box"
@@ -245147,28 +245356,6 @@ msgstr ""
 
 #. ~ Item name
 #: data/json/items/generic/casing.json
-msgid "4.6x30mm casing"
-msgid_plural "4.6x30mm casings"
-msgstr[0] "4.6x30mm 彈殼"
-
-#. ~ Description of item '4.6x30mm casing'
-#: data/json/items/generic/casing.json
-msgid "An empty casing from a 4.6x30mm round."
-msgstr "一個空的 4.6x30mm 子彈殼。"
-
-#. ~ Item name
-#: data/json/items/generic/casing.json
-msgid "primerless 4.6x30mm casing"
-msgid_plural "primerless 4.6x30mm casings"
-msgstr[0] "primerless 4.6x30mm casings"
-
-#. ~ Description of item 'primerless 4.6x30mm casing'
-#: data/json/items/generic/casing.json
-msgid "An empty casing from a 4.6x30mm round, with its primer removed."
-msgstr "An empty casing from a 4.6x30mm round, with its primer removed."
-
-#. ~ Item name
-#: data/json/items/generic/casing.json
 msgid ".500 S&W Magnum casing"
 msgid_plural ".500 S&W Magnum casings"
 msgstr[0] ".500 S&W 麥格農彈殼"
@@ -248561,19 +248748,19 @@ msgstr "機件"
 #: data/json/items/gun/300.json data/json/items/gun/3006.json
 #: data/json/items/gun/303.json data/json/items/gun/3030.json
 #: data/json/items/gun/308.json data/json/items/gun/30carbine.json
-#: data/json/items/gun/32.json data/json/items/gun/338lapua.json
-#: data/json/items/gun/357sig.json data/json/items/gun/38.json
-#: data/json/items/gun/380.json data/json/items/gun/38super.json
-#: data/json/items/gun/40.json data/json/items/gun/44.json
-#: data/json/items/gun/45.json data/json/items/gun/454.json
-#: data/json/items/gun/4570.json data/json/items/gun/45colt.json
-#: data/json/items/gun/460sw.json data/json/items/gun/50.json
-#: data/json/items/gun/500.json data/json/items/gun/545x39.json
-#: data/json/items/gun/57.json data/json/items/gun/762.json
-#: data/json/items/gun/762R.json data/json/items/gun/762x25.json
-#: data/json/items/gun/77mm_arisaka.json data/json/items/gun/84x246mm.json
-#: data/json/items/gun/9mm.json data/json/items/gun/9x18.json
-#: data/json/items/gun/atgm.json data/json/items/gun/blunderbuss.json
+#: data/json/items/gun/32.json data/json/items/gun/357sig.json
+#: data/json/items/gun/38.json data/json/items/gun/380.json
+#: data/json/items/gun/38super.json data/json/items/gun/40.json
+#: data/json/items/gun/44.json data/json/items/gun/45.json
+#: data/json/items/gun/454.json data/json/items/gun/4570.json
+#: data/json/items/gun/45colt.json data/json/items/gun/460sw.json
+#: data/json/items/gun/50.json data/json/items/gun/500.json
+#: data/json/items/gun/545x39.json data/json/items/gun/57.json
+#: data/json/items/gun/762.json data/json/items/gun/762R.json
+#: data/json/items/gun/762x25.json data/json/items/gun/77mm_arisaka.json
+#: data/json/items/gun/84x246mm.json data/json/items/gun/9mm.json
+#: data/json/items/gun/9x18.json data/json/items/gun/atgm.json
+#: data/json/items/gun/blunderbuss.json
 #: data/json/items/gun/chemical_spray.json data/json/items/gun/exodii.json
 #: data/json/items/gun/flammable.json data/json/items/gun/flintlock.json
 #: data/json/items/gun/nail.json data/json/items/gun/paintball.json
@@ -249260,8 +249447,9 @@ msgstr[0] "自制钢管步枪（.22口径）"
 #. ~ Description of gun '.22 pipe rifle'
 #. ~ Description of gun 'pipe rifle: .38 Special'
 #. ~ Description of gun '.44 Magnum pipe rifle'
+#. ~ Description of gun '.45 Colt/410 pipe rifle'
 #: data/json/items/gun/22.json data/json/items/gun/38.json
-#: data/json/items/gun/44.json
+#: data/json/items/gun/44.json data/json/items/gun/45colt.json
 msgid ""
 "A home-made rifle.  It is simply a pipe attached to a stock, with a hammer "
 "to strike the single round it holds."
@@ -249873,14 +250061,6 @@ msgstr ""
 #: data/json/items/gunmod/conversions.json data/json/items/ranged/slings.json
 msgid "bore"
 msgstr "槍膛"
-
-#. ~ Location of gun mod
-#: data/json/items/gun/223.json data/json/items/gun/3006.json
-#: data/json/items/gun/338lapua.json data/json/items/gun/9mm.json
-#: data/json/items/gun/shot.json data/json/items/gunmod/loading_port.json
-#: data/mods/Generic_Guns/gunmods/gunmods.json
-msgid "loading port"
-msgstr "裝彈口"
 
 #. ~ Gun name
 #: data/json/items/gun/223.json
@@ -252440,6 +252620,19 @@ msgid ""
 msgstr "在鹰爪型无人车平台上使用的六管 M203 榴弹发射器阵列。"
 
 #. ~ Gun name
+#: data/json/items/gun/40x46mm.json
+msgid "crude 40mm launcher"
+msgid_plural "crude 40mm launchers"
+msgstr[0] ""
+
+#. ~ Description of gun 'crude 40mm launcher'
+#: data/json/items/gun/40x46mm.json
+msgid ""
+"A 40mm launcher, made by attaching an underbarrel grenade launcher to a "
+"stock."
+msgstr ""
+
+#. ~ Gun name
 #: data/json/items/gun/40x53mm.json
 msgid "Mark 19 grenade launcher"
 msgid_plural "Mark 19 grenade launchers"
@@ -253447,6 +253640,12 @@ msgid ""
 "soon to be."
 msgstr ""
 "陶鲁斯审判者手枪以其在家防领域的适用性而著称，是一款五发转轮的手枪，能从其3英寸枪管中发射.410口径霰弹或.45柯尔特弹药。尽管在弹道性能上无法与标准步枪或是全长转轮手枪相匹敌，但它对抗丧尸或其他即将来临的威胁时，依旧是一款便于操作且实用的手枪。"
+
+#. ~ Gun name
+#: data/json/items/gun/45colt.json
+msgid ".45 Colt/410 pipe rifle"
+msgid_plural ".45 Colt/410 pipe rifles"
+msgstr[0] ".45 柯尔特/.410 霰弹 自制钢管步枪 "
 
 #. ~ Gun name
 #: data/json/items/gun/460sw.json
@@ -256862,6 +257061,12 @@ msgid ""
 " to increase its capacity."
 msgstr "Kel-Tec KSG是一把无托式泵动霰弹枪，使用一对管形弹匣提高弹容量。"
 
+#. ~ Location of gun mod
+#: data/json/items/gun/shot.json data/json/items/gunmod/loading_port.json
+#: data/mods/Generic_Guns/gunmods/gunmods.json
+msgid "loading port"
+msgstr "裝彈口"
+
 #. ~ Gun name
 #: data/json/items/gun/shot.json
 msgid "6-round combat shotgun"
@@ -257792,10 +257997,10 @@ msgstr[0] "VR 80 霰弹枪"
 #. ~ Description of variant 'VR 80' of gun 'rifle shotgun'
 #: data/json/items/gun/shot.json
 msgid ""
-"The work of Rock Island Armoury, this AR-12-style shotgun affords both the "
+"The work of Rock Island Armory, this AR-12-style shotgun affords both the "
 "comfort of being similar to a rifle and the ability to use MKA 1919 shotgun "
 "magazines."
-msgstr "这款 AR-12 式霰弹枪是岩岛兵工厂的作品，它既具有类似步枪的舒适握持感，又能使用 MKA 1919 霰弹枪弹匣。"
+msgstr ""
 
 #. ~ Variant name of gun 'rifle shotgun'
 #: data/json/items/gun/shot.json
@@ -266736,6 +266941,19 @@ msgstr "一把巨大的钢锤，有着一个同样巨大而沉重的锤头。这
 
 #. ~ Item name
 #: data/json/items/melee/bludgeons.json
+msgid "homewrecker"
+msgid_plural "homewreckers"
+msgstr[0] "家用破壞者"
+
+#. ~ Description of item 'homewrecker'
+#: data/json/items/melee/bludgeons.json
+msgid ""
+"Chunks of steel welded together affixed to a wooden handle.  Not the most "
+"elegant and ugly as all hell, but still mostly works."
+msgstr ""
+
+#. ~ Item name
+#: data/json/items/melee/bludgeons.json
 #: data/mods/Xedra_Evolved/items/weapon_copy_extensions.json
 msgid "hockey stick"
 msgid_plural "hockey sticks"
@@ -266747,19 +266965,6 @@ msgid ""
 "A curved wooden stick with a wide and flat end.  Commonly used by hockey "
 "players."
 msgstr "一把尾端彎曲扁平的木棍。曲棍球員專用器材。"
-
-#. ~ Item name
-#: data/json/items/melee/bludgeons.json
-msgid "homewrecker"
-msgid_plural "homewreckers"
-msgstr[0] "家用破壞者"
-
-#. ~ Description of item 'homewrecker'
-#: data/json/items/melee/bludgeons.json
-msgid ""
-"A long piece of wood with several chunks of steel firmly tied to it.  The "
-"resulting weapon is unwieldy and slow but very heavy hitting."
-msgstr "一根粗重的長木棍一頭裝上了幾塊鋼塊。也因為這樣既笨重又難揮， 但能造成非常沉重的打擊。"
 
 #. ~ Item name
 #: data/json/items/melee/bludgeons.json
@@ -278104,7 +278309,7 @@ msgid ""
 msgstr "一台制雪机，可以将水冷冻并粉碎成“雪”，设计用于在自己家中舒适地使用！可用于制作雪糕筒。"
 
 #. ~ 'menu_text' action message of item 'home snow machine'
-#. ~ 'menu_text' action message of item 'high-power mini diving flashlight
+#. ~ 'menu_text' action message of item 'variable power diving flashlight
 #. (off)'
 #. ~ 'menu_text' action message of item 'variable power diving flashlight (on,
 #. high)'
@@ -282091,6 +282296,7 @@ msgstr "一种典型的家用手电筒，塑料手柄，电池供电。"
 #. ~ 'msg' action message of item 'flashlight (off)'
 #. ~ 'msg' action message of item 'mini diving flashlight (off)'
 #. ~ 'msg' action message of item 'high-power mini diving flashlight (off)'
+#. ~ 'msg' action message of item 'variable power diving flashlight (off)'
 #. ~ 'msg' action message of item 'everglow matrix flashlight (off)'
 #: data/json/items/tool/lighting.json
 #: data/mods/MindOverMatter/items/tools/lighting.json
@@ -282100,6 +282306,8 @@ msgstr "你把手電筒打開。"
 #. ~ 'need_charges_msg' action message of item 'flashlight (off)'
 #. ~ 'need_charges_msg' action message of item 'mini diving flashlight (off)'
 #. ~ 'need_charges_msg' action message of item 'high-power mini diving
+#. flashlight (off)'
+#. ~ 'need_charges_msg' action message of item 'variable power diving
 #. flashlight (off)'
 #. ~ 'need_charges_msg' action message of item 'everglow matrix flashlight
 #. (off)'
@@ -282162,7 +282370,13 @@ msgid "high-power mini diving flashlight (on)"
 msgid_plural "high-power mini diving flashlights (on)"
 msgstr[0] "高功率迷你潛水手電筒（啟動）"
 
-#. ~ Description of tool 'high-power mini diving flashlight (off)'
+#. ~ Tool name
+#: data/json/items/tool/lighting.json
+msgid "variable power diving flashlight (off)"
+msgid_plural "variable power diving flashlights (off)"
+msgstr[0] ""
+
+#. ~ Description of tool 'variable power diving flashlight (off)'
 #: data/json/items/tool/lighting.json
 msgid ""
 "A waterproof variable power flashlight with a plastic handle, powered by "
@@ -286688,22 +286902,14 @@ msgid_plural "tanning leather hides"
 msgstr[0] "鞣製過的獸皮"
 
 #. ~ Description of tool 'tanning leather hide'
+#. ~ Description of tool 'tanning leather hide (obsolete)'
 #: data/json/items/tool/tailoring.json
+#: data/json/obsoletion_and_migration_0.J/tailoring.json
 msgid ""
 "A treated animal hide that is undergoing the chemical processes required to "
 "become leather.  You will be able to activate it to unroll and make use of "
 "it when it is done."
 msgstr "一张经过处理的动物皮，正在进行必要的化学变化以变成皮革。当它鞣制完成后你就可以激活它以展开并使用它。"
-
-#. ~ 'msg' action message of item 'tanning leather hide'
-#: data/json/items/tool/tailoring.json
-msgid "You carefully unfold the tanning leather hide and shake it clean."
-msgstr "你小心翼翼的的把鞣製過的獸皮攤開, 並把它上面殘留的液體甩乾淨。"
-
-#. ~ 'not_ready_msg' action message of item 'tanning leather hide'
-#: data/json/items/tool/tailoring.json
-msgid "The tanning leather hide isn't done yet."
-msgstr "獸皮尚未鞣製。"
 
 #. ~ Tool name
 #: data/json/items/tool/tailoring.json
@@ -291231,6 +291437,7 @@ msgid ""
 "installed onto existing vehicle's storage compartments, and is controlled "
 "from a dashboard or electronics control unit."
 msgstr ""
+"一种用于提供电源以复充电池的小型装置。它会缓慢地为直接放置在其存储空间内的所有可充电电池（蓄电池，铅酸电池等）充电。它只能安装在已有载具存储空间的位置上，并由仪表板或电子控制单元控制。"
 
 #. ~ Item name
 #: data/json/items/vehicle/utilities.json
@@ -296606,7 +296813,6 @@ msgstr "腿部"
 #. ~ Effect of hitting 'a tear in its turnout gear' weakpoint
 #. ~ Effect of hitting 'the frond' weakpoint
 #. ~ Effect of hitting 'the leg' weakpoint
-#. ~ Effect of hitting 'the body' weakpoint
 #. ~ Effect of hitting 'the branch' weakpoint
 #. ~ Effect of hitting 'the head' weakpoint
 #: data/json/monster_weakpoints/abomination_weakpoints.json
@@ -296618,7 +296824,6 @@ msgstr "腿部"
 #: data/json/monster_weakpoints/migo_weakpoints.json
 #: data/json/monster_weakpoints/power_leech_weakpoints.json
 #: data/json/monster_weakpoints/quadruped_weakpoints_animal.json
-#: data/json/monster_weakpoints/slime_weakpoints.json
 #: data/json/monster_weakpoints/triffid_weakpoints.json
 #: data/mods/Xedra_Evolved/weakpoints/wp_alien_being.json
 #: data/mods/Xedra_Evolved/weakpoints/wp_combat_cyborg.json
@@ -296895,8 +297100,6 @@ msgstr "%s的翅膀被弄殘了！"
 #. ~ Effect of hitting 'the face' weakpoint
 #. ~ Effect of hitting 'the face shield' weakpoint
 #. ~ Effect of hitting 'the crown' weakpoint
-#. ~ Effect of hitting 'an organ inside the slime, causing the slime to freeze
-#. up briefly as it reconstitutes it' weakpoint
 #. ~ Effect of hitting 'the flower' weakpoint
 #. ~ Effect of hitting 'the downed %s head' weakpoint
 #: data/json/monster_weakpoints/amphibian_weakpoints.json
@@ -296908,7 +297111,6 @@ msgstr "%s的翅膀被弄殘了！"
 #: data/json/monster_weakpoints/migo_weakpoints.json
 #: data/json/monster_weakpoints/power_leech_weakpoints.json
 #: data/json/monster_weakpoints/quadruped_weakpoints_animal.json
-#: data/json/monster_weakpoints/slime_weakpoints.json
 #: data/json/monster_weakpoints/triffid_weakpoints.json
 #: data/mods/DinoMod/dinosaur_weakpoints.json
 #: data/mods/Megafauna/mf_weakpoint_sets.json
@@ -297541,22 +297743,6 @@ msgstr "身体"
 #: data/json/monster_weakpoints/slime_weakpoints.json
 msgid "a spot with virtually nothing to damage"
 msgstr "一个基本没法造成伤害的地方"
-
-#. ~ Description of weakpoint
-#. ~ ex. '[You hit the zombie in] a crack in the armor!'
-#: data/json/monster_weakpoints/slime_weakpoints.json
-msgid ""
-"an organ inside the slime, causing the slime to freeze up briefly as it "
-"reconstitutes it"
-msgstr "一个内部器官，使得它暂时停止了移动开始复原"
-
-#. ~ Description of weakpoint
-#. ~ ex. '[You hit the zombie in] a crack in the armor!'
-#: data/json/monster_weakpoints/slime_weakpoints.json
-msgid ""
-"the body, separating a fragment that you manage to keep from rejoining the "
-"slime until the fragment melts away"
-msgstr "身体，成功分离了其中的一小块并阻止其与原来的身体复合，最后分离的部分消逝了"
 
 #. ~ Description of weakpoint
 #. ~ ex. '[You hit the zombie in] a crack in the armor!'
@@ -306523,6 +306709,42 @@ msgid ""
 "A gigantic shadow, chaotically changing in shape and volume.  Two piercing "
 "orbs of light dominate what can only be described as its head."
 msgstr "一个巨大的暗影怪物，形状和体积毫无规律的不停变化，两颗光球占据着一块只能被描述成它头部的部分。"
+
+#. ~ Monster attack message
+#: data/json/monsters/nether.json
+#, c-format
+msgid "%1$s touches your %2$s with a freezing-cold appendage!"
+msgstr ""
+
+#. ~ Monster attack message
+#: data/json/monsters/nether.json
+#, c-format
+msgid "%1$s touches <npcname>'s %2$s!"
+msgstr ""
+
+#. ~ Monster attack message
+#: data/json/monsters/nether.json
+#, c-format
+msgid "%1$s reaches for you, but you dodge!"
+msgstr ""
+
+#. ~ Monster attack message
+#: data/json/monsters/nether.json
+#, c-format
+msgid "%1$s reaches for <npcname>, but they dodge!"
+msgstr ""
+
+#. ~ Monster attack message
+#: data/json/monsters/nether.json
+#, c-format
+msgid "%1$s touches your %2$s, but can't penetrate your armor."
+msgstr ""
+
+#. ~ Monster attack message
+#: data/json/monsters/nether.json
+#, c-format
+msgid "%1$s touches <npcname>'s %2$s, but can't penetrate their armor."
+msgstr ""
 
 #. ~ Monster name
 #: data/json/monsters/nether.json
@@ -435157,6 +435379,140 @@ msgstr "嘿，<name_g>，有的話給我一些鈽漿液，我需要為我的內�
 #. ~ [DEPRECATED] Don't translate this line.
 #. ~ This string is from an obsolete source and will no longer be used in the
 #. game.
+#: data/json/obsoletion_and_migration_0.J/bread.json
+msgid "juvenile sourdough starter (obsolete)"
+msgid_plural "juvenile sourdough starter (obsolete)"
+msgstr[0] ""
+
+#. ~ [DEPRECATED] Don't translate this line.
+#. ~ This string is from an obsolete source and will no longer be used in the
+#. game.
+#: data/json/obsoletion_and_migration_0.J/bread.json
+msgid ""
+"After feeding it and caring for it for a week, your sourdough starter is "
+"finally ready for the big leagues."
+msgstr "餵養牠並照顧它數週之後，你的老麵種終於準備大展身手了。"
+
+#. ~ [DEPRECATED] Don't translate this line.
+#. ~ This string is from an obsolete source and will no longer be used in the
+#. game.
+#: data/json/obsoletion_and_migration_0.J/bread.json
+msgid ""
+"You've been caring for your starter for a while, but it's going to need "
+"longer before you can do anything tasty with it."
+msgstr "你一直在照顧你的老麵，但是你需要更長的時間才可以拿它做些美味的東西。"
+
+#. ~ [DEPRECATED] Don't translate this line.
+#. ~ This string is from an obsolete source and will no longer be used in the
+#. game.
+#: data/json/obsoletion_and_migration_0.J/bread.json
+msgid "freshly fed sourdough starter (obsolete)"
+msgid_plural "freshly fed sourdough starter (obsolete)"
+msgstr[0] ""
+
+#. ~ [DEPRECATED] Don't translate this line.
+#. ~ This string is from an obsolete source and will no longer be used in the
+#. game.
+#: data/json/obsoletion_and_migration_0.J/bread.json
+msgid "The starter is now stinky and bubbly, and looks ready for cooking."
+msgstr "老麵種現在發臭，起泡，看起來可以拿來製作了。"
+
+#. ~ [DEPRECATED] Don't translate this line.
+#. ~ This string is from an obsolete source and will no longer be used in the
+#. game.
+#: data/json/obsoletion_and_migration_0.J/bread.json
+msgid "The starter isn't quite ready to go."
+msgstr "麵種還沒準備好。"
+
+#. ~ [DEPRECATED] Don't translate this line.
+#. ~ This string is from an obsolete source and will no longer be used in the
+#. game.
+#: data/json/obsoletion_and_migration_0.J/brewing.json
+msgid "malting grain (obsolete)"
+msgid_plural "malting grain (obsolete)"
+msgstr[0] ""
+
+#. ~ [DEPRECATED] Don't translate this line.
+#. ~ This string is from an obsolete source and will no longer be used in the
+#. game.
+#: data/json/obsoletion_and_migration_0.J/brewing.json
+msgid "After soaking the grain and waiting, it has finished malting."
+msgstr "穀物經過了浸泡和等待，它已經完成了麥芽過程。"
+
+#. ~ [DEPRECATED] Don't translate this line.
+#. ~ This string is from an obsolete source and will no longer be used in the
+#. game.
+#: data/json/obsoletion_and_migration_0.J/brewing.json
+msgid "The grain has not malted yet."
+msgstr "穀物還没完成麥芽。"
+
+#. ~ [DEPRECATED] Don't translate this line.
+#. ~ This string is from an obsolete source and will no longer be used in the
+#. game.
+#: data/json/obsoletion_and_migration_0.J/brewing.json
+msgid "soaking dandelion (obsolete)"
+msgid_plural "soaking dandelion (obsolete)"
+msgstr[0] ""
+
+#. ~ [DEPRECATED] Don't translate this line.
+#. ~ This string is from an obsolete source and will no longer be used in the
+#. game.
+#: data/json/obsoletion_and_migration_0.J/brewing.json
+msgid ""
+"After soaking the dandelions in boiling water, the juice can be used for "
+"making wine."
+msgstr "蒲公英在沸水中浸泡後，汁液可以用來釀酒。"
+
+#. ~ [DEPRECATED] Don't translate this line.
+#. ~ This string is from an obsolete source and will no longer be used in the
+#. game.
+#: data/json/obsoletion_and_migration_0.J/brewing.json
+msgid "The dandelions need more time."
+msgstr "蒲公英需要浸泡多些时间。"
+
+#. ~ [DEPRECATED] Don't translate this line.
+#. ~ This string is from an obsolete source and will no longer be used in the
+#. game.
+#: data/json/obsoletion_and_migration_0.J/brewing.json
+msgid "fermenting yogurt (obsolete)"
+msgid_plural "fermenting yogurt (obsolete)"
+msgstr[0] ""
+
+#. ~ [DEPRECATED] Don't translate this line.
+#. ~ This string is from an obsolete source and will no longer be used in the
+#. game.
+#: data/json/obsoletion_and_migration_0.J/brewing.json
+msgid ""
+"The milk has finished fermenting and turned into a slightly clumpy yogurt."
+msgstr "原奶发酵完毕，变成了略带凝块的酸奶。"
+
+#. ~ [DEPRECATED] Don't translate this line.
+#. ~ This string is from an obsolete source and will no longer be used in the
+#. game.
+#: data/json/obsoletion_and_migration_0.J/brewing.json
+msgid "The yogurt is still fermenting."
+msgstr "這個優格還在發酵中。"
+
+#. ~ [DEPRECATED] Don't translate this line.
+#. ~ This string is from an obsolete source and will no longer be used in the
+#. game.
+#: data/json/obsoletion_and_migration_0.J/chemicals_and_resources.json
+msgid "fermentable fish mixture (obsolete)"
+msgid_plural "fermentable fish mixture (obsolete)"
+msgstr[0] ""
+
+#. ~ [DEPRECATED] Don't translate this line.
+#. ~ This string is from an obsolete source and will no longer be used in the
+#. game.
+#: data/json/obsoletion_and_migration_0.J/chemicals_and_resources.json
+msgid ""
+"The overpowering smell of the fermenting fish liquid makes it clear that it "
+"is not ready for use."
+msgstr "发酵的鱼类混合液散发出的强烈气味表明它还不能被使用。"
+
+#. ~ [DEPRECATED] Don't translate this line.
+#. ~ This string is from an obsolete source and will no longer be used in the
+#. game.
 #: data/json/obsoletion_and_migration_0.J/stowed_parts.json
 msgid "tied-down household fridge"
 msgstr "捆好的家用冰箱"
@@ -435666,6 +436022,28 @@ msgid ""
 msgstr ""
 "An alien construct, secured to the roof for transportation.  Hopefully it "
 "won't reanimate on next road bump."
+
+#. ~ [DEPRECATED] Don't translate this line.
+#. ~ This string is from an obsolete source and will no longer be used in the
+#. game.
+#: data/json/obsoletion_and_migration_0.J/tailoring.json
+msgid "tanning leather hide (obsolete)"
+msgid_plural "tanning leather hides (obsolete)"
+msgstr[0] ""
+
+#. ~ [DEPRECATED] Don't translate this line.
+#. ~ This string is from an obsolete source and will no longer be used in the
+#. game.
+#: data/json/obsoletion_and_migration_0.J/tailoring.json
+msgid "You carefully unfold the tanning leather hide and shake it clean."
+msgstr "你小心翼翼的的把鞣製過的獸皮攤開, 並把它上面殘留的液體甩乾淨。"
+
+#. ~ [DEPRECATED] Don't translate this line.
+#. ~ This string is from an obsolete source and will no longer be used in the
+#. game.
+#: data/json/obsoletion_and_migration_0.J/tailoring.json
+msgid "The tanning leather hide isn't done yet."
+msgstr "獸皮尚未鞣製。"
 
 #. ~ Vehicle part name
 #. ~ Item name
@@ -444129,31 +444507,6 @@ msgstr ""
 
 #. ~ Proficiency name
 #: data/json/proficiencies/weakpoints.json
-msgid "Slime basic weaknesses"
-msgstr "变形怪构造基础"
-
-#. ~ Description of proficiency 'Slime basic weaknesses'
-#: data/json/proficiencies/weakpoints.json
-msgid ""
-"After having engaged slimes to a significant extent you have started to get "
-"better at exploiting weaknesses in their behavior and, for lack of better "
-"terms, \"physiology\"."
-msgstr "在与变形怪进行大量交战后，你开始更好地利用它们行为上的弱点，以及更恰当地说，它们的“生理学”上的弱点。"
-
-#. ~ Proficiency name
-#: data/json/proficiencies/weakpoints.json
-msgid "Slime detailed weaknesses"
-msgstr "变形怪构造专精"
-
-#. ~ Description of proficiency 'Slime detailed weaknesses'
-#: data/json/proficiencies/weakpoints.json
-msgid ""
-"You've probably reached the pinnacle of slime weakness exploitation, but it "
-"has taken an enormous amount of combat to acquire it."
-msgstr "你可能已经掌握了利用变形怪弱点的最高技巧，但这需要经过大量的战斗才能获得。"
-
-#. ~ Proficiency name
-#: data/json/proficiencies/weakpoints.json
 msgid "Triffid basic anatomy"
 msgstr "三尖树构造基础"
 
@@ -444524,7 +444877,12 @@ msgstr "防塵大衣"
 msgid "Recipes related to tailoring long coats, known as dusters."
 msgstr "縫製各種長外套（防塵大衣）的配方。"
 
-#. ~ Description of the category 'canvas dusters'
+#. ~ Name of the nested group
+#: data/json/recipes/nested.json
+msgid "canvas trenchcoats"
+msgstr ""
+
+#. ~ Description of the category 'canvas trenchcoats'
 #. ~ Description of the category 'faux fur trenchcoats'
 #: data/json/recipes/nested.json
 msgid ""
@@ -449966,7 +450324,7 @@ msgstr "%s from raw hide"
 msgid "%s by scraping pelt"
 msgstr "%s by scraping pelt"
 
-#. ~ Custom name for recipe crafting 'tanning_hide'
+#. ~ Custom name for recipe crafting 'tanning_hide_active'
 #. ~ Custom name for recipe crafting 'tanning_pelt'
 #: data/json/recipes/recipe_others.json
 #, c-format
@@ -457483,6 +457841,12 @@ msgid ""
 "Recipes related to the production of microscope slides of various samples."
 msgstr ""
 
+#. ~ Custom name for recipe crafting 'scrap_brass'
+#: data/json/recipes/other/materials.json
+#, c-format
+msgid "%s from casings"
+msgstr ""
+
 #. ~ Practice name
 #: data/json/recipes/practice/applied_science.json
 msgid "biochemistry"
@@ -458948,6 +459312,12 @@ msgid ""
 "and other basic cloth joints with several layers of cotton patches for "
 "rigidity."
 msgstr "通过缝制手套并使用多层棉布来来练习制作衣服上的关节接口，以增加耐用度。"
+
+#. ~ Custom name for recipe crafting 'ashot'
+#: data/json/recipes/weapon/ranged.json
+#, c-format
+msgid "%s from shotgun"
+msgstr ""
 
 #. ~ Snippet in category 'LIXA_lab_files'
 #: data/json/snippets/LIXA_snippets.json
@@ -507128,6 +507498,16 @@ msgstr "获得 [<trait_name:perk_built_tough>]"
 
 #. ~ Response to NPC dialogue
 #: data/mods/BombasticPerks/perkmenu.json
+msgid "Gain [<trait_name:perk_thick_skin>]"
+msgstr ""
+
+#. ~ Text variable value in an effect
+#: data/mods/BombasticPerks/perkmenu.json
+msgid "Must have <trait_name:perk_built_tough>."
+msgstr ""
+
+#. ~ Response to NPC dialogue
+#: data/mods/BombasticPerks/perkmenu.json
 msgid "Gain [<trait_name:perk_hauler>]"
 msgstr "获得 [<trait_name:perk_hauler>]"
 
@@ -507335,6 +507715,18 @@ msgstr "获得 [<trait_name:perk_tuck_and_roll>]"
 
 #. ~ Response to NPC dialogue
 #: data/mods/BombasticPerks/perkmenu.json
+msgid "Gain [<trait_name:perk_reduced_falling_damage>]"
+msgstr ""
+
+#. ~ Text variable value in an effect
+#: data/mods/BombasticPerks/perkmenu.json
+msgid ""
+"Must have <trait_name:perk_tuck_and_roll>, the Parkour Expert proficiency, "
+"or dexterity 13."
+msgstr ""
+
+#. ~ Response to NPC dialogue
+#: data/mods/BombasticPerks/perkmenu.json
 msgid "Gain [<trait_name:perk_grit_your_teeth>]"
 msgstr "获得 [<trait_name:perk_grit_your_teeth>]"
 
@@ -507515,6 +507907,16 @@ msgstr "获得 [<trait_name:perk_all_terrain>]"
 
 #. ~ Response to NPC dialogue
 #: data/mods/BombasticPerks/perkmenu.json
+msgid "Gain [<trait_name:perk_situational_uncanny_dodge>]"
+msgstr ""
+
+#. ~ Text variable value in an effect
+#: data/mods/BombasticPerks/perkmenu.json
+msgid "Requires Dodging 8 and the Lucky Dodge perk."
+msgstr ""
+
+#. ~ Response to NPC dialogue
+#: data/mods/BombasticPerks/perkmenu.json
 msgid "Gain [<trait_name:perk_bedtime_reader>]"
 msgstr "获得 [<trait_name:perk_bedtime_reader>]"
 
@@ -507692,6 +508094,11 @@ msgstr "获得 [<trait_name:perk_moonstruck>]"
 #: data/mods/BombasticPerks/perkmenu.json
 msgid "Gain [<trait_name:perk_rage_against_unnatural>]"
 msgstr "获得 [<trait_name:perk_rage_against_unnatural>]"
+
+#. ~ Response to NPC dialogue
+#: data/mods/BombasticPerks/perkmenu.json
+msgid "Gain [<trait_name:perk_soup_healing>]"
+msgstr ""
 
 #. ~ Response to NPC dialogue
 #: data/mods/BombasticPerks/perkmenu.json
@@ -508117,6 +508524,19 @@ msgstr "你简直是是人形坦克！所有来源的伤害减免 5%。"
 
 #. ~ Mutation name
 #: data/mods/BombasticPerks/perks.json
+msgid "Thick Skin"
+msgstr ""
+
+#. ~ Description of mutation 'Thick Skin'
+#: data/mods/BombasticPerks/perks.json
+msgid ""
+"All the beatings you've taken have toughened you up.  You can walk barefoot "
+"with no penalty, develop blisters in heat much more slowly, and take "
+"slightly less bash damage."
+msgstr ""
+
+#. ~ Mutation name
+#: data/mods/BombasticPerks/perks.json
 #: data/mods/aftershock_exoplanet/mutations/mutations.json
 msgid "Hauler"
 msgstr "搬运工"
@@ -508323,6 +508743,18 @@ msgstr "虽然用处不算大，但你很擅长从屋顶往下跳，并尽可能
 
 #. ~ Mutation name
 #: data/mods/BombasticPerks/perks.json
+msgid "Catfall"
+msgstr ""
+
+#. ~ Description of mutation 'Catfall'
+#: data/mods/BombasticPerks/perks.json
+msgid ""
+"You always land on your feet and look graceful when doing it.  Reduce the "
+"number of stories by 1 when calculating fall damage."
+msgstr ""
+
+#. ~ Mutation name
+#: data/mods/BombasticPerks/perks.json
 msgid "Grit Your Teeth"
 msgstr "咬紧牙关"
 
@@ -508400,6 +508832,19 @@ msgid ""
 "terrain.  You'll never accidently snag or cut yourself on protrusions from "
 "the ground."
 msgstr "你对如何在陡峭崎岖的地形中移动有着持久的感知力。你永远不会意外被地面的突出物勾住或割伤。"
+
+#. ~ Mutation name
+#: data/mods/BombasticPerks/perks.json
+msgid "Evasion"
+msgstr ""
+
+#. ~ Description of mutation 'Evasion'
+#: data/mods/BombasticPerks/perks.json
+msgid ""
+"You're so good at dodging that almost nothing can touch you as long as "
+"you're on your game.  You have passive Uncanny Dodge until you take damage, "
+"after which it takes a few minutes for you to recover your poise."
+msgstr ""
 
 #. ~ Mutation name
 #: data/mods/BombasticPerks/perks.json
@@ -508555,10 +509000,10 @@ msgstr "自找麻烦"
 #: data/mods/BombasticPerks/perks.json
 msgid ""
 "As if the apocalypse itself wasn't enough, you are constantly looking for "
-"some trouble.  Zombies will sometimes appear out of nowhere to attack you.  "
-"Fortunately, they always appear at a good distance from you.  Activate to "
-"toggle."
-msgstr "大灾变？太弱了！你尝试给自己加点难度，丧尸会突然凭空出现并攻击你，好消息是他们通常离你有一段距离。（可切换激活）"
+"some trouble.  Zombies somehow sometimes sense your presence and approach "
+"you.  Fortunately, they always appear at a good distance from you.  Activate"
+" to toggle."
+msgstr ""
 
 #. ~ Mutation name
 #: data/mods/BombasticPerks/perks.json
@@ -508625,10 +509070,10 @@ msgstr "你总感觉有人在冥冥中照顾你。你受到的攻击有 5% 的�
 
 #. ~ Mutation name
 #: data/mods/BombasticPerks/perks.json
-msgid "Lucky dodge"
-msgstr "闪躲感应"
+msgid "Lucky Dodge"
+msgstr ""
 
-#. ~ Description of mutation 'Lucky dodge'
+#. ~ Description of mutation 'Lucky Dodge'
 #: data/mods/BombasticPerks/perks.json
 msgid ""
 "You have a habit of always ducking at the right time.  You have a 5% chance "
@@ -508980,6 +509425,19 @@ msgid ""
 msgstr ""
 "异界的生物不但不会让你感到恐惧或不安，反而会让你充满原始的杀戮狂热。 "
 "与异界生物近战时，你的近战伤害+35%，受到的所有伤害减少15%，但如果你在周围还有异界畜生没杀完的时候攻击其他目标，你的攻击精度和闪避率会受到很大影响。"
+
+#. ~ Mutation name
+#: data/mods/BombasticPerks/perks.json
+msgid "Soup for the Soul"
+msgstr ""
+
+#. ~ Description of mutation 'Soup for the Soul'
+#: data/mods/BombasticPerks/perks.json
+msgid ""
+"Just like mama used to make and it tastes just as good too.  When you eat "
+"chicken noodle soup, you heal a small amount of HP on all limbs and cure any"
+" cold, flu, and poisoning you're suffering from."
+msgstr ""
 
 #. ~ Mutation name
 #: data/mods/BombasticPerks/perks.json
@@ -510210,15 +510668,10 @@ msgid ""
 "You've taken so many hits to the head that your skull's gotten thicker."
 msgstr "你的头部受到了如此多的打击，以至于你的头骨变得更厚了。"
 
-#. ~ Player sees monster spawns in EoC 'EOC_troubleseeking'
+#. ~ Player message in EoC 'EOC_troubleseeking'
 #: data/mods/BombasticPerks/perkdata/troubleseeker.json
 msgid "You suddenly feel that you have found some trouble."
 msgstr "你突然觉得你发现了一些麻烦。"
-
-#. ~ Player sees monsters spawn in EoC 'EOC_troubleseeking'
-#: data/mods/BombasticPerks/perkdata/troubleseeker.json
-msgid "You suddenly feel that you have found a lot of trouble."
-msgstr "你突然觉得自己发现了很多麻烦。"
 
 #. ~ Player message in EoC 'EOC_troubleseek_on'
 #: data/mods/BombasticPerks/perkdata/troubleseeker.json
@@ -623904,6 +624357,26 @@ msgstr[0] "猕猴桃种子"
 msgid "Some raw kiwi seeds."
 msgstr "一些猕猴桃种子。"
 
+#. ~ Name of a spell
+#: data/mods/TropiCataclysm/monster_special_attacks/monster_deaths.json
+msgid "Death Sap"
+msgstr ""
+
+#. ~ Description of spell 'Death Sap'
+#: data/mods/TropiCataclysm/monster_special_attacks/monster_deaths.json
+msgid "Sap Explosion"
+msgstr ""
+
+#. ~ Name of a spell
+#: data/mods/TropiCataclysm/monster_special_attacks/monster_deaths.json
+msgid "Triffid Pollen Explosion"
+msgstr ""
+
+#. ~ Description of spell 'Triffid Pollen Explosion'
+#: data/mods/TropiCataclysm/monster_special_attacks/monster_deaths.json
+msgid "Causes a small explosion of alien pollen."
+msgstr ""
+
 #. ~ Monster name
 #: data/mods/TropiCataclysm/monsters/tropical_bird.json
 msgid "greater rhea"
@@ -679580,8 +680053,8 @@ msgstr "[ 错误：超出超网范围 ]"
 
 #. ~ Requirement of achievement 'Discontinous'
 #: data/mods/aftershock_exoplanet/achievements/achievements.json
-msgid "Recieve 2500 damage in a single attack and survive (optional)."
-msgstr "在单次攻击中承受2500点伤害并存活（可选）。"
+msgid "Receive 2500 damage in a single attack and survive (optional)."
+msgstr ""
 
 #. ~ Description of achievement 'Chimera'
 #: data/mods/aftershock_exoplanet/achievements/achievements.json
